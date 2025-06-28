@@ -27,6 +27,34 @@ jobs:
       - name: Build package
         run: swift build
 
-      - name: Run tests
+      - name: Run basic tests
         run: swift test
         timeout-minutes: 10
+
+      - name: Verify DiarizerManager runs
+        run: swift test --filter testManagerBasicValidation
+        timeout-minutes: 5
+
+      - name: Run computational pipeline tests
+        run: swift test --filter AccelerateFrameworkTests
+        timeout-minutes: 10
+
+      - name: Run parallel processing tests
+        run: swift test --filter ParallelProcessingTests
+        timeout-minutes: 10
+
+      - name: Run Metal performance tests
+        run: swift test --filter MetalPerformanceTests
+        timeout-minutes: 10
+
+      - name: Run computational pipeline integration tests
+        run: swift test --filter ComputationalPipelineTests
+        timeout-minutes: 15
+
+      - name: Run performance validation tests
+        run: swift test --filter PerformanceValidationTests
+        timeout-minutes: 15
+
+      - name: Quick Metal benchmark check
+        run: swift test --filter testCosineDistanceBatchSizeBenchmark
+        timeout-minutes: 5

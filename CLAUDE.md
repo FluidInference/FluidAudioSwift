@@ -364,3 +364,43 @@ The CLI now provides **beautiful tabular output** that's easy to read and parse:
 - DER improvements < 1% for 3 consecutive parameter tests
 - DER reaches target of < 30% (✅ **ACHIEVED: 17.7%**)
 - All parameter combinations in current phase tested
+
+## Benchmarking
+
+### Metal Acceleration Benchmarks
+
+The project includes comprehensive benchmarks to measure Metal vs Accelerate performance:
+
+```bash
+# Run complete benchmark suite
+swift test --filter MetalAccelerationBenchmarks
+
+# Run specific benchmark categories
+swift test --filter testCosineDistanceBatchSizeBenchmark
+swift test --filter testEndToEndDiarizationBenchmark
+swift test --filter testMemoryUsageBenchmark
+
+# Use the convenience script
+./scripts/run-benchmarks.sh
+```
+
+**Benchmark categories:**
+- **Cosine distance calculations**: Batch size optimization (8-128 embeddings)
+- **Powerset conversion operations**: GPU vs CPU compute kernels
+- **End-to-end diarization**: Real-world performance comparison
+- **Memory usage analysis**: Peak memory consumption comparison
+- **Scalability testing**: Performance across different matrix sizes
+
+**CI Integration:**
+- Automated benchmarks run on all PRs
+- Performance regression detection
+- Automated PR comments with results
+- Baseline comparison against main branch
+
+## Troubleshooting
+
+- Model downloads may fail in test environments - expected behavior
+- First-time initialization requires network access for model downloads
+- Models are cached in `~/Library/Application Support/SpeakerKitModels/coreml/`
+- Enable debug mode in config for detailed logging
+- Metal acceleration may be slower for small operations due to GPU overhead
