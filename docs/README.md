@@ -7,7 +7,9 @@ Welcome to the FluidAudioSwift documentation! This directory contains comprehens
 ### 📚 User Guides
 
 - **[Getting Started](../README.md)** - Quick start guide and basic usage examples
+- **[CLI Documentation](CLI.md)** - Complete command-line interface guide for benchmarking and audio processing
 - **[Performance & Benchmarking](BENCHMARKING.md)** - Complete guide to benchmarking system and performance optimization
+- **[Examples & Use Cases](EXAMPLES.md)** - Practical examples and integration scripts
 
 ### 🔧 Technical Documentation
 
@@ -18,7 +20,10 @@ Welcome to the FluidAudioSwift documentation! This directory contains comprehens
 
 ### For Users
 - Want to **get started quickly**? → [README.md](../README.md#quick-start)
+- Need to **run benchmarks**? → [CLI.md](CLI.md#benchmark-command)
+- Want to **process audio files**? → [CLI.md](CLI.md#process-command)
 - Need to **optimize performance**? → [BENCHMARKING.md](BENCHMARKING.md#performance-optimization)
+- Looking for **practical examples**? → [EXAMPLES.md](EXAMPLES.md)
 - Looking for **configuration options**? → [README.md](../README.md#configuration)
 
 ### For Developers
@@ -26,8 +31,14 @@ Welcome to the FluidAudioSwift documentation! This directory contains comprehens
 - Contributing **performance improvements**? → [BENCHMARKING.md](BENCHMARKING.md#ci-integration)
 - Working on **platform optimization**? → [METAL_ACCELERATION.md](METAL_ACCELERATION.md#platform-considerations)
 
+### For Researchers
+- Need **AMI corpus evaluation**? → [CLI.md](CLI.md#ami-dataset-setup)
+- Want **research-standard metrics**? → [CLI.md](CLI.md#performance-metrics)
+- Looking for **batch evaluation scripts**? → [EXAMPLES.md](EXAMPLES.md#research-benchmarking)
+
 ### For DevOps/CI
 - Setting up **automated benchmarks**? → [BENCHMARKING.md](BENCHMARKING.md#ci-integration)
+- Need **CLI integration**? → [EXAMPLES.md](EXAMPLES.md#integration-examples)
 - Monitoring **performance regressions**? → [BENCHMARKING.md](BENCHMARKING.md#understanding-results)
 - Troubleshooting **CI issues**? → [BENCHMARKING.md](BENCHMARKING.md#troubleshooting)
 
@@ -41,6 +52,8 @@ Welcome to the FluidAudioSwift documentation! This directory contains comprehens
 
 ### 📊 Benchmarking System
 - **Comprehensive test suite** covering all major operations
+- **Research-standard evaluation** on AMI Meeting Corpus
+- **Command-line interface** for easy benchmarking
 - **CI integration** with automated PR comments
 - **Performance regression detection**
 - **Hardware-specific optimization guidance**
@@ -55,7 +68,9 @@ Welcome to the FluidAudioSwift documentation! This directory contains comprehens
 
 | Document | Purpose | Audience | Length |
 |----------|---------|----------|---------|
-| [BENCHMARKING.md](BENCHMARKING.md) | Performance testing and optimization | All users | ~455 lines |
+| [CLI.md](CLI.md) | Command-line interface usage | Users, Researchers | ~500+ lines |
+| [EXAMPLES.md](EXAMPLES.md) | Practical examples and scripts | All users | ~400+ lines |
+| [BENCHMARKING.md](BENCHMARKING.md) | Performance testing and optimization | All users | ~500+ lines |
 | [METAL_ACCELERATION.md](METAL_ACCELERATION.md) | Technical Metal implementation details | Developers | ~555 lines |
 | [README.md](../README.md) | Quick start and basic usage | All users | ~100 lines |
 | [CLAUDE.md](../CLAUDE.md) | Development guidelines | Contributors | ~175 lines |

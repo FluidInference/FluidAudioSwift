@@ -61,6 +61,35 @@ let config = DiarizerConfig(
 )
 ```
 
+## Command Line Interface (CLI)
+
+FluidAudioSwift includes a powerful CLI tool for benchmarking and processing audio files:
+
+```bash
+# Build the CLI
+swift build
+
+# Run AMI corpus benchmarks
+swift run fluidaudio benchmark --dataset ami-sdm
+swift run fluidaudio benchmark --dataset ami-ihm --threshold 0.8 --output results.json
+
+# Process individual audio files
+swift run fluidaudio process meeting.wav --output results.json
+```
+
+### CLI Commands
+
+- **`benchmark`**: Run standardized research benchmarks on AMI Meeting Corpus
+- **`process`**: Process individual audio files with speaker diarization
+- **`help`**: Show detailed usage information and examples
+
+### Supported Benchmark Datasets
+
+- **AMI-SDM**: Single Distant Microphone (Mix-Headset.wav files) - realistic meeting conditions
+- **AMI-IHM**: Individual Headset Microphones (Headset-0.wav files) - clean audio conditions
+
+See [docs/CLI.md](docs/CLI.md) for complete CLI documentation and examples.
+
 ## Performance & Benchmarking
 
 FluidAudioSwift includes comprehensive benchmarking tools to measure and optimize performance:
@@ -71,6 +100,9 @@ swift test --filter MetalAccelerationBenchmarks
 
 # Run benchmarks with detailed reporting
 ./scripts/run-benchmarks.sh
+
+# Research-standard AMI corpus evaluation
+swift run fluidaudio benchmark --dataset ami-sdm --output benchmark-results.json
 ```
 
 ### Metal Acceleration
