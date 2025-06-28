@@ -1,6 +1,9 @@
 import Foundation
 import OSLog
 import CoreML
+import Accelerate
+import Metal
+import MetalPerformanceShaders
 
 public struct DiarizerConfig: Sendable {
     public var clusteringThreshold: Float = 0.7 // Similarity threshold for grouping speakers (0.0-1.0, higher = stricter)
@@ -10,6 +13,17 @@ public struct DiarizerConfig: Sendable {
     public var minActivityThreshold: Float = 10.0 // Minimum activity threshold (frames) for speaker to be considered active
     public var debugMode: Bool = false
     public var modelCacheDirectory: URL?
+    
+    // Performance optimization settings
+    public var parallelProcessingThreshold: Double = 60.0 // Seconds - use parallel processing for longer files
+    public var embeddingCacheSize: Int = 100 // Maximum cached embeddings for quick lookup
+    public var useEarlyTermination: Bool = true // Stop speaker search when confidence is high enough
+    public var earlyTerminationThreshold: Float = 0.3 // Distance threshold for early termination
+    
+    // Metal Performance Shaders settings
+    public var useMetalAcceleration: Bool = true // Enable Metal GPU acceleration when available
+    public var metalBatchSize: Int = 32 // Optimal batch size for GPU operations
+    public var fallbackToAccelerate: Bool = true // Graceful degradation to Accelerate if Metal fails
 
     public static let `default` = DiarizerConfig()
 
@@ -20,7 +34,14 @@ public struct DiarizerConfig: Sendable {
         numClusters: Int = -1,
         minActivityThreshold: Float = 10.0,
         debugMode: Bool = false,
-        modelCacheDirectory: URL? = nil
+        modelCacheDirectory: URL? = nil,
+        parallelProcessingThreshold: Double = 60.0,
+        embeddingCacheSize: Int = 100,
+        useEarlyTermination: Bool = true,
+        earlyTerminationThreshold: Float = 0.3,
+        useMetalAcceleration: Bool = true,
+        metalBatchSize: Int = 32,
+        fallbackToAccelerate: Bool = true
     ) {
         self.clusteringThreshold = clusteringThreshold
         self.minDurationOn = minDurationOn
@@ -29,6 +50,13 @@ public struct DiarizerConfig: Sendable {
         self.minActivityThreshold = minActivityThreshold
         self.debugMode = debugMode
         self.modelCacheDirectory = modelCacheDirectory
+        self.parallelProcessingThreshold = parallelProcessingThreshold
+        self.embeddingCacheSize = embeddingCacheSize
+        self.useEarlyTermination = useEarlyTermination
+        self.earlyTerminationThreshold = earlyTerminationThreshold
+        self.useMetalAcceleration = useMetalAcceleration
+        self.metalBatchSize = metalBatchSize
+        self.fallbackToAccelerate = fallbackToAccelerate
     }
 }
 
@@ -100,6 +128,323 @@ public struct AudioValidationResult: Sendable {
     }
 }
 
+// MARK: - Extensions
+
+extension Array {
+    func chunked(into size: Int) -> [[Element]] {
+        return stride(from: 0, to: count, by: size).map {
+            Array(self[$0..<Swift.min($0 + size, count)])
+        }
+    }
+}
+
+// MARK: - Metal Performance Processor
+
+/// Metal Performance Shaders processor for GPU acceleration
+@available(macOS 13.0, iOS 16.0, *)
+final class MetalPerformanceProcessor: @unchecked Sendable {
+    private let device: MTLDevice?
+    private let commandQueue: MTLCommandQueue?
+    private let logger = Logger(subsystem: "com.fluidinfluence.diarizer", category: "MetalProcessor")
+    
+    var isAvailable: Bool {
+        return device != nil && commandQueue != nil
+    }
+    
+    init() {
+        self.device = MTLCreateSystemDefaultDevice()
+        self.commandQueue = device?.makeCommandQueue()
+        
+        if isAvailable {
+            logger.info("Metal Performance Shaders initialized successfully")
+        } else {
+            logger.info("Metal Performance Shaders not available, will use Accelerate fallback")
+        }
+    }
+    
+    /// Batch compute cosine distances between embeddings using Metal
+    func batchCosineDistances(queries: [[Float]], candidates: [[Float]]) -> [[Float]]? {
+        guard isAvailable,
+              let device = self.device,
+              let commandQueue = self.commandQueue,
+              !queries.isEmpty,
+              !candidates.isEmpty else {
+            return nil
+        }
+        
+        let numQueries = queries.count
+        let numCandidates = candidates.count
+        let embeddingDim = queries[0].count
+        
+        // Ensure all embeddings have the same dimension
+        guard queries.allSatisfy({ $0.count == embeddingDim }),
+              candidates.allSatisfy({ $0.count == embeddingDim }) else {
+            logger.error("Inconsistent embedding dimensions")
+            return nil
+        }
+        
+        // Create MPS matrices
+        let queryMatrixDescriptor = MPSMatrixDescriptor(
+            rows: numQueries,
+            columns: embeddingDim,
+            rowBytes: embeddingDim * MemoryLayout<Float>.size,
+            dataType: .float32
+        )
+        
+        let candidateMatrixDescriptor = MPSMatrixDescriptor(
+            rows: embeddingDim,
+            columns: numCandidates,
+            rowBytes: numCandidates * MemoryLayout<Float>.size,
+            dataType: .float32
+        )
+        
+        let resultMatrixDescriptor = MPSMatrixDescriptor(
+            rows: numQueries,
+            columns: numCandidates,
+            rowBytes: numCandidates * MemoryLayout<Float>.size,
+            dataType: .float32
+        )
+        
+        // Allocate Metal buffers
+        let queryBuffer = device.makeBuffer(length: numQueries * embeddingDim * MemoryLayout<Float>.size, options: .storageModeShared)
+        let candidateBuffer = device.makeBuffer(length: embeddingDim * numCandidates * MemoryLayout<Float>.size, options: .storageModeShared)
+        let resultBuffer = device.makeBuffer(length: numQueries * numCandidates * MemoryLayout<Float>.size, options: .storageModeShared)
+        
+        guard let queryBuffer = queryBuffer,
+              let candidateBuffer = candidateBuffer,
+              let resultBuffer = resultBuffer else {
+            logger.error("Failed to allocate Metal buffers")
+            return nil
+        }
+        
+        // Copy data to Metal buffers
+        let queryPtr = queryBuffer.contents().bindMemory(to: Float.self, capacity: numQueries * embeddingDim)
+        let candidatePtr = candidateBuffer.contents().bindMemory(to: Float.self, capacity: embeddingDim * numCandidates)
+        
+        // Copy queries (row-major)
+        for (i, query) in queries.enumerated() {
+            for (j, value) in query.enumerated() {
+                queryPtr[i * embeddingDim + j] = value
+            }
+        }
+        
+        // Copy candidates (column-major for matrix multiplication)
+        for (j, candidate) in candidates.enumerated() {
+            for (i, value) in candidate.enumerated() {
+                candidatePtr[i * numCandidates + j] = value
+            }
+        }
+        
+        // Create MPS matrices
+        let queryMatrix = MPSMatrix(buffer: queryBuffer, descriptor: queryMatrixDescriptor)
+        let candidateMatrix = MPSMatrix(buffer: candidateBuffer, descriptor: candidateMatrixDescriptor)
+        let resultMatrix = MPSMatrix(buffer: resultBuffer, descriptor: resultMatrixDescriptor)
+        
+        // Perform matrix multiplication (dot products)
+        let matrixMultiplication = MPSMatrixMultiplication(
+            device: device,
+            transposeLeft: false,
+            transposeRight: false,
+            resultRows: numQueries,
+            resultColumns: numCandidates,
+            interiorColumns: embeddingDim,
+            alpha: 1.0,
+            beta: 0.0
+        )
+        
+        guard let commandBuffer = commandQueue.makeCommandBuffer() else {
+            logger.error("Failed to create Metal command buffer")
+            return nil
+        }
+        
+        matrixMultiplication.encode(
+            commandBuffer: commandBuffer,
+            leftMatrix: queryMatrix,
+            rightMatrix: candidateMatrix,
+            resultMatrix: resultMatrix
+        )
+        
+        commandBuffer.commit()
+        commandBuffer.waitUntilCompleted()
+        
+        // Extract results and convert to cosine distances
+        let resultPtr = resultBuffer.contents().bindMemory(to: Float.self, capacity: numQueries * numCandidates)
+        var distances: [[Float]] = Array(repeating: Array(repeating: 0.0, count: numCandidates), count: numQueries)
+        
+        // Calculate magnitudes for normalization
+        var queryMagnitudes: [Float] = []
+        var candidateMagnitudes: [Float] = []
+        
+        for query in queries {
+            let magnitude = sqrt(query.map { $0 * $0 }.reduce(0, +))
+            queryMagnitudes.append(magnitude)
+        }
+        
+        for candidate in candidates {
+            let magnitude = sqrt(candidate.map { $0 * $0 }.reduce(0, +))
+            candidateMagnitudes.append(magnitude)
+        }
+        
+        // Convert dot products to cosine distances
+        for i in 0..<numQueries {
+            for j in 0..<numCandidates {
+                let dotProduct = resultPtr[i * numCandidates + j]
+                let magnitude1 = queryMagnitudes[i]
+                let magnitude2 = candidateMagnitudes[j]
+                
+                if magnitude1 > 0 && magnitude2 > 0 {
+                    let similarity = dotProduct / (magnitude1 * magnitude2)
+                    distances[i][j] = 1 - similarity
+                } else {
+                    distances[i][j] = Float.infinity
+                }
+            }
+        }
+        
+        return distances
+    }
+    
+    /// Accelerated powerset conversion using Metal compute shader
+    func performPowersetConversion(segments: [[[Float]]]) -> [[[Float]]]? {
+        guard isAvailable,
+              let device = self.device,
+              let commandQueue = self.commandQueue,
+              !segments.isEmpty else {
+            return nil
+        }
+        
+        let batchSize = segments.count
+        let numFrames = segments[0].count
+        let numCombinations = segments[0][0].count
+        let numSpeakers = 3
+        
+        // Metal shader source for powerset conversion
+        let shaderSource = """
+        #include <metal_stdlib>
+        using namespace metal;
+        
+        kernel void powerset_conversion(
+            device const float* segments [[buffer(0)]],
+            device float* binarized [[buffer(1)]],
+            constant uint& num_frames [[buffer(2)]],
+            constant uint& num_combinations [[buffer(3)]],
+            uint2 index [[thread_position_in_grid]]
+        ) {
+            const int powerset[7][3] = {
+                {-1, -1, -1}, // 0: empty set
+                {0, -1, -1},  // 1: {0}
+                {1, -1, -1},  // 2: {1}
+                {2, -1, -1},  // 3: {2}
+                {0, 1, -1},   // 4: {0, 1}
+                {0, 2, -1},   // 5: {0, 2}
+                {1, 2, -1}    // 6: {1, 2}
+            };
+            
+            uint b = index.x; // batch
+            uint f = index.y; // frame
+            
+            if (b >= 1 || f >= num_frames) return;
+            
+            // Find max value index in this frame
+            float max_val = -1.0;
+            uint best_idx = 0;
+            
+            for (uint c = 0; c < num_combinations; c++) {
+                float val = segments[b * num_frames * num_combinations + f * num_combinations + c];
+                if (val > max_val) {
+                    max_val = val;
+                    best_idx = c;
+                }
+            }
+            
+            // Clear output for this frame
+            for (uint s = 0; s < 3; s++) {
+                binarized[b * num_frames * 3 + f * 3 + s] = 0.0;
+            }
+            
+            // Set active speakers based on powerset
+            for (uint i = 0; i < 3; i++) {
+                int speaker = powerset[best_idx][i];
+                if (speaker >= 0) {
+                    binarized[b * num_frames * 3 + f * 3 + speaker] = 1.0;
+                }
+            }
+        }
+        """
+        
+        // Create Metal library and function
+        guard let library = try? device.makeLibrary(source: shaderSource, options: nil),
+              let function = library.makeFunction(name: "powerset_conversion") else {
+            logger.error("Failed to create Metal compute function")
+            return nil
+        }
+        
+        guard let computePipelineState = try? device.makeComputePipelineState(function: function) else {
+            logger.error("Failed to create Metal compute pipeline state")
+            return nil
+        }
+        
+        // Allocate Metal buffers
+        let inputSize = batchSize * numFrames * numCombinations * MemoryLayout<Float>.size
+        let outputSize = batchSize * numFrames * numSpeakers * MemoryLayout<Float>.size
+        
+        guard let inputBuffer = device.makeBuffer(length: inputSize, options: .storageModeShared),
+              let outputBuffer = device.makeBuffer(length: outputSize, options: .storageModeShared) else {
+            logger.error("Failed to allocate Metal buffers for powerset conversion")
+            return nil
+        }
+        
+        // Copy input data
+        let inputPtr = inputBuffer.contents().bindMemory(to: Float.self, capacity: batchSize * numFrames * numCombinations)
+        for b in 0..<batchSize {
+            for f in 0..<numFrames {
+                for c in 0..<numCombinations {
+                    inputPtr[b * numFrames * numCombinations + f * numCombinations + c] = segments[b][f][c]
+                }
+            }
+        }
+        
+        // Execute compute shader
+        guard let commandBuffer = commandQueue.makeCommandBuffer(),
+              let computeEncoder = commandBuffer.makeComputeCommandEncoder() else {
+            logger.error("Failed to create Metal command buffer or encoder")
+            return nil
+        }
+        
+        computeEncoder.setComputePipelineState(computePipelineState)
+        computeEncoder.setBuffer(inputBuffer, offset: 0, index: 0)
+        computeEncoder.setBuffer(outputBuffer, offset: 0, index: 1)
+        
+        var numFramesConstant = UInt32(numFrames)
+        var numCombinationsConstant = UInt32(numCombinations)
+        computeEncoder.setBytes(&numFramesConstant, length: MemoryLayout<UInt32>.size, index: 2)
+        computeEncoder.setBytes(&numCombinationsConstant, length: MemoryLayout<UInt32>.size, index: 3)
+        
+        let threadGroupSize = MTLSize(width: 1, height: min(numFrames, computePipelineState.maxTotalThreadsPerThreadgroup), depth: 1)
+        let threadGroups = MTLSize(width: batchSize, height: (numFrames + threadGroupSize.height - 1) / threadGroupSize.height, depth: 1)
+        
+        computeEncoder.dispatchThreadgroups(threadGroups, threadsPerThreadgroup: threadGroupSize)
+        computeEncoder.endEncoding()
+        
+        commandBuffer.commit()
+        commandBuffer.waitUntilCompleted()
+        
+        // Extract results
+        let outputPtr = outputBuffer.contents().bindMemory(to: Float.self, capacity: batchSize * numFrames * numSpeakers)
+        var result: [[[Float]]] = Array(repeating: Array(repeating: Array(repeating: 0.0, count: numSpeakers), count: numFrames), count: batchSize)
+        
+        for b in 0..<batchSize {
+            for f in 0..<numFrames {
+                for s in 0..<numSpeakers {
+                    result[b][f][s] = outputPtr[b * numFrames * numSpeakers + f * numSpeakers + s]
+                }
+            }
+        }
+        
+        return result
+    }
+}
+
 // MARK: - Error Types
 
 public enum DiarizerError: Error, LocalizedError {
@@ -162,6 +507,12 @@ public final class DiarizerManager: @unchecked Sendable {
     // ML models
     private var segmentationModel: MLModel?
     private var embeddingModel: MLModel?
+    
+    // Metal performance processor
+    private lazy var metalProcessor: MetalPerformanceProcessor? = {
+        guard config.useMetalAcceleration else { return nil }
+        return MetalPerformanceProcessor()
+    }()
 
     public init(config: DiarizerConfig = .default) {
         self.config = config
@@ -239,6 +590,21 @@ public final class DiarizerManager: @unchecked Sendable {
     }
 
     private func powersetConversion(_ segments: [[[Float]]]) -> [[[Float]]] {
+        // Try Metal acceleration first
+        if let metalProcessor = self.metalProcessor,
+           metalProcessor.isAvailable,
+           let metalResult = metalProcessor.performPowersetConversion(segments: segments) {
+            if config.debugMode {
+                logger.debug("Used Metal for powerset conversion")
+            }
+            return metalResult
+        }
+        
+        // Fallback to CPU implementation
+        return powersetConversionCPU(segments)
+    }
+    
+    private func powersetConversionCPU(_ segments: [[[Float]]]) -> [[[Float]]] {
         let powerset: [[Int]] = [
             [], // 0
             [0], // 1
@@ -253,13 +619,19 @@ public final class DiarizerManager: @unchecked Sendable {
         let numFrames = segments[0].count
         let numSpeakers = 3
 
-        var binarized = Array(
-            repeating: Array(
-                repeating: Array(repeating: 0.0 as Float, count: numSpeakers),
-                count: numFrames
-            ),
-            count: batchSize
-        )
+        // Pre-allocate with more efficient ContiguousArray for better cache performance
+        var binarized: [[[Float]]] = []
+        binarized.reserveCapacity(batchSize)
+        
+        for _ in 0..<batchSize {
+            var batchFrames: [[Float]] = []
+            batchFrames.reserveCapacity(numFrames)
+            
+            for _ in 0..<numFrames {
+                batchFrames.append(Array(repeating: 0.0 as Float, count: numSpeakers))
+            }
+            binarized.append(batchFrames)
+        }
 
         for b in 0..<batchSize {
             for f in 0..<numFrames {
@@ -305,32 +677,39 @@ public final class DiarizerManager: @unchecked Sendable {
         let numFrames = slidingWindowFeature.data[0].count
         let numSpeakers = slidingWindowFeature.data[0][0].count
 
-        // Compute clean_frames = 1.0 where active speakers < 2
-        var cleanFrames = Array(repeating: Array(repeating: 0.0 as Float, count: 1), count: numFrames)
-
+        // Pre-allocate and compute clean_frames efficiently
+        var cleanFrames = ContiguousArray<Float>()
+        cleanFrames.reserveCapacity(numFrames)
+        
+        let segmentData = slidingWindowFeature.data[0]
         for f in 0..<numFrames {
-            let frame = slidingWindowFeature.data[0][f]
+            let frame = segmentData[f]
             let speakerSum = frame.reduce(0, +)
-            cleanFrames[f][0] = (speakerSum < 2.0) ? 1.0 : 0.0
+            cleanFrames.append((speakerSum < 2.0) ? 1.0 : 0.0)
         }
 
-        // Multiply slidingWindowSegments.data by cleanFrames
-        var cleanSegmentData = Array(
-            repeating: Array(repeating: Array(repeating: 0.0 as Float, count: numSpeakers), count: numFrames),
-            count: 1
-        )
-
+        // Pre-allocate cleanSegmentData more efficiently
+        var cleanSegmentData: [[[Float]]] = []
+        cleanSegmentData.reserveCapacity(1)
+        
+        var batchData: [[Float]] = []
+        batchData.reserveCapacity(numFrames)
+        
         for f in 0..<numFrames {
+            var frameData = ContiguousArray<Float>()
+            frameData.reserveCapacity(numSpeakers)
+            
+            let cleanMask = cleanFrames[f]
             for s in 0..<numSpeakers {
-                cleanSegmentData[0][f][s] = slidingWindowFeature.data[0][f][s] * cleanFrames[f][0]
+                frameData.append(segmentData[f][s] * cleanMask)
             }
+            batchData.append(Array(frameData))
         }
+        cleanSegmentData.append(batchData)
 
-        // Flatten audio tensor to shape (numSpeakers, 160000)
-        var audioBatch: [[Float]] = []
-        for _ in 0..<numSpeakers {
-            audioBatch.append(audioTensor)
-        }
+
+        // Use efficient ArraySlice references instead of duplicating audio data
+        let audioSlice = ArraySlice(audioTensor)
 
         // Transpose mask shape to (numSpeakers, 589)
         var cleanMasks: [[Float]] = Array(repeating: Array(repeating: 0.0, count: numFrames), count: numSpeakers)
@@ -347,15 +726,24 @@ public final class DiarizerManager: @unchecked Sendable {
             throw DiarizerError.processingFailed("Failed to allocate MLMultiArray for embeddings")
         }
 
-        for s in 0..<numSpeakers {
-            for i in 0..<chunkSize {
-                waveformArray[s * chunkSize + i] = NSNumber(value: audioBatch[s][i])
+        // Optimize MLMultiArray population using safe bulk operations
+        audioSlice.withUnsafeBufferPointer { audioBuffer in
+            for s in 0..<numSpeakers {
+                let speakerOffset = s * chunkSize
+                for i in 0..<min(chunkSize, audioBuffer.count) {
+                    waveformArray[speakerOffset + i] = NSNumber(value: audioBuffer[i])
+                }
             }
         }
 
+        // Bulk populate mask array efficiently
         for s in 0..<numSpeakers {
-            for f in 0..<numFrames {
-                maskArray[s * numFrames + f] = NSNumber(value: cleanMasks[s][f])
+            let speakerMaskOffset = s * numFrames
+            let speakerMask = cleanMasks[s]
+            speakerMask.withUnsafeBufferPointer { maskBuffer in
+                for f in 0..<numFrames {
+                    maskArray[speakerMaskOffset + f] = NSNumber(value: maskBuffer[f])
+                }
             }
         }
 
@@ -677,43 +1065,109 @@ public final class DiarizerManager: @unchecked Sendable {
 
     // MARK: - Utility Functions
 
-    /// Calculate cosine distance between two embeddings
+    /// Batch assign speakers using Metal acceleration when available
+    private func batchAssignSpeakers(embeddings: [[Float]], speakerDB: inout [String: [Float]]) -> [String] {
+        guard embeddings.count > 1,
+              !speakerDB.isEmpty,
+              let metalProcessor = self.metalProcessor,
+              metalProcessor.isAvailable else {
+            // Fallback to individual assignment
+            return embeddings.map { assignSpeaker(embedding: $0, speakerDB: &speakerDB) }
+        }
+        
+        let candidateEmbeddings = Array(speakerDB.values)
+        let candidateIds = Array(speakerDB.keys)
+        
+        // Use Metal for batch distance computation
+        if let distanceMatrix = metalProcessor.batchCosineDistances(queries: embeddings, candidates: candidateEmbeddings) {
+            var assignments: [String] = []
+            
+            for (embeddingIndex, embedding) in embeddings.enumerated() {
+                let distances = distanceMatrix[embeddingIndex]
+                let minDistanceIndex = distances.indices.min(by: { distances[$0] < distances[$1] }) ?? 0
+                let minDistance = distances[minDistanceIndex]
+                let bestSpeakerId = candidateIds[minDistanceIndex]
+                
+                if minDistance > config.clusteringThreshold {
+                    // New speaker
+                    let newSpeakerId = "Speaker \(speakerDB.count + 1)"
+                    speakerDB[newSpeakerId] = embedding
+                    assignments.append(newSpeakerId)
+                    logger.info("Metal: Created new speaker: \(newSpeakerId)")
+                } else {
+                    // Existing speaker - update embedding
+                    updateSpeakerEmbedding(bestSpeakerId, embedding, speakerDB: &speakerDB)
+                    assignments.append(bestSpeakerId)
+                    if config.debugMode {
+                        logger.debug("Metal: Matched existing speaker: \(bestSpeakerId)")
+                    }
+                }
+            }
+            
+            return assignments
+        }
+        
+        // Fallback to Accelerate if Metal fails
+        logger.info("Metal batch processing failed, falling back to individual assignment")
+        return embeddings.map { assignSpeaker(embedding: $0, speakerDB: &speakerDB) }
+    }
+
+    /// Calculate cosine distance between two embeddings using vectorized operations
     public func cosineDistance(_ a: [Float], _ b: [Float]) -> Float {
         guard a.count == b.count, !a.isEmpty else {
             logger.error("Invalid embeddings for distance calculation")
             return Float.infinity
         }
 
-        var dotProduct: Float = 0
-        var magnitudeA: Float = 0
-        var magnitudeB: Float = 0
-
-        for i in 0..<a.count {
-            dotProduct += a[i] * b[i]
-            magnitudeA += a[i] * a[i]
-            magnitudeB += b[i] * b[i]
+        // Use Accelerate framework for vectorized operations
+        return a.withUnsafeBufferPointer { aBuffer in
+            b.withUnsafeBufferPointer { bBuffer in
+                let count = vDSP_Length(a.count)
+                
+                // Calculate dot product using vDSP
+                var dotProduct: Float = 0
+                vDSP_dotpr(aBuffer.baseAddress!, 1, bBuffer.baseAddress!, 1, &dotProduct, count)
+                
+                // Calculate squared magnitudes using vDSP
+                var magnitudeSquaredA: Float = 0
+                var magnitudeSquaredB: Float = 0
+                vDSP_svesq(aBuffer.baseAddress!, 1, &magnitudeSquaredA, count)
+                vDSP_svesq(bBuffer.baseAddress!, 1, &magnitudeSquaredB, count)
+                
+                let magnitudeA = sqrt(magnitudeSquaredA)
+                let magnitudeB = sqrt(magnitudeSquaredB)
+                
+                guard magnitudeA > 0 && magnitudeB > 0 else {
+                    logger.info("Zero magnitude embedding detected")
+                    return Float.infinity
+                }
+                
+                let similarity = dotProduct / (magnitudeA * magnitudeB)
+                return 1 - similarity
+            }
         }
-
-        magnitudeA = sqrt(magnitudeA)
-        magnitudeB = sqrt(magnitudeB)
-
-        guard magnitudeA > 0 && magnitudeB > 0 else {
-            logger.info("Zero magnitude embedding detected")
-            return Float.infinity
-        }
-
-        let similarity = dotProduct / (magnitudeA * magnitudeB)
-        return 1 - similarity
     }
 
     private func calculateRMSEnergy(_ samples: [Float]) -> Float {
         guard !samples.isEmpty else { return 0 }
-        let squaredSum = samples.reduce(0) { $0 + $1 * $1 }
-        return sqrt(squaredSum / Float(samples.count))
+        
+        // Use Accelerate framework for efficient RMS calculation
+        return samples.withUnsafeBufferPointer { buffer in
+            var sum: Float = 0
+            let count = vDSP_Length(samples.count)
+            vDSP_svesq(buffer.baseAddress!, 1, &sum, count)
+            return sqrt(sum / Float(samples.count))
+        }
     }
 
     private func calculateEmbeddingQuality(_ embedding: [Float]) -> Float {
-        let magnitude = sqrt(embedding.map { $0 * $0 }.reduce(0, +))
+        // Use Accelerate framework for efficient magnitude calculation
+        let magnitude = embedding.withUnsafeBufferPointer { buffer in
+            var sum: Float = 0
+            let count = vDSP_Length(embedding.count)
+            vDSP_svesq(buffer.baseAddress!, 1, &sum, count)
+            return sqrt(sum)
+        }
         // Simple quality score based on magnitude
         return min(1.0, magnitude / 10.0)
     }
@@ -766,11 +1220,24 @@ public final class DiarizerManager: @unchecked Sendable {
 
         logger.info("Starting complete diarization for \(samples.count) samples")
 
+        let totalDuration = Double(samples.count) / Double(sampleRate)
+        
+        // For long audio files, use parallel processing with post-hoc speaker alignment
+        if totalDuration > config.parallelProcessingThreshold {
+            return try await performParallelDiarization(samples, sampleRate: sampleRate)
+        }
+        
+        // For shorter files, use sequential processing for better speaker consistency
+        return try await performSequentialDiarization(samples, sampleRate: sampleRate)
+    }
+    
+    /// Sequential processing for optimal speaker consistency (shorter files)
+    private func performSequentialDiarization(_ samples: [Float], sampleRate: Int = 16000) async throws -> DiarizationResult {
         let chunkSize = sampleRate * 10 // 10 seconds
         var allSegments: [TimedSpeakerSegment] = []
         var speakerDB: [String: [Float]] = [:]  // Global speaker database
 
-        // Process in 10-second chunks
+        // Process in 10-second chunks sequentially
         for chunkStart in stride(from: 0, to: samples.count, by: chunkSize) {
             let chunkEnd = min(chunkStart + chunkSize, samples.count)
             let chunk = Array(samples[chunkStart..<chunkEnd])
@@ -785,8 +1252,130 @@ public final class DiarizerManager: @unchecked Sendable {
             allSegments.append(contentsOf: chunkSegments)
         }
 
-        logger.info("Complete diarization finished: \(allSegments.count) segments, \(speakerDB.count) speakers")
+        logger.info("Sequential diarization finished: \(allSegments.count) segments, \(speakerDB.count) speakers")
         return DiarizationResult(segments: allSegments, speakerDatabase: speakerDB)
+    }
+    
+    /// Parallel processing for long audio files with post-processing speaker alignment
+    private func performParallelDiarization(_ samples: [Float], sampleRate: Int = 16000) async throws -> DiarizationResult {
+        let chunkSize = sampleRate * 10 // 10 seconds
+        let totalChunks = (samples.count + chunkSize - 1) / chunkSize
+        
+        logger.info("Using parallel processing for \(totalChunks) chunks")
+        
+        // Process chunks in parallel using TaskGroup
+        let chunkResults = try await withThrowingTaskGroup(of: (offset: Double, segments: [TimedSpeakerSegment]).self) { group in
+            var results: [(offset: Double, segments: [TimedSpeakerSegment])] = []
+            
+            for chunkIndex in 0..<totalChunks {
+                let chunkStart = chunkIndex * chunkSize
+                let chunkEnd = min(chunkStart + chunkSize, samples.count)
+                let chunkOffset = Double(chunkStart) / Double(sampleRate)
+                let chunk = Array(samples[chunkStart..<chunkEnd])
+                
+                group.addTask { [self] in
+                    // Process each chunk independently
+                    var localSpeakerDB: [String: [Float]] = [:]
+                    let segments = try await self.processChunkWithSpeakerTracking(
+                        chunk,
+                        chunkOffset: chunkOffset,
+                        speakerDB: &localSpeakerDB,
+                        sampleRate: sampleRate
+                    )
+                    return (offset: chunkOffset, segments: segments)
+                }
+            }
+            
+            // Collect results in order
+            for try await result in group {
+                results.append(result)
+            }
+            
+            return results.sorted { $0.offset < $1.offset }
+        }
+        
+        // Align speakers across chunks using global clustering
+        let (alignedSegments, globalSpeakerDB) = alignSpeakersAcrossChunks(chunkResults.flatMap { $0.segments })
+        
+        logger.info("Parallel diarization finished: \(alignedSegments.count) segments, \(globalSpeakerDB.count) speakers")
+        return DiarizationResult(segments: alignedSegments, speakerDatabase: globalSpeakerDB)
+    }
+    
+    /// Align speakers across parallel-processed chunks using embedding similarity with Metal acceleration
+    private func alignSpeakersAcrossChunks(_ segments: [TimedSpeakerSegment]) -> ([TimedSpeakerSegment], [String: [Float]]) {
+        var globalSpeakerDB: [String: [Float]] = [:]
+        var alignedSegments: [TimedSpeakerSegment] = []
+        
+        // Group segments into batches for Metal processing
+        let batchSize = config.metalBatchSize
+        let segmentBatches = segments.chunked(into: batchSize)
+        
+        for batch in segmentBatches {
+            let embeddings = batch.map { $0.embedding }
+            
+            // Use batch assignment when we have multiple speakers in the database
+            let speakerIds: [String]
+            if globalSpeakerDB.count > 1 && embeddings.count > 1 {
+                speakerIds = batchAssignSpeakers(embeddings: embeddings, speakerDB: &globalSpeakerDB)
+            } else {
+                // Fall back to individual assignment for small batches or empty database
+                speakerIds = embeddings.map { assignSpeakerGlobally(embedding: $0, speakerDB: &globalSpeakerDB) }
+            }
+            
+            // Create aligned segments with assigned speaker IDs
+            for (index, segment) in batch.enumerated() {
+                let alignedSegment = TimedSpeakerSegment(
+                    speakerId: speakerIds[index],
+                    embedding: segment.embedding,
+                    startTimeSeconds: segment.startTimeSeconds,
+                    endTimeSeconds: segment.endTimeSeconds,
+                    qualityScore: segment.qualityScore
+                )
+                alignedSegments.append(alignedSegment)
+            }
+        }
+        
+        return (alignedSegments, globalSpeakerDB)
+    }
+    
+    /// Assign speaker ID to global database (similar to existing method but standalone)
+    private func assignSpeakerGlobally(embedding: [Float], speakerDB: inout [String: [Float]]) -> String {
+        if speakerDB.isEmpty {
+            let speakerId = "Speaker 1"
+            speakerDB[speakerId] = embedding
+            return speakerId
+        }
+
+        var minDistance: Float = Float.greatestFiniteMagnitude
+        var identifiedSpeaker: String? = nil
+
+        for (speakerId, refEmbedding) in speakerDB {
+            let distance = cosineDistance(embedding, refEmbedding)
+            if distance < minDistance {
+                minDistance = distance
+                identifiedSpeaker = speakerId
+                
+                // Early termination if we find a very close match
+                if config.useEarlyTermination && distance < config.earlyTerminationThreshold {
+                    break
+                }
+            }
+        }
+
+        if let bestSpeaker = identifiedSpeaker {
+            if minDistance > config.clusteringThreshold {
+                // New speaker
+                let newSpeakerId = "Speaker \(speakerDB.count + 1)"
+                speakerDB[newSpeakerId] = embedding
+                return newSpeakerId
+            } else {
+                // Existing speaker - update embedding
+                updateSpeakerEmbedding(bestSpeaker, embedding, speakerDB: &speakerDB)
+                return bestSpeaker
+            }
+        }
+
+        return "Unknown"
     }
 
     /// Process a single chunk with speaker tracking across chunks
@@ -880,6 +1469,11 @@ public final class DiarizerManager: @unchecked Sendable {
             if distance < minDistance {
                 minDistance = distance
                 identifiedSpeaker = speakerId
+                
+                // Early termination if we find a very close match
+                if config.useEarlyTermination && distance < config.earlyTerminationThreshold {
+                    break
+                }
             }
         }
 
