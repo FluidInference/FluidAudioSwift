@@ -83,39 +83,34 @@ let config = DiarizerConfig(
 )
 ```
 
-## CLI Usage
+## Command Line Interface (CLI)
 
-FluidAudioSwift includes a powerful command-line interface for benchmarking and audio processing:
-
-### Benchmark with Beautiful Output
+FluidAudioSwift includes a powerful CLI tool for benchmarking and processing audio files:
 
 ```bash
-# Run AMI benchmark with automatic dataset download
-swift run fluidaudio benchmark --auto-download
+# Build the CLI
+swift build
 
-# Test with specific parameters
-swift run fluidaudio benchmark --threshold 0.7 --min-duration-on 1.0 --output results.json
+# Run AMI corpus benchmarks
+swift run fluidaudio benchmark --dataset ami-sdm
+swift run fluidaudio benchmark --dataset ami-ihm --threshold 0.8 --output results.json
 
-# Test single file for quick parameter tuning
-swift run fluidaudio benchmark --single-file ES2004a --threshold 0.8
+# Process individual audio files
+swift run fluidaudio process meeting.wav --output results.json
 ```
 
-### Process Individual Files
+### CLI Commands
 
-```bash
-# Process a single audio file
-swift run fluidaudio process meeting.wav
+- **`benchmark`**: Run standardized research benchmarks on AMI Meeting Corpus
+- **`process`**: Process individual audio files with speaker diarization
+- **`help`**: Show detailed usage information and examples
 
-# Save results to JSON
-swift run fluidaudio process meeting.wav --output results.json --threshold 0.6
-```
+### Supported Benchmark Datasets
 
-### Download Datasets
+- **AMI-SDM**: Single Distant Microphone (Mix-Headset.wav files) - realistic meeting conditions
+- **AMI-IHM**: Individual Headset Microphones (Headset-0.wav files) - clean audio conditions
 
-```bash
-# Download AMI dataset for benchmarking
-swift run fluidaudio download --dataset ami-sdm
-```
+See [docs/CLI.md](docs/CLI.md) for complete CLI documentation and examples.
 
 ## Performance & Benchmarking
 
@@ -127,6 +122,9 @@ swift test --filter MetalAccelerationBenchmarks
 
 # Run benchmarks with detailed reporting
 ./scripts/run-benchmarks.sh
+
+# Research-standard AMI corpus evaluation
+swift run fluidaudio benchmark --dataset ami-sdm --output benchmark-results.json
 ```
 
 ### Metal Acceleration

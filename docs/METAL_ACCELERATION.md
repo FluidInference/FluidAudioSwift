@@ -104,14 +104,16 @@ kernel void powerset_conversion(
 ### Memory Layout Optimization
 
 **Row-Major Query Matrix:**
-```
+
+```text
 Query[0]: [e0, e1, e2, ..., eN]
 Query[1]: [e0, e1, e2, ..., eN]
 ...
 ```
 
 **Column-Major Candidate Matrix:**
-```
+
+```text
 Candidate[0]: [e0, e1, e2, ...]
 Candidate[1]: [e0, e1, e2, ...]
               [↓   ↓   ↓      ]
@@ -124,17 +126,20 @@ This layout optimization enables efficient GPU memory access patterns and maximi
 ### Speedup Analysis
 
 **Batch Size Impact:**
+
 - **8 embeddings**: 0.5-1.2x (GPU overhead dominant)
 - **16 embeddings**: 1.2-2.5x (breakeven point)
 - **32 embeddings**: 3.0-6.0x (optimal performance)
 - **64+ embeddings**: 4.0-8.0x (maximum efficiency)
 
 **Embedding Dimension Scaling:**
+
 - **256d**: 2.0-4.0x speedup
 - **512d**: 3.0-6.0x speedup  
 - **1024d**: 4.0-8.0x speedup
 
 **Hardware Performance:**
+
 - **M1/M2/M3**: 3-8x typical speedup
 - **Intel integrated**: 1.5-3x speedup
 - **Dedicated GPU**: 5-15x potential speedup
@@ -142,11 +147,13 @@ This layout optimization enables efficient GPU memory access patterns and maximi
 ### Memory Bandwidth Utilization
 
 **GPU Memory Throughput:**
+
 - Theoretical: 400+ GB/s (Apple Silicon)
 - Achieved: 60-150 GB/s (typical workloads)
 - Efficiency: 15-40% of peak bandwidth
 
 **CPU Memory Comparison:**
+
 - Theoretical: 100+ GB/s (unified memory)
 - Achieved: 20-40 GB/s (Accelerate vDSP)
 - Efficiency: 20-40% of peak bandwidth
@@ -156,6 +163,7 @@ This layout optimization enables efficient GPU memory access patterns and maximi
 ### Batch Size Optimization
 
 **Dynamic Batch Sizing:**
+
 ```swift
 func optimalBatchSize(for embeddingCount: Int, dimension: Int) -> Int {
     switch (embeddingCount, dimension) {
@@ -174,6 +182,7 @@ func optimalBatchSize(for embeddingCount: Int, dimension: Int) -> Int {
 ### Memory Pool Management
 
 **Buffer Reuse Strategy:**
+
 ```swift
 class MetalBufferPool {
     private var availableBuffers: [MTLBuffer] = []
@@ -196,6 +205,7 @@ class MetalBufferPool {
 ### Command Buffer Optimization
 
 **Async Execution Pipeline:**
+
 ```swift
 func asyncBatchProcessing(queries: [[Float]], candidates: [[Float]]) {
     let commandBuffer = commandQueue.makeCommandBuffer()
@@ -222,6 +232,7 @@ func asyncBatchProcessing(queries: [[Float]], candidates: [[Float]]) {
 ### Performance Tuning Parameters
 
 **GPU-Specific Optimization:**
+
 ```swift
 extension DiarizerConfig {
     static func optimizedForHardware() -> DiarizerConfig {
@@ -253,6 +264,7 @@ extension DiarizerConfig {
 ### Thermal Management
 
 **Dynamic Performance Scaling:**
+
 ```swift
 class ThermalAwareProcessor {
     private var thermalState: ProcessInfo.ThermalState = .nominal
@@ -280,6 +292,7 @@ class ThermalAwareProcessor {
 ### Power Efficiency Optimization
 
 **Battery-Aware Processing:**
+
 ```swift
 func batteryOptimizedConfig() -> DiarizerConfig {
     var config = DiarizerConfig.default
@@ -300,6 +313,7 @@ func batteryOptimizedConfig() -> DiarizerConfig {
 ### Buffer Allocation Strategy
 
 **Shared Memory Mode:**
+
 ```swift
 // Optimal for frequent CPU-GPU data transfer
 let buffer = device.makeBuffer(
@@ -309,6 +323,7 @@ let buffer = device.makeBuffer(
 ```
 
 **Private Memory Mode:**
+
 ```swift
 // Optimal for GPU-only computations
 let buffer = device.makeBuffer(

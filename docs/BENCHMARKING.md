@@ -8,6 +8,7 @@ This document provides comprehensive information about FluidAudioSwift's Metal a
 - [Quick Start](#quick-start)
 - [Benchmark Categories](#benchmark-categories)
 - [Running Benchmarks](#running-benchmarks)
+- [CLI Benchmarking](#cli-benchmarking)
 - [Understanding Results](#understanding-results)
 - [Performance Optimization](#performance-optimization)
 - [CI Integration](#ci-integration)
@@ -162,6 +163,91 @@ swift test --filter MetalAccelerationBenchmarks 2>&1 | \
 ### Continuous Integration
 
 Benchmarks automatically run on every pull request via GitHub Actions. See [CI Integration](#ci-integration) for details.
+
+## CLI Benchmarking
+
+FluidAudioSwift includes a command-line interface for research-standard benchmarking on real datasets.
+
+### Research Dataset Evaluation
+
+The CLI provides standardized benchmarking on the AMI Meeting Corpus, following established research protocols:
+
+```bash
+# AMI-SDM: Realistic meeting conditions (far-field audio)
+swift run fluidaudio benchmark --dataset ami-sdm --output ami-sdm-results.json
+
+# AMI-IHM: Clean audio conditions (close-talking microphones) 
+swift run fluidaudio benchmark --dataset ami-ihm --output ami-ihm-results.json
+```
+
+### Dataset Setup
+
+Download the AMI Meeting Corpus from Edinburgh University:
+
+1. **Register**: https://groups.inf.ed.ac.uk/ami/download/
+2. **Download meetings**: ES2002a, ES2003a, ES2004a, ES2005a, IS1000a, IS1001a, IS1002a, TS3003a, TS3004a
+3. **Select audio streams**:
+   - **AMI-SDM**: "Headset mix" files (Mix-Headset.wav)
+   - **AMI-IHM**: "Individual headsets" files (Headset-0.wav)
+4. **Place files** in `~/FluidAudioSwift_Datasets/ami_official/[sdm|ihm]/`
+
+### Performance Metrics
+
+CLI benchmarks report standard research metrics:
+
+- **DER (Diarization Error Rate)**: Primary metric for speaker diarization (lower is better)
+- **JER (Jaccard Error Rate)**: Temporal accuracy measurement
+- **RTF (Real-Time Factor)**: Processing speed relative to audio duration
+- **Speaker Count Accuracy**: Automatic speaker detection performance
+
+### Research Baselines
+
+#### AMI-SDM (Far-field conditions)
+- **State-of-the-art (2023)**: 18.5% DER (Powerset BCE)
+- **Strong baseline**: 25.3% DER (EEND)
+- **Traditional methods**: 28.7% DER (x-vector clustering)
+
+#### AMI-IHM (Clean conditions)  
+- **Expected improvement**: 5-10% lower DER than SDM
+- **Target range**: 15-25% DER for modern systems
+
+### Threshold Optimization
+
+Test different clustering thresholds to optimize for your use case:
+
+```bash
+# Conservative (fewer speakers, higher confidence)
+swift run fluidaudio benchmark --threshold 0.8
+
+# Aggressive (more speakers, potential oversegmentation)  
+swift run fluidaudio benchmark --threshold 0.5
+
+# Balanced (recommended starting point)
+swift run fluidaudio benchmark --threshold 0.7
+```
+
+### Batch Evaluation Script
+
+For systematic evaluation across multiple configurations:
+
+```bash
+#!/bin/bash
+# Test multiple thresholds and datasets
+for dataset in ami-sdm ami-ihm; do
+  for threshold in 0.5 0.6 0.7 0.8 0.9; do
+    echo "Testing $dataset with threshold $threshold"
+    swift run fluidaudio benchmark \
+      --dataset $dataset \
+      --threshold $threshold \
+      --output "results-${dataset}-${threshold}.json"
+  done
+done
+
+# Combine results for analysis
+python scripts/combine_benchmark_json.py results-*.json > combined_results.json
+```
+
+For complete CLI documentation, see [CLI.md](CLI.md).
 
 ## Understanding Results
 
