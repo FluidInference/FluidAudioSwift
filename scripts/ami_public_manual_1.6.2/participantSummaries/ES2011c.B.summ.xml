@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<nite:root xmlns:nite="http://nite.sourceforge.net/">
+<participant_abstract nite:id="ES2011cID.pabstract.1">
+    <sent nite:id="ES2011cID.s.1">We finalized some design ideas -- the remote controll will be battery-powered, with a rubber or rubber-and-plastic case.</sent>  <sent nite:id="ES2011cID.s.2">The handle will be rubber like a stress ball and conform to the user's hand.</sent>  <sent nite:id="ES2011cID.s.3">The main input will be an iPod-style wheel supplemented by a few necessary buttons.</sent>  <sent nite:id="ES2011cID.s.4">The color options for the remote will be based on fruits and vegetables to conform to current fashion.</sent> 
+</participant_abstract>
+<participant_actions nite:id="ES2011cID.pactions.1">
+   <sent nite:id="ES2011cID.s.5">PM - write meeting minutes and final report.</sent>   <sent nite:id="ES2011cID.s.6">ID and UID - build a prototype.</sent>   <sent nite:id="ES2011cID.s.7">ME - some more marketing research?</sent> 
+</participant_actions>
+<participant_decisions nite:id="ES2011cID.pdecisions.1">
+    <sent nite:id="ES2011cID.s.8">Incorporate fruit/vegetables into the design (perhaps base the colors on fruit?).</sent>    <sent import="high" nite:id="ES2011cID.s.9">Rubber case (spongy feel).</sent>    <sent import="high" nite:id="ES2011cID.s.10">Some part of case is replaceable for changing colors.</sent>    <sent import="high" nite:id="ES2011cID.s.11">Battery power, printed chip.</sent> 
+</participant_decisions>
+<participant_problems nite:id="ES2011cID.pproblems.1">
+    <sent nite:id="ES2011cID.s.12">Still not sure which part of the remote's case will be replaceable and offered in multiple colors.</sent> 
+</participant_problems>
+</nite:root>

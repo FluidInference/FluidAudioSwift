@@ -1,0 +1,439 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<nite:root nite:id="ES2007b.B.dialog-act" xmlns:nite="http://nite.sourceforge.net/">
+   <dact nite:id="ES2007b.B.dialog-act.dharshi.1">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_1)"/>
+      <nite:child href="ES2007b.B.words.xml#id(ES2007b.B.words0)..id(ES2007b.B.words1)"/>
+   </dact>
+   <dact nite:id="ES2007b.B.dialog-act.dharshi.2">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_3)"/>
+      <nite:child href="ES2007b.B.words.xml#id(ES2007b.B.words2)"/>
+   </dact>
+   <dact nite:id="ES2007b.B.dialog-act.dharshi.3">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_9)"/>
+      <nite:child href="ES2007b.B.words.xml#id(ES2007b.B.words3)..id(ES2007b.B.words4)"/>
+   </dact>
+   <dact nite:id="ES2007b.B.dialog-act.dharshi.4" reflexivity="true">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_5)"/>
+      <nite:child href="ES2007b.B.words.xml#id(ES2007b.B.words5)..id(ES2007b.B.words12)"/>
+   </dact>
+   <dact nite:id="ES2007b.B.dialog-act.dharshi.5" reflexivity="true">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_5)"/>
+      <nite:child href="ES2007b.B.words.xml#id(ES2007b.B.words13)..id(ES2007b.B.words17)"/>
+   </dact>
+   <dact nite:id="ES2007b.B.dialog-act.dharshi.6">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_9)"/>
+      <nite:child href="ES2007b.B.words.xml#id(ES2007b.B.words18)..id(ES2007b.B.words19)"/>
+   </dact>
+   <dact nite:id="ES2007b.B.dialog-act.dharshi.7">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_1)"/>
+      <nite:child href="ES2007b.B.words.xml#id(ES2007b.B.words20)..id(ES2007b.B.words21)"/>
+   </dact>
+   <dact nite:id="ES2007b.B.dialog-act.dharshi.8">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_1)"/>
+      <nite:child href="ES2007b.B.words.xml#id(ES2007b.B.words22)..id(ES2007b.B.words24)"/>
+   </dact>
+   <dact nite:id="ES2007b.B.dialog-act.dharshi.9">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_1)"/>
+      <nite:child href="ES2007b.B.words.xml#id(ES2007b.B.words25)..id(ES2007b.B.words26)"/>
+   </dact>
+   <dact nite:id="ES2007b.B.dialog-act.dharshi.10">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="ES2007b.B.words.xml#id(ES2007b.B.words27)..id(ES2007b.B.words32)"/>
+   </dact>
+   <dact nite:id="ES2007b.B.dialog-act.dharshi.11">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="ES2007b.B.words.xml#id(ES2007b.B.words33)..id(ES2007b.B.words36)"/>
+   </dact>
+   <dact nite:id="ES2007b.B.dialog-act.dharshi.12">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_9)"/>
+      <nite:child href="ES2007b.B.words.xml#id(ES2007b.B.words37)..id(ES2007b.B.words38)"/>
+   </dact>
+   <dact nite:id="ES2007b.B.dialog-act.dharshi.13">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_9)"/>
+      <nite:child href="ES2007b.B.words.xml#id(ES2007b.B.words39)..id(ES2007b.B.words40)"/>
+   </dact>
+   <dact nite:id="ES2007b.B.dialog-act.dharshi.14">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_3)"/>
+      <nite:child href="ES2007b.B.words.xml#id(ES2007b.B.words41)"/>
+   </dact>
+   <dact nite:id="ES2007b.B.dialog-act.dharshi.15">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_3)"/>
+      <nite:child href="ES2007b.B.words.xml#id(ES2007b.B.words42)"/>
+   </dact>
+   <dact nite:id="ES2007b.B.dialog-act.dharshi.16">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_3)"/>
+      <nite:child href="ES2007b.B.words.xml#id(ES2007b.B.words43)"/>
+   </dact>
+   <dact nite:id="ES2007b.B.dialog-act.dharshi.17">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_3)"/>
+      <nite:child href="ES2007b.B.words.xml#id(ES2007b.B.words44)"/>
+   </dact>
+   <dact nite:id="ES2007b.B.dialog-act.dharshi.18" reflexivity="true">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_5)"/>
+      <nite:child href="ES2007b.B.words.xml#id(ES2007b.B.words45)..id(ES2007b.B.words50)"/>
+   </dact>
+   <dact nite:id="ES2007b.B.dialog-act.dharshi.19">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_9)"/>
+      <nite:child href="ES2007b.B.words.xml#id(ES2007b.B.words51)..id(ES2007b.B.words52)"/>
+   </dact>
+   <dact nite:id="ES2007b.B.dialog-act.dharshi.20">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_9)"/>
+      <nite:child href="ES2007b.B.words.xml#id(ES2007b.B.words53)..id(ES2007b.B.words57)"/>
+   </dact>
+   <dact nite:id="ES2007b.B.dialog-act.dharshi.22">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_3)"/>
+      <nite:child href="ES2007b.B.words.xml#id(ES2007b.B.words58)"/>
+   </dact>
+   <dact nite:id="ES2007b.B.dialog-act.dharshi.21">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_3)"/>
+      <nite:child href="ES2007b.B.words.xml#id(ES2007b.B.words59)"/>
+   </dact>
+   <dact nite:id="ES2007b.B.dialog-act.dharshi.23">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_9)"/>
+      <nite:child href="ES2007b.B.words.xml#id(ES2007b.B.words60)..id(ES2007b.B.words61)"/>
+   </dact>
+   <dact nite:id="ES2007b.B.dialog-act.dharshi.24">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_7)"/>
+      <nite:child href="ES2007b.B.words.xml#id(ES2007b.B.words62)..id(ES2007b.B.words63)"/>
+   </dact>
+   <dact nite:id="ES2007b.B.dialog-act.dharshi.25">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="ES2007b.B.words.xml#id(ES2007b.B.words64)..id(ES2007b.B.words68)"/>
+   </dact>
+   <dact nite:id="ES2007b.B.dialog-act.dharshi.26">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_3)"/>
+      <nite:child href="ES2007b.B.words.xml#id(ES2007b.B.words69)..id(ES2007b.B.words72)"/>
+   </dact>
+   <dact nite:id="ES2007b.B.dialog-act.dharshi.27">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_5)"/>
+      <nite:child href="ES2007b.B.words.xml#id(ES2007b.B.words73)..id(ES2007b.B.words74)"/>
+   </dact>
+   <dact nite:id="ES2007b.B.dialog-act.dharshi.28">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_9)"/>
+      <nite:child href="ES2007b.B.words.xml#id(ES2007b.B.words75)..id(ES2007b.B.words78)"/>
+   </dact>
+   <dact nite:id="ES2007b.B.dialog-act.dharshi.29">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_3)"/>
+      <nite:child href="ES2007b.B.words.xml#id(ES2007b.B.words79)..id(ES2007b.B.words88)"/>
+   </dact>
+   <dact nite:id="ES2007b.B.dialog-act.dharshi.30">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_2)"/>
+      <nite:child href="ES2007b.B.words.xml#id(ES2007b.B.words89)..id(ES2007b.B.words90)"/>
+   </dact>
+   <dact nite:id="ES2007b.B.dialog-act.dharshi.31">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_9)"/>
+      <nite:child href="ES2007b.B.words.xml#id(ES2007b.B.words91)..id(ES2007b.B.words92)"/>
+   </dact>
+   <dact nite:id="ES2007b.B.dialog-act.dharshi.32">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="ES2007b.B.words.xml#id(ES2007b.B.words93)..id(ES2007b.B.words106)"/>
+   </dact>
+   <dact nite:id="ES2007b.B.dialog-act.dharshi.33">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_3)"/>
+      <nite:child href="ES2007b.B.words.xml#id(ES2007b.B.words107)..id(ES2007b.B.words110)"/>
+   </dact>
+   <dact nite:id="ES2007b.B.dialog-act.dharshi.34">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_9)"/>
+      <nite:child href="ES2007b.B.words.xml#id(ES2007b.B.words111)..id(ES2007b.B.words113)"/>
+   </dact>
+   <dact nite:id="ES2007b.B.dialog-act.dharshi.35">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="ES2007b.B.words.xml#id(ES2007b.B.words114)..id(ES2007b.B.words119)"/>
+   </dact>
+   <dact nite:id="ES2007b.B.dialog-act.dharshi.36">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_16)"/>
+      <nite:child href="ES2007b.B.words.xml#id(ES2007b.B.words120)..id(ES2007b.B.words123)"/>
+   </dact>
+   <dact nite:id="ES2007b.B.dialog-act.dharshi.37">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_7)"/>
+      <nite:child href="ES2007b.B.words.xml#id(ES2007b.B.words124)..id(ES2007b.B.words132)"/>
+   </dact>
+   <dact nite:id="ES2007b.B.dialog-act.dharshi.38">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="ES2007b.B.words.xml#id(ES2007b.B.words133)..id(ES2007b.B.words143)"/>
+   </dact>
+   <dact nite:id="ES2007b.B.dialog-act.dharshi.39">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="ES2007b.B.words.xml#id(ES2007b.B.words144)..id(ES2007b.B.words150)"/>
+   </dact>
+   <dact nite:id="ES2007b.B.dialog-act.dharshi.40">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_9)"/>
+      <nite:child href="ES2007b.B.words.xml#id(ES2007b.B.words151)..id(ES2007b.B.words154)"/>
+   </dact>
+   <dact nite:id="ES2007b.B.dialog-act.dharshi.41">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="ES2007b.B.words.xml#id(ES2007b.B.words155)..id(ES2007b.B.words164)"/>
+   </dact>
+   <dact nite:id="ES2007b.B.dialog-act.dharshi.42">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="ES2007b.B.words.xml#id(ES2007b.B.words165)..id(ES2007b.B.words168)"/>
+   </dact>
+   <dact nite:id="ES2007b.B.dialog-act.dharshi.43">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_3)"/>
+      <nite:child href="ES2007b.B.words.xml#id(ES2007b.B.words169)..id(ES2007b.B.words175)"/>
+   </dact>
+   <dact nite:id="ES2007b.B.dialog-act.dharshi.44">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_9)"/>
+      <nite:child href="ES2007b.B.words.xml#id(ES2007b.B.words176)..id(ES2007b.B.words183)"/>
+   </dact>
+   <dact nite:id="ES2007b.B.dialog-act.dharshi.45">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="ES2007b.B.words.xml#id(ES2007b.B.words184)..id(ES2007b.B.words192)"/>
+   </dact>
+   <dact nite:id="ES2007b.B.dialog-act.dharshi.46">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="ES2007b.B.words.xml#id(ES2007b.B.words193)..id(ES2007b.B.words197)"/>
+   </dact>
+   <dact nite:id="ES2007b.B.dialog-act.dharshi.47">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="ES2007b.B.words.xml#id(ES2007b.B.words198)..id(ES2007b.B.words205)"/>
+   </dact>
+   <dact nite:id="ES2007b.B.dialog-act.dharshi.48">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_2)"/>
+      <nite:child href="ES2007b.B.words.xml#id(ES2007b.B.words206)..id(ES2007b.B.words208)"/>
+   </dact>
+   <dact nite:id="ES2007b.B.dialog-act.dharshi.49">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_2)"/>
+      <nite:child href="ES2007b.B.words.xml#id(ES2007b.B.words209)..id(ES2007b.B.words210)"/>
+   </dact>
+   <dact nite:id="ES2007b.B.dialog-act.dharshi.50">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="ES2007b.B.words.xml#id(ES2007b.B.words211)..id(ES2007b.B.words226)"/>
+   </dact>
+   <dact nite:id="ES2007b.B.dialog-act.dharshi.51">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="ES2007b.B.words.xml#id(ES2007b.B.words227)..id(ES2007b.B.words234)"/>
+   </dact>
+   <dact nite:id="ES2007b.B.dialog-act.dharshi.52">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="ES2007b.B.words.xml#id(ES2007b.B.words235)..id(ES2007b.B.words244)"/>
+   </dact>
+   <dact nite:id="ES2007b.B.dialog-act.dharshi.53">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="ES2007b.B.words.xml#id(ES2007b.B.words245)..id(ES2007b.B.words256)"/>
+   </dact>
+   <dact nite:id="ES2007b.B.dialog-act.dharshi.54">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="ES2007b.B.words.xml#id(ES2007b.B.words257)..id(ES2007b.B.words265)"/>
+   </dact>
+   <dact nite:id="ES2007b.B.dialog-act.dharshi.55">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="ES2007b.B.words.xml#id(ES2007b.B.words266)..id(ES2007b.B.words288)"/>
+   </dact>
+   <dact nite:id="ES2007b.B.dialog-act.dharshi.56" reflexivity="true">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="ES2007b.B.words.xml#id(ES2007b.B.words289)..id(ES2007b.B.words298)"/>
+   </dact>
+   <dact nite:id="ES2007b.B.dialog-act.dharshi.58">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_14)"/>
+      <nite:child href="ES2007b.B.words.xml#id(ES2007b.B.words299)"/>
+   </dact>
+   <dact nite:id="ES2007b.B.dialog-act.dharshi.59">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_9)"/>
+      <nite:child href="ES2007b.B.words.xml#id(ES2007b.B.words300)..id(ES2007b.B.words307)"/>
+   </dact>
+   <dact nite:id="ES2007b.B.dialog-act.dharshi.61">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_11)"/>
+      <nite:child href="ES2007b.B.words.xml#id(ES2007b.B.words308)..id(ES2007b.B.words309)"/>
+   </dact>
+   <dact nite:id="ES2007b.B.dialog-act.dharshi.62">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_9)"/>
+      <nite:child href="ES2007b.B.words.xml#id(ES2007b.B.words310)..id(ES2007b.B.words311)"/>
+   </dact>
+   <dact nite:id="ES2007b.B.dialog-act.dharshi.63">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_5)"/>
+      <nite:child href="ES2007b.B.words.xml#id(ES2007b.B.words312)..id(ES2007b.B.words319)"/>
+   </dact>
+   <dact nite:id="ES2007b.B.dialog-act.dharshi.64">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_9)"/>
+      <nite:child href="ES2007b.B.words.xml#id(ES2007b.B.words320)..id(ES2007b.B.words321)"/>
+   </dact>
+   <dact nite:id="ES2007b.B.dialog-act.dharshi.65">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_9)"/>
+      <nite:child href="ES2007b.B.words.xml#id(ES2007b.B.words322)..id(ES2007b.B.words324)"/>
+   </dact>
+   <dact nite:id="ES2007b.B.dialog-act.dharshi.66">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_8)"/>
+      <nite:child href="ES2007b.B.words.xml#id(ES2007b.B.words325)..id(ES2007b.B.words327)"/>
+   </dact>
+   <dact nite:id="ES2007b.B.dialog-act.dharshi.67">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="ES2007b.B.words.xml#id(ES2007b.B.words328)..id(ES2007b.B.words341)"/>
+   </dact>
+   <dact nite:id="ES2007b.B.dialog-act.dharshi.68">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_5)"/>
+      <nite:child href="ES2007b.B.words.xml#id(ES2007b.B.words342)..id(ES2007b.B.words345)"/>
+   </dact>
+   <dact nite:id="ES2007b.B.dialog-act.dharshi.69">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_3)"/>
+      <nite:child href="ES2007b.B.words.xml#id(ES2007b.B.words346)"/>
+   </dact>
+   <dact nite:id="ES2007b.B.dialog-act.dharshi.70">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_3)"/>
+      <nite:child href="ES2007b.B.words.xml#id(ES2007b.B.words347)"/>
+   </dact>
+   <dact nite:id="ES2007b.B.dialog-act.dharshi.71">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_9)"/>
+      <nite:child href="ES2007b.B.words.xml#id(ES2007b.B.words348)..id(ES2007b.B.words350)"/>
+   </dact>
+   <dact nite:id="ES2007b.B.dialog-act.dharshi.72">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_9)"/>
+      <nite:child href="ES2007b.B.words.xml#id(ES2007b.B.words351)..id(ES2007b.B.words372)"/>
+   </dact>
+   <dact nite:id="ES2007b.B.dialog-act.dharshi.73">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_1)"/>
+      <nite:child href="ES2007b.B.words.xml#id(ES2007b.B.words373)..id(ES2007b.B.words374)"/>
+   </dact>
+   <dact nite:id="ES2007b.B.dialog-act.dharshi.74">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_3)"/>
+      <nite:child href="ES2007b.B.words.xml#id(ES2007b.B.words375)..id(ES2007b.B.words384)"/>
+   </dact>
+   <dact nite:id="ES2007b.B.dialog-act.dharshi.75">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_6)"/>
+      <nite:child href="ES2007b.B.words.xml#id(ES2007b.B.words385)..id(ES2007b.B.words404)"/>
+   </dact>
+   <dact nite:id="ES2007b.B.dialog-act.dharshi.76">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="ES2007b.B.words.xml#id(ES2007b.B.words405)..id(ES2007b.B.words409)"/>
+   </dact>
+   <dact nite:id="ES2007b.B.dialog-act.dharshi.77">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_3)"/>
+      <nite:child href="ES2007b.B.words.xml#id(ES2007b.B.words410)..id(ES2007b.B.words411)"/>
+   </dact>
+   <dact nite:id="ES2007b.B.dialog-act.dharshi.78">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_9)"/>
+      <nite:child href="ES2007b.B.words.xml#id(ES2007b.B.words412)..id(ES2007b.B.words414)"/>
+   </dact>
+   <dact nite:id="ES2007b.B.dialog-act.dharshi.79">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_9)"/>
+      <nite:child href="ES2007b.B.words.xml#id(ES2007b.B.words415)..id(ES2007b.B.words423)"/>
+   </dact>
+   <dact nite:id="ES2007b.B.dialog-act.dharshi.80">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_9)"/>
+      <nite:child href="ES2007b.B.words.xml#id(ES2007b.B.words424)..id(ES2007b.B.words435)"/>
+   </dact>
+   <dact nite:id="ES2007b.B.dialog-act.dharshi.81">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_9)"/>
+      <nite:child href="ES2007b.B.words.xml#id(ES2007b.B.words436)..id(ES2007b.B.words444)"/>
+   </dact>
+   <dact nite:id="ES2007b.B.dialog-act.dharshi.82">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_9)"/>
+      <nite:child href="ES2007b.B.words.xml#id(ES2007b.B.words445)..id(ES2007b.B.words452)"/>
+   </dact>
+   <dact nite:id="ES2007b.B.dialog-act.dharshi.83">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="ES2007b.B.words.xml#id(ES2007b.B.words453)..id(ES2007b.B.words466)"/>
+   </dact>
+   <dact nite:id="ES2007b.B.dialog-act.dharshi.84">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_3)"/>
+      <nite:child href="ES2007b.B.words.xml#id(ES2007b.B.words467)..id(ES2007b.B.words470)"/>
+   </dact>
+   <dact nite:id="ES2007b.B.dialog-act.dharshi.85">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_3)"/>
+      <nite:child href="ES2007b.B.words.xml#id(ES2007b.B.words471)..id(ES2007b.B.words472)"/>
+   </dact>
+   <dact nite:id="ES2007b.B.dialog-act.dharshi.86">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_6)"/>
+      <nite:child href="ES2007b.B.words.xml#id(ES2007b.B.words473)..id(ES2007b.B.words484)"/>
+   </dact>
+   <dact nite:id="ES2007b.B.dialog-act.dharshi.87" reflexivity="true">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_6)"/>
+      <nite:child href="ES2007b.B.words.xml#id(ES2007b.B.words485)..id(ES2007b.B.words497)"/>
+   </dact>
+   <dact nite:id="ES2007b.B.dialog-act.dharshi.88">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_5)"/>
+      <nite:child href="ES2007b.B.words.xml#id(ES2007b.B.words498)..id(ES2007b.B.words503)"/>
+   </dact>
+   <dact nite:id="ES2007b.B.dialog-act.dharshi.89">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_1)"/>
+      <nite:child href="ES2007b.B.words.xml#id(ES2007b.B.words504)..id(ES2007b.B.words505)"/>
+   </dact>
+   <dact nite:id="ES2007b.B.dialog-act.dharshi.90">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_14)"/>
+      <nite:child href="ES2007b.B.words.xml#id(ES2007b.B.words506)..id(ES2007b.B.words508)"/>
+   </dact>
+   <dact nite:id="ES2007b.B.dialog-act.dharshi.91">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_3)"/>
+      <nite:child href="ES2007b.B.words.xml#id(ES2007b.B.words509)"/>
+   </dact>
+   <dact nite:id="ES2007b.B.dialog-act.dharshi.92">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_3)"/>
+      <nite:child href="ES2007b.B.words.xml#id(ES2007b.B.words510)"/>
+   </dact>
+   <dact nite:id="ES2007b.B.dialog-act.dharshi.93">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_3)"/>
+      <nite:child href="ES2007b.B.words.xml#id(ES2007b.B.words511)"/>
+   </dact>
+   <dact nite:id="ES2007b.B.dialog-act.dharshi.94">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_3)"/>
+      <nite:child href="ES2007b.B.words.xml#id(ES2007b.B.words512)"/>
+   </dact>
+   <dact nite:id="ES2007b.B.dialog-act.dharshi.95">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_14)"/>
+      <nite:child href="ES2007b.B.words.xml#id(ES2007b.B.words513)..id(ES2007b.B.words525)"/>
+   </dact>
+   <dact nite:id="ES2007b.B.dialog-act.dharshi.96">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_6)"/>
+      <nite:child href="ES2007b.B.words.xml#id(ES2007b.B.words526)..id(ES2007b.B.words541)"/>
+   </dact>
+   <dact nite:id="ES2007b.B.dialog-act.dharshi.97">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_3)"/>
+      <nite:child href="ES2007b.B.words.xml#id(ES2007b.B.words542)"/>
+   </dact>
+   <dact nite:id="ES2007b.B.dialog-act.dharshi.98">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_1)"/>
+      <nite:child href="ES2007b.B.words.xml#id(ES2007b.B.words543)..id(ES2007b.B.words544)"/>
+   </dact>
+   <dact nite:id="ES2007b.B.dialog-act.dharshi.99">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_3)"/>
+      <nite:child href="ES2007b.B.words.xml#id(ES2007b.B.words545)..id(ES2007b.B.words546)"/>
+   </dact>
+   <dact nite:id="ES2007b.B.dialog-act.dharshi.100" reflexivity="true">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="ES2007b.B.words.xml#id(ES2007b.B.words547)..id(ES2007b.B.words561)"/>
+   </dact>
+   <dact nite:id="ES2007b.B.dialog-act.dharshi.101">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="ES2007b.B.words.xml#id(ES2007b.B.words562)..id(ES2007b.B.words572)"/>
+   </dact>
+   <dact nite:id="ES2007b.B.dialog-act.dharshi.102">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="ES2007b.B.words.xml#id(ES2007b.B.words573)..id(ES2007b.B.words580)"/>
+   </dact>
+   <dact nite:id="ES2007b.B.dialog-act.dharshi.103">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_7)"/>
+      <nite:child href="ES2007b.B.words.xml#id(ES2007b.B.words581)..id(ES2007b.B.words587)"/>
+   </dact>
+   <dact nite:id="ES2007b.B.dialog-act.dharshi.104">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_14)"/>
+      <nite:child href="ES2007b.B.words.xml#id(ES2007b.B.words588)..id(ES2007b.B.words596)"/>
+   </dact>
+   <dact nite:id="ES2007b.B.dialog-act.dharshi.105">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_9)"/>
+      <nite:child href="ES2007b.B.words.xml#id(ES2007b.B.words597)..id(ES2007b.B.words600)"/>
+   </dact>
+   <dact nite:id="ES2007b.B.dialog-act.dharshi.106">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_3)"/>
+      <nite:child href="ES2007b.B.words.xml#id(ES2007b.B.words601)..id(ES2007b.B.words604)"/>
+   </dact>
+   <dact nite:id="ES2007b.B.dialog-act.dharshi.107">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_3)"/>
+      <nite:child href="ES2007b.B.words.xml#id(ES2007b.B.words605)..id(ES2007b.B.words608)"/>
+   </dact>
+   <dact nite:id="ES2007b.B.dialog-act.dharshi.108">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_6)"/>
+      <nite:child href="ES2007b.B.words.xml#id(ES2007b.B.words609)..id(ES2007b.B.words622)"/>
+   </dact>
+   <dact nite:id="ES2007b.B.dialog-act.dharshi.109">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_6)"/>
+      <nite:child href="ES2007b.B.words.xml#id(ES2007b.B.words623)..id(ES2007b.B.words638)"/>
+   </dact>
+   <dact nite:id="ES2007b.B.dialog-act.dharshi.110">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_3)"/>
+      <nite:child href="ES2007b.B.words.xml#id(ES2007b.B.words639)..id(ES2007b.B.words641)"/>
+   </dact>
+   <dact nite:id="ES2007b.B.dialog-act.dharshi.111">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_9)"/>
+      <nite:child href="ES2007b.B.words.xml#id(ES2007b.B.words642)..id(ES2007b.B.words643)"/>
+   </dact>
+</nite:root>

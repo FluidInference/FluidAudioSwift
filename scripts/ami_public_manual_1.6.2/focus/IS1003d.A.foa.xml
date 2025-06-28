@@ -1,0 +1,719 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nite:root xmlns:nite="http://nite.sourceforge.net/" nite:id="IDIAP_IS1003d_A.nite:root.1">
+    <foa endtime="24.08" starttime="0.0" type="unspecified" nite:id="IDIAP_IS1003d_A.foa.1"/>
+    <foa endtime="31.48" starttime="24.08" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.2"/>
+    <foa endtime="31.88" starttime="31.48" type="person" role="ME" nxt_agent="D" nite:id="IDIAP_IS1003d_A.foa.3"/>
+    <foa endtime="32.64" starttime="31.88" type="person" role="UI" nxt_agent="C" nite:id="IDIAP_IS1003d_A.foa.4"/>
+    <foa endtime="32.68" starttime="32.64" type="person" role="ID" nxt_agent="B" nite:id="IDIAP_IS1003d_A.foa.5"/>
+    <foa endtime="33.28" starttime="32.68" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.6"/>
+    <foa endtime="34.48" starttime="33.28" type="person" role="ME" nxt_agent="D" nite:id="IDIAP_IS1003d_A.foa.7"/>
+    <foa endtime="38.68" starttime="34.48" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.8"/>
+    <foa endtime="39.28" starttime="38.68" type="person" role="ID" nxt_agent="B" nite:id="IDIAP_IS1003d_A.foa.9"/>
+    <foa endtime="41.48" starttime="39.28" type="person" role="ME" nxt_agent="D" nite:id="IDIAP_IS1003d_A.foa.10"/>
+    <foa endtime="45.28" starttime="41.48" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.11"/>
+    <foa endtime="46.28" starttime="45.28" type="person" role="UI" nxt_agent="C" nite:id="IDIAP_IS1003d_A.foa.12"/>
+    <foa endtime="50.88" starttime="46.28" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.13"/>
+    <foa endtime="51.48" starttime="50.88" type="person" role="ID" nxt_agent="B" nite:id="IDIAP_IS1003d_A.foa.14"/>
+    <foa endtime="51.88" starttime="51.48" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.15"/>
+    <foa endtime="52.68" starttime="51.88" type="person" role="ME" nxt_agent="D" nite:id="IDIAP_IS1003d_A.foa.16"/>
+    <foa endtime="55.68" starttime="52.68" type="person" role="UI" nxt_agent="C" nite:id="IDIAP_IS1003d_A.foa.17"/>
+    <foa endtime="57.28" starttime="55.68" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.18"/>
+    <foa endtime="57.68" starttime="57.28" type="person" role="ME" nxt_agent="D" nite:id="IDIAP_IS1003d_A.foa.19"/>
+    <foa endtime="59.88" starttime="57.68" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.20"/>
+    <foa endtime="62.08" starttime="59.88" type="person" role="ME" nxt_agent="D" nite:id="IDIAP_IS1003d_A.foa.21"/>
+    <foa endtime="63.6" starttime="62.08" type="unspecified" nite:id="IDIAP_IS1003d_A.foa.22"/>
+    <foa endtime="64.08" starttime="63.6" type="person" role="ID" nxt_agent="B" nite:id="IDIAP_IS1003d_A.foa.23"/>
+    <foa endtime="67.08" starttime="64.08" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.24"/>
+    <foa endtime="67.48" starttime="67.08" type="person" role="ME" nxt_agent="D" nite:id="IDIAP_IS1003d_A.foa.25"/>
+    <foa endtime="67.88" starttime="67.48" type="person" role="ID" nxt_agent="B" nite:id="IDIAP_IS1003d_A.foa.26"/>
+    <foa endtime="83.08" starttime="67.88" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.27"/>
+    <foa endtime="84.08" starttime="83.08" type="person" role="ID" nxt_agent="B" nite:id="IDIAP_IS1003d_A.foa.28"/>
+    <foa endtime="84.28" starttime="84.08" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.29"/>
+    <foa endtime="88.08" starttime="84.28" type="person" role="UI" nxt_agent="C" nite:id="IDIAP_IS1003d_A.foa.30"/>
+    <foa endtime="88.68" starttime="88.08" type="person" role="ID" nxt_agent="B" nite:id="IDIAP_IS1003d_A.foa.31"/>
+    <foa endtime="89.16" starttime="88.68" type="person" role="ME" nxt_agent="D" nite:id="IDIAP_IS1003d_A.foa.32"/>
+    <foa endtime="89.52" starttime="89.16" type="person" role="ID" nxt_agent="B" nite:id="IDIAP_IS1003d_A.foa.33"/>
+    <foa endtime="90.12" starttime="89.52" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.34"/>
+    <foa endtime="92.28" starttime="90.12" type="person" role="ID" nxt_agent="B" nite:id="IDIAP_IS1003d_A.foa.35"/>
+    <foa endtime="93.24" starttime="92.28" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.36"/>
+    <foa endtime="93.84" starttime="93.24" type="person" role="ME" nxt_agent="D" nite:id="IDIAP_IS1003d_A.foa.37"/>
+    <foa endtime="96.28" starttime="93.84" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.38"/>
+    <foa endtime="96.88" starttime="96.28" type="person" role="ID" nxt_agent="B" nite:id="IDIAP_IS1003d_A.foa.39"/>
+    <foa endtime="101.28" starttime="96.88" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.40"/>
+    <foa endtime="103.76" starttime="101.28" type="person" role="ID" nxt_agent="B" nite:id="IDIAP_IS1003d_A.foa.41"/>
+    <foa endtime="105.2" starttime="103.76" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.42"/>
+    <foa endtime="105.76" starttime="105.2" type="person" role="ID" nxt_agent="B" nite:id="IDIAP_IS1003d_A.foa.43"/>
+    <foa endtime="106.28" starttime="105.76" type="person" role="ME" nxt_agent="D" nite:id="IDIAP_IS1003d_A.foa.44"/>
+    <foa endtime="110.28" starttime="106.28" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.45"/>
+    <foa endtime="111.08" starttime="110.28" type="person" role="ID" nxt_agent="B" nite:id="IDIAP_IS1003d_A.foa.46"/>
+    <foa endtime="115.68" starttime="111.08" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.47"/>
+    <foa endtime="116.28" starttime="115.68" type="person" role="ME" nxt_agent="D" nite:id="IDIAP_IS1003d_A.foa.48"/>
+    <foa endtime="122.88" starttime="116.28" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.49"/>
+    <foa endtime="124.08" starttime="122.88" type="person" role="ID" nxt_agent="B" nite:id="IDIAP_IS1003d_A.foa.50"/>
+    <foa endtime="125.08" starttime="124.08" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.51"/>
+    <foa endtime="125.68" starttime="125.08" type="person" role="UI" nxt_agent="C" nite:id="IDIAP_IS1003d_A.foa.52"/>
+    <foa endtime="126.68" starttime="125.68" type="person" role="ID" nxt_agent="B" nite:id="IDIAP_IS1003d_A.foa.53"/>
+    <foa endtime="150.88" starttime="126.68" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.54"/>
+    <foa endtime="151.68" starttime="150.88" type="person" role="UI" nxt_agent="C" nite:id="IDIAP_IS1003d_A.foa.55"/>
+    <foa endtime="163.48" starttime="151.68" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.56"/>
+    <foa endtime="166.68" starttime="163.48" type="person" role="UI" nxt_agent="C" nite:id="IDIAP_IS1003d_A.foa.57"/>
+    <foa endtime="179.28" starttime="166.68" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.58"/>
+    <foa endtime="180.48" starttime="179.28" type="person" role="ME" nxt_agent="D" nite:id="IDIAP_IS1003d_A.foa.59"/>
+    <foa endtime="184.88" starttime="180.48" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.60"/>
+    <foa endtime="186.08" starttime="184.88" type="person" role="ME" nxt_agent="D" nite:id="IDIAP_IS1003d_A.foa.61"/>
+    <foa endtime="186.88" starttime="186.08" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.62"/>
+    <foa endtime="187.48" starttime="186.88" type="person" role="UI" nxt_agent="C" nite:id="IDIAP_IS1003d_A.foa.63"/>
+    <foa endtime="190.48" starttime="187.48" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.64"/>
+    <foa endtime="191.28" starttime="190.48" type="person" role="UI" nxt_agent="C" nite:id="IDIAP_IS1003d_A.foa.65"/>
+    <foa endtime="196.08" starttime="191.28" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.66"/>
+    <foa endtime="197.28" starttime="196.08" type="person" role="UI" nxt_agent="C" nite:id="IDIAP_IS1003d_A.foa.67"/>
+    <foa endtime="202.48" starttime="197.28" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.68"/>
+    <foa endtime="204.48" starttime="202.48" type="person" role="ME" nxt_agent="D" nite:id="IDIAP_IS1003d_A.foa.69"/>
+    <foa endtime="211.68" starttime="204.48" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.70"/>
+    <foa endtime="212.28" starttime="211.68" type="person" role="UI" nxt_agent="C" nite:id="IDIAP_IS1003d_A.foa.71"/>
+    <foa endtime="213.48" starttime="212.28" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.72"/>
+    <foa endtime="215.48" starttime="213.48" type="person" role="UI" nxt_agent="C" nite:id="IDIAP_IS1003d_A.foa.73"/>
+    <foa endtime="230.48" starttime="215.48" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.74"/>
+    <foa endtime="231.28" starttime="230.48" type="person" role="UI" nxt_agent="C" nite:id="IDIAP_IS1003d_A.foa.75"/>
+    <foa endtime="233.28" starttime="231.28" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.76"/>
+    <foa endtime="234.48" starttime="233.28" type="person" role="UI" nxt_agent="C" nite:id="IDIAP_IS1003d_A.foa.77"/>
+    <foa endtime="235.08" starttime="234.48" type="person" role="ME" nxt_agent="D" nite:id="IDIAP_IS1003d_A.foa.78"/>
+    <foa endtime="236.08" starttime="235.08" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.79"/>
+    <foa endtime="236.48" starttime="236.08" type="person" role="ID" nxt_agent="B" nite:id="IDIAP_IS1003d_A.foa.80"/>
+    <foa endtime="250.28" starttime="236.48" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.81"/>
+    <foa endtime="251.48" starttime="250.28" type="person" role="UI" nxt_agent="C" nite:id="IDIAP_IS1003d_A.foa.82"/>
+    <foa endtime="267.88" starttime="251.48" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.83"/>
+    <foa endtime="269.88" starttime="267.88" type="person" role="UI" nxt_agent="C" nite:id="IDIAP_IS1003d_A.foa.84"/>
+    <foa endtime="270.48" starttime="269.88" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.85"/>
+    <foa endtime="272.28" starttime="270.48" type="person" role="UI" nxt_agent="C" nite:id="IDIAP_IS1003d_A.foa.86"/>
+    <foa endtime="273.08" starttime="272.28" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.87"/>
+    <foa endtime="277.68" starttime="273.08" type="person" role="ID" nxt_agent="B" nite:id="IDIAP_IS1003d_A.foa.88"/>
+    <foa endtime="281.08" starttime="277.68" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.89"/>
+    <foa endtime="283.48" starttime="281.08" type="person" role="UI" nxt_agent="C" nite:id="IDIAP_IS1003d_A.foa.90"/>
+    <foa endtime="284.08" starttime="283.48" type="person" role="ID" nxt_agent="B" nite:id="IDIAP_IS1003d_A.foa.91"/>
+    <foa endtime="287.08" starttime="284.08" type="person" role="ME" nxt_agent="D" nite:id="IDIAP_IS1003d_A.foa.92"/>
+    <foa endtime="287.88" starttime="287.08" type="person" role="ID" nxt_agent="B" nite:id="IDIAP_IS1003d_A.foa.93"/>
+    <foa endtime="289.68" starttime="287.88" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.94"/>
+    <foa endtime="291.68" starttime="289.68" type="person" role="ID" nxt_agent="B" nite:id="IDIAP_IS1003d_A.foa.95"/>
+    <foa endtime="306.84" starttime="291.68" type="person" role="ME" nxt_agent="D" nite:id="IDIAP_IS1003d_A.foa.96"/>
+    <foa endtime="308.24" starttime="306.84" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.97"/>
+    <foa endtime="310.36" starttime="308.24" type="person" role="ID" nxt_agent="B" nite:id="IDIAP_IS1003d_A.foa.98"/>
+    <foa endtime="313.24" starttime="310.36" type="person" role="ME" nxt_agent="D" nite:id="IDIAP_IS1003d_A.foa.99"/>
+    <foa endtime="313.88" starttime="313.24" type="person" role="UI" nxt_agent="C" nite:id="IDIAP_IS1003d_A.foa.100"/>
+    <foa endtime="314.52" starttime="313.88" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.101"/>
+    <foa endtime="315.48" starttime="314.52" type="person" role="ME" nxt_agent="D" nite:id="IDIAP_IS1003d_A.foa.102"/>
+    <foa endtime="319.96" starttime="315.48" type="person" role="ID" nxt_agent="B" nite:id="IDIAP_IS1003d_A.foa.103"/>
+    <foa endtime="320.28" starttime="319.96" type="person" role="ME" nxt_agent="D" nite:id="IDIAP_IS1003d_A.foa.104"/>
+    <foa endtime="321.24" starttime="320.28" type="person" role="UI" nxt_agent="C" nite:id="IDIAP_IS1003d_A.foa.105"/>
+    <foa endtime="322.52" starttime="321.24" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.106"/>
+    <foa endtime="323.8" starttime="322.52" type="person" role="ME" nxt_agent="D" nite:id="IDIAP_IS1003d_A.foa.107"/>
+    <foa endtime="325.72" starttime="323.8" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.108"/>
+    <foa endtime="332.12" starttime="325.72" type="person" role="UI" nxt_agent="C" nite:id="IDIAP_IS1003d_A.foa.109"/>
+    <foa endtime="333.08" starttime="332.12" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.110"/>
+    <foa endtime="334.68" starttime="333.08" type="person" role="UI" nxt_agent="C" nite:id="IDIAP_IS1003d_A.foa.111"/>
+    <foa endtime="337.24" starttime="334.68" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.112"/>
+    <foa endtime="348.44" starttime="337.24" type="person" role="ID" nxt_agent="B" nite:id="IDIAP_IS1003d_A.foa.113"/>
+    <foa endtime="349.72" starttime="348.44" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.114"/>
+    <foa endtime="357.08" starttime="349.72" type="person" role="ID" nxt_agent="B" nite:id="IDIAP_IS1003d_A.foa.115"/>
+    <foa endtime="359.32" starttime="357.08" type="person" role="ME" nxt_agent="D" nite:id="IDIAP_IS1003d_A.foa.116"/>
+    <foa endtime="360.28" starttime="359.32" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.117"/>
+    <foa endtime="363.16" starttime="360.28" type="person" role="ID" nxt_agent="B" nite:id="IDIAP_IS1003d_A.foa.118"/>
+    <foa endtime="364.12" starttime="363.16" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.119"/>
+    <foa endtime="367.64" starttime="364.12" type="person" role="ID" nxt_agent="B" nite:id="IDIAP_IS1003d_A.foa.120"/>
+    <foa endtime="368.6" starttime="367.64" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.121"/>
+    <foa endtime="369.24" starttime="368.6" type="person" role="ID" nxt_agent="B" nite:id="IDIAP_IS1003d_A.foa.122"/>
+    <foa endtime="371.48" starttime="369.24" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.123"/>
+    <foa endtime="372.76" starttime="371.48" type="person" role="ME" nxt_agent="D" nite:id="IDIAP_IS1003d_A.foa.124"/>
+    <foa endtime="375.96" starttime="372.76" type="person" role="ID" nxt_agent="B" nite:id="IDIAP_IS1003d_A.foa.125"/>
+    <foa endtime="376.6" starttime="375.96" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.126"/>
+    <foa endtime="377.56" starttime="376.6" type="person" role="ID" nxt_agent="B" nite:id="IDIAP_IS1003d_A.foa.127"/>
+    <foa endtime="378.52" starttime="377.56" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.128"/>
+    <foa endtime="380.44" starttime="378.52" type="person" role="ID" nxt_agent="B" nite:id="IDIAP_IS1003d_A.foa.129"/>
+    <foa endtime="384.92" starttime="380.44" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.130"/>
+    <foa endtime="388.76" starttime="384.92" type="person" role="ME" nxt_agent="D" nite:id="IDIAP_IS1003d_A.foa.131"/>
+    <foa endtime="390.04" starttime="388.76" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.132"/>
+    <foa endtime="404.44" starttime="390.04" type="person" role="ME" nxt_agent="D" nite:id="IDIAP_IS1003d_A.foa.133"/>
+    <foa endtime="407.64" starttime="404.44" type="place" place="whiteboard" nite:id="IDIAP_IS1003d_A.foa.134"/>
+    <foa endtime="409.56" starttime="407.64" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.135"/>
+    <foa endtime="410.84" starttime="409.56" type="place" place="whiteboard" nite:id="IDIAP_IS1003d_A.foa.136"/>
+    <foa endtime="413.4" starttime="410.84" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.137"/>
+    <foa endtime="426.84" starttime="413.4" type="place" place="whiteboard" nite:id="IDIAP_IS1003d_A.foa.138"/>
+    <foa endtime="428.12" starttime="426.84" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.139"/>
+    <foa endtime="429.72" starttime="428.12" type="person" role="ME" nxt_agent="D" nite:id="IDIAP_IS1003d_A.foa.140"/>
+    <foa endtime="432.6" starttime="429.72" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.141"/>
+    <foa endtime="440.28" starttime="432.6" type="person" role="ME" nxt_agent="D" nite:id="IDIAP_IS1003d_A.foa.142"/>
+    <foa endtime="442.2" starttime="440.28" type="place" place="whiteboard" nite:id="IDIAP_IS1003d_A.foa.143"/>
+    <foa endtime="443.48" starttime="442.2" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.144"/>
+    <foa endtime="455.32" starttime="443.48" type="place" place="whiteboard" nite:id="IDIAP_IS1003d_A.foa.145"/>
+    <foa endtime="457.88" starttime="455.32" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.146"/>
+    <foa endtime="464.92" starttime="457.88" type="place" place="whiteboard" nite:id="IDIAP_IS1003d_A.foa.147"/>
+    <foa endtime="470.68" starttime="464.92" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.148"/>
+    <foa endtime="471.32" starttime="470.68" type="place" place="whiteboard" nite:id="IDIAP_IS1003d_A.foa.149"/>
+    <foa endtime="499.48" starttime="471.32" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.150"/>
+    <foa endtime="500.44" starttime="499.48" type="place" place="whiteboard" nite:id="IDIAP_IS1003d_A.foa.151"/>
+    <foa endtime="501.08" starttime="500.44" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.152"/>
+    <foa endtime="502.36" starttime="501.08" type="place" place="whiteboard" nite:id="IDIAP_IS1003d_A.foa.153"/>
+    <foa endtime="512.92" starttime="502.36" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.154"/>
+    <foa endtime="514.84" starttime="512.92" type="place" place="whiteboard" nite:id="IDIAP_IS1003d_A.foa.155"/>
+    <foa endtime="517.08" starttime="514.84" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.156"/>
+    <foa endtime="517.72" starttime="517.08" type="person" role="UI" nxt_agent="C" nite:id="IDIAP_IS1003d_A.foa.157"/>
+    <foa endtime="527.64" starttime="517.72" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.158"/>
+    <foa endtime="528.28" starttime="527.64" type="unspecified" nite:id="IDIAP_IS1003d_A.foa.159"/>
+    <foa endtime="541.08" starttime="528.28" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.160"/>
+    <foa endtime="542.36" starttime="541.08" type="place" place="whiteboard" nite:id="IDIAP_IS1003d_A.foa.161"/>
+    <foa endtime="543.64" starttime="542.36" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.162"/>
+    <foa endtime="545.24" starttime="543.64" type="place" place="whiteboard" nite:id="IDIAP_IS1003d_A.foa.163"/>
+    <foa endtime="547.16" starttime="545.24" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.164"/>
+    <foa endtime="548.12" starttime="547.16" type="place" place="whiteboard" nite:id="IDIAP_IS1003d_A.foa.165"/>
+    <foa endtime="550.36" starttime="548.12" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.166"/>
+    <foa endtime="552.6" starttime="550.36" type="place" place="whiteboard" nite:id="IDIAP_IS1003d_A.foa.167"/>
+    <foa endtime="553.56" starttime="552.6" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.168"/>
+    <foa endtime="554.84" starttime="553.56" type="place" place="whiteboard" nite:id="IDIAP_IS1003d_A.foa.169"/>
+    <foa endtime="556.12" starttime="554.84" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.170"/>
+    <foa endtime="557.08" starttime="556.12" type="place" place="whiteboard" nite:id="IDIAP_IS1003d_A.foa.171"/>
+    <foa endtime="557.72" starttime="557.08" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.172"/>
+    <foa endtime="560.28" starttime="557.72" type="place" place="whiteboard" nite:id="IDIAP_IS1003d_A.foa.173"/>
+    <foa endtime="564.76" starttime="560.28" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.174"/>
+    <foa endtime="567.32" starttime="564.76" type="place" place="whiteboard" nite:id="IDIAP_IS1003d_A.foa.175"/>
+    <foa endtime="567.96" starttime="567.32" type="person" role="ID" nxt_agent="B" nite:id="IDIAP_IS1003d_A.foa.176"/>
+    <foa endtime="572.44" starttime="567.96" type="place" place="whiteboard" nite:id="IDIAP_IS1003d_A.foa.177"/>
+    <foa endtime="573.4" starttime="572.44" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.178"/>
+    <foa endtime="574.36" starttime="573.4" type="unspecified" nite:id="IDIAP_IS1003d_A.foa.179"/>
+    <foa endtime="575.64" starttime="574.36" type="person" role="ID" nxt_agent="B" nite:id="IDIAP_IS1003d_A.foa.180"/>
+    <foa endtime="578.84" starttime="575.64" type="place" place="whiteboard" nite:id="IDIAP_IS1003d_A.foa.181"/>
+    <foa endtime="579.48" starttime="578.84" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.182"/>
+    <foa endtime="581.96" starttime="579.48" type="place" place="whiteboard" nite:id="IDIAP_IS1003d_A.foa.183"/>
+    <foa endtime="583.24" starttime="581.96" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.184"/>
+    <foa endtime="583.8" starttime="583.24" type="person" role="UI" nxt_agent="C" nite:id="IDIAP_IS1003d_A.foa.185"/>
+    <foa endtime="588.04" starttime="583.8" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.186"/>
+    <foa endtime="589.0" starttime="588.04" type="person" role="ID" nxt_agent="B" nite:id="IDIAP_IS1003d_A.foa.187"/>
+    <foa endtime="594.44" starttime="589.0" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.188"/>
+    <foa endtime="596.36" starttime="594.44" type="place" place="whiteboard" nite:id="IDIAP_IS1003d_A.foa.189"/>
+    <foa endtime="597.32" starttime="596.36" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.190"/>
+    <foa endtime="598.92" starttime="597.32" type="person" role="UI" nxt_agent="C" nite:id="IDIAP_IS1003d_A.foa.191"/>
+    <foa endtime="600.2" starttime="598.92" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.192"/>
+    <foa endtime="601.8" starttime="600.2" type="person" role="UI" nxt_agent="C" nite:id="IDIAP_IS1003d_A.foa.193"/>
+    <foa endtime="607.24" starttime="601.8" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.194"/>
+    <foa endtime="611.72" starttime="607.24" type="person" role="UI" nxt_agent="C" nite:id="IDIAP_IS1003d_A.foa.195"/>
+    <foa endtime="613.32" starttime="611.72" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.196"/>
+    <foa endtime="624.2" starttime="613.32" type="place" place="whiteboard" nite:id="IDIAP_IS1003d_A.foa.197"/>
+    <foa endtime="626.12" starttime="624.2" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.198"/>
+    <foa endtime="627.4" starttime="626.12" type="person" role="ID" nxt_agent="B" nite:id="IDIAP_IS1003d_A.foa.199"/>
+    <foa endtime="629.0" starttime="627.4" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.200"/>
+    <foa endtime="630.28" starttime="629.0" type="place" place="whiteboard" nite:id="IDIAP_IS1003d_A.foa.201"/>
+    <foa endtime="634.76" starttime="630.28" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.202"/>
+    <foa endtime="635.4" starttime="634.76" type="person" role="ID" nxt_agent="B" nite:id="IDIAP_IS1003d_A.foa.203"/>
+    <foa endtime="635.72" starttime="635.4" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.204"/>
+    <foa endtime="638.6" starttime="635.72" type="place" place="whiteboard" nite:id="IDIAP_IS1003d_A.foa.205"/>
+    <foa endtime="642.44" starttime="638.6" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.206"/>
+    <foa endtime="644.04" starttime="642.44" type="place" place="whiteboard" nite:id="IDIAP_IS1003d_A.foa.207"/>
+    <foa endtime="645.0" starttime="644.04" type="person" role="ID" nxt_agent="B" nite:id="IDIAP_IS1003d_A.foa.208"/>
+    <foa endtime="648.2" starttime="645.0" type="place" place="whiteboard" nite:id="IDIAP_IS1003d_A.foa.209"/>
+    <foa endtime="649.16" starttime="648.2" type="person" role="UI" nxt_agent="C" nite:id="IDIAP_IS1003d_A.foa.210"/>
+    <foa endtime="650.12" starttime="649.16" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.211"/>
+    <foa endtime="651.4" starttime="650.12" type="person" role="UI" nxt_agent="C" nite:id="IDIAP_IS1003d_A.foa.212"/>
+    <foa endtime="654.92" starttime="651.4" type="place" place="whiteboard" nite:id="IDIAP_IS1003d_A.foa.213"/>
+    <foa endtime="658.12" starttime="654.92" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.214"/>
+    <foa endtime="659.4" starttime="658.12" type="place" place="whiteboard" nite:id="IDIAP_IS1003d_A.foa.215"/>
+    <foa endtime="666.48" starttime="659.4" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.216"/>
+    <foa endtime="667.44" starttime="666.48" type="place" place="whiteboard" nite:id="IDIAP_IS1003d_A.foa.217"/>
+    <foa endtime="670.24" starttime="667.44" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.218"/>
+    <foa endtime="670.88" starttime="670.24" type="place" place="whiteboard" nite:id="IDIAP_IS1003d_A.foa.219"/>
+    <foa endtime="671.52" starttime="670.88" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.220"/>
+    <foa endtime="671.84" starttime="671.52" type="person" role="UI" nxt_agent="C" nite:id="IDIAP_IS1003d_A.foa.221"/>
+    <foa endtime="679.2" starttime="671.84" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.222"/>
+    <foa endtime="682.08" starttime="679.2" type="place" place="whiteboard" nite:id="IDIAP_IS1003d_A.foa.223"/>
+    <foa endtime="686.24" starttime="682.08" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.224"/>
+    <foa endtime="687.2" starttime="686.24" type="place" place="whiteboard" nite:id="IDIAP_IS1003d_A.foa.225"/>
+    <foa endtime="689.44" starttime="687.2" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.226"/>
+    <foa endtime="698.16" starttime="689.44" type="place" place="whiteboard" nite:id="IDIAP_IS1003d_A.foa.227"/>
+    <foa endtime="702.0" starttime="698.16" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.228"/>
+    <foa endtime="710.32" starttime="702.0" type="place" place="whiteboard" nite:id="IDIAP_IS1003d_A.foa.229"/>
+    <foa endtime="717.04" starttime="710.32" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.230"/>
+    <foa endtime="718.0" starttime="717.04" type="place" place="whiteboard" nite:id="IDIAP_IS1003d_A.foa.231"/>
+    <foa endtime="722.88" starttime="718.0" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.232"/>
+    <foa endtime="726.08" starttime="722.88" type="place" place="whiteboard" nite:id="IDIAP_IS1003d_A.foa.233"/>
+    <foa endtime="727.68" starttime="726.08" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.234"/>
+    <foa endtime="728.04" starttime="727.68" type="place" place="whiteboard" nite:id="IDIAP_IS1003d_A.foa.235"/>
+    <foa endtime="728.68" starttime="728.04" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.236"/>
+    <foa endtime="729.32" starttime="728.68" type="person" role="UI" nxt_agent="C" nite:id="IDIAP_IS1003d_A.foa.237"/>
+    <foa endtime="740.0" starttime="729.32" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.238"/>
+    <foa endtime="742.56" starttime="740.0" type="person" role="UI" nxt_agent="C" nite:id="IDIAP_IS1003d_A.foa.239"/>
+    <foa endtime="743.52" starttime="742.56" type="person" role="ID" nxt_agent="B" nite:id="IDIAP_IS1003d_A.foa.240"/>
+    <foa endtime="745.12" starttime="743.52" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.241"/>
+    <foa endtime="753.44" starttime="745.12" type="person" role="UI" nxt_agent="C" nite:id="IDIAP_IS1003d_A.foa.242"/>
+    <foa endtime="755.68" starttime="753.44" type="place" place="whiteboard" nite:id="IDIAP_IS1003d_A.foa.243"/>
+    <foa endtime="756.0" starttime="755.68" type="person" role="UI" nxt_agent="C" nite:id="IDIAP_IS1003d_A.foa.244"/>
+    <foa endtime="759.6" starttime="756.0" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.245"/>
+    <foa endtime="760.24" starttime="759.6" type="place" place="whiteboard" nite:id="IDIAP_IS1003d_A.foa.246"/>
+    <foa endtime="761.84" starttime="760.24" type="person" role="UI" nxt_agent="C" nite:id="IDIAP_IS1003d_A.foa.247"/>
+    <foa endtime="762.48" starttime="761.84" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.248"/>
+    <foa endtime="766.96" starttime="762.48" type="place" place="whiteboard" nite:id="IDIAP_IS1003d_A.foa.249"/>
+    <foa endtime="767.28" starttime="766.96" type="person" role="ID" nxt_agent="B" nite:id="IDIAP_IS1003d_A.foa.250"/>
+    <foa endtime="768.88" starttime="767.28" type="place" place="whiteboard" nite:id="IDIAP_IS1003d_A.foa.251"/>
+    <foa endtime="771.44" starttime="768.88" type="person" role="ID" nxt_agent="B" nite:id="IDIAP_IS1003d_A.foa.252"/>
+    <foa endtime="773.68" starttime="771.44" type="place" place="whiteboard" nite:id="IDIAP_IS1003d_A.foa.253"/>
+    <foa endtime="774.32" starttime="773.68" type="person" role="ID" nxt_agent="B" nite:id="IDIAP_IS1003d_A.foa.254"/>
+    <foa endtime="775.6" starttime="774.32" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.255"/>
+    <foa endtime="776.88" starttime="775.6" type="person" role="ID" nxt_agent="B" nite:id="IDIAP_IS1003d_A.foa.256"/>
+    <foa endtime="794.08" starttime="776.88" type="place" place="whiteboard" nite:id="IDIAP_IS1003d_A.foa.257"/>
+    <foa endtime="794.84" starttime="794.08" type="person" role="ID" nxt_agent="B" nite:id="IDIAP_IS1003d_A.foa.258"/>
+    <foa endtime="797.72" starttime="794.84" type="place" place="whiteboard" nite:id="IDIAP_IS1003d_A.foa.259"/>
+    <foa endtime="798.68" starttime="797.72" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.260"/>
+    <foa endtime="805.88" starttime="798.68" type="place" place="whiteboard" nite:id="IDIAP_IS1003d_A.foa.261"/>
+    <foa endtime="808.48" starttime="805.88" type="person" role="ID" nxt_agent="B" nite:id="IDIAP_IS1003d_A.foa.262"/>
+    <foa endtime="809.04" starttime="808.48" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.263"/>
+    <foa endtime="809.44" starttime="809.04" type="place" place="whiteboard" nite:id="IDIAP_IS1003d_A.foa.264"/>
+    <foa endtime="811.48" starttime="809.44" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.265"/>
+    <foa endtime="813.08" starttime="811.48" type="person" role="UI" nxt_agent="C" nite:id="IDIAP_IS1003d_A.foa.266"/>
+    <foa endtime="814.04" starttime="813.08" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.267"/>
+    <foa endtime="815.0" starttime="814.04" type="place" place="whiteboard" nite:id="IDIAP_IS1003d_A.foa.268"/>
+    <foa endtime="819.8" starttime="815.0" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.269"/>
+    <foa endtime="820.76" starttime="819.8" type="person" role="UI" nxt_agent="C" nite:id="IDIAP_IS1003d_A.foa.270"/>
+    <foa endtime="825.56" starttime="820.76" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.271"/>
+    <foa endtime="828.12" starttime="825.56" type="person" role="UI" nxt_agent="C" nite:id="IDIAP_IS1003d_A.foa.272"/>
+    <foa endtime="829.08" starttime="828.12" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.273"/>
+    <foa endtime="833.6" starttime="829.08" type="person" role="UI" nxt_agent="C" nite:id="IDIAP_IS1003d_A.foa.274"/>
+    <foa endtime="835.48" starttime="833.6" type="place" place="whiteboard" nite:id="IDIAP_IS1003d_A.foa.275"/>
+    <foa endtime="836.76" starttime="835.48" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.276"/>
+    <foa endtime="837.08" starttime="836.76" type="person" role="ID" nxt_agent="B" nite:id="IDIAP_IS1003d_A.foa.277"/>
+    <foa endtime="838.36" starttime="837.08" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.278"/>
+    <foa endtime="839.64" starttime="838.36" type="person" role="ID" nxt_agent="B" nite:id="IDIAP_IS1003d_A.foa.279"/>
+    <foa endtime="840.6" starttime="839.64" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.280"/>
+    <foa endtime="841.24" starttime="840.6" type="person" role="ID" nxt_agent="B" nite:id="IDIAP_IS1003d_A.foa.281"/>
+    <foa endtime="846.68" starttime="841.24" type="place" place="whiteboard" nite:id="IDIAP_IS1003d_A.foa.282"/>
+    <foa endtime="847.32" starttime="846.68" type="person" role="ID" nxt_agent="B" nite:id="IDIAP_IS1003d_A.foa.283"/>
+    <foa endtime="849.24" starttime="847.32" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.284"/>
+    <foa endtime="854.36" starttime="849.24" type="person" role="ID" nxt_agent="B" nite:id="IDIAP_IS1003d_A.foa.285"/>
+    <foa endtime="855.32" starttime="854.36" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.286"/>
+    <foa endtime="859.48" starttime="855.32" type="place" place="whiteboard" nite:id="IDIAP_IS1003d_A.foa.287"/>
+    <foa endtime="861.12" starttime="859.48" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.288"/>
+    <foa endtime="863.32" starttime="861.12" type="place" place="whiteboard" nite:id="IDIAP_IS1003d_A.foa.289"/>
+    <foa endtime="865.88" starttime="863.32" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.290"/>
+    <foa endtime="867.4" starttime="865.88" type="place" place="whiteboard" nite:id="IDIAP_IS1003d_A.foa.291"/>
+    <foa endtime="867.96" starttime="867.4" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.292"/>
+    <foa endtime="869.08" starttime="867.96" type="place" place="whiteboard" nite:id="IDIAP_IS1003d_A.foa.293"/>
+    <foa endtime="870.12" starttime="869.08" type="person" role="ID" nxt_agent="B" nite:id="IDIAP_IS1003d_A.foa.294"/>
+    <foa endtime="871.96" starttime="870.12" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.295"/>
+    <foa endtime="878.68" starttime="871.96" type="place" place="whiteboard" nite:id="IDIAP_IS1003d_A.foa.296"/>
+    <foa endtime="880.4" starttime="878.68" type="person" role="UI" nxt_agent="C" nite:id="IDIAP_IS1003d_A.foa.297"/>
+    <foa endtime="882.4" starttime="880.4" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.298"/>
+    <foa endtime="882.52" starttime="882.4" type="place" place="whiteboard" nite:id="IDIAP_IS1003d_A.foa.299"/>
+    <foa endtime="884.76" starttime="882.52" type="place" place="whiteboard" nite:id="IDIAP_IS1003d_A.foa.300"/>
+    <foa endtime="885.72" starttime="884.76" type="unspecified" nite:id="IDIAP_IS1003d_A.foa.301"/>
+    <foa endtime="887.0" starttime="885.72" type="place" place="whiteboard" nite:id="IDIAP_IS1003d_A.foa.302"/>
+    <foa endtime="888.04" starttime="887.0" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.303"/>
+    <foa endtime="890.92" starttime="888.04" type="place" place="whiteboard" nite:id="IDIAP_IS1003d_A.foa.304"/>
+    <foa endtime="891.56" starttime="890.92" type="person" role="ID" nxt_agent="B" nite:id="IDIAP_IS1003d_A.foa.305"/>
+    <foa endtime="906.28" starttime="891.56" type="place" place="whiteboard" nite:id="IDIAP_IS1003d_A.foa.306"/>
+    <foa endtime="907.24" starttime="906.28" type="person" role="ID" nxt_agent="B" nite:id="IDIAP_IS1003d_A.foa.307"/>
+    <foa endtime="908.52" starttime="907.24" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.308"/>
+    <foa endtime="909.8" starttime="908.52" type="person" role="ID" nxt_agent="B" nite:id="IDIAP_IS1003d_A.foa.309"/>
+    <foa endtime="911.4" starttime="909.8" type="place" place="whiteboard" nite:id="IDIAP_IS1003d_A.foa.310"/>
+    <foa endtime="912.04" starttime="911.4" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.311"/>
+    <foa endtime="913.0" starttime="912.04" type="place" place="whiteboard" nite:id="IDIAP_IS1003d_A.foa.312"/>
+    <foa endtime="913.96" starttime="913.0" type="person" role="UI" nxt_agent="C" nite:id="IDIAP_IS1003d_A.foa.313"/>
+    <foa endtime="916.84" starttime="913.96" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.314"/>
+    <foa endtime="917.8" starttime="916.84" type="place" place="whiteboard" nite:id="IDIAP_IS1003d_A.foa.315"/>
+    <foa endtime="919.72" starttime="917.8" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.316"/>
+    <foa endtime="922.28" starttime="919.72" type="person" role="UI" nxt_agent="C" nite:id="IDIAP_IS1003d_A.foa.317"/>
+    <foa endtime="924.64" starttime="922.28" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.318"/>
+    <foa endtime="927.2" starttime="924.64" type="place" place="whiteboard" nite:id="IDIAP_IS1003d_A.foa.319"/>
+    <foa endtime="929.48" starttime="927.2" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.320"/>
+    <foa endtime="933.08" starttime="929.48" type="person" role="UI" nxt_agent="C" nite:id="IDIAP_IS1003d_A.foa.321"/>
+    <foa endtime="936.4" starttime="933.08" type="place" place="whiteboard" nite:id="IDIAP_IS1003d_A.foa.322"/>
+    <foa endtime="938.68" starttime="936.4" type="person" role="UI" nxt_agent="C" nite:id="IDIAP_IS1003d_A.foa.323"/>
+    <foa endtime="940.76" starttime="938.68" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.324"/>
+    <foa endtime="941.24" starttime="940.76" type="person" role="ID" nxt_agent="B" nite:id="IDIAP_IS1003d_A.foa.325"/>
+    <foa endtime="949.4" starttime="941.24" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.326"/>
+    <foa endtime="953.64" starttime="949.4" type="person" role="UI" nxt_agent="C" nite:id="IDIAP_IS1003d_A.foa.327"/>
+    <foa endtime="954.4" starttime="953.64" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.328"/>
+    <foa endtime="955.28" starttime="954.4" type="person" role="UI" nxt_agent="C" nite:id="IDIAP_IS1003d_A.foa.329"/>
+    <foa endtime="956.92" starttime="955.28" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.330"/>
+    <foa endtime="958.28" starttime="956.92" type="person" role="UI" nxt_agent="C" nite:id="IDIAP_IS1003d_A.foa.331"/>
+    <foa endtime="959.0" starttime="958.28" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.332"/>
+    <foa endtime="960.92" starttime="959.0" type="person" role="UI" nxt_agent="C" nite:id="IDIAP_IS1003d_A.foa.333"/>
+    <foa endtime="962.84" starttime="960.92" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.334"/>
+    <foa endtime="965.44" starttime="962.84" type="person" role="UI" nxt_agent="C" nite:id="IDIAP_IS1003d_A.foa.335"/>
+    <foa endtime="966.2" starttime="965.44" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.336"/>
+    <foa endtime="968.8" starttime="966.2" type="person" role="UI" nxt_agent="C" nite:id="IDIAP_IS1003d_A.foa.337"/>
+    <foa endtime="977.76" starttime="968.8" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.338"/>
+    <foa endtime="983.72" starttime="977.76" type="place" place="whiteboard" nite:id="IDIAP_IS1003d_A.foa.339"/>
+    <foa endtime="991.4" starttime="983.72" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.340"/>
+    <foa endtime="992.8" starttime="991.4" type="place" place="whiteboard" nite:id="IDIAP_IS1003d_A.foa.341"/>
+    <foa endtime="995.16" starttime="992.8" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.342"/>
+    <foa endtime="995.92" starttime="995.16" type="person" role="UI" nxt_agent="C" nite:id="IDIAP_IS1003d_A.foa.343"/>
+    <foa endtime="996.84" starttime="995.92" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.344"/>
+    <foa endtime="999.4" starttime="996.84" type="person" role="UI" nxt_agent="C" nite:id="IDIAP_IS1003d_A.foa.345"/>
+    <foa endtime="1001.64" starttime="999.4" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.346"/>
+    <foa endtime="1002.72" starttime="1001.64" type="person" role="UI" nxt_agent="C" nite:id="IDIAP_IS1003d_A.foa.347"/>
+    <foa endtime="1002.96" starttime="1002.72" type="person" role="ID" nxt_agent="B" nite:id="IDIAP_IS1003d_A.foa.348"/>
+    <foa endtime="1003.48" starttime="1002.96" type="place" place="whiteboard" nite:id="IDIAP_IS1003d_A.foa.349"/>
+    <foa endtime="1004.44" starttime="1003.48" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.350"/>
+    <foa endtime="1004.64" starttime="1004.44" type="person" role="UI" nxt_agent="C" nite:id="IDIAP_IS1003d_A.foa.351"/>
+    <foa endtime="1004.96" starttime="1004.64" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.352"/>
+    <foa endtime="1005.6" starttime="1004.96" type="person" role="UI" nxt_agent="C" nite:id="IDIAP_IS1003d_A.foa.353"/>
+    <foa endtime="1006.48" starttime="1005.6" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.354"/>
+    <foa endtime="1012.96" starttime="1006.48" type="place" place="whiteboard" nite:id="IDIAP_IS1003d_A.foa.355"/>
+    <foa endtime="1013.6" starttime="1012.96" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.356"/>
+    <foa endtime="1017.12" starttime="1013.6" type="place" place="whiteboard" nite:id="IDIAP_IS1003d_A.foa.357"/>
+    <foa endtime="1018.08" starttime="1017.12" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.358"/>
+    <foa endtime="1019.04" starttime="1018.08" type="place" place="whiteboard" nite:id="IDIAP_IS1003d_A.foa.359"/>
+    <foa endtime="1024.32" starttime="1019.04" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.360"/>
+    <foa endtime="1026.0" starttime="1024.32" type="place" place="whiteboard" nite:id="IDIAP_IS1003d_A.foa.361"/>
+    <foa endtime="1027.04" starttime="1026.0" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.362"/>
+    <foa endtime="1027.88" starttime="1027.04" type="place" place="whiteboard" nite:id="IDIAP_IS1003d_A.foa.363"/>
+    <foa endtime="1028.6" starttime="1027.88" type="person" role="ID" nxt_agent="B" nite:id="IDIAP_IS1003d_A.foa.364"/>
+    <foa endtime="1029.24" starttime="1028.6" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.365"/>
+    <foa endtime="1034.76" starttime="1029.24" type="place" place="whiteboard" nite:id="IDIAP_IS1003d_A.foa.366"/>
+    <foa endtime="1036.8" starttime="1034.76" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.367"/>
+    <foa endtime="1040.16" starttime="1036.8" type="place" place="whiteboard" nite:id="IDIAP_IS1003d_A.foa.368"/>
+    <foa endtime="1040.84" starttime="1040.16" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.369"/>
+    <foa endtime="1057.36" starttime="1040.84" type="place" place="whiteboard" nite:id="IDIAP_IS1003d_A.foa.370"/>
+    <foa endtime="1058.28" starttime="1057.36" type="person" role="UI" nxt_agent="C" nite:id="IDIAP_IS1003d_A.foa.371"/>
+    <foa endtime="1058.6" starttime="1058.28" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.372"/>
+    <foa endtime="1061.88" starttime="1058.6" type="place" place="whiteboard" nite:id="IDIAP_IS1003d_A.foa.373"/>
+    <foa endtime="1063.04" starttime="1061.88" type="person" role="ID" nxt_agent="B" nite:id="IDIAP_IS1003d_A.foa.374"/>
+    <foa endtime="1065.56" starttime="1063.04" type="place" place="whiteboard" nite:id="IDIAP_IS1003d_A.foa.375"/>
+    <foa endtime="1066.28" starttime="1065.56" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.376"/>
+    <foa endtime="1068.4" starttime="1066.28" type="place" place="whiteboard" nite:id="IDIAP_IS1003d_A.foa.377"/>
+    <foa endtime="1069.68" starttime="1068.4" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.378"/>
+    <foa endtime="1070.68" starttime="1069.68" type="person" role="UI" nxt_agent="C" nite:id="IDIAP_IS1003d_A.foa.379"/>
+    <foa endtime="1071.32" starttime="1070.68" type="unspecified" nite:id="IDIAP_IS1003d_A.foa.380"/>
+    <foa endtime="1074.2" starttime="1071.32" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.381"/>
+    <foa endtime="1075.16" starttime="1074.2" type="person" role="UI" nxt_agent="C" nite:id="IDIAP_IS1003d_A.foa.382"/>
+    <foa endtime="1077.52" starttime="1075.16" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.383"/>
+    <foa endtime="1078.16" starttime="1077.52" type="person" role="UI" nxt_agent="C" nite:id="IDIAP_IS1003d_A.foa.384"/>
+    <foa endtime="1080.0" starttime="1078.16" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.385"/>
+    <foa endtime="1081.2" starttime="1080.0" type="person" role="UI" nxt_agent="C" nite:id="IDIAP_IS1003d_A.foa.386"/>
+    <foa endtime="1082.64" starttime="1081.2" type="person" role="ME" nxt_agent="D" nite:id="IDIAP_IS1003d_A.foa.387"/>
+    <foa endtime="1083.6" starttime="1082.64" type="person" role="UI" nxt_agent="C" nite:id="IDIAP_IS1003d_A.foa.388"/>
+    <foa endtime="1084.56" starttime="1083.6" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.389"/>
+    <foa endtime="1085.84" starttime="1084.56" type="person" role="UI" nxt_agent="C" nite:id="IDIAP_IS1003d_A.foa.390"/>
+    <foa endtime="1086.48" starttime="1085.84" type="person" role="ME" nxt_agent="D" nite:id="IDIAP_IS1003d_A.foa.391"/>
+    <foa endtime="1105.6" starttime="1086.48" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.392"/>
+    <foa endtime="1106.96" starttime="1105.6" type="place" place="whiteboard" nite:id="IDIAP_IS1003d_A.foa.393"/>
+    <foa endtime="1108.84" starttime="1106.96" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.394"/>
+    <foa endtime="1110.44" starttime="1108.84" type="person" role="UI" nxt_agent="C" nite:id="IDIAP_IS1003d_A.foa.395"/>
+    <foa endtime="1110.76" starttime="1110.44" type="person" role="ME" nxt_agent="D" nite:id="IDIAP_IS1003d_A.foa.396"/>
+    <foa endtime="1112.36" starttime="1110.76" type="person" role="ID" nxt_agent="B" nite:id="IDIAP_IS1003d_A.foa.397"/>
+    <foa endtime="1132.04" starttime="1112.36" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.398"/>
+    <foa endtime="1135.44" starttime="1132.04" type="person" role="UI" nxt_agent="C" nite:id="IDIAP_IS1003d_A.foa.399"/>
+    <foa endtime="1138.96" starttime="1135.44" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.400"/>
+    <foa endtime="1139.92" starttime="1138.96" type="person" role="ID" nxt_agent="B" nite:id="IDIAP_IS1003d_A.foa.401"/>
+    <foa endtime="1146.0" starttime="1139.92" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.402"/>
+    <foa endtime="1150.64" starttime="1146.0" type="place" place="slide-screen" nite:id="IDIAP_IS1003d_A.foa.403"/>
+    <foa endtime="1172.48" starttime="1150.64" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.404"/>
+    <foa endtime="1173.08" starttime="1172.48" type="person" role="ID" nxt_agent="B" nite:id="IDIAP_IS1003d_A.foa.405"/>
+    <foa endtime="1174.08" starttime="1173.08" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.406"/>
+    <foa endtime="1174.4" starttime="1174.08" type="person" role="ID" nxt_agent="B" nite:id="IDIAP_IS1003d_A.foa.407"/>
+    <foa endtime="1175.64" starttime="1174.4" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.408"/>
+    <foa endtime="1177.2" starttime="1175.64" type="person" role="ID" nxt_agent="B" nite:id="IDIAP_IS1003d_A.foa.409"/>
+    <foa endtime="1177.64" starttime="1177.2" type="person" role="ME" nxt_agent="D" nite:id="IDIAP_IS1003d_A.foa.410"/>
+    <foa endtime="1178.88" starttime="1177.64" type="person" role="ID" nxt_agent="B" nite:id="IDIAP_IS1003d_A.foa.411"/>
+    <foa endtime="1215.08" starttime="1178.88" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.412"/>
+    <foa endtime="1216.68" starttime="1215.08" type="person" role="ME" nxt_agent="D" nite:id="IDIAP_IS1003d_A.foa.413"/>
+    <foa endtime="1243.6" starttime="1216.68" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.414"/>
+    <foa endtime="1245.96" starttime="1243.6" type="person" role="ME" nxt_agent="D" nite:id="IDIAP_IS1003d_A.foa.415"/>
+    <foa endtime="1274.56" starttime="1245.96" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.416"/>
+    <foa endtime="1275.4" starttime="1274.56" type="person" role="ME" nxt_agent="D" nite:id="IDIAP_IS1003d_A.foa.417"/>
+    <foa endtime="1275.92" starttime="1275.4" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.418"/>
+    <foa endtime="1276.68" starttime="1275.92" type="person" role="ME" nxt_agent="D" nite:id="IDIAP_IS1003d_A.foa.419"/>
+    <foa endtime="1290.72" starttime="1276.68" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.420"/>
+    <foa endtime="1291.04" starttime="1290.72" type="person" role="ME" nxt_agent="D" nite:id="IDIAP_IS1003d_A.foa.421"/>
+    <foa endtime="1296.04" starttime="1291.04" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.422"/>
+    <foa endtime="1297.24" starttime="1296.04" type="person" role="ID" nxt_agent="B" nite:id="IDIAP_IS1003d_A.foa.423"/>
+    <foa endtime="1311.6" starttime="1297.24" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.424"/>
+    <foa endtime="1313.2" starttime="1311.6" type="person" role="ME" nxt_agent="D" nite:id="IDIAP_IS1003d_A.foa.425"/>
+    <foa endtime="1329.84" starttime="1313.2" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.426"/>
+    <foa endtime="1334.08" starttime="1329.84" type="person" role="UI" nxt_agent="C" nite:id="IDIAP_IS1003d_A.foa.427"/>
+    <foa endtime="1334.96" starttime="1334.08" type="person" role="ME" nxt_agent="D" nite:id="IDIAP_IS1003d_A.foa.428"/>
+    <foa endtime="1340.92" starttime="1334.96" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.429"/>
+    <foa endtime="1341.48" starttime="1340.92" type="person" role="ID" nxt_agent="B" nite:id="IDIAP_IS1003d_A.foa.430"/>
+    <foa endtime="1357.36" starttime="1341.48" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.431"/>
+    <foa endtime="1359.24" starttime="1357.36" type="person" role="ME" nxt_agent="D" nite:id="IDIAP_IS1003d_A.foa.432"/>
+    <foa endtime="1359.88" starttime="1359.24" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.433"/>
+    <foa endtime="1364.72" starttime="1359.88" type="person" role="ME" nxt_agent="D" nite:id="IDIAP_IS1003d_A.foa.434"/>
+    <foa endtime="1367.56" starttime="1364.72" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.435"/>
+    <foa endtime="1368.44" starttime="1367.56" type="person" role="ME" nxt_agent="D" nite:id="IDIAP_IS1003d_A.foa.436"/>
+    <foa endtime="1372.76" starttime="1368.44" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.437"/>
+    <foa endtime="1374.56" starttime="1372.76" type="person" role="ME" nxt_agent="D" nite:id="IDIAP_IS1003d_A.foa.438"/>
+    <foa endtime="1374.8" starttime="1374.56" type="person" role="ID" nxt_agent="B" nite:id="IDIAP_IS1003d_A.foa.439"/>
+    <foa endtime="1375.32" starttime="1374.8" type="person" role="ME" nxt_agent="D" nite:id="IDIAP_IS1003d_A.foa.440"/>
+    <foa endtime="1397.28" starttime="1375.32" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.441"/>
+    <foa endtime="1397.92" starttime="1397.28" type="person" role="ID" nxt_agent="B" nite:id="IDIAP_IS1003d_A.foa.442"/>
+    <foa endtime="1400.4" starttime="1397.92" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.443"/>
+    <foa endtime="1402.24" starttime="1400.4" type="person" role="ME" nxt_agent="D" nite:id="IDIAP_IS1003d_A.foa.444"/>
+    <foa endtime="1425.72" starttime="1402.24" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.445"/>
+    <foa endtime="1427.08" starttime="1425.72" type="person" role="ME" nxt_agent="D" nite:id="IDIAP_IS1003d_A.foa.446"/>
+    <foa endtime="1447.12" starttime="1427.08" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.447"/>
+    <foa endtime="1447.72" starttime="1447.12" type="person" role="ME" nxt_agent="D" nite:id="IDIAP_IS1003d_A.foa.448"/>
+    <foa endtime="1448.08" starttime="1447.72" type="person" role="ID" nxt_agent="B" nite:id="IDIAP_IS1003d_A.foa.449"/>
+    <foa endtime="1449.04" starttime="1448.08" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.450"/>
+    <foa endtime="1451.28" starttime="1449.04" type="person" role="ME" nxt_agent="D" nite:id="IDIAP_IS1003d_A.foa.451"/>
+    <foa endtime="1465.56" starttime="1451.28" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.452"/>
+    <foa endtime="1466.16" starttime="1465.56" type="person" role="ME" nxt_agent="D" nite:id="IDIAP_IS1003d_A.foa.453"/>
+    <foa endtime="1469.0" starttime="1466.16" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.454"/>
+    <foa endtime="1470.24" starttime="1469.0" type="person" role="ME" nxt_agent="D" nite:id="IDIAP_IS1003d_A.foa.455"/>
+    <foa endtime="1471.64" starttime="1470.24" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.456"/>
+    <foa endtime="1472.44" starttime="1471.64" type="person" role="ME" nxt_agent="D" nite:id="IDIAP_IS1003d_A.foa.457"/>
+    <foa endtime="1476.72" starttime="1472.44" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.458"/>
+    <foa endtime="1477.72" starttime="1476.72" type="person" role="ME" nxt_agent="D" nite:id="IDIAP_IS1003d_A.foa.459"/>
+    <foa endtime="1491.12" starttime="1477.72" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.460"/>
+    <foa endtime="1491.92" starttime="1491.12" type="person" role="ME" nxt_agent="D" nite:id="IDIAP_IS1003d_A.foa.461"/>
+    <foa endtime="1493.72" starttime="1491.92" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.462"/>
+    <foa endtime="1494.52" starttime="1493.72" type="person" role="ME" nxt_agent="D" nite:id="IDIAP_IS1003d_A.foa.463"/>
+    <foa endtime="1496.12" starttime="1494.52" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.464"/>
+    <foa endtime="1497.92" starttime="1496.12" type="person" role="ME" nxt_agent="D" nite:id="IDIAP_IS1003d_A.foa.465"/>
+    <foa endtime="1498.92" starttime="1497.92" type="person" role="ID" nxt_agent="B" nite:id="IDIAP_IS1003d_A.foa.466"/>
+    <foa endtime="1502.32" starttime="1498.92" type="person" role="ME" nxt_agent="D" nite:id="IDIAP_IS1003d_A.foa.467"/>
+    <foa endtime="1504.48" starttime="1502.32" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.468"/>
+    <foa endtime="1505.28" starttime="1504.48" type="person" role="UI" nxt_agent="C" nite:id="IDIAP_IS1003d_A.foa.469"/>
+    <foa endtime="1508.16" starttime="1505.28" type="place" place="slide-screen" nite:id="IDIAP_IS1003d_A.foa.470"/>
+    <foa endtime="1508.48" starttime="1508.16" type="person" role="UI" nxt_agent="C" nite:id="IDIAP_IS1003d_A.foa.471"/>
+    <foa endtime="1516.68" starttime="1508.48" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.472"/>
+    <foa endtime="1520.48" starttime="1516.68" type="person" role="ME" nxt_agent="D" nite:id="IDIAP_IS1003d_A.foa.473"/>
+    <foa endtime="1521.68" starttime="1520.48" type="person" role="UI" nxt_agent="C" nite:id="IDIAP_IS1003d_A.foa.474"/>
+    <foa endtime="1523.28" starttime="1521.68" type="person" role="ME" nxt_agent="D" nite:id="IDIAP_IS1003d_A.foa.475"/>
+    <foa endtime="1523.68" starttime="1523.28" type="person" role="ID" nxt_agent="B" nite:id="IDIAP_IS1003d_A.foa.476"/>
+    <foa endtime="1524.96" starttime="1523.68" type="person" role="ME" nxt_agent="D" nite:id="IDIAP_IS1003d_A.foa.477"/>
+    <foa endtime="1525.68" starttime="1524.96" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.478"/>
+    <foa endtime="1526.32" starttime="1525.68" type="person" role="ME" nxt_agent="D" nite:id="IDIAP_IS1003d_A.foa.479"/>
+    <foa endtime="1527.36" starttime="1526.32" type="person" role="ID" nxt_agent="B" nite:id="IDIAP_IS1003d_A.foa.480"/>
+    <foa endtime="1527.48" starttime="1527.36" type="person" role="ME" nxt_agent="D" nite:id="IDIAP_IS1003d_A.foa.481"/>
+    <foa endtime="1529.08" starttime="1527.48" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.482"/>
+    <foa endtime="1533.28" starttime="1529.08" type="person" role="ME" nxt_agent="D" nite:id="IDIAP_IS1003d_A.foa.483"/>
+    <foa endtime="1537.08" starttime="1533.28" type="place" place="slide-screen" nite:id="IDIAP_IS1003d_A.foa.484"/>
+    <foa endtime="1538.08" starttime="1537.08" type="person" role="ME" nxt_agent="D" nite:id="IDIAP_IS1003d_A.foa.485"/>
+    <foa endtime="1538.68" starttime="1538.08" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.486"/>
+    <foa endtime="1539.28" starttime="1538.68" type="person" role="ME" nxt_agent="D" nite:id="IDIAP_IS1003d_A.foa.487"/>
+    <foa endtime="1539.68" starttime="1539.28" type="person" role="ID" nxt_agent="B" nite:id="IDIAP_IS1003d_A.foa.488"/>
+    <foa endtime="1542.88" starttime="1539.68" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.489"/>
+    <foa endtime="1546.68" starttime="1542.88" type="person" role="ME" nxt_agent="D" nite:id="IDIAP_IS1003d_A.foa.490"/>
+    <foa endtime="1547.48" starttime="1546.68" type="person" role="UI" nxt_agent="C" nite:id="IDIAP_IS1003d_A.foa.491"/>
+    <foa endtime="1549.24" starttime="1547.48" type="person" role="ME" nxt_agent="D" nite:id="IDIAP_IS1003d_A.foa.492"/>
+    <foa endtime="1550.24" starttime="1549.24" type="person" role="ID" nxt_agent="B" nite:id="IDIAP_IS1003d_A.foa.493"/>
+    <foa endtime="1554.96" starttime="1550.24" type="person" role="ME" nxt_agent="D" nite:id="IDIAP_IS1003d_A.foa.494"/>
+    <foa endtime="1555.56" starttime="1554.96" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.495"/>
+    <foa endtime="1556.56" starttime="1555.56" type="person" role="ME" nxt_agent="D" nite:id="IDIAP_IS1003d_A.foa.496"/>
+    <foa endtime="1557.16" starttime="1556.56" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.497"/>
+    <foa endtime="1559.48" starttime="1557.16" type="person" role="ME" nxt_agent="D" nite:id="IDIAP_IS1003d_A.foa.498"/>
+    <foa endtime="1562.6" starttime="1559.48" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.499"/>
+    <foa endtime="1563.2" starttime="1562.6" type="person" role="ME" nxt_agent="D" nite:id="IDIAP_IS1003d_A.foa.500"/>
+    <foa endtime="1564.0" starttime="1563.2" type="person" role="UI" nxt_agent="C" nite:id="IDIAP_IS1003d_A.foa.501"/>
+    <foa endtime="1568.6" starttime="1564.0" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.502"/>
+    <foa endtime="1570.96" starttime="1568.6" type="person" role="ME" nxt_agent="D" nite:id="IDIAP_IS1003d_A.foa.503"/>
+    <foa endtime="1593.24" starttime="1570.96" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.504"/>
+    <foa endtime="1600.0" starttime="1593.24" type="person" role="UI" nxt_agent="C" nite:id="IDIAP_IS1003d_A.foa.505"/>
+    <foa endtime="1601.52" starttime="1600.0" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.506"/>
+    <foa endtime="1602.92" starttime="1601.52" type="person" role="UI" nxt_agent="C" nite:id="IDIAP_IS1003d_A.foa.507"/>
+    <foa endtime="1603.52" starttime="1602.92" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.508"/>
+    <foa endtime="1611.32" starttime="1603.52" type="person" role="UI" nxt_agent="C" nite:id="IDIAP_IS1003d_A.foa.509"/>
+    <foa endtime="1612.36" starttime="1611.32" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.510"/>
+    <foa endtime="1613.76" starttime="1612.36" type="person" role="UI" nxt_agent="C" nite:id="IDIAP_IS1003d_A.foa.511"/>
+    <foa endtime="1616.28" starttime="1613.76" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.512"/>
+    <foa endtime="1624.48" starttime="1616.28" type="person" role="ID" nxt_agent="B" nite:id="IDIAP_IS1003d_A.foa.513"/>
+    <foa endtime="1626.32" starttime="1624.48" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.514"/>
+    <foa endtime="1629.0" starttime="1626.32" type="person" role="ID" nxt_agent="B" nite:id="IDIAP_IS1003d_A.foa.515"/>
+    <foa endtime="1630.0" starttime="1629.0" type="person" role="ME" nxt_agent="D" nite:id="IDIAP_IS1003d_A.foa.516"/>
+    <foa endtime="1633.16" starttime="1630.0" type="person" role="ID" nxt_agent="B" nite:id="IDIAP_IS1003d_A.foa.517"/>
+    <foa endtime="1645.56" starttime="1633.16" type="person" role="ME" nxt_agent="D" nite:id="IDIAP_IS1003d_A.foa.518"/>
+    <foa endtime="1648.88" starttime="1645.56" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.519"/>
+    <foa endtime="1649.68" starttime="1648.88" type="person" role="ME" nxt_agent="D" nite:id="IDIAP_IS1003d_A.foa.520"/>
+    <foa endtime="1650.68" starttime="1649.68" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.521"/>
+    <foa endtime="1650.88" starttime="1650.68" type="person" role="ME" nxt_agent="D" nite:id="IDIAP_IS1003d_A.foa.522"/>
+    <foa endtime="1655.08" starttime="1650.88" type="person" role="UI" nxt_agent="C" nite:id="IDIAP_IS1003d_A.foa.523"/>
+    <foa endtime="1656.08" starttime="1655.08" type="person" role="ME" nxt_agent="D" nite:id="IDIAP_IS1003d_A.foa.524"/>
+    <foa endtime="1661.08" starttime="1656.08" type="person" role="UI" nxt_agent="C" nite:id="IDIAP_IS1003d_A.foa.525"/>
+    <foa endtime="1661.68" starttime="1661.08" type="person" role="ME" nxt_agent="D" nite:id="IDIAP_IS1003d_A.foa.526"/>
+    <foa endtime="1662.88" starttime="1661.68" type="person" role="UI" nxt_agent="C" nite:id="IDIAP_IS1003d_A.foa.527"/>
+    <foa endtime="1664.28" starttime="1662.88" type="person" role="ME" nxt_agent="D" nite:id="IDIAP_IS1003d_A.foa.528"/>
+    <foa endtime="1665.28" starttime="1664.28" type="person" role="UI" nxt_agent="C" nite:id="IDIAP_IS1003d_A.foa.529"/>
+    <foa endtime="1667.48" starttime="1665.28" type="person" role="ID" nxt_agent="B" nite:id="IDIAP_IS1003d_A.foa.530"/>
+    <foa endtime="1667.68" starttime="1667.48" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.531"/>
+    <foa endtime="1668.68" starttime="1667.68" type="person" role="UI" nxt_agent="C" nite:id="IDIAP_IS1003d_A.foa.532"/>
+    <foa endtime="1673.76" starttime="1668.68" type="person" role="ID" nxt_agent="B" nite:id="IDIAP_IS1003d_A.foa.533"/>
+    <foa endtime="1674.4" starttime="1673.76" type="person" role="ME" nxt_agent="D" nite:id="IDIAP_IS1003d_A.foa.534"/>
+    <foa endtime="1675.84" starttime="1674.4" type="person" role="ID" nxt_agent="B" nite:id="IDIAP_IS1003d_A.foa.535"/>
+    <foa endtime="1687.04" starttime="1675.84" type="person" role="UI" nxt_agent="C" nite:id="IDIAP_IS1003d_A.foa.536"/>
+    <foa endtime="1688.56" starttime="1687.04" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.537"/>
+    <foa endtime="1689.2" starttime="1688.56" type="person" role="UI" nxt_agent="C" nite:id="IDIAP_IS1003d_A.foa.538"/>
+    <foa endtime="1692.0" starttime="1689.2" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.539"/>
+    <foa endtime="1696.28" starttime="1692.0" type="person" role="UI" nxt_agent="C" nite:id="IDIAP_IS1003d_A.foa.540"/>
+    <foa endtime="1697.88" starttime="1696.28" type="person" role="ME" nxt_agent="D" nite:id="IDIAP_IS1003d_A.foa.541"/>
+    <foa endtime="1700.08" starttime="1697.88" type="person" role="UI" nxt_agent="C" nite:id="IDIAP_IS1003d_A.foa.542"/>
+    <foa endtime="1700.88" starttime="1700.08" type="person" role="ME" nxt_agent="D" nite:id="IDIAP_IS1003d_A.foa.543"/>
+    <foa endtime="1702.28" starttime="1700.88" type="person" role="UI" nxt_agent="C" nite:id="IDIAP_IS1003d_A.foa.544"/>
+    <foa endtime="1702.68" starttime="1702.28" type="person" role="ME" nxt_agent="D" nite:id="IDIAP_IS1003d_A.foa.545"/>
+    <foa endtime="1704.04" starttime="1702.68" type="person" role="ID" nxt_agent="B" nite:id="IDIAP_IS1003d_A.foa.546"/>
+    <foa endtime="1706.48" starttime="1704.04" type="person" role="ME" nxt_agent="D" nite:id="IDIAP_IS1003d_A.foa.547"/>
+    <foa endtime="1707.2" starttime="1706.48" type="person" role="UI" nxt_agent="C" nite:id="IDIAP_IS1003d_A.foa.548"/>
+    <foa endtime="1711.08" starttime="1707.2" type="person" role="ME" nxt_agent="D" nite:id="IDIAP_IS1003d_A.foa.549"/>
+    <foa endtime="1711.72" starttime="1711.08" type="person" role="ID" nxt_agent="B" nite:id="IDIAP_IS1003d_A.foa.550"/>
+    <foa endtime="1714.72" starttime="1711.72" type="person" role="ME" nxt_agent="D" nite:id="IDIAP_IS1003d_A.foa.551"/>
+    <foa endtime="1716.12" starttime="1714.72" type="person" role="ID" nxt_agent="B" nite:id="IDIAP_IS1003d_A.foa.552"/>
+    <foa endtime="1718.6" starttime="1716.12" type="person" role="ME" nxt_agent="D" nite:id="IDIAP_IS1003d_A.foa.553"/>
+    <foa endtime="1721.32" starttime="1718.6" type="person" role="ID" nxt_agent="B" nite:id="IDIAP_IS1003d_A.foa.554"/>
+    <foa endtime="1721.92" starttime="1721.32" type="person" role="ME" nxt_agent="D" nite:id="IDIAP_IS1003d_A.foa.555"/>
+    <foa endtime="1723.24" starttime="1721.92" type="person" role="ID" nxt_agent="B" nite:id="IDIAP_IS1003d_A.foa.556"/>
+    <foa endtime="1725.8" starttime="1723.24" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.557"/>
+    <foa endtime="1729.24" starttime="1725.8" type="person" role="ME" nxt_agent="D" nite:id="IDIAP_IS1003d_A.foa.558"/>
+    <foa endtime="1729.88" starttime="1729.24" type="person" role="ID" nxt_agent="B" nite:id="IDIAP_IS1003d_A.foa.559"/>
+    <foa endtime="1733.84" starttime="1729.88" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.560"/>
+    <foa endtime="1736.84" starttime="1733.84" type="person" role="ME" nxt_agent="D" nite:id="IDIAP_IS1003d_A.foa.561"/>
+    <foa endtime="1740.08" starttime="1736.84" type="person" role="ID" nxt_agent="B" nite:id="IDIAP_IS1003d_A.foa.562"/>
+    <foa endtime="1740.92" starttime="1740.08" type="person" role="ME" nxt_agent="D" nite:id="IDIAP_IS1003d_A.foa.563"/>
+    <foa endtime="1744.6" starttime="1740.92" type="person" role="ID" nxt_agent="B" nite:id="IDIAP_IS1003d_A.foa.564"/>
+    <foa endtime="1745.12" starttime="1744.6" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.565"/>
+    <foa endtime="1745.8" starttime="1745.12" type="person" role="ME" nxt_agent="D" nite:id="IDIAP_IS1003d_A.foa.566"/>
+    <foa endtime="1755.92" starttime="1745.8" type="person" role="ID" nxt_agent="B" nite:id="IDIAP_IS1003d_A.foa.567"/>
+    <foa endtime="1757.0" starttime="1755.92" type="person" role="ME" nxt_agent="D" nite:id="IDIAP_IS1003d_A.foa.568"/>
+    <foa endtime="1763.52" starttime="1757.0" type="person" role="ID" nxt_agent="B" nite:id="IDIAP_IS1003d_A.foa.569"/>
+    <foa endtime="1763.8" starttime="1763.52" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.570"/>
+    <foa endtime="1765.28" starttime="1763.8" type="person" role="UI" nxt_agent="C" nite:id="IDIAP_IS1003d_A.foa.571"/>
+    <foa endtime="1771.28" starttime="1765.28" type="person" role="ID" nxt_agent="B" nite:id="IDIAP_IS1003d_A.foa.572"/>
+    <foa endtime="1780.44" starttime="1771.28" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.573"/>
+    <foa endtime="1784.64" starttime="1780.44" type="person" role="ID" nxt_agent="B" nite:id="IDIAP_IS1003d_A.foa.574"/>
+    <foa endtime="1790.92" starttime="1784.64" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.575"/>
+    <foa endtime="1793.56" starttime="1790.92" type="person" role="UI" nxt_agent="C" nite:id="IDIAP_IS1003d_A.foa.576"/>
+    <foa endtime="1794.0" starttime="1793.56" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.577"/>
+    <foa endtime="1797.12" starttime="1794.0" type="person" role="UI" nxt_agent="C" nite:id="IDIAP_IS1003d_A.foa.578"/>
+    <foa endtime="1798.96" starttime="1797.12" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.579"/>
+    <foa endtime="1799.64" starttime="1798.96" type="person" role="ME" nxt_agent="D" nite:id="IDIAP_IS1003d_A.foa.580"/>
+    <foa endtime="1801.32" starttime="1799.64" type="person" role="UI" nxt_agent="C" nite:id="IDIAP_IS1003d_A.foa.581"/>
+    <foa endtime="1801.72" starttime="1801.32" type="person" role="ME" nxt_agent="D" nite:id="IDIAP_IS1003d_A.foa.582"/>
+    <foa endtime="1804.92" starttime="1801.72" type="person" role="ID" nxt_agent="B" nite:id="IDIAP_IS1003d_A.foa.583"/>
+    <foa endtime="1807.72" starttime="1804.92" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.584"/>
+    <foa endtime="1808.84" starttime="1807.72" type="person" role="ID" nxt_agent="B" nite:id="IDIAP_IS1003d_A.foa.585"/>
+    <foa endtime="1810.96" starttime="1808.84" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.586"/>
+    <foa endtime="1811.88" starttime="1810.96" type="person" role="ME" nxt_agent="D" nite:id="IDIAP_IS1003d_A.foa.587"/>
+    <foa endtime="1813.08" starttime="1811.88" type="person" role="ID" nxt_agent="B" nite:id="IDIAP_IS1003d_A.foa.588"/>
+    <foa endtime="1813.68" starttime="1813.08" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.589"/>
+    <foa endtime="1815.24" starttime="1813.68" type="person" role="ID" nxt_agent="B" nite:id="IDIAP_IS1003d_A.foa.590"/>
+    <foa endtime="1817.84" starttime="1815.24" type="person" role="ME" nxt_agent="D" nite:id="IDIAP_IS1003d_A.foa.591"/>
+    <foa endtime="1820.8" starttime="1817.84" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.592"/>
+    <foa endtime="1821.88" starttime="1820.8" type="person" role="ME" nxt_agent="D" nite:id="IDIAP_IS1003d_A.foa.593"/>
+    <foa endtime="1822.84" starttime="1821.88" type="person" role="ID" nxt_agent="B" nite:id="IDIAP_IS1003d_A.foa.594"/>
+    <foa endtime="1823.96" starttime="1822.84" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.595"/>
+    <foa endtime="1824.84" starttime="1823.96" type="person" role="ME" nxt_agent="D" nite:id="IDIAP_IS1003d_A.foa.596"/>
+    <foa endtime="1828.36" starttime="1824.84" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.597"/>
+    <foa endtime="1829.04" starttime="1828.36" type="person" role="UI" nxt_agent="C" nite:id="IDIAP_IS1003d_A.foa.598"/>
+    <foa endtime="1832.12" starttime="1829.04" type="person" role="ME" nxt_agent="D" nite:id="IDIAP_IS1003d_A.foa.599"/>
+    <foa endtime="1833.72" starttime="1832.12" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.600"/>
+    <foa endtime="1843.6" starttime="1833.72" type="person" role="ME" nxt_agent="D" nite:id="IDIAP_IS1003d_A.foa.601"/>
+    <foa endtime="1845.2" starttime="1843.6" type="person" role="ID" nxt_agent="B" nite:id="IDIAP_IS1003d_A.foa.602"/>
+    <foa endtime="1852.08" starttime="1845.2" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.603"/>
+    <foa endtime="1858.68" starttime="1852.08" type="person" role="ME" nxt_agent="D" nite:id="IDIAP_IS1003d_A.foa.604"/>
+    <foa endtime="1859.52" starttime="1858.68" type="person" role="UI" nxt_agent="C" nite:id="IDIAP_IS1003d_A.foa.605"/>
+    <foa endtime="1865.52" starttime="1859.52" type="person" role="ME" nxt_agent="D" nite:id="IDIAP_IS1003d_A.foa.606"/>
+    <foa endtime="1867.44" starttime="1865.52" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.607"/>
+    <foa endtime="1868.76" starttime="1867.44" type="person" role="ME" nxt_agent="D" nite:id="IDIAP_IS1003d_A.foa.608"/>
+    <foa endtime="1870.68" starttime="1868.76" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.609"/>
+    <foa endtime="1873.6" starttime="1870.68" type="person" role="ME" nxt_agent="D" nite:id="IDIAP_IS1003d_A.foa.610"/>
+    <foa endtime="1874.8" starttime="1873.6" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.611"/>
+    <foa endtime="1886.6" starttime="1874.8" type="person" role="ME" nxt_agent="D" nite:id="IDIAP_IS1003d_A.foa.612"/>
+    <foa endtime="1888.6" starttime="1886.6" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.613"/>
+    <foa endtime="1890.12" starttime="1888.6" type="person" role="ME" nxt_agent="D" nite:id="IDIAP_IS1003d_A.foa.614"/>
+    <foa endtime="1890.92" starttime="1890.12" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.615"/>
+    <foa endtime="1895.24" starttime="1890.92" type="person" role="ME" nxt_agent="D" nite:id="IDIAP_IS1003d_A.foa.616"/>
+    <foa endtime="1895.96" starttime="1895.24" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.617"/>
+    <foa endtime="1896.84" starttime="1895.96" type="person" role="ME" nxt_agent="D" nite:id="IDIAP_IS1003d_A.foa.618"/>
+    <foa endtime="1897.36" starttime="1896.84" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.619"/>
+    <foa endtime="1900.72" starttime="1897.36" type="person" role="ME" nxt_agent="D" nite:id="IDIAP_IS1003d_A.foa.620"/>
+    <foa endtime="1903.44" starttime="1900.72" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.621"/>
+    <foa endtime="1906.2" starttime="1903.44" type="person" role="ME" nxt_agent="D" nite:id="IDIAP_IS1003d_A.foa.622"/>
+    <foa endtime="1907.08" starttime="1906.2" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.623"/>
+    <foa endtime="1909.32" starttime="1907.08" type="person" role="ME" nxt_agent="D" nite:id="IDIAP_IS1003d_A.foa.624"/>
+    <foa endtime="1910.8" starttime="1909.32" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.625"/>
+    <foa endtime="1913.12" starttime="1910.8" type="person" role="UI" nxt_agent="C" nite:id="IDIAP_IS1003d_A.foa.626"/>
+    <foa endtime="1914.6" starttime="1913.12" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.627"/>
+    <foa endtime="1917.68" starttime="1914.6" type="person" role="UI" nxt_agent="C" nite:id="IDIAP_IS1003d_A.foa.628"/>
+    <foa endtime="1918.0" starttime="1917.68" type="person" role="ME" nxt_agent="D" nite:id="IDIAP_IS1003d_A.foa.629"/>
+    <foa endtime="1919.0" starttime="1918.0" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.630"/>
+    <foa endtime="1926.28" starttime="1919.0" type="person" role="UI" nxt_agent="C" nite:id="IDIAP_IS1003d_A.foa.631"/>
+    <foa endtime="1927.0" starttime="1926.28" type="person" role="ME" nxt_agent="D" nite:id="IDIAP_IS1003d_A.foa.632"/>
+    <foa endtime="1928.6" starttime="1927.0" type="person" role="UI" nxt_agent="C" nite:id="IDIAP_IS1003d_A.foa.633"/>
+    <foa endtime="1930.12" starttime="1928.6" type="person" role="ME" nxt_agent="D" nite:id="IDIAP_IS1003d_A.foa.634"/>
+    <foa endtime="1930.88" starttime="1930.12" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.635"/>
+    <foa endtime="1932.4" starttime="1930.88" type="person" role="ME" nxt_agent="D" nite:id="IDIAP_IS1003d_A.foa.636"/>
+    <foa endtime="1933.0" starttime="1932.4" type="person" role="UI" nxt_agent="C" nite:id="IDIAP_IS1003d_A.foa.637"/>
+    <foa endtime="1935.4" starttime="1933.0" type="person" role="ID" nxt_agent="B" nite:id="IDIAP_IS1003d_A.foa.638"/>
+    <foa endtime="1937.2" starttime="1935.4" type="person" role="UI" nxt_agent="C" nite:id="IDIAP_IS1003d_A.foa.639"/>
+    <foa endtime="1943.36" starttime="1937.2" type="person" role="ID" nxt_agent="B" nite:id="IDIAP_IS1003d_A.foa.640"/>
+    <foa endtime="1945.36" starttime="1943.36" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.641"/>
+    <foa endtime="1946.2" starttime="1945.36" type="person" role="ME" nxt_agent="D" nite:id="IDIAP_IS1003d_A.foa.642"/>
+    <foa endtime="1947.0" starttime="1946.2" type="person" role="UI" nxt_agent="C" nite:id="IDIAP_IS1003d_A.foa.643"/>
+    <foa endtime="1947.64" starttime="1947.0" type="person" role="ME" nxt_agent="D" nite:id="IDIAP_IS1003d_A.foa.644"/>
+    <foa endtime="1950.8" starttime="1947.64" type="person" role="ID" nxt_agent="B" nite:id="IDIAP_IS1003d_A.foa.645"/>
+    <foa endtime="1954.2" starttime="1950.8" type="person" role="UI" nxt_agent="C" nite:id="IDIAP_IS1003d_A.foa.646"/>
+    <foa endtime="1954.84" starttime="1954.2" type="person" role="ID" nxt_agent="B" nite:id="IDIAP_IS1003d_A.foa.647"/>
+    <foa endtime="1956.44" starttime="1954.84" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.648"/>
+    <foa endtime="1958.72" starttime="1956.44" type="person" role="ID" nxt_agent="B" nite:id="IDIAP_IS1003d_A.foa.649"/>
+    <foa endtime="1959.88" starttime="1958.72" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.650"/>
+    <foa endtime="1961.08" starttime="1959.88" type="person" role="ID" nxt_agent="B" nite:id="IDIAP_IS1003d_A.foa.651"/>
+    <foa endtime="1961.8" starttime="1961.08" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.652"/>
+    <foa endtime="1963.12" starttime="1961.8" type="person" role="ID" nxt_agent="B" nite:id="IDIAP_IS1003d_A.foa.653"/>
+    <foa endtime="1963.68" starttime="1963.12" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.654"/>
+    <foa endtime="1965.84" starttime="1963.68" type="person" role="ID" nxt_agent="B" nite:id="IDIAP_IS1003d_A.foa.655"/>
+    <foa endtime="1966.68" starttime="1965.84" type="person" role="ME" nxt_agent="D" nite:id="IDIAP_IS1003d_A.foa.656"/>
+    <foa endtime="1967.36" starttime="1966.68" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.657"/>
+    <foa endtime="1968.28" starttime="1967.36" type="person" role="ME" nxt_agent="D" nite:id="IDIAP_IS1003d_A.foa.658"/>
+    <foa endtime="1968.68" starttime="1968.28" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.659"/>
+    <foa endtime="1970.68" starttime="1968.68" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.660"/>
+    <foa endtime="1973.08" starttime="1970.68" type="person" role="ME" nxt_agent="D" nite:id="IDIAP_IS1003d_A.foa.661"/>
+    <foa endtime="1975.24" starttime="1973.08" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.662"/>
+    <foa endtime="1976.24" starttime="1975.24" type="person" role="ME" nxt_agent="D" nite:id="IDIAP_IS1003d_A.foa.663"/>
+    <foa endtime="1982.32" starttime="1976.24" type="person" role="ID" nxt_agent="B" nite:id="IDIAP_IS1003d_A.foa.664"/>
+    <foa endtime="1984.08" starttime="1982.32" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.665"/>
+    <foa endtime="1984.92" starttime="1984.08" type="person" role="ID" nxt_agent="B" nite:id="IDIAP_IS1003d_A.foa.666"/>
+    <foa endtime="1986.32" starttime="1984.92" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.667"/>
+    <foa endtime="1986.88" starttime="1986.32" type="person" role="ME" nxt_agent="D" nite:id="IDIAP_IS1003d_A.foa.668"/>
+    <foa endtime="1988.04" starttime="1986.88" type="person" role="ID" nxt_agent="B" nite:id="IDIAP_IS1003d_A.foa.669"/>
+    <foa endtime="1993.0" starttime="1988.04" type="person" role="ME" nxt_agent="D" nite:id="IDIAP_IS1003d_A.foa.670"/>
+    <foa endtime="1993.84" starttime="1993.0" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.671"/>
+    <foa endtime="1994.8" starttime="1993.84" type="person" role="ME" nxt_agent="D" nite:id="IDIAP_IS1003d_A.foa.672"/>
+    <foa endtime="1995.36" starttime="1994.8" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.673"/>
+    <foa endtime="1996.32" starttime="1995.36" type="person" role="ME" nxt_agent="D" nite:id="IDIAP_IS1003d_A.foa.674"/>
+    <foa endtime="1996.92" starttime="1996.32" type="person" role="ID" nxt_agent="B" nite:id="IDIAP_IS1003d_A.foa.675"/>
+    <foa endtime="1997.56" starttime="1996.92" type="person" role="ME" nxt_agent="D" nite:id="IDIAP_IS1003d_A.foa.676"/>
+    <foa endtime="1998.4" starttime="1997.56" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.677"/>
+    <foa endtime="2003.24" starttime="1998.4" type="person" role="ME" nxt_agent="D" nite:id="IDIAP_IS1003d_A.foa.678"/>
+    <foa endtime="2004.44" starttime="2003.24" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.679"/>
+    <foa endtime="2005.44" starttime="2004.44" type="person" role="ME" nxt_agent="D" nite:id="IDIAP_IS1003d_A.foa.680"/>
+    <foa endtime="2007.52" starttime="2005.44" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.681"/>
+    <foa endtime="2009.16" starttime="2007.52" type="person" role="ME" nxt_agent="D" nite:id="IDIAP_IS1003d_A.foa.682"/>
+    <foa endtime="2012.16" starttime="2009.16" type="person" role="ID" nxt_agent="B" nite:id="IDIAP_IS1003d_A.foa.683"/>
+    <foa endtime="2012.72" starttime="2012.16" type="person" role="ME" nxt_agent="D" nite:id="IDIAP_IS1003d_A.foa.684"/>
+    <foa endtime="2019.56" starttime="2012.72" type="person" role="ID" nxt_agent="B" nite:id="IDIAP_IS1003d_A.foa.685"/>
+    <foa endtime="2020.76" starttime="2019.56" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.686"/>
+    <foa endtime="2021.52" starttime="2020.76" type="person" role="ID" nxt_agent="B" nite:id="IDIAP_IS1003d_A.foa.687"/>
+    <foa endtime="2021.88" starttime="2021.52" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.688"/>
+    <foa endtime="2022.88" starttime="2021.88" type="person" role="UI" nxt_agent="C" nite:id="IDIAP_IS1003d_A.foa.689"/>
+    <foa endtime="2023.84" starttime="2022.88" type="person" role="ID" nxt_agent="B" nite:id="IDIAP_IS1003d_A.foa.690"/>
+    <foa endtime="2023.88" starttime="2023.84" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.691"/>
+    <foa endtime="2026.96" starttime="2023.88" type="person" role="ID" nxt_agent="B" nite:id="IDIAP_IS1003d_A.foa.692"/>
+    <foa endtime="2048.96" starttime="2026.96" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.693"/>
+    <foa endtime="2049.76" starttime="2048.96" type="person" role="ID" nxt_agent="B" nite:id="IDIAP_IS1003d_A.foa.694"/>
+    <foa endtime="2057.36" starttime="2049.76" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.695"/>
+    <foa endtime="2058.76" starttime="2057.36" type="person" role="ID" nxt_agent="B" nite:id="IDIAP_IS1003d_A.foa.696"/>
+    <foa endtime="2060.48" starttime="2058.76" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.697"/>
+    <foa endtime="2061.2" starttime="2060.48" type="person" role="ID" nxt_agent="B" nite:id="IDIAP_IS1003d_A.foa.698"/>
+    <foa endtime="2062.36" starttime="2061.2" type="person" role="ME" nxt_agent="D" nite:id="IDIAP_IS1003d_A.foa.699"/>
+    <foa endtime="2063.76" starttime="2062.36" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.700"/>
+    <foa endtime="2064.16" starttime="2063.76" type="person" role="ME" nxt_agent="D" nite:id="IDIAP_IS1003d_A.foa.701"/>
+    <foa endtime="2065.36" starttime="2064.16" type="person" role="UI" nxt_agent="C" nite:id="IDIAP_IS1003d_A.foa.702"/>
+    <foa endtime="2066.16" starttime="2065.36" type="person" role="ME" nxt_agent="D" nite:id="IDIAP_IS1003d_A.foa.703"/>
+    <foa endtime="2066.76" starttime="2066.16" type="person" role="ID" nxt_agent="B" nite:id="IDIAP_IS1003d_A.foa.704"/>
+    <foa endtime="2067.16" starttime="2066.76" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.705"/>
+    <foa endtime="2067.72" starttime="2067.16" type="person" role="ID" nxt_agent="B" nite:id="IDIAP_IS1003d_A.foa.706"/>
+    <foa endtime="2067.76" starttime="2067.72" type="person" role="ME" nxt_agent="D" nite:id="IDIAP_IS1003d_A.foa.707"/>
+    <foa endtime="2068.36" starttime="2067.76" type="person" role="ME" nxt_agent="D" nite:id="IDIAP_IS1003d_A.foa.708"/>
+    <foa endtime="2068.76" starttime="2068.36" type="person" role="ID" nxt_agent="B" nite:id="IDIAP_IS1003d_A.foa.709"/>
+    <foa endtime="2069.76" starttime="2068.76" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.710"/>
+    <foa endtime="2071.16" starttime="2069.76" type="person" role="UI" nxt_agent="C" nite:id="IDIAP_IS1003d_A.foa.711"/>
+    <foa endtime="2072.16" starttime="2071.16" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.712"/>
+    <foa endtime="2072.56" starttime="2072.16" type="person" role="ME" nxt_agent="D" nite:id="IDIAP_IS1003d_A.foa.713"/>
+    <foa endtime="2075.96" starttime="2072.56" type="place" place="table" nite:id="IDIAP_IS1003d_A.foa.714"/>
+    <foa endtime="2080.76" starttime="2075.96" type="unspecified" nite:id="IDIAP_IS1003d_A.foa.715"/>
+    <foa endtime="2093.0" starttime="2080.76" type="unspecified" nite:id="IDIAP_IS1003d_A.foa.716"/>
+</nite:root>

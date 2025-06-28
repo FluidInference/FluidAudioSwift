@@ -1,0 +1,971 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<nite:root nite:id="TS3011a.A.dialog-act" xmlns:nite="http://nite.sourceforge.net/">
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.1">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_14)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words0)..id(TS3011a.A.words3)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.2">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_14)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words109)..id(TS3011a.A.words113)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.3">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_14)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words30)..id(TS3011a.A.words34)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.4">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words40)..id(TS3011a.A.words52)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.5">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_2)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words53)..id(TS3011a.A.words54)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.6">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_7)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words64)..id(TS3011a.A.words72)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.7">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_6)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words55)..id(TS3011a.A.words63)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.8">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_9)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words4)..id(TS3011a.A.words6)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.9" reflexivity="true">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_5)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words7)..id(TS3011a.A.words10)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.10">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words11)..id(TS3011a.A.words21)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.11">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words22)..id(TS3011a.A.words29)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.12">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_14)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words35)..id(TS3011a.A.words39)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.13" reflexivity="true">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words73)..id(TS3011a.A.words84)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.14">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_16)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words85)..id(TS3011a.A.words88)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.15" reflexivity="true">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words89)..id(TS3011a.A.words94)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.16" reflexivity="true">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_7)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words95)..id(TS3011a.A.words104)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.17" reflexivity="true">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words105)..id(TS3011a.A.words108)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.18">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_2)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words114)..id(TS3011a.A.words119)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.19">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_9)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words120)..id(TS3011a.A.words123)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.20">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words124)..id(TS3011a.A.words140)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.21">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_2)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words141)..id(TS3011a.A.words142)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.22">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_2)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words143)..id(TS3011a.A.words144)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.23">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words145)..id(TS3011a.A.words154)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.24">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words155)..id(TS3011a.A.words168)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.25">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_2)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words169)..id(TS3011a.A.words172)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.26">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words173)..id(TS3011a.A.words188)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.27">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words189)..id(TS3011a.A.words197)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.28">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words198)..id(TS3011a.A.words206)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.29">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words207)..id(TS3011a.A.words214)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.30">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words215)..id(TS3011a.A.words226)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.31">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_5)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words227)..id(TS3011a.A.words230)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.32">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_9)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words231)..id(TS3011a.A.words232)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.33">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_2)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words233)..id(TS3011a.A.words234)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.34" reflexivity="true">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_6)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words235)..id(TS3011a.A.words266)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.35" reflexivity="true">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_7)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words267)..id(TS3011a.A.words283)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.36" reflexivity="true">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_6)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words284)..id(TS3011a.A.words291)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.37" reflexivity="true">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words292)..id(TS3011a.A.words303)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.38">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words304)..id(TS3011a.A.words311)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.39" reflexivity="true">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_9)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words312)..id(TS3011a.A.words319)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.40">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_9)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words320)..id(TS3011a.A.words323)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.41">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_2)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words324)..id(TS3011a.A.words326)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.42">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words327)..id(TS3011a.A.words339)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.43">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words340)..id(TS3011a.A.words344)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.44">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words345)..id(TS3011a.A.words349)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.45">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words350)..id(TS3011a.A.words366)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.46">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_9)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words367)..id(TS3011a.A.words376)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.47">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_6)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words377)..id(TS3011a.A.words396)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.48" reflexivity="true">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_6)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words397)..id(TS3011a.A.words427)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.49">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_6)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words428)..id(TS3011a.A.words439)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.50" reflexivity="true">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words440)..id(TS3011a.A.words458)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.51">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words459)..id(TS3011a.A.words467)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.52" reflexivity="true">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words468)..id(TS3011a.A.words480)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.53" reflexivity="true">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words481)..id(TS3011a.A.words509)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.54">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_9)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words510)..id(TS3011a.A.words515)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.55" reflexivity="true">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words516)..id(TS3011a.A.words534)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.56" reflexivity="true">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words535)..id(TS3011a.A.words547)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.57" reflexivity="true">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words548)..id(TS3011a.A.words557)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.58">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words558)..id(TS3011a.A.words565)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.59">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words566)..id(TS3011a.A.words577)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.60" reflexivity="true">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words578)..id(TS3011a.A.words587)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.61">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words588)..id(TS3011a.A.words597)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.62" reflexivity="true">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_6)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words598)..id(TS3011a.A.words610)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.63">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_6)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words611)..id(TS3011a.A.words622)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.64" reflexivity="true">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_6)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words623)..id(TS3011a.A.words646)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.65">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words647)..id(TS3011a.A.words657)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.66">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words658)..id(TS3011a.A.words669)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.67">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words670)..id(TS3011a.A.words683)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.68">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_2)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words684)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.69">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words685)..id(TS3011a.A.words707)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.70">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words708)..id(TS3011a.A.words713)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.71">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words714)..id(TS3011a.A.words719)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.72">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words720)..id(TS3011a.A.words728)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.73">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_2)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words729)..id(TS3011a.A.words730)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.74" reflexivity="true">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_7)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words731)..id(TS3011a.A.words738)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.75">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_2)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words739)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.76">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words740)..id(TS3011a.A.words749)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.77">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words750)..id(TS3011a.A.words754)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.78">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_9)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words755)..id(TS3011a.A.words756)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.79">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_6)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words757)..id(TS3011a.A.words763)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.80">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_6)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words764)..id(TS3011a.A.words778)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.81">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_2)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words779)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.82">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_2)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words780)..id(TS3011a.A.words783)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.83">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words784)..id(TS3011a.A.words790)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.84">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words791)..id(TS3011a.A.words797)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.85">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words798)..id(TS3011a.A.words805)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.86">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_2)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words806)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.87">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words807)..id(TS3011a.A.words838)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.88">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words839)..id(TS3011a.A.words843)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.89" reflexivity="true">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_6)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words844)..id(TS3011a.A.words861)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.90" reflexivity="true">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_6)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words862)..id(TS3011a.A.words870)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.91">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_6)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words871)..id(TS3011a.A.words879)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.92">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words880)..id(TS3011a.A.words892)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.93">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words893)..id(TS3011a.A.words894)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.94">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words895)..id(TS3011a.A.words896)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.95">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words897)..id(TS3011a.A.words907)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.96">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words908)..id(TS3011a.A.words916)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.97">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words917)..id(TS3011a.A.words923)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.98">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_2)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words924)..id(TS3011a.A.words925)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.99">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_14)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words926)..id(TS3011a.A.words927)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.100">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_2)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words928)..id(TS3011a.A.words929)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.101">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_16)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words930)..id(TS3011a.A.words933)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.102">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_2)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words934)..id(TS3011a.A.words935)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.103">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_2)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words936)..id(TS3011a.A.words938)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.104">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words939)..id(TS3011a.A.words950)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.105">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_3)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words1084)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.106">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_9)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words951)..id(TS3011a.A.words952)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.107">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words953)..id(TS3011a.A.words961)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.108">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words962)..id(TS3011a.A.words967)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.109">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words968)..id(TS3011a.A.words977)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.110">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words978)..id(TS3011a.A.words991)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.111">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_2)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words992)..id(TS3011a.A.words993)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.112">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_9)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words994)..id(TS3011a.A.words996)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.113" reflexivity="true">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_13)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words997)..id(TS3011a.A.words1009)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.114">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_2)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words1010)..id(TS3011a.A.words1019)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.115">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words1020)..id(TS3011a.A.words1032)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.116">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words1033)..id(TS3011a.A.words1042)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.117" reflexivity="true">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_6)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words1043)..id(TS3011a.A.words1083)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.118">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words1085)..id(TS3011a.A.words1087)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.119">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_9)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words1088)..id(TS3011a.A.words1092)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.120" reflexivity="true">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_6)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words1093)..id(TS3011a.A.words1102)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.121">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_6)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words1103)..id(TS3011a.A.words1116)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.122">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_3)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words1135)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.123">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_5)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words1117)..id(TS3011a.A.words1123)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.124">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_9)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words1124)..id(TS3011a.A.words1125)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.125">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_9)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words1126)..id(TS3011a.A.words1132)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.126">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_9)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words1133)..id(TS3011a.A.words1134)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.127">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words1136)..id(TS3011a.A.words1140)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.128">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_3)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words1141)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.129">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_3)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words1142)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.130">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_9)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words1143)..id(TS3011a.A.words1146)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.131">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_14)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words1147)..id(TS3011a.A.words1149)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.132" reflexivity="true">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words1150)..id(TS3011a.A.words1168)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.133">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_13)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words1169)..id(TS3011a.A.words1180)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.134" reflexivity="true">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words1184)..id(TS3011a.A.words1188)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.135">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_2)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words1189)..id(TS3011a.A.words1190)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.136">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_2)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words1181)..id(TS3011a.A.words1183)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.137">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words1191)..id(TS3011a.A.words1210)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.138">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words1211)..id(TS3011a.A.words1225)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.139">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words1226)..id(TS3011a.A.words1231)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.140">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_2)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words1232)..id(TS3011a.A.words1233)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.141">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words1234)..id(TS3011a.A.words1241)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.142">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words1242)..id(TS3011a.A.words1264)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.143">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words1265)..id(TS3011a.A.words1279)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.144">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_6)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words1280)..id(TS3011a.A.words1294)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.145">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_2)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words1295)..id(TS3011a.A.words1296)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.146">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_9)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words1297)..id(TS3011a.A.words1306)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.147" reflexivity="true">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words1307)..id(TS3011a.A.words1311)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.148" reflexivity="true">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_6)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words1312)..id(TS3011a.A.words1321)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.149">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words1322)..id(TS3011a.A.words1323)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.150">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_9)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words1324)..id(TS3011a.A.words1325)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.151">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_9)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words1326)..id(TS3011a.A.words1329)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.152">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_3)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words1330)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.153">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_1)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words1331)..id(TS3011a.A.words1332)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.154">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_9)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words1333)..id(TS3011a.A.words1334)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.155">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words1335)..id(TS3011a.A.words1356)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.156">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_3)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words1357)..id(TS3011a.A.words1358)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.157">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_9)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words1359)..id(TS3011a.A.words1360)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.158">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_3)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words1361)..id(TS3011a.A.words1364)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.159">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_9)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words1365)..id(TS3011a.A.words1370)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.160">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_2)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words1371)..id(TS3011a.A.words1372)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.161" reflexivity="true">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_5)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words1373)..id(TS3011a.A.words1377)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.162">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_9)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words1378)..id(TS3011a.A.words1381)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.166">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_2)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words1382)..id(TS3011a.A.words1388)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.167" reflexivity="true">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_7)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words1389)..id(TS3011a.A.words1397)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.168">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_2)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words1398)..id(TS3011a.A.words1399)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.169">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_2)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words1400)..id(TS3011a.A.words1403)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.170" reflexivity="true">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_6)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words1404)..id(TS3011a.A.words1419)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.171">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words1420)..id(TS3011a.A.words1433)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.172">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words1434)..id(TS3011a.A.words1447)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.173">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words1448)..id(TS3011a.A.words1461)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.174">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words1462)..id(TS3011a.A.words1473)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.175">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words1474)..id(TS3011a.A.words1484)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.176" reflexivity="true">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_6)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words1485)..id(TS3011a.A.words1491)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.177">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_8)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words1492)..id(TS3011a.A.words1505)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.178">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_9)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words1506)..id(TS3011a.A.words1507)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.179">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_9)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words1508)..id(TS3011a.A.words1517)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.181">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_3)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words1518)..id(TS3011a.A.words1526)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.182">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words1527)..id(TS3011a.A.words1530)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.183">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_1)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words1531)..id(TS3011a.A.words1532)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.184">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_11)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words1533)..id(TS3011a.A.words1540)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.185">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_9)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words1541)..id(TS3011a.A.words1544)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.186">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_1)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words1545)..id(TS3011a.A.words1546)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.187">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_5)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words1547)..id(TS3011a.A.words1560)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.188">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_1)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words1561)..id(TS3011a.A.words1562)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.189">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_1)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words1563)..id(TS3011a.A.words1564)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.190">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_6)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words1565)..id(TS3011a.A.words1569)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.191">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_9)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words1570)..id(TS3011a.A.words1571)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.192">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_1)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words1572)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.193">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_3)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words1573)..id(TS3011a.A.words1575)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.195" reflexivity="true">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words1576)..id(TS3011a.A.words1595)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.196">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_2)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words1596)..id(TS3011a.A.words1597)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.197">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_9)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words1598)..id(TS3011a.A.words1599)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.198">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_9)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words1600)..id(TS3011a.A.words1604)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.199">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_9)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words1605)..id(TS3011a.A.words1606)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.200">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_9)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words1607)..id(TS3011a.A.words1608)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.201">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_3)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words1609)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.202">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_7)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words1610)..id(TS3011a.A.words1618)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.203">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_3)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words1619)..id(TS3011a.A.words1621)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.204">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_9)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words1622)..id(TS3011a.A.words1623)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.205" reflexivity="true">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_6)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words1624)..id(TS3011a.A.words1640)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.206">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_5)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words1641)..id(TS3011a.A.words1664)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.207">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_8)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words1665)..id(TS3011a.A.words1678)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.208">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_1)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words1679)..id(TS3011a.A.words1680)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.209">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_5)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words1681)..id(TS3011a.A.words1682)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.210">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_1)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words1683)..id(TS3011a.A.words1684)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.211">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_9)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words1685)..id(TS3011a.A.words1686)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.212">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_2)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words1687)..id(TS3011a.A.words1688)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.213">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_8)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words1689)..id(TS3011a.A.words1699)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.214">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_3)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words1700)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.215">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_3)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words1701)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.216">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_1)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words1702)..id(TS3011a.A.words1703)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.217">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_9)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words1704)..id(TS3011a.A.words1709)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.218">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words1710)..id(TS3011a.A.words1721)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.219">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_3)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words1722)..id(TS3011a.A.words1723)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.220">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_9)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words1724)..id(TS3011a.A.words1725)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.221">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words1726)..id(TS3011a.A.words1731)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.222">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_9)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words1732)..id(TS3011a.A.words1733)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.223">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_9)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words1734)..id(TS3011a.A.words1737)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.224">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_2)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words1738)..id(TS3011a.A.words1740)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.225" reflexivity="true">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_7)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words1741)..id(TS3011a.A.words1755)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.226">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_6)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words1756)..id(TS3011a.A.words1768)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.227">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_6)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words1769)..id(TS3011a.A.words1779)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.228">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words1780)..id(TS3011a.A.words1798)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.229">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_2)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words1799)..id(TS3011a.A.words1801)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.230">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_6)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words1802)..id(TS3011a.A.words1822)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.231">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_9)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words1823)..id(TS3011a.A.words1824)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.232">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_9)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words1825)..id(TS3011a.A.words1827)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.233">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_2)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words1828)..id(TS3011a.A.words1831)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.234">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words1832)..id(TS3011a.A.words1837)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.235">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_5)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words1838)..id(TS3011a.A.words1841)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.236">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_9)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words1842)..id(TS3011a.A.words1845)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.237">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_2)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words1846)..id(TS3011a.A.words1847)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.238">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_1)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words1848)..id(TS3011a.A.words1849)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.239" reflexivity="true">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words1850)..id(TS3011a.A.words1863)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.240">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_2)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words1864)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.241" reflexivity="true">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_6)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words1865)..id(TS3011a.A.words1876)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.242" reflexivity="true">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words1877)..id(TS3011a.A.words1883)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.243" reflexivity="true">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words1884)..id(TS3011a.A.words1895)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.244" reflexivity="false">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words1896)..id(TS3011a.A.words1907)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.245">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_2)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words1908)..id(TS3011a.A.words1909)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.246" reflexivity="true">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words1910)..id(TS3011a.A.words1913)"/>
+   </dact>
+   <dact nite:id="TS3011a.A.dialog-act.dharshi.247" reflexivity="true">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="TS3011a.A.words.xml#id(TS3011a.A.words1914)..id(TS3011a.A.words1919)"/>
+   </dact>
+</nite:root>

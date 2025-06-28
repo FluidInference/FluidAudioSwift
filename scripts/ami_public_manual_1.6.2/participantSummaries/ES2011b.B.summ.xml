@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<nite:root xmlns:nite="http://nite.sourceforge.net/">
+<participant_abstract nite:id="ES2011bID.pabstract.1">
+    <sent nite:id="ES2011bID.s.1">Marketing told gave us design ideas: user-friendly, not too many buttons, attractive, speech recognition.</sent>  <sent nite:id="ES2011bID.s.2">User Interface Design gave overall design ideas and Industrial Design gave a diagram of internal workings and parts.</sent>  <sent nite:id="ES2011bID.s.3">Target market was determined to be 19-35-year-olds.</sent>  <sent nite:id="ES2011bID.s.4">Design was discussed with a goal of reducing buttons and giving a fashionable look -- an iPod-like design was proposed.</sent>  
+</participant_abstract>
+<participant_actions nite:id="ES2011bID.pactions.1">
+   <sent nite:id="ES2011bID.s.5">ID - determine components for design.</sent>   <sent nite:id="ES2011bID.s.6">PM - write up meeting minutes.</sent>   <sent nite:id="ES2011bID.s.7">UID - something with look-and-feel of the product?</sent>   <sent nite:id="ES2011bID.s.8">ME - research market?</sent> 
+</participant_actions>
+<participant_decisions nite:id="ES2011bID.pdecisions.1">
+    <sent import="high" nite:id="ES2011bID.s.9">User interface will be buttons (not speech recognition).</sent>    <sent nite:id="ES2011bID.s.10">DVD functions may be necessary, but not VCR.</sent>    <sent nite:id="ES2011bID.s.11">IPod-style wheel for changing channels and volume.</sent>    <sent import="high" nite:id="ES2011bID.s.12">Locator function will be implemented.</sent> 
+</participant_decisions>
+<participant_problems nite:id="ES2011bID.pproblems.1">
+    <sent nite:id="ES2011bID.s.13">Lapel clip mikes still falling off.</sent>    <sent import="high" nite:id="ES2011bID.s.14">We don't know whether to include DVD functions on the remote.</sent> 
+</participant_problems>
+</nite:root>

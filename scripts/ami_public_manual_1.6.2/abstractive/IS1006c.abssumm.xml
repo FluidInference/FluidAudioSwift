@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<nite:root xmlns:nite="http://nite.sourceforge.net/">
+<abstract nite:id="IS1006c.rdhillon.abstract.1">
+
+<sentence nite:id="IS1006c.rdhillon.s.1">The project manager stated the agenda and set the goals for the current meeting.</sentence>  <sentence nite:id="IS1006c.rdhillon.s.2">The industrial designer discussed different options for batteries, case materials and shapes, chips, and interface components and also discussed the components necessary for a speech recognition capable remote control.</sentence>  <sentence nite:id="IS1006c.rdhillon.s.3">The user interface designer presented his concept for the interface design which he called the "millennium remote control".</sentence>  <sentence nite:id="IS1006c.rdhillon.s.4">The user interface designer also discussed with the team color options and how to make a "smart" remote which is in tune with the user's preferences.</sentence>  <sentence nite:id="IS1006c.rdhillon.s.5">The marketing expert discussed current findings from trend watching reports which indicated that there is a desire for products to have a fancy look and feel, be technologically innovative, be easy to use, incorporate a fruit and vegetable theme, and be spongy.</sentence>  <sentence nite:id="IS1006c.rdhillon.s.6">The project manager gave the team members their assignments and then the team went over the decisions they had made and discussed whether to use titanium or rubber in their design.</sentence> 
+</abstract>
+<actions nite:id="IS1006c.rdhillon.actions.1">
+
+<sentence nite:id="IS1006c.rdhillon.s.7">The user interface designer will work on the interface design.</sentence>
+<sentence nite:id="IS1006c.rdhillon.s.8">The marketing expert will work on the product evaluation.</sentence>
+<sentence nite:id="IS1006c.rdhillon.s.9">The user interface designer and industrial designer will work together on a prototype</sentence>
+</actions>
+<decisions nite:id="IS1006c.rdhillon.decisions.1">
+
+<sentence nite:id="IS1006c.rdhillon.s.10">The price of the remote to the consumer will increase if the consumer wants more colors available on the LCD screen.</sentence>
+<sentence nite:id="IS1006c.rdhillon.s.11">The remote will contain a speech recognizer.</sentence>
+<sentence nite:id="IS1006c.rdhillon.s.12">The remote will have some buttons.</sentence>
+<sentence nite:id="IS1006c.rdhillon.s.13">The remote will incorporate a fruit and vegetable theme.</sentence>
+<sentence nite:id="IS1006c.rdhillon.s.14">The remote will feature an LCD screen.</sentence>
+<sentence nite:id="IS1006c.rdhillon.s.15">The remote will use two regular batteries.</sentence> 
+</decisions>
+<problems nite:id="IS1006c.rdhillon.problems.1">
+
+<sentence nite:id="IS1006c.rdhillon.s.16">Whether to allow the LCD or the remote case to come in different colors.</sentence>
+<sentence nite:id="IS1006c.rdhillon.s.17">How to account for the increase in production costs for a remote that comes in different colors.</sentence>
+<sentence nite:id="IS1006c.rdhillon.s.18">How to make a "smart" remote.</sentence>
+<sentence nite:id="IS1006c.rdhillon.s.19">Whether to make a remote out of rubber or titanium.</sentence>
+<sentence nite:id="IS1006c.rdhillon.s.20">Whether the team should invent their own trend.</sentence> 
+</problems>
+</nite:root>

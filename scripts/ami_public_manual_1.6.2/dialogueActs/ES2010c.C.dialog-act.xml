@@ -1,0 +1,779 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<nite:root nite:id="ES2010c.C.dialog-act" xmlns:nite="http://nite.sourceforge.net/">
+   <dact nite:id="ES2010c.C.dialog-act.dharshi.1">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_3)"/>
+      <nite:child href="ES2010c.C.words.xml#id(ES2010c.C.words0)"/>
+   </dact>
+   <dact nite:id="ES2010c.C.dialog-act.dharshi.3">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="ES2010c.C.words.xml#id(ES2010c.C.words1)"/>
+   </dact>
+   <dact nite:id="ES2010c.C.dialog-act.dharshi.4">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_16)"/>
+      <nite:child href="ES2010c.C.words.xml#id(ES2010c.C.words2)..id(ES2010c.C.words4)"/>
+   </dact>
+   <dact nite:id="ES2010c.C.dialog-act.dharshi.5">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_7)"/>
+      <nite:child href="ES2010c.C.words.xml#id(ES2010c.C.words5)..id(ES2010c.C.words9)"/>
+   </dact>
+   <dact nite:id="ES2010c.C.dialog-act.dharshi.6">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_3)"/>
+      <nite:child href="ES2010c.C.words.xml#id(ES2010c.C.words10)"/>
+   </dact>
+   <dact nite:id="ES2010c.C.dialog-act.dharshi.7">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="ES2010c.C.words.xml#id(ES2010c.C.words11)..id(ES2010c.C.words15)"/>
+   </dact>
+   <dact nite:id="ES2010c.C.dialog-act.dharshi.8">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_16)"/>
+      <nite:child href="ES2010c.C.words.xml#id(ES2010c.C.words16)..id(ES2010c.C.words18)"/>
+   </dact>
+   <dact nite:id="ES2010c.C.dialog-act.dharshi.9">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="ES2010c.C.words.xml#id(ES2010c.C.words19)..id(ES2010c.C.words21)"/>
+   </dact>
+   <dact nite:id="ES2010c.C.dialog-act.dharshi.10">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_5)"/>
+      <nite:child href="ES2010c.C.words.xml#id(ES2010c.C.words22)..id(ES2010c.C.words23)"/>
+   </dact>
+   <dact nite:id="ES2010c.C.dialog-act.dharshi.11">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_6)"/>
+      <nite:child href="ES2010c.C.words.xml#id(ES2010c.C.words24)..id(ES2010c.C.words27)"/>
+   </dact>
+   <dact nite:id="ES2010c.C.dialog-act.dharshi.12">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_3)"/>
+      <nite:child href="ES2010c.C.words.xml#id(ES2010c.C.words28)..id(ES2010c.C.words31)"/>
+   </dact>
+   <dact nite:id="ES2010c.C.dialog-act.dharshi.13">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_16)"/>
+      <nite:child href="ES2010c.C.words.xml#id(ES2010c.C.words32)..id(ES2010c.C.words34)"/>
+   </dact>
+   <dact nite:id="ES2010c.C.dialog-act.dharshi.14">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="ES2010c.C.words.xml#id(ES2010c.C.words35)..id(ES2010c.C.words41)"/>
+   </dact>
+   <dact nite:id="ES2010c.C.dialog-act.dharshi.15">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_16)"/>
+      <nite:child href="ES2010c.C.words.xml#id(ES2010c.C.words42)..id(ES2010c.C.words44)"/>
+   </dact>
+   <dact nite:id="ES2010c.C.dialog-act.dharshi.16">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_14)"/>
+      <nite:child href="ES2010c.C.words.xml#id(ES2010c.C.words45)..id(ES2010c.C.words46)"/>
+   </dact>
+   <dact nite:id="ES2010c.C.dialog-act.dharshi.17">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_16)"/>
+      <nite:child href="ES2010c.C.words.xml#id(ES2010c.C.words47)..id(ES2010c.C.words49)"/>
+   </dact>
+   <dact nite:id="ES2010c.C.dialog-act.dharshi.18">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_16)"/>
+      <nite:child href="ES2010c.C.words.xml#id(ES2010c.C.words50)..id(ES2010c.C.words53)"/>
+   </dact>
+   <dact nite:id="ES2010c.C.dialog-act.dharshi.19">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_9)"/>
+      <nite:child href="ES2010c.C.words.xml#id(ES2010c.C.words54)..id(ES2010c.C.words55)"/>
+   </dact>
+   <dact nite:id="ES2010c.C.dialog-act.dharshi.20">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_2)"/>
+      <nite:child href="ES2010c.C.words.xml#id(ES2010c.C.words56)..id(ES2010c.C.words59)"/>
+   </dact>
+   <dact nite:id="ES2010c.C.dialog-act.dharshi.21">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="ES2010c.C.words.xml#id(ES2010c.C.words60)..id(ES2010c.C.words80)"/>
+   </dact>
+   <dact nite:id="ES2010c.C.dialog-act.dharshi.22">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_6)"/>
+      <nite:child href="ES2010c.C.words.xml#id(ES2010c.C.words81)..id(ES2010c.C.words89)"/>
+   </dact>
+   <dact nite:id="ES2010c.C.dialog-act.dharshi.23">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="ES2010c.C.words.xml#id(ES2010c.C.words90)..id(ES2010c.C.words101)"/>
+   </dact>
+   <dact nite:id="ES2010c.C.dialog-act.dharshi.24">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="ES2010c.C.words.xml#id(ES2010c.C.words102)..id(ES2010c.C.words127)"/>
+   </dact>
+   <dact nite:id="ES2010c.C.dialog-act.dharshi.25">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="ES2010c.C.words.xml#id(ES2010c.C.words128)..id(ES2010c.C.words135)"/>
+   </dact>
+   <dact nite:id="ES2010c.C.dialog-act.dharshi.26">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="ES2010c.C.words.xml#id(ES2010c.C.words136)..id(ES2010c.C.words145)"/>
+   </dact>
+   <dact nite:id="ES2010c.C.dialog-act.dharshi.27">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="ES2010c.C.words.xml#id(ES2010c.C.words146)..id(ES2010c.C.words153)"/>
+   </dact>
+   <dact nite:id="ES2010c.C.dialog-act.dharshi.28">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="ES2010c.C.words.xml#id(ES2010c.C.words154)..id(ES2010c.C.words172)"/>
+   </dact>
+   <dact nite:id="ES2010c.C.dialog-act.dharshi.29">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="ES2010c.C.words.xml#id(ES2010c.C.words173)..id(ES2010c.C.words176)"/>
+   </dact>
+   <dact nite:id="ES2010c.C.dialog-act.dharshi.30">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="ES2010c.C.words.xml#id(ES2010c.C.words177)..id(ES2010c.C.words194)"/>
+   </dact>
+   <dact nite:id="ES2010c.C.dialog-act.dharshi.31">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="ES2010c.C.words.xml#id(ES2010c.C.words195)..id(ES2010c.C.words224)"/>
+   </dact>
+   <dact nite:id="ES2010c.C.dialog-act.dharshi.32">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_6)"/>
+      <nite:child href="ES2010c.C.words.xml#id(ES2010c.C.words225)..id(ES2010c.C.words250)"/>
+   </dact>
+   <dact nite:id="ES2010c.C.dialog-act.dharshi.33">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_6)"/>
+      <nite:child href="ES2010c.C.words.xml#id(ES2010c.C.words251)..id(ES2010c.C.words257)"/>
+   </dact>
+   <dact nite:id="ES2010c.C.dialog-act.dharshi.34">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_6)"/>
+      <nite:child href="ES2010c.C.words.xml#id(ES2010c.C.words258)..id(ES2010c.C.words263)"/>
+   </dact>
+   <dact nite:id="ES2010c.C.dialog-act.dharshi.35">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="ES2010c.C.words.xml#id(ES2010c.C.words264)..id(ES2010c.C.words284)"/>
+   </dact>
+   <dact nite:id="ES2010c.C.dialog-act.dharshi.36">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="ES2010c.C.words.xml#id(ES2010c.C.words285)..id(ES2010c.C.words302)"/>
+   </dact>
+   <dact nite:id="ES2010c.C.dialog-act.dharshi.37">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="ES2010c.C.words.xml#id(ES2010c.C.words303)..id(ES2010c.C.words321)"/>
+   </dact>
+   <dact nite:id="ES2010c.C.dialog-act.dharshi.38">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="ES2010c.C.words.xml#id(ES2010c.C.words322)..id(ES2010c.C.words334)"/>
+   </dact>
+   <dact nite:id="ES2010c.C.dialog-act.dharshi.39">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="ES2010c.C.words.xml#id(ES2010c.C.words335)..id(ES2010c.C.words356)"/>
+   </dact>
+   <dact nite:id="ES2010c.C.dialog-act.dharshi.40">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_9)"/>
+      <nite:child href="ES2010c.C.words.xml#id(ES2010c.C.words357)..id(ES2010c.C.words375)"/>
+   </dact>
+   <dact nite:id="ES2010c.C.dialog-act.dharshi.41">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="ES2010c.C.words.xml#id(ES2010c.C.words376)..id(ES2010c.C.words390)"/>
+   </dact>
+   <dact nite:id="ES2010c.C.dialog-act.dharshi.42">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_9)"/>
+      <nite:child href="ES2010c.C.words.xml#id(ES2010c.C.words391)..id(ES2010c.C.words398)"/>
+   </dact>
+   <dact nite:id="ES2010c.C.dialog-act.dharshi.43">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_9)"/>
+      <nite:child href="ES2010c.C.words.xml#id(ES2010c.C.words399)..id(ES2010c.C.words406)"/>
+   </dact>
+   <dact nite:id="ES2010c.C.dialog-act.dharshi.44">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="ES2010c.C.words.xml#id(ES2010c.C.words407)..id(ES2010c.C.words415)"/>
+   </dact>
+   <dact nite:id="ES2010c.C.dialog-act.dharshi.45">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="ES2010c.C.words.xml#id(ES2010c.C.words416)..id(ES2010c.C.words435)"/>
+   </dact>
+   <dact nite:id="ES2010c.C.dialog-act.dharshi.46">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="ES2010c.C.words.xml#id(ES2010c.C.words436)..id(ES2010c.C.words460)"/>
+   </dact>
+   <dact nite:id="ES2010c.C.dialog-act.dharshi.47">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="ES2010c.C.words.xml#id(ES2010c.C.words461)..id(ES2010c.C.words476)"/>
+   </dact>
+   <dact nite:id="ES2010c.C.dialog-act.dharshi.48">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_9)"/>
+      <nite:child href="ES2010c.C.words.xml#id(ES2010c.C.words477)..id(ES2010c.C.words478)"/>
+   </dact>
+   <dact nite:id="ES2010c.C.dialog-act.dharshi.49">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="ES2010c.C.words.xml#id(ES2010c.C.words479)..id(ES2010c.C.words493)"/>
+   </dact>
+   <dact nite:id="ES2010c.C.dialog-act.dharshi.50">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="ES2010c.C.words.xml#id(ES2010c.C.words494)..id(ES2010c.C.words501)"/>
+   </dact>
+   <dact nite:id="ES2010c.C.dialog-act.dharshi.51">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_9)"/>
+      <nite:child href="ES2010c.C.words.xml#id(ES2010c.C.words502)..id(ES2010c.C.words506)"/>
+   </dact>
+   <dact nite:id="ES2010c.C.dialog-act.dharshi.52">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_6)"/>
+      <nite:child href="ES2010c.C.words.xml#id(ES2010c.C.words507)..id(ES2010c.C.words526)"/>
+   </dact>
+   <dact nite:id="ES2010c.C.dialog-act.dharshi.53">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="ES2010c.C.words.xml#id(ES2010c.C.words527)..id(ES2010c.C.words540)"/>
+   </dact>
+   <dact nite:id="ES2010c.C.dialog-act.dharshi.54">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="ES2010c.C.words.xml#id(ES2010c.C.words541)..id(ES2010c.C.words563)"/>
+   </dact>
+   <dact nite:id="ES2010c.C.dialog-act.dharshi.55">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="ES2010c.C.words.xml#id(ES2010c.C.words564)..id(ES2010c.C.words572)"/>
+   </dact>
+   <dact nite:id="ES2010c.C.dialog-act.dharshi.56">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="ES2010c.C.words.xml#id(ES2010c.C.words573)..id(ES2010c.C.words590)"/>
+   </dact>
+   <dact nite:id="ES2010c.C.dialog-act.dharshi.57">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="ES2010c.C.words.xml#id(ES2010c.C.words591)..id(ES2010c.C.words598)"/>
+   </dact>
+   <dact nite:id="ES2010c.C.dialog-act.dharshi.58">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_2)"/>
+      <nite:child href="ES2010c.C.words.xml#id(ES2010c.C.words599)..id(ES2010c.C.words605)"/>
+   </dact>
+   <dact nite:id="ES2010c.C.dialog-act.dharshi.59">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="ES2010c.C.words.xml#id(ES2010c.C.words606)..id(ES2010c.C.words618)"/>
+   </dact>
+   <dact nite:id="ES2010c.C.dialog-act.dharshi.60">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="ES2010c.C.words.xml#id(ES2010c.C.words619)..id(ES2010c.C.words629)"/>
+   </dact>
+   <dact nite:id="ES2010c.C.dialog-act.dharshi.61">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="ES2010c.C.words.xml#id(ES2010c.C.words630)..id(ES2010c.C.words639)"/>
+   </dact>
+   <dact nite:id="ES2010c.C.dialog-act.dharshi.62">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="ES2010c.C.words.xml#id(ES2010c.C.words640)..id(ES2010c.C.words658)"/>
+   </dact>
+   <dact nite:id="ES2010c.C.dialog-act.dharshi.63">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_9)"/>
+      <nite:child href="ES2010c.C.words.xml#id(ES2010c.C.words659)..id(ES2010c.C.words667)"/>
+   </dact>
+   <dact nite:id="ES2010c.C.dialog-act.dharshi.64">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="ES2010c.C.words.xml#id(ES2010c.C.words668)..id(ES2010c.C.words686)"/>
+   </dact>
+   <dact nite:id="ES2010c.C.dialog-act.dharshi.65">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="ES2010c.C.words.xml#id(ES2010c.C.words687)..id(ES2010c.C.words696)"/>
+   </dact>
+   <dact nite:id="ES2010c.C.dialog-act.dharshi.66">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="ES2010c.C.words.xml#id(ES2010c.C.words697)..id(ES2010c.C.words706)"/>
+   </dact>
+   <dact nite:id="ES2010c.C.dialog-act.dharshi.67">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_6)"/>
+      <nite:child href="ES2010c.C.words.xml#id(ES2010c.C.words707)..id(ES2010c.C.words718)"/>
+   </dact>
+   <dact nite:id="ES2010c.C.dialog-act.dharshi.68">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="ES2010c.C.words.xml#id(ES2010c.C.words719)..id(ES2010c.C.words730)"/>
+   </dact>
+   <dact nite:id="ES2010c.C.dialog-act.dharshi.69">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="ES2010c.C.words.xml#id(ES2010c.C.words731)..id(ES2010c.C.words743)"/>
+   </dact>
+   <dact nite:id="ES2010c.C.dialog-act.dharshi.70">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_9)"/>
+      <nite:child href="ES2010c.C.words.xml#id(ES2010c.C.words744)..id(ES2010c.C.words755)"/>
+   </dact>
+   <dact nite:id="ES2010c.C.dialog-act.dharshi.71">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="ES2010c.C.words.xml#id(ES2010c.C.words756)..id(ES2010c.C.words798)"/>
+   </dact>
+   <dact nite:id="ES2010c.C.dialog-act.dharshi.72">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_9)"/>
+      <nite:child href="ES2010c.C.words.xml#id(ES2010c.C.words799)..id(ES2010c.C.words800)"/>
+   </dact>
+   <dact nite:id="ES2010c.C.dialog-act.dharshi.73">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_3)"/>
+      <nite:child href="ES2010c.C.words.xml#id(ES2010c.C.words801)"/>
+   </dact>
+   <dact nite:id="ES2010c.C.dialog-act.dharshi.74">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="ES2010c.C.words.xml#id(ES2010c.C.words802)..id(ES2010c.C.words804)"/>
+   </dact>
+   <dact nite:id="ES2010c.C.dialog-act.dharshi.75">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_3)"/>
+      <nite:child href="ES2010c.C.words.xml#id(ES2010c.C.words805)"/>
+   </dact>
+   <dact nite:id="ES2010c.C.dialog-act.dharshi.76">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_1)"/>
+      <nite:child href="ES2010c.C.words.xml#id(ES2010c.C.words806)..id(ES2010c.C.words807)"/>
+   </dact>
+   <dact nite:id="ES2010c.C.dialog-act.dharshi.77">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_7)"/>
+      <nite:child href="ES2010c.C.words.xml#id(ES2010c.C.words808)..id(ES2010c.C.words820)"/>
+   </dact>
+   <dact nite:id="ES2010c.C.dialog-act.dharshi.78">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="ES2010c.C.words.xml#id(ES2010c.C.words821)..id(ES2010c.C.words836)"/>
+   </dact>
+   <dact nite:id="ES2010c.C.dialog-act.dharshi.79">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_2)"/>
+      <nite:child href="ES2010c.C.words.xml#id(ES2010c.C.words837)..id(ES2010c.C.words838)"/>
+   </dact>
+   <dact nite:id="ES2010c.C.dialog-act.dharshi.80">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_9)"/>
+      <nite:child href="ES2010c.C.words.xml#id(ES2010c.C.words839)"/>
+   </dact>
+   <dact nite:id="ES2010c.C.dialog-act.dharshi.81">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_9)"/>
+      <nite:child href="ES2010c.C.words.xml#id(ES2010c.C.words840)..id(ES2010c.C.words846)"/>
+   </dact>
+   <dact nite:id="ES2010c.C.dialog-act.dharshi.82">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_9)"/>
+      <nite:child href="ES2010c.C.words.xml#id(ES2010c.C.words847)..id(ES2010c.C.words863)"/>
+   </dact>
+   <dact nite:id="ES2010c.C.dialog-act.dharshi.83">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="ES2010c.C.words.xml#id(ES2010c.C.words864)..id(ES2010c.C.words876)"/>
+   </dact>
+   <dact nite:id="ES2010c.C.dialog-act.dharshi.84">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="ES2010c.C.words.xml#id(ES2010c.C.words877)..id(ES2010c.C.words898)"/>
+   </dact>
+   <dact nite:id="ES2010c.C.dialog-act.dharshi.85">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="ES2010c.C.words.xml#id(ES2010c.C.words899)"/>
+   </dact>
+   <dact nite:id="ES2010c.C.dialog-act.dharshi.89">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="ES2010c.C.words.xml#id(ES2010c.C.words900)..id(ES2010c.C.words922)"/>
+   </dact>
+   <dact nite:id="ES2010c.C.dialog-act.dharshi.90">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_5)"/>
+      <nite:child href="ES2010c.C.words.xml#id(ES2010c.C.words923)..id(ES2010c.C.words949)"/>
+   </dact>
+   <dact nite:id="ES2010c.C.dialog-act.dharshi.91">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_5)"/>
+      <nite:child href="ES2010c.C.words.xml#id(ES2010c.C.words950)..id(ES2010c.C.words959)"/>
+   </dact>
+   <dact nite:id="ES2010c.C.dialog-act.dharshi.92">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_5)"/>
+      <nite:child href="ES2010c.C.words.xml#id(ES2010c.C.words960)..id(ES2010c.C.words974)"/>
+   </dact>
+   <dact nite:id="ES2010c.C.dialog-act.dharshi.93">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_9)"/>
+      <nite:child href="ES2010c.C.words.xml#id(ES2010c.C.words975)..id(ES2010c.C.words976)"/>
+   </dact>
+   <dact nite:id="ES2010c.C.dialog-act.dharshi.94">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="ES2010c.C.words.xml#id(ES2010c.C.words977)..id(ES2010c.C.words988)"/>
+   </dact>
+   <dact nite:id="ES2010c.C.dialog-act.dharshi.96">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_9)"/>
+      <nite:child href="ES2010c.C.words.xml#id(ES2010c.C.words989)..id(ES2010c.C.words994)"/>
+   </dact>
+   <dact nite:id="ES2010c.C.dialog-act.dharshi.97">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="ES2010c.C.words.xml#id(ES2010c.C.words995)..id(ES2010c.C.words1002)"/>
+   </dact>
+   <dact nite:id="ES2010c.C.dialog-act.dharshi.98">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_9)"/>
+      <nite:child href="ES2010c.C.words.xml#id(ES2010c.C.words1003)..id(ES2010c.C.words1017)"/>
+   </dact>
+   <dact nite:id="ES2010c.C.dialog-act.dharshi.99">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_9)"/>
+      <nite:child href="ES2010c.C.words.xml#id(ES2010c.C.words1018)..id(ES2010c.C.words1037)"/>
+   </dact>
+   <dact nite:id="ES2010c.C.dialog-act.dharshi.100">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="ES2010c.C.words.xml#id(ES2010c.C.words1038)..id(ES2010c.C.words1050)"/>
+   </dact>
+   <dact nite:id="ES2010c.C.dialog-act.dharshi.101">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_9)"/>
+      <nite:child href="ES2010c.C.words.xml#id(ES2010c.C.words1051)..id(ES2010c.C.words1052)"/>
+   </dact>
+   <dact nite:id="ES2010c.C.dialog-act.dharshi.102">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_6)"/>
+      <nite:child href="ES2010c.C.words.xml#id(ES2010c.C.words1053)..id(ES2010c.C.words1077)"/>
+   </dact>
+   <dact nite:id="ES2010c.C.dialog-act.dharshi.103">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_9)"/>
+      <nite:child href="ES2010c.C.words.xml#id(ES2010c.C.words1078)..id(ES2010c.C.words1102)"/>
+   </dact>
+   <dact nite:id="ES2010c.C.dialog-act.dharshi.104">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_9)"/>
+      <nite:child href="ES2010c.C.words.xml#id(ES2010c.C.words1103)..id(ES2010c.C.words1109)"/>
+   </dact>
+   <dact nite:id="ES2010c.C.dialog-act.dharshi.105">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_1)"/>
+      <nite:child href="ES2010c.C.words.xml#id(ES2010c.C.words1110)..id(ES2010c.C.words1111)"/>
+   </dact>
+   <dact nite:id="ES2010c.C.dialog-act.dharshi.107">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_16)"/>
+      <nite:child href="ES2010c.C.words.xml#id(ES2010c.C.words1112)..id(ES2010c.C.words1118)"/>
+   </dact>
+   <dact nite:id="ES2010c.C.dialog-act.dharshi.108">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_2)"/>
+      <nite:child href="ES2010c.C.words.xml#id(ES2010c.C.words1119)..id(ES2010c.C.words1124)"/>
+   </dact>
+   <dact nite:id="ES2010c.C.dialog-act.dharshi.109">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_5)"/>
+      <nite:child href="ES2010c.C.words.xml#id(ES2010c.C.words1125)..id(ES2010c.C.words1139)"/>
+   </dact>
+   <dact nite:id="ES2010c.C.dialog-act.dharshi.110">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="ES2010c.C.words.xml#id(ES2010c.C.words1140)..id(ES2010c.C.words1167)"/>
+   </dact>
+   <dact nite:id="ES2010c.C.dialog-act.dharshi.111">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_3)"/>
+      <nite:child href="ES2010c.C.words.xml#id(ES2010c.C.words1168)..id(ES2010c.C.words1170)"/>
+   </dact>
+   <dact nite:id="ES2010c.C.dialog-act.dharshi.112">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_1)"/>
+      <nite:child href="ES2010c.C.words.xml#id(ES2010c.C.words1171)..id(ES2010c.C.words1172)"/>
+   </dact>
+   <dact nite:id="ES2010c.C.dialog-act.dharshi.114">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_9)"/>
+      <nite:child href="ES2010c.C.words.xml#id(ES2010c.C.words1173)..id(ES2010c.C.words1179)"/>
+   </dact>
+   <dact nite:id="ES2010c.C.dialog-act.dharshi.115">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_9)"/>
+      <nite:child href="ES2010c.C.words.xml#id(ES2010c.C.words1180)..id(ES2010c.C.words1181)"/>
+   </dact>
+   <dact nite:id="ES2010c.C.dialog-act.dharshi.113">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_9)"/>
+      <nite:child href="ES2010c.C.words.xml#id(ES2010c.C.words1182)..id(ES2010c.C.words1192)"/>
+   </dact>
+   <dact nite:id="ES2010c.C.dialog-act.dharshi.116">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_16)"/>
+      <nite:child href="ES2010c.C.words.xml#id(ES2010c.C.words1193)..id(ES2010c.C.words1196)"/>
+   </dact>
+   <dact nite:id="ES2010c.C.dialog-act.dharshi.117">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_3)"/>
+      <nite:child href="ES2010c.C.words.xml#id(ES2010c.C.words1197)"/>
+   </dact>
+   <dact nite:id="ES2010c.C.dialog-act.dharshi.118">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="ES2010c.C.words.xml#id(ES2010c.C.words1198)..id(ES2010c.C.words1210)"/>
+   </dact>
+   <dact nite:id="ES2010c.C.dialog-act.dharshi.119">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_3)"/>
+      <nite:child href="ES2010c.C.words.xml#id(ES2010c.C.words1211)..id(ES2010c.C.words1214)"/>
+   </dact>
+   <dact nite:id="ES2010c.C.dialog-act.dharshi.120">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_9)"/>
+      <nite:child href="ES2010c.C.words.xml#id(ES2010c.C.words1215)..id(ES2010c.C.words1234)"/>
+   </dact>
+   <dact nite:id="ES2010c.C.dialog-act.dharshi.121">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_9)"/>
+      <nite:child href="ES2010c.C.words.xml#id(ES2010c.C.words1235)..id(ES2010c.C.words1236)"/>
+   </dact>
+   <dact nite:id="ES2010c.C.dialog-act.dharshi.122">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_3)"/>
+      <nite:child href="ES2010c.C.words.xml#id(ES2010c.C.words1237)..id(ES2010c.C.words1238)"/>
+   </dact>
+   <dact nite:id="ES2010c.C.dialog-act.dharshi.123">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_9)"/>
+      <nite:child href="ES2010c.C.words.xml#id(ES2010c.C.words1239)..id(ES2010c.C.words1242)"/>
+   </dact>
+   <dact nite:id="ES2010c.C.dialog-act.dharshi.124">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_9)"/>
+      <nite:child href="ES2010c.C.words.xml#id(ES2010c.C.words1243)..id(ES2010c.C.words1248)"/>
+   </dact>
+   <dact nite:id="ES2010c.C.dialog-act.dharshi.125">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_5)"/>
+      <nite:child href="ES2010c.C.words.xml#id(ES2010c.C.words1249)..id(ES2010c.C.words1254)"/>
+   </dact>
+   <dact nite:id="ES2010c.C.dialog-act.dharshi.127">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="ES2010c.C.words.xml#id(ES2010c.C.words1255)..id(ES2010c.C.words1257)"/>
+   </dact>
+   <dact nite:id="ES2010c.C.dialog-act.dharshi.126">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_3)"/>
+      <nite:child href="ES2010c.C.words.xml#id(ES2010c.C.words1258)"/>
+   </dact>
+   <dact nite:id="ES2010c.C.dialog-act.dharshi.128">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_3)"/>
+      <nite:child href="ES2010c.C.words.xml#id(ES2010c.C.words1259)"/>
+   </dact>
+   <dact nite:id="ES2010c.C.dialog-act.dharshi.129">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_5)"/>
+      <nite:child href="ES2010c.C.words.xml#id(ES2010c.C.words1260)..id(ES2010c.C.words1275)"/>
+   </dact>
+   <dact nite:id="ES2010c.C.dialog-act.dharshi.130">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_5)"/>
+      <nite:child href="ES2010c.C.words.xml#id(ES2010c.C.words1276)..id(ES2010c.C.words1291)"/>
+   </dact>
+   <dact nite:id="ES2010c.C.dialog-act.dharshi.131">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_1)"/>
+      <nite:child href="ES2010c.C.words.xml#id(ES2010c.C.words1292)..id(ES2010c.C.words1293)"/>
+   </dact>
+   <dact nite:id="ES2010c.C.dialog-act.dharshi.132">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_2)"/>
+      <nite:child href="ES2010c.C.words.xml#id(ES2010c.C.words1294)..id(ES2010c.C.words1295)"/>
+   </dact>
+   <dact nite:id="ES2010c.C.dialog-act.dharshi.133">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_9)"/>
+      <nite:child href="ES2010c.C.words.xml#id(ES2010c.C.words1296)..id(ES2010c.C.words1302)"/>
+   </dact>
+   <dact nite:id="ES2010c.C.dialog-act.dharshi.134">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_1)"/>
+      <nite:child href="ES2010c.C.words.xml#id(ES2010c.C.words1303)..id(ES2010c.C.words1304)"/>
+   </dact>
+   <dact nite:id="ES2010c.C.dialog-act.dharshi.135">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_5)"/>
+      <nite:child href="ES2010c.C.words.xml#id(ES2010c.C.words1305)..id(ES2010c.C.words1309)"/>
+   </dact>
+   <dact nite:id="ES2010c.C.dialog-act.dharshi.136">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="ES2010c.C.words.xml#id(ES2010c.C.words1310)..id(ES2010c.C.words1344)"/>
+   </dact>
+   <dact nite:id="ES2010c.C.dialog-act.dharshi.137">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="ES2010c.C.words.xml#id(ES2010c.C.words1345)..id(ES2010c.C.words1366)"/>
+   </dact>
+   <dact nite:id="ES2010c.C.dialog-act.dharshi.138">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="ES2010c.C.words.xml#id(ES2010c.C.words1367)..id(ES2010c.C.words1372)"/>
+   </dact>
+   <dact nite:id="ES2010c.C.dialog-act.dharshi.139">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_3)"/>
+      <nite:child href="ES2010c.C.words.xml#id(ES2010c.C.words1373)..id(ES2010c.C.words1376)"/>
+   </dact>
+   <dact nite:id="ES2010c.C.dialog-act.dharshi.140">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_1)"/>
+      <nite:child href="ES2010c.C.words.xml#id(ES2010c.C.words1377)..id(ES2010c.C.words1378)"/>
+   </dact>
+   <dact nite:id="ES2010c.C.dialog-act.dharshi.141">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_1)"/>
+      <nite:child href="ES2010c.C.words.xml#id(ES2010c.C.words1379)..id(ES2010c.C.words1380)"/>
+   </dact>
+   <dact nite:id="ES2010c.C.dialog-act.dharshi.142">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="ES2010c.C.words.xml#id(ES2010c.C.words1381)..id(ES2010c.C.words1391)"/>
+   </dact>
+   <dact nite:id="ES2010c.C.dialog-act.dharshi.143">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_9)"/>
+      <nite:child href="ES2010c.C.words.xml#id(ES2010c.C.words1392)..id(ES2010c.C.words1400)"/>
+   </dact>
+   <dact nite:id="ES2010c.C.dialog-act.dharshi.144">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_9)"/>
+      <nite:child href="ES2010c.C.words.xml#id(ES2010c.C.words1401)..id(ES2010c.C.words1407)"/>
+   </dact>
+   <dact nite:id="ES2010c.C.dialog-act.dharshi.146">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_2)"/>
+      <nite:child href="ES2010c.C.words.xml#id(ES2010c.C.words1408)..id(ES2010c.C.words1411)"/>
+   </dact>
+   <dact nite:id="ES2010c.C.dialog-act.dharshi.147">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="ES2010c.C.words.xml#id(ES2010c.C.words1412)..id(ES2010c.C.words1419)"/>
+   </dact>
+   <dact nite:id="ES2010c.C.dialog-act.dharshi.148">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_2)"/>
+      <nite:child href="ES2010c.C.words.xml#id(ES2010c.C.words1420)..id(ES2010c.C.words1421)"/>
+   </dact>
+   <dact nite:id="ES2010c.C.dialog-act.dharshi.149">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_9)"/>
+      <nite:child href="ES2010c.C.words.xml#id(ES2010c.C.words1422)..id(ES2010c.C.words1435)"/>
+   </dact>
+   <dact nite:id="ES2010c.C.dialog-act.dharshi.150">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_11)"/>
+      <nite:child href="ES2010c.C.words.xml#id(ES2010c.C.words1436)..id(ES2010c.C.words1460)"/>
+   </dact>
+   <dact nite:id="ES2010c.C.dialog-act.dharshi.151">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_11)"/>
+      <nite:child href="ES2010c.C.words.xml#id(ES2010c.C.words1461)..id(ES2010c.C.words1479)"/>
+   </dact>
+   <dact nite:id="ES2010c.C.dialog-act.dharshi.152">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_1)"/>
+      <nite:child href="ES2010c.C.words.xml#id(ES2010c.C.words1480)..id(ES2010c.C.words1481)"/>
+   </dact>
+   <dact nite:id="ES2010c.C.dialog-act.dharshi.153">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_5)"/>
+      <nite:child href="ES2010c.C.words.xml#id(ES2010c.C.words1482)..id(ES2010c.C.words1487)"/>
+   </dact>
+   <dact nite:id="ES2010c.C.dialog-act.dharshi.154">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_5)"/>
+      <nite:child href="ES2010c.C.words.xml#id(ES2010c.C.words1488)..id(ES2010c.C.words1489)"/>
+   </dact>
+   <dact nite:id="ES2010c.C.dialog-act.dharshi.155">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_5)"/>
+      <nite:child href="ES2010c.C.words.xml#id(ES2010c.C.words1490)..id(ES2010c.C.words1495)"/>
+   </dact>
+   <dact nite:id="ES2010c.C.dialog-act.dharshi.158">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_6)"/>
+      <nite:child href="ES2010c.C.words.xml#id(ES2010c.C.words1496)..id(ES2010c.C.words1521)"/>
+   </dact>
+   <dact nite:id="ES2010c.C.dialog-act.dharshi.159">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_8)"/>
+      <nite:child href="ES2010c.C.words.xml#id(ES2010c.C.words1522)..id(ES2010c.C.words1525)"/>
+   </dact>
+   <dact nite:id="ES2010c.C.dialog-act.dharshi.156">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_9)"/>
+      <nite:child href="ES2010c.C.words.xml#id(ES2010c.C.words1526)..id(ES2010c.C.words1544)"/>
+   </dact>
+   <dact nite:id="ES2010c.C.dialog-act.dharshi.157">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="ES2010c.C.words.xml#id(ES2010c.C.words1545)..id(ES2010c.C.words1552)"/>
+   </dact>
+   <dact nite:id="ES2010c.C.dialog-act.dharshi.160">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_8)"/>
+      <nite:child href="ES2010c.C.words.xml#id(ES2010c.C.words1553)..id(ES2010c.C.words1555)"/>
+   </dact>
+   <dact nite:id="ES2010c.C.dialog-act.dharshi.161">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="ES2010c.C.words.xml#id(ES2010c.C.words1556)..id(ES2010c.C.words1557)"/>
+   </dact>
+   <dact nite:id="ES2010c.C.dialog-act.dharshi.162">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="ES2010c.C.words.xml#id(ES2010c.C.words1558)..id(ES2010c.C.words1559)"/>
+   </dact>
+   <dact nite:id="ES2010c.C.dialog-act.dharshi.163">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_3)"/>
+      <nite:child href="ES2010c.C.words.xml#id(ES2010c.C.words1560)"/>
+   </dact>
+   <dact nite:id="ES2010c.C.dialog-act.dharshi.164">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_9)"/>
+      <nite:child href="ES2010c.C.words.xml#id(ES2010c.C.words1561)..id(ES2010c.C.words1572)"/>
+   </dact>
+   <dact nite:id="ES2010c.C.dialog-act.dharshi.165">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_2)"/>
+      <nite:child href="ES2010c.C.words.xml#id(ES2010c.C.words1573)..id(ES2010c.C.words1576)"/>
+   </dact>
+   <dact nite:id="ES2010c.C.dialog-act.dharshi.166">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_5)"/>
+      <nite:child href="ES2010c.C.words.xml#id(ES2010c.C.words1577)..id(ES2010c.C.words1586)"/>
+   </dact>
+   <dact nite:id="ES2010c.C.dialog-act.dharshi.167">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_5)"/>
+      <nite:child href="ES2010c.C.words.xml#id(ES2010c.C.words1587)..id(ES2010c.C.words1599)"/>
+   </dact>
+   <dact nite:id="ES2010c.C.dialog-act.dharshi.168">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="ES2010c.C.words.xml#id(ES2010c.C.words1600)..id(ES2010c.C.words1626)"/>
+   </dact>
+   <dact nite:id="ES2010c.C.dialog-act.dharshi.169">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_3)"/>
+      <nite:child href="ES2010c.C.words.xml#id(ES2010c.C.words1627)"/>
+   </dact>
+   <dact nite:id="ES2010c.C.dialog-act.dharshi.172">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_2)"/>
+      <nite:child href="ES2010c.C.words.xml#id(ES2010c.C.words1628)..id(ES2010c.C.words1631)"/>
+   </dact>
+   <dact nite:id="ES2010c.C.dialog-act.dharshi.173">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_9)"/>
+      <nite:child href="ES2010c.C.words.xml#id(ES2010c.C.words1632)..id(ES2010c.C.words1641)"/>
+   </dact>
+   <dact nite:id="ES2010c.C.dialog-act.dharshi.171">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_16)"/>
+      <nite:child href="ES2010c.C.words.xml#id(ES2010c.C.words1642)..id(ES2010c.C.words1646)"/>
+   </dact>
+   <dact nite:id="ES2010c.C.dialog-act.dharshi.175">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="ES2010c.C.words.xml#id(ES2010c.C.words1647)..id(ES2010c.C.words1665)"/>
+   </dact>
+   <dact nite:id="ES2010c.C.dialog-act.dharshi.176">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_9)"/>
+      <nite:child href="ES2010c.C.words.xml#id(ES2010c.C.words1666)..id(ES2010c.C.words1667)"/>
+   </dact>
+   <dact nite:id="ES2010c.C.dialog-act.dharshi.177">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="ES2010c.C.words.xml#id(ES2010c.C.words1668)..id(ES2010c.C.words1675)"/>
+   </dact>
+   <dact nite:id="ES2010c.C.dialog-act.dharshi.174">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="ES2010c.C.words.xml#id(ES2010c.C.words1676)..id(ES2010c.C.words1679)"/>
+   </dact>
+   <dact nite:id="ES2010c.C.dialog-act.dharshi.178">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="ES2010c.C.words.xml#id(ES2010c.C.words1680)..id(ES2010c.C.words1683)"/>
+   </dact>
+   <dact nite:id="ES2010c.C.dialog-act.dharshi.170">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_3)"/>
+      <nite:child href="ES2010c.C.words.xml#id(ES2010c.C.words1684)"/>
+   </dact>
+   <dact nite:id="ES2010c.C.dialog-act.dharshi.179">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="ES2010c.C.words.xml#id(ES2010c.C.words1685)..id(ES2010c.C.words1692)"/>
+   </dact>
+   <dact nite:id="ES2010c.C.dialog-act.dharshi.180">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="ES2010c.C.words.xml#id(ES2010c.C.words1693)..id(ES2010c.C.words1698)"/>
+   </dact>
+   <dact nite:id="ES2010c.C.dialog-act.dharshi.181">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="ES2010c.C.words.xml#id(ES2010c.C.words1699)..id(ES2010c.C.words1725)"/>
+   </dact>
+   <dact nite:id="ES2010c.C.dialog-act.dharshi.182">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="ES2010c.C.words.xml#id(ES2010c.C.words1726)..id(ES2010c.C.words1738)"/>
+   </dact>
+   <dact nite:id="ES2010c.C.dialog-act.dharshi.183">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="ES2010c.C.words.xml#id(ES2010c.C.words1739)..id(ES2010c.C.words1746)"/>
+   </dact>
+   <dact nite:id="ES2010c.C.dialog-act.dharshi.184">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="ES2010c.C.words.xml#id(ES2010c.C.words1747)..id(ES2010c.C.words1764)"/>
+   </dact>
+   <dact nite:id="ES2010c.C.dialog-act.dharshi.185">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_5)"/>
+      <nite:child href="ES2010c.C.words.xml#id(ES2010c.C.words1765)..id(ES2010c.C.words1770)"/>
+   </dact>
+   <dact nite:id="ES2010c.C.dialog-act.dharshi.186">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="ES2010c.C.words.xml#id(ES2010c.C.words1771)..id(ES2010c.C.words1782)"/>
+   </dact>
+   <dact nite:id="ES2010c.C.dialog-act.dharshi.187">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="ES2010c.C.words.xml#id(ES2010c.C.words1783)..id(ES2010c.C.words1800)"/>
+   </dact>
+   <dact nite:id="ES2010c.C.dialog-act.dharshi.188">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_1)"/>
+      <nite:child href="ES2010c.C.words.xml#id(ES2010c.C.words1801)..id(ES2010c.C.words1802)"/>
+   </dact>
+   <dact nite:id="ES2010c.C.dialog-act.dharshi.189">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_9)"/>
+      <nite:child href="ES2010c.C.words.xml#id(ES2010c.C.words1803)..id(ES2010c.C.words1808)"/>
+   </dact>
+   <dact nite:id="ES2010c.C.dialog-act.dharshi.190">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_9)"/>
+      <nite:child href="ES2010c.C.words.xml#id(ES2010c.C.words1809)..id(ES2010c.C.words1810)"/>
+   </dact>
+   <dact nite:id="ES2010c.C.dialog-act.dharshi.191">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="ES2010c.C.words.xml#id(ES2010c.C.words1811)..id(ES2010c.C.words1831)"/>
+   </dact>
+   <dact nite:id="ES2010c.C.dialog-act.dharshi.192">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_6)"/>
+      <nite:child href="ES2010c.C.words.xml#id(ES2010c.C.words1832)..id(ES2010c.C.words1847)"/>
+   </dact>
+   <dact nite:id="ES2010c.C.dialog-act.dharshi.193">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_6)"/>
+      <nite:child href="ES2010c.C.words.xml#id(ES2010c.C.words1848)..id(ES2010c.C.words1849)"/>
+   </dact>
+   <dact nite:id="ES2010c.C.dialog-act.dharshi.194">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_1)"/>
+      <nite:child href="ES2010c.C.words.xml#id(ES2010c.C.words1850)..id(ES2010c.C.words1851)"/>
+   </dact>
+   <dact nite:id="ES2010c.C.dialog-act.dharshi.195">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_16)"/>
+      <nite:child href="ES2010c.C.words.xml#id(ES2010c.C.words1852)..id(ES2010c.C.words1856)"/>
+   </dact>
+   <dact nite:id="ES2010c.C.dialog-act.dharshi.196">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_16)"/>
+      <nite:child href="ES2010c.C.words.xml#id(ES2010c.C.words1857)..id(ES2010c.C.words1862)"/>
+   </dact>
+   <dact nite:id="ES2010c.C.dialog-act.dharshi.197">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_6)"/>
+      <nite:child href="ES2010c.C.words.xml#id(ES2010c.C.words1863)..id(ES2010c.C.words1868)"/>
+   </dact>
+   <dact nite:id="ES2010c.C.dialog-act.dharshi.198">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_5)"/>
+      <nite:child href="ES2010c.C.words.xml#id(ES2010c.C.words1869)..id(ES2010c.C.words1875)"/>
+   </dact>
+   <dact nite:id="ES2010c.C.dialog-act.dharshi.199">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_5)"/>
+      <nite:child href="ES2010c.C.words.xml#id(ES2010c.C.words1876)..id(ES2010c.C.words1885)"/>
+   </dact>
+   <dact nite:id="ES2010c.C.dialog-act.dharshi.200">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_9)"/>
+      <nite:child href="ES2010c.C.words.xml#id(ES2010c.C.words1886)..id(ES2010c.C.words1888)"/>
+   </dact>
+   <dact nite:id="ES2010c.C.dialog-act.dharshi.201">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_9)"/>
+      <nite:child href="ES2010c.C.words.xml#id(ES2010c.C.words1889)..id(ES2010c.C.words1891)"/>
+   </dact>
+</nite:root>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<nite:root xmlns:nite="http://nite.sourceforge.net/">
+<participant_abstract nite:id="IS1003cME.pabstract.1">
+
+ 
+<sent nite:id="IS1003cME.s.1">The goal of this meeting was to discuss the crucial points necessary for a
+first prototyping.</sent> <sent nite:id="IS1003cME.s.2">Solar power supply will be used and part of the material
+will be wood, as brought by the industrial designer Baba.</sent> <sent nite:id="IS1003cME.s.3">The user
+interface designer David pushed for speech and gesture recognition, but it
+was discussed to be a risky technology for a first implementation.</sent> <sent nite:id="IS1003cME.s.4">The
+fashion trends are fruits and vegetables, and the fancy look-and-feel seems
+to be the key point from a user point a view.</sent> <sent nite:id="IS1003cME.s.5">Decisions have been made at
+the end of the meeting.</sent>
+ 
+ 
+
+</participant_abstract>
+<participant_actions nite:id="IS1003cME.pactions.1">
+ <sent nite:id="IS1003cME.s.6">ID look and feel design
+UID user interface design
+ME product evaluation</sent>
+
+</participant_actions>
+<participant_decisions nite:id="IS1003cME.pdecisions.1">
+  <sent nite:id="IS1003cME.s.7">Wood material (partly).
+ spongy feeling.
+ fruits-vegetable inspired.
+ solar power supply.</sent>
+ <sent import="high" nite:id="IS1003cME.s.8">Yellow.
+ might include speech recognition</sent>
+ 
+
+</participant_decisions>
+<participant_problems nite:id="IS1003cME.pproblems.1">
+  <sent nite:id="IS1003cME.s.9">Deciding if speech or gesture recognition</sent>
+ 
+ 
+
+</participant_problems>
+</nite:root>

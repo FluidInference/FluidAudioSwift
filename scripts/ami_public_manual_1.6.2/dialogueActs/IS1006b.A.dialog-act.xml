@@ -1,0 +1,815 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<nite:root nite:id="IS1006b.A.dialog-act" xmlns:nite="http://nite.sourceforge.net/">
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.1">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_2)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words0)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.2" addressee="D,C,B" reflexivity="true">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_5)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words1)..id(IS1006b.A.words11)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.3">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_2)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words12)..id(IS1006b.A.words13)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.4" addressee="D,C,B" reflexivity="true">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words14)..id(IS1006b.A.words18)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.5" addressee="D,C,B" reflexivity="true">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words19)..id(IS1006b.A.words28)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.6" addressee="D,C,B" reflexivity="true">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words29)..id(IS1006b.A.words46)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.7">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_2)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words47)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.8" addressee="D,C,B">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_5)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words48)..id(IS1006b.A.words57)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.9" addressee="D,C,B">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words58)..id(IS1006b.A.words70)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.10" addressee="D,C,B">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_8)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words71)..id(IS1006b.A.words79)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.11">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_2)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words80)..id(IS1006b.A.words81)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.12" addressee="D,C,B" reflexivity="true">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words82)..id(IS1006b.A.words89)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.13" addressee="D,C,B">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_15)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words90)..id(IS1006b.A.words95)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.14">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_16)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words96)..id(IS1006b.A.words99)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.15" addressee="D,C,B">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_8)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words100)..id(IS1006b.A.words107)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.16" addressee="D">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_9)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words108)..id(IS1006b.A.words110)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.17">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_2)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words111)..id(IS1006b.A.words112)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.18" addressee="D,C,B" reflexivity="true">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_6)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words113)..id(IS1006b.A.words119)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.19" addressee="D" reflexivity="true">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_6)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words120)..id(IS1006b.A.words125)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.20" addressee="D" reflexivity="true">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_6)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words126)..id(IS1006b.A.words132)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.21">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_3)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words133)..id(IS1006b.A.words136)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.22">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_16)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words137)..id(IS1006b.A.words140)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.23">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_16)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words141)..id(IS1006b.A.words142)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.24" addressee="D">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_9)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words143)..id(IS1006b.A.words144)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.25" addressee="B" reflexivity="true">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_12)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words145)..id(IS1006b.A.words147)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.26">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_16)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words148)..id(IS1006b.A.words151)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.27">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_3)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words152)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.28">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_3)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words153)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.29">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_3)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words154)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.30" addressee="D">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_14)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words155)..id(IS1006b.A.words158)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.31">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_3)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words159)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.32">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_15)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words160)..id(IS1006b.A.words167)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.33">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_12)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words168)..id(IS1006b.A.words171)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.34">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_3)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words172)..id(IS1006b.A.words182)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.35">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_3)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words183)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.36" addressee="D,C,B" reflexivity="true">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_6)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words184)..id(IS1006b.A.words185)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.37">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_3)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words186)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.38">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_3)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words187)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.39">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_3)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words188)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.40" addressee="D">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words190)..id(IS1006b.A.words200)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.41" addressee="D,C,B">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words201)..id(IS1006b.A.words210)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.42">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_1)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words211)..id(IS1006b.A.words212)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.43">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_1)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words213)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.44">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_3)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words214)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.45">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_1)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words215)..id(IS1006b.A.words218)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.46" addressee="D" reflexivity="true">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_9)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words219)..id(IS1006b.A.words232)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.47" addressee="B">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words233)..id(IS1006b.A.words234)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.48" addressee="D">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_12)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words235)..id(IS1006b.A.words240)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.49" addressee="D,C,B">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_9)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words241)..id(IS1006b.A.words244)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.50" addressee="D" reflexivity="true">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_9)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words245)..id(IS1006b.A.words246)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.52">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_2)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words247)..id(IS1006b.A.words248)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.51" addressee="D,C,B" reflexivity="true">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words249)..id(IS1006b.A.words264)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.53" addressee="D,C,B" reflexivity="true">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words265)..id(IS1006b.A.words269)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.54">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_2)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words270)..id(IS1006b.A.words272)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.55">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_3)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words273)..id(IS1006b.A.words275)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.56">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_16)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words276)..id(IS1006b.A.words277)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.57" addressee="D,C,B" reflexivity="true">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_6)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words278)..id(IS1006b.A.words281)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.58">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_16)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words282)..id(IS1006b.A.words283)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.59">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_2)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words284)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.60" addressee="B" reflexivity="true">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_5)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words285)..id(IS1006b.A.words286)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.61">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_3)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words287)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.62" addressee="B" reflexivity="true">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_9)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words288)..id(IS1006b.A.words292)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.63">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_3)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words293)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.64">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_3)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words294)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.65" addressee="B">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_14)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words295)..id(IS1006b.A.words298)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.66" addressee="B">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_9)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words299)..id(IS1006b.A.words300)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.67" addressee="B">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_14)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words301)..id(IS1006b.A.words303)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.68">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_3)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words304)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.69">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_3)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words305)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.70">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_3)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words306)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.71" addressee="B">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words307)..id(IS1006b.A.words309)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.72" addressee="B">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words310)..id(IS1006b.A.words312)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.73">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_3)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words313)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.74" addressee="D,C,B">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words314)..id(IS1006b.A.words323)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.75">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_1)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words324)..id(IS1006b.A.words325)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.76" addressee="B">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words326)..id(IS1006b.A.words339)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.77" addressee="B" reflexivity="true">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words340)..id(IS1006b.A.words351)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.78">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_1)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words352)..id(IS1006b.A.words353)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.79">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_1)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words354)..id(IS1006b.A.words355)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.80">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_1)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words356)..id(IS1006b.A.words357)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.81">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_3)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words358)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.83">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_3)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words359)..id(IS1006b.A.words361)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.84">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_1)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words362)..id(IS1006b.A.words363)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.85" addressee="D,C,B">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words364)..id(IS1006b.A.words385)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.86" addressee="D,C,B">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_9)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words386)..id(IS1006b.A.words396)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.87" addressee="D,C,B">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_6)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words397)..id(IS1006b.A.words407)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.88">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_2)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words408)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.89" addressee="D">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words409)..id(IS1006b.A.words419)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.90">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_2)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words420)..id(IS1006b.A.words421)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.91" addressee="D">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words422)..id(IS1006b.A.words433)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.92">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_1)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words434)..id(IS1006b.A.words435)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.93" addressee="D,C,B">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_6)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words436)..id(IS1006b.A.words445)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.94" addressee="D,C,B">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_6)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words446)..id(IS1006b.A.words454)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.95" addressee="D,C,B">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_6)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words455)..id(IS1006b.A.words457)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.96">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_1)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words458)..id(IS1006b.A.words459)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.97" addressee="C">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_9)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words460)..id(IS1006b.A.words461)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.98">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_3)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words462)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.99">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_1)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words463)..id(IS1006b.A.words465)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.100" addressee="B" reflexivity="true">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_5)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words466)..id(IS1006b.A.words469)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.101" addressee="B">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_9)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words470)..id(IS1006b.A.words471)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.102" addressee="D,C,B" reflexivity="true">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_6)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words472)..id(IS1006b.A.words482)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.103">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_16)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words483)..id(IS1006b.A.words484)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.104" addressee="C" reflexivity="true">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_11)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words485)..id(IS1006b.A.words490)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.105">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_1)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words491)..id(IS1006b.A.words492)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.106">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_1)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words493)..id(IS1006b.A.words494)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.107" addressee="D,C,B">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words495)..id(IS1006b.A.words505)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.108">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_1)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words506)..id(IS1006b.A.words507)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.109" addressee="C">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_9)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words508)..id(IS1006b.A.words509)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.110" addressee="C">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_12)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words510)..id(IS1006b.A.words511)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.111">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_1)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words512)..id(IS1006b.A.words513)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.112" addressee="C" reflexivity="true">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_6)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words514)..id(IS1006b.A.words537)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.113">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_1)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words538)..id(IS1006b.A.words539)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.114">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_1)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words540)..id(IS1006b.A.words541)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.115">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_1)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words542)..id(IS1006b.A.words543)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.116">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_3)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words544)..id(IS1006b.A.words545)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.117" addressee="C">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_12)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words546)..id(IS1006b.A.words551)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.118">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_1)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words552)..id(IS1006b.A.words553)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.119">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_3)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words554)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.120">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_1)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words555)..id(IS1006b.A.words557)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.121" addressee="C">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_5)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words558)..id(IS1006b.A.words566)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.122">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_3)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words567)..id(IS1006b.A.words569)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.123" addressee="C">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_12)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words570)..id(IS1006b.A.words571)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.124">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_1)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words572)..id(IS1006b.A.words574)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.125">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_1)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words575)..id(IS1006b.A.words576)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.126">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_1)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words577)..id(IS1006b.A.words578)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.127">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_1)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words579)..id(IS1006b.A.words580)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.128" addressee="D,C,B">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_6)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words581)..id(IS1006b.A.words587)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.129">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_1)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words588)..id(IS1006b.A.words590)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.130">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_1)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words591)..id(IS1006b.A.words592)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.131">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_1)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words593)..id(IS1006b.A.words594)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.132" addressee="C">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_12)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words595)..id(IS1006b.A.words597)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.133">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_3)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words598)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.134">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_3)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words599)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.135" addressee="D,C,B">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_9)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words600)..id(IS1006b.A.words609)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.136" addressee="B">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words610)..id(IS1006b.A.words615)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.137">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_1)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words616)..id(IS1006b.A.words617)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.138" addressee="C">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words618)..id(IS1006b.A.words624)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.139">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_1)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words625)..id(IS1006b.A.words626)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.140">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_2)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words627)..id(IS1006b.A.words629)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.141" addressee="C">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_11)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words630)..id(IS1006b.A.words643)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.142">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_3)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words644)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.143" addressee="D,C,B">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_5)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words645)..id(IS1006b.A.words651)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.144" addressee="D,C,B">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_14)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words652)..id(IS1006b.A.words655)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.145" addressee="D,C,B">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_14)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words656)..id(IS1006b.A.words664)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.146">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_3)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words665)..id(IS1006b.A.words672)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.147">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_2)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words673)..id(IS1006b.A.words676)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.148" addressee="C" reflexivity="true">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_5)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words677)..id(IS1006b.A.words686)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.149" addressee="C">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_12)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words687)..id(IS1006b.A.words688)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.150" addressee="C">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_9)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words689)..id(IS1006b.A.words690)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.151" addressee="C">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_14)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words691)..id(IS1006b.A.words692)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.152">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_2)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words693)..id(IS1006b.A.words694)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.153">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_16)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words695)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.154">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_16)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words696)..id(IS1006b.A.words706)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.155">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_2)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words707)..id(IS1006b.A.words712)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.156" addressee="D,C,B" reflexivity="true">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_6)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words713)..id(IS1006b.A.words722)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.157" addressee="D,C,B" reflexivity="true">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_6)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words723)..id(IS1006b.A.words734)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.158" addressee="D,C,B" reflexivity="true">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_6)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words735)..id(IS1006b.A.words747)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.159" addressee="D,C,B">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words748)..id(IS1006b.A.words768)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.160">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_2)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words769)..id(IS1006b.A.words771)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.161" addressee="C" reflexivity="true">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_6)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words772)..id(IS1006b.A.words779)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.162" addressee="D,C,B" reflexivity="true">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_6)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words780)..id(IS1006b.A.words794)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.163" addressee="D,C,B" reflexivity="true">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_6)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words795)..id(IS1006b.A.words808)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.164">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_2)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words809)..id(IS1006b.A.words811)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.165" addressee="D,C,B" reflexivity="true">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words812)..id(IS1006b.A.words828)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.166">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_2)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words829)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.167" addressee="D,C,B" reflexivity="true">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words830)..id(IS1006b.A.words834)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.168" addressee="D,C,B">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_6)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words835)..id(IS1006b.A.words853)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.169" addressee="D,C,B">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_9)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words854)..id(IS1006b.A.words865)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.170" addressee="C">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_9)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words866)..id(IS1006b.A.words867)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.171" addressee="D,C,B">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_6)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words868)..id(IS1006b.A.words880)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.172">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_16)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words881)..id(IS1006b.A.words884)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.173" addressee="C">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_9)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words885)..id(IS1006b.A.words887)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.174" addressee="D,C,B" reflexivity="false">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_6)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words888)..id(IS1006b.A.words893)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.175">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_2)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words894)..id(IS1006b.A.words895)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.176" addressee="D,C,B" reflexivity="true">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_5)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words896)..id(IS1006b.A.words901)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.177" addressee="B">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_12)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words902)..id(IS1006b.A.words903)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.178">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_3)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words904)..id(IS1006b.A.words905)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.179" addressee="D,C,B">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_6)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words906)..id(IS1006b.A.words913)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.180">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_3)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words914)..id(IS1006b.A.words917)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.181" addressee="D">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_12)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words918)..id(IS1006b.A.words919)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.182">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_3)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words920)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.183">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_1)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words921)..id(IS1006b.A.words922)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.184">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_3)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words923)..id(IS1006b.A.words925)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.185" addressee="D,C,B">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words926)..id(IS1006b.A.words929)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.186">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_3)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words930)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.187" addressee="D,C,B">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_9)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words931)..id(IS1006b.A.words937)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.188" addressee="D,C,B">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words938)..id(IS1006b.A.words943)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.189" addressee="D">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_14)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words944)..id(IS1006b.A.words950)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.190">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words951)..id(IS1006b.A.words953)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.191">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_2)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words954)..id(IS1006b.A.words957)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.192">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_1)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words958)..id(IS1006b.A.words961)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.193">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_1)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words962)..id(IS1006b.A.words963)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.194">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_2)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words964)..id(IS1006b.A.words967)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.195" addressee="D,C,B">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_6)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words968)..id(IS1006b.A.words970)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.196">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_3)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words971)..id(IS1006b.A.words974)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.197" addressee="D">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_9)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words975)..id(IS1006b.A.words976)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.198" addressee="D,C,B" reflexivity="true">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_6)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words977)..id(IS1006b.A.words988)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.199">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_3)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words989)..id(IS1006b.A.words992)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.200" addressee="D">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_9)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words993)..id(IS1006b.A.words995)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.201">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_2)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words996)..id(IS1006b.A.words997)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.202" addressee="D" reflexivity="true">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words998)..id(IS1006b.A.words999)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.203" addressee="D,C,B" reflexivity="true">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_6)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words1000)..id(IS1006b.A.words1004)"/>
+   </dact>
+   <dact nite:id="IS1006b.A.dialog-act.vkaraisk.204">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_3)"/>
+      <nite:child href="IS1006b.A.words.xml#id(IS1006b.A.words1005)"/>
+   </dact>
+</nite:root>

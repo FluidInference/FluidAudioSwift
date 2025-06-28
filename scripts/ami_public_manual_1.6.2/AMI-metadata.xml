@@ -1,0 +1,1065 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Metadata for the AMI corpus
+
+Metadata Version 2.1
+
+ Authors: Jonathan Kilgour, Dennis Reidsma
+ Last edit: 18/03/11
+-->
+<corpus description="AMI Meeting Corpus" id="AMI" links="ltxml1"
+    resource_file="./resource.xml" type="standoff">
+    <reserved-attributes>
+        <identifier name="nite:id"/>
+        <starttime name="starttime"/>
+        <endtime name="endtime"/>
+        <agentname name="who"/>
+        <resourcename name="res"/>
+        <observationname name="obs"/>
+        <displaycolour name="colour"/>
+    </reserved-attributes>
+    <reserved-elements>
+        <pointername name="nite:pointer"/>
+        <child name="nite:child"/>
+    </reserved-elements>
+    <agents>
+        <!-- there are normally 4 speakers; very occasionally 3 or 5.-->
+        <agent name="A"/>
+        <agent name="B"/>
+        <agent name="C"/>
+        <agent name="D"/>
+        <agent name="E"/>
+    </agents>
+    <!-- SIGNALS -->
+    <signals path="signals" pathmodifier="observation">
+        <interaction-signals>
+            <signal extension="wav" format="WAV" name="Mix-Lapel"
+                pathmodifier="audio" type="audio"/>
+            <signal extension="wav" format="WAV" name="Mix-Headset"
+                pathmodifier="audio" type="audio"/>
+            <!-- these are IDIAP-specific room views -->
+            <signal extension="avi" format="AVI/DiVX" name="C"
+                pathmodifier="video" type="video"/>
+            <signal extension="avi" format="AVI/DiVX" name="L"
+                pathmodifier="video" type="video"/>
+            <signal extension="avi" format="AVI/DiVX" name="R"
+                pathmodifier="video" type="video"/>
+            <!-- these are Edinburgh-specific -->
+            <signal extension="avi" format="AVI/DiVX" name="Overhead"
+                pathmodifier="video" type="video"/>
+            <signal extension="avi" format="AVI/DiVX" name="Corner"
+                pathmodifier="video" type="video"/>
+            <!-- TNO specific -->
+            <signal extension="avi" format="AVI/DiVX" name="Overview1"
+                pathmodifier="video" type="video"/>
+            <signal extension="avi" format="AVI/DiVX" name="Overview2"
+                pathmodifier="video" type="video"/>
+            <signal extension="avi" format="AVI/DiVX" name="Overview3"
+                pathmodifier="video" type="video"/>
+            <!-- Closeups are not room-specific -->
+            <signal extension="avi" format="AVI/DiVX" name="Closeup1"
+                pathmodifier="video" type="video"/>
+            <signal extension="avi" format="AVI/DiVX" name="Closeup2"
+                pathmodifier="video" type="video"/>
+            <signal extension="avi" format="AVI/DiVX" name="Closeup3"
+                pathmodifier="video" type="video"/>
+            <signal extension="avi" format="AVI/DiVX" name="Closeup4"
+                pathmodifier="video" type="video"/>
+        </interaction-signals>
+        <!-- Closeups should really be agent signals but file naming does not allow it
+        <agent-signals>
+            <signal extension="avi" format="AVI/DiVX" name="Closeup" type="video"/>
+        </agent-signals>
+         -->
+    </signals>
+    <ontologies path="ontologies">
+        <!-- default topic names for topic segmentation -->
+        <ontology attribute-name="name"
+            description="default topic names for topic segmentation"
+            element-name="topicname" filename="default-topics" name="default-topics">
+            <attribute name="name" value-type="string"/>
+        </ontology>
+        <!-- Dialogue Act types -->
+        <ontology attribute-name="name"
+            description="Dialogue act type hierarchy"
+            element-name="da-type" filename="da-types" name="da-types">
+            <!-- Gloss: a short textual description of the dialogue act type -->
+            <attribute name="gloss" value-type="string"/>
+        </ontology>
+        <!-- Disfluency types -->
+        <ontology attribute-name="name"
+            description="Disfluency type hierarchy"
+            element-name="dsfl-type" filename="dsfl-types" name="dsfl-types">
+            <!-- Gloss: a short textual description of the disfluency type -->
+            <attribute name="gloss" value-type="string"/>
+        </ontology>
+        <!-- Named entity types -->
+        <ontology attribute-name="name"
+            description="Named entity type hierarchy"
+            element-name="ne-type" filename="ne-types" name="ne-types">
+            <!-- Gloss: a short textual description of the ne type -->
+            <attribute name="gloss" value-type="string"/>
+            <attribute name="abbrev" value-type="string"/>
+        </ontology>
+        <!-- Subjectivity types -->
+        <ontology attribute-name="name"
+            description="Subjectivity types for subjectivity tagging"
+            element-name="subj-type" filename="subj-types" name="subj-types">
+            <attribute name="name" value-type="string"/>
+            <attribute name="abbrev" value-type="string"/>
+        </ontology>
+        <!-- Adjacency Pair types -->
+        <ontology attribute-name="name"
+            description="Adjacency Pair type hierarchy"
+            element-name="ap-type" filename="ap-types" name="ap-types">
+            <!-- Gloss: a short textual description of the adjacency pair type -->
+            <attribute name="gloss" value-type="string"/>
+        </ontology>
+        <!-- posture types -->
+        <ontology attribute-name="name" description="posture ontology"
+            element-name="po-att" filename="postures" name="postures"/>
+        <!-- foa types, added 2005.05.03 DR 
+             removed 2005.11.29 JK - we now use EventEditor and an enumerated type. 
+        <ontology attribute-name="name"
+            description="focus of attention ontology"
+            element-name="foa-target" filename="foa-targets" name="foa-targets"/>
+        -->
+        <!-- leg movement types, added JK 18.07.2005 -->
+        <ontology attribute-name="name"
+            description="leg movement ontology"
+            element-name="leg-target" filename="leg-targets" name="leg-targets"/>
+        <!-- Argumentation codings added by Dennis Reidsma 07 Mar 2006 -->
+        <!-- Argument discussion fragment types, added Dennis Reidsma 07 Mar 2006 -->
+        <ontology attribute-name="name"
+            description="Interesting Discussion" element-name="dis-type"
+            filename="dis-types" name="dis-types">
+            <!-- Gloss: a short textual description of the dialogue act type -->
+            <attribute name="gloss" value-type="string"/>
+        </ontology>
+        <!-- Argument element types, added Dennis Reidsma 07 Mar 2006  -->
+        <ontology attribute-name="name"
+            description="Argument Element type hierarchy"
+            element-name="ae-type" filename="ae-types" name="ae-types">
+            <!-- Gloss: a short textual description of the dialogue act type -->
+            <attribute name="gloss" value-type="string"/>
+        </ontology>
+        <!-- Argument Relation types, added Dennis Reidsma 07 Mar 2006  -->
+        <ontology attribute-name="name"
+            description="Argumnet Relation type hierarchy"
+            element-name="ar-type" filename="ar-types" name="ar-types">
+            <!-- Gloss: a short textual description of the adjacency pair type -->
+            <attribute name="gloss" value-type="string"/>
+        </ontology>
+        <!-- chunk types -->
+        <ontology attribute-name="name" description="chunk ontology"
+            element-name="chk-type" filename="chunks" name="chunks"/>
+        <!-- Nynke van der Vliet's floor coding types -->
+        <ontology attribute-name="name"
+            description="Floor coding type hierarchy"
+            element-name="floor-type" filename="floor-types" name="floor-types">
+            <!-- Gloss: a short textual description of the type -->
+            <attribute name="gloss" value-type="string"/>
+            <attribute name="abbrev" value-type="string"/>
+        </ontology>
+        <!-- you-usage annotation types -->
+        <ontology attribute-name="name"
+            description="You-usage type hierarchy"
+            element-name="you-type" filename="you-types" name="you-types">
+            <!-- Gloss: a short textual description of the type -->
+            <attribute name="gloss" value-type="string"/>
+            <attribute name="abbrev" value-type="string"/>
+        </ontology>
+    </ontologies>
+    <!-- CORPUS RESPOUCES -->
+    <corpus-resources path="corpusResources">
+        <!-- Participant information. If native language is English,
+        the english_language element can have a region attribute
+        stating which country / region the English native speaker has
+        mainly lived in. If native language is not English, the
+        english_language element may have two attributes: country and
+        months which hold the name of an English-speaking country and
+        the number of months the person has been resident. If neither
+        are present the assumption is the participant has not lived in
+        an English-speaking country. -->
+        <corpus-resource-file
+            description="details of meeting participants maintaining confidentiality" name="participants">
+            <structural-layer draws-children-from="english-layer" name="participant-layer">
+                <code name="participant">
+                    <attribute name="sex" value-type="enumerated">
+                        <value>M</value>
+                        <value>F</value>
+                    </attribute>
+                    <attribute name="meeting" value-type="string"/>
+                    <attribute name="native_language" value-type="string"/>
+                    <attribute name="age_at_collection" value-type="number"/>
+                </code>
+            </structural-layer>
+            <structural-layer draws-children-from="influence-layer" name="english-layer">
+                <code name="english_language">
+                    <attribute name="region" value-type="string"/>
+                    <attribute name="country" value-type="string"/>
+                    <attribute name="months" value-type="number"/>
+                </code>
+            </structural-layer>
+            <structural-layer name="influence-layer">
+                <code name="influence">
+                    <attribute name="name" value-type="string"/>
+                </code>
+            </structural-layer>
+        </corpus-resource-file>
+        <!-- associating speakers and roles with NXT-names, one entry
+        per observation. The idea is that this is better than
+        independent vars on the observations in the metadata because
+        it can be queried, but you need the name of the observation to
+        do your match, so may be rather painful to query in practise.  -->
+        <corpus-resource-file
+            description="details of meetings in terms of type and roles" name="meetings">
+            <structural-layer draws-children-from="speaker-layer" name="meeting-layer">
+                <code name="meeting">
+                    <!-- id of observation -->
+                    <attribute name="observation" value-type="string"/>
+                    <!-- name (according to IDIAP info file) -->
+                    <attribute name="name" value-type="string"/>
+                    <!-- description (according to IDIAP info file) -->
+                    <attribute name="description" value-type="string"/>
+                    <!-- duration (according to IDIAP info file) -->
+                    <attribute name="duration" value-type="string"/>
+                    <!-- date (according to IDIAP info file) -->
+                    <attribute name="dateOnly" value-type="string"/>
+                    <!-- start time (according to IDIAP info file) -->
+                    <attribute name="startTime" value-type="string"/>
+                    <!-- type of meeting - scenario or non-scenario -->
+                    <attribute name="type" value-type="enumerated">
+                        <value>scenario</value>
+                        <value>non-scenario</value>
+                    </attribute>
+                    <!-- We welcome the running of automatic processes
+                    over the corpus, and the next two attributes help
+                    us allow fair comparison between them. The
+                    'visibility' of a meeting defines whether a
+                    meeting can be seen by an automatic process or
+                    must remain unseen until testing: there are about
+                    61 hours of seen vs 11 hours of unseen scenario data. -->
+                    <attribute name="visibility" value-type="enumerated">
+                        <value>seen</value>
+                        <value>unseen</value>
+                    </attribute>
+                    <!-- within the seen data, we divide into training
+                    and development subsets: processes that do not
+                    require this split may use all the seen data in
+                    whatever way they wish -->
+                    <attribute name="seen_type" value-type="enumerated">
+                        <value>training</value>
+                        <value>development</value>
+                    </attribute>
+                    <!-- k10 and k5 define the folds for cross-validation processes -->
+                    <attribute name="k10" value-type="number"/>
+                    <attribute name="k5" value-type="number"/>
+                    <!-- topic of observation -->
+                    <attribute name="topic" value-type="string"/>
+                </code>
+            </structural-layer>
+            <structural-layer name="speaker-layer">
+                <code name="speaker">
+                    <!-- NXT name of agent -->
+                    <attribute name="nxt_agent" value-type="string"/>
+                    <!-- Role (if scenario) -->
+                    <attribute name="role" value-type="enumerated">
+                        <value>PM</value>
+                        <value>UI</value>
+                        <value>ME</value>
+                        <value>ID</value>
+                    </attribute>
+                    <!-- this should be a key into the speakers file (IDIAP-style name)-->
+                    <attribute name="global_name" value-type="string"/>
+                    <!-- the Channeltrans channel -->
+                    <attribute name="channel" value-type="string"/>
+                    <!-- the NXT agent name -->
+                    <attribute name="nxt_agent" value-type="string"/>
+                    <!-- the camera name -->
+                    <attribute name="camera" value-type="string"/>
+                </code>
+            </structural-layer>
+        </corpus-resource-file>
+    </corpus-resources>
+    <!-- CODINGS -->
+    <codings>
+        <agent-codings>
+            <!-- Chunks - see resource file - these must be loaded
+            with subwords, not the default words. -->
+            <coding-file name="chunk" path="chunks">
+                <structural-layer draws-children-from="words-layer" name="chunk-layer">
+                    <code name="chunk" text-content="false">
+                        <pointer number="1" role="type" target="chunk-types"/>
+                    </code>
+                </structural-layer>
+            </coding-file>
+            <!-- alignment between manual and auto words -->
+            <coding-file name="wordalign" path="wordAlignment">
+                <featural-layer name="word-align-layer">
+                    <code name="wordalign">
+                        <pointer number="1" role="reference" target="words-layer"/>
+                        <pointer number="1" role="asr" target="words-layer"/>
+                        <!-- type where c is exact (correct) match; s is
+                      substitution; d is deletion (missed word in
+                      ASR); i is insertion (extra word in ASR)-->
+                        <attribute name="type" value-type="enumerated">
+                            <value>C</value>
+                            <value>S</value>
+                            <value>D</value>
+                            <value>I</value>
+                        </attribute>
+                        <!-- time info from alignment process -->
+                        <attribute name="tm" value-type="string"/>
+                    </code>
+                </featural-layer>
+            </coding-file>
+            <coding-file name="summ" path="participantSummaries">
+                <structural-layer draws-children-from="psentence-layer" name="pabstract-section-layer">
+                    <code name="participant_abstract"/>
+                    <code name="participant_decisions"/>
+                    <code name="participant_progress"/>
+                    <code name="participant_actions"/>
+                    <code name="participant_problems"/>
+                </structural-layer>
+                <structural-layer name="psentence-layer">
+                    <code name="sent" text-content="true"/>
+                </structural-layer>
+            </coding-file>
+            <coding-file name="feeltrace" path="emotion">
+                <time-aligned-layer name="feeltrace-layer">
+                    <code name="emotion" text-content="false">
+                        <attribute name="activation" value-type="double"/>
+                        <attribute name="evaluation" value-type="double"/>
+                    </code>
+                </time-aligned-layer>
+            </coding-file>
+            <!-- The original (essentially meaningless) segmentation
+            from Channeltrans files, but can be recursive to allow for
+            sub-segmentation -->
+            <coding-file name="segments" path="segments">
+                <structural-layer name="segment-layer" recursive-draws-children-from="words-layer">
+                    <code name="segment">
+                        <attribute name="channel" value-type="string"/>
+                        <!-- the following (ICSI) attributes will
+                        probably all be removed and we'll be left with
+                        the 'channel' attribute only -->
+                        <attribute name="dur" value-type="number"/>
+                        <attribute name="participant" value-type="string"/>
+                        <attribute name="digittask" value-type="string"/>
+                        <attribute name="closemic" value-type="string"/>
+                        <attribute name="timing-provenance" value-type="string"/>
+                        <attribute name="type" value-type="enumerated">
+                            <value>subsegment</value>
+                            <value>supersegment</value>
+                            <value>segment</value>
+                        </attribute>
+                        <attribute name="transcriber_start" value-type="number"/>
+                        <attribute name="transcriber_end" value-type="number"/>
+                    </code>
+                </structural-layer>
+            </coding-file>
+            <!-- The main words layer from the speech transcription,
+            but getting their times from the forced-alignment
+            output. Also contains non-word sounds. -->
+            <coding-file name="words" path="words">
+                <time-aligned-layer name="words-layer" recursive-draws-children-from="words-layer">
+                    <code name="w" text-content="true">
+                        <!-- true if the word was truncated -->
+                        <attribute name="trunc" value-type="string"/>
+                        <!-- true if the word is a punctuation char -->
+                        <attribute name="punc" value-type="string"/>
+                        <!-- true if the word was mispronounced - note
+                        we don't have a note of the actual pronounciation 
+                        (depends on final Transcription Guidelines). -->
+                        <attribute name="mispronounced" value-type="string"/>
+                        <!-- set to 'foreign' if the word was a foreign word. -->
+                        <attribute name="pron" value-type="string"/>
+                        <!-- T attribute was used in ICSI to make some further distinctions -->
+                        <attribute name="t" value-type="enumerated">
+                            <!-- prosodic prominence -->
+                            <value>PROM</value>
+                            <!-- pronounced letters -->
+                            <value>PLET</value>
+                        </attribute>
+                        <!-- chunking info -->
+                        <attribute name="c" value-type="string"/>
+                        <!-- chunking info -->
+                        <attribute name="qut" value-type="string"/>
+                    </code>
+                    <code name="vocalsound">
+                        <!-- according to the DTG these are OK: cough, laugh, 
+                        other. But we can't be enumerated because [Sigh] means 
+                        another kind of vocalnoise with the type specified by
+                        transcriber. -->
+                        <attribute name="type" value-type="string"/>
+                    </code>
+                    <!-- something occurred here but we don't know what -->
+                    <code name="gap">
+                        <!-- set to 'foreign' if the word was a foreign word. -->
+                        <attribute name="pron" value-type="string"/>
+                    </code>
+                    <!-- transcriber comment -->
+                    <code name="comment">
+                        <attribute name="dur" value-type="number"/>
+                        <attribute name="description" value-type="string"/>
+                    </code>
+                    <!-- disfluency marker -->
+                    <code name="disfmarker"/>
+                    <!-- not coded as of latest transcription guidelines -->
+                    <code name="nonvocalsound">
+                        <attribute name="type" value-type="string"/>
+                    </code>
+                    <!-- not coded -->
+                    <code name="pause">
+                        <attribute name="dur" value-type="number"/>
+                    </code>
+                    <!-- used to denote silence in output of automatic processes -->
+                    <code name="sil"/>
+                    <!-- something occurred here but we don't know what -->
+                    <code name="transformerror">
+                        <!-- There were 11 places in the AMI corpus
+                             where a transform error occurred meaning
+                             some bogus words were added to the
+                             stream. These are now replaced by
+                             transformerror elemets so that IDs are
+                             not disrupted and the output of higher
+                             level processes is valid. The original
+                             content of the word is contained in the w
+                             attribute. JK 18/3/11-->
+                        <attribute name="w" value-type="string"/>
+                        <attribute name="errortype" value-type="string"/>
+                    </code>
+                </time-aligned-layer>
+            </coding-file>
+            <!-- automatic phonemes -->
+            <coding-file name="asrphon" path="phonemes">
+                <time-aligned-layer name="phonemes-layer" recursive-draws-children-from="phonemes-layer">
+                    <code name="asrphon" text-content="true"/>
+                </time-aligned-layer>
+            </coding-file>
+            <!-- focus of attention coding -->
+            <coding-file name="foa" path="focus">
+                <time-aligned-layer name="foa-layer">
+                    <code name="foa">
+                        <!-- FOA coding guidelines provided by Bastien Crettol, 29.11.2005 
+                             (no version number), but subdivided into person, place and
+                              unspecified. Where person is the type, role and nxt_agent 
+                              should also be present. -->
+                        <attribute name="type" value-type="enumerated">
+                            <value>person</value>
+                            <value>place</value>
+                            <value>unspecified</value>
+                        </attribute>
+                        <attribute name="role" value-type="enumerated">
+                            <value>UI</value>
+                            <value>ID</value>
+                            <value>PM</value>
+                            <value>ME</value>
+                        </attribute>
+                        <attribute name="place" value-type="enumerated">
+                            <value>table</value>
+                            <value>slide-screen</value>
+                            <value>whiteboard</value>
+                        </attribute>
+                        <attribute name="nxt_agent" value-type="enumerated">
+                            <value>A</value>
+                            <value>B</value>
+                            <value>C</value>
+                            <value>D</value>
+                            <value>E</value>
+                        </attribute>
+                    </code>
+                </time-aligned-layer>
+            </coding-file>
+            <!-- Dialog acts provide a non overlapping, hopefully
+                 complete, segmentation on the word layer augmented
+                 with pointers to certain dialogue act attributes. -->
+            <coding-file name="dialog-act" path="dialogueActs">
+                <structural-layer draws-children-from="words-layer" name="da-layer">
+                    <code name="dact" text-content="false">
+                        <pointer number="+" role="da-aspect" target="da-types"/>
+                        <attribute name="addressee" value-type="String"/>
+                        <attribute name="reflexivity" value-type="String"/>
+                    </code>
+                </structural-layer>
+            </coding-file>
+            <!-- Subjectivity annotations, in progress -->
+            <coding-file name="subjectivity" path="subjectivity">
+                <structural-layer name="subj-layer" points-to="words-layer">
+                    <code name="subj" text-content="false">
+                        <pointer number="+" role="type" target="subj-types"/>
+                    </code>
+                </structural-layer>
+            </coding-file>
+            <!-- Automatic pause-based spurts produced by Tools/Wp5Tasks/spurtsegmenter/genspurts.py,
+                 authored by GM, modified by TW. -->
+            <coding-file name="spurts" path="spurts">
+                <structural-layer draws-children-from="words-layer" name="spurt-layer">
+                    <code name="spurt" text-content="false"/>
+                </structural-layer>
+            </coding-file>
+            <!-- head gestures added by Jean Carletta 3/6/05, edited by
+              jonathan 15/7/05 -->
+            <coding-file name="head" path="headGesture">
+                <time-aligned-layer name="head-layer">
+                    <code name="head">
+                        <attribute name="type" value-type="enumerated">
+                            <!-- IA coding guidelines version 1.1 (july 1 2005) -->
+                            <value>concord_signal</value>
+                            <value>discord_signal</value>
+                            <value>negative_signal</value>
+                            <value>turn_signal</value>
+                            <value>deixis_signal</value>
+                            <value>emphasis_signal</value>
+                            <value>other_comm_head</value>
+                            <value>no_comm_head</value>
+                            <value>off_camera</value>
+                        </attribute>
+                        <attribute name="form" value-type="enumerated">
+                            <value>nod</value>
+                            <value>shake</value>
+                            <value>nodshake</value>
+                        </attribute>
+                        <attribute name="comment" value-type="string"/>
+                    </code>
+                </time-aligned-layer>
+            </coding-file>
+            <!-- hand gestures added by Jonathan Kilgour 15/7/05 -->
+            <!-- JC modified 28 Nov 06 to append handedness, to match data -->
+            <!-- the last part of each main code indicates handed; LH for
+                 left; RH for right; BH for both.  It would be a little more
+                 elegant to put this information in a separate attribute, but
+                 because the query language allows regular expressions, it
+                 doesn't really matter.  Note that codes ending in H are 
+                 gestures and the other codes are for timespans where no
+                 gesture was occuring.  Also note that the hands were not coded
+                 independently - one person can only give one gesture at a
+                 time, which is an oversimplification, but one that is 
+                 workable in this impoverished a gesture scheme.  Codes 
+                 only overlap at their endpoints. 
+             -->
+            <coding-file name="hand" path="handGesture">
+                <time-aligned-layer name="hand-layer">
+                    <code name="hand">
+                        <attribute name="type" value-type="enumerated">
+                            <!-- IA coding guidelines version 1.1 
+                                (july 1 2005) 
+                             -->
+                            <value>point_p_pm_LH</value>
+                            <value>point_p_pm_RH</value>
+                            <value>point_p_pm_BH</value>
+                            <value>point_p_ui_LH</value>
+                            <value>point_p_ui_RH</value>
+                            <value>point_p_ui_BH</value>
+                            <value>point_p_id_LH</value>
+                            <value>point_p_id_RH</value>
+                            <value>point_p_id_BH</value>
+                            <value>point_p_me_LH</value>
+                            <value>point_p_me_RH</value>
+                            <value>point_p_me_BH</value>
+                            <value>point_p_other_LH</value>
+                            <value>point_p_other_RH</value>
+                            <value>point_p_other_BH</value>
+                            <value>point_a_slide_LH</value>
+                            <value>point_a_slide_RH</value>
+                            <value>point_a_slide_BH</value>
+                            <value>point_a_whiteboard_LH</value>
+                            <value>point_a_whiteboard_RH</value>
+                            <value>point_a_whiteboard_BH</value>
+                            <value>point_a_laptop_LH</value>
+                            <value>point_a_laptop_RH</value>
+                            <value>point_a_laptop_BH</value>
+                            <value>point_a_document_LH</value>
+                            <value>point_a_document_RH</value>
+                            <value>point_a_document_BH</value>
+                            <value>point_a_other_LH</value>
+                            <value>point_a_other_RH</value>
+                            <value>point_a_other_BH</value>
+                            <value>point_l_LH</value>
+                            <value>point_l_RH</value>
+                            <value>point_l_BH</value>
+                            <value>comm_interact_a_LH</value>
+                            <value>comm_interact_a_RH</value>
+                            <value>comm_interact_a_BH</value>
+                            <value>other_comm_hand_LH</value>
+                            <value>other_comm_hand_RH</value>
+                            <value>other_comm_hand_BH</value>
+                            <value>no_comm_hand</value>
+                            <value>off_camera</value>
+                        </attribute>
+                        <attribute name="comment" value-type="string"/>
+                    </code>
+                </time-aligned-layer>
+            </coding-file>
+            <!-- leg movement coding -->
+            <coding-file name="movement" path="movement">
+                <time-aligned-layer name="movement-layer">
+                    <code name="movement">
+                        <attribute name="type" value-type="enumerated">
+                            <value>sit</value>
+                            <value>take_notes</value>
+                            <value>move</value>
+                            <value>stand_whiteboard</value>
+                            <value>stand_screen</value>
+                            <value>other</value>
+                            <value>off_camera</value>
+                        </attribute>
+                    </code>
+                </time-aligned-layer>
+            </coding-file>
+            <!-- Argumentation codings added by Dennis Reidsma 07 Mar 2006 -->
+            <coding-file name="argumentstructs" path="argumentation/ae">
+                <structural-layer draws-children-from="words-layer" name="ae-layer">
+                    <code name="ae" text-content="false">
+                        <pointer number="+" role="type" target="ae-types"/>
+                    </code>
+                </structural-layer>
+            </coding-file>
+            <!-- Named entities -->
+            <coding-file name="ne" path="namedEntities">
+                <structural-layer draws-children-from="words-layer" name="ne-layer">
+                    <code name="named-entity" text-content="false">
+                        <pointer number="1" role="type" target="ne-types"/>
+                    </code>
+                </structural-layer>
+            </coding-file>
+            <!-- Disfluencies (DFKI) -->
+            <coding-file name="disfluency" path="disfluency">
+                <structural-layer draws-children-from="words-layer" name="dsfl-layer">
+                    <code name="dsfl" text-content="false">
+                        <attribute default="before" name="position"/>
+                        <pointer number="1" role="rm-ref" target="dsfl-layer"/>
+                        <pointer number="1" role="dsfl-type" target="dsfl-types"/>
+                        <pointer number="1" role="extension" target="extension-layer"/>
+                        <pointer number="1" role="da-ref" target="da-layer"/>
+                    </code>
+                </structural-layer>
+            </coding-file>
+            <coding-file name="extension" path="disfluency">
+                <time-aligned-layer name="extension-layer">
+                    <code name="ext" text-content="true"/>
+                </time-aligned-layer>
+            </coding-file>
+            <!-- Automatic subjectivity annotation (not completed) -->
+            <coding-file name="autosubj" path="subjectivity/autosubj_asr_v1">
+                <structural-layer draws-children-from="spurt-layer" name="subj-layer">
+                    <code name="autosubj" text-content="false">
+                        <attribute name="subjclass" value-type="enumerated">
+                            <value>objective</value>
+                            <value>subjective</value>
+                        </attribute>
+                        <attribute name="wordclasspred" value-type="enumerated">
+                            <value>0</value>
+                            <value>1</value>
+                        </attribute>
+                        <attribute name="charclasspred" value-type="enumerated">
+                            <value>0</value>
+                            <value>1</value>
+                        </attribute>
+                        <attribute name="phonclasspred" value-type="enumerated">
+                            <value>0</value>
+                            <value>1</value>
+                        </attribute>
+                    </code>
+                </structural-layer>
+            </coding-file>
+            <!-- Manual participant role annotation -->
+            <coding-file name="role" path="participantRoles">
+                <time-aligned-layer name="role-layer">
+                    <code name="role" text-content="false">
+                        <attribute name="type" value-type="enumerated">
+                            <value>Neutral</value>
+                            <value>Gatekeeper</value>
+                            <value>Protagonist</value>
+                            <value>Attacker</value>
+                            <value>Supporter</value>
+                        </attribute>
+                    </code>
+                </time-aligned-layer>
+            </coding-file>
+            <!-- Manual you-usage annotation from CALO -->
+            <coding-file name="you" path="youUsages">
+                <structural-layer draws-children-from="words-layer" name="you-layer">
+                    <code name="you-usage" text-content="false">
+                        <pointer number="1" role="type" target="you-types"/>
+                        <attribute name="unsure" value-type="string"/>
+                    </code>
+                </structural-layer>
+            </coding-file>
+        </agent-codings>
+        <interaction-codings>
+            <!-- Adjacency pairs are typed links between
+                 dialogue acts.  -->
+            <coding-file name="adjacency-pairs" path="dialogueActs">
+                <featural-layer name="adjacency-pairs-layer">
+                    <code name="adjacency-pair" text-content="false">
+                        <pointer number="1" role="source" target="da-layer"/>
+                        <pointer number="1" role="target" target="da-layer"/>
+                        <pointer number="1" role="type" target="ap-types"/>
+                    </code>
+                </featural-layer>
+            </coding-file>
+            <!-- NE relations are typed links between
+                 named entities.  -->
+            <coding-file name="ne-relations" path="namedEntities">
+                <featural-layer name="ne-relation-layer">
+                    <code name="nerel" text-content="false">
+                        <pointer number="1" role="source" target="ne-layer"/>
+                        <pointer number="1" role="target" target="ne-layer"/>
+                        <pointer number="1" role="type" target="ap-types"/>
+                    </code>
+                </featural-layer>
+            </coding-file>
+            <!-- Summarization: abstractive, extractive and links are
+            currently identical to ICSI versions -->
+            <coding-file name="abssumm" path="abstractive">
+                <structural-layer
+                    draws-children-from="abstract-section-layer" name="abssumm-layer">
+                    <code name="abssumm"/>
+                </structural-layer>
+                <structural-layer draws-children-from="sentence-layer" name="abstract-section-layer">
+                    <code name="abstract"/>
+                    <code name="decisions"/>
+                    <code name="actions"/>
+                    <code name="problems"/>
+                </structural-layer>
+                <structural-layer name="sentence-layer">
+                    <code name="sentence" text-content="true"/>
+                </structural-layer>
+            </coding-file>
+            <!-- Extractive summary -->
+            <coding-file name="extsumm" path="extractive">
+                <structural-layer draws-children-from="da-layer"
+                    inherits-time="false" name="extsumm-layer">
+                    <code name="extsumm"/>
+                </structural-layer>
+            </coding-file>
+            <!-- Automatic Extractive summary -->
+            <coding-file name="autoextsumm" path="extractive/autodemo">
+                <structural-layer draws-children-from="spurt-layer" name="autoextsumm-layer">
+                    <code name="autoextsumm">
+                        <attribute name="pctrank" value-type="string"/>
+                    </code>
+                </structural-layer>
+            </coding-file>
+            <!-- links between dialogue acts extracted in extractive
+            summarization and abstractive summary elements -->
+            <coding-file name="summlink" path="extractive">
+                <featural-layer name="summlink-layer">
+                    <code name="summlink">
+                        <pointer number="1" role="extractive" target="da-layer"/>
+                        <pointer number="1" role="abstractive" target="sentence-layer"/>
+                    </code>
+                </featural-layer>
+            </coding-file>
+            <!-- topic segmentation (note these can recurse) -->
+            <coding-file name="topic" path="topics">
+                <structural-layer name="topic-layer" recursive-draws-children-from="words-layer">
+                    <code name="topic">
+                        <!-- scenario meetings will now point to the type hierarchy, but if 
+                             they point to 'other' they'll also have the other_description
+                             attribute filled in. Non-scenario meetings only ever have 
+                             other_description and don't point to the hierarchy. -->
+                        <pointer number="1" role="scenario_topic_type" target="default-topics"/>
+                        <attribute name="description" value-type="string"/>
+                        <attribute name="other_description" value-type="string"/>
+                    </code>
+                </structural-layer>
+            </coding-file>
+            <!-- automatic topic segmentation (note these can recurse) -->
+            <coding-file name="autotopic" path="topics/autodemo">
+                <structural-layer name="autotopic-layer" recursive-draws-children-from="spurt-layer">
+                    <code name="autotopic">
+                        <pointer number="1" role="scenario_topic_type" target="default-topics"/>
+                        <attribute name="description" value-type="string"/>
+                        <attribute name="other_description" value-type="string"/>
+                    </code>
+                </structural-layer>
+            </coding-file>
+            <!-- Argumentation codings added by Dennis Reidsma 07 Mar 2006 -->
+            <coding-file name="argumentationrels" path="argumentation/ar">
+                <featural-layer name="ar-layer">
+                    <code name="ar" text-content="false">
+                        <pointer number="1" role="source" target="ae-layer"/>
+                        <pointer number="1" role="target" target="ae-layer"/>
+                        <pointer number="1" role="type" target="ar-types"/>
+                    </code>
+                </featural-layer>
+            </coding-file>
+            <coding-file name="discussions" path="argumentation/dis">
+                <structural-layer draws-children-from="segment-layer" name="dis-layer">
+                    <code name="discussion-fragment" text-content="false">
+                        <attribute name="name" value-type="String"/>
+                    </code>
+                </structural-layer>
+            </coding-file>
+            <!-- new decision-point coding defined by Sabrina Hsueh -->
+            <coding-file name="decision" path="decision/manual">
+                <structural-layer name="decision-layer" recursive-draws-children-from="words-layer">
+                    <code name="decision">
+                        <attribute name="external" value-type="string"/>
+                        <attribute name="recap" value-type="string"/>
+                    </code>
+                </structural-layer>
+            </coding-file>
+            <coding-file name="decisionlink" path="decision/manual">
+                <featural-layer name="declink-layer">
+                    <code name="decisionlink">
+                        <pointer number="1" role="decision" target="decision-layer"/>
+                        <pointer number="1" role="abstract" target="sentence-layer"/>
+                    </code>
+                </featural-layer>
+            </coding-file>
+            <!-- Floor coder -->
+            <coding-file name="floor" path="floorCoding">
+                <structural-layer name="floor-layer" points-to="words-layer">
+                    <code name="floor" text-content="false">
+                        <pointer number="0" role="type" target="floor-types"/>
+                    </code>
+                </structural-layer>
+            </coding-file>
+        </interaction-codings>
+    </codings>
+    <!-- Programs that display or add annotations to this data set -->
+    <callable-programs>
+        <callable-program description="Named Entity Coder" name="net.sourceforge.nite.tools.necoder.NECoder">
+            <required-argument name="corpus" type="corpus"/>
+            <required-argument name="observation" type="observation"/>
+            <required-argument name="annotator" type="annotator"/>
+            <required-argument default="configuration/amiConfig.xml" name="config"/>
+            <required-argument default="dac-gs-ami" name="gui-settings"/>
+            <required-argument default="dac-cs-ami" name="corpus-settings"/>
+        </callable-program>
+        <callable-program description="Dialogue Act Coder" name="net.sourceforge.nite.tools.dacoder.DACoder">
+            <required-argument name="corpus" type="corpus"/>
+            <required-argument name="observation" type="observation"/>
+            <required-argument name="annotator" type="annotator"/>
+            <required-argument default="configuration/amiConfig.xml" name="config"/>
+            <required-argument default="dac-gs-ami" name="gui-settings"/>
+            <required-argument default="dac-cs-ami" name="corpus-settings"/>
+        </callable-program>
+        <!--<callable-program description="EMO" name="net.sourceforge.nite.tools.videolabeler.ContinuousVideoLabeling">
+            <required-argument name="corpus" type="corpus"/>
+            <required-argument name="observation" type="observation"/>
+            <required-argument name="annotator" type="annotator"/>
+            <required-argument default="configuration/amiConfig.xml" name="config"/>
+            <required-argument default="csl-emo-gui" name="gui-settings"/>
+            <required-argument default="csl-emo-ami" name="corpus-settings"/>
+        </callable-program>-->
+        <!-- Annotation program for focus of attention, added 2005.05.03 DR 
+        To avoid confusion, jonathan removed this as we use
+        EventEditor and an up-translation for FOA now.
+        <callable-program description="FOA" name="net.sourceforge.nite.tools.videolabeler.ContinuousVideoLabeling">
+            <required-argument name="corpus" type="corpus"/>
+            <required-argument name="observation" type="observation"/>
+            <required-argument name="annotator" type="annotator"/>
+            <required-argument default="configuration/amiConfig.xml" name="config"/>
+            <required-argument default="csl-foa-gui" name="gui-settings"/>
+            <required-argument default="csl-foa-ami" name="corpus-settings"/>
+        </callable-program>
+        -->
+        <!-- Annotation program for individual actions JK 18.07.2005 -->
+        <callable-program description="IA"
+                name="net.sourceforge.nite.tools.videolabeler.ContinuousVideoLabeling">
+4            <required-argument
+                name="corpus" type="corpus"/>
+            <required-argument name="observation" type="observation"/>
+            <!-- <required-argument name="annotator" type="annotator"/> -->
+            <required-argument default="configuration/amiConfig.xml" name="config"/>
+            <required-argument default="csl-ia-gui" name="gui-settings"/>
+            <required-argument default="csl-ia-ami" name="corpus-settings"/>
+        </callable-program>
+        <callable-program description="AMI Topic Segmenter" name="AMITopicSegmenter">
+            <required-argument name="corpus" type="corpus"/>
+            <required-argument name="observation" type="observation"/>
+            <required-argument name="annotator" type="annotator"/>
+        </callable-program>
+        <callable-program description="AMI Extractive Summarizer" name="AMIExtract">
+            <required-argument name="corpus" type="corpus"/>
+            <required-argument name="observation" type="observation"/>
+            <required-argument name="annotator" type="annotator"/>
+        </callable-program>
+        <callable-program description="Floor Coder" name="net.sourceforge.nite.tools.dacoder.DACoder">
+            <required-argument name="corpus" type="corpus"/>
+            <required-argument name="observation" type="observation"/>
+            <required-argument default="configuration/amiConfig.xml" name="config"/>
+            <required-argument default="fc-gs-ami" name="gui-settings"/>
+            <required-argument default="fc-cs-ami" name="corpus-settings"/>
+            <!-- <required-argument name="annotator" type="annotator"/> -->
+        </callable-program>
+    </callable-programs>
+    <observations>
+        <observation name="ES2002a"/>
+        <observation name="ES2002b"/>
+        <observation name="ES2002c"/>
+        <observation name="ES2002d"/>
+        <observation name="ES2003a"/>
+        <observation name="ES2003b"/>
+        <observation name="ES2003c"/>
+        <observation name="ES2003d"/>
+        <observation name="ES2004a"/>
+        <observation name="ES2004b"/>
+        <observation name="ES2004c"/>
+        <observation name="ES2004d"/>
+        <observation name="ES2005a"/>
+        <observation name="ES2005b"/>
+        <observation name="ES2005c"/>
+        <observation name="ES2005d"/>
+        <observation name="ES2006a"/>
+        <observation name="ES2006b"/>
+        <observation name="ES2006c"/>
+        <observation name="ES2006d"/>
+        <observation name="ES2007a"/>
+        <observation name="ES2007b"/>
+        <observation name="ES2007c"/>
+        <observation name="ES2007d"/>
+        <observation name="ES2008a"/>
+        <observation name="ES2008b"/>
+        <observation name="ES2008c"/>
+        <observation name="ES2008d"/>
+        <observation name="ES2009a"/>
+        <observation name="ES2009b"/>
+        <observation name="ES2009c"/>
+        <observation name="ES2009d"/>
+        <observation name="ES2010a"/>
+        <observation name="ES2010b"/>
+        <observation name="ES2010c"/>
+        <observation name="ES2010d"/>
+        <observation name="ES2011a"/>
+        <observation name="ES2011b"/>
+        <observation name="ES2011c"/>
+        <observation name="ES2011d"/>
+        <observation name="ES2012a"/>
+        <observation name="ES2012b"/>
+        <observation name="ES2012c"/>
+        <observation name="ES2012d"/>
+        <observation name="ES2013a"/>
+        <observation name="ES2013b"/>
+        <observation name="ES2013c"/>
+        <observation name="ES2013d"/>
+        <observation name="ES2014a"/>
+        <observation name="ES2014b"/>
+        <observation name="ES2014c"/>
+        <observation name="ES2014d"/>
+        <observation name="ES2015a"/>
+        <observation name="ES2015b"/>
+        <observation name="ES2015c"/>
+        <observation name="ES2015d"/>
+        <observation name="ES2016a"/>
+        <observation name="ES2016b"/>
+        <observation name="ES2016c"/>
+        <observation name="ES2016d"/>
+        <observation name="IS1000a"/>
+        <observation name="IS1000b"/>
+        <observation name="IS1000c"/>
+        <observation name="IS1000d"/>
+        <observation name="IS1001a"/>
+        <observation name="IS1001b"/>
+        <observation name="IS1001c"/>
+        <observation name="IS1001d"/>
+        <observation name="IS1002b"/>
+        <observation name="IS1002c"/>
+        <observation name="IS1002d"/>
+        <observation name="IS1003a"/>
+        <observation name="IS1003b"/>
+        <observation name="IS1003c"/>
+        <observation name="IS1003d"/>
+        <observation name="IS1004a"/>
+        <observation name="IS1004b"/>
+        <observation name="IS1004c"/>
+        <observation name="IS1004d"/>
+        <observation name="IS1005a"/>
+        <observation name="IS1005b"/>
+        <observation name="IS1005c"/>
+        <observation name="IS1006a"/>
+        <observation name="IS1006b"/>
+        <observation name="IS1006c"/>
+        <observation name="IS1006d"/>
+        <observation name="IS1007a"/>
+        <observation name="IS1007b"/>
+        <observation name="IS1007c"/>
+        <observation name="IS1007d"/>
+        <observation name="IS1008a"/>
+        <observation name="IS1008b"/>
+        <observation name="IS1008c"/>
+        <observation name="IS1008d"/>
+        <observation name="IS1009a"/>
+        <observation name="IS1009b"/>
+        <observation name="IS1009c"/>
+        <observation name="IS1009d"/>
+        <observation name="TS3003a"/>
+        <observation name="TS3003b"/>
+        <observation name="TS3003c"/>
+        <observation name="TS3003d"/>
+        <observation name="TS3004a"/>
+        <observation name="TS3004b"/>
+        <observation name="TS3004c"/>
+        <observation name="TS3004d"/>
+        <observation name="TS3005a"/>
+        <observation name="TS3005b"/>
+        <observation name="TS3005c"/>
+        <observation name="TS3005d"/>
+        <observation name="TS3006a"/>
+        <observation name="TS3006b"/>
+        <observation name="TS3006c"/>
+        <observation name="TS3006d"/>
+        <observation name="TS3007a"/>
+        <observation name="TS3007b"/>
+        <observation name="TS3007c"/>
+        <observation name="TS3007d"/>
+        <observation name="TS3008a"/>
+        <observation name="TS3008b"/>
+        <observation name="TS3008c"/>
+        <observation name="TS3008d"/>
+        <observation name="TS3009a"/>
+        <observation name="TS3009b"/>
+        <observation name="TS3009c"/>
+        <observation name="TS3009d"/>
+        <observation name="TS3010a"/>
+        <observation name="TS3010b"/>
+        <observation name="TS3010c"/>
+        <observation name="TS3010d"/>
+        <observation name="TS3011a"/>
+        <observation name="TS3011b"/>
+        <observation name="TS3011c"/>
+        <observation name="TS3011d"/>
+        <observation name="TS3012a"/>
+        <observation name="TS3012b"/>
+        <observation name="TS3012c"/>
+        <observation name="TS3012d"/>
+        <!-- non-scenario meetings -->
+        <observation name="EN2001a"/>
+        <observation name="EN2001b"/>
+        <observation name="EN2001d"/>
+        <observation name="EN2001e"/>
+        <observation name="EN2002a"/>
+        <observation name="EN2002b"/>
+        <observation name="EN2002c"/>
+        <observation name="EN2002d"/>
+        <observation name="EN2003a"/>
+        <observation name="EN2004a"/>
+        <observation name="EN2005a"/>
+        <observation name="EN2006a"/>
+        <observation name="EN2006b"/>
+        <observation name="EN2009b"/>
+        <observation name="EN2009c"/>
+        <observation name="EN2009d"/>
+        <observation name="IN1001"/>
+        <observation name="IN1002"/>
+        <observation name="IN1005"/>
+        <observation name="IN1007"/>
+        <observation name="IN1008"/>
+        <observation name="IN1009"/>
+        <observation name="IN1012"/>
+        <observation name="IN1013"/>
+        <observation name="IN1014"/>
+        <observation name="IN1016"/>
+        <observation name="IB4001"/>
+        <observation name="IB4002"/>
+        <observation name="IB4003"/>
+        <observation name="IB4004"/>
+        <observation name="IB4005"/>
+        <observation name="IB4010"/>
+        <observation name="IB4011"/>
+    </observations>
+</corpus>

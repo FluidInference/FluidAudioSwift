@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<nite:root xmlns:nite="http://nite.sourceforge.net/">
+<participant_abstract nite:id="ES2008cUI.pabstract.1">
+    <sent nite:id="ES2008cUI.s.1">A meeting was held at 14:20 on 4th February 2005 to discuss the conceptual design for the new TV remote control project.</sent> <sent nite:id="ES2008cUI.s.2">The previous meeting was reviewed, with particular emphasis on our design goals: simplicity and fashion.</sent> <sent nite:id="ES2008cUI.s.3">The industrial designer made a presentation describing the different materials and components we might be able to use.</sent> <sent nite:id="ES2008cUI.s.4">The user interface designer suggested some simple design concepts around which a detailed design can be made.</sent> <sent nite:id="ES2008cUI.s.5">The marketing manager discussed current trends in fashion that will influence our design decisions.</sent> <sent nite:id="ES2008cUI.s.6">The meeting concluded with a lively discussion on the fashion and design of the product.</sent> 
+</participant_abstract>
+<participant_actions nite:id="ES2008cUI.pactions.1">
+   <sent nite:id="ES2008cUI.s.7">Produce prototype designs.</sent> 
+</participant_actions>
+<participant_decisions nite:id="ES2008cUI.pdecisions.1">
+    <sent import="high" nite:id="ES2008cUI.s.8">The remote control will have the following properties and functions:    A few simple buttons for favouriate channels, volume and power on/off.</sent> <sent nite:id="ES2008cUI.s.9">An on-screen menu interface provides access to more advanced features.</sent>   <sent nite:id="ES2008cUI.s.10">It will have a 'spongy' latex exterior, with a more solid interior to protect the components.</sent>   <sent nite:id="ES2008cUI.s.11">It will have a 'simple' chip.</sent>   <sent nite:id="ES2008cUI.s.12">Fruity colours will be used.</sent> 
+</participant_decisions>
+<participant_problems nite:id="ES2008cUI.pproblems.1">
+    <sent nite:id="ES2008cUI.s.13">It was difficult to decide between a scroll button or push buttons, as each has different advantages.</sent> 
+</participant_problems>
+</nite:root>

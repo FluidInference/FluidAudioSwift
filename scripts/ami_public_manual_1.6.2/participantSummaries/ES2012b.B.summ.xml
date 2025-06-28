@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<nite:root xmlns:nite="http://nite.sourceforge.net/">
+<participant_abstract nite:id="ES2012bID.pabstract.1">
+   <sent nite:id="ES2012bID.s.1">The Project manager opened the meeting and reviewed last meeting's minutes.</sent>  <sent nite:id="ES2012bID.s.2">We then went around the room and each gave presentations from out fields of research.</sent>  <sent nite:id="ES2012bID.s.3">There was group discussion and feedback after each presentation.</sent>  <sent nite:id="ES2012bID.s.4">The project manager finished the meeting by summerizing the discussion.</sent> 
+</participant_abstract>
+<participant_actions nite:id="ES2012bID.pactions.1">
+   <sent nite:id="ES2012bID.s.5">Project manager - Outline next meeting topics, presentations, write up notes from previous meetings.</sent>   <sent nite:id="ES2012bID.s.6">Marketing - Continue researching what customers want to have in a remote.</sent>   <sent nite:id="ES2012bID.s.7">Interface Des - Continue researching best customer friendly designes.</sent>   <sent nite:id="ES2012bID.s.8">Industraial Des - Continue researching ways to make everyone else's ideas actually work.</sent> 
+</participant_actions>
+<participant_decisions nite:id="ES2012bID.pdecisions.1">
+    <sent import="high" nite:id="ES2012bID.s.9">We need a large energy source, perhaps a "lifetime" battery (with "lifetime" really being 5-10 years at which point remote will be obsolete anyways) .</sent>   <sent nite:id="ES2012bID.s.10">Fewer buttons on the user interface to make it easier to use, maybe just have button for power, channels, volume and leave the rest off.</sent>   <sent import="high" nite:id="ES2012bID.s.11">Perhaps use some sort of voice recognition device to cut down on button use .</sent>   <sent nite:id="ES2012bID.s.12">Have colorful interchangable covers which still incorporate company logo.</sent> 
+</participant_decisions>
+<participant_problems nite:id="ES2012bID.pproblems.1">
+    <sent nite:id="ES2012bID.s.13">Power source - what kind of power source and where will it come from and how long will it last.</sent>   <sent nite:id="ES2012bID.s.14">Remote range - should be able to change channels from anywhere in the room, how do you design a large range.</sent> 
+</participant_problems>
+</nite:root>

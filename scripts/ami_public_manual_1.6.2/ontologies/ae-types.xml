@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<ae-type nite:id="ae_root" name="ae_root" xmlns:nite="http://nite.sourceforge.net/" xmlns:xlink="http://www.w3.org/1999/xlink">
+   <ae-type nite:id="ae_1" name="STA" gloss="Statement"/>
+   <ae-type nite:id="ae_2" name="WST" gloss="Weak statement"/>
+   <ae-type nite:id="ae_3" name="OIS" gloss="Open issue"/>
+   <ae-type nite:id="ae_4" name="AIS" gloss="A/B issue"/>
+   <ae-type nite:id="ae_5" name="YIS" gloss="Yes/No issue"/>
+   <ae-type nite:id="ae_6" name="OTH" gloss="Other (unlabeled)"/>
+</ae-type>

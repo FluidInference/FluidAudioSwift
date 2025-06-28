@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<nite:root xmlns:nite="http://nite.sourceforge.net/">
+<participant_abstract nite:id="ES2010bUI.pabstract.1">
+    <sent nite:id="ES2010bUI.s.1">The three designers of the project presented their findings and ideas from the work they have done individually.</sent> <sent nite:id="ES2010bUI.s.2">We discussed the functional requirements - including results from market research - to address what our customers want.</sent> <sent nite:id="ES2010bUI.s.3">We discussed the internal design of the product - possibilities of smart chips and additional chips.</sent> <sent nite:id="ES2010bUI.s.4">The project manager communicated additional project constraints and instructions.</sent> <sent nite:id="ES2010bUI.s.5">The remote will be for TV only, excluding teletext, and should include the company logo.</sent> <sent nite:id="ES2010bUI.s.6">We closed by discussing what buttons/functions would be included, the consumer base we are aiming for, and considerations regarding speech recognition.</sent> 
+</participant_abstract>
+<participant_actions nite:id="ES2010bUI.pactions.1">
+   <sent nite:id="ES2010bUI.s.7">Lunch break.</sent>   <sent nite:id="ES2010bUI.s.8">Continue work on the technical and functional design.</sent> 
+</participant_actions>
+<participant_decisions nite:id="ES2010bUI.pdecisions.1">
+    <sent import="high" nite:id="ES2010bUI.s.9"> Buttons that will be included.</sent>   <sent nite:id="ES2010bUI.s.10">Demographic consumer base.</sent>   <sent nite:id="ES2010bUI.s.11">TV only remote.</sent>   <sent nite:id="ES2010bUI.s.12">Design must include colour/slogan of company.</sent>   <sent import="high" nite:id="ES2010bUI.s.13"> Simple but sleek and trendy design.</sent>   <sent import="high" nite:id="ES2010bUI.s.14"> Round, larger buttons.</sent>   <sent import="high" nite:id="ES2010bUI.s.15"> include a menu button for miscellaneous functions.</sent> 
+</participant_decisions>
+<participant_problems nite:id="ES2010bUI.pproblems.1">
+   <sent import="high" nite:id="ES2010bUI.s.16"> we still need to decide whether - and what kind of - speech recognition technology we will use.</sent>   -  
+</participant_problems>
+</nite:root>

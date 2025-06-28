@@ -1,0 +1,1631 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<nite:root nite:id="TS3005b.B.dialog-act" xmlns:nite="http://nite.sourceforge.net/">
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.1">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_1)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words0)..id(TS3005b.B.words2)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.2">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_5)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words3)..id(TS3005b.B.words7)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.4">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_3)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words8)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.3" addressee="A" reflexivity="true">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words9)..id(TS3005b.B.words10)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.5">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_1)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words11)..id(TS3005b.B.words12)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.6">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_2)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words13)..id(TS3005b.B.words14)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.7" addressee="D" reflexivity="true">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words15)..id(TS3005b.B.words20)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.8" addressee="D" reflexivity="true">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_6)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words21)..id(TS3005b.B.words28)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.9">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_3)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words29)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.10">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_3)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words30)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.11" addressee="C">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words31)..id(TS3005b.B.words32)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.12">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_3)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words33)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.13">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_3)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words34)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.14" addressee="C">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_12)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words35)..id(TS3005b.B.words37)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.15">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_3)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words38)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.16" addressee="C">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words39)..id(TS3005b.B.words43)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.17">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_3)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words44)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.18">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_3)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words45)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.19">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_9)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words47)..id(TS3005b.B.words48)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.20" addressee="C">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words49)..id(TS3005b.B.words55)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.21">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_3)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words56)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.22">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_1)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words57)..id(TS3005b.B.words58)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.23">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_3)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words59)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.24" addressee="A" reflexivity="true">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_7)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words60)..id(TS3005b.B.words65)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.25" addressee="A">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_9)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words66)..id(TS3005b.B.words67)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.26">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_2)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words68)..id(TS3005b.B.words69)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.27">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_2)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words70)..id(TS3005b.B.words72)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.28" addressee="A,D,C">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words73)..id(TS3005b.B.words76)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.30" addressee="A,D,C">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words77)..id(TS3005b.B.words88)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.31" addressee="A,D,C">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words89)..id(TS3005b.B.words118)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.32" addressee="A,D,C">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words119)..id(TS3005b.B.words142)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.33">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_3)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words143)..id(TS3005b.B.words146)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.34" addressee="C" reflexivity="true">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words147)..id(TS3005b.B.words153)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.35" addressee="A,D,C">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words154)..id(TS3005b.B.words163)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.36" addressee="A,D,C">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words164)..id(TS3005b.B.words167)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.37" addressee="A,D,C">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words168)..id(TS3005b.B.words171)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.38" addressee="A,D,C">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words172)..id(TS3005b.B.words176)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.39" addressee="A,D,C">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words177)..id(TS3005b.B.words184)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.40" addressee="A,D,C">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words185)..id(TS3005b.B.words190)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.41" addressee="A,D,C">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words191)..id(TS3005b.B.words196)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.42" addressee="A,D,C">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words197)..id(TS3005b.B.words210)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.43" addressee="A,D,C">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words211)..id(TS3005b.B.words219)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.44" addressee="A,D,C">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words220)..id(TS3005b.B.words227)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.45" addressee="A,D,C">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words228)..id(TS3005b.B.words247)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.46" addressee="A,D,C">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words248)..id(TS3005b.B.words261)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.47" addressee="A,D,C">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words262)..id(TS3005b.B.words277)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.48" addressee="A,D,C">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words278)..id(TS3005b.B.words286)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.49" addressee="A,D,C">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_6)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words287)..id(TS3005b.B.words305)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.50" addressee="A,D,C">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words306)..id(TS3005b.B.words312)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.51">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_3)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words313)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.52" addressee="A,D,C">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words314)..id(TS3005b.B.words326)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.53" addressee="A,D,C">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words327)..id(TS3005b.B.words343)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.54">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_2)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words344)..id(TS3005b.B.words346)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.55">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_3)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words347)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.56" addressee="A,D,C">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_6)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words348)..id(TS3005b.B.words370)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.57" addressee="A,D,C" reflexivity="true">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_6)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words371)..id(TS3005b.B.words385)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.58" addressee="A,D,C">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_11)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words386)..id(TS3005b.B.words398)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.59" addressee="A,D,C">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words399)..id(TS3005b.B.words406)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.60" addressee="A,D,C">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_11)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words407)..id(TS3005b.B.words417)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.61" addressee="A,D,C">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_6)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words418)..id(TS3005b.B.words440)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.62" addressee="A,D,C">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words441)..id(TS3005b.B.words465)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.63" addressee="A,D,C">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words466)..id(TS3005b.B.words478)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.64">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_3)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words479)..id(TS3005b.B.words481)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.65" addressee="A,D,C">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_6)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words482)..id(TS3005b.B.words486)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.66" addressee="A,D,C">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words487)..id(TS3005b.B.words501)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.67" addressee="A,D,C">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_6)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words502)..id(TS3005b.B.words517)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.68" addressee="A,D,C" reflexivity="true">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words518)..id(TS3005b.B.words523)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.69" addressee="D">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_6)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words524)..id(TS3005b.B.words530)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.70">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_1)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words531)..id(TS3005b.B.words533)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.71">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_1)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words534)..id(TS3005b.B.words535)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.72">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_3)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words536)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.73">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_1)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words537)..id(TS3005b.B.words538)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.74">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_3)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words539)..id(TS3005b.B.words540)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.75">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_12)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words541)..id(TS3005b.B.words544)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.76" addressee="A" reflexivity="true">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words545)..id(TS3005b.B.words552)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.79" addressee="A,D,C" reflexivity="true">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_5)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words553)..id(TS3005b.B.words556)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.80">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_3)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words557)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.81">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_1)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words558)..id(TS3005b.B.words561)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.82">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_2)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words562)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.83" addressee="A">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_12)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words563)..id(TS3005b.B.words573)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.84" addressee="A">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_12)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words574)..id(TS3005b.B.words583)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.85" addressee="A">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_5)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words584)..id(TS3005b.B.words593)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.86" addressee="A">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_12)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words594)..id(TS3005b.B.words600)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.87" addressee="A">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_9)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words601)..id(TS3005b.B.words603)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.88" addressee="A,D,C">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_6)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words604)..id(TS3005b.B.words612)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.89">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_3)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words613)..id(TS3005b.B.words615)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.91">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_2)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words616)..id(TS3005b.B.words617)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.92">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_3)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words618)..id(TS3005b.B.words622)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.90" addressee="D">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words623)..id(TS3005b.B.words624)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.93">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_2)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words625)..id(TS3005b.B.words627)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.94">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_3)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words628)..id(TS3005b.B.words631)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.95" addressee="A,D,C">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_6)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words632)..id(TS3005b.B.words645)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.96">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_3)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words646)..id(TS3005b.B.words649)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.97" addressee="A,D,C">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_5)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words650)..id(TS3005b.B.words657)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.98">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_3)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words658)..id(TS3005b.B.words660)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.99">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_2)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words661)..id(TS3005b.B.words662)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.100">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_3)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words663)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.101">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_1)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words664)..id(TS3005b.B.words665)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.102">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_1)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words666)..id(TS3005b.B.words667)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.103">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_2)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words668)..id(TS3005b.B.words669)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.104" addressee="C">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_6)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words670)..id(TS3005b.B.words677)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.105" addressee="A,D,C">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_6)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words678)..id(TS3005b.B.words681)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.106">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_3)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words682)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.107">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_3)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words683)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.108">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_2)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words684)..id(TS3005b.B.words685)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.109">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_3)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words686)..id(TS3005b.B.words688)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.110" addressee="A,D,C">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_5)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words689)..id(TS3005b.B.words706)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.111" addressee="A,D,C">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_5)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words707)..id(TS3005b.B.words734)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.112">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_1)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words735)..id(TS3005b.B.words736)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.113" addressee="C">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_12)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words737)..id(TS3005b.B.words739)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.114">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_3)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words740)..id(TS3005b.B.words743)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.115" addressee="C">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_12)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words744)..id(TS3005b.B.words748)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.116">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_2)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words749)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.117" addressee="C">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_5)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words750)..id(TS3005b.B.words761)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.118" addressee="D">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_12)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words762)..id(TS3005b.B.words767)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.119">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_1)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words768)..id(TS3005b.B.words769)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.120" addressee="A">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_9)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words770)..id(TS3005b.B.words771)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.121">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_3)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words772)..id(TS3005b.B.words775)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.122">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_3)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words776)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.123">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_2)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words777)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.124" addressee="A,D,C">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_5)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words778)..id(TS3005b.B.words789)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.125" addressee="A,D,C">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_5)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words802)..id(TS3005b.B.words805)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.126">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_2)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words806)..id(TS3005b.B.words807)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.127">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_3)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words808)..id(TS3005b.B.words809)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.128" addressee="A,D,C">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words810)..id(TS3005b.B.words824)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.129" addressee="A,D,C">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words825)..id(TS3005b.B.words830)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.130" addressee="D">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_5)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words831)..id(TS3005b.B.words843)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.131" addressee="D">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_12)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words844)..id(TS3005b.B.words845)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.132">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_3)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words846)..id(TS3005b.B.words852)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.133" addressee="D">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_9)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words853)..id(TS3005b.B.words856)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.134" addressee="D">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_6)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words857)..id(TS3005b.B.words866)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.135" addressee="D">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_9)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words867)..id(TS3005b.B.words879)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.136" addressee="D">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_12)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words880)..id(TS3005b.B.words883)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.137">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_3)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words884)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.138" addressee="A">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_9)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words885)..id(TS3005b.B.words886)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.139" addressee="D">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_9)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words887)..id(TS3005b.B.words888)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.140">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_1)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words889)..id(TS3005b.B.words891)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.141" addressee="D">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words892)..id(TS3005b.B.words895)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.142">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_3)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words896)..id(TS3005b.B.words898)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.143">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_1)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words899)..id(TS3005b.B.words900)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.144">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_3)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words901)..id(TS3005b.B.words903)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.145">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_2)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words904)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.146" addressee="A,D,C" reflexivity="true">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_6)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words905)..id(TS3005b.B.words911)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.147" addressee="A,D,C">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_6)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words912)..id(TS3005b.B.words923)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.148">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_1)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words924)..id(TS3005b.B.words925)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.149" addressee="D">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_5)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words926)..id(TS3005b.B.words928)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.150" addressee="D">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_9)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words929)..id(TS3005b.B.words937)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.151" addressee="A,D,C">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_9)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words938)..id(TS3005b.B.words946)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.152">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_2)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words947)..id(TS3005b.B.words948)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.153" addressee="D">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words949)..id(TS3005b.B.words956)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.154" addressee="D">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words957)..id(TS3005b.B.words968)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.155" addressee="D">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_12)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words969)..id(TS3005b.B.words972)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.156" addressee="D" reflexivity="true">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words973)..id(TS3005b.B.words979)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.157">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_1)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words980)..id(TS3005b.B.words981)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.158">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_3)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words982)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.159">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_1)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words983)..id(TS3005b.B.words984)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.160" addressee="A">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_6)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words985)..id(TS3005b.B.words988)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.161" addressee="A,D,C">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_9)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words989)..id(TS3005b.B.words991)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.162">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_3)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words992)..id(TS3005b.B.words993)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.163">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_1)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words994)..id(TS3005b.B.words995)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.164">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_2)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words996)..id(TS3005b.B.words997)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.165" addressee="D">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_11)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words998)..id(TS3005b.B.words1019)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.166" addressee="D">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words1020)..id(TS3005b.B.words1033)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.167" addressee="A,D,C">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_9)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words1034)..id(TS3005b.B.words1035)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.168">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_2)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words1036)..id(TS3005b.B.words1037)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.169" addressee="D">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_9)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words1038)..id(TS3005b.B.words1042)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.170" addressee="A,D,C">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_6)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words1043)..id(TS3005b.B.words1050)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.171" addressee="A,D,C">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_11)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words1051)..id(TS3005b.B.words1053)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.172" addressee="C">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words1054)..id(TS3005b.B.words1066)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.173" addressee="A,D,C" reflexivity="true">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_6)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words1067)..id(TS3005b.B.words1075)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.174">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_3)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words1076)..id(TS3005b.B.words1077)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.175">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_3)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words1078)..id(TS3005b.B.words1088)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.176">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_1)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words1089)..id(TS3005b.B.words1090)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.177">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_3)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words1091)..id(TS3005b.B.words1093)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.178" addressee="A,D,C">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_6)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words1094)..id(TS3005b.B.words1105)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.179" addressee="A,D,C">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words1106)..id(TS3005b.B.words1119)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.180">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_3)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words1120)..id(TS3005b.B.words1124)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.181" addressee="A,D,C">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words1125)..id(TS3005b.B.words1142)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.182">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_3)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words1143)..id(TS3005b.B.words1148)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.183" addressee="A,D,C">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_9)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words1149)..id(TS3005b.B.words1152)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.184">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_3)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words1153)..id(TS3005b.B.words1155)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.185">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_2)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words1156)..id(TS3005b.B.words1158)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.186">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_3)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words1159)..id(TS3005b.B.words1163)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.187">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_1)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words1164)..id(TS3005b.B.words1165)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.188" addressee="C">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_9)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words1166)..id(TS3005b.B.words1167)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.189">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_3)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words1168)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.190" addressee="A,D,C">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_5)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words1169)..id(TS3005b.B.words1171)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.191">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_3)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words1172)..id(TS3005b.B.words1176)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.192">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_1)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words1177)..id(TS3005b.B.words1178)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.193">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_3)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words1179)..id(TS3005b.B.words1180)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.194">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_3)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words1181)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.195" addressee="D">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_9)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words1182)..id(TS3005b.B.words1186)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.196">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_1)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words1187)..id(TS3005b.B.words1188)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.197">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_2)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words1189)..id(TS3005b.B.words1190)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.198">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_3)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words1191)..id(TS3005b.B.words1197)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.199" addressee="A,D,C">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words1198)..id(TS3005b.B.words1206)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.200" addressee="A,D,C">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words1207)..id(TS3005b.B.words1213)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.201" addressee="A,D,C">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words1214)..id(TS3005b.B.words1218)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.202" addressee="C">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_9)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words1219)..id(TS3005b.B.words1223)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.203">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_1)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words1224)..id(TS3005b.B.words1225)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.204">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_2)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words1226)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.205" addressee="A,D,C">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_6)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words1227)..id(TS3005b.B.words1244)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.206" addressee="A,D,C">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_11)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words1245)..id(TS3005b.B.words1247)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.207">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_3)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words1248)..id(TS3005b.B.words1249)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.208" addressee="D">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_9)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words1250)..id(TS3005b.B.words1254)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.209">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_3)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words1255)..id(TS3005b.B.words1256)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.210">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_1)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words1257)..id(TS3005b.B.words1258)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.211" addressee="A,D,C">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_9)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words1259)..id(TS3005b.B.words1261)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.212" addressee="A,D,C">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_6)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words1262)..id(TS3005b.B.words1281)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.213" addressee="A,D,C">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words1282)..id(TS3005b.B.words1300)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.214" addressee="D">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_9)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words1301)..id(TS3005b.B.words1302)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.215">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_3)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words1303)..id(TS3005b.B.words1313)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.216">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_1)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words1314)..id(TS3005b.B.words1315)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.217">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_16)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words1316)..id(TS3005b.B.words1317)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.218">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_3)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words1318)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.219">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_2)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words1319)..id(TS3005b.B.words1321)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.220" addressee="A,D,C">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words1322)..id(TS3005b.B.words1328)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.221" addressee="A,D,C">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words1329)..id(TS3005b.B.words1333)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.222" addressee="A">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_9)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words1334)..id(TS3005b.B.words1335)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.223">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_3)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words1336)..id(TS3005b.B.words1337)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.224" addressee="D">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_14)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words1338)..id(TS3005b.B.words1345)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.225">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_1)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words1346)..id(TS3005b.B.words1351)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.226" addressee="A,D,C">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_6)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words1352)..id(TS3005b.B.words1358)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.227">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_1)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words1359)..id(TS3005b.B.words1360)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.228" addressee="A,D,C">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_6)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words1361)..id(TS3005b.B.words1372)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.229" addressee="A,D,C">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_5)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words1373)..id(TS3005b.B.words1386)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.230">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_3)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words1387)..id(TS3005b.B.words1389)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.231" addressee="D">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_12)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words1390)..id(TS3005b.B.words1391)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.232" addressee="D">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_11)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words1392)..id(TS3005b.B.words1399)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.233">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_3)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words1400)..id(TS3005b.B.words1401)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.234">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_3)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words1402)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.235">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_1)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words1403)..id(TS3005b.B.words1404)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.236">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_3)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words1405)..id(TS3005b.B.words1407)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.237">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_1)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words1408)..id(TS3005b.B.words1409)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.238">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_2)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words1410)..id(TS3005b.B.words1411)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.239" addressee="A,D,C">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words1412)..id(TS3005b.B.words1426)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.240">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_3)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words1427)..id(TS3005b.B.words1430)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.241">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_2)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words1431)..id(TS3005b.B.words1432)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.242" addressee="A,D,C">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_8)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words1433)..id(TS3005b.B.words1441)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.243" addressee="A,D,C">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_11)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words1442)..id(TS3005b.B.words1453)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.244">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_3)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words1454)..id(TS3005b.B.words1455)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.245" addressee="A,D,C">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_12)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words1456)..id(TS3005b.B.words1457)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.246" addressee="A,D,C">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words1458)..id(TS3005b.B.words1470)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.247" addressee="A,D,C">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words1471)..id(TS3005b.B.words1485)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.248" addressee="D">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_9)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words1488)..id(TS3005b.B.words1492)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.249">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_1)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words1493)..id(TS3005b.B.words1494)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.250">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_2)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words1495)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.251" addressee="A,D,C">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_6)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words1496)..id(TS3005b.B.words1499)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.252">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_3)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words1500)..id(TS3005b.B.words1501)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.253">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_3)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words1502)..id(TS3005b.B.words1506)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.254" addressee="A,D,C">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_9)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words1507)..id(TS3005b.B.words1518)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.255">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_3)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words1519)..id(TS3005b.B.words1523)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.256">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_2)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words1524)..id(TS3005b.B.words1525)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.257" addressee="A,D,C">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_9)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words1526)..id(TS3005b.B.words1533)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.258" addressee="C">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_9)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words1534)..id(TS3005b.B.words1536)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.259">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_2)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words1537)..id(TS3005b.B.words1538)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.260">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_3)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words1539)..id(TS3005b.B.words1545)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.261">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_2)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words1546)..id(TS3005b.B.words1547)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.262" addressee="A,D,C">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_6)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words1548)..id(TS3005b.B.words1556)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.263">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_1)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words1557)..id(TS3005b.B.words1558)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.264" addressee="D">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words1559)..id(TS3005b.B.words1565)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.265" addressee="D">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words1566)..id(TS3005b.B.words1571)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.266" addressee="A,D,C">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_6)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words1572)..id(TS3005b.B.words1591)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.267">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_1)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words1592)..id(TS3005b.B.words1594)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.268" addressee="D">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_14)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words1595)..id(TS3005b.B.words1598)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.269">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_1)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words1599)..id(TS3005b.B.words1601)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.270">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_1)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words1602)..id(TS3005b.B.words1603)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.271">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_2)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words1604)..id(TS3005b.B.words1605)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.272">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_3)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words1606)..id(TS3005b.B.words1607)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.274" addressee="A,D,C">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words1608)..id(TS3005b.B.words1618)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.275">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_3)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words1619)..id(TS3005b.B.words1622)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.273" addressee="A,D,C">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words1623)..id(TS3005b.B.words1628)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.276" addressee="A,D,C">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_11)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words1629)..id(TS3005b.B.words1637)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.277">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_2)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words1638)..id(TS3005b.B.words1639)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.278" addressee="A,D,C">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words1640)..id(TS3005b.B.words1654)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.279">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_3)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words1655)..id(TS3005b.B.words1660)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.280" addressee="A,D,C">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_11)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words1661)..id(TS3005b.B.words1669)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.281" addressee="A,D,C">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words1670)..id(TS3005b.B.words1678)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.282" addressee="C">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_12)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words1679)..id(TS3005b.B.words1684)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.283" addressee="A,D,C">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words1685)..id(TS3005b.B.words1691)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.284">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_1)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words1692)..id(TS3005b.B.words1693)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.285" addressee="A,D,C">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_6)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words1694)..id(TS3005b.B.words1699)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.286" addressee="A,D,C">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words1700)..id(TS3005b.B.words1712)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.287" addressee="A,D,C">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words1713)..id(TS3005b.B.words1720)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.288">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_3)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words1721)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.289">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_1)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words1722)..id(TS3005b.B.words1723)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.290">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_2)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words1724)..id(TS3005b.B.words1725)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.291">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_3)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words1726)..id(TS3005b.B.words1728)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.292" addressee="A">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words1729)..id(TS3005b.B.words1732)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.293">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_3)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words1733)..id(TS3005b.B.words1735)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.294" addressee="A,D,C" reflexivity="true">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words1736)..id(TS3005b.B.words1742)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.295" addressee="A">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words1743)..id(TS3005b.B.words1751)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.296">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_2)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words1752)..id(TS3005b.B.words1753)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.297" addressee="D">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words1754)..id(TS3005b.B.words1760)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.298">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_2)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words1761)..id(TS3005b.B.words1762)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.299" addressee="D">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_6)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words1763)..id(TS3005b.B.words1766)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.300">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_3)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words1767)..id(TS3005b.B.words1770)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.301">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_2)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words1771)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.302">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_3)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words1772)..id(TS3005b.B.words1775)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.303" addressee="D">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words1776)..id(TS3005b.B.words1779)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.304" addressee="D">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words1780)..id(TS3005b.B.words1782)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.305" addressee="A,D,C">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_14)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words1783)..id(TS3005b.B.words1796)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.306">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_3)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words1797)..id(TS3005b.B.words1799)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.307" addressee="A,D,C" reflexivity="true">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words1800)..id(TS3005b.B.words1806)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.308" addressee="D">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_5)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words1807)..id(TS3005b.B.words1818)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.309" addressee="D">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words1819)..id(TS3005b.B.words1831)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.310" addressee="D">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_12)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words1832)..id(TS3005b.B.words1833)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.311" addressee="D">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_6)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words1834)..id(TS3005b.B.words1848)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.313">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_2)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words1849)..id(TS3005b.B.words1850)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.315" addressee="D">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_12)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words1851)..id(TS3005b.B.words1859)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.316" addressee="D">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_12)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words1860)..id(TS3005b.B.words1862)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.317">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_1)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words1863)..id(TS3005b.B.words1864)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.318" addressee="D">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_12)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words1865)..id(TS3005b.B.words1866)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.319">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_3)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words1867)..id(TS3005b.B.words1872)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.320">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_2)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words1873)..id(TS3005b.B.words1874)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.321" addressee="D">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_12)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words1875)..id(TS3005b.B.words1882)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.322">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_3)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words1883)..id(TS3005b.B.words1893)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.323">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_1)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words1894)..id(TS3005b.B.words1895)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.324" addressee="A,D,C" reflexivity="true">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_9)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words1896)..id(TS3005b.B.words1904)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.325" addressee="A,D,C">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_6)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words1905)..id(TS3005b.B.words1914)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.326">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_1)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words1915)..id(TS3005b.B.words1917)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.327" addressee="A,D,C">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_14)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words1918)..id(TS3005b.B.words1926)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.328">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_3)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words1927)..id(TS3005b.B.words1929)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.329">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_3)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words1930)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.330" addressee="A,D,C">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_11)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words1931)..id(TS3005b.B.words1939)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.331">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_2)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words1940)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.332" addressee="A,D,C">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words1941)..id(TS3005b.B.words1947)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.333" addressee="C">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_9)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words1948)..id(TS3005b.B.words1949)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.334" addressee="D">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words1950)..id(TS3005b.B.words1954)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.335" addressee="D">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_11)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words1955)..id(TS3005b.B.words1956)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.336" addressee="A,D,C">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_6)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words1957)..id(TS3005b.B.words1970)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.337">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_3)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words1971)..id(TS3005b.B.words1983)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.338" addressee="C">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words1984)..id(TS3005b.B.words1985)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.339">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_3)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words1986)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.340">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_1)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words1987)..id(TS3005b.B.words1989)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.341">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_1)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words1990)..id(TS3005b.B.words1991)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.342" addressee="A,D,C">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_14)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words1992)..id(TS3005b.B.words1995)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.343" addressee="A" reflexivity="true">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_5)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words1996)..id(TS3005b.B.words1998)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.344" addressee="D">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_9)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words1999)..id(TS3005b.B.words2003)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.345" addressee="D">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words2004)..id(TS3005b.B.words2010)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.346" addressee="D">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_6)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words2011)..id(TS3005b.B.words2022)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.347" addressee="D">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_6)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words2023)..id(TS3005b.B.words2032)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.348" addressee="D">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words2033)..id(TS3005b.B.words2043)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.349">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_3)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words2044)..id(TS3005b.B.words2045)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.350">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_2)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words2046)..id(TS3005b.B.words2047)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.351">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_3)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words2048)..id(TS3005b.B.words2050)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.352">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_1)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words2051)..id(TS3005b.B.words2052)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.353">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_1)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words2053)..id(TS3005b.B.words2054)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.354">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_3)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words2055)..id(TS3005b.B.words2056)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.355" addressee="A">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_9)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words2057)..id(TS3005b.B.words2060)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.356" addressee="D">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_5)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words2061)..id(TS3005b.B.words2071)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.357" addressee="D">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_5)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words2072)..id(TS3005b.B.words2074)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.358" addressee="D">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words2075)..id(TS3005b.B.words2081)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.359" addressee="D">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_12)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words2082)..id(TS3005b.B.words2083)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.360" addressee="D">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_5)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words2084)..id(TS3005b.B.words2090)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.361">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_3)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words2091)..id(TS3005b.B.words2093)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.362" addressee="D">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_12)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words2094)..id(TS3005b.B.words2097)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.363">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_3)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words2098)..id(TS3005b.B.words2107)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.364" addressee="A">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_9)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words2108)..id(TS3005b.B.words2111)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.365">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_2)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words2112)..id(TS3005b.B.words2114)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.366" addressee="A,D,C">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_6)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words2115)..id(TS3005b.B.words2125)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.367">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_3)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words2126)..id(TS3005b.B.words2134)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.368">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_1)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words2135)..id(TS3005b.B.words2136)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.369" addressee="D">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_11)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words2137)..id(TS3005b.B.words2157)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.370">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_3)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words2158)..id(TS3005b.B.words2165)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.371">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_2)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words2166)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.372">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_3)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words2167)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.373" addressee="D">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words2168)..id(TS3005b.B.words2177)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.374">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_3)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words2178)..id(TS3005b.B.words2181)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.375" addressee="D">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_6)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words2182)..id(TS3005b.B.words2192)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.376" addressee="D">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_12)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words2193)..id(TS3005b.B.words2194)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.377" addressee="A">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_9)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words2195)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.378" addressee="A">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words2196)..id(TS3005b.B.words2201)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.379">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_3)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words2202)..id(TS3005b.B.words2203)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.380">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_2)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words2204)..id(TS3005b.B.words2207)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.381" addressee="D">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_8)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words2208)..id(TS3005b.B.words2232)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.382" addressee="A,D,C">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words2233)..id(TS3005b.B.words2238)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.383" addressee="A,D,C">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words2239)..id(TS3005b.B.words2246)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.384">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_3)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words2247)..id(TS3005b.B.words2257)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.385" addressee="C">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words2258)..id(TS3005b.B.words2261)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.386" addressee="C">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words2262)..id(TS3005b.B.words2266)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.387">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_3)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words2267)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.388" addressee="A,D,C">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_8)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words2268)..id(TS3005b.B.words2277)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.389" addressee="A,D,C">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_9)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words2278)..id(TS3005b.B.words2279)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.390">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_3)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words2280)..id(TS3005b.B.words2282)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.391" addressee="A,D,C">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_9)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words2283)..id(TS3005b.B.words2284)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.392">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_2)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words2285)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.393">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_3)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words2286)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.394" addressee="A,D,C">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words2287)..id(TS3005b.B.words2306)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.395">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_3)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words2307)..id(TS3005b.B.words2311)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.396" addressee="A,D,C">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words2312)..id(TS3005b.B.words2315)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.397" addressee="A,D,C">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words2316)..id(TS3005b.B.words2322)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.398" addressee="A,D,C">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words2323)..id(TS3005b.B.words2342)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.399" addressee="A,D,C">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words2343)..id(TS3005b.B.words2352)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.400" addressee="D">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_12)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words2353)..id(TS3005b.B.words2355)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.401" addressee="C">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_9)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words2356)..id(TS3005b.B.words2362)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.402">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_3)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words2363)..id(TS3005b.B.words2369)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.403" addressee="A">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_9)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words2370)..id(TS3005b.B.words2372)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.404" addressee="A,D,C">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_4)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words2373)..id(TS3005b.B.words2380)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.405">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_3)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words2381)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.406" addressee="A">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_12)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words2382)..id(TS3005b.B.words2383)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.407">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_3)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words2384)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.408">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_1)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words2385)..id(TS3005b.B.words2387)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.409">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_3)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words2388)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.410" addressee="A,D,C" reflexivity="true">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_11)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words2389)..id(TS3005b.B.words2397)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.412">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_3)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words2398)..id(TS3005b.B.words2400)"/>
+   </dact>
+   <dact nite:id="TS3005b.B.dialog-act.vkaraisk.411">
+      <nite:pointer role="da-aspect"  href="da-types.xml#id(ami_da_1)"/>
+      <nite:child href="TS3005b.B.words.xml#id(TS3005b.B.words2401)..id(TS3005b.B.words2402)"/>
+   </dact>
+</nite:root>

@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<nite:root nite:id="ES2016c.argumentationrels" xmlns:nite="http://nite.sourceforge.net/">
+   <ar nite:id="ES2016c.argumentationrels.Rutger.2">
+      <nite:pointer role="source"  href="ES2016c.B.argumentstructs.xml#id(ES2016c.B.argumentstructs.Rutger.2)"/>
+      <nite:pointer role="target"  href="ES2016c.B.argumentstructs.xml#id(ES2016c.B.argumentstructs.Rutger.4)"/>
+      <nite:pointer role="type"  href="ar-types.xml#id(art_8)"/>
+   </ar>
+   <ar nite:id="ES2016c.argumentationrels.Rutger.3">
+      <nite:pointer role="source"  href="ES2016c.B.argumentstructs.xml#id(ES2016c.B.argumentstructs.Rutger.4)"/>
+      <nite:pointer role="target"  href="ES2016c.B.argumentstructs.xml#id(ES2016c.B.argumentstructs.Rutger.5)"/>
+      <nite:pointer role="type"  href="ar-types.xml#id(art_9)"/>
+   </ar>
+   <ar nite:id="ES2016c.argumentationrels.Rutger.4">
+      <nite:pointer role="source"  href="ES2016c.B.argumentstructs.xml#id(ES2016c.B.argumentstructs.Rutger.2)"/>
+      <nite:pointer role="target"  href="ES2016c.B.argumentstructs.xml#id(ES2016c.B.argumentstructs.Rutger.6)"/>
+      <nite:pointer role="type"  href="ar-types.xml#id(art_8)"/>
+   </ar>
+   <ar nite:id="ES2016c.argumentationrels.Rutger.5">
+      <nite:pointer role="source"  href="ES2016c.B.argumentstructs.xml#id(ES2016c.B.argumentstructs.Rutger.6)"/>
+      <nite:pointer role="target"  href="ES2016c.C.argumentstructs.xml#id(ES2016c.C.argumentstructs.Rutger.1)"/>
+      <nite:pointer role="type"  href="ar-types.xml#id(art_1)"/>
+   </ar>
+   <ar nite:id="ES2016c.argumentationrels.Rutger.6">
+      <nite:pointer role="source"  href="ES2016c.C.argumentstructs.xml#id(ES2016c.C.argumentstructs.Rutger.1)"/>
+      <nite:pointer role="target"  href="ES2016c.B.argumentstructs.xml#id(ES2016c.B.argumentstructs.Rutger.7)"/>
+      <nite:pointer role="type"  href="ar-types.xml#id(art_1)"/>
+   </ar>
+   <ar nite:id="ES2016c.argumentationrels.Rutger.7">
+      <nite:pointer role="source"  href="ES2016c.B.argumentstructs.xml#id(ES2016c.B.argumentstructs.Rutger.6)"/>
+      <nite:pointer role="target"  href="ES2016c.B.argumentstructs.xml#id(ES2016c.B.argumentstructs.Rutger.8)"/>
+      <nite:pointer role="type"  href="ar-types.xml#id(art_1)"/>
+   </ar>
+   <ar nite:id="ES2016c.argumentationrels.Rutger.8">
+      <nite:pointer role="source"  href="ES2016c.B.argumentstructs.xml#id(ES2016c.B.argumentstructs.Rutger.8)"/>
+      <nite:pointer role="target"  href="ES2016c.C.argumentstructs.xml#id(ES2016c.C.argumentstructs.Rutger.2)"/>
+      <nite:pointer role="type"  href="ar-types.xml#id(art_1)"/>
+   </ar>
+   <ar nite:id="ES2016c.argumentationrels.Rutger.9">
+      <nite:pointer role="source"  href="ES2016c.B.argumentstructs.xml#id(ES2016c.B.argumentstructs.Rutger.6)"/>
+      <nite:pointer role="target"  href="ES2016c.A.argumentstructs.xml#id(ES2016c.A.argumentstructs.Rutger.1)"/>
+      <nite:pointer role="type"  href="ar-types.xml#id(art_1)"/>
+   </ar>
+   <ar nite:id="ES2016c.argumentationrels.Rutger.10">
+      <nite:pointer role="source"  href="ES2016c.A.argumentstructs.xml#id(ES2016c.A.argumentstructs.Rutger.1)"/>
+      <nite:pointer role="target"  href="ES2016c.B.argumentstructs.xml#id(ES2016c.B.argumentstructs.Rutger.9)"/>
+      <nite:pointer role="type"  href="ar-types.xml#id(art_1)"/>
+   </ar>
+   <ar nite:id="ES2016c.argumentationrels.Rutger.11">
+      <nite:pointer role="source"  href="ES2016c.B.argumentstructs.xml#id(ES2016c.B.argumentstructs.Rutger.2)"/>
+      <nite:pointer role="target"  href="ES2016c.B.argumentstructs.xml#id(ES2016c.B.argumentstructs.Rutger.10)"/>
+      <nite:pointer role="type"  href="ar-types.xml#id(art_4)"/>
+   </ar>
+   <ar nite:id="ES2016c.argumentationrels.Rutger.12">
+      <nite:pointer role="source"  href="ES2016c.B.argumentstructs.xml#id(ES2016c.B.argumentstructs.Rutger.10)"/>
+      <nite:pointer role="target"  href="ES2016c.B.argumentstructs.xml#id(ES2016c.B.argumentstructs.Rutger.11)"/>
+      <nite:pointer role="type"  href="ar-types.xml#id(art_7)"/>
+   </ar>
+   <ar nite:id="ES2016c.argumentationrels.Rutger.13">
+      <nite:pointer role="source"  href="ES2016c.B.argumentstructs.xml#id(ES2016c.B.argumentstructs.Rutger.2)"/>
+      <nite:pointer role="target"  href="ES2016c.B.argumentstructs.xml#id(ES2016c.B.argumentstructs.Rutger.12)"/>
+      <nite:pointer role="type"  href="ar-types.xml#id(art_4)"/>
+   </ar>
+   <ar nite:id="ES2016c.argumentationrels.Rutger.14">
+      <nite:pointer role="source"  href="ES2016c.B.argumentstructs.xml#id(ES2016c.B.argumentstructs.Rutger.12)"/>
+      <nite:pointer role="target"  href="ES2016c.D.argumentstructs.xml#id(ES2016c.D.argumentstructs.Rutger.1)"/>
+      <nite:pointer role="type"  href="ar-types.xml#id(art_1)"/>
+   </ar>
+   <ar nite:id="ES2016c.argumentationrels.Rutger.15">
+      <nite:pointer role="source"  href="ES2016c.B.argumentstructs.xml#id(ES2016c.B.argumentstructs.Rutger.12)"/>
+      <nite:pointer role="target"  href="ES2016c.C.argumentstructs.xml#id(ES2016c.C.argumentstructs.Rutger.3)"/>
+      <nite:pointer role="type"  href="ar-types.xml#id(art_1)"/>
+   </ar>
+   <ar nite:id="ES2016c.argumentationrels.Rutger.16">
+      <nite:pointer role="source"  href="ES2016c.B.argumentstructs.xml#id(ES2016c.B.argumentstructs.Rutger.12)"/>
+      <nite:pointer role="target"  href="ES2016c.B.argumentstructs.xml#id(ES2016c.B.argumentstructs.Rutger.13)"/>
+      <nite:pointer role="type"  href="ar-types.xml#id(art_1)"/>
+   </ar>
+   <ar nite:id="ES2016c.argumentationrels.Rutger.19">
+      <nite:pointer role="source"  href="ES2016c.B.argumentstructs.xml#id(ES2016c.B.argumentstructs.Rutger.16)"/>
+      <nite:pointer role="target"  href="ES2016c.A.argumentstructs.xml#id(ES2016c.A.argumentstructs.Rutger.2)"/>
+   </ar>
+   <ar nite:id="ES2016c.argumentationrels.Rutger.20">
+      <nite:pointer role="source"  href="ES2016c.B.argumentstructs.xml#id(ES2016c.B.argumentstructs.Rutger.16)"/>
+      <nite:pointer role="target"  href="ES2016c.A.argumentstructs.xml#id(ES2016c.A.argumentstructs.Rutger.2)"/>
+      <nite:pointer role="type"  href="ar-types.xml#id(art_4)"/>
+   </ar>
+   <ar nite:id="ES2016c.argumentationrels.Rutger.21">
+      <nite:pointer role="source"  href="ES2016c.A.argumentstructs.xml#id(ES2016c.A.argumentstructs.Rutger.2)"/>
+      <nite:pointer role="target"  href="ES2016c.B.argumentstructs.xml#id(ES2016c.B.argumentstructs.Rutger.17)"/>
+      <nite:pointer role="type"  href="ar-types.xml#id(art_1)"/>
+   </ar>
+   <ar nite:id="ES2016c.argumentationrels.Rutger.22">
+      <nite:pointer role="source"  href="ES2016c.B.argumentstructs.xml#id(ES2016c.B.argumentstructs.Rutger.16)"/>
+      <nite:pointer role="target"  href="ES2016c.C.argumentstructs.xml#id(ES2016c.C.argumentstructs.Rutger.4)"/>
+      <nite:pointer role="type"  href="ar-types.xml#id(art_4)"/>
+   </ar>
+   <ar nite:id="ES2016c.argumentationrels.Rutger.23">
+      <nite:pointer role="source"  href="ES2016c.C.argumentstructs.xml#id(ES2016c.C.argumentstructs.Rutger.4)"/>
+      <nite:pointer role="target"  href="ES2016c.D.argumentstructs.xml#id(ES2016c.D.argumentstructs.Rutger.2)"/>
+      <nite:pointer role="type"  href="ar-types.xml#id(art_1)"/>
+   </ar>
+   <ar nite:id="ES2016c.argumentationrels.Rutger.24">
+      <nite:pointer role="source"  href="ES2016c.C.argumentstructs.xml#id(ES2016c.C.argumentstructs.Rutger.4)"/>
+      <nite:pointer role="target"  href="ES2016c.B.argumentstructs.xml#id(ES2016c.B.argumentstructs.Rutger.18)"/>
+      <nite:pointer role="type"  href="ar-types.xml#id(art_2)"/>
+   </ar>
+   <ar nite:id="ES2016c.argumentationrels.Rutger.25">
+      <nite:pointer role="source"  href="ES2016c.B.argumentstructs.xml#id(ES2016c.B.argumentstructs.Rutger.18)"/>
+      <nite:pointer role="target"  href="ES2016c.D.argumentstructs.xml#id(ES2016c.D.argumentstructs.Rutger.3)"/>
+      <nite:pointer role="type"  href="ar-types.xml#id(art_1)"/>
+   </ar>
+   <ar nite:id="ES2016c.argumentationrels.Rutger.26">
+      <nite:pointer role="source"  href="ES2016c.B.argumentstructs.xml#id(ES2016c.B.argumentstructs.Rutger.18)"/>
+      <nite:pointer role="target"  href="ES2016c.A.argumentstructs.xml#id(ES2016c.A.argumentstructs.Rutger.3)"/>
+      <nite:pointer role="type"  href="ar-types.xml#id(art_1)"/>
+   </ar>
+   <ar nite:id="ES2016c.argumentationrels.Rutger.27">
+      <nite:pointer role="source"  href="ES2016c.B.argumentstructs.xml#id(ES2016c.B.argumentstructs.Rutger.16)"/>
+      <nite:pointer role="target"  href="ES2016c.C.argumentstructs.xml#id(ES2016c.C.argumentstructs.Rutger.5)"/>
+      <nite:pointer role="type"  href="ar-types.xml#id(art_4)"/>
+   </ar>
+   <ar nite:id="ES2016c.argumentationrels.Rutger.28">
+      <nite:pointer role="source"  href="ES2016c.C.argumentstructs.xml#id(ES2016c.C.argumentstructs.Rutger.5)"/>
+      <nite:pointer role="target"  href="ES2016c.A.argumentstructs.xml#id(ES2016c.A.argumentstructs.Rutger.4)"/>
+      <nite:pointer role="type"  href="ar-types.xml#id(art_3)"/>
+   </ar>
+   <ar nite:id="ES2016c.argumentationrels.Rutger.29">
+      <nite:pointer role="source"  href="ES2016c.C.argumentstructs.xml#id(ES2016c.C.argumentstructs.Rutger.5)"/>
+      <nite:pointer role="target"  href="ES2016c.B.argumentstructs.xml#id(ES2016c.B.argumentstructs.Rutger.19)"/>
+      <nite:pointer role="type"  href="ar-types.xml#id(art_2)"/>
+   </ar>
+   <ar nite:id="ES2016c.argumentationrels.Rutger.30">
+      <nite:pointer role="source"  href="ES2016c.B.argumentstructs.xml#id(ES2016c.B.argumentstructs.Rutger.16)"/>
+      <nite:pointer role="target"  href="ES2016c.A.argumentstructs.xml#id(ES2016c.A.argumentstructs.Rutger.5)"/>
+      <nite:pointer role="type"  href="ar-types.xml#id(art_7)"/>
+   </ar>
+   <ar nite:id="ES2016c.argumentationrels.Rutger.31">
+      <nite:pointer role="source"  href="ES2016c.A.argumentstructs.xml#id(ES2016c.A.argumentstructs.Rutger.5)"/>
+      <nite:pointer role="target"  href="ES2016c.C.argumentstructs.xml#id(ES2016c.C.argumentstructs.Rutger.6)"/>
+      <nite:pointer role="type"  href="ar-types.xml#id(art_1)"/>
+   </ar>
+   <ar nite:id="ES2016c.argumentationrels.Rutger.32">
+      <nite:pointer role="source"  href="ES2016c.B.argumentstructs.xml#id(ES2016c.B.argumentstructs.Rutger.16)"/>
+      <nite:pointer role="target"  href="ES2016c.D.argumentstructs.xml#id(ES2016c.D.argumentstructs.Rutger.4)"/>
+      <nite:pointer role="type"  href="ar-types.xml#id(art_7)"/>
+   </ar>
+   <ar nite:id="ES2016c.argumentationrels.Rutger.33">
+      <nite:pointer role="source"  href="ES2016c.D.argumentstructs.xml#id(ES2016c.D.argumentstructs.Rutger.4)"/>
+      <nite:pointer role="target"  href="ES2016c.C.argumentstructs.xml#id(ES2016c.C.argumentstructs.Rutger.7)"/>
+      <nite:pointer role="type"  href="ar-types.xml#id(art_1)"/>
+   </ar>
+   <ar nite:id="ES2016c.argumentationrels.Rutger.34">
+      <nite:pointer role="source"  href="ES2016c.D.argumentstructs.xml#id(ES2016c.D.argumentstructs.Rutger.4)"/>
+      <nite:pointer role="target"  href="ES2016c.B.argumentstructs.xml#id(ES2016c.B.argumentstructs.Rutger.20)"/>
+      <nite:pointer role="type"  href="ar-types.xml#id(art_2)"/>
+   </ar>
+   <ar nite:id="ES2016c.argumentationrels.Rutger.35">
+      <nite:pointer role="source"  href="ES2016c.B.argumentstructs.xml#id(ES2016c.B.argumentstructs.Rutger.20)"/>
+      <nite:pointer role="target"  href="ES2016c.D.argumentstructs.xml#id(ES2016c.D.argumentstructs.Rutger.5)"/>
+      <nite:pointer role="type"  href="ar-types.xml#id(art_1)"/>
+   </ar>
+   <ar nite:id="ES2016c.argumentationrels.Rutger.36">
+      <nite:pointer role="source"  href="ES2016c.B.argumentstructs.xml#id(ES2016c.B.argumentstructs.Rutger.20)"/>
+      <nite:pointer role="target"  href="ES2016c.C.argumentstructs.xml#id(ES2016c.C.argumentstructs.Rutger.8)"/>
+      <nite:pointer role="type"  href="ar-types.xml#id(art_1)"/>
+   </ar>
+   <ar nite:id="ES2016c.argumentationrels.Rutger.37">
+      <nite:pointer role="source"  href="ES2016c.D.argumentstructs.xml#id(ES2016c.D.argumentstructs.Rutger.4)"/>
+      <nite:pointer role="target"  href="ES2016c.A.argumentstructs.xml#id(ES2016c.A.argumentstructs.Rutger.6)"/>
+      <nite:pointer role="type"  href="ar-types.xml#id(art_2)"/>
+   </ar>
+   <ar nite:id="ES2016c.argumentationrels.Rutger.38">
+      <nite:pointer role="source"  href="ES2016c.A.argumentstructs.xml#id(ES2016c.A.argumentstructs.Rutger.6)"/>
+      <nite:pointer role="target"  href="ES2016c.C.argumentstructs.xml#id(ES2016c.C.argumentstructs.Rutger.9)"/>
+      <nite:pointer role="type"  href="ar-types.xml#id(art_1)"/>
+   </ar>
+   <ar nite:id="ES2016c.argumentationrels.Rutger.40">
+      <nite:pointer role="source"  href="ES2016c.D.argumentstructs.xml#id(ES2016c.D.argumentstructs.Rutger.6)"/>
+      <nite:pointer role="target"  href="ES2016c.C.argumentstructs.xml#id(ES2016c.C.argumentstructs.Rutger.10)"/>
+      <nite:pointer role="type"  href="ar-types.xml#id(art_1)"/>
+   </ar>
+   <ar nite:id="ES2016c.argumentationrels.Rutger.41">
+      <nite:pointer role="type"  href="ar-types.xml#id(art_1)"/>
+      <nite:pointer role="source"  href="ES2016c.D.argumentstructs.xml#id(ES2016c.D.argumentstructs.Rutger.6)"/>
+      <nite:pointer role="target"  href="ES2016c.B.argumentstructs.xml#id(ES2016c.B.argumentstructs.Rutger.21)"/>
+   </ar>
+   <ar nite:id="ES2016c.argumentationrels.Rutger.43">
+      <nite:pointer role="source"  href="ES2016c.D.argumentstructs.xml#id(ES2016c.D.argumentstructs.Rutger.4)"/>
+      <nite:pointer role="target"  href="ES2016c.D.argumentstructs.xml#id(ES2016c.D.argumentstructs.Rutger.6)"/>
+      <nite:pointer role="type"  href="ar-types.xml#id(art_2)"/>
+   </ar>
+   <ar nite:id="ES2016c.argumentationrels.Rutger.45">
+      <nite:pointer role="source"  href="ES2016c.A.argumentstructs.xml#id(ES2016c.A.argumentstructs.Rutger.7)"/>
+      <nite:pointer role="target"  href="ES2016c.B.argumentstructs.xml#id(ES2016c.B.argumentstructs.Rutger.22)"/>
+      <nite:pointer role="type"  href="ar-types.xml#id(art_1)"/>
+   </ar>
+   <ar nite:id="ES2016c.argumentationrels.Rutger.46">
+      <nite:pointer role="source"  href="ES2016c.D.argumentstructs.xml#id(ES2016c.D.argumentstructs.Rutger.6)"/>
+      <nite:pointer role="target"  href="ES2016c.A.argumentstructs.xml#id(ES2016c.A.argumentstructs.Rutger.7)"/>
+      <nite:pointer role="type"  href="ar-types.xml#id(art_4)"/>
+   </ar>
+   <ar nite:id="ES2016c.argumentationrels.Rutger.47">
+      <nite:pointer role="source"  href="ES2016c.D.argumentstructs.xml#id(ES2016c.D.argumentstructs.Rutger.6)"/>
+      <nite:pointer role="target"  href="ES2016c.D.argumentstructs.xml#id(ES2016c.D.argumentstructs.Rutger.7)"/>
+      <nite:pointer role="type"  href="ar-types.xml#id(art_4)"/>
+   </ar>
+   <ar nite:id="ES2016c.argumentationrels.Rutger.48">
+      <nite:pointer role="source"  href="ES2016c.B.argumentstructs.xml#id(ES2016c.B.argumentstructs.Rutger.16)"/>
+      <nite:pointer role="target"  href="ES2016c.B.argumentstructs.xml#id(ES2016c.B.argumentstructs.Rutger.23)"/>
+      <nite:pointer role="type"  href="ar-types.xml#id(art_4)"/>
+   </ar>
+   <ar nite:id="ES2016c.argumentationrels.Rutger.49">
+      <nite:pointer role="type"  href="ar-types.xml#id(art_1)"/>
+      <nite:pointer role="source"  href="ES2016c.B.argumentstructs.xml#id(ES2016c.B.argumentstructs.Rutger.23)"/>
+      <nite:pointer role="target"  href="ES2016c.A.argumentstructs.xml#id(ES2016c.A.argumentstructs.Rutger.8)"/>
+   </ar>
+   <ar nite:id="ES2016c.argumentationrels.Rutger.54">
+      <nite:pointer role="type"  href="ar-types.xml#id(art_1)"/>
+      <nite:pointer role="source"  href="ES2016c.B.argumentstructs.xml#id(ES2016c.B.argumentstructs.Rutger.23)"/>
+      <nite:pointer role="target"  href="ES2016c.C.argumentstructs.xml#id(ES2016c.C.argumentstructs.Rutger.13)"/>
+   </ar>
+   <ar nite:id="ES2016c.argumentationrels.Rutger.55">
+      <nite:pointer role="source"  href="ES2016c.B.argumentstructs.xml#id(ES2016c.B.argumentstructs.Rutger.23)"/>
+      <nite:pointer role="target"  href="ES2016c.C.argumentstructs.xml#id(ES2016c.C.argumentstructs.Rutger.15)"/>
+      <nite:pointer role="type"  href="ar-types.xml#id(art_4)"/>
+   </ar>
+   <ar nite:id="ES2016c.argumentationrels.Rutger.58">
+      <nite:pointer role="source"  href="ES2016c.C.argumentstructs.xml#id(ES2016c.C.argumentstructs.Rutger.15)"/>
+      <nite:pointer role="target"  href="ES2016c.C.argumentstructs.xml#id(ES2016c.C.argumentstructs.Rutger.14)"/>
+      <nite:pointer role="type"  href="ar-types.xml#id(art_1)"/>
+   </ar>
+   <ar nite:id="ES2016c.argumentationrels.Rutger.59">
+      <nite:pointer role="target"  href="ES2016c.B.argumentstructs.xml#id(ES2016c.B.argumentstructs.Rutger.24)"/>
+      <nite:pointer role="type"  href="ar-types.xml#id(art_1)"/>
+      <nite:pointer role="source"  href="ES2016c.C.argumentstructs.xml#id(ES2016c.C.argumentstructs.Rutger.16)"/>
+   </ar>
+   <ar nite:id="ES2016c.argumentationrels.Rutger.60">
+      <nite:pointer role="source"  href="ES2016c.B.argumentstructs.xml#id(ES2016c.B.argumentstructs.Rutger.23)"/>
+      <nite:pointer role="target"  href="ES2016c.C.argumentstructs.xml#id(ES2016c.C.argumentstructs.Rutger.16)"/>
+      <nite:pointer role="type"  href="ar-types.xml#id(art_1)"/>
+   </ar>
+   <ar nite:id="ES2016c.argumentationrels.Rutger.61">
+      <nite:pointer role="source"  href="ES2016c.C.argumentstructs.xml#id(ES2016c.C.argumentstructs.Rutger.16)"/>
+      <nite:pointer role="target"  href="ES2016c.A.argumentstructs.xml#id(ES2016c.A.argumentstructs.Rutger.9)"/>
+      <nite:pointer role="type"  href="ar-types.xml#id(art_4)"/>
+   </ar>
+   <ar nite:id="ES2016c.argumentationrels.Rutger.62">
+      <nite:pointer role="source"  href="ES2016c.A.argumentstructs.xml#id(ES2016c.A.argumentstructs.Rutger.9)"/>
+      <nite:pointer role="target"  href="ES2016c.D.argumentstructs.xml#id(ES2016c.D.argumentstructs.Rutger.8)"/>
+      <nite:pointer role="type"  href="ar-types.xml#id(art_1)"/>
+   </ar>
+   <ar nite:id="ES2016c.argumentationrels.Rutger.63">
+      <nite:pointer role="type"  href="ar-types.xml#id(art_1)"/>
+      <nite:pointer role="source"  href="ES2016c.A.argumentstructs.xml#id(ES2016c.A.argumentstructs.Rutger.9)"/>
+      <nite:pointer role="target"  href="ES2016c.B.argumentstructs.xml#id(ES2016c.B.argumentstructs.Rutger.25)"/>
+   </ar>
+   <ar nite:id="ES2016c.argumentationrels.Rutger.64">
+      <nite:pointer role="source"  href="ES2016c.A.argumentstructs.xml#id(ES2016c.A.argumentstructs.Rutger.9)"/>
+      <nite:pointer role="target"  href="ES2016c.C.argumentstructs.xml#id(ES2016c.C.argumentstructs.Rutger.17)"/>
+      <nite:pointer role="type"  href="ar-types.xml#id(art_1)"/>
+   </ar>
+   <ar nite:id="ES2016c.argumentationrels.Rutger.65">
+      <nite:pointer role="type"  href="ar-types.xml#id(art_1)"/>
+      <nite:pointer role="source"  href="ES2016c.A.argumentstructs.xml#id(ES2016c.A.argumentstructs.Rutger.9)"/>
+      <nite:pointer role="target"  href="ES2016c.D.argumentstructs.xml#id(ES2016c.D.argumentstructs.Rutger.9)"/>
+   </ar>
+   <ar nite:id="ES2016c.argumentationrels.Rutger.66">
+      <nite:pointer role="type"  href="ar-types.xml#id(art_1)"/>
+      <nite:pointer role="source"  href="ES2016c.A.argumentstructs.xml#id(ES2016c.A.argumentstructs.Rutger.9)"/>
+      <nite:pointer role="target"  href="ES2016c.B.argumentstructs.xml#id(ES2016c.B.argumentstructs.Rutger.26)"/>
+   </ar>
+   <ar nite:id="ES2016c.argumentationrels.Rutger.67">
+      <nite:pointer role="source"  href="ES2016c.B.argumentstructs.xml#id(ES2016c.B.argumentstructs.Rutger.1)"/>
+      <nite:pointer role="target"  href="ES2016c.B.argumentstructs.xml#id(ES2016c.B.argumentstructs.Rutger.27)"/>
+      <nite:pointer role="type"  href="ar-types.xml#id(art_4)"/>
+   </ar>
+   <ar nite:id="ES2016c.argumentationrels.Rutger.68">
+      <nite:pointer role="source"  href="ES2016c.B.argumentstructs.xml#id(ES2016c.B.argumentstructs.Rutger.1)"/>
+      <nite:pointer role="target"  href="ES2016c.B.argumentstructs.xml#id(ES2016c.B.argumentstructs.Rutger.28)"/>
+      <nite:pointer role="type"  href="ar-types.xml#id(art_4)"/>
+   </ar>
+   <ar nite:id="ES2016c.argumentationrels.Rutger.70">
+      <nite:pointer role="source"  href="ES2016c.B.argumentstructs.xml#id(ES2016c.B.argumentstructs.Rutger.29)"/>
+      <nite:pointer role="target"  href="ES2016c.B.argumentstructs.xml#id(ES2016c.B.argumentstructs.Rutger.2)"/>
+      <nite:pointer role="type"  href="ar-types.xml#id(art_5)"/>
+   </ar>
+   <ar nite:id="ES2016c.argumentationrels.Rutger.71">
+      <nite:pointer role="source"  href="ES2016c.B.argumentstructs.xml#id(ES2016c.B.argumentstructs.Rutger.1)"/>
+      <nite:pointer role="target"  href="ES2016c.B.argumentstructs.xml#id(ES2016c.B.argumentstructs.Rutger.29)"/>
+      <nite:pointer role="type"  href="ar-types.xml#id(art_4)"/>
+   </ar>
+</nite:root>

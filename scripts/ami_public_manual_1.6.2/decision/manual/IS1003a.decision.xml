@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<nite:root nite:id="IS1003a.decision" xmlns:nite="http://nite.sourceforge.net/">
+   <decision nite:id="IS1003a.decision.melissa.1" external="true">
+      <nite:child href="IS1003a.A.words.xml#id(IS1003a.A.words198)..id(IS1003a.A.words227)"/>
+      <nite:child href="IS1003a.B.words.xml#id(IS1003a.B.words11)..id(IS1003a.B.words14)"/>
+      <nite:child href="IS1003a.D.words.xml#id(IS1003a.D.words10)..id(IS1003a.D.words11)"/>
+      <nite:child href="IS1003a.C.words.xml#id(IS1003a.C.words26)..id(IS1003a.C.words38)"/>
+      <nite:child href="IS1003a.D.words.xml#id(IS1003a.D.words12)..id(IS1003a.D.words19)"/>
+   </decision>
+   <decision nite:id="IS1003a.decision.melissa.2" external="true">
+      <nite:child href="IS1003a.A.words.xml#id(IS1003a.A.words228)..id(IS1003a.A.words248)"/>
+   </decision>
+   <decision nite:id="IS1003a.decision.melissa.3">
+      <nite:child href="IS1003a.A.words.xml#id(IS1003a.A.words265)..id(IS1003a.A.words313)"/>
+      <nite:child href="IS1003a.D.words.xml#id(IS1003a.D.words20)"/>
+      <nite:child href="IS1003a.C.words.xml#id(IS1003a.C.words41)"/>
+   </decision>
+   <decision nite:id="IS1003a.decision.melissa.4">
+      <nite:child href="IS1003a.A.words.xml#id(IS1003a.A.words478)..id(IS1003a.A.words552)"/>
+      <nite:child href="IS1003a.B.words.xml#id(IS1003a.B.words124)..id(IS1003a.B.words127)"/>
+      <nite:child href="IS1003a.D.words.xml#id(IS1003a.D.words177)..id(IS1003a.D.words178)"/>
+      <nite:child href="IS1003a.B.words.xml#id(IS1003a.B.words128)..id(IS1003a.B.words135)"/>
+      <nite:child href="IS1003a.C.words.xml#id(IS1003a.C.words225)"/>
+      <nite:child href="IS1003a.D.words.xml#id(IS1003a.D.words179)..id(IS1003a.D.words180)"/>
+   </decision>
+   <decision nite:id="IS1003a.decision.melissa.5">
+      <nite:child href="IS1003a.A.words.xml#id(IS1003a.A.words583)..id(IS1003a.A.words613)"/>
+      <nite:child href="IS1003a.C.words.xml#id(IS1003a.C.words231)"/>
+      <nite:child href="IS1003a.B.words.xml#id(IS1003a.B.words155)..id(IS1003a.B.words157)"/>
+      <nite:child href="IS1003a.A.words.xml#id(IS1003a.A.words614)..id(IS1003a.A.words619)"/>
+      <nite:child href="IS1003a.D.words.xml#id(IS1003a.D.words200)..id(IS1003a.D.words204)"/>
+      <nite:child href="IS1003a.B.words.xml#id(IS1003a.B.words158)..id(IS1003a.B.words159)"/>
+   </decision>
+</nite:root>

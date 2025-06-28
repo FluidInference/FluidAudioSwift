@@ -1,0 +1,448 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nite:root xmlns:nite="http://nite.sourceforge.net/" nite:id="tmigaz_ES2008c_A.nite:root.1">
+    <head endtime="23.0" starttime="0.0" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.1"/>
+    <head endtime="25.96" form="nod" starttime="23.0" type="concord_signal" nite:id="tmigaz_ES2008c_A.head.2"/>
+    <head endtime="27.2" starttime="25.96" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.3"/>
+    <head endtime="27.4" form="nod" starttime="27.2" type="concord_signal" nite:id="tmigaz_ES2008c_A.head.4"/>
+    <head endtime="31.92" starttime="27.4" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.5"/>
+    <head endtime="33.32" form="nod" starttime="31.92" type="concord_signal" nite:id="tmigaz_ES2008c_A.head.6"/>
+    <head endtime="35.8" starttime="33.32" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.7"/>
+    <head endtime="41.08" form="nod" starttime="35.8" type="concord_signal" nite:id="tmigaz_ES2008c_A.head.8"/>
+    <head endtime="41.88" starttime="41.08" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.9"/>
+    <head endtime="51.68" form="nod" starttime="41.88" type="concord_signal" nite:id="tmigaz_ES2008c_A.head.10"/>
+    <head endtime="70.4" starttime="51.68" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.11"/>
+    <head endtime="70.72" form="shake" starttime="70.4" type="emphasis_signal" nite:id="tmigaz_ES2008c_A.head.12"/>
+    <head endtime="84.44" starttime="70.72" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.13"/>
+    <head endtime="84.6" starttime="84.44" type="emphasis_signal" nite:id="tmigaz_ES2008c_A.head.14"/>
+    <head endtime="87.2" starttime="84.6" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.15"/>
+    <head endtime="87.32" form="nod" starttime="87.2" type="emphasis_signal" nite:id="tmigaz_ES2008c_A.head.16"/>
+    <head endtime="88.44" starttime="87.32" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.17"/>
+    <head endtime="88.64" starttime="88.44" type="emphasis_signal" nite:id="tmigaz_ES2008c_A.head.18"/>
+    <head endtime="90.56" starttime="88.64" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.19"/>
+    <head endtime="90.6" form="nod" starttime="90.56" type="emphasis_signal" nite:id="tmigaz_ES2008c_A.head.20"/>
+    <head endtime="96.8" starttime="90.6" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.21"/>
+    <head endtime="97.04" form="nod" starttime="96.8" type="emphasis_signal" nite:id="tmigaz_ES2008c_A.head.22"/>
+    <head endtime="98.12" starttime="97.04" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.23"/>
+    <head endtime="98.2" form="nod" starttime="98.12" type="emphasis_signal" nite:id="tmigaz_ES2008c_A.head.24"/>
+    <head endtime="99.84" starttime="98.2" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.25"/>
+    <head endtime="100.04" starttime="99.84" type="emphasis_signal" nite:id="tmigaz_ES2008c_A.head.26"/>
+    <head endtime="101.36" starttime="100.04" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.27"/>
+    <head endtime="101.48" form="nod" starttime="101.36" type="emphasis_signal" nite:id="tmigaz_ES2008c_A.head.28"/>
+    <head endtime="102.32" starttime="101.48" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.29"/>
+    <head endtime="103.12" form="nod" starttime="102.32" type="other_comm_head" nite:id="tmigaz_ES2008c_A.head.30"/>
+    <head endtime="107.24" starttime="103.12" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.31"/>
+    <head endtime="107.36" starttime="107.24" type="emphasis_signal" nite:id="tmigaz_ES2008c_A.head.32"/>
+    <head endtime="113.4" starttime="107.36" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.33"/>
+    <head endtime="113.6" starttime="113.4" type="emphasis_signal" nite:id="tmigaz_ES2008c_A.head.34"/>
+    <head endtime="120.52" starttime="113.6" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.35"/>
+    <head endtime="120.72" form="nod" starttime="120.52" type="emphasis_signal" nite:id="tmigaz_ES2008c_A.head.36"/>
+    <head endtime="123.8" starttime="120.72" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.37"/>
+    <head endtime="124.2" form="nod" starttime="123.8" type="emphasis_signal" nite:id="tmigaz_ES2008c_A.head.38"/>
+    <head endtime="125.72" starttime="124.2" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.39"/>
+    <head endtime="125.92" form="nod" starttime="125.72" type="other_comm_head" nite:id="tmigaz_ES2008c_A.head.40"/>
+    <head endtime="133.48" starttime="125.92" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.41"/>
+    <head endtime="134.24" form="nod" starttime="133.48" type="deixis_signal" nite:id="tmigaz_ES2008c_A.head.42"/>
+    <head endtime="137.8" starttime="134.24" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.43"/>
+    <head endtime="138.04" starttime="137.8" type="deixis_signal" nite:id="tmigaz_ES2008c_A.head.44"/>
+    <head endtime="139.76" starttime="138.04" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.45"/>
+    <head endtime="139.92" starttime="139.76" type="emphasis_signal" nite:id="tmigaz_ES2008c_A.head.46"/>
+    <head endtime="140.64" starttime="139.92" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.47"/>
+    <head endtime="140.76" form="nod" starttime="140.64" type="other_comm_head" nite:id="tmigaz_ES2008c_A.head.48"/>
+    <head endtime="152.96" starttime="140.76" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.49"/>
+    <head endtime="162.72" starttime="152.96" type="off_camera" nite:id="tmigaz_ES2008c_A.head.50"/>
+    <head endtime="192.08" starttime="162.72" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.51"/>
+    <head endtime="192.6" form="nod" starttime="192.08" type="concord_signal" nite:id="tmigaz_ES2008c_A.head.52"/>
+    <head endtime="203.48" starttime="192.6" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.53"/>
+    <head endtime="206.64" form="nod" starttime="203.48" type="concord_signal" nite:id="tmigaz_ES2008c_A.head.54"/>
+    <head endtime="238.92" starttime="206.64" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.55"/>
+    <head endtime="240.68" form="nod" starttime="238.92" type="concord_signal" nite:id="tmigaz_ES2008c_A.head.56"/>
+    <head endtime="245.44" starttime="240.68" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.57"/>
+    <head endtime="246.08" form="nod" starttime="245.44" type="concord_signal" nite:id="tmigaz_ES2008c_A.head.58"/>
+    <head endtime="258.04" starttime="246.08" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.59"/>
+    <head endtime="258.44" form="nod" starttime="258.04" type="other_comm_head" nite:id="tmigaz_ES2008c_A.head.60"/>
+    <head endtime="291.0" starttime="258.44" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.61"/>
+    <head endtime="296.64" form="nod" starttime="291.0" type="concord_signal" nite:id="tmigaz_ES2008c_A.head.62"/>
+    <head endtime="302.2" starttime="296.64" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.63"/>
+    <head endtime="302.76" form="nod" starttime="302.2" type="concord_signal" nite:id="tmigaz_ES2008c_A.head.64"/>
+    <head endtime="338.12" starttime="302.76" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.65"/>
+    <head endtime="338.32" form="nod" starttime="338.12" type="concord_signal" nite:id="tmigaz_ES2008c_A.head.66"/>
+    <head endtime="344.64" starttime="338.32" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.67"/>
+    <head endtime="346.88" form="nod" starttime="344.64" type="concord_signal" nite:id="tmigaz_ES2008c_A.head.68"/>
+    <head endtime="352.56" starttime="346.88" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.69"/>
+    <head endtime="353.92" form="nod" starttime="352.56" type="concord_signal" nite:id="tmigaz_ES2008c_A.head.70"/>
+    <head endtime="354.72" starttime="353.92" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.71"/>
+    <head endtime="356.4" form="nod" starttime="354.72" type="concord_signal" nite:id="tmigaz_ES2008c_A.head.72"/>
+    <head endtime="358.96" starttime="356.4" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.73"/>
+    <head endtime="365.6" form="nod" starttime="358.96" type="concord_signal" nite:id="tmigaz_ES2008c_A.head.74"/>
+    <head endtime="368.48" starttime="365.6" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.75"/>
+    <head endtime="370.88" form="nod" starttime="368.48" type="concord_signal" nite:id="tmigaz_ES2008c_A.head.76"/>
+    <head endtime="381.48" starttime="370.88" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.77"/>
+    <head endtime="385.04" form="nod" starttime="381.48" type="concord_signal" nite:id="tmigaz_ES2008c_A.head.78"/>
+    <head endtime="386.04" starttime="385.04" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.79"/>
+    <head endtime="386.28" form="nod" starttime="386.04" type="concord_signal" nite:id="tmigaz_ES2008c_A.head.80"/>
+    <head endtime="390.92" starttime="386.28" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.81"/>
+    <head endtime="392.16" form="nod" starttime="390.92" type="concord_signal" nite:id="tmigaz_ES2008c_A.head.82"/>
+    <head endtime="403.04" starttime="392.16" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.83"/>
+    <head endtime="404.92" form="nod" starttime="403.04" type="concord_signal" nite:id="tmigaz_ES2008c_A.head.84"/>
+    <head endtime="410.52" starttime="404.92" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.85"/>
+    <head endtime="417.24" form="nod" starttime="410.52" type="concord_signal" nite:id="tmigaz_ES2008c_A.head.86"/>
+    <head endtime="419.96" starttime="417.24" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.87"/>
+    <head endtime="420.48" form="nod" starttime="419.96" type="concord_signal" nite:id="tmigaz_ES2008c_A.head.88"/>
+    <head endtime="433.32" starttime="420.48" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.89"/>
+    <head endtime="436.56" form="nod" starttime="433.32" type="concord_signal" nite:id="tmigaz_ES2008c_A.head.90"/>
+    <head endtime="439.88" starttime="436.56" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.91"/>
+    <head endtime="440.04" form="nod" starttime="439.88" type="concord_signal" nite:id="tmigaz_ES2008c_A.head.92"/>
+    <head endtime="452.48" starttime="440.04" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.93"/>
+    <head endtime="458.48" form="nod" starttime="452.48" type="concord_signal" nite:id="tmigaz_ES2008c_A.head.94"/>
+    <head endtime="464.64" starttime="458.48" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.95"/>
+    <head endtime="464.8" form="nod" starttime="464.64" type="turn_signal" nite:id="tmigaz_ES2008c_A.head.96"/>
+    <head endtime="469.84" starttime="464.8" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.97"/>
+    <head endtime="470.08" form="shake" starttime="469.84" type="other_comm_head" nite:id="tmigaz_ES2008c_A.head.98"/>
+    <head endtime="470.44" starttime="470.08" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.99"/>
+    <head endtime="472.16" form="nod" starttime="470.44" type="concord_signal" nite:id="tmigaz_ES2008c_A.head.100"/>
+    <head endtime="477.76" starttime="472.16" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.101"/>
+    <head endtime="478.08" form="nod" starttime="477.76" type="concord_signal" nite:id="tmigaz_ES2008c_A.head.102"/>
+    <head endtime="479.76" starttime="478.08" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.103"/>
+    <head endtime="481.24" form="nod" starttime="479.76" type="concord_signal" nite:id="tmigaz_ES2008c_A.head.104"/>
+    <head endtime="482.8" starttime="481.24" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.105"/>
+    <head endtime="484.08" form="nod" starttime="482.8" type="concord_signal" nite:id="tmigaz_ES2008c_A.head.106"/>
+    <head endtime="485.8" starttime="484.08" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.107"/>
+    <head endtime="486.44" form="nod" starttime="485.8" type="concord_signal" nite:id="tmigaz_ES2008c_A.head.108"/>
+    <head endtime="488.64" starttime="486.44" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.109"/>
+    <head endtime="492.8" form="nod" starttime="488.64" type="concord_signal" nite:id="tmigaz_ES2008c_A.head.110"/>
+    <head endtime="494.72" starttime="492.8" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.111"/>
+    <head endtime="495.84" form="nod" starttime="494.72" type="other_comm_head" nite:id="tmigaz_ES2008c_A.head.112"/>
+    <head endtime="510.44" starttime="495.84" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.113"/>
+    <head endtime="510.72" form="nod" starttime="510.44" type="other_comm_head" nite:id="tmigaz_ES2008c_A.head.114"/>
+    <head endtime="514.16" starttime="510.72" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.115"/>
+    <head endtime="514.6" starttime="514.16" type="other_comm_head" nite:id="tmigaz_ES2008c_A.head.116"/>
+    <head endtime="514.68" starttime="514.6" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.117"/>
+    <head endtime="515.16" form="shake" starttime="514.68" type="other_comm_head" nite:id="tmigaz_ES2008c_A.head.118"/>
+    <head endtime="515.24" starttime="515.16" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.119"/>
+    <head endtime="516.08" form="nod" starttime="515.24" type="concord_signal" nite:id="tmigaz_ES2008c_A.head.120"/>
+    <head endtime="518.72" starttime="516.08" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.121"/>
+    <head endtime="521.64" form="nod" starttime="518.72" type="concord_signal" nite:id="tmigaz_ES2008c_A.head.122"/>
+    <head endtime="527.88" starttime="521.64" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.123"/>
+    <head endtime="545.88" starttime="527.88" type="off_camera" nite:id="tmigaz_ES2008c_A.head.124"/>
+    <head endtime="596.24" starttime="545.88" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.125"/>
+    <head endtime="599.24" form="nod" starttime="596.24" type="concord_signal" nite:id="tmigaz_ES2008c_A.head.126"/>
+    <head endtime="608.6" starttime="599.24" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.127"/>
+    <head endtime="610.92" form="nod" starttime="608.6" type="concord_signal" nite:id="tmigaz_ES2008c_A.head.128"/>
+    <head endtime="616.64" starttime="610.92" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.129"/>
+    <head endtime="618.72" form="nod" starttime="616.64" type="concord_signal" nite:id="tmigaz_ES2008c_A.head.130"/>
+    <head endtime="644.16" starttime="618.72" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.131"/>
+    <head endtime="652.16" form="nod" starttime="644.16" type="concord_signal" nite:id="tmigaz_ES2008c_A.head.132"/>
+    <head endtime="668.96" starttime="652.16" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.133"/>
+    <head endtime="669.92" form="nod" starttime="668.96" type="concord_signal" nite:id="tmigaz_ES2008c_A.head.134"/>
+    <head endtime="680.64" starttime="669.92" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.135"/>
+    <head endtime="680.88" form="nod" starttime="680.64" type="concord_signal" nite:id="tmigaz_ES2008c_A.head.136"/>
+    <head endtime="717.52" starttime="680.88" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.137"/>
+    <head endtime="722.56" form="nod" starttime="717.52" type="concord_signal" nite:id="tmigaz_ES2008c_A.head.138"/>
+    <head endtime="733.08" starttime="722.56" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.139"/>
+    <head endtime="734.24" form="nod" starttime="733.08" type="concord_signal" nite:id="tmigaz_ES2008c_A.head.140"/>
+    <head endtime="750.68" starttime="734.24" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.141"/>
+    <head endtime="750.72" form="nod" starttime="750.68" type="concord_signal" nite:id="tmigaz_ES2008c_A.head.142"/>
+    <head endtime="767.84" starttime="750.72" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.143"/>
+    <head endtime="769.68" form="nod" starttime="767.84" type="concord_signal" nite:id="tmigaz_ES2008c_A.head.144"/>
+    <head endtime="780.0" starttime="769.68" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.145"/>
+    <head endtime="782.12" form="nod" starttime="780.0" type="concord_signal" nite:id="tmigaz_ES2008c_A.head.146"/>
+    <head endtime="789.28" starttime="782.12" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.147"/>
+    <head endtime="790.92" form="nod" starttime="789.28" type="concord_signal" nite:id="tmigaz_ES2008c_A.head.148"/>
+    <head endtime="814.88" starttime="790.92" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.149"/>
+    <head endtime="820.44" form="nod" starttime="814.88" type="concord_signal" nite:id="tmigaz_ES2008c_A.head.150"/>
+    <head endtime="828.68" starttime="820.44" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.151"/>
+    <head endtime="830.12" form="nod" starttime="828.68" type="concord_signal" nite:id="tmigaz_ES2008c_A.head.152"/>
+    <head endtime="832.24" starttime="830.12" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.153"/>
+    <head endtime="834.76" form="nod" starttime="832.24" type="concord_signal" nite:id="tmigaz_ES2008c_A.head.154"/>
+    <head endtime="837.32" starttime="834.76" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.155"/>
+    <head endtime="843.88" form="nod" starttime="837.32" type="concord_signal" nite:id="tmigaz_ES2008c_A.head.156"/>
+    <head endtime="846.6" starttime="843.88" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.157"/>
+    <head endtime="848.88" form="nod" starttime="846.6" type="concord_signal" nite:id="tmigaz_ES2008c_A.head.158"/>
+    <head endtime="849.72" starttime="848.88" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.159"/>
+    <head endtime="850.04" form="nod" starttime="849.72" type="concord_signal" nite:id="tmigaz_ES2008c_A.head.160"/>
+    <head endtime="851.64" starttime="850.04" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.161"/>
+    <head endtime="853.32" form="nod" starttime="851.64" type="concord_signal" nite:id="tmigaz_ES2008c_A.head.162"/>
+    <head endtime="861.52" starttime="853.32" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.163"/>
+    <head endtime="862.0" form="nod" starttime="861.52" type="concord_signal" nite:id="tmigaz_ES2008c_A.head.164"/>
+    <head endtime="881.68" starttime="862.0" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.165"/>
+    <head endtime="883.08" form="nod" starttime="881.68" type="concord_signal" nite:id="tmigaz_ES2008c_A.head.166"/>
+    <head endtime="892.52" starttime="883.08" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.167"/>
+    <head endtime="897.04" form="nod" starttime="892.52" type="concord_signal" nite:id="tmigaz_ES2008c_A.head.168"/>
+    <head endtime="901.32" starttime="897.04" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.169"/>
+    <head endtime="903.04" form="nod" starttime="901.32" type="concord_signal" nite:id="tmigaz_ES2008c_A.head.170"/>
+    <head endtime="904.28" starttime="903.04" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.171"/>
+    <head endtime="905.88" form="nod" starttime="904.28" type="concord_signal" nite:id="tmigaz_ES2008c_A.head.172"/>
+    <head endtime="910.52" starttime="905.88" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.173"/>
+    <head endtime="915.72" form="nod" starttime="910.52" type="concord_signal" nite:id="tmigaz_ES2008c_A.head.174"/>
+    <head endtime="915.96" starttime="915.72" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.175"/>
+    <head endtime="916.4" form="nod" starttime="915.96" type="turn_signal" nite:id="tmigaz_ES2008c_A.head.176"/>
+    <head endtime="916.6" starttime="916.4" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.177"/>
+    <head endtime="920.28" form="nod" starttime="916.6" type="concord_signal" nite:id="tmigaz_ES2008c_A.head.178"/>
+    <head endtime="921.16" starttime="920.28" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.179"/>
+    <head endtime="921.44" starttime="921.16" type="other_comm_head" nite:id="tmigaz_ES2008c_A.head.180"/>
+    <head endtime="921.6" starttime="921.44" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.181"/>
+    <head endtime="924.8" form="nod" starttime="921.6" type="concord_signal" nite:id="tmigaz_ES2008c_A.head.182"/>
+    <head endtime="927.24" starttime="924.8" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.183"/>
+    <head endtime="928.84" form="nod" starttime="927.24" type="concord_signal" nite:id="tmigaz_ES2008c_A.head.184"/>
+    <head endtime="932.84" starttime="928.84" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.185"/>
+    <head endtime="933.52" starttime="932.84" type="emphasis_signal" nite:id="tmigaz_ES2008c_A.head.186"/>
+    <head endtime="938.24" starttime="933.52" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.187"/>
+    <head endtime="939.68" form="nod" starttime="938.24" type="other_comm_head" nite:id="tmigaz_ES2008c_A.head.188"/>
+    <head endtime="940.0" starttime="939.68" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.189"/>
+    <head endtime="940.16" form="nod" starttime="940.0" type="emphasis_signal" nite:id="tmigaz_ES2008c_A.head.190"/>
+    <head endtime="941.36" starttime="940.16" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.191"/>
+    <head endtime="941.48" form="nod" starttime="941.36" type="emphasis_signal" nite:id="tmigaz_ES2008c_A.head.192"/>
+    <head endtime="945.04" starttime="941.48" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.193"/>
+    <head endtime="945.16" form="nod" starttime="945.04" type="emphasis_signal" nite:id="tmigaz_ES2008c_A.head.194"/>
+    <head endtime="946.0" starttime="945.16" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.195"/>
+    <head endtime="946.16" form="nod" starttime="946.0" type="emphasis_signal" nite:id="tmigaz_ES2008c_A.head.196"/>
+    <head endtime="951.92" starttime="946.16" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.197"/>
+    <head endtime="952.12" form="nod" starttime="951.92" type="deixis_signal" nite:id="tmigaz_ES2008c_A.head.198"/>
+    <head endtime="953.68" starttime="952.12" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.199"/>
+    <head endtime="953.8" form="nod" starttime="953.68" type="emphasis_signal" nite:id="tmigaz_ES2008c_A.head.200"/>
+    <head endtime="955.16" starttime="953.8" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.201"/>
+    <head endtime="957.6" form="nodshake" starttime="955.16" type="other_comm_head" nite:id="tmigaz_ES2008c_A.head.202"/>
+    <head endtime="960.92" starttime="957.6" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.203"/>
+    <head endtime="965.48" form="nod" starttime="960.92" type="concord_signal" nite:id="tmigaz_ES2008c_A.head.204"/>
+    <head endtime="966.24" starttime="965.48" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.205"/>
+    <head endtime="969.4" form="nod" starttime="966.24" type="concord_signal" nite:id="tmigaz_ES2008c_A.head.206"/>
+    <head endtime="974.92" starttime="969.4" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.207"/>
+    <head endtime="976.16" form="nod" starttime="974.92" type="concord_signal" nite:id="tmigaz_ES2008c_A.head.208"/>
+    <head endtime="980.8" starttime="976.16" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.209"/>
+    <head endtime="986.4" form="nod" starttime="980.8" type="concord_signal" nite:id="tmigaz_ES2008c_A.head.210"/>
+    <head endtime="1015.04" starttime="986.4" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.211"/>
+    <head endtime="1017.56" form="nod" starttime="1015.04" type="concord_signal" nite:id="tmigaz_ES2008c_A.head.212"/>
+    <head endtime="1048.56" starttime="1017.56" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.213"/>
+    <head endtime="1048.88" form="nod" starttime="1048.56" type="concord_signal" nite:id="tmigaz_ES2008c_A.head.214"/>
+    <head endtime="1072.84" starttime="1048.88" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.215"/>
+    <head endtime="1073.76" form="nod" starttime="1072.84" type="concord_signal" nite:id="tmigaz_ES2008c_A.head.216"/>
+    <head endtime="1149.24" starttime="1073.76" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.217"/>
+    <head endtime="1153.84" form="nod" starttime="1149.24" type="concord_signal" nite:id="tmigaz_ES2008c_A.head.218"/>
+    <head endtime="1187.08" starttime="1153.84" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.219"/>
+    <head endtime="1187.36" starttime="1187.08" type="emphasis_signal" nite:id="tmigaz_ES2008c_A.head.220"/>
+    <head endtime="1235.6" starttime="1187.36" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.221"/>
+    <head endtime="1238.32" form="nod" starttime="1235.6" type="concord_signal" nite:id="tmigaz_ES2008c_A.head.222"/>
+    <head endtime="1271.88" starttime="1238.32" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.223"/>
+    <head endtime="1272.2" starttime="1271.88" type="emphasis_signal" nite:id="tmigaz_ES2008c_A.head.224"/>
+    <head endtime="1274.36" starttime="1272.2" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.225"/>
+    <head endtime="1274.84" form="shake" starttime="1274.36" type="emphasis_signal" nite:id="tmigaz_ES2008c_A.head.226"/>
+    <head endtime="1281.56" starttime="1274.84" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.227"/>
+    <head endtime="1281.92" starttime="1281.56" type="other_comm_head" nite:id="tmigaz_ES2008c_A.head.228"/>
+    <head endtime="1283.48" starttime="1281.92" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.229"/>
+    <head endtime="1283.68" starttime="1283.48" type="emphasis_signal" nite:id="tmigaz_ES2008c_A.head.230"/>
+    <head endtime="1286.44" starttime="1283.68" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.231"/>
+    <head endtime="1290.6" form="nod" starttime="1286.44" type="concord_signal" nite:id="tmigaz_ES2008c_A.head.232"/>
+    <head endtime="1291.08" starttime="1290.6" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.233"/>
+    <head endtime="1291.44" starttime="1291.08" type="other_comm_head" nite:id="tmigaz_ES2008c_A.head.234"/>
+    <head endtime="1298.8" starttime="1291.44" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.235"/>
+    <head endtime="1305.88" form="nod" starttime="1298.8" type="concord_signal" nite:id="tmigaz_ES2008c_A.head.236"/>
+    <head endtime="1312.36" starttime="1305.88" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.237"/>
+    <head endtime="1314.4" form="nod" starttime="1312.36" type="concord_signal" nite:id="tmigaz_ES2008c_A.head.238"/>
+    <head endtime="1320.04" starttime="1314.4" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.239"/>
+    <head endtime="1326.96" form="nod" starttime="1320.04" type="concord_signal" nite:id="tmigaz_ES2008c_A.head.240"/>
+    <head endtime="1329.0" starttime="1326.96" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.241"/>
+    <head endtime="1331.28" form="nod" starttime="1329.0" type="concord_signal" nite:id="tmigaz_ES2008c_A.head.242"/>
+    <head endtime="1332.88" starttime="1331.28" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.243"/>
+    <head endtime="1334.28" form="nod" starttime="1332.88" type="concord_signal" nite:id="tmigaz_ES2008c_A.head.244"/>
+    <head endtime="1340.16" starttime="1334.28" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.245"/>
+    <head endtime="1341.28" form="nod" starttime="1340.16" type="concord_signal" nite:id="tmigaz_ES2008c_A.head.246"/>
+    <head endtime="1343.36" starttime="1341.28" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.247"/>
+    <head endtime="1345.36" form="shake" starttime="1343.36" type="other_comm_head" nite:id="tmigaz_ES2008c_A.head.248"/>
+    <head endtime="1350.96" starttime="1345.36" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.249"/>
+    <head endtime="1351.96" starttime="1350.96" type="other_comm_head" nite:id="tmigaz_ES2008c_A.head.250"/>
+    <head endtime="1352.88" starttime="1351.96" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.251"/>
+    <head endtime="1353.0" starttime="1352.88" type="emphasis_signal" nite:id="tmigaz_ES2008c_A.head.252"/>
+    <head endtime="1358.24" starttime="1353.0" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.253"/>
+    <head endtime="1359.12" starttime="1358.24" type="other_comm_head" nite:id="tmigaz_ES2008c_A.head.254"/>
+    <head endtime="1361.92" starttime="1359.12" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.255"/>
+    <head endtime="1365.68" form="nod" starttime="1361.92" type="concord_signal" nite:id="tmigaz_ES2008c_A.head.256"/>
+    <head endtime="1366.24" starttime="1365.68" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.257"/>
+    <head endtime="1367.92" form="nod" starttime="1366.24" type="concord_signal" nite:id="tmigaz_ES2008c_A.head.258"/>
+    <head endtime="1373.28" starttime="1367.92" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.259"/>
+    <head endtime="1375.92" form="nod" starttime="1373.28" type="concord_signal" nite:id="tmigaz_ES2008c_A.head.260"/>
+    <head endtime="1377.4" starttime="1375.92" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.261"/>
+    <head endtime="1377.96" form="nod" starttime="1377.4" type="concord_signal" nite:id="tmigaz_ES2008c_A.head.262"/>
+    <head endtime="1380.48" starttime="1377.96" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.263"/>
+    <head endtime="1380.56" form="nod" starttime="1380.48" type="emphasis_signal" nite:id="tmigaz_ES2008c_A.head.264"/>
+    <head endtime="1393.84" starttime="1380.56" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.265"/>
+    <head endtime="1393.96" starttime="1393.84" type="turn_signal" nite:id="tmigaz_ES2008c_A.head.266"/>
+    <head endtime="1395.48" starttime="1393.96" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.267"/>
+    <head endtime="1398.44" starttime="1395.48" type="other_comm_head" nite:id="tmigaz_ES2008c_A.head.268"/>
+    <head endtime="1401.2" starttime="1398.44" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.269"/>
+    <head endtime="1401.52" starttime="1401.2" type="turn_signal" nite:id="tmigaz_ES2008c_A.head.270"/>
+    <head endtime="1402.56" starttime="1401.52" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.271"/>
+    <head endtime="1402.68" form="nod" starttime="1402.56" type="emphasis_signal" nite:id="tmigaz_ES2008c_A.head.272"/>
+    <head endtime="1406.32" starttime="1402.68" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.273"/>
+    <head endtime="1407.44" form="nod" starttime="1406.32" type="concord_signal" nite:id="tmigaz_ES2008c_A.head.274"/>
+    <head endtime="1407.52" starttime="1407.44" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.275"/>
+    <head endtime="1407.688" starttime="1407.52" type="turn_signal" nite:id="tmigaz_ES2008c_A.head.276"/>
+    <head endtime="1408.8" starttime="1407.688" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.277"/>
+    <head endtime="1408.92" form="nod" starttime="1408.8" type="emphasis_signal" nite:id="tmigaz_ES2008c_A.head.278"/>
+    <head endtime="1416.08" starttime="1408.92" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.279"/>
+    <head endtime="1418.88" form="nod" starttime="1416.08" type="concord_signal" nite:id="tmigaz_ES2008c_A.head.280"/>
+    <head endtime="1421.44" starttime="1418.88" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.281"/>
+    <head endtime="1426.88" form="nod" starttime="1421.44" type="concord_signal" nite:id="tmigaz_ES2008c_A.head.282"/>
+    <head endtime="1433.12" starttime="1426.88" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.283"/>
+    <head endtime="1433.76" form="nod" starttime="1433.12" type="concord_signal" nite:id="tmigaz_ES2008c_A.head.284"/>
+    <head endtime="1435.08" starttime="1433.76" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.285"/>
+    <head endtime="1436.24" form="nod" starttime="1435.08" type="concord_signal" nite:id="tmigaz_ES2008c_A.head.286"/>
+    <head endtime="1441.2" starttime="1436.24" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.287"/>
+    <head endtime="1441.52" form="shake" starttime="1441.2" type="emphasis_signal" nite:id="tmigaz_ES2008c_A.head.288"/>
+    <head endtime="1447.28" starttime="1441.52" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.289"/>
+    <head endtime="1447.44" starttime="1447.28" type="turn_signal" nite:id="tmigaz_ES2008c_A.head.290"/>
+    <head endtime="1451.16" starttime="1447.44" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.291"/>
+    <head endtime="1451.64" form="shake" starttime="1451.16" type="other_comm_head" nite:id="tmigaz_ES2008c_A.head.292"/>
+    <head endtime="1454.56" starttime="1451.64" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.293"/>
+    <head endtime="1457.68" form="nod" starttime="1454.56" type="concord_signal" nite:id="tmigaz_ES2008c_A.head.294"/>
+    <head endtime="1484.92" starttime="1457.68" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.295"/>
+    <head endtime="1490.84" form="nod" starttime="1484.92" type="concord_signal" nite:id="tmigaz_ES2008c_A.head.296"/>
+    <head endtime="1493.76" starttime="1490.84" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.297"/>
+    <head endtime="1504.24" form="nod" starttime="1493.76" type="concord_signal" nite:id="tmigaz_ES2008c_A.head.298"/>
+    <head endtime="1515.44" starttime="1504.24" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.299"/>
+    <head endtime="1516.52" form="nod" starttime="1515.44" type="concord_signal" nite:id="tmigaz_ES2008c_A.head.300"/>
+    <head endtime="1529.48" starttime="1516.52" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.301"/>
+    <head endtime="1529.64" form="nod" starttime="1529.48" type="emphasis_signal" nite:id="tmigaz_ES2008c_A.head.302"/>
+    <head endtime="1530.32" starttime="1529.64" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.303"/>
+    <head endtime="1530.4" form="nod" starttime="1530.32" type="emphasis_signal" nite:id="tmigaz_ES2008c_A.head.304"/>
+    <head endtime="1549.92" starttime="1530.4" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.305"/>
+    <head endtime="1562.8" starttime="1549.92" type="off_camera" nite:id="tmigaz_ES2008c_A.head.306"/>
+    <head endtime="1573.68" starttime="1562.8" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.307"/>
+    <head endtime="1574.04" form="nod" starttime="1573.68" type="concord_signal" nite:id="tmigaz_ES2008c_A.head.308"/>
+    <head endtime="1577.44" starttime="1574.04" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.309"/>
+    <head endtime="1578.44" form="nod" starttime="1577.44" type="concord_signal" nite:id="tmigaz_ES2008c_A.head.310"/>
+    <head endtime="1583.76" starttime="1578.44" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.311"/>
+    <head endtime="1584.08" form="nod" starttime="1583.76" type="concord_signal" nite:id="tmigaz_ES2008c_A.head.312"/>
+    <head endtime="1603.0" starttime="1584.08" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.313"/>
+    <head endtime="1603.28" form="shake" starttime="1603.0" type="emphasis_signal" nite:id="tmigaz_ES2008c_A.head.314"/>
+    <head endtime="1604.0" starttime="1603.28" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.315"/>
+    <head endtime="1604.2" form="nod" starttime="1604.0" type="emphasis_signal" nite:id="tmigaz_ES2008c_A.head.316"/>
+    <head endtime="1612.2" starttime="1604.2" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.317"/>
+    <head endtime="1614.08" form="nod" starttime="1612.2" type="concord_signal" nite:id="tmigaz_ES2008c_A.head.318"/>
+    <head endtime="1617.2" starttime="1614.08" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.319"/>
+    <head endtime="1617.32" starttime="1617.2" type="turn_signal" nite:id="tmigaz_ES2008c_A.head.320"/>
+    <head endtime="1618.64" starttime="1617.32" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.321"/>
+    <head endtime="1618.72" form="nod" starttime="1618.64" type="emphasis_signal" nite:id="tmigaz_ES2008c_A.head.322"/>
+    <head endtime="1635.56" starttime="1618.72" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.323"/>
+    <head endtime="1642.32" form="nod" starttime="1635.56" type="concord_signal" nite:id="tmigaz_ES2008c_A.head.324"/>
+    <head endtime="1644.6" starttime="1642.32" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.325"/>
+    <head endtime="1650.12" form="nod" starttime="1644.6" type="concord_signal" nite:id="tmigaz_ES2008c_A.head.326"/>
+    <head endtime="1664.08" starttime="1650.12" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.327"/>
+    <head endtime="1667.08" form="nod" starttime="1664.08" type="concord_signal" nite:id="tmigaz_ES2008c_A.head.328"/>
+    <head endtime="1674.48" starttime="1667.08" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.329"/>
+    <head endtime="1674.64" form="nod" starttime="1674.48" type="concord_signal" nite:id="tmigaz_ES2008c_A.head.330"/>
+    <head endtime="1678.16" starttime="1674.64" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.331"/>
+    <head endtime="1685.16" form="nod" starttime="1678.16" type="concord_signal" nite:id="tmigaz_ES2008c_A.head.332"/>
+    <head endtime="1686.6" starttime="1685.16" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.333"/>
+    <head endtime="1687.28" form="nod" starttime="1686.6" type="concord_signal" nite:id="tmigaz_ES2008c_A.head.334"/>
+    <head endtime="1688.0" starttime="1687.28" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.335"/>
+    <head endtime="1688.8" form="shake" starttime="1688.0" type="other_comm_head" nite:id="tmigaz_ES2008c_A.head.336"/>
+    <head endtime="1691.4" starttime="1688.8" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.337"/>
+    <head endtime="1694.72" form="nod" starttime="1691.4" type="concord_signal" nite:id="tmigaz_ES2008c_A.head.338"/>
+    <head endtime="1703.88" starttime="1694.72" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.339"/>
+    <head endtime="1704.12" form="nod" starttime="1703.88" type="emphasis_signal" nite:id="tmigaz_ES2008c_A.head.340"/>
+    <head endtime="1704.6" starttime="1704.12" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.341"/>
+    <head endtime="1704.72" form="nod" starttime="1704.6" type="emphasis_signal" nite:id="tmigaz_ES2008c_A.head.342"/>
+    <head endtime="1705.2" starttime="1704.72" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.343"/>
+    <head endtime="1705.36" form="nod" starttime="1705.2" type="emphasis_signal" nite:id="tmigaz_ES2008c_A.head.344"/>
+    <head endtime="1721.64" starttime="1705.36" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.345"/>
+    <head endtime="1733.16" form="nod" starttime="1721.64" type="concord_signal" nite:id="tmigaz_ES2008c_A.head.346"/>
+    <head endtime="1740.84" starttime="1733.16" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.347"/>
+    <head endtime="1741.92" form="nod" starttime="1740.84" type="concord_signal" nite:id="tmigaz_ES2008c_A.head.348"/>
+    <head endtime="1742.32" starttime="1741.92" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.349"/>
+    <head endtime="1742.48" starttime="1742.32" type="turn_signal" nite:id="tmigaz_ES2008c_A.head.350"/>
+    <head endtime="1747.6" starttime="1742.48" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.351"/>
+    <head endtime="1748.12" form="shake" starttime="1747.6" type="emphasis_signal" nite:id="tmigaz_ES2008c_A.head.352"/>
+    <head endtime="1757.96" starttime="1748.12" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.353"/>
+    <head endtime="1762.56" form="nod" starttime="1757.96" type="concord_signal" nite:id="tmigaz_ES2008c_A.head.354"/>
+    <head endtime="1774.0" starttime="1762.56" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.355"/>
+    <head endtime="1777.76" form="nod" starttime="1774.0" type="concord_signal" nite:id="tmigaz_ES2008c_A.head.356"/>
+    <head endtime="1787.0" starttime="1777.76" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.357"/>
+    <head endtime="1787.24" starttime="1787.0" type="turn_signal" nite:id="tmigaz_ES2008c_A.head.358"/>
+    <head endtime="1790.32" starttime="1787.24" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.359"/>
+    <head endtime="1790.88" starttime="1790.32" type="emphasis_signal" nite:id="tmigaz_ES2008c_A.head.360"/>
+    <head endtime="1805.48" starttime="1790.88" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.361"/>
+    <head endtime="1812.52" form="nod" starttime="1805.48" type="concord_signal" nite:id="tmigaz_ES2008c_A.head.362"/>
+    <head endtime="1822.16" starttime="1812.52" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.363"/>
+    <head endtime="1822.4" starttime="1822.16" type="emphasis_signal" nite:id="tmigaz_ES2008c_A.head.364"/>
+    <head endtime="1823.96" starttime="1822.4" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.365"/>
+    <head endtime="1824.28" form="shake" starttime="1823.96" type="emphasis_signal" nite:id="tmigaz_ES2008c_A.head.366"/>
+    <head endtime="1843.28" starttime="1824.28" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.367"/>
+    <head endtime="1844.84" form="nod" starttime="1843.28" type="concord_signal" nite:id="tmigaz_ES2008c_A.head.368"/>
+    <head endtime="1845.32" starttime="1844.84" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.369"/>
+    <head endtime="1845.4" form="nod" starttime="1845.32" type="emphasis_signal" nite:id="tmigaz_ES2008c_A.head.370"/>
+    <head endtime="1846.4" starttime="1845.4" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.371"/>
+    <head endtime="1846.68" form="shake" starttime="1846.4" type="emphasis_signal" nite:id="tmigaz_ES2008c_A.head.372"/>
+    <head endtime="1847.4" starttime="1846.68" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.373"/>
+    <head endtime="1847.48" form="nod" starttime="1847.4" type="emphasis_signal" nite:id="tmigaz_ES2008c_A.head.374"/>
+    <head endtime="1848.92" starttime="1847.48" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.375"/>
+    <head endtime="1850.68" form="nod" starttime="1848.92" type="concord_signal" nite:id="tmigaz_ES2008c_A.head.376"/>
+    <head endtime="1851.56" starttime="1850.68" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.377"/>
+    <head endtime="1852.72" form="nod" starttime="1851.56" type="concord_signal" nite:id="tmigaz_ES2008c_A.head.378"/>
+    <head endtime="1857.24" starttime="1852.72" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.379"/>
+    <head endtime="1872.88" form="nod" starttime="1857.24" type="concord_signal" nite:id="tmigaz_ES2008c_A.head.380"/>
+    <head endtime="1874.68" starttime="1872.88" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.381"/>
+    <head endtime="1874.76" form="nod" starttime="1874.68" type="emphasis_signal" nite:id="tmigaz_ES2008c_A.head.382"/>
+    <head endtime="1877.76" starttime="1874.76" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.383"/>
+    <head endtime="1878.08" form="nod" starttime="1877.76" type="concord_signal" nite:id="tmigaz_ES2008c_A.head.384"/>
+    <head endtime="1886.4" starttime="1878.08" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.385"/>
+    <head endtime="1887.0" form="nod" starttime="1886.4" type="concord_signal" nite:id="tmigaz_ES2008c_A.head.386"/>
+    <head endtime="1892.84" starttime="1887.0" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.387"/>
+    <head endtime="1893.0" starttime="1892.84" type="emphasis_signal" nite:id="tmigaz_ES2008c_A.head.388"/>
+    <head endtime="1898.32" starttime="1893.0" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.389"/>
+    <head endtime="1898.48" starttime="1898.32" type="turn_signal" nite:id="tmigaz_ES2008c_A.head.390"/>
+    <head endtime="1903.84" starttime="1898.48" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.391"/>
+    <head endtime="1904.88" form="nod" starttime="1903.84" type="concord_signal" nite:id="tmigaz_ES2008c_A.head.392"/>
+    <head endtime="1916.04" starttime="1904.88" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.393"/>
+    <head endtime="1916.2" form="nod" starttime="1916.04" type="emphasis_signal" nite:id="tmigaz_ES2008c_A.head.394"/>
+    <head endtime="1916.88" starttime="1916.2" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.395"/>
+    <head endtime="1917.0" form="nod" starttime="1916.88" type="emphasis_signal" nite:id="tmigaz_ES2008c_A.head.396"/>
+    <head endtime="1924.24" starttime="1917.0" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.397"/>
+    <head endtime="1925.24" form="nod" starttime="1924.24" type="concord_signal" nite:id="tmigaz_ES2008c_A.head.398"/>
+    <head endtime="1926.8" starttime="1925.24" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.399"/>
+    <head endtime="1929.4" form="nod" starttime="1926.8" type="concord_signal" nite:id="tmigaz_ES2008c_A.head.400"/>
+    <head endtime="1933.32" starttime="1929.4" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.401"/>
+    <head endtime="1941.48" form="nod" starttime="1933.32" type="concord_signal" nite:id="tmigaz_ES2008c_A.head.402"/>
+    <head endtime="1944.52" starttime="1941.48" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.403"/>
+    <head endtime="1944.84" form="nod" starttime="1944.52" type="emphasis_signal" nite:id="tmigaz_ES2008c_A.head.404"/>
+    <head endtime="1945.92" starttime="1944.84" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.405"/>
+    <head endtime="1946.16" form="nod" starttime="1945.92" type="emphasis_signal" nite:id="tmigaz_ES2008c_A.head.406"/>
+    <head endtime="1946.32" starttime="1946.16" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.407"/>
+    <head endtime="1946.52" form="nod" starttime="1946.32" type="emphasis_signal" nite:id="tmigaz_ES2008c_A.head.408"/>
+    <head endtime="1946.88" starttime="1946.52" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.409"/>
+    <head endtime="1947.48" form="nod" starttime="1946.88" type="emphasis_signal" nite:id="tmigaz_ES2008c_A.head.410"/>
+    <head endtime="1948.64" starttime="1947.48" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.411"/>
+    <head endtime="1949.04" form="nod" starttime="1948.64" type="concord_signal" nite:id="tmigaz_ES2008c_A.head.412"/>
+    <head endtime="1951.52" starttime="1949.04" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.413"/>
+    <head endtime="1951.76" form="shake" starttime="1951.52" type="emphasis_signal" nite:id="tmigaz_ES2008c_A.head.414"/>
+    <head endtime="1952.6" starttime="1951.76" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.415"/>
+    <head endtime="1952.8" form="nod" starttime="1952.6" type="emphasis_signal" nite:id="tmigaz_ES2008c_A.head.416"/>
+    <head endtime="1969.08" starttime="1952.8" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.417"/>
+    <head endtime="1972.84" form="nod" starttime="1969.08" type="concord_signal" nite:id="tmigaz_ES2008c_A.head.418"/>
+    <head endtime="1975.88" starttime="1972.84" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.419"/>
+    <head endtime="1977.08" form="nod" starttime="1975.88" type="concord_signal" nite:id="tmigaz_ES2008c_A.head.420"/>
+    <head endtime="1982.24" starttime="1977.08" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.421"/>
+    <head endtime="1987.32" form="nod" starttime="1982.24" type="concord_signal" nite:id="tmigaz_ES2008c_A.head.422"/>
+    <head endtime="1988.64" starttime="1987.32" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.423"/>
+    <head endtime="1993.24" form="nod" starttime="1988.64" type="concord_signal" nite:id="tmigaz_ES2008c_A.head.424"/>
+    <head endtime="2010.52" starttime="1993.24" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.425"/>
+    <head endtime="2010.72" form="nod" starttime="2010.52" type="emphasis_signal" nite:id="tmigaz_ES2008c_A.head.426"/>
+    <head endtime="2014.36" starttime="2010.72" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.427"/>
+    <head endtime="2014.6" form="nod" starttime="2014.36" type="emphasis_signal" nite:id="tmigaz_ES2008c_A.head.428"/>
+    <head endtime="2016.32" starttime="2014.6" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.429"/>
+    <head endtime="2016.4" form="nod" starttime="2016.32" type="emphasis_signal" nite:id="tmigaz_ES2008c_A.head.430"/>
+    <head endtime="2018.72" starttime="2016.4" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.431"/>
+    <head endtime="2022.64" form="nod" starttime="2018.72" type="concord_signal" nite:id="tmigaz_ES2008c_A.head.432"/>
+    <head endtime="2040.16" starttime="2022.64" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.433"/>
+    <head endtime="2040.36" form="nod" starttime="2040.16" type="emphasis_signal" nite:id="tmigaz_ES2008c_A.head.434"/>
+    <head endtime="2044.8" starttime="2040.36" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.435"/>
+    <head endtime="2046.76" form="nod" starttime="2044.8" type="concord_signal" nite:id="tmigaz_ES2008c_A.head.436"/>
+    <head endtime="2048.96" starttime="2046.76" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.437"/>
+    <head endtime="2049.32" starttime="2048.96" type="other_comm_head" nite:id="tmigaz_ES2008c_A.head.438"/>
+    <head endtime="2052.12" starttime="2049.32" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.439"/>
+    <head endtime="2055.52" form="nod" starttime="2052.12" type="concord_signal" nite:id="tmigaz_ES2008c_A.head.440"/>
+    <head endtime="2059.36" starttime="2055.52" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.441"/>
+    <head endtime="2061.28" form="nod" starttime="2059.36" type="concord_signal" nite:id="tmigaz_ES2008c_A.head.442"/>
+    <head endtime="2080.52" starttime="2061.28" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.443"/>
+    <head endtime="2080.84" form="shake" starttime="2080.52" type="other_comm_head" nite:id="tmigaz_ES2008c_A.head.444"/>
+    <head endtime="2098.0" starttime="2080.84" type="no_comm_head" nite:id="tmigaz_ES2008c_A.head.445"/>
+</nite:root>

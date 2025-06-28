@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<nite:root xmlns:nite="http://nite.sourceforge.net/">
+<participant_abstract nite:id="ES2007bUI.pabstract.1">
+    <sent nite:id="ES2007bUI.s.1">There were three powerpoint presentations, by Catherine, Reissa and I.</sent> <sent nite:id="ES2007bUI.s.2">Catherine's dealt with the industrial design issues such as energy source and signal type.</sent> <sent nite:id="ES2007bUI.s.3">In order to keep things simple, we are going to have the remote powered by two batteries and the signal will be infrared.</sent> <sent nite:id="ES2007bUI.s.4">My powerpoint presentation was the second one, and dealt with user interface issues.</sent> <sent nite:id="ES2007bUI.s.5">We decided to focus on a user-centered remote with limited functionality but an appealing design.</sent> <sent nite:id="ES2007bUI.s.6">We want it to be ergonomic so that users will avoid repetitive stress injury, and we want it to have a trendy and cool look.</sent> <sent nite:id="ES2007bUI.s.7">The third presentation was from Reissa and dealt with marketing issues.</sent> <sent nite:id="ES2007bUI.s.8">Her studies showed that people typically find their remotes unattractive and that there are too many buttons.</sent> <sent nite:id="ES2007bUI.s.9">Many of the younger people surveyed would like speech recognition in their remote, but older people were not keen on this and we decided it was too expensive for us anyhow.</sent> 
+</participant_abstract>
+<participant_actions nite:id="ES2007bUI.pactions.1">
+
+  <sent nite:id="ES2007bUI.s.10">Rik will summarize the last meeting and respond to spam.</sent>   <sent nite:id="ES2007bUI.s.11">Catherine will maybe explore using bluetooth.</sent>   <sent nite:id="ES2007bUI.s.12">Reissa will try to more closely determine our ideal demographic.</sent>   <sent nite:id="ES2007bUI.s.13">I will start working on more specific design ideas; the look and feel of the remote.</sent> 
+</participant_actions>
+<participant_decisions nite:id="ES2007bUI.pdecisions.1">
+    <sent import="high" nite:id="ES2007bUI.s.14"> A simple well-designed remote with limited functionality.</sent>   <sent import="high" nite:id="ES2007bUI.s.15"> Ergonomic.</sent>   <sent import="high" nite:id="ES2007bUI.s.16"> We want it to represent the Real Reaction brand (colors and logo).</sent>   <sent nite:id="ES2007bUI.s.17">Energy source will be batteries.</sent>   <sent nite:id="ES2007bUI.s.18">Signal will be infrared.</sent>    <sent nite:id="ES2007bUI.s.19">We want it to be fashionable.</sent> 
+</participant_decisions>
+<participant_problems nite:id="ES2007bUI.pproblems.1">
+  <sent import="high" nite:id="ES2007bUI.s.20">Our marketing person has a lot of ideas that would break our budget.</sent> 
+</participant_problems>
+</nite:root>

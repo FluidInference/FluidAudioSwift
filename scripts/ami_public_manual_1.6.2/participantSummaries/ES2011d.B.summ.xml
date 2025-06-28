@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<nite:root xmlns:nite="http://nite.sourceforge.net/">
+<participant_abstract nite:id="ES2011dID.pabstract.1">
+    <sent nite:id="ES2011dID.s.1">We evaluated our product and agreed upon the joystick-style ("broccoli") design.</sent>  <sent nite:id="ES2011dID.s.2">We decided that the base would be detachable and offered in different fruit colors.</sent>  <sent nite:id="ES2011dID.s.3">Production costs were calculated at 11.9 euros/unit.</sent> 
+</participant_abstract>
+<participant_actions nite:id="ES2011dID.pactions.1">
+   <sent nite:id="ES2011dID.s.4">Project leader will write meeting minutes and final report.</sent>   <sent nite:id="ES2011dID.s.5">ID, UID, and ME will fill out this survey and the questionnaire and then go home.</sent> 
+</participant_actions>
+<participant_decisions nite:id="ES2011dID.pdecisions.1">
+    <sent import="high" nite:id="ES2011dID.s.6">Finalized design: joystick shape (broccoli-shaped base).</sent>    <sent nite:id="ES2011dID.s.7">Multiple color options for the base of the remote.</sent>    <sent import="high" nite:id="ES2011dID.s.8">Single iPod-style wheel and button for control.</sent>    <sent import="high" nite:id="ES2011dID.s.9">Batteries inserted into side of control panel.</sent> 
+</participant_decisions>
+<participant_problems nite:id="ES2011dID.pproblems.1">
+    <sent import="high" nite:id="ES2011dID.s.10">We were not sure how to calculate the production costs because we were not sure what "single curve", "double curve" cases, etc. meant.</sent>    <sent nite:id="ES2011dID.s.11">Modelling clay at meeting is a serious distraction -- too much fun.</sent> 
+</participant_problems>
+</nite:root>

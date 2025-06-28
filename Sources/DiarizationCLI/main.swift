@@ -308,15 +308,25 @@ struct DiarizationCLI {
 
         printBenchmarkResults(benchmarkResults, avgDER: avgDER, avgJER: avgJER, dataset: "AMI-\(variant.displayName)")
 
-        // Save results if requested
-        if let outputFile = outputFile {
-            let summary = BenchmarkSummary(
-                dataset: "AMI-\(variant.displayName)",
-                averageDER: avgDER,
-                averageJER: avgJER,
-                processedFiles: processedFiles,
-                totalFiles: commonMeetings.count,
-                results: benchmarkResults
+        var downloadedFiles = 0
+        var skippedFiles = 0
+
+        for meetingId in commonMeetings {
+            let fileName = "\(meetingId).\(variant.filePattern)"
+            let filePath = variantDir.appendingPathComponent(fileName)
+
+            // Skip if file exists and not forcing download
+            if !force && FileManager.default.fileExists(atPath: filePath.path) {
+                print("   ⏭️ Skipping \(fileName) (already exists)")
+                skippedFiles += 1
+                continue
+            }
+
+            // Try to download from AMI corpus mirror
+            let success = await downloadAMIFile(
+                meetingId: meetingId,
+                variant: variant,
+                outputPath: filePath
             )
 
             do {
@@ -328,7 +338,69 @@ struct DiarizationCLI {
         }
     }
 
-    // ... (rest of the file remains as in your current research-grade version, including all AMI annotation parsing, DER/JER calculation, and CLI argument parsing)
+    static func downloadAMIFile(meetingId: String, variant: AMIVariant, outputPath: URL) async
+        -> Bool
+    {
+        // Try multiple URL patterns - the AMI corpus mirror structure has some variations
+        let baseURLs = [
+            "https://groups.inf.ed.ac.uk/ami/AMICorpusMirror//amicorpus",  // Double slash pattern (from user's working example)
+            "https://groups.inf.ed.ac.uk/ami/AMICorpusMirror/amicorpus",   // Single slash pattern
+            "https://groups.inf.ed.ac.uk/ami/AMICorpusMirror//amicorpus",  // Alternative with extra slash
+        ]
+
+        for (_, baseURL) in baseURLs.enumerated() {
+            let urlString = "\(baseURL)/\(meetingId)/audio/\(meetingId).\(variant.filePattern)"
+
+            guard let url = URL(string: urlString) else {
+                print("     ⚠️ Invalid URL: \(urlString)")
+                continue
+            }
+
+            do {
+                print("     📥 Downloading from: \(urlString)")
+                let (data, response) = try await URLSession.shared.data(from: url)
+
+                if let httpResponse = response as? HTTPURLResponse {
+                    if httpResponse.statusCode == 200 {
+                        try data.write(to: outputPath)
+
+                        // Verify it's a valid audio file
+                        if await isValidAudioFile(outputPath) {
+                            let fileSizeMB = Double(data.count) / (1024 * 1024)
+                            print("     ✅ Downloaded \(String(format: "%.1f", fileSizeMB)) MB")
+                            return true
+                        } else {
+                            print("     ⚠️ Downloaded file is not valid audio")
+                            try? FileManager.default.removeItem(at: outputPath)
+                            // Try next URL
+                            continue
+                        }
+                    } else if httpResponse.statusCode == 404 {
+                        print("     ⚠️ File not found (HTTP 404) - trying next URL...")
+                        continue
+                    } else {
+                        print("     ⚠️ HTTP error: \(httpResponse.statusCode) - trying next URL...")
+                        continue
+                    }
+                }
+            } catch {
+                print("     ⚠️ Download error: \(error.localizedDescription) - trying next URL...")
+                continue
+            }
+        }
+
+        print("     ❌ Failed to download from all available URLs")
+        return false
+    }
+
+    static func isValidAudioFile(_ url: URL) async -> Bool {
+        do {
+            let _ = try AVAudioFile(forReading: url)
+            return true
+        } catch {
+            return false
+        }
+    }
 }
 
 // (Retain all data structures, AMIAnnotationParser, findOptimalSpeakerMapping, printBenchmarkResults, etc. as in your current file)
