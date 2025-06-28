@@ -44,3 +44,7 @@ jobs:
     - name: Run performance validation tests
       run: swift test --filter PerformanceValidationTests
       timeout-minutes: 15
+
+    - name: Quick Metal benchmark check
+      run: swift test --filter testCosineDistanceBatchSizeBenchmark
+      timeout-minutes: 5
