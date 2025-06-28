@@ -1,0 +1,907 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<nite:root nite:id="TS3005a.A.disfluency" xmlns:nite="http://nite.sourceforge.net/">
+   <dsfl nite:id="TS3005a.A.disfluency.alex.1">
+      <nite:pointer role="dsfl-type"  href="dsfl-types.xml#id(ami_dsfl_5)"/>
+      <nite:pointer role="da-ref"  href="TS3005a.A.dialog-act.xml#id(TS3005a.A.dialog-act.vkaraisk.8)"/>
+      <nite:child href="TS3005a.A.words.xml#id(TS3005a.A.words22)"/>
+   </dsfl>
+   <dsfl nite:id="TS3005a.A.disfluency.alex.2">
+      <nite:pointer role="dsfl-type"  href="dsfl-types.xml#id(ami_dsfl_2)"/>
+      <nite:pointer role="da-ref"  href="TS3005a.A.dialog-act.xml#id(TS3005a.A.dialog-act.vkaraisk.10)"/>
+      <nite:child href="TS3005a.A.words.xml#id(TS3005a.A.words38)..id(TS3005a.A.words40)"/>
+   </dsfl>
+   <dsfl nite:id="TS3005a.A.disfluency.alex.3">
+      <nite:pointer role="dsfl-type"  href="dsfl-types.xml#id(ami_dsfl_5)"/>
+      <nite:pointer role="da-ref"  href="TS3005a.A.dialog-act.xml#id(TS3005a.A.dialog-act.vkaraisk.11)"/>
+      <nite:child href="TS3005a.A.words.xml#id(TS3005a.A.words43)"/>
+   </dsfl>
+   <dsfl nite:id="TS3005a.A.disfluency.alex.4">
+      <nite:pointer role="dsfl-type"  href="dsfl-types.xml#id(ami_dsfl_5)"/>
+      <nite:pointer role="da-ref"  href="TS3005a.A.dialog-act.xml#id(TS3005a.A.dialog-act.vkaraisk.11)"/>
+      <nite:child href="TS3005a.A.words.xml#id(TS3005a.A.words50)"/>
+   </dsfl>
+   <dsfl nite:id="TS3005a.A.disfluency.alex.5">
+      <nite:pointer role="dsfl-type"  href="dsfl-types.xml#id(ami_dsfl_5)"/>
+      <nite:pointer role="da-ref"  href="TS3005a.A.dialog-act.xml#id(TS3005a.A.dialog-act.vkaraisk.14)"/>
+      <nite:child href="TS3005a.A.words.xml#id(TS3005a.A.words60)"/>
+   </dsfl>
+   <dsfl nite:id="TS3005a.A.disfluency.alex.6">
+      <nite:pointer role="dsfl-type"  href="dsfl-types.xml#id(ami_dsfl_5)"/>
+      <nite:pointer role="da-ref"  href="TS3005a.A.dialog-act.xml#id(TS3005a.A.dialog-act.vkaraisk.15)"/>
+      <nite:child href="TS3005a.A.words.xml#id(TS3005a.A.words70)"/>
+   </dsfl>
+   <dsfl nite:id="TS3005a.A.disfluency.alex.7">
+      <nite:pointer role="dsfl-type"  href="dsfl-types.xml#id(ami_dsfl_14)"/>
+      <nite:pointer role="da-ref"  href="TS3005a.A.dialog-act.xml#id(TS3005a.A.dialog-act.vkaraisk.16)"/>
+      <dsfl nite:id="TS3005a.A.disfluency.alex.8">
+         <nite:pointer role="dsfl-type"  href="dsfl-types.xml#id(ami_dsfl_19)"/>
+         <nite:pointer role="da-ref"  href="TS3005a.A.dialog-act.xml#id(TS3005a.A.dialog-act.vkaraisk.16)"/>
+         <nite:child href="TS3005a.A.words.xml#id(TS3005a.A.words78)"/>
+      </dsfl>
+      <dsfl nite:id="TS3005a.A.disfluency.alex.9">
+         <nite:pointer role="dsfl-type"  href="dsfl-types.xml#id(ami_dsfl_18)"/>
+         <nite:pointer role="da-ref"  href="TS3005a.A.dialog-act.xml#id(TS3005a.A.dialog-act.vkaraisk.16)"/>
+         <nite:child href="TS3005a.A.words.xml#id(TS3005a.A.words79)"/>
+      </dsfl>
+   </dsfl>
+   <dsfl nite:id="TS3005a.A.disfluency.alex.10">
+      <nite:pointer role="dsfl-type"  href="dsfl-types.xml#id(ami_dsfl_9)"/>
+      <nite:pointer role="da-ref"  href="TS3005a.A.dialog-act.xml#id(TS3005a.A.dialog-act.vkaraisk.16)"/>
+      <dsfl nite:id="TS3005a.A.disfluency.alex.11">
+         <nite:pointer role="dsfl-type"  href="dsfl-types.xml#id(ami_dsfl_19)"/>
+         <nite:pointer role="da-ref"  href="TS3005a.A.dialog-act.xml#id(TS3005a.A.dialog-act.vkaraisk.16)"/>
+         <nite:child href="TS3005a.A.words.xml#id(TS3005a.A.words80)..id(TS3005a.A.words83)"/>
+      </dsfl>
+      <dsfl nite:id="TS3005a.A.disfluency.alex.12">
+         <nite:pointer role="rm-ref"  href="TS3005a.A.disfluency.xml#id(TS3005a.A.disfluency.alex.11)"/>
+         <nite:pointer role="dsfl-type"  href="dsfl-types.xml#id(ami_dsfl_18)"/>
+         <nite:pointer role="da-ref"  href="TS3005a.A.dialog-act.xml#id(TS3005a.A.dialog-act.vkaraisk.16)"/>
+         <nite:pointer role="extension"  href="TS3005a.A.extension.xml#id(TS3005a.A.extension.alex.1)"/>
+         <nite:pointer role="extension"  href="TS3005a.A.extension.xml#id(TS3005a.A.extension.alex.2)"/>
+         <nite:pointer role="extension"  href="TS3005a.A.extension.xml#id(TS3005a.A.extension.alex.3)"/>
+         <nite:pointer role="extension"  href="TS3005a.A.extension.xml#id(TS3005a.A.extension.alex.4)"/>
+      </dsfl>
+   </dsfl>
+   <dsfl nite:id="TS3005a.A.disfluency.alex.13" position="after">
+      <nite:pointer role="dsfl-type"  href="dsfl-types.xml#id(ami_dsfl_8)"/>
+      <nite:pointer role="da-ref"  href="TS3005a.A.dialog-act.xml#id(TS3005a.A.dialog-act.vkaraisk.16)"/>
+      <nite:pointer role="extension"  href="TS3005a.A.extension.xml#id(TS3005a.A.extension.alex.5)"/>
+      <nite:child href="TS3005a.A.words.xml#id(TS3005a.A.words83)"/>
+   </dsfl>
+   <dsfl nite:id="TS3005a.A.disfluency.alex.14">
+      <nite:pointer role="dsfl-type"  href="dsfl-types.xml#id(ami_dsfl_5)"/>
+      <nite:pointer role="da-ref"  href="TS3005a.A.dialog-act.xml#id(TS3005a.A.dialog-act.vkaraisk.17)"/>
+      <nite:child href="TS3005a.A.words.xml#id(TS3005a.A.words87)"/>
+   </dsfl>
+   <dsfl nite:id="TS3005a.A.disfluency.alex.15">
+      <nite:pointer role="dsfl-type"  href="dsfl-types.xml#id(ami_dsfl_5)"/>
+      <nite:pointer role="da-ref"  href="TS3005a.A.dialog-act.xml#id(TS3005a.A.dialog-act.vkaraisk.19)"/>
+      <nite:child href="TS3005a.A.words.xml#id(TS3005a.A.words95)"/>
+   </dsfl>
+   <dsfl nite:id="TS3005a.A.disfluency.alex.16">
+      <nite:pointer role="dsfl-type"  href="dsfl-types.xml#id(ami_dsfl_7)"/>
+      <nite:pointer role="da-ref"  href="TS3005a.A.dialog-act.xml#id(TS3005a.A.dialog-act.vkaraisk.21)"/>
+      <dsfl nite:id="TS3005a.A.disfluency.alex.17">
+         <nite:pointer role="dsfl-type"  href="dsfl-types.xml#id(ami_dsfl_19)"/>
+         <nite:pointer role="da-ref"  href="TS3005a.A.dialog-act.xml#id(TS3005a.A.dialog-act.vkaraisk.21)"/>
+         <nite:child href="TS3005a.A.words.xml#id(TS3005a.A.words114)"/>
+      </dsfl>
+      <dsfl nite:id="TS3005a.A.disfluency.alex.18">
+         <nite:pointer role="rm-ref"  href="TS3005a.A.disfluency.xml#id(TS3005a.A.disfluency.alex.17)"/>
+         <nite:pointer role="dsfl-type"  href="dsfl-types.xml#id(ami_dsfl_18)"/>
+         <nite:pointer role="da-ref"  href="TS3005a.A.dialog-act.xml#id(TS3005a.A.dialog-act.vkaraisk.21)"/>
+         <nite:pointer role="extension"  href="TS3005a.A.extension.xml#id(TS3005a.A.extension.alex.6)"/>
+      </dsfl>
+   </dsfl>
+   <dsfl nite:id="TS3005a.A.disfluency.alex.19">
+      <nite:pointer role="dsfl-type"  href="dsfl-types.xml#id(ami_dsfl_5)"/>
+      <nite:pointer role="da-ref"  href="TS3005a.A.dialog-act.xml#id(TS3005a.A.dialog-act.vkaraisk.25)"/>
+      <nite:child href="TS3005a.A.words.xml#id(TS3005a.A.words138)"/>
+   </dsfl>
+   <dsfl nite:id="TS3005a.A.disfluency.alex.20">
+      <nite:pointer role="dsfl-type"  href="dsfl-types.xml#id(ami_dsfl_5)"/>
+      <nite:pointer role="da-ref"  href="TS3005a.A.dialog-act.xml#id(TS3005a.A.dialog-act.vkaraisk.30)"/>
+      <nite:child href="TS3005a.A.words.xml#id(TS3005a.A.words167)"/>
+   </dsfl>
+   <dsfl nite:id="TS3005a.A.disfluency.alex.21">
+      <nite:pointer role="dsfl-type"  href="dsfl-types.xml#id(ami_dsfl_14)"/>
+      <nite:pointer role="da-ref"  href="TS3005a.A.dialog-act.xml#id(TS3005a.A.dialog-act.vkaraisk.30)"/>
+      <dsfl nite:id="TS3005a.A.disfluency.alex.22">
+         <nite:pointer role="dsfl-type"  href="dsfl-types.xml#id(ami_dsfl_19)"/>
+         <nite:pointer role="da-ref"  href="TS3005a.A.dialog-act.xml#id(TS3005a.A.dialog-act.vkaraisk.30)"/>
+         <nite:child href="TS3005a.A.words.xml#id(TS3005a.A.words172)"/>
+      </dsfl>
+      <dsfl nite:id="TS3005a.A.disfluency.alex.23">
+         <nite:pointer role="dsfl-type"  href="dsfl-types.xml#id(ami_dsfl_18)"/>
+         <nite:pointer role="da-ref"  href="TS3005a.A.dialog-act.xml#id(TS3005a.A.dialog-act.vkaraisk.30)"/>
+         <nite:child href="TS3005a.A.words.xml#id(TS3005a.A.words173)"/>
+      </dsfl>
+   </dsfl>
+   <dsfl nite:id="TS3005a.A.disfluency.alex.24">
+      <nite:pointer role="dsfl-type"  href="dsfl-types.xml#id(ami_dsfl_5)"/>
+      <nite:pointer role="da-ref"  href="TS3005a.A.dialog-act.xml#id(TS3005a.A.dialog-act.vkaraisk.30)"/>
+      <nite:child href="TS3005a.A.words.xml#id(TS3005a.A.words176)"/>
+   </dsfl>
+   <dsfl nite:id="TS3005a.A.disfluency.alex.25">
+      <nite:pointer role="dsfl-type"  href="dsfl-types.xml#id(ami_dsfl_5)"/>
+      <nite:pointer role="da-ref"  href="TS3005a.A.dialog-act.xml#id(TS3005a.A.dialog-act.vkaraisk.32)"/>
+      <nite:child href="TS3005a.A.words.xml#id(TS3005a.A.words183)"/>
+   </dsfl>
+   <dsfl nite:id="TS3005a.A.disfluency.alex.26">
+      <nite:pointer role="dsfl-type"  href="dsfl-types.xml#id(ami_dsfl_5)"/>
+      <nite:pointer role="da-ref"  href="TS3005a.A.dialog-act.xml#id(TS3005a.A.dialog-act.vkaraisk.32)"/>
+      <nite:child href="TS3005a.A.words.xml#id(TS3005a.A.words193)"/>
+   </dsfl>
+   <dsfl nite:id="TS3005a.A.disfluency.alex.27">
+      <nite:pointer role="dsfl-type"  href="dsfl-types.xml#id(ami_dsfl_5)"/>
+      <nite:pointer role="da-ref"  href="TS3005a.A.dialog-act.xml#id(TS3005a.A.dialog-act.vkaraisk.34)"/>
+      <nite:child href="TS3005a.A.words.xml#id(TS3005a.A.words199)"/>
+   </dsfl>
+   <dsfl nite:id="TS3005a.A.disfluency.alex.28">
+      <nite:pointer role="dsfl-type"  href="dsfl-types.xml#id(ami_dsfl_5)"/>
+      <nite:pointer role="da-ref"  href="TS3005a.A.dialog-act.xml#id(TS3005a.A.dialog-act.vkaraisk.37)"/>
+      <nite:child href="TS3005a.A.words.xml#id(TS3005a.A.words219)"/>
+   </dsfl>
+   <dsfl nite:id="TS3005a.A.disfluency.alex.29">
+      <nite:pointer role="dsfl-type"  href="dsfl-types.xml#id(ami_dsfl_12)"/>
+      <nite:pointer role="da-ref"  href="TS3005a.A.dialog-act.xml#id(TS3005a.A.dialog-act.vkaraisk.40)"/>
+      <dsfl nite:id="TS3005a.A.disfluency.alex.30">
+         <nite:pointer role="dsfl-type"  href="dsfl-types.xml#id(ami_dsfl_19)"/>
+         <nite:pointer role="da-ref"  href="TS3005a.A.dialog-act.xml#id(TS3005a.A.dialog-act.vkaraisk.40)"/>
+         <nite:child href="TS3005a.A.words.xml#id(TS3005a.A.words243)"/>
+      </dsfl>
+      <dsfl nite:id="TS3005a.A.disfluency.alex.31">
+         <nite:pointer role="dsfl-type"  href="dsfl-types.xml#id(ami_dsfl_18)"/>
+         <nite:pointer role="da-ref"  href="TS3005a.A.dialog-act.xml#id(TS3005a.A.dialog-act.vkaraisk.40)"/>
+         <nite:child href="TS3005a.A.words.xml#id(TS3005a.A.words244)"/>
+      </dsfl>
+   </dsfl>
+   <dsfl nite:id="TS3005a.A.disfluency.alex.32">
+      <nite:pointer role="dsfl-type"  href="dsfl-types.xml#id(ami_dsfl_5)"/>
+      <nite:pointer role="da-ref"  href="TS3005a.A.dialog-act.xml#id(TS3005a.A.dialog-act.vkaraisk.42)"/>
+      <nite:child href="TS3005a.A.words.xml#id(TS3005a.A.words257)"/>
+   </dsfl>
+   <dsfl nite:id="TS3005a.A.disfluency.alex.33">
+      <nite:pointer role="dsfl-type"  href="dsfl-types.xml#id(ami_dsfl_5)"/>
+      <nite:pointer role="da-ref"  href="TS3005a.A.dialog-act.xml#id(TS3005a.A.dialog-act.vkaraisk.44)"/>
+      <nite:child href="TS3005a.A.words.xml#id(TS3005a.A.words269)"/>
+   </dsfl>
+   <dsfl nite:id="TS3005a.A.disfluency.alex.34">
+      <nite:pointer role="dsfl-type"  href="dsfl-types.xml#id(ami_dsfl_3)"/>
+      <nite:pointer role="da-ref"  href="TS3005a.A.dialog-act.xml#id(TS3005a.A.dialog-act.vkaraisk.44)"/>
+      <nite:child href="TS3005a.A.words.xml#id(TS3005a.A.words270)"/>
+   </dsfl>
+   <dsfl nite:id="TS3005a.A.disfluency.alex.35">
+      <nite:pointer role="dsfl-type"  href="dsfl-types.xml#id(ami_dsfl_5)"/>
+      <nite:pointer role="da-ref"  href="TS3005a.A.dialog-act.xml#id(TS3005a.A.dialog-act.vkaraisk.44)"/>
+      <nite:child href="TS3005a.A.words.xml#id(TS3005a.A.words271)"/>
+   </dsfl>
+   <dsfl nite:id="TS3005a.A.disfluency.alex.36">
+      <nite:pointer role="dsfl-type"  href="dsfl-types.xml#id(ami_dsfl_5)"/>
+      <nite:pointer role="da-ref"  href="TS3005a.A.dialog-act.xml#id(TS3005a.A.dialog-act.vkaraisk.46)"/>
+      <nite:child href="TS3005a.A.words.xml#id(TS3005a.A.words279)"/>
+   </dsfl>
+   <dsfl nite:id="TS3005a.A.disfluency.alex.37">
+      <nite:pointer role="dsfl-type"  href="dsfl-types.xml#id(ami_dsfl_5)"/>
+      <nite:pointer role="da-ref"  href="TS3005a.A.dialog-act.xml#id(TS3005a.A.dialog-act.vkaraisk.46)"/>
+      <nite:child href="TS3005a.A.words.xml#id(TS3005a.A.words282)"/>
+   </dsfl>
+   <dsfl nite:id="TS3005a.A.disfluency.alex.38">
+      <nite:pointer role="dsfl-type"  href="dsfl-types.xml#id(ami_dsfl_5)"/>
+      <nite:pointer role="da-ref"  href="TS3005a.A.dialog-act.xml#id(TS3005a.A.dialog-act.vkaraisk.47)"/>
+      <nite:child href="TS3005a.A.words.xml#id(TS3005a.A.words288)"/>
+   </dsfl>
+   <dsfl nite:id="TS3005a.A.disfluency.alex.39">
+      <nite:pointer role="dsfl-type"  href="dsfl-types.xml#id(ami_dsfl_5)"/>
+      <nite:pointer role="da-ref"  href="TS3005a.A.dialog-act.xml#id(TS3005a.A.dialog-act.vkaraisk.47)"/>
+      <nite:child href="TS3005a.A.words.xml#id(TS3005a.A.words293)"/>
+   </dsfl>
+   <dsfl nite:id="TS3005a.A.disfluency.alex.40">
+      <nite:pointer role="dsfl-type"  href="dsfl-types.xml#id(ami_dsfl_5)"/>
+      <nite:pointer role="da-ref"  href="TS3005a.A.dialog-act.xml#id(TS3005a.A.dialog-act.vkaraisk.47)"/>
+      <nite:child href="TS3005a.A.words.xml#id(TS3005a.A.words302)"/>
+   </dsfl>
+   <dsfl nite:id="TS3005a.A.disfluency.alex.41">
+      <nite:pointer role="dsfl-type"  href="dsfl-types.xml#id(ami_dsfl_7)"/>
+      <nite:pointer role="da-ref"  href="TS3005a.A.dialog-act.xml#id(TS3005a.A.dialog-act.vkaraisk.47)"/>
+      <dsfl nite:id="TS3005a.A.disfluency.alex.42">
+         <nite:pointer role="dsfl-type"  href="dsfl-types.xml#id(ami_dsfl_19)"/>
+         <nite:pointer role="da-ref"  href="TS3005a.A.dialog-act.xml#id(TS3005a.A.dialog-act.vkaraisk.47)"/>
+         <nite:child href="TS3005a.A.words.xml#id(TS3005a.A.words303)"/>
+      </dsfl>
+      <dsfl nite:id="TS3005a.A.disfluency.alex.43">
+         <nite:pointer role="rm-ref"  href="TS3005a.A.disfluency.xml#id(TS3005a.A.disfluency.alex.42)"/>
+         <nite:pointer role="dsfl-type"  href="dsfl-types.xml#id(ami_dsfl_18)"/>
+         <nite:pointer role="da-ref"  href="TS3005a.A.dialog-act.xml#id(TS3005a.A.dialog-act.vkaraisk.47)"/>
+         <nite:pointer role="extension"  href="TS3005a.A.extension.xml#id(TS3005a.A.extension.alex.7)"/>
+      </dsfl>
+   </dsfl>
+   <dsfl nite:id="TS3005a.A.disfluency.alex.44">
+      <nite:pointer role="dsfl-type"  href="dsfl-types.xml#id(ami_dsfl_5)"/>
+      <nite:pointer role="da-ref"  href="TS3005a.A.dialog-act.xml#id(TS3005a.A.dialog-act.vkaraisk.52)"/>
+      <nite:child href="TS3005a.A.words.xml#id(TS3005a.A.words328)"/>
+   </dsfl>
+   <dsfl nite:id="TS3005a.A.disfluency.alex.45">
+      <nite:pointer role="dsfl-type"  href="dsfl-types.xml#id(ami_dsfl_12)"/>
+      <nite:pointer role="da-ref"  href="TS3005a.A.dialog-act.xml#id(TS3005a.A.dialog-act.vkaraisk.52)"/>
+      <dsfl nite:id="TS3005a.A.disfluency.alex.46">
+         <nite:pointer role="dsfl-type"  href="dsfl-types.xml#id(ami_dsfl_19)"/>
+         <nite:pointer role="da-ref"  href="TS3005a.A.dialog-act.xml#id(TS3005a.A.dialog-act.vkaraisk.52)"/>
+         <nite:child href="TS3005a.A.words.xml#id(TS3005a.A.words331)..id(TS3005a.A.words332)"/>
+      </dsfl>
+      <dsfl nite:id="TS3005a.A.disfluency.alex.47">
+         <nite:pointer role="dsfl-type"  href="dsfl-types.xml#id(ami_dsfl_18)"/>
+         <nite:pointer role="da-ref"  href="TS3005a.A.dialog-act.xml#id(TS3005a.A.dialog-act.vkaraisk.52)"/>
+         <nite:child href="TS3005a.A.words.xml#id(TS3005a.A.words333)..id(TS3005a.A.words334)"/>
+      </dsfl>
+   </dsfl>
+   <dsfl nite:id="TS3005a.A.disfluency.alex.48">
+      <nite:pointer role="dsfl-type"  href="dsfl-types.xml#id(ami_dsfl_5)"/>
+      <nite:pointer role="da-ref"  href="TS3005a.A.dialog-act.xml#id(TS3005a.A.dialog-act.vkaraisk.54)"/>
+      <nite:child href="TS3005a.A.words.xml#id(TS3005a.A.words340)"/>
+   </dsfl>
+   <dsfl nite:id="TS3005a.A.disfluency.alex.49">
+      <nite:pointer role="dsfl-type"  href="dsfl-types.xml#id(ami_dsfl_5)"/>
+      <nite:pointer role="da-ref"  href="TS3005a.A.dialog-act.xml#id(TS3005a.A.dialog-act.vkaraisk.55)"/>
+      <nite:child href="TS3005a.A.words.xml#id(TS3005a.A.words344)"/>
+   </dsfl>
+   <dsfl nite:id="TS3005a.A.disfluency.alex.50">
+      <nite:pointer role="dsfl-type"  href="dsfl-types.xml#id(ami_dsfl_13)"/>
+      <nite:pointer role="da-ref"  href="TS3005a.A.dialog-act.xml#id(TS3005a.A.dialog-act.vkaraisk.56)"/>
+      <dsfl nite:id="TS3005a.A.disfluency.alex.51">
+         <nite:pointer role="dsfl-type"  href="dsfl-types.xml#id(ami_dsfl_19)"/>
+         <nite:pointer role="da-ref"  href="TS3005a.A.dialog-act.xml#id(TS3005a.A.dialog-act.vkaraisk.56)"/>
+         <nite:child href="TS3005a.A.words.xml#id(TS3005a.A.words358)..id(TS3005a.A.words360)"/>
+      </dsfl>
+      <dsfl nite:id="TS3005a.A.disfluency.alex.52">
+         <nite:pointer role="dsfl-type"  href="dsfl-types.xml#id(ami_dsfl_18)"/>
+         <nite:pointer role="da-ref"  href="TS3005a.A.dialog-act.xml#id(TS3005a.A.dialog-act.vkaraisk.56)"/>
+         <nite:child href="TS3005a.A.words.xml#id(TS3005a.A.words362)..id(TS3005a.A.words364)"/>
+      </dsfl>
+   </dsfl>
+   <dsfl nite:id="TS3005a.A.disfluency.alex.53">
+      <nite:pointer role="dsfl-type"  href="dsfl-types.xml#id(ami_dsfl_5)"/>
+      <nite:pointer role="da-ref"  href="TS3005a.A.dialog-act.xml#id(TS3005a.A.dialog-act.vkaraisk.57)"/>
+      <nite:child href="TS3005a.A.words.xml#id(TS3005a.A.words369)"/>
+   </dsfl>
+   <dsfl nite:id="TS3005a.A.disfluency.alex.54">
+      <nite:pointer role="dsfl-type"  href="dsfl-types.xml#id(ami_dsfl_5)"/>
+      <nite:pointer role="da-ref"  href="TS3005a.A.dialog-act.xml#id(TS3005a.A.dialog-act.vkaraisk.58)"/>
+      <nite:child href="TS3005a.A.words.xml#id(TS3005a.A.words385)"/>
+   </dsfl>
+   <dsfl nite:id="TS3005a.A.disfluency.alex.55">
+      <nite:pointer role="dsfl-type"  href="dsfl-types.xml#id(ami_dsfl_13)"/>
+      <nite:pointer role="da-ref"  href="TS3005a.A.dialog-act.xml#id(TS3005a.A.dialog-act.vkaraisk.58)"/>
+      <dsfl nite:id="TS3005a.A.disfluency.alex.56">
+         <nite:pointer role="dsfl-type"  href="dsfl-types.xml#id(ami_dsfl_19)"/>
+         <nite:pointer role="da-ref"  href="TS3005a.A.dialog-act.xml#id(TS3005a.A.dialog-act.vkaraisk.58)"/>
+         <nite:child href="TS3005a.A.words.xml#id(TS3005a.A.words394)..id(TS3005a.A.words396)"/>
+      </dsfl>
+      <dsfl nite:id="TS3005a.A.disfluency.alex.57">
+         <nite:pointer role="dsfl-type"  href="dsfl-types.xml#id(ami_dsfl_18)"/>
+         <nite:pointer role="da-ref"  href="TS3005a.A.dialog-act.xml#id(TS3005a.A.dialog-act.vkaraisk.58)"/>
+         <nite:child href="TS3005a.A.words.xml#id(TS3005a.A.words398)..id(TS3005a.A.words400)"/>
+      </dsfl>
+   </dsfl>
+   <dsfl nite:id="TS3005a.A.disfluency.alex.58">
+      <nite:pointer role="dsfl-type"  href="dsfl-types.xml#id(ami_dsfl_5)"/>
+      <nite:pointer role="da-ref"  href="TS3005a.A.dialog-act.xml#id(TS3005a.A.dialog-act.vkaraisk.60)"/>
+      <nite:child href="TS3005a.A.words.xml#id(TS3005a.A.words402)"/>
+   </dsfl>
+   <dsfl nite:id="TS3005a.A.disfluency.alex.59">
+      <nite:pointer role="dsfl-type"  href="dsfl-types.xml#id(ami_dsfl_5)"/>
+      <nite:pointer role="da-ref"  href="TS3005a.A.dialog-act.xml#id(TS3005a.A.dialog-act.vkaraisk.60)"/>
+      <nite:child href="TS3005a.A.words.xml#id(TS3005a.A.words411)"/>
+   </dsfl>
+   <dsfl nite:id="TS3005a.A.disfluency.alex.60" position="after">
+      <nite:pointer role="dsfl-type"  href="dsfl-types.xml#id(ami_dsfl_8)"/>
+      <nite:pointer role="da-ref"  href="TS3005a.A.dialog-act.xml#id(TS3005a.A.dialog-act.vkaraisk.60)"/>
+      <nite:pointer role="extension"  href="TS3005a.A.extension.xml#id(TS3005a.A.extension.alex.8)"/>
+      <nite:child href="TS3005a.A.words.xml#id(TS3005a.A.words411)"/>
+   </dsfl>
+   <dsfl nite:id="TS3005a.A.disfluency.alex.61" position="after">
+      <nite:pointer role="dsfl-type"  href="dsfl-types.xml#id(ami_dsfl_8)"/>
+      <nite:pointer role="da-ref"  href="TS3005a.A.dialog-act.xml#id(TS3005a.A.dialog-act.vkaraisk.62)"/>
+      <nite:pointer role="extension"  href="TS3005a.A.extension.xml#id(TS3005a.A.extension.alex.9)"/>
+      <nite:child href="TS3005a.A.words.xml#id(TS3005a.A.words447)"/>
+   </dsfl>
+   <dsfl nite:id="TS3005a.A.disfluency.alex.62">
+      <nite:pointer role="dsfl-type"  href="dsfl-types.xml#id(ami_dsfl_5)"/>
+      <nite:pointer role="da-ref"  href="TS3005a.A.dialog-act.xml#id(TS3005a.A.dialog-act.vkaraisk.63)"/>
+      <nite:child href="TS3005a.A.words.xml#id(TS3005a.A.words458)"/>
+   </dsfl>
+   <dsfl nite:id="TS3005a.A.disfluency.alex.63">
+      <nite:pointer role="dsfl-type"  href="dsfl-types.xml#id(ami_dsfl_5)"/>
+      <nite:pointer role="da-ref"  href="TS3005a.A.dialog-act.xml#id(TS3005a.A.dialog-act.vkaraisk.65)"/>
+      <nite:child href="TS3005a.A.words.xml#id(TS3005a.A.words470)"/>
+   </dsfl>
+   <dsfl nite:id="TS3005a.A.disfluency.alex.64">
+      <nite:pointer role="dsfl-type"  href="dsfl-types.xml#id(ami_dsfl_5)"/>
+      <nite:pointer role="da-ref"  href="TS3005a.A.dialog-act.xml#id(TS3005a.A.dialog-act.vkaraisk.67)"/>
+      <nite:child href="TS3005a.A.words.xml#id(TS3005a.A.words495)"/>
+   </dsfl>
+   <dsfl nite:id="TS3005a.A.disfluency.alex.65">
+      <nite:pointer role="dsfl-type"  href="dsfl-types.xml#id(ami_dsfl_5)"/>
+      <nite:pointer role="da-ref"  href="TS3005a.A.dialog-act.xml#id(TS3005a.A.dialog-act.vkaraisk.67)"/>
+      <nite:child href="TS3005a.A.words.xml#id(TS3005a.A.words501)"/>
+   </dsfl>
+   <dsfl nite:id="TS3005a.A.disfluency.alex.66">
+      <nite:pointer role="dsfl-type"  href="dsfl-types.xml#id(ami_dsfl_5)"/>
+      <nite:pointer role="da-ref"  href="TS3005a.A.dialog-act.xml#id(TS3005a.A.dialog-act.vkaraisk.72)"/>
+      <nite:child href="TS3005a.A.words.xml#id(TS3005a.A.words532)"/>
+   </dsfl>
+   <dsfl nite:id="TS3005a.A.disfluency.alex.67">
+      <nite:pointer role="dsfl-type"  href="dsfl-types.xml#id(ami_dsfl_5)"/>
+      <nite:pointer role="da-ref"  href="TS3005a.A.dialog-act.xml#id(TS3005a.A.dialog-act.vkaraisk.73)"/>
+      <nite:child href="TS3005a.A.words.xml#id(TS3005a.A.words543)"/>
+   </dsfl>
+   <dsfl nite:id="TS3005a.A.disfluency.alex.68">
+      <nite:pointer role="dsfl-type"  href="dsfl-types.xml#id(ami_dsfl_5)"/>
+      <nite:pointer role="da-ref"  href="TS3005a.A.dialog-act.xml#id(TS3005a.A.dialog-act.vkaraisk.75)"/>
+      <nite:child href="TS3005a.A.words.xml#id(TS3005a.A.words550)"/>
+   </dsfl>
+   <dsfl nite:id="TS3005a.A.disfluency.alex.69">
+      <nite:pointer role="dsfl-type"  href="dsfl-types.xml#id(ami_dsfl_5)"/>
+      <nite:pointer role="da-ref"  href="TS3005a.A.dialog-act.xml#id(TS3005a.A.dialog-act.vkaraisk.75)"/>
+      <nite:child href="TS3005a.A.words.xml#id(TS3005a.A.words555)"/>
+   </dsfl>
+   <dsfl nite:id="TS3005a.A.disfluency.alex.70">
+      <nite:pointer role="dsfl-type"  href="dsfl-types.xml#id(ami_dsfl_5)"/>
+      <nite:pointer role="da-ref"  href="TS3005a.A.dialog-act.xml#id(TS3005a.A.dialog-act.vkaraisk.75)"/>
+      <nite:child href="TS3005a.A.words.xml#id(TS3005a.A.words562)"/>
+   </dsfl>
+   <dsfl nite:id="TS3005a.A.disfluency.alex.71">
+      <nite:pointer role="dsfl-type"  href="dsfl-types.xml#id(ami_dsfl_5)"/>
+      <nite:pointer role="da-ref"  href="TS3005a.A.dialog-act.xml#id(TS3005a.A.dialog-act.vkaraisk.76)"/>
+      <nite:child href="TS3005a.A.words.xml#id(TS3005a.A.words573)"/>
+   </dsfl>
+   <dsfl nite:id="TS3005a.A.disfluency.alex.72">
+      <nite:pointer role="dsfl-type"  href="dsfl-types.xml#id(ami_dsfl_6)"/>
+      <nite:pointer role="da-ref"  href="TS3005a.A.dialog-act.xml#id(TS3005a.A.dialog-act.vkaraisk.76)"/>
+      <dsfl nite:id="TS3005a.A.disfluency.alex.73">
+         <nite:pointer role="dsfl-type"  href="dsfl-types.xml#id(ami_dsfl_19)"/>
+         <nite:pointer role="da-ref"  href="TS3005a.A.dialog-act.xml#id(TS3005a.A.dialog-act.vkaraisk.76)"/>
+         <nite:child href="TS3005a.A.words.xml#id(TS3005a.A.words574)"/>
+      </dsfl>
+      <dsfl nite:id="TS3005a.A.disfluency.alex.74">
+         <nite:pointer role="dsfl-type"  href="dsfl-types.xml#id(ami_dsfl_18)"/>
+         <nite:pointer role="da-ref"  href="TS3005a.A.dialog-act.xml#id(TS3005a.A.dialog-act.vkaraisk.76)"/>
+         <nite:child href="TS3005a.A.words.xml#id(TS3005a.A.words576)..id(TS3005a.A.words577)"/>
+      </dsfl>
+      <dsfl nite:id="TS3005a.A.disfluency.alex.75">
+         <nite:pointer role="dsfl-type"  href="dsfl-types.xml#id(ami_dsfl_5)"/>
+         <nite:pointer role="da-ref"  href="TS3005a.A.dialog-act.xml#id(TS3005a.A.dialog-act.vkaraisk.76)"/>
+         <nite:child href="TS3005a.A.words.xml#id(TS3005a.A.words575)"/>
+      </dsfl>
+   </dsfl>
+   <dsfl nite:id="TS3005a.A.disfluency.alex.76">
+      <nite:pointer role="dsfl-type"  href="dsfl-types.xml#id(ami_dsfl_5)"/>
+      <nite:pointer role="da-ref"  href="TS3005a.A.dialog-act.xml#id(TS3005a.A.dialog-act.vkaraisk.78)"/>
+      <nite:child href="TS3005a.A.words.xml#id(TS3005a.A.words588)"/>
+   </dsfl>
+   <dsfl nite:id="TS3005a.A.disfluency.alex.77">
+      <nite:pointer role="dsfl-type"  href="dsfl-types.xml#id(ami_dsfl_7)"/>
+      <nite:pointer role="da-ref"  href="TS3005a.A.dialog-act.xml#id(TS3005a.A.dialog-act.vkaraisk.78)"/>
+      <dsfl nite:id="TS3005a.A.disfluency.alex.78">
+         <nite:pointer role="dsfl-type"  href="dsfl-types.xml#id(ami_dsfl_19)"/>
+         <nite:pointer role="da-ref"  href="TS3005a.A.dialog-act.xml#id(TS3005a.A.dialog-act.vkaraisk.78)"/>
+         <nite:child href="TS3005a.A.words.xml#id(TS3005a.A.words591)"/>
+      </dsfl>
+      <dsfl nite:id="TS3005a.A.disfluency.alex.79">
+         <nite:pointer role="rm-ref"  href="TS3005a.A.disfluency.xml#id(TS3005a.A.disfluency.alex.78)"/>
+         <nite:pointer role="dsfl-type"  href="dsfl-types.xml#id(ami_dsfl_18)"/>
+         <nite:pointer role="da-ref"  href="TS3005a.A.dialog-act.xml#id(TS3005a.A.dialog-act.vkaraisk.78)"/>
+         <nite:pointer role="extension"  href="TS3005a.A.extension.xml#id(TS3005a.A.extension.alex.10)"/>
+      </dsfl>
+   </dsfl>
+   <dsfl nite:id="TS3005a.A.disfluency.alex.80">
+      <nite:pointer role="dsfl-type"  href="dsfl-types.xml#id(ami_dsfl_5)"/>
+      <nite:pointer role="da-ref"  href="TS3005a.A.dialog-act.xml#id(TS3005a.A.dialog-act.vkaraisk.79)"/>
+      <nite:child href="TS3005a.A.words.xml#id(TS3005a.A.words603)"/>
+   </dsfl>
+   <dsfl nite:id="TS3005a.A.disfluency.alex.81">
+      <nite:pointer role="dsfl-type"  href="dsfl-types.xml#id(ami_dsfl_5)"/>
+      <nite:pointer role="da-ref"  href="TS3005a.A.dialog-act.xml#id(TS3005a.A.dialog-act.vkaraisk.80)"/>
+      <nite:child href="TS3005a.A.words.xml#id(TS3005a.A.words627)"/>
+   </dsfl>
+   <dsfl nite:id="TS3005a.A.disfluency.alex.82">
+      <nite:pointer role="dsfl-type"  href="dsfl-types.xml#id(ami_dsfl_5)"/>
+      <nite:pointer role="da-ref"  href="TS3005a.A.dialog-act.xml#id(TS3005a.A.dialog-act.vkaraisk.82)"/>
+      <nite:child href="TS3005a.A.words.xml#id(TS3005a.A.words633)"/>
+   </dsfl>
+   <dsfl nite:id="TS3005a.A.disfluency.alex.83">
+      <nite:pointer role="dsfl-type"  href="dsfl-types.xml#id(ami_dsfl_5)"/>
+      <nite:pointer role="da-ref"  href="TS3005a.A.dialog-act.xml#id(TS3005a.A.dialog-act.vkaraisk.82)"/>
+      <nite:child href="TS3005a.A.words.xml#id(TS3005a.A.words637)"/>
+   </dsfl>
+   <dsfl nite:id="TS3005a.A.disfluency.alex.84">
+      <nite:pointer role="dsfl-type"  href="dsfl-types.xml#id(ami_dsfl_12)"/>
+      <nite:pointer role="da-ref"  href="TS3005a.A.dialog-act.xml#id(TS3005a.A.dialog-act.vkaraisk.82)"/>
+      <dsfl nite:id="TS3005a.A.disfluency.alex.85">
+         <nite:pointer role="dsfl-type"  href="dsfl-types.xml#id(ami_dsfl_19)"/>
+         <nite:pointer role="da-ref"  href="TS3005a.A.dialog-act.xml#id(TS3005a.A.dialog-act.vkaraisk.82)"/>
+         <nite:child href="TS3005a.A.words.xml#id(TS3005a.A.words643)"/>
+      </dsfl>
+      <dsfl nite:id="TS3005a.A.disfluency.alex.86">
+         <nite:pointer role="dsfl-type"  href="dsfl-types.xml#id(ami_dsfl_18)"/>
+         <nite:pointer role="da-ref"  href="TS3005a.A.dialog-act.xml#id(TS3005a.A.dialog-act.vkaraisk.82)"/>
+         <nite:child href="TS3005a.A.words.xml#id(TS3005a.A.words644)"/>
+      </dsfl>
+   </dsfl>
+   <dsfl nite:id="TS3005a.A.disfluency.alex.87">
+      <nite:pointer role="dsfl-type"  href="dsfl-types.xml#id(ami_dsfl_5)"/>
+      <nite:pointer role="da-ref"  href="TS3005a.A.dialog-act.xml#id(TS3005a.A.dialog-act.vkaraisk.84)"/>
+      <nite:child href="TS3005a.A.words.xml#id(TS3005a.A.words650)"/>
+   </dsfl>
+   <dsfl nite:id="TS3005a.A.disfluency.alex.88">
+      <nite:pointer role="dsfl-type"  href="dsfl-types.xml#id(ami_dsfl_5)"/>
+      <nite:pointer role="da-ref"  href="TS3005a.A.dialog-act.xml#id(TS3005a.A.dialog-act.vkaraisk.84)"/>
+      <nite:child href="TS3005a.A.words.xml#id(TS3005a.A.words651)"/>
+   </dsfl>
+   <dsfl nite:id="TS3005a.A.disfluency.alex.89">
+      <nite:pointer role="dsfl-type"  href="dsfl-types.xml#id(ami_dsfl_5)"/>
+      <nite:pointer role="da-ref"  href="TS3005a.A.dialog-act.xml#id(TS3005a.A.dialog-act.vkaraisk.85)"/>
+      <nite:child href="TS3005a.A.words.xml#id(TS3005a.A.words663)"/>
+   </dsfl>
+   <dsfl nite:id="TS3005a.A.disfluency.alex.90">
+      <nite:pointer role="dsfl-type"  href="dsfl-types.xml#id(ami_dsfl_5)"/>
+      <nite:pointer role="da-ref"  href="TS3005a.A.dialog-act.xml#id(TS3005a.A.dialog-act.vkaraisk.87)"/>
+      <nite:child href="TS3005a.A.words.xml#id(TS3005a.A.words672)"/>
+   </dsfl>
+   <dsfl nite:id="TS3005a.A.disfluency.alex.91">
+      <nite:pointer role="dsfl-type"  href="dsfl-types.xml#id(ami_dsfl_5)"/>
+      <nite:pointer role="da-ref"  href="TS3005a.A.dialog-act.xml#id(TS3005a.A.dialog-act.vkaraisk.92)"/>
+      <nite:child href="TS3005a.A.words.xml#id(TS3005a.A.words714)"/>
+   </dsfl>
+   <dsfl nite:id="TS3005a.A.disfluency.alex.92">
+      <nite:pointer role="dsfl-type"  href="dsfl-types.xml#id(ami_dsfl_7)"/>
+      <nite:pointer role="da-ref"  href="TS3005a.A.dialog-act.xml#id(TS3005a.A.dialog-act.vkaraisk.93)"/>
+      <dsfl nite:id="TS3005a.A.disfluency.alex.93">
+         <nite:pointer role="dsfl-type"  href="dsfl-types.xml#id(ami_dsfl_19)"/>
+         <nite:pointer role="da-ref"  href="TS3005a.A.dialog-act.xml#id(TS3005a.A.dialog-act.vkaraisk.93)"/>
+         <nite:child href="TS3005a.A.words.xml#id(TS3005a.A.words740)"/>
+      </dsfl>
+      <dsfl nite:id="TS3005a.A.disfluency.alex.94">
+         <nite:pointer role="rm-ref"  href="TS3005a.A.disfluency.xml#id(TS3005a.A.disfluency.alex.93)"/>
+         <nite:pointer role="dsfl-type"  href="dsfl-types.xml#id(ami_dsfl_18)"/>
+         <nite:pointer role="da-ref"  href="TS3005a.A.dialog-act.xml#id(TS3005a.A.dialog-act.vkaraisk.93)"/>
+         <nite:pointer role="extension"  href="TS3005a.A.extension.xml#id(TS3005a.A.extension.alex.11)"/>
+      </dsfl>
+   </dsfl>
+   <dsfl nite:id="TS3005a.A.disfluency.alex.95">
+      <nite:pointer role="dsfl-type"  href="dsfl-types.xml#id(ami_dsfl_5)"/>
+      <nite:pointer role="da-ref"  href="TS3005a.A.dialog-act.xml#id(TS3005a.A.dialog-act.vkaraisk.97)"/>
+      <nite:child href="TS3005a.A.words.xml#id(TS3005a.A.words759)"/>
+   </dsfl>
+   <dsfl nite:id="TS3005a.A.disfluency.alex.96">
+      <nite:pointer role="dsfl-type"  href="dsfl-types.xml#id(ami_dsfl_5)"/>
+      <nite:pointer role="da-ref"  href="TS3005a.A.dialog-act.xml#id(TS3005a.A.dialog-act.vkaraisk.98)"/>
+      <nite:child href="TS3005a.A.words.xml#id(TS3005a.A.words777)"/>
+   </dsfl>
+   <dsfl nite:id="TS3005a.A.disfluency.alex.97">
+      <nite:pointer role="dsfl-type"  href="dsfl-types.xml#id(ami_dsfl_5)"/>
+      <nite:pointer role="da-ref"  href="TS3005a.A.dialog-act.xml#id(TS3005a.A.dialog-act.vkaraisk.99)"/>
+      <nite:child href="TS3005a.A.words.xml#id(TS3005a.A.words784)"/>
+   </dsfl>
+   <dsfl nite:id="TS3005a.A.disfluency.alex.98">
+      <nite:pointer role="dsfl-type"  href="dsfl-types.xml#id(ami_dsfl_5)"/>
+      <nite:pointer role="da-ref"  href="TS3005a.A.dialog-act.xml#id(TS3005a.A.dialog-act.vkaraisk.100)"/>
+      <nite:child href="TS3005a.A.words.xml#id(TS3005a.A.words789)"/>
+   </dsfl>
+   <dsfl nite:id="TS3005a.A.disfluency.alex.99">
+      <nite:pointer role="dsfl-type"  href="dsfl-types.xml#id(ami_dsfl_5)"/>
+      <nite:pointer role="da-ref"  href="TS3005a.A.dialog-act.xml#id(TS3005a.A.dialog-act.vkaraisk.103)"/>
+      <nite:child href="TS3005a.A.words.xml#id(TS3005a.A.words814)"/>
+   </dsfl>
+   <dsfl nite:id="TS3005a.A.disfluency.alex.100">
+      <nite:pointer role="dsfl-type"  href="dsfl-types.xml#id(ami_dsfl_5)"/>
+      <nite:pointer role="da-ref"  href="TS3005a.A.dialog-act.xml#id(TS3005a.A.dialog-act.vkaraisk.106)"/>
+      <nite:child href="TS3005a.A.words.xml#id(TS3005a.A.words827)"/>
+   </dsfl>
+   <dsfl nite:id="TS3005a.A.disfluency.alex.101">
+      <nite:pointer role="dsfl-type"  href="dsfl-types.xml#id(ami_dsfl_5)"/>
+      <nite:pointer role="da-ref"  href="TS3005a.A.dialog-act.xml#id(TS3005a.A.dialog-act.vkaraisk.110)"/>
+      <nite:child href="TS3005a.A.words.xml#id(TS3005a.A.words845)"/>
+   </dsfl>
+   <dsfl nite:id="TS3005a.A.disfluency.alex.102">
+      <nite:pointer role="dsfl-type"  href="dsfl-types.xml#id(ami_dsfl_5)"/>
+      <nite:pointer role="da-ref"  href="TS3005a.A.dialog-act.xml#id(TS3005a.A.dialog-act.vkaraisk.115)"/>
+      <nite:child href="TS3005a.A.words.xml#id(TS3005a.A.words888)"/>
+   </dsfl>
+   <dsfl nite:id="TS3005a.A.disfluency.alex.103">
+      <nite:pointer role="dsfl-type"  href="dsfl-types.xml#id(ami_dsfl_5)"/>
+      <nite:pointer role="da-ref"  href="TS3005a.A.dialog-act.xml#id(TS3005a.A.dialog-act.vkaraisk.116)"/>
+      <nite:child href="TS3005a.A.words.xml#id(TS3005a.A.words897)"/>
+   </dsfl>
+   <dsfl nite:id="TS3005a.A.disfluency.alex.104">
+      <nite:pointer role="dsfl-type"  href="dsfl-types.xml#id(ami_dsfl_5)"/>
+      <nite:pointer role="da-ref"  href="TS3005a.A.dialog-act.xml#id(TS3005a.A.dialog-act.vkaraisk.116)"/>
+      <nite:child href="TS3005a.A.words.xml#id(TS3005a.A.words904)"/>
+   </dsfl>
+   <dsfl nite:id="TS3005a.A.disfluency.alex.105">
+      <nite:pointer role="dsfl-type"  href="dsfl-types.xml#id(ami_dsfl_5)"/>
+      <nite:pointer role="da-ref"  href="TS3005a.A.dialog-act.xml#id(TS3005a.A.dialog-act.vkaraisk.116)"/>
+      <nite:child href="TS3005a.A.words.xml#id(TS3005a.A.words907)"/>
+   </dsfl>
+   <dsfl nite:id="TS3005a.A.disfluency.alex.106">
+      <nite:pointer role="dsfl-type"  href="dsfl-types.xml#id(ami_dsfl_5)"/>
+      <nite:pointer role="da-ref"  href="TS3005a.A.dialog-act.xml#id(TS3005a.A.dialog-act.vkaraisk.118)"/>
+      <nite:child href="TS3005a.A.words.xml#id(TS3005a.A.words920)"/>
+   </dsfl>
+   <dsfl nite:id="TS3005a.A.disfluency.alex.107">
+      <nite:pointer role="dsfl-type"  href="dsfl-types.xml#id(ami_dsfl_5)"/>
+      <nite:pointer role="da-ref"  href="TS3005a.A.dialog-act.xml#id(TS3005a.A.dialog-act.vkaraisk.120)"/>
+      <nite:child href="TS3005a.A.words.xml#id(TS3005a.A.words929)"/>
+   </dsfl>
+   <dsfl nite:id="TS3005a.A.disfluency.alex.108">
+      <nite:pointer role="dsfl-type"  href="dsfl-types.xml#id(ami_dsfl_5)"/>
+      <nite:pointer role="da-ref"  href="TS3005a.A.dialog-act.xml#id(TS3005a.A.dialog-act.vkaraisk.121)"/>
+      <nite:child href="TS3005a.A.words.xml#id(TS3005a.A.words942)"/>
+   </dsfl>
+   <dsfl nite:id="TS3005a.A.disfluency.alex.109">
+      <nite:pointer role="dsfl-type"  href="dsfl-types.xml#id(ami_dsfl_7)"/>
+      <nite:pointer role="da-ref"  href="TS3005a.A.dialog-act.xml#id(TS3005a.A.dialog-act.vkaraisk.122)"/>
+      <dsfl nite:id="TS3005a.A.disfluency.alex.110">
+         <nite:pointer role="dsfl-type"  href="dsfl-types.xml#id(ami_dsfl_19)"/>
+         <nite:pointer role="da-ref"  href="TS3005a.A.dialog-act.xml#id(TS3005a.A.dialog-act.vkaraisk.122)"/>
+         <nite:child href="TS3005a.A.words.xml#id(TS3005a.A.words956)"/>
+      </dsfl>
+      <dsfl nite:id="TS3005a.A.disfluency.alex.111">
+         <nite:pointer role="rm-ref"  href="TS3005a.A.disfluency.xml#id(TS3005a.A.disfluency.alex.110)"/>
+         <nite:pointer role="dsfl-type"  href="dsfl-types.xml#id(ami_dsfl_18)"/>
+         <nite:pointer role="da-ref"  href="TS3005a.A.dialog-act.xml#id(TS3005a.A.dialog-act.vkaraisk.122)"/>
+         <nite:pointer role="extension"  href="TS3005a.A.extension.xml#id(TS3005a.A.extension.alex.12)"/>
+      </dsfl>
+   </dsfl>
+   <dsfl nite:id="TS3005a.A.disfluency.alex.112">
+      <nite:pointer role="dsfl-type"  href="dsfl-types.xml#id(ami_dsfl_5)"/>
+      <nite:pointer role="da-ref"  href="TS3005a.A.dialog-act.xml#id(TS3005a.A.dialog-act.vkaraisk.123)"/>
+      <nite:child href="TS3005a.A.words.xml#id(TS3005a.A.words962)"/>
+   </dsfl>
+   <dsfl nite:id="TS3005a.A.disfluency.alex.113">
+      <nite:pointer role="dsfl-type"  href="dsfl-types.xml#id(ami_dsfl_5)"/>
+      <nite:pointer role="da-ref"  href="TS3005a.A.dialog-act.xml#id(TS3005a.A.dialog-act.vkaraisk.123)"/>
+      <nite:child href="TS3005a.A.words.xml#id(TS3005a.A.words968)"/>
+   </dsfl>
+   <dsfl nite:id="TS3005a.A.disfluency.alex.114">
+      <nite:pointer role="dsfl-type"  href="dsfl-types.xml#id(ami_dsfl_5)"/>
+      <nite:pointer role="da-ref"  href="TS3005a.A.dialog-act.xml#id(TS3005a.A.dialog-act.vkaraisk.123)"/>
+      <nite:child href="TS3005a.A.words.xml#id(TS3005a.A.words971)"/>
+   </dsfl>
+   <dsfl nite:id="TS3005a.A.disfluency.alex.115">
+      <nite:pointer role="dsfl-type"  href="dsfl-types.xml#id(ami_dsfl_5)"/>
+      <nite:pointer role="da-ref"  href="TS3005a.A.dialog-act.xml#id(TS3005a.A.dialog-act.vkaraisk.130)"/>
+      <nite:child href="TS3005a.A.words.xml#id(TS3005a.A.words1008)"/>
+   </dsfl>
+   <dsfl nite:id="TS3005a.A.disfluency.alex.116">
+      <nite:pointer role="dsfl-type"  href="dsfl-types.xml#id(ami_dsfl_5)"/>
+      <nite:pointer role="da-ref"  href="TS3005a.A.dialog-act.xml#id(TS3005a.A.dialog-act.vkaraisk.130)"/>
+      <nite:child href="TS3005a.A.words.xml#id(TS3005a.A.words1016)"/>
+   </dsfl>
+   <dsfl nite:id="TS3005a.A.disfluency.alex.117">
+      <nite:pointer role="dsfl-type"  href="dsfl-types.xml#id(ami_dsfl_5)"/>
+      <nite:pointer role="da-ref"  href="TS3005a.A.dialog-act.xml#id(TS3005a.A.dialog-act.vkaraisk.133)"/>
+      <nite:child href="TS3005a.A.words.xml#id(TS3005a.A.words1031)"/>
+   </dsfl>
+   <dsfl nite:id="TS3005a.A.disfluency.alex.118">
+      <nite:pointer role="dsfl-type"  href="dsfl-types.xml#id(ami_dsfl_5)"/>
+      <nite:pointer role="da-ref"  href="TS3005a.A.dialog-act.xml#id(TS3005a.A.dialog-act.vkaraisk.134)"/>
+      <nite:child href="TS3005a.A.words.xml#id(TS3005a.A.words1035)"/>
+   </dsfl>
+   <dsfl nite:id="TS3005a.A.disfluency.alex.119">
+      <nite:pointer role="dsfl-type"  href="dsfl-types.xml#id(ami_dsfl_5)"/>
+      <nite:pointer role="da-ref"  href="TS3005a.A.dialog-act.xml#id(TS3005a.A.dialog-act.vkaraisk.136)"/>
+      <nite:child href="TS3005a.A.words.xml#id(TS3005a.A.words1054)"/>
+   </dsfl>
+   <dsfl nite:id="TS3005a.A.disfluency.alex.120">
+      <nite:pointer role="dsfl-type"  href="dsfl-types.xml#id(ami_dsfl_2)"/>
+      <nite:pointer role="da-ref"  href="TS3005a.A.dialog-act.xml#id(TS3005a.A.dialog-act.vkaraisk.138)"/>
+      <nite:child href="TS3005a.A.words.xml#id(TS3005a.A.words1059)..id(TS3005a.A.words1063)"/>
+   </dsfl>
+   <dsfl nite:id="TS3005a.A.disfluency.alex.121">
+      <nite:pointer role="dsfl-type"  href="dsfl-types.xml#id(ami_dsfl_5)"/>
+      <nite:pointer role="da-ref"  href="TS3005a.A.dialog-act.xml#id(TS3005a.A.dialog-act.vkaraisk.144)"/>
+      <nite:child href="TS3005a.A.words.xml#id(TS3005a.A.words1102)"/>
+   </dsfl>
+   <dsfl nite:id="TS3005a.A.disfluency.alex.122">
+      <nite:pointer role="dsfl-type"  href="dsfl-types.xml#id(ami_dsfl_7)"/>
+      <nite:pointer role="da-ref"  href="TS3005a.A.dialog-act.xml#id(TS3005a.A.dialog-act.vkaraisk.144)"/>
+      <dsfl nite:id="TS3005a.A.disfluency.alex.123">
+         <nite:pointer role="dsfl-type"  href="dsfl-types.xml#id(ami_dsfl_19)"/>
+         <nite:pointer role="da-ref"  href="TS3005a.A.dialog-act.xml#id(TS3005a.A.dialog-act.vkaraisk.144)"/>
+         <nite:child href="TS3005a.A.words.xml#id(TS3005a.A.words1104)"/>
+      </dsfl>
+      <dsfl nite:id="TS3005a.A.disfluency.alex.124">
+         <nite:pointer role="rm-ref"  href="TS3005a.A.disfluency.xml#id(TS3005a.A.disfluency.alex.123)"/>
+         <nite:pointer role="dsfl-type"  href="dsfl-types.xml#id(ami_dsfl_18)"/>
+         <nite:pointer role="da-ref"  href="TS3005a.A.dialog-act.xml#id(TS3005a.A.dialog-act.vkaraisk.144)"/>
+         <nite:pointer role="extension"  href="TS3005a.A.extension.xml#id(TS3005a.A.extension.alex.13)"/>
+      </dsfl>
+   </dsfl>
+   <dsfl nite:id="TS3005a.A.disfluency.alex.125">
+      <nite:pointer role="dsfl-type"  href="dsfl-types.xml#id(ami_dsfl_5)"/>
+      <nite:pointer role="da-ref"  href="TS3005a.A.dialog-act.xml#id(TS3005a.A.dialog-act.vkaraisk.145)"/>
+      <nite:child href="TS3005a.A.words.xml#id(TS3005a.A.words1111)"/>
+   </dsfl>
+   <dsfl nite:id="TS3005a.A.disfluency.alex.126">
+      <nite:pointer role="dsfl-type"  href="dsfl-types.xml#id(ami_dsfl_5)"/>
+      <nite:pointer role="da-ref"  href="TS3005a.A.dialog-act.xml#id(TS3005a.A.dialog-act.vkaraisk.151)"/>
+      <nite:child href="TS3005a.A.words.xml#id(TS3005a.A.words1142)"/>
+   </dsfl>
+   <dsfl nite:id="TS3005a.A.disfluency.alex.127">
+      <nite:pointer role="dsfl-type"  href="dsfl-types.xml#id(ami_dsfl_5)"/>
+      <nite:pointer role="da-ref"  href="TS3005a.A.dialog-act.xml#id(TS3005a.A.dialog-act.vkaraisk.165)"/>
+      <nite:child href="TS3005a.A.words.xml#id(TS3005a.A.words1184)"/>
+   </dsfl>
+   <dsfl nite:id="TS3005a.A.disfluency.alex.128">
+      <nite:pointer role="dsfl-type"  href="dsfl-types.xml#id(ami_dsfl_5)"/>
+      <nite:pointer role="da-ref"  href="TS3005a.A.dialog-act.xml#id(TS3005a.A.dialog-act.vkaraisk.165)"/>
+      <nite:child href="TS3005a.A.words.xml#id(TS3005a.A.words1187)"/>
+   </dsfl>
+   <dsfl nite:id="TS3005a.A.disfluency.alex.129">
+      <nite:pointer role="dsfl-type"  href="dsfl-types.xml#id(ami_dsfl_5)"/>
+      <nite:pointer role="da-ref"  href="TS3005a.A.dialog-act.xml#id(TS3005a.A.dialog-act.vkaraisk.172)"/>
+      <nite:child href="TS3005a.A.words.xml#id(TS3005a.A.words1205)"/>
+   </dsfl>
+   <dsfl nite:id="TS3005a.A.disfluency.alex.130">
+      <nite:pointer role="dsfl-type"  href="dsfl-types.xml#id(ami_dsfl_5)"/>
+      <nite:pointer role="da-ref"  href="TS3005a.A.dialog-act.xml#id(TS3005a.A.dialog-act.vkaraisk.174)"/>
+      <nite:child href="TS3005a.A.words.xml#id(TS3005a.A.words1216)"/>
+   </dsfl>
+   <dsfl nite:id="TS3005a.A.disfluency.alex.131">
+      <nite:pointer role="dsfl-type"  href="dsfl-types.xml#id(ami_dsfl_7)"/>
+      <nite:pointer role="da-ref"  href="TS3005a.A.dialog-act.xml#id(TS3005a.A.dialog-act.vkaraisk.175)"/>
+      <dsfl nite:id="TS3005a.A.disfluency.alex.132">
+         <nite:pointer role="dsfl-type"  href="dsfl-types.xml#id(ami_dsfl_19)"/>
+         <nite:pointer role="da-ref"  href="TS3005a.A.dialog-act.xml#id(TS3005a.A.dialog-act.vkaraisk.175)"/>
+         <nite:child href="TS3005a.A.words.xml#id(TS3005a.A.words1241)"/>
+      </dsfl>
+      <dsfl nite:id="TS3005a.A.disfluency.alex.133">
+         <nite:pointer role="rm-ref"  href="TS3005a.A.disfluency.xml#id(TS3005a.A.disfluency.alex.132)"/>
+         <nite:pointer role="dsfl-type"  href="dsfl-types.xml#id(ami_dsfl_18)"/>
+         <nite:pointer role="da-ref"  href="TS3005a.A.dialog-act.xml#id(TS3005a.A.dialog-act.vkaraisk.175)"/>
+         <nite:pointer role="extension"  href="TS3005a.A.extension.xml#id(TS3005a.A.extension.alex.14)"/>
+      </dsfl>
+   </dsfl>
+   <dsfl nite:id="TS3005a.A.disfluency.alex.134">
+      <nite:pointer role="dsfl-type"  href="dsfl-types.xml#id(ami_dsfl_5)"/>
+      <nite:pointer role="da-ref"  href="TS3005a.A.dialog-act.xml#id(TS3005a.A.dialog-act.vkaraisk.176)"/>
+      <nite:child href="TS3005a.A.words.xml#id(TS3005a.A.words1248)"/>
+   </dsfl>
+   <dsfl nite:id="TS3005a.A.disfluency.alex.135">
+      <nite:pointer role="dsfl-type"  href="dsfl-types.xml#id(ami_dsfl_5)"/>
+      <nite:pointer role="da-ref"  href="TS3005a.A.dialog-act.xml#id(TS3005a.A.dialog-act.vkaraisk.176)"/>
+      <nite:child href="TS3005a.A.words.xml#id(TS3005a.A.words1255)"/>
+   </dsfl>
+   <dsfl nite:id="TS3005a.A.disfluency.alex.136">
+      <nite:pointer role="dsfl-type"  href="dsfl-types.xml#id(ami_dsfl_5)"/>
+      <nite:pointer role="da-ref"  href="TS3005a.A.dialog-act.xml#id(TS3005a.A.dialog-act.vkaraisk.179)"/>
+      <nite:child href="TS3005a.A.words.xml#id(TS3005a.A.words1279)"/>
+   </dsfl>
+   <dsfl nite:id="TS3005a.A.disfluency.alex.137">
+      <nite:pointer role="dsfl-type"  href="dsfl-types.xml#id(ami_dsfl_7)"/>
+      <nite:pointer role="da-ref"  href="TS3005a.A.dialog-act.xml#id(TS3005a.A.dialog-act.vkaraisk.180)"/>
+      <dsfl nite:id="TS3005a.A.disfluency.alex.138">
+         <nite:pointer role="dsfl-type"  href="dsfl-types.xml#id(ami_dsfl_19)"/>
+         <nite:pointer role="da-ref"  href="TS3005a.A.dialog-act.xml#id(TS3005a.A.dialog-act.vkaraisk.180)"/>
+         <nite:child href="TS3005a.A.words.xml#id(TS3005a.A.words1285)"/>
+      </dsfl>
+      <dsfl nite:id="TS3005a.A.disfluency.alex.139">
+         <nite:pointer role="rm-ref"  href="TS3005a.A.disfluency.xml#id(TS3005a.A.disfluency.alex.138)"/>
+         <nite:pointer role="dsfl-type"  href="dsfl-types.xml#id(ami_dsfl_18)"/>
+         <nite:pointer role="da-ref"  href="TS3005a.A.dialog-act.xml#id(TS3005a.A.dialog-act.vkaraisk.180)"/>
+         <nite:pointer role="extension"  href="TS3005a.A.extension.xml#id(TS3005a.A.extension.alex.15)"/>
+      </dsfl>
+   </dsfl>
+   <dsfl nite:id="TS3005a.A.disfluency.alex.140">
+      <nite:pointer role="dsfl-type"  href="dsfl-types.xml#id(ami_dsfl_5)"/>
+      <nite:pointer role="da-ref"  href="TS3005a.A.dialog-act.xml#id(TS3005a.A.dialog-act.vkaraisk.182)"/>
+      <nite:child href="TS3005a.A.words.xml#id(TS3005a.A.words1298)"/>
+   </dsfl>
+   <dsfl nite:id="TS3005a.A.disfluency.alex.141">
+      <nite:pointer role="dsfl-type"  href="dsfl-types.xml#id(ami_dsfl_5)"/>
+      <nite:pointer role="da-ref"  href="TS3005a.A.dialog-act.xml#id(TS3005a.A.dialog-act.vkaraisk.184)"/>
+      <nite:child href="TS3005a.A.words.xml#id(TS3005a.A.words1306)"/>
+   </dsfl>
+   <dsfl nite:id="TS3005a.A.disfluency.alex.142">
+      <nite:pointer role="dsfl-type"  href="dsfl-types.xml#id(ami_dsfl_5)"/>
+      <nite:pointer role="da-ref"  href="TS3005a.A.dialog-act.xml#id(TS3005a.A.dialog-act.vkaraisk.187)"/>
+      <nite:child href="TS3005a.A.words.xml#id(TS3005a.A.words1338)"/>
+   </dsfl>
+   <dsfl nite:id="TS3005a.A.disfluency.alex.143">
+      <nite:pointer role="dsfl-type"  href="dsfl-types.xml#id(ami_dsfl_3)"/>
+      <nite:pointer role="da-ref"  href="TS3005a.A.dialog-act.xml#id(TS3005a.A.dialog-act.vkaraisk.187)"/>
+      <nite:child href="TS3005a.A.words.xml#id(TS3005a.A.words1339)"/>
+   </dsfl>
+   <dsfl nite:id="TS3005a.A.disfluency.alex.144">
+      <nite:pointer role="dsfl-type"  href="dsfl-types.xml#id(ami_dsfl_5)"/>
+      <nite:pointer role="da-ref"  href="TS3005a.A.dialog-act.xml#id(TS3005a.A.dialog-act.vkaraisk.188)"/>
+      <nite:child href="TS3005a.A.words.xml#id(TS3005a.A.words1347)"/>
+   </dsfl>
+   <dsfl nite:id="TS3005a.A.disfluency.alex.145">
+      <nite:pointer role="dsfl-type"  href="dsfl-types.xml#id(ami_dsfl_12)"/>
+      <nite:pointer role="da-ref"  href="TS3005a.A.dialog-act.xml#id(TS3005a.A.dialog-act.vkaraisk.200)"/>
+      <dsfl nite:id="TS3005a.A.disfluency.alex.146">
+         <nite:pointer role="dsfl-type"  href="dsfl-types.xml#id(ami_dsfl_19)"/>
+         <nite:pointer role="da-ref"  href="TS3005a.A.dialog-act.xml#id(TS3005a.A.dialog-act.vkaraisk.200)"/>
+         <nite:child href="TS3005a.A.words.xml#id(TS3005a.A.words1393)"/>
+      </dsfl>
+      <dsfl nite:id="TS3005a.A.disfluency.alex.147">
+         <nite:pointer role="dsfl-type"  href="dsfl-types.xml#id(ami_dsfl_18)"/>
+         <nite:pointer role="da-ref"  href="TS3005a.A.dialog-act.xml#id(TS3005a.A.dialog-act.vkaraisk.200)"/>
+         <nite:child href="TS3005a.A.words.xml#id(TS3005a.A.words1394)"/>
+      </dsfl>
+   </dsfl>
+   <dsfl nite:id="TS3005a.A.disfluency.alex.148">
+      <nite:pointer role="dsfl-type"  href="dsfl-types.xml#id(ami_dsfl_5)"/>
+      <nite:pointer role="da-ref"  href="TS3005a.A.dialog-act.xml#id(TS3005a.A.dialog-act.vkaraisk.200)"/>
+      <nite:child href="TS3005a.A.words.xml#id(TS3005a.A.words1400)"/>
+   </dsfl>
+   <dsfl nite:id="TS3005a.A.disfluency.alex.149">
+      <nite:pointer role="dsfl-type"  href="dsfl-types.xml#id(ami_dsfl_5)"/>
+      <nite:pointer role="da-ref"  href="TS3005a.A.dialog-act.xml#id(TS3005a.A.dialog-act.vkaraisk.200)"/>
+      <nite:child href="TS3005a.A.words.xml#id(TS3005a.A.words1403)"/>
+   </dsfl>
+   <dsfl nite:id="TS3005a.A.disfluency.alex.150">
+      <nite:pointer role="dsfl-type"  href="dsfl-types.xml#id(ami_dsfl_5)"/>
+      <nite:pointer role="da-ref"  href="TS3005a.A.dialog-act.xml#id(TS3005a.A.dialog-act.vkaraisk.203)"/>
+      <nite:child href="TS3005a.A.words.xml#id(TS3005a.A.words1417)"/>
+   </dsfl>
+   <dsfl nite:id="TS3005a.A.disfluency.alex.151">
+      <nite:pointer role="dsfl-type"  href="dsfl-types.xml#id(ami_dsfl_5)"/>
+      <nite:pointer role="da-ref"  href="TS3005a.A.dialog-act.xml#id(TS3005a.A.dialog-act.vkaraisk.216)"/>
+      <nite:child href="TS3005a.A.words.xml#id(TS3005a.A.words1489)"/>
+   </dsfl>
+   <dsfl nite:id="TS3005a.A.disfluency.alex.152">
+      <nite:pointer role="dsfl-type"  href="dsfl-types.xml#id(ami_dsfl_5)"/>
+      <nite:pointer role="da-ref"  href="TS3005a.A.dialog-act.xml#id(TS3005a.A.dialog-act.vkaraisk.216)"/>
+      <nite:child href="TS3005a.A.words.xml#id(TS3005a.A.words1493)"/>
+   </dsfl>
+   <dsfl nite:id="TS3005a.A.disfluency.alex.153">
+      <nite:pointer role="dsfl-type"  href="dsfl-types.xml#id(ami_dsfl_12)"/>
+      <nite:pointer role="da-ref"  href="TS3005a.A.dialog-act.xml#id(TS3005a.A.dialog-act.vkaraisk.216)"/>
+      <dsfl nite:id="TS3005a.A.disfluency.alex.154">
+         <nite:pointer role="dsfl-type"  href="dsfl-types.xml#id(ami_dsfl_19)"/>
+         <nite:pointer role="da-ref"  href="TS3005a.A.dialog-act.xml#id(TS3005a.A.dialog-act.vkaraisk.216)"/>
+         <nite:child href="TS3005a.A.words.xml#id(TS3005a.A.words1510)"/>
+      </dsfl>
+      <dsfl nite:id="TS3005a.A.disfluency.alex.155">
+         <nite:pointer role="dsfl-type"  href="dsfl-types.xml#id(ami_dsfl_18)"/>
+         <nite:pointer role="da-ref"  href="TS3005a.A.dialog-act.xml#id(TS3005a.A.dialog-act.vkaraisk.216)"/>
+         <nite:child href="TS3005a.A.words.xml#id(TS3005a.A.words1511)"/>
+      </dsfl>
+   </dsfl>
+   <dsfl nite:id="TS3005a.A.disfluency.alex.156">
+      <nite:pointer role="dsfl-type"  href="dsfl-types.xml#id(ami_dsfl_5)"/>
+      <nite:pointer role="da-ref"  href="TS3005a.A.dialog-act.xml#id(TS3005a.A.dialog-act.vkaraisk.217)"/>
+      <nite:child href="TS3005a.A.words.xml#id(TS3005a.A.words1518)"/>
+   </dsfl>
+   <dsfl nite:id="TS3005a.A.disfluency.alex.157">
+      <nite:pointer role="dsfl-type"  href="dsfl-types.xml#id(ami_dsfl_5)"/>
+      <nite:pointer role="da-ref"  href="TS3005a.A.dialog-act.xml#id(TS3005a.A.dialog-act.vkaraisk.217)"/>
+      <nite:child href="TS3005a.A.words.xml#id(TS3005a.A.words1523)"/>
+   </dsfl>
+   <dsfl nite:id="TS3005a.A.disfluency.alex.158">
+      <nite:pointer role="dsfl-type"  href="dsfl-types.xml#id(ami_dsfl_5)"/>
+      <nite:pointer role="da-ref"  href="TS3005a.A.dialog-act.xml#id(TS3005a.A.dialog-act.vkaraisk.218)"/>
+      <nite:child href="TS3005a.A.words.xml#id(TS3005a.A.words1527)"/>
+   </dsfl>
+   <dsfl nite:id="TS3005a.A.disfluency.alex.159">
+      <nite:pointer role="dsfl-type"  href="dsfl-types.xml#id(ami_dsfl_5)"/>
+      <nite:pointer role="da-ref"  href="TS3005a.A.dialog-act.xml#id(TS3005a.A.dialog-act.vkaraisk.218)"/>
+      <nite:child href="TS3005a.A.words.xml#id(TS3005a.A.words1538)"/>
+   </dsfl>
+   <dsfl nite:id="TS3005a.A.disfluency.alex.160">
+      <nite:pointer role="dsfl-type"  href="dsfl-types.xml#id(ami_dsfl_5)"/>
+      <nite:pointer role="da-ref"  href="TS3005a.A.dialog-act.xml#id(TS3005a.A.dialog-act.vkaraisk.224)"/>
+      <nite:child href="TS3005a.A.words.xml#id(TS3005a.A.words1562)"/>
+   </dsfl>
+   <dsfl nite:id="TS3005a.A.disfluency.alex.161">
+      <nite:pointer role="dsfl-type"  href="dsfl-types.xml#id(ami_dsfl_5)"/>
+      <nite:pointer role="da-ref"  href="TS3005a.A.dialog-act.xml#id(TS3005a.A.dialog-act.vkaraisk.224)"/>
+      <nite:child href="TS3005a.A.words.xml#id(TS3005a.A.words1567)"/>
+   </dsfl>
+   <dsfl nite:id="TS3005a.A.disfluency.alex.162">
+      <nite:pointer role="dsfl-type"  href="dsfl-types.xml#id(ami_dsfl_5)"/>
+      <nite:pointer role="da-ref"  href="TS3005a.A.dialog-act.xml#id(TS3005a.A.dialog-act.vkaraisk.225)"/>
+      <nite:child href="TS3005a.A.words.xml#id(TS3005a.A.words1572)"/>
+   </dsfl>
+   <dsfl nite:id="TS3005a.A.disfluency.alex.163">
+      <nite:pointer role="dsfl-type"  href="dsfl-types.xml#id(ami_dsfl_12)"/>
+      <nite:pointer role="da-ref"  href="TS3005a.A.dialog-act.xml#id(TS3005a.A.dialog-act.vkaraisk.225)"/>
+      <dsfl nite:id="TS3005a.A.disfluency.alex.164">
+         <nite:pointer role="dsfl-type"  href="dsfl-types.xml#id(ami_dsfl_19)"/>
+         <nite:pointer role="da-ref"  href="TS3005a.A.dialog-act.xml#id(TS3005a.A.dialog-act.vkaraisk.225)"/>
+         <nite:child href="TS3005a.A.words.xml#id(TS3005a.A.words1576)"/>
+      </dsfl>
+      <dsfl nite:id="TS3005a.A.disfluency.alex.165">
+         <nite:pointer role="dsfl-type"  href="dsfl-types.xml#id(ami_dsfl_18)"/>
+         <nite:pointer role="da-ref"  href="TS3005a.A.dialog-act.xml#id(TS3005a.A.dialog-act.vkaraisk.225)"/>
+         <nite:child href="TS3005a.A.words.xml#id(TS3005a.A.words1578)"/>
+      </dsfl>
+      <dsfl nite:id="TS3005a.A.disfluency.alex.166">
+         <nite:pointer role="dsfl-type"  href="dsfl-types.xml#id(ami_dsfl_5)"/>
+         <nite:pointer role="da-ref"  href="TS3005a.A.dialog-act.xml#id(TS3005a.A.dialog-act.vkaraisk.225)"/>
+         <nite:child href="TS3005a.A.words.xml#id(TS3005a.A.words1577)"/>
+      </dsfl>
+   </dsfl>
+   <dsfl nite:id="TS3005a.A.disfluency.alex.167">
+      <nite:pointer role="dsfl-type"  href="dsfl-types.xml#id(ami_dsfl_5)"/>
+      <nite:pointer role="da-ref"  href="TS3005a.A.dialog-act.xml#id(TS3005a.A.dialog-act.vkaraisk.232)"/>
+      <nite:child href="TS3005a.A.words.xml#id(TS3005a.A.words1629)"/>
+   </dsfl>
+   <dsfl nite:id="TS3005a.A.disfluency.alex.168">
+      <nite:pointer role="dsfl-type"  href="dsfl-types.xml#id(ami_dsfl_12)"/>
+      <nite:pointer role="da-ref"  href="TS3005a.A.dialog-act.xml#id(TS3005a.A.dialog-act.vkaraisk.232)"/>
+      <dsfl nite:id="TS3005a.A.disfluency.alex.169">
+         <nite:pointer role="dsfl-type"  href="dsfl-types.xml#id(ami_dsfl_19)"/>
+         <nite:pointer role="da-ref"  href="TS3005a.A.dialog-act.xml#id(TS3005a.A.dialog-act.vkaraisk.232)"/>
+         <nite:child href="TS3005a.A.words.xml#id(TS3005a.A.words1635)"/>
+      </dsfl>
+      <dsfl nite:id="TS3005a.A.disfluency.alex.170">
+         <nite:pointer role="dsfl-type"  href="dsfl-types.xml#id(ami_dsfl_18)"/>
+         <nite:pointer role="da-ref"  href="TS3005a.A.dialog-act.xml#id(TS3005a.A.dialog-act.vkaraisk.232)"/>
+         <nite:child href="TS3005a.A.words.xml#id(TS3005a.A.words1636)"/>
+      </dsfl>
+   </dsfl>
+   <dsfl nite:id="TS3005a.A.disfluency.alex.171">
+      <nite:pointer role="dsfl-type"  href="dsfl-types.xml#id(ami_dsfl_5)"/>
+      <nite:pointer role="da-ref"  href="TS3005a.A.dialog-act.xml#id(TS3005a.A.dialog-act.vkaraisk.236)"/>
+      <nite:child href="TS3005a.A.words.xml#id(TS3005a.A.words1654)"/>
+   </dsfl>
+   <dsfl nite:id="TS3005a.A.disfluency.alex.172">
+      <nite:pointer role="dsfl-type"  href="dsfl-types.xml#id(ami_dsfl_5)"/>
+      <nite:pointer role="da-ref"  href="TS3005a.A.dialog-act.xml#id(TS3005a.A.dialog-act.vkaraisk.236)"/>
+      <nite:child href="TS3005a.A.words.xml#id(TS3005a.A.words1660)"/>
+   </dsfl>
+   <dsfl nite:id="TS3005a.A.disfluency.alex.173">
+      <nite:pointer role="dsfl-type"  href="dsfl-types.xml#id(ami_dsfl_5)"/>
+      <nite:pointer role="da-ref"  href="TS3005a.A.dialog-act.xml#id(TS3005a.A.dialog-act.vkaraisk.236)"/>
+      <nite:child href="TS3005a.A.words.xml#id(TS3005a.A.words1666)"/>
+   </dsfl>
+   <dsfl nite:id="TS3005a.A.disfluency.alex.174">
+      <nite:pointer role="dsfl-type"  href="dsfl-types.xml#id(ami_dsfl_5)"/>
+      <nite:pointer role="da-ref"  href="TS3005a.A.dialog-act.xml#id(TS3005a.A.dialog-act.vkaraisk.237)"/>
+      <nite:child href="TS3005a.A.words.xml#id(TS3005a.A.words1672)"/>
+   </dsfl>
+   <dsfl nite:id="TS3005a.A.disfluency.alex.175">
+      <nite:pointer role="dsfl-type"  href="dsfl-types.xml#id(ami_dsfl_5)"/>
+      <nite:pointer role="da-ref"  href="TS3005a.A.dialog-act.xml#id(TS3005a.A.dialog-act.vkaraisk.237)"/>
+      <nite:child href="TS3005a.A.words.xml#id(TS3005a.A.words1678)"/>
+   </dsfl>
+   <dsfl nite:id="TS3005a.A.disfluency.alex.176">
+      <nite:pointer role="dsfl-type"  href="dsfl-types.xml#id(ami_dsfl_5)"/>
+      <nite:pointer role="da-ref"  href="TS3005a.A.dialog-act.xml#id(TS3005a.A.dialog-act.vkaraisk.237)"/>
+      <nite:child href="TS3005a.A.words.xml#id(TS3005a.A.words1685)"/>
+   </dsfl>
+   <dsfl nite:id="TS3005a.A.disfluency.alex.177">
+      <nite:pointer role="dsfl-type"  href="dsfl-types.xml#id(ami_dsfl_5)"/>
+      <nite:pointer role="da-ref"  href="TS3005a.A.dialog-act.xml#id(TS3005a.A.dialog-act.vkaraisk.238)"/>
+      <nite:child href="TS3005a.A.words.xml#id(TS3005a.A.words1699)"/>
+   </dsfl>
+   <dsfl nite:id="TS3005a.A.disfluency.alex.178">
+      <nite:pointer role="dsfl-type"  href="dsfl-types.xml#id(ami_dsfl_5)"/>
+      <nite:pointer role="da-ref"  href="TS3005a.A.dialog-act.xml#id(TS3005a.A.dialog-act.vkaraisk.239)"/>
+      <nite:child href="TS3005a.A.words.xml#id(TS3005a.A.words1703)"/>
+   </dsfl>
+   <dsfl nite:id="TS3005a.A.disfluency.alex.179">
+      <nite:pointer role="dsfl-type"  href="dsfl-types.xml#id(ami_dsfl_5)"/>
+      <nite:pointer role="da-ref"  href="TS3005a.A.dialog-act.xml#id(TS3005a.A.dialog-act.vkaraisk.240)"/>
+      <nite:child href="TS3005a.A.words.xml#id(TS3005a.A.words1712)"/>
+   </dsfl>
+   <dsfl nite:id="TS3005a.A.disfluency.alex.180">
+      <nite:pointer role="dsfl-type"  href="dsfl-types.xml#id(ami_dsfl_5)"/>
+      <nite:pointer role="da-ref"  href="TS3005a.A.dialog-act.xml#id(TS3005a.A.dialog-act.vkaraisk.243)"/>
+      <nite:child href="TS3005a.A.words.xml#id(TS3005a.A.words1730)"/>
+   </dsfl>
+   <dsfl nite:id="TS3005a.A.disfluency.alex.181">
+      <nite:pointer role="dsfl-type"  href="dsfl-types.xml#id(ami_dsfl_5)"/>
+      <nite:pointer role="da-ref"  href="TS3005a.A.dialog-act.xml#id(TS3005a.A.dialog-act.vkaraisk.243)"/>
+      <nite:child href="TS3005a.A.words.xml#id(TS3005a.A.words1736)"/>
+   </dsfl>
+   <dsfl nite:id="TS3005a.A.disfluency.alex.182">
+      <nite:pointer role="dsfl-type"  href="dsfl-types.xml#id(ami_dsfl_5)"/>
+      <nite:pointer role="da-ref"  href="TS3005a.A.dialog-act.xml#id(TS3005a.A.dialog-act.vkaraisk.249)"/>
+      <nite:child href="TS3005a.A.words.xml#id(TS3005a.A.words1768)"/>
+   </dsfl>
+</nite:root>

@@ -1,0 +1,326 @@
+<!-- Initial configuration settings for the AMI corpus. These settings are used to configure the NXT based annotation
+     tools for the structure of the AMI corpus.
+     
+     For more info on what the settings mean, see the nxtConfig.xml in the lib-directory of the NXT API release.
+     
+     D.R./J.K 2005.03.30 -->
+     
+<NXTConfig>
+
+<CSLConfig>
+    <!-- This section contains the configuration settings for the VideoLabeler tool -->
+    
+    <!-- CHANGE THIS SECTION FOR YOUR OWN METADATAFILES -->
+    <metadatafile file="AMI-metadata.xml" corpussettings="csl-cs-ami"   guisettings="csl-gs-ami"/>
+    <metadatafile file="Data/AMI/AMI-subword-metadata.xml" corpussettings="dac-cs-ami"   guisettings="dac-gs-default"/>
+    
+    <corpussettings
+        id="csl-cs-ami"
+        gloss="VideoLabeler settings for AMI corpus"
+        annotatorspecificcodings= "pose"
+    >
+        <layerinfo 
+            id="posturelayerinfo"
+            gloss="Example posture-target layer of AMI"
+            layername="posture-layer"
+            layerclass="net.sourceforge.nite.tools.videolabeler.LabelAnnotationLayer"
+            controlpanelclass="net.sourceforge.nite.tools.videolabeler.LabelTargetControlPanel"
+            codename="posture"
+            pointerrole="type"
+            labelattribute="name"
+        />
+    </corpussettings>
+   
+    <!-- Default gui settings -->
+    <guisettings
+        id="csl-gs-ami"
+        gloss="There are no guisettings needed for this tool"
+    />
+        
+    <!-- Config for emotion coding, added 2005.05.03 DR -->
+    <corpussettings
+        id="csl-emo-ami"
+        gloss="VideoLabeler settings for emotion coding on AMI corpus"
+        annotatorspecificcodings= "feeltrace"
+    >
+        <layerinfo
+            id="feeltracelayerinfo"
+            gloss="Annotation layer for Feeltrace"
+            layername="feeltrace-layer"
+            layerclass="net.sourceforge.nite.tools.videolabeler.FeeltraceAnnotationLayer"
+        
+            controlpanelclass="net.sourceforge.nite.tools.videolabeler.FeeltraceTargetControlPanel"
+            codename="emotion"
+            activationattribute="activation"
+            evaluationattribute="evaluation"
+            showlabels="true"
+            clickannotation="true"
+        />
+    </corpussettings>
+
+    <!-- Config for focus of attention coding, added 2005.05.03 DR -->
+    <corpussettings
+        id="csl-foa-ami"
+        gloss="VideoLabeler settings for foa on AMI corpus"
+        annotatorspecificcodings= "focus-of-attention"
+    >
+        <layerinfo
+            id="foalayerinfo"
+            gloss="Annotation layer for FOA"
+            layername="foa-layer"
+            layerclass="net.sourceforge.nite.tools.videolabeler.LabelAnnotationLayer"
+        
+            controlpanelclass="net.sourceforge.nite.tools.videolabeler.LabelTargetControlPanel"
+            codename="foa"
+            pointerrole="type"
+            labelattribute="name"
+        />
+    </corpussettings>
+
+    <!-- Config for individual actions, added 18.07.2005 JK -->
+    <corpussettings
+        id="csl-ia-ami"
+        gloss="VideoLabeler settings for individual actions on AMI corpus"
+    >
+        <layerinfo
+            id="leglayerinfo"
+            gloss="Annotation layer for leg movement coding"
+            layername="movement-layer"
+            layerclass="net.sourceforge.nite.tools.videolabeler.LabelAnnotationLayer"
+            controlpanelclass="net.sourceforge.nite.tools.videolabeler.LabelTargetControlPanel"
+            codename="movement"
+            enumeratedattribute="type"
+        />
+        <layerinfo
+            id="handlayerinfo"
+            gloss="Annotation layer for hand movement coding"
+            layername="hand-layer"
+            layerclass="net.sourceforge.nite.tools.videolabeler.LabelAnnotationLayer"
+            controlpanelclass="net.sourceforge.nite.tools.videolabeler.LabelTargetControlPanel"
+            codename="hand"
+            enumeratedattribute="type"
+        />
+        <layerinfo
+            id="leglayerinfo"
+            gloss="Annotation layer for head movement coding"
+            layername="head-layer"
+            layerclass="net.sourceforge.nite.tools.videolabeler.LabelAnnotationLayer"
+            controlpanelclass="net.sourceforge.nite.tools.videolabeler.LabelTargetControlPanel"
+            codename="head"
+            enumeratedattribute="type"
+        />
+    </corpussettings>
+
+    <!-- emo settings, added 2005.05.03 DR -->
+    <guisettings
+        id                      = "csl-emo-gui"
+        gloss                   = "EMO settings"
+        applicationtitle        = "AMI EMO act coder"
+        showkeystrokes="label"
+        autokeystrokes="true"
+        continuous="false"
+        syncrate="50"
+    />
+    <!-- foa settings, added 2005.05.03 DR -->
+    <guisettings
+        id                      = "csl-foa-gui"
+        gloss                   = "FOA settings"
+        applicationtitle        = "AMI FOA act coder"
+        showkeystrokes="label"
+        autokeystrokes="true"
+        continuous="false"
+        syncrate="50"
+    />
+
+    <!-- individual action settings, added 18.07.2005 JK -->
+    <guisettings
+        id                      = "csl-ia-gui"
+        gloss                   = "IA settings"
+        applicationtitle        = "AMI Individual Action Coder"
+        showkeystrokes="label"
+        autokeystrokes="true"
+        continuous="false"
+        syncrate="50"
+    />
+
+</CSLConfig>
+
+<DACoderConfig>
+    <!-- This section contains the configuration settings for the AMI DACoder and NECoder tools -->
+
+
+    <!-- Corpus settings for the AMI Pilot corpus -->
+    <corpussettings
+        id                      = "dac-cs-ami"
+        gloss                   = "The corpus settings for the dialogue act coder for the AMI corpus"
+        
+        segmentationelementname = "segment"
+        segmenttextdelegateclassname = "AMISegmentToTextDelegate"
+        transcriptionlayername  = "words-layer"
+        transcriptiondelegateclassname = "net.sourceforge.nite.gui.util.AMITranscriptionToTextDelegate"
+        
+        daelementname           = "dact"
+        daontology              = "da-types"
+        daroot                  = "cmrda"
+        datyperole              = "da-aspect"
+        dagloss                 = "gloss"
+        
+        apelementname           = "adjacency-pair"
+        apontology              = "ap-types"
+        aproot                  = "apt_0"
+        defaultaptype           = "apt_1"
+        aptyperole              = "type"
+        apsourcerole            = "source"
+        aptargetrole            = "target"
+
+        nenesting               = "true"
+        neelementname           = "named-entity"
+        neontology              = "ne-types"
+        neroot                  = "ne_0"
+        nenameattribute         = "name"
+        netyperole              = "type"
+        abbrevattribute         = "abbrev"
+
+        nsannotatorlayer = "ne-layer"
+        nscommonlayer = "words-layer"
+        extracodings = "segments"
+        
+        annotatorspecificcodings = "dialog-act;adjacency-pairs;nees"
+    />    
+
+    <!-- Corpus settings for the AMI Pilot corpus -->
+    <corpussettings
+        id                      = "exec-cs-ami"
+        gloss                   = "The corpus settings for the executive summary for the AMI corpus"
+        
+        segmentationelementname = "segment"
+        transcriptionlayername  = "words-layer"
+        transcriptiondelegateclassname = "net.sourceforge.nite.gui.util.AMITranscriptionToTextDelegate"
+
+        
+        daelementname           = "dact"
+        daontology              = "da-types"
+        daroot                  = "cmrda"
+        datyperole              = "da-aspect"
+        dagloss                 = "gloss"
+        
+        apelementname           = "adjacency-pair"
+        apontology              = "ap-types"
+        aproot                  = "apt_0"
+        defaultaptype           = "apt_1"
+        aptyperole              = "type"
+        apsourcerole            = "source"
+        aptargetrole            = "target"
+
+        nenesting               = "true"
+        neelementname           = "dact"
+        neontology              = ""
+        neroot                  = ""
+        nenameattribute         = "name"
+        netyperole              = ""
+        abbrevattribute         = ""
+        
+        nsannotatorlayer = "extsumm-layer"
+        nscommonlayer = "da-layer"
+        extracodings = "segments"
+
+        annotatorspecificcodings = "extsumm"
+    />    
+
+    <!-- Corpus settings for the AMI Pilot corpus -->
+    <!-- overloads nonspanning display for Dialogue Acts -->
+    <corpussettings
+        id                      = "dact-cs-ami"
+        gloss                   = "The corpus settings for the executive summary for the AMI corpus"
+        
+        segmentationelementname = "segment"
+        transcriptionlayername  = "words-layer"
+        transcriptiondelegateclassname = "net.sourceforge.nite.gui.util.AMITranscriptionToTextDelegate"
+
+        
+        daelementname           = "dact"
+        daontology              = "da-types"
+        daroot                  = "cmrda"
+        datyperole              = "da-aspect"
+        dagloss                 = "gloss"
+        
+        apelementname           = "adjacency-pair"
+        apontology              = "ap-types"
+        aproot                  = "apt_0"
+        defaultaptype           = "apt_1"
+        aptyperole              = "type"
+        apsourcerole            = "source"
+        aptargetrole            = "target"
+
+        nenesting               = "true"
+        neelementname           = "dact"
+        neontology              = "da-types"
+        neroot                  = "cmrda"
+        nenameattribute         = "name"
+        netyperole              = "da-aspect"
+        abbrevattribute         = "gloss"
+        
+        nsannotatorlayer = "da-layer"
+        nscommonlayer = "words-layer"
+        extracodings = "segments"
+
+        annotatorspecificcodings = "extsumm"
+    />    
+
+    <guisettings
+        id                      = "dac-gs-ami"
+        gloss                   = "Default settings"
+        showapwindow            = "true"
+        showlogwindow           = "false"
+        applicationtitle        = "AMI Dialogue act coder"
+        wordlevelselectiontype  = "cross_segment_phrase"
+        multiagentselection     = "true"
+    />
+
+    <!-- Corpus settings for the AMI corpus - floor coder-specific! -->
+    <corpussettings
+        id                      = "fc-cs-ami"
+        gloss                   = "The corpus settings for the floor coder for the AMI corpus"
+        
+        segmentationelementname = "segment"
+        transcriptionlayername  = "words-layer"
+        transcriptiondelegateclassname = "net.sourceforge.nite.gui.util.ICSITranscriptionToTextDelegate"
+        daelementname           = "floor"
+        daontology              = "floor-types"
+        daroot                  = "f_0"
+        danameattribute         = "name"
+        datyperole              = "type"
+        dagloss                 = "gloss"
+
+        apelementname           = "adjacency-pair"
+        apontology              = "ap-types"
+        aproot                  = "apt_0"
+        defaultaptype           = "apt_1"
+        aptyperole              = "type"
+        apsourcerole            = "source"
+        aptargetrole            = "target"
+
+
+        nenesting               = "true"
+        neelementname           = "floor"
+        neontology              = "floor-types"
+        neroot                  = "f_0"
+        nenameattribute         = "name"
+        netyperole              = "type"
+        abbrevattribute         = "abbrev"
+        
+        annotatorspecificcodings = "floor"
+    />    
+
+    <!-- floor-coder specific -->
+    <guisettings
+        id                      = "fc-gs-ami"
+        gloss                   = "Floor coder settings"
+        showapwindow            = "false"
+        showlogwindow           = "true"
+        applicationtitle        = "AMI floor coder"
+    />
+    
+</DACoderConfig>
+
+</NXTConfig>

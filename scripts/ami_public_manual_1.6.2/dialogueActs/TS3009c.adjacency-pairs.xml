@@ -1,0 +1,977 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<nite:root nite:id="TS3009c.adjacency-pairs" xmlns:nite="http://nite.sourceforge.net/">
+   <adjacency-pair nite:id="TS3009c.adjacency-pairs.s9553330.2">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="TS3009c.A.dialog-act.xml#id(TS3009c.A.dialog-act.s9553330.3)"/>
+      <nite:pointer role="target"  href="TS3009c.D.dialog-act.xml#id(TS3009c.D.dialog-act.s9553330.3)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="TS3009c.adjacency-pairs.s9553330.3">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="TS3009c.A.dialog-act.xml#id(TS3009c.A.dialog-act.s9553330.4)"/>
+      <nite:pointer role="target"  href="TS3009c.D.dialog-act.xml#id(TS3009c.D.dialog-act.s9553330.4)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="TS3009c.adjacency-pairs.s9553330.4">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="TS3009c.A.dialog-act.xml#id(TS3009c.A.dialog-act.s9553330.5)"/>
+      <nite:pointer role="target"  href="TS3009c.D.dialog-act.xml#id(TS3009c.D.dialog-act.s9553330.5)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="TS3009c.adjacency-pairs.s9553330.5">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="TS3009c.A.dialog-act.xml#id(TS3009c.A.dialog-act.s9553330.25)"/>
+      <nite:pointer role="target"  href="TS3009c.D.dialog-act.xml#id(TS3009c.D.dialog-act.s9553330.7)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="TS3009c.adjacency-pairs.s9553330.6">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="TS3009c.A.dialog-act.xml#id(TS3009c.A.dialog-act.s9553330.31)"/>
+      <nite:pointer role="target"  href="TS3009c.D.dialog-act.xml#id(TS3009c.D.dialog-act.s9553330.8)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="TS3009c.adjacency-pairs.s9553330.7">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="TS3009c.D.dialog-act.xml#id(TS3009c.D.dialog-act.s9553330.18)"/>
+      <nite:pointer role="target"  href="TS3009c.C.dialog-act.xml#id(TS3009c.C.dialog-act.s9553330.14)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="TS3009c.adjacency-pairs.s9553330.8">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="TS3009c.A.dialog-act.xml#id(TS3009c.A.dialog-act.s9553330.37)"/>
+      <nite:pointer role="target"  href="TS3009c.D.dialog-act.xml#id(TS3009c.D.dialog-act.s9553330.28)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="TS3009c.adjacency-pairs.s9553330.9">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="TS3009c.A.dialog-act.xml#id(TS3009c.A.dialog-act.s9553330.39)"/>
+      <nite:pointer role="target"  href="TS3009c.D.dialog-act.xml#id(TS3009c.D.dialog-act.s9553330.33)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="TS3009c.adjacency-pairs.s9553330.10">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="TS3009c.D.dialog-act.xml#id(TS3009c.D.dialog-act.s9553330.34)"/>
+      <nite:pointer role="target"  href="TS3009c.A.dialog-act.xml#id(TS3009c.A.dialog-act.s9553330.41)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="TS3009c.adjacency-pairs.s9553330.11">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="TS3009c.B.dialog-act.xml#id(TS3009c.B.dialog-act.s9553330.6)"/>
+      <nite:pointer role="target"  href="TS3009c.C.dialog-act.xml#id(TS3009c.C.dialog-act.s9553330.20)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="TS3009c.adjacency-pairs.s9553330.12">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="TS3009c.A.dialog-act.xml#id(TS3009c.A.dialog-act.s9553330.51)"/>
+      <nite:pointer role="target"  href="TS3009c.D.dialog-act.xml#id(TS3009c.D.dialog-act.s9553330.60)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="TS3009c.adjacency-pairs.s9553330.13">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="TS3009c.D.dialog-act.xml#id(TS3009c.D.dialog-act.s9553330.63)"/>
+      <nite:pointer role="target"  href="TS3009c.A.dialog-act.xml#id(TS3009c.A.dialog-act.s9553330.55)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="TS3009c.adjacency-pairs.s9553330.14">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="TS3009c.D.dialog-act.xml#id(TS3009c.D.dialog-act.s9553330.73)"/>
+      <nite:pointer role="target"  href="TS3009c.A.dialog-act.xml#id(TS3009c.A.dialog-act.s9553330.59)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="TS3009c.adjacency-pairs.s9553330.15">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="TS3009c.A.dialog-act.xml#id(TS3009c.A.dialog-act.s9553330.58)"/>
+      <nite:pointer role="target"  href="TS3009c.C.dialog-act.xml#id(TS3009c.C.dialog-act.s9553330.29)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="TS3009c.adjacency-pairs.s9553330.16">
+      <nite:pointer role="source"  href="TS3009c.C.dialog-act.xml#id(TS3009c.C.dialog-act.s9553330.40)"/>
+      <nite:pointer role="target"  href="TS3009c.A.dialog-act.xml#id(TS3009c.A.dialog-act.s9553330.62)"/>
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_4)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="TS3009c.adjacency-pairs.s9553330.17">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="TS3009c.C.dialog-act.xml#id(TS3009c.C.dialog-act.s9553330.40)"/>
+      <nite:pointer role="target"  href="TS3009c.A.dialog-act.xml#id(TS3009c.A.dialog-act.s9553330.63)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="TS3009c.adjacency-pairs.s9553330.18">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="TS3009c.C.dialog-act.xml#id(TS3009c.C.dialog-act.s9553330.44)"/>
+      <nite:pointer role="target"  href="TS3009c.D.dialog-act.xml#id(TS3009c.D.dialog-act.s9553330.77)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="TS3009c.adjacency-pairs.s9553330.19">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="TS3009c.A.dialog-act.xml#id(TS3009c.A.dialog-act.s9553330.65)"/>
+      <nite:pointer role="target"  href="TS3009c.C.dialog-act.xml#id(TS3009c.C.dialog-act.s9553330.45)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="TS3009c.adjacency-pairs.s9553330.20">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="TS3009c.A.dialog-act.xml#id(TS3009c.A.dialog-act.s9553330.66)"/>
+      <nite:pointer role="target"  href="TS3009c.C.dialog-act.xml#id(TS3009c.C.dialog-act.s9553330.47)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="TS3009c.adjacency-pairs.s9553330.21">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="TS3009c.D.dialog-act.xml#id(TS3009c.D.dialog-act.s9553330.82)"/>
+      <nite:pointer role="target"  href="TS3009c.C.dialog-act.xml#id(TS3009c.C.dialog-act.s9553330.89)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="TS3009c.adjacency-pairs.s9553330.22">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="TS3009c.A.dialog-act.xml#id(TS3009c.A.dialog-act.s9553330.79)"/>
+      <nite:pointer role="target"  href="TS3009c.C.dialog-act.xml#id(TS3009c.C.dialog-act.s9553330.92)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="TS3009c.adjacency-pairs.s9553330.23">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="TS3009c.D.dialog-act.xml#id(TS3009c.D.dialog-act.s9553330.83)"/>
+      <nite:pointer role="target"  href="TS3009c.C.dialog-act.xml#id(TS3009c.C.dialog-act.s9553330.98)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="TS3009c.adjacency-pairs.s9553330.24">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="TS3009c.D.dialog-act.xml#id(TS3009c.D.dialog-act.s9553330.85)"/>
+      <nite:pointer role="target"  href="TS3009c.C.dialog-act.xml#id(TS3009c.C.dialog-act.s9553330.101)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="TS3009c.adjacency-pairs.s9553330.25">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="TS3009c.A.dialog-act.xml#id(TS3009c.A.dialog-act.s9553330.85)"/>
+      <nite:pointer role="target"  href="TS3009c.D.dialog-act.xml#id(TS3009c.D.dialog-act.s9553330.86)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="TS3009c.adjacency-pairs.s9553330.26">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="TS3009c.C.dialog-act.xml#id(TS3009c.C.dialog-act.s9553330.104)"/>
+      <nite:pointer role="target"  href="TS3009c.A.dialog-act.xml#id(TS3009c.A.dialog-act.s9553330.87)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="TS3009c.adjacency-pairs.s9553330.27">
+      <nite:pointer role="source"  href="TS3009c.D.dialog-act.xml#id(TS3009c.D.dialog-act.s9553330.102)"/>
+      <nite:pointer role="target"  href="TS3009c.C.dialog-act.xml#id(TS3009c.C.dialog-act.s9553330.113)"/>
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_3)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="TS3009c.adjacency-pairs.s9553330.28">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="TS3009c.C.dialog-act.xml#id(TS3009c.C.dialog-act.s9553330.113)"/>
+      <nite:pointer role="target"  href="TS3009c.D.dialog-act.xml#id(TS3009c.D.dialog-act.s9553330.104)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="TS3009c.adjacency-pairs.s9553330.29">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="TS3009c.B.dialog-act.xml#id(TS3009c.B.dialog-act.s9553330.24)"/>
+      <nite:pointer role="target"  href="TS3009c.D.dialog-act.xml#id(TS3009c.D.dialog-act.s9553330.105)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="TS3009c.adjacency-pairs.s9553330.30">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="TS3009c.A.dialog-act.xml#id(TS3009c.A.dialog-act.s9553330.105)"/>
+      <nite:pointer role="target"  href="TS3009c.D.dialog-act.xml#id(TS3009c.D.dialog-act.s9553330.107)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="TS3009c.adjacency-pairs.s9553330.31">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="TS3009c.C.dialog-act.xml#id(TS3009c.C.dialog-act.s9553330.133)"/>
+      <nite:pointer role="target"  href="TS3009c.A.dialog-act.xml#id(TS3009c.A.dialog-act.s9553330.110)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="TS3009c.adjacency-pairs.s9553330.32">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="TS3009c.C.dialog-act.xml#id(TS3009c.C.dialog-act.s9553330.146)"/>
+      <nite:pointer role="target"  href="TS3009c.D.dialog-act.xml#id(TS3009c.D.dialog-act.s9553330.110)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="TS3009c.adjacency-pairs.s9553330.33">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="TS3009c.C.dialog-act.xml#id(TS3009c.C.dialog-act.s9553330.146)"/>
+      <nite:pointer role="target"  href="TS3009c.B.dialog-act.xml#id(TS3009c.B.dialog-act.s9553330.30)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="TS3009c.adjacency-pairs.s9553330.34">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="TS3009c.B.dialog-act.xml#id(TS3009c.B.dialog-act.s9553330.41)"/>
+      <nite:pointer role="target"  href="TS3009c.C.dialog-act.xml#id(TS3009c.C.dialog-act.s9553330.149)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="TS3009c.adjacency-pairs.s9553330.35">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="TS3009c.B.dialog-act.xml#id(TS3009c.B.dialog-act.s9553330.41)"/>
+      <nite:pointer role="target"  href="TS3009c.D.dialog-act.xml#id(TS3009c.D.dialog-act.s9553330.111)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="TS3009c.adjacency-pairs.s9553330.36">
+      <nite:pointer role="source"  href="TS3009c.A.dialog-act.xml#id(TS3009c.A.dialog-act.s9553330.119)"/>
+      <nite:pointer role="target"  href="TS3009c.B.dialog-act.xml#id(TS3009c.B.dialog-act.s9553330.43)"/>
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_2)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="TS3009c.adjacency-pairs.s9553330.37">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="target"  href="TS3009c.B.dialog-act.xml#id(TS3009c.B.dialog-act.s9553330.45)"/>
+      <nite:pointer role="source"  href="TS3009c.D.dialog-act.xml#id(TS3009c.D.dialog-act.s9553330.114)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="TS3009c.adjacency-pairs.s9553330.38">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="TS3009c.A.dialog-act.xml#id(TS3009c.A.dialog-act.s9553330.123)"/>
+      <nite:pointer role="target"  href="TS3009c.B.dialog-act.xml#id(TS3009c.B.dialog-act.s9553330.46)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="TS3009c.adjacency-pairs.s9553330.39">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="TS3009c.B.dialog-act.xml#id(TS3009c.B.dialog-act.s9553330.47)"/>
+      <nite:pointer role="target"  href="TS3009c.D.dialog-act.xml#id(TS3009c.D.dialog-act.s9553330.119)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="TS3009c.adjacency-pairs.s9553330.40">
+      <nite:pointer role="source"  href="TS3009c.B.dialog-act.xml#id(TS3009c.B.dialog-act.s9553330.48)"/>
+      <nite:pointer role="target"  href="TS3009c.C.dialog-act.xml#id(TS3009c.C.dialog-act.s9553330.154)"/>
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_4)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="TS3009c.adjacency-pairs.s9553330.41">
+      <nite:pointer role="source"  href="TS3009c.C.dialog-act.xml#id(TS3009c.C.dialog-act.s9553330.155)"/>
+      <nite:pointer role="target"  href="TS3009c.B.dialog-act.xml#id(TS3009c.B.dialog-act.s9553330.59)"/>
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_3)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="TS3009c.adjacency-pairs.s9553330.42">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="TS3009c.B.dialog-act.xml#id(TS3009c.B.dialog-act.s9553330.59)"/>
+      <nite:pointer role="target"  href="TS3009c.C.dialog-act.xml#id(TS3009c.C.dialog-act.s9553330.156)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="TS3009c.adjacency-pairs.s9553330.43">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="TS3009c.D.dialog-act.xml#id(TS3009c.D.dialog-act.s9553330.124)"/>
+      <nite:pointer role="target"  href="TS3009c.B.dialog-act.xml#id(TS3009c.B.dialog-act.s9553330.63)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="TS3009c.adjacency-pairs.s9553330.44">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="TS3009c.B.dialog-act.xml#id(TS3009c.B.dialog-act.s9553330.63)"/>
+      <nite:pointer role="target"  href="TS3009c.D.dialog-act.xml#id(TS3009c.D.dialog-act.s9553330.125)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="TS3009c.adjacency-pairs.s9553330.45">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="TS3009c.A.dialog-act.xml#id(TS3009c.A.dialog-act.s9553330.127)"/>
+      <nite:pointer role="target"  href="TS3009c.D.dialog-act.xml#id(TS3009c.D.dialog-act.s9553330.128)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="TS3009c.adjacency-pairs.s9553330.46">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="TS3009c.A.dialog-act.xml#id(TS3009c.A.dialog-act.s9553330.127)"/>
+      <nite:pointer role="target"  href="TS3009c.B.dialog-act.xml#id(TS3009c.B.dialog-act.s9553330.65)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="TS3009c.adjacency-pairs.s9553330.47">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="TS3009c.A.dialog-act.xml#id(TS3009c.A.dialog-act.s9553330.129)"/>
+      <nite:pointer role="target"  href="TS3009c.D.dialog-act.xml#id(TS3009c.D.dialog-act.s9553330.129)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="TS3009c.adjacency-pairs.s9553330.48">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="TS3009c.C.dialog-act.xml#id(TS3009c.C.dialog-act.s9553330.159)"/>
+      <nite:pointer role="target"  href="TS3009c.D.dialog-act.xml#id(TS3009c.D.dialog-act.s9553330.131)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="TS3009c.adjacency-pairs.s9553330.49">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="TS3009c.C.dialog-act.xml#id(TS3009c.C.dialog-act.s9553330.160)"/>
+      <nite:pointer role="target"  href="TS3009c.D.dialog-act.xml#id(TS3009c.D.dialog-act.s9553330.132)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="TS3009c.adjacency-pairs.s9553330.50">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="TS3009c.C.dialog-act.xml#id(TS3009c.C.dialog-act.s9553330.160)"/>
+      <nite:pointer role="target"  href="TS3009c.A.dialog-act.xml#id(TS3009c.A.dialog-act.s9553330.131)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="TS3009c.adjacency-pairs.s9553330.51">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="TS3009c.A.dialog-act.xml#id(TS3009c.A.dialog-act.s9553330.132)"/>
+      <nite:pointer role="target"  href="TS3009c.C.dialog-act.xml#id(TS3009c.C.dialog-act.s9553330.162)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="TS3009c.adjacency-pairs.s9553330.52">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="TS3009c.B.dialog-act.xml#id(TS3009c.B.dialog-act.s9553330.69)"/>
+      <nite:pointer role="target"  href="TS3009c.A.dialog-act.xml#id(TS3009c.A.dialog-act.s9553330.133)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="TS3009c.adjacency-pairs.s9553330.53">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="TS3009c.C.dialog-act.xml#id(TS3009c.C.dialog-act.s9553330.164)"/>
+      <nite:pointer role="target"  href="TS3009c.B.dialog-act.xml#id(TS3009c.B.dialog-act.s9553330.70)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="TS3009c.adjacency-pairs.s9553330.54">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="TS3009c.B.dialog-act.xml#id(TS3009c.B.dialog-act.s9553330.71)"/>
+      <nite:pointer role="target"  href="TS3009c.C.dialog-act.xml#id(TS3009c.C.dialog-act.s9553330.166)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="TS3009c.adjacency-pairs.s9553330.55">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="TS3009c.D.dialog-act.xml#id(TS3009c.D.dialog-act.s9553330.135)"/>
+      <nite:pointer role="target"  href="TS3009c.B.dialog-act.xml#id(TS3009c.B.dialog-act.s9553330.78)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="TS3009c.adjacency-pairs.s9553330.56">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="TS3009c.A.dialog-act.xml#id(TS3009c.A.dialog-act.s9553330.137)"/>
+      <nite:pointer role="target"  href="TS3009c.C.dialog-act.xml#id(TS3009c.C.dialog-act.s9553330.168)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="TS3009c.adjacency-pairs.s9553330.57">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="TS3009c.A.dialog-act.xml#id(TS3009c.A.dialog-act.s9553330.137)"/>
+      <nite:pointer role="target"  href="TS3009c.C.dialog-act.xml#id(TS3009c.C.dialog-act.s9553330.169)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="TS3009c.adjacency-pairs.s9553330.58">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="TS3009c.A.dialog-act.xml#id(TS3009c.A.dialog-act.s9553330.141)"/>
+      <nite:pointer role="target"  href="TS3009c.B.dialog-act.xml#id(TS3009c.B.dialog-act.s9553330.82)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="TS3009c.adjacency-pairs.s9553330.59">
+      <nite:pointer role="source"  href="TS3009c.A.dialog-act.xml#id(TS3009c.A.dialog-act.s9553330.142)"/>
+      <nite:pointer role="target"  href="TS3009c.B.dialog-act.xml#id(TS3009c.B.dialog-act.s9553330.84)"/>
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_2)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="TS3009c.adjacency-pairs.s9553330.60">
+      <nite:pointer role="source"  href="TS3009c.A.dialog-act.xml#id(TS3009c.A.dialog-act.s9553330.142)"/>
+      <nite:pointer role="target"  href="TS3009c.C.dialog-act.xml#id(TS3009c.C.dialog-act.s9553330.174)"/>
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_2)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="TS3009c.adjacency-pairs.s9553330.61">
+      <nite:pointer role="source"  href="TS3009c.D.dialog-act.xml#id(TS3009c.D.dialog-act.s9553330.139)"/>
+      <nite:pointer role="target"  href="TS3009c.B.dialog-act.xml#id(TS3009c.B.dialog-act.s9553330.89)"/>
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_4)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="TS3009c.adjacency-pairs.s9553330.63">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="TS3009c.C.dialog-act.xml#id(TS3009c.C.dialog-act.s9553330.177)"/>
+      <nite:pointer role="target"  href="TS3009c.B.dialog-act.xml#id(TS3009c.B.dialog-act.s9553330.93)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="TS3009c.adjacency-pairs.s9553330.64">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="TS3009c.B.dialog-act.xml#id(TS3009c.B.dialog-act.s9553330.97)"/>
+      <nite:pointer role="target"  href="TS3009c.C.dialog-act.xml#id(TS3009c.C.dialog-act.s9553330.180)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="TS3009c.adjacency-pairs.s9553330.65">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="TS3009c.B.dialog-act.xml#id(TS3009c.B.dialog-act.s9553330.104)"/>
+      <nite:pointer role="target"  href="TS3009c.A.dialog-act.xml#id(TS3009c.A.dialog-act.s9553330.151)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="TS3009c.adjacency-pairs.s9553330.66">
+      <nite:pointer role="source"  href="TS3009c.B.dialog-act.xml#id(TS3009c.B.dialog-act.s9553330.104)"/>
+      <nite:pointer role="target"  href="TS3009c.D.dialog-act.xml#id(TS3009c.D.dialog-act.s9553330.145)"/>
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_4)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="TS3009c.adjacency-pairs.s9553330.67">
+      <nite:pointer role="source"  href="TS3009c.B.dialog-act.xml#id(TS3009c.B.dialog-act.s9553330.104)"/>
+      <nite:pointer role="target"  href="TS3009c.C.dialog-act.xml#id(TS3009c.C.dialog-act.s9553330.183)"/>
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_4)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="TS3009c.adjacency-pairs.s9553330.68">
+      <nite:pointer role="source"  href="TS3009c.D.dialog-act.xml#id(TS3009c.D.dialog-act.s9553330.145)"/>
+      <nite:pointer role="target"  href="TS3009c.A.dialog-act.xml#id(TS3009c.A.dialog-act.s9553330.152)"/>
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="TS3009c.adjacency-pairs.s9553330.69">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="TS3009c.B.dialog-act.xml#id(TS3009c.B.dialog-act.s9553330.106)"/>
+      <nite:pointer role="target"  href="TS3009c.A.dialog-act.xml#id(TS3009c.A.dialog-act.s9553330.154)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="TS3009c.adjacency-pairs.s9553330.70">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="TS3009c.A.dialog-act.xml#id(TS3009c.A.dialog-act.s9553330.156)"/>
+      <nite:pointer role="target"  href="TS3009c.B.dialog-act.xml#id(TS3009c.B.dialog-act.s9553330.111)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="TS3009c.adjacency-pairs.s9553330.71">
+      <nite:pointer role="source"  href="TS3009c.A.dialog-act.xml#id(TS3009c.A.dialog-act.s9553330.156)"/>
+      <nite:pointer role="target"  href="TS3009c.B.dialog-act.xml#id(TS3009c.B.dialog-act.s9553330.112)"/>
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_4)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="TS3009c.adjacency-pairs.s9553330.72">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="TS3009c.D.dialog-act.xml#id(TS3009c.D.dialog-act.s9553330.149)"/>
+      <nite:pointer role="target"  href="TS3009c.A.dialog-act.xml#id(TS3009c.A.dialog-act.s9553330.158)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="TS3009c.adjacency-pairs.s9553330.73">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="TS3009c.D.dialog-act.xml#id(TS3009c.D.dialog-act.s9553330.149)"/>
+      <nite:pointer role="target"  href="TS3009c.B.dialog-act.xml#id(TS3009c.B.dialog-act.s9553330.114)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="TS3009c.adjacency-pairs.s9553330.74">
+      <nite:pointer role="source"  href="TS3009c.D.dialog-act.xml#id(TS3009c.D.dialog-act.s9553330.152)"/>
+      <nite:pointer role="target"  href="TS3009c.B.dialog-act.xml#id(TS3009c.B.dialog-act.s9553330.122)"/>
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_3)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="TS3009c.adjacency-pairs.s9553330.75">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="TS3009c.B.dialog-act.xml#id(TS3009c.B.dialog-act.s9553330.122)"/>
+      <nite:pointer role="target"  href="TS3009c.D.dialog-act.xml#id(TS3009c.D.dialog-act.s9553330.153)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="TS3009c.adjacency-pairs.s9553330.76">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="TS3009c.D.dialog-act.xml#id(TS3009c.D.dialog-act.s9553330.152)"/>
+      <nite:pointer role="target"  href="TS3009c.B.dialog-act.xml#id(TS3009c.B.dialog-act.s9553330.123)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="TS3009c.adjacency-pairs.s9553330.77">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="TS3009c.D.dialog-act.xml#id(TS3009c.D.dialog-act.s9553330.154)"/>
+      <nite:pointer role="target"  href="TS3009c.A.dialog-act.xml#id(TS3009c.A.dialog-act.s9553330.170)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="TS3009c.adjacency-pairs.s9553330.78">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="TS3009c.D.dialog-act.xml#id(TS3009c.D.dialog-act.s9553330.154)"/>
+      <nite:pointer role="target"  href="TS3009c.C.dialog-act.xml#id(TS3009c.C.dialog-act.s9553330.191)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="TS3009c.adjacency-pairs.s9553330.79">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="TS3009c.D.dialog-act.xml#id(TS3009c.D.dialog-act.s9553330.157)"/>
+      <nite:pointer role="target"  href="TS3009c.A.dialog-act.xml#id(TS3009c.A.dialog-act.s9553330.173)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="TS3009c.adjacency-pairs.s9553330.80">
+      <nite:pointer role="source"  href="TS3009c.B.dialog-act.xml#id(TS3009c.B.dialog-act.s9553330.130)"/>
+      <nite:pointer role="target"  href="TS3009c.A.dialog-act.xml#id(TS3009c.A.dialog-act.s9553330.199)"/>
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_4)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="TS3009c.adjacency-pairs.s9553330.81">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="TS3009c.A.dialog-act.xml#id(TS3009c.A.dialog-act.s9553330.200)"/>
+      <nite:pointer role="target"  href="TS3009c.B.dialog-act.xml#id(TS3009c.B.dialog-act.s9553330.131)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="TS3009c.adjacency-pairs.s9553330.82">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="TS3009c.A.dialog-act.xml#id(TS3009c.A.dialog-act.s9553330.200)"/>
+      <nite:pointer role="target"  href="TS3009c.D.dialog-act.xml#id(TS3009c.D.dialog-act.s9553330.168)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="TS3009c.adjacency-pairs.s9553330.83">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="TS3009c.C.dialog-act.xml#id(TS3009c.C.dialog-act.s9553330.200)"/>
+      <nite:pointer role="target"  href="TS3009c.A.dialog-act.xml#id(TS3009c.A.dialog-act.s9553330.206)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="TS3009c.adjacency-pairs.s9553330.84">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="TS3009c.A.dialog-act.xml#id(TS3009c.A.dialog-act.s9553330.212)"/>
+      <nite:pointer role="target"  href="TS3009c.C.dialog-act.xml#id(TS3009c.C.dialog-act.s9553330.209)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="TS3009c.adjacency-pairs.s9553330.85">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="TS3009c.B.dialog-act.xml#id(TS3009c.B.dialog-act.s9553330.136)"/>
+      <nite:pointer role="target"  href="TS3009c.C.dialog-act.xml#id(TS3009c.C.dialog-act.s9553330.211)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="TS3009c.adjacency-pairs.s9553330.86">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="TS3009c.C.dialog-act.xml#id(TS3009c.C.dialog-act.s9553330.219)"/>
+      <nite:pointer role="target"  href="TS3009c.D.dialog-act.xml#id(TS3009c.D.dialog-act.s9553330.175)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="TS3009c.adjacency-pairs.s9553330.87">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="TS3009c.C.dialog-act.xml#id(TS3009c.C.dialog-act.s9553330.221)"/>
+      <nite:pointer role="target"  href="TS3009c.D.dialog-act.xml#id(TS3009c.D.dialog-act.s9553330.176)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="TS3009c.adjacency-pairs.s9553330.88">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="TS3009c.D.dialog-act.xml#id(TS3009c.D.dialog-act.s9553330.177)"/>
+      <nite:pointer role="target"  href="TS3009c.C.dialog-act.xml#id(TS3009c.C.dialog-act.s9553330.223)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="TS3009c.adjacency-pairs.s9553330.89">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="TS3009c.B.dialog-act.xml#id(TS3009c.B.dialog-act.s9553330.146)"/>
+      <nite:pointer role="target"  href="TS3009c.C.dialog-act.xml#id(TS3009c.C.dialog-act.s9553330.225)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="TS3009c.adjacency-pairs.s9553330.90">
+      <nite:pointer role="source"  href="TS3009c.D.dialog-act.xml#id(TS3009c.D.dialog-act.s9553330.180)"/>
+      <nite:pointer role="target"  href="TS3009c.C.dialog-act.xml#id(TS3009c.C.dialog-act.s9553330.226)"/>
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_3)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="TS3009c.adjacency-pairs.s9553330.91">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="TS3009c.C.dialog-act.xml#id(TS3009c.C.dialog-act.s9553330.226)"/>
+      <nite:pointer role="target"  href="TS3009c.D.dialog-act.xml#id(TS3009c.D.dialog-act.s9553330.181)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="TS3009c.adjacency-pairs.s9553330.92">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="TS3009c.C.dialog-act.xml#id(TS3009c.C.dialog-act.s9553330.229)"/>
+      <nite:pointer role="target"  href="TS3009c.B.dialog-act.xml#id(TS3009c.B.dialog-act.s9553330.149)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="TS3009c.adjacency-pairs.s9553330.93">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="TS3009c.D.dialog-act.xml#id(TS3009c.D.dialog-act.s9553330.186)"/>
+      <nite:pointer role="target"  href="TS3009c.C.dialog-act.xml#id(TS3009c.C.dialog-act.s9553330.232)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="TS3009c.adjacency-pairs.s9553330.94">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="TS3009c.A.dialog-act.xml#id(TS3009c.A.dialog-act.s9553330.222)"/>
+      <nite:pointer role="target"  href="TS3009c.C.dialog-act.xml#id(TS3009c.C.dialog-act.s9553330.235)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="TS3009c.adjacency-pairs.s9553330.95">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="TS3009c.A.dialog-act.xml#id(TS3009c.A.dialog-act.s9553330.222)"/>
+      <nite:pointer role="target"  href="TS3009c.D.dialog-act.xml#id(TS3009c.D.dialog-act.s9553330.188)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="TS3009c.adjacency-pairs.s9553330.96">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="TS3009c.C.dialog-act.xml#id(TS3009c.C.dialog-act.s9553330.243)"/>
+      <nite:pointer role="target"  href="TS3009c.D.dialog-act.xml#id(TS3009c.D.dialog-act.s9553330.197)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="TS3009c.adjacency-pairs.s9553330.97">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="TS3009c.C.dialog-act.xml#id(TS3009c.C.dialog-act.s9553330.244)"/>
+      <nite:pointer role="target"  href="TS3009c.D.dialog-act.xml#id(TS3009c.D.dialog-act.s9553330.198)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="TS3009c.adjacency-pairs.s9553330.98">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="TS3009c.C.dialog-act.xml#id(TS3009c.C.dialog-act.s9553330.255)"/>
+      <nite:pointer role="target"  href="TS3009c.A.dialog-act.xml#id(TS3009c.A.dialog-act.s9553330.230)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="TS3009c.adjacency-pairs.s9553330.99">
+      <nite:pointer role="source"  href="TS3009c.C.dialog-act.xml#id(TS3009c.C.dialog-act.s9553330.255)"/>
+      <nite:pointer role="target"  href="TS3009c.B.dialog-act.xml#id(TS3009c.B.dialog-act.s9553330.170)"/>
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_4)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="TS3009c.adjacency-pairs.s9553330.100">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="TS3009c.B.dialog-act.xml#id(TS3009c.B.dialog-act.s9553330.171)"/>
+      <nite:pointer role="target"  href="TS3009c.D.dialog-act.xml#id(TS3009c.D.dialog-act.s9553330.203)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="TS3009c.adjacency-pairs.s9553330.101">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="TS3009c.D.dialog-act.xml#id(TS3009c.D.dialog-act.s9553330.204)"/>
+      <nite:pointer role="target"  href="TS3009c.C.dialog-act.xml#id(TS3009c.C.dialog-act.s9553330.256)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="TS3009c.adjacency-pairs.s9553330.102">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="TS3009c.A.dialog-act.xml#id(TS3009c.A.dialog-act.s9553330.236)"/>
+      <nite:pointer role="target"  href="TS3009c.C.dialog-act.xml#id(TS3009c.C.dialog-act.s9553330.260)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="TS3009c.adjacency-pairs.s9553330.103">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="TS3009c.A.dialog-act.xml#id(TS3009c.A.dialog-act.s9553330.242)"/>
+      <nite:pointer role="target"  href="TS3009c.B.dialog-act.xml#id(TS3009c.B.dialog-act.s9553330.175)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="TS3009c.adjacency-pairs.s9553330.104">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="TS3009c.B.dialog-act.xml#id(TS3009c.B.dialog-act.s9553330.176)"/>
+      <nite:pointer role="target"  href="TS3009c.A.dialog-act.xml#id(TS3009c.A.dialog-act.s9553330.244)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="TS3009c.adjacency-pairs.s9553330.105">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="TS3009c.A.dialog-act.xml#id(TS3009c.A.dialog-act.s9553330.246)"/>
+      <nite:pointer role="target"  href="TS3009c.B.dialog-act.xml#id(TS3009c.B.dialog-act.s9553330.177)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="TS3009c.adjacency-pairs.s9553330.106">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="TS3009c.D.dialog-act.xml#id(TS3009c.D.dialog-act.s9553330.209)"/>
+      <nite:pointer role="target"  href="TS3009c.A.dialog-act.xml#id(TS3009c.A.dialog-act.s9553330.253)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="TS3009c.adjacency-pairs.s9553330.107">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="TS3009c.D.dialog-act.xml#id(TS3009c.D.dialog-act.s9553330.209)"/>
+      <nite:pointer role="target"  href="TS3009c.B.dialog-act.xml#id(TS3009c.B.dialog-act.s9553330.179)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="TS3009c.adjacency-pairs.s9553330.108">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="TS3009c.A.dialog-act.xml#id(TS3009c.A.dialog-act.s9553330.254)"/>
+      <nite:pointer role="target"  href="TS3009c.D.dialog-act.xml#id(TS3009c.D.dialog-act.s9553330.212)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="TS3009c.adjacency-pairs.s9553330.109">
+      <nite:pointer role="source"  href="TS3009c.A.dialog-act.xml#id(TS3009c.A.dialog-act.s9553330.254)"/>
+      <nite:pointer role="target"  href="TS3009c.B.dialog-act.xml#id(TS3009c.B.dialog-act.s9553330.181)"/>
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_4)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="TS3009c.adjacency-pairs.s9553330.110">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="TS3009c.B.dialog-act.xml#id(TS3009c.B.dialog-act.s9553330.183)"/>
+      <nite:pointer role="target"  href="TS3009c.A.dialog-act.xml#id(TS3009c.A.dialog-act.s9553330.256)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="TS3009c.adjacency-pairs.s9553330.111">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="TS3009c.D.dialog-act.xml#id(TS3009c.D.dialog-act.s9553330.213)"/>
+      <nite:pointer role="target"  href="TS3009c.C.dialog-act.xml#id(TS3009c.C.dialog-act.s9553330.264)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="TS3009c.adjacency-pairs.s9553330.112">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="TS3009c.D.dialog-act.xml#id(TS3009c.D.dialog-act.s9553330.213)"/>
+      <nite:pointer role="target"  href="TS3009c.B.dialog-act.xml#id(TS3009c.B.dialog-act.s9553330.184)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="TS3009c.adjacency-pairs.s9553330.113">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="TS3009c.B.dialog-act.xml#id(TS3009c.B.dialog-act.s9553330.185)"/>
+      <nite:pointer role="target"  href="TS3009c.D.dialog-act.xml#id(TS3009c.D.dialog-act.s9553330.215)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="TS3009c.adjacency-pairs.s9553330.114">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="TS3009c.C.dialog-act.xml#id(TS3009c.C.dialog-act.s9553330.265)"/>
+      <nite:pointer role="target"  href="TS3009c.D.dialog-act.xml#id(TS3009c.D.dialog-act.s9553330.216)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="TS3009c.adjacency-pairs.s9553330.115">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="TS3009c.A.dialog-act.xml#id(TS3009c.A.dialog-act.s9553330.258)"/>
+      <nite:pointer role="target"  href="TS3009c.D.dialog-act.xml#id(TS3009c.D.dialog-act.s9553330.220)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="TS3009c.adjacency-pairs.s9553330.116">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="TS3009c.D.dialog-act.xml#id(TS3009c.D.dialog-act.s9553330.222)"/>
+      <nite:pointer role="target"  href="TS3009c.C.dialog-act.xml#id(TS3009c.C.dialog-act.s9553330.269)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="TS3009c.adjacency-pairs.s9553330.117">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="TS3009c.B.dialog-act.xml#id(TS3009c.B.dialog-act.s9553330.190)"/>
+      <nite:pointer role="target"  href="TS3009c.D.dialog-act.xml#id(TS3009c.D.dialog-act.s9553330.223)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="TS3009c.adjacency-pairs.s9553330.118">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="TS3009c.D.dialog-act.xml#id(TS3009c.D.dialog-act.s9553330.227)"/>
+      <nite:pointer role="target"  href="TS3009c.A.dialog-act.xml#id(TS3009c.A.dialog-act.s9553330.272)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="TS3009c.adjacency-pairs.s9553330.119">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="TS3009c.D.dialog-act.xml#id(TS3009c.D.dialog-act.s9553330.228)"/>
+      <nite:pointer role="target"  href="TS3009c.C.dialog-act.xml#id(TS3009c.C.dialog-act.s9553330.282)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="TS3009c.adjacency-pairs.s9553330.120">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="TS3009c.A.dialog-act.xml#id(TS3009c.A.dialog-act.s9553330.283)"/>
+      <nite:pointer role="target"  href="TS3009c.B.dialog-act.xml#id(TS3009c.B.dialog-act.s9553330.198)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="TS3009c.adjacency-pairs.s9553330.121">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="TS3009c.A.dialog-act.xml#id(TS3009c.A.dialog-act.s9553330.287)"/>
+      <nite:pointer role="target"  href="TS3009c.B.dialog-act.xml#id(TS3009c.B.dialog-act.s9553330.201)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="TS3009c.adjacency-pairs.s9553330.122">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="TS3009c.adjacency-pairs.s9553330.123">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="TS3009c.adjacency-pairs.s9553330.124">
+      <nite:pointer role="source"  href="TS3009c.B.dialog-act.xml#id(TS3009c.B.dialog-act.s9553330.203)"/>
+      <nite:pointer role="target"  href="TS3009c.A.dialog-act.xml#id(TS3009c.A.dialog-act.s9553330.289)"/>
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_4)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="TS3009c.adjacency-pairs.s9553330.125">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="TS3009c.B.dialog-act.xml#id(TS3009c.B.dialog-act.s9553330.208)"/>
+      <nite:pointer role="target"  href="TS3009c.A.dialog-act.xml#id(TS3009c.A.dialog-act.s9553330.296)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="TS3009c.adjacency-pairs.s9553330.126">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="TS3009c.A.dialog-act.xml#id(TS3009c.A.dialog-act.s9553330.299)"/>
+      <nite:pointer role="target"  href="TS3009c.D.dialog-act.xml#id(TS3009c.D.dialog-act.s9553330.236)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="TS3009c.adjacency-pairs.s9553330.127">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="TS3009c.D.dialog-act.xml#id(TS3009c.D.dialog-act.s9553330.237)"/>
+      <nite:pointer role="target"  href="TS3009c.A.dialog-act.xml#id(TS3009c.A.dialog-act.s9553330.304)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="TS3009c.adjacency-pairs.s9553330.128">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="TS3009c.C.dialog-act.xml#id(TS3009c.C.dialog-act.s9553330.292)"/>
+      <nite:pointer role="target"  href="TS3009c.A.dialog-act.xml#id(TS3009c.A.dialog-act.s9553330.308)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="TS3009c.adjacency-pairs.s9553330.129">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="TS3009c.B.dialog-act.xml#id(TS3009c.B.dialog-act.s9553330.209)"/>
+      <nite:pointer role="target"  href="TS3009c.C.dialog-act.xml#id(TS3009c.C.dialog-act.s9553330.295)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="TS3009c.adjacency-pairs.s9553330.130">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="TS3009c.C.dialog-act.xml#id(TS3009c.C.dialog-act.s9553330.294)"/>
+      <nite:pointer role="target"  href="TS3009c.B.dialog-act.xml#id(TS3009c.B.dialog-act.s9553330.209)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="TS3009c.adjacency-pairs.s9553330.131">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="TS3009c.B.dialog-act.xml#id(TS3009c.B.dialog-act.s9553330.210)"/>
+      <nite:pointer role="target"  href="TS3009c.C.dialog-act.xml#id(TS3009c.C.dialog-act.s9553330.296)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="TS3009c.adjacency-pairs.s9553330.132">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="TS3009c.B.dialog-act.xml#id(TS3009c.B.dialog-act.s9553330.210)"/>
+      <nite:pointer role="target"  href="TS3009c.D.dialog-act.xml#id(TS3009c.D.dialog-act.s9553330.240)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="TS3009c.adjacency-pairs.s9553330.133">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="TS3009c.B.dialog-act.xml#id(TS3009c.B.dialog-act.s9553330.210)"/>
+      <nite:pointer role="target"  href="TS3009c.C.dialog-act.xml#id(TS3009c.C.dialog-act.s9553330.296)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="TS3009c.adjacency-pairs.s9553330.134">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="TS3009c.D.dialog-act.xml#id(TS3009c.D.dialog-act.s9553330.240)"/>
+      <nite:pointer role="target"  href="TS3009c.B.dialog-act.xml#id(TS3009c.B.dialog-act.s9553330.211)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="TS3009c.adjacency-pairs.s9553330.135">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="TS3009c.B.dialog-act.xml#id(TS3009c.B.dialog-act.s9553330.212)"/>
+      <nite:pointer role="target"  href="TS3009c.D.dialog-act.xml#id(TS3009c.D.dialog-act.s9553330.242)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="TS3009c.adjacency-pairs.s9553330.136">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="TS3009c.D.dialog-act.xml#id(TS3009c.D.dialog-act.s9553330.243)"/>
+      <nite:pointer role="target"  href="TS3009c.B.dialog-act.xml#id(TS3009c.B.dialog-act.s9553330.214)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="TS3009c.adjacency-pairs.s9553330.137">
+      <nite:pointer role="source"  href="TS3009c.B.dialog-act.xml#id(TS3009c.B.dialog-act.s9553330.216)"/>
+      <nite:pointer role="target"  href="TS3009c.C.dialog-act.xml#id(TS3009c.C.dialog-act.s9553330.299)"/>
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_4)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="TS3009c.adjacency-pairs.s9553330.138">
+      <nite:pointer role="source"  href="TS3009c.B.dialog-act.xml#id(TS3009c.B.dialog-act.s9553330.216)"/>
+      <nite:pointer role="target"  href="TS3009c.D.dialog-act.xml#id(TS3009c.D.dialog-act.s9553330.246)"/>
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_4)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="TS3009c.adjacency-pairs.s9553330.139">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="TS3009c.C.dialog-act.xml#id(TS3009c.C.dialog-act.s9553330.299)"/>
+      <nite:pointer role="target"  href="TS3009c.B.dialog-act.xml#id(TS3009c.B.dialog-act.s9553330.218)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="TS3009c.adjacency-pairs.s9553330.140">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="TS3009c.B.dialog-act.xml#id(TS3009c.B.dialog-act.s9553330.219)"/>
+      <nite:pointer role="target"  href="TS3009c.D.dialog-act.xml#id(TS3009c.D.dialog-act.s9553330.247)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="TS3009c.adjacency-pairs.s9553330.141">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="TS3009c.C.dialog-act.xml#id(TS3009c.C.dialog-act.s9553330.302)"/>
+      <nite:pointer role="target"  href="TS3009c.B.dialog-act.xml#id(TS3009c.B.dialog-act.s9553330.220)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="TS3009c.adjacency-pairs.s9553330.142">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="TS3009c.C.dialog-act.xml#id(TS3009c.C.dialog-act.s9553330.303)"/>
+      <nite:pointer role="target"  href="TS3009c.B.dialog-act.xml#id(TS3009c.B.dialog-act.s9553330.221)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="TS3009c.adjacency-pairs.s9553330.143">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="TS3009c.C.dialog-act.xml#id(TS3009c.C.dialog-act.s9553330.303)"/>
+      <nite:pointer role="target"  href="TS3009c.D.dialog-act.xml#id(TS3009c.D.dialog-act.s9553330.248)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="TS3009c.adjacency-pairs.s9553330.144">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="TS3009c.A.dialog-act.xml#id(TS3009c.A.dialog-act.s9553330.314)"/>
+      <nite:pointer role="target"  href="TS3009c.D.dialog-act.xml#id(TS3009c.D.dialog-act.s9553330.249)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="TS3009c.adjacency-pairs.s9553330.145">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="TS3009c.D.dialog-act.xml#id(TS3009c.D.dialog-act.s9553330.250)"/>
+      <nite:pointer role="target"  href="TS3009c.A.dialog-act.xml#id(TS3009c.A.dialog-act.s9553330.317)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="TS3009c.adjacency-pairs.s9553330.146">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="TS3009c.A.dialog-act.xml#id(TS3009c.A.dialog-act.s9553330.322)"/>
+      <nite:pointer role="target"  href="TS3009c.D.dialog-act.xml#id(TS3009c.D.dialog-act.s9553330.252)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="TS3009c.adjacency-pairs.s9553330.148">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="TS3009c.A.dialog-act.xml#id(TS3009c.A.dialog-act.s9553330.325)"/>
+      <nite:pointer role="target"  href="TS3009c.C.dialog-act.xml#id(TS3009c.C.dialog-act.s9553330.305)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="TS3009c.adjacency-pairs.s9553330.149">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="TS3009c.B.dialog-act.xml#id(TS3009c.B.dialog-act.s9553330.223)"/>
+      <nite:pointer role="target"  href="TS3009c.D.dialog-act.xml#id(TS3009c.D.dialog-act.s9553330.253)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="TS3009c.adjacency-pairs.s9553330.150">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="TS3009c.C.dialog-act.xml#id(TS3009c.C.dialog-act.s9553330.310)"/>
+      <nite:pointer role="target"  href="TS3009c.A.dialog-act.xml#id(TS3009c.A.dialog-act.s9553330.326)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="TS3009c.adjacency-pairs.s9553330.151">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="TS3009c.C.dialog-act.xml#id(TS3009c.C.dialog-act.s9553330.310)"/>
+      <nite:pointer role="target"  href="TS3009c.A.dialog-act.xml#id(TS3009c.A.dialog-act.s9553330.327)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="TS3009c.adjacency-pairs.s9553330.152">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="TS3009c.C.dialog-act.xml#id(TS3009c.C.dialog-act.s9553330.312)"/>
+      <nite:pointer role="target"  href="TS3009c.D.dialog-act.xml#id(TS3009c.D.dialog-act.s9553330.256)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="TS3009c.adjacency-pairs.s9553330.153">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="TS3009c.B.dialog-act.xml#id(TS3009c.B.dialog-act.s9553330.226)"/>
+      <nite:pointer role="target"  href="TS3009c.A.dialog-act.xml#id(TS3009c.A.dialog-act.s9553330.328)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="TS3009c.adjacency-pairs.s9553330.154">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="TS3009c.A.dialog-act.xml#id(TS3009c.A.dialog-act.s9553330.329)"/>
+      <nite:pointer role="target"  href="TS3009c.B.dialog-act.xml#id(TS3009c.B.dialog-act.s9553330.228)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="TS3009c.adjacency-pairs.s9553330.155">
+      <nite:pointer role="source"  href="TS3009c.B.dialog-act.xml#id(TS3009c.B.dialog-act.s9553330.226)"/>
+      <nite:pointer role="target"  href="TS3009c.C.dialog-act.xml#id(TS3009c.C.dialog-act.s9553330.315)"/>
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_4)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="TS3009c.adjacency-pairs.s9553330.156">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="TS3009c.B.dialog-act.xml#id(TS3009c.B.dialog-act.s9553330.229)"/>
+      <nite:pointer role="target"  href="TS3009c.A.dialog-act.xml#id(TS3009c.A.dialog-act.s9553330.332)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="TS3009c.adjacency-pairs.s9553330.157">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="TS3009c.A.dialog-act.xml#id(TS3009c.A.dialog-act.s9553330.331)"/>
+      <nite:pointer role="target"  href="TS3009c.B.dialog-act.xml#id(TS3009c.B.dialog-act.s9553330.231)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="TS3009c.adjacency-pairs.s9553330.158">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="TS3009c.D.dialog-act.xml#id(TS3009c.D.dialog-act.s9553330.259)"/>
+      <nite:pointer role="target"  href="TS3009c.C.dialog-act.xml#id(TS3009c.C.dialog-act.s9553330.318)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="TS3009c.adjacency-pairs.s9553330.159">
+      <nite:pointer role="source"  href="TS3009c.B.dialog-act.xml#id(TS3009c.B.dialog-act.s9553330.234)"/>
+      <nite:pointer role="target"  href="TS3009c.D.dialog-act.xml#id(TS3009c.D.dialog-act.s9553330.261)"/>
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_4)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="TS3009c.adjacency-pairs.s9553330.160">
+      <nite:pointer role="source"  href="TS3009c.B.dialog-act.xml#id(TS3009c.B.dialog-act.s9553330.235)"/>
+      <nite:pointer role="target"  href="TS3009c.A.dialog-act.xml#id(TS3009c.A.dialog-act.s9553330.336)"/>
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_2)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="TS3009c.adjacency-pairs.s9553330.161">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="TS3009c.C.dialog-act.xml#id(TS3009c.C.dialog-act.s9553330.325)"/>
+      <nite:pointer role="target"  href="TS3009c.D.dialog-act.xml#id(TS3009c.D.dialog-act.s9553330.265)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="TS3009c.adjacency-pairs.s9553330.162">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="TS3009c.D.dialog-act.xml#id(TS3009c.D.dialog-act.s9553330.266)"/>
+      <nite:pointer role="target"  href="TS3009c.C.dialog-act.xml#id(TS3009c.C.dialog-act.s9553330.328)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="TS3009c.adjacency-pairs.s9553330.163">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="TS3009c.B.dialog-act.xml#id(TS3009c.B.dialog-act.s9553330.241)"/>
+      <nite:pointer role="target"  href="TS3009c.C.dialog-act.xml#id(TS3009c.C.dialog-act.s9553330.334)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="TS3009c.adjacency-pairs.s9553330.164">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="target"  href="TS3009c.B.dialog-act.xml#id(TS3009c.B.dialog-act.s9553330.242)"/>
+      <nite:pointer role="source"  href="TS3009c.C.dialog-act.xml#id(TS3009c.C.dialog-act.s9553330.337)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="TS3009c.adjacency-pairs.s9553330.165">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="TS3009c.A.dialog-act.xml#id(TS3009c.A.dialog-act.s9553330.346)"/>
+      <nite:pointer role="target"  href="TS3009c.D.dialog-act.xml#id(TS3009c.D.dialog-act.s9553330.272)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="TS3009c.adjacency-pairs.s9553330.166">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="TS3009c.A.dialog-act.xml#id(TS3009c.A.dialog-act.s9553330.346)"/>
+      <nite:pointer role="target"  href="TS3009c.C.dialog-act.xml#id(TS3009c.C.dialog-act.s9553330.341)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="TS3009c.adjacency-pairs.s9553330.167">
+      <nite:pointer role="source"  href="TS3009c.A.dialog-act.xml#id(TS3009c.A.dialog-act.s9553330.346)"/>
+      <nite:pointer role="target"  href="TS3009c.C.dialog-act.xml#id(TS3009c.C.dialog-act.s9553330.342)"/>
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_2)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="TS3009c.adjacency-pairs.s9553330.168">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="TS3009c.A.dialog-act.xml#id(TS3009c.A.dialog-act.s9553330.346)"/>
+      <nite:pointer role="target"  href="TS3009c.C.dialog-act.xml#id(TS3009c.C.dialog-act.s9553330.343)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="TS3009c.adjacency-pairs.s9553330.169">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="TS3009c.A.dialog-act.xml#id(TS3009c.A.dialog-act.s9553330.346)"/>
+      <nite:pointer role="target"  href="TS3009c.C.dialog-act.xml#id(TS3009c.C.dialog-act.s9553330.344)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="TS3009c.adjacency-pairs.s9553330.170">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="TS3009c.C.dialog-act.xml#id(TS3009c.C.dialog-act.s9553330.348)"/>
+      <nite:pointer role="target"  href="TS3009c.B.dialog-act.xml#id(TS3009c.B.dialog-act.s9553330.250)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="TS3009c.adjacency-pairs.s9553330.171">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="TS3009c.C.dialog-act.xml#id(TS3009c.C.dialog-act.s9553330.361)"/>
+      <nite:pointer role="target"  href="TS3009c.A.dialog-act.xml#id(TS3009c.A.dialog-act.s9553330.359)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="TS3009c.adjacency-pairs.s9553330.172">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="TS3009c.C.dialog-act.xml#id(TS3009c.C.dialog-act.s9553330.361)"/>
+      <nite:pointer role="target"  href="TS3009c.D.dialog-act.xml#id(TS3009c.D.dialog-act.s9553330.288)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="TS3009c.adjacency-pairs.s9553330.173">
+      <nite:pointer role="source"  href="TS3009c.D.dialog-act.xml#id(TS3009c.D.dialog-act.s9553330.289)"/>
+      <nite:pointer role="target"  href="TS3009c.A.dialog-act.xml#id(TS3009c.A.dialog-act.s9553330.360)"/>
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_3)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="TS3009c.adjacency-pairs.s9553330.174">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="TS3009c.D.dialog-act.xml#id(TS3009c.D.dialog-act.s9553330.289)"/>
+      <nite:pointer role="target"  href="TS3009c.C.dialog-act.xml#id(TS3009c.C.dialog-act.s9553330.363)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="TS3009c.adjacency-pairs.s9553330.175">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="TS3009c.D.dialog-act.xml#id(TS3009c.D.dialog-act.s9553330.289)"/>
+      <nite:pointer role="target"  href="TS3009c.C.dialog-act.xml#id(TS3009c.C.dialog-act.s9553330.365)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="TS3009c.adjacency-pairs.s9553330.176">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="TS3009c.A.dialog-act.xml#id(TS3009c.A.dialog-act.s9553330.361)"/>
+      <nite:pointer role="target"  href="TS3009c.D.dialog-act.xml#id(TS3009c.D.dialog-act.s9553330.291)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="TS3009c.adjacency-pairs.s9553330.177">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="TS3009c.adjacency-pairs.s9553330.178">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="TS3009c.D.dialog-act.xml#id(TS3009c.D.dialog-act.s9553330.291)"/>
+      <nite:pointer role="target"  href="TS3009c.B.dialog-act.xml#id(TS3009c.B.dialog-act.s9553330.264)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="TS3009c.adjacency-pairs.s9553330.179">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="TS3009c.D.dialog-act.xml#id(TS3009c.D.dialog-act.s9553330.292)"/>
+      <nite:pointer role="target"  href="TS3009c.B.dialog-act.xml#id(TS3009c.B.dialog-act.s9553330.266)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="TS3009c.adjacency-pairs.s9553330.180">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="TS3009c.A.dialog-act.xml#id(TS3009c.A.dialog-act.s9553330.365)"/>
+      <nite:pointer role="target"  href="TS3009c.C.dialog-act.xml#id(TS3009c.C.dialog-act.s9553330.367)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="TS3009c.adjacency-pairs.s9553330.181">
+      <nite:pointer role="source"  href="TS3009c.C.dialog-act.xml#id(TS3009c.C.dialog-act.s9553330.367)"/>
+      <nite:pointer role="target"  href="TS3009c.A.dialog-act.xml#id(TS3009c.A.dialog-act.s9553330.368)"/>
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_2)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="TS3009c.adjacency-pairs.s9553330.182">
+      <nite:pointer role="source"  href="TS3009c.A.dialog-act.xml#id(TS3009c.A.dialog-act.s9553330.368)"/>
+      <nite:pointer role="target"  href="TS3009c.C.dialog-act.xml#id(TS3009c.C.dialog-act.s9553330.368)"/>
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_2)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="TS3009c.adjacency-pairs.s9553330.183">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="TS3009c.D.dialog-act.xml#id(TS3009c.D.dialog-act.s9553330.297)"/>
+      <nite:pointer role="target"  href="TS3009c.A.dialog-act.xml#id(TS3009c.A.dialog-act.s9553330.372)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="TS3009c.adjacency-pairs.s9553330.184">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="TS3009c.B.dialog-act.xml#id(TS3009c.B.dialog-act.s9553330.270)"/>
+      <nite:pointer role="target"  href="TS3009c.D.dialog-act.xml#id(TS3009c.D.dialog-act.s9553330.298)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="TS3009c.adjacency-pairs.s9553330.185">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="TS3009c.D.dialog-act.xml#id(TS3009c.D.dialog-act.s9553330.301)"/>
+      <nite:pointer role="target"  href="TS3009c.A.dialog-act.xml#id(TS3009c.A.dialog-act.s9553330.376)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="TS3009c.adjacency-pairs.s9553330.186">
+      <nite:pointer role="source"  href="TS3009c.C.dialog-act.xml#id(TS3009c.C.dialog-act.s9553330.377)"/>
+      <nite:pointer role="target"  href="TS3009c.D.dialog-act.xml#id(TS3009c.D.dialog-act.s9553330.304)"/>
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_4)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="TS3009c.adjacency-pairs.s9553330.187">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="TS3009c.C.dialog-act.xml#id(TS3009c.C.dialog-act.s9553330.377)"/>
+      <nite:pointer role="target"  href="TS3009c.A.dialog-act.xml#id(TS3009c.A.dialog-act.s9553330.379)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="TS3009c.adjacency-pairs.s9553330.188">
+      <nite:pointer role="source"  href="TS3009c.A.dialog-act.xml#id(TS3009c.A.dialog-act.s9553330.381)"/>
+      <nite:pointer role="target"  href="TS3009c.B.dialog-act.xml#id(TS3009c.B.dialog-act.s9553330.276)"/>
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_4)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="TS3009c.adjacency-pairs.s9553330.189">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="TS3009c.A.dialog-act.xml#id(TS3009c.A.dialog-act.s9553330.383)"/>
+      <nite:pointer role="target"  href="TS3009c.D.dialog-act.xml#id(TS3009c.D.dialog-act.s9553330.305)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="TS3009c.adjacency-pairs.s9553330.190">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="TS3009c.A.dialog-act.xml#id(TS3009c.A.dialog-act.s9553330.385)"/>
+      <nite:pointer role="target"  href="TS3009c.C.dialog-act.xml#id(TS3009c.C.dialog-act.s9553330.380)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="TS3009c.adjacency-pairs.s9553330.191">
+      <nite:pointer role="source"  href="TS3009c.C.dialog-act.xml#id(TS3009c.C.dialog-act.s9553330.381)"/>
+      <nite:pointer role="target"  href="TS3009c.D.dialog-act.xml#id(TS3009c.D.dialog-act.s9553330.308)"/>
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_2)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="TS3009c.adjacency-pairs.s9553330.192">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="TS3009c.C.dialog-act.xml#id(TS3009c.C.dialog-act.s9553330.385)"/>
+      <nite:pointer role="target"  href="TS3009c.D.dialog-act.xml#id(TS3009c.D.dialog-act.s9553330.311)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="TS3009c.adjacency-pairs.s9553330.193">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="TS3009c.D.dialog-act.xml#id(TS3009c.D.dialog-act.s9553330.314)"/>
+      <nite:pointer role="target"  href="TS3009c.A.dialog-act.xml#id(TS3009c.A.dialog-act.s9553330.394)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="TS3009c.adjacency-pairs.s9553330.194">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="TS3009c.B.dialog-act.xml#id(TS3009c.B.dialog-act.s9553330.279)"/>
+      <nite:pointer role="target"  href="TS3009c.C.dialog-act.xml#id(TS3009c.C.dialog-act.s9553330.389)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="TS3009c.adjacency-pairs.s9553330.195">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="TS3009c.C.dialog-act.xml#id(TS3009c.C.dialog-act.s9553330.389)"/>
+      <nite:pointer role="target"  href="TS3009c.B.dialog-act.xml#id(TS3009c.B.dialog-act.s9553330.280)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="TS3009c.adjacency-pairs.s9553330.196">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="TS3009c.A.dialog-act.xml#id(TS3009c.A.dialog-act.s9553330.396)"/>
+      <nite:pointer role="target"  href="TS3009c.D.dialog-act.xml#id(TS3009c.D.dialog-act.s9553330.315)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="TS3009c.adjacency-pairs.s9553330.197">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="TS3009c.C.dialog-act.xml#id(TS3009c.C.dialog-act.s9553330.396)"/>
+      <nite:pointer role="target"  href="TS3009c.D.dialog-act.xml#id(TS3009c.D.dialog-act.s9553330.321)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="TS3009c.adjacency-pairs.s9553330.198">
+      <nite:pointer role="source"  href="TS3009c.B.dialog-act.xml#id(TS3009c.B.dialog-act.s9553330.287)"/>
+      <nite:pointer role="target"  href="TS3009c.C.dialog-act.xml#id(TS3009c.C.dialog-act.s9553330.397)"/>
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_4)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="TS3009c.adjacency-pairs.s9553330.199">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="TS3009c.B.dialog-act.xml#id(TS3009c.B.dialog-act.s9553330.293)"/>
+      <nite:pointer role="target"  href="TS3009c.A.dialog-act.xml#id(TS3009c.A.dialog-act.s9553330.413)"/>
+   </adjacency-pair>
+</nite:root>

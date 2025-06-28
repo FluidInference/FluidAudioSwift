@@ -1,0 +1,975 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nite:root xmlns:nite="http://nite.sourceforge.net/" nite:id="natasa_IS1006b_B.nite:root.1">
+    <foa endtime="19.52" starttime="0.0" type="unspecified" nite:id="natasa_IS1006b_B.foa.1"/>
+    <foa endtime="19.88" starttime="19.52" type="place" place="table" nite:id="natasa_IS1006b_B.foa.2"/>
+    <foa endtime="20.76" starttime="19.88" type="person" role="PM" nxt_agent="A" nite:id="natasa_IS1006b_B.foa.3"/>
+    <foa endtime="21.96" starttime="20.76" type="place" place="table" nite:id="natasa_IS1006b_B.foa.4"/>
+    <foa endtime="22.48" starttime="21.96" type="person" role="PM" nxt_agent="A" nite:id="natasa_IS1006b_B.foa.5"/>
+    <foa endtime="24.68" starttime="22.48" type="unspecified" nite:id="natasa_IS1006b_B.foa.6"/>
+    <foa endtime="29.72" starttime="24.68" type="place" place="table" nite:id="natasa_IS1006b_B.foa.7"/>
+    <foa endtime="33.16" starttime="29.72" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.8"/>
+    <foa endtime="46.08" starttime="33.16" type="place" place="table" nite:id="natasa_IS1006b_B.foa.9"/>
+    <foa endtime="56.48" starttime="46.08" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.10"/>
+    <foa endtime="57.64" starttime="56.48" type="person" role="PM" nxt_agent="A" nite:id="natasa_IS1006b_B.foa.11"/>
+    <foa endtime="63.84" starttime="57.64" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.12"/>
+    <foa endtime="64.56" starttime="63.84" type="person" role="PM" nxt_agent="A" nite:id="natasa_IS1006b_B.foa.13"/>
+    <foa endtime="65.52" starttime="64.56" type="person" role="ID" nxt_agent="C" nite:id="natasa_IS1006b_B.foa.14"/>
+    <foa endtime="68.8" starttime="65.52" type="person" role="PM" nxt_agent="A" nite:id="natasa_IS1006b_B.foa.15"/>
+    <foa endtime="94.56" starttime="68.8" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.16"/>
+    <foa endtime="95.48" starttime="94.56" type="person" role="PM" nxt_agent="A" nite:id="natasa_IS1006b_B.foa.17"/>
+    <foa endtime="98.48" starttime="95.48" type="place" place="table" nite:id="natasa_IS1006b_B.foa.18"/>
+    <foa endtime="99.28" starttime="98.48" type="unspecified" nite:id="natasa_IS1006b_B.foa.19"/>
+    <foa endtime="106.0" starttime="99.28" type="place" place="table" nite:id="natasa_IS1006b_B.foa.20"/>
+    <foa endtime="117.36" starttime="106.0" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.21"/>
+    <foa endtime="118.08" starttime="117.36" type="person" role="PM" nxt_agent="A" nite:id="natasa_IS1006b_B.foa.22"/>
+    <foa endtime="118.96" starttime="118.08" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.23"/>
+    <foa endtime="120.28" starttime="118.96" type="person" role="PM" nxt_agent="A" nite:id="natasa_IS1006b_B.foa.24"/>
+    <foa endtime="121.04" starttime="120.28" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.25"/>
+    <foa endtime="121.76" starttime="121.04" type="person" role="ME" nxt_agent="D" nite:id="natasa_IS1006b_B.foa.26"/>
+    <foa endtime="125.76" starttime="121.76" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.27"/>
+    <foa endtime="126.72" starttime="125.76" type="place" place="table" nite:id="natasa_IS1006b_B.foa.28"/>
+    <foa endtime="130.92" starttime="126.72" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.29"/>
+    <foa endtime="133.04" starttime="130.92" type="place" place="table" nite:id="natasa_IS1006b_B.foa.30"/>
+    <foa endtime="140.0" starttime="133.04" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.31"/>
+    <foa endtime="140.36" starttime="140.0" type="unspecified" nite:id="natasa_IS1006b_B.foa.32"/>
+    <foa endtime="143.08" starttime="140.36" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.33"/>
+    <foa endtime="143.56" starttime="143.08" type="place" place="table" nite:id="natasa_IS1006b_B.foa.34"/>
+    <foa endtime="143.92" starttime="143.56" type="person" role="PM" nxt_agent="A" nite:id="natasa_IS1006b_B.foa.35"/>
+    <foa endtime="145.36" starttime="143.92" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.36"/>
+    <foa endtime="146.44" starttime="145.36" type="place" place="table" nite:id="natasa_IS1006b_B.foa.37"/>
+    <foa endtime="149.92" starttime="146.44" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.38"/>
+    <foa endtime="150.4" starttime="149.92" type="person" role="PM" nxt_agent="A" nite:id="natasa_IS1006b_B.foa.39"/>
+    <foa endtime="151.24" starttime="150.4" type="place" place="table" nite:id="natasa_IS1006b_B.foa.40"/>
+    <foa endtime="152.2" starttime="151.24" type="person" role="PM" nxt_agent="A" nite:id="natasa_IS1006b_B.foa.41"/>
+    <foa endtime="152.68" starttime="152.2" type="place" place="table" nite:id="natasa_IS1006b_B.foa.42"/>
+    <foa endtime="155.2" starttime="152.68" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.43"/>
+    <foa endtime="156.16" starttime="155.2" type="person" role="PM" nxt_agent="A" nite:id="natasa_IS1006b_B.foa.44"/>
+    <foa endtime="164.4" starttime="156.16" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.45"/>
+    <foa endtime="166.32" starttime="164.4" type="place" place="table" nite:id="natasa_IS1006b_B.foa.46"/>
+    <foa endtime="172.76" starttime="166.32" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.47"/>
+    <foa endtime="174.56" starttime="172.76" type="unspecified" nite:id="natasa_IS1006b_B.foa.48"/>
+    <foa endtime="174.88" starttime="174.56" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.49"/>
+    <foa endtime="176.92" starttime="174.88" type="person" role="ME" nxt_agent="D" nite:id="natasa_IS1006b_B.foa.50"/>
+    <foa endtime="177.48" starttime="176.92" type="unspecified" nite:id="natasa_IS1006b_B.foa.51"/>
+    <foa endtime="184.0" starttime="177.48" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.52"/>
+    <foa endtime="187.32" starttime="184.0" type="place" place="table" nite:id="natasa_IS1006b_B.foa.53"/>
+    <foa endtime="192.0" starttime="187.32" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.54"/>
+    <foa endtime="194.2" starttime="192.0" type="place" place="table" nite:id="natasa_IS1006b_B.foa.55"/>
+    <foa endtime="195.4" starttime="194.2" type="unspecified" nite:id="natasa_IS1006b_B.foa.56"/>
+    <foa endtime="200.36" starttime="195.4" type="place" place="table" nite:id="natasa_IS1006b_B.foa.57"/>
+    <foa endtime="207.08" starttime="200.36" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.58"/>
+    <foa endtime="214.76" starttime="207.08" type="place" place="table" nite:id="natasa_IS1006b_B.foa.59"/>
+    <foa endtime="218.92" starttime="214.76" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.60"/>
+    <foa endtime="220.84" starttime="218.92" type="place" place="table" nite:id="natasa_IS1006b_B.foa.61"/>
+    <foa endtime="230.72" starttime="220.84" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.62"/>
+    <foa endtime="246.2" starttime="230.72" type="place" place="table" nite:id="natasa_IS1006b_B.foa.63"/>
+    <foa endtime="264.76" starttime="246.2" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.64"/>
+    <foa endtime="265.24" starttime="264.76" type="person" role="ME" nxt_agent="D" nite:id="natasa_IS1006b_B.foa.65"/>
+    <foa endtime="266.08" starttime="265.24" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.66"/>
+    <foa endtime="266.72" starttime="266.08" type="place" place="table" nite:id="natasa_IS1006b_B.foa.67"/>
+    <foa endtime="266.96" starttime="266.72" type="person" role="PM" nxt_agent="A" nite:id="natasa_IS1006b_B.foa.68"/>
+    <foa endtime="270.04" starttime="266.96" type="unspecified" nite:id="natasa_IS1006b_B.foa.69"/>
+    <foa endtime="275.28" starttime="270.04" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.70"/>
+    <foa endtime="276.48" starttime="275.28" type="person" role="ME" nxt_agent="D" nite:id="natasa_IS1006b_B.foa.71"/>
+    <foa endtime="280.8" starttime="276.48" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.72"/>
+    <foa endtime="289.52" starttime="280.8" type="place" place="table" nite:id="natasa_IS1006b_B.foa.73"/>
+    <foa endtime="290.8" starttime="289.52" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.74"/>
+    <foa endtime="291.88" starttime="290.8" type="place" place="table" nite:id="natasa_IS1006b_B.foa.75"/>
+    <foa endtime="294.36" starttime="291.88" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.76"/>
+    <foa endtime="298.72" starttime="294.36" type="place" place="table" nite:id="natasa_IS1006b_B.foa.77"/>
+    <foa endtime="301.72" starttime="298.72" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.78"/>
+    <foa endtime="308.44" starttime="301.72" type="place" place="table" nite:id="natasa_IS1006b_B.foa.79"/>
+    <foa endtime="308.72" starttime="308.44" type="person" role="PM" nxt_agent="A" nite:id="natasa_IS1006b_B.foa.80"/>
+    <foa endtime="312.52" starttime="308.72" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.81"/>
+    <foa endtime="313.6" starttime="312.52" type="person" role="ME" nxt_agent="D" nite:id="natasa_IS1006b_B.foa.82"/>
+    <foa endtime="314.56" starttime="313.6" type="person" role="ID" nxt_agent="C" nite:id="natasa_IS1006b_B.foa.83"/>
+    <foa endtime="315.92" starttime="314.56" type="place" place="table" nite:id="natasa_IS1006b_B.foa.84"/>
+    <foa endtime="316.88" starttime="315.92" type="unspecified" nite:id="natasa_IS1006b_B.foa.85"/>
+    <foa endtime="323.76" starttime="316.88" type="place" place="table" nite:id="natasa_IS1006b_B.foa.86"/>
+    <foa endtime="327.04" starttime="323.76" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.87"/>
+    <foa endtime="328.12" starttime="327.04" type="place" place="table" nite:id="natasa_IS1006b_B.foa.88"/>
+    <foa endtime="328.96" starttime="328.12" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.89"/>
+    <foa endtime="345.2" starttime="328.96" type="place" place="table" nite:id="natasa_IS1006b_B.foa.90"/>
+    <foa endtime="351.48" starttime="345.2" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.91"/>
+    <foa endtime="351.96" starttime="351.48" type="person" role="ME" nxt_agent="D" nite:id="natasa_IS1006b_B.foa.92"/>
+    <foa endtime="357.8" starttime="351.96" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.93"/>
+    <foa endtime="365.12" starttime="357.8" type="place" place="table" nite:id="natasa_IS1006b_B.foa.94"/>
+    <foa endtime="369.28" starttime="365.12" type="place" place="table" nite:id="natasa_IS1006b_B.foa.95"/>
+    <foa endtime="370.96" starttime="369.28" type="person" role="ID" nxt_agent="C" nite:id="natasa_IS1006b_B.foa.96"/>
+    <foa endtime="373.16" starttime="370.96" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.97"/>
+    <foa endtime="373.4" starttime="373.16" type="person" role="ME" nxt_agent="D" nite:id="natasa_IS1006b_B.foa.98"/>
+    <foa endtime="373.64" starttime="373.4" type="unspecified" nite:id="natasa_IS1006b_B.foa.99"/>
+    <foa endtime="376.8" starttime="373.64" type="person" role="ID" nxt_agent="C" nite:id="natasa_IS1006b_B.foa.100"/>
+    <foa endtime="380.4" starttime="376.8" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.101"/>
+    <foa endtime="381.52" starttime="380.4" type="person" role="ME" nxt_agent="D" nite:id="natasa_IS1006b_B.foa.102"/>
+    <foa endtime="386.28" starttime="381.52" type="place" place="table" nite:id="natasa_IS1006b_B.foa.103"/>
+    <foa endtime="386.52" starttime="386.28" type="unspecified" nite:id="natasa_IS1006b_B.foa.104"/>
+    <foa endtime="388.08" starttime="386.52" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.105"/>
+    <foa endtime="388.44" starttime="388.08" type="person" role="ME" nxt_agent="D" nite:id="natasa_IS1006b_B.foa.106"/>
+    <foa endtime="388.8" starttime="388.44" type="person" role="PM" nxt_agent="A" nite:id="natasa_IS1006b_B.foa.107"/>
+    <foa endtime="389.36" starttime="388.8" type="person" role="ID" nxt_agent="C" nite:id="natasa_IS1006b_B.foa.108"/>
+    <foa endtime="390.32" starttime="389.36" type="person" role="PM" nxt_agent="A" nite:id="natasa_IS1006b_B.foa.109"/>
+    <foa endtime="391.28" starttime="390.32" type="person" role="ID" nxt_agent="C" nite:id="natasa_IS1006b_B.foa.110"/>
+    <foa endtime="393.64" starttime="391.28" type="person" role="PM" nxt_agent="A" nite:id="natasa_IS1006b_B.foa.111"/>
+    <foa endtime="405.12" starttime="393.64" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.112"/>
+    <foa endtime="412.24" starttime="405.12" type="place" place="table" nite:id="natasa_IS1006b_B.foa.113"/>
+    <foa endtime="417.6" starttime="412.24" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.114"/>
+    <foa endtime="418.52" starttime="417.6" type="person" role="ME" nxt_agent="D" nite:id="natasa_IS1006b_B.foa.115"/>
+    <foa endtime="425.84" starttime="418.52" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.116"/>
+    <foa endtime="426.52" starttime="425.84" type="person" role="ME" nxt_agent="D" nite:id="natasa_IS1006b_B.foa.117"/>
+    <foa endtime="428.12" starttime="426.52" type="place" place="table" nite:id="natasa_IS1006b_B.foa.118"/>
+    <foa endtime="428.48" starttime="428.12" type="unspecified" nite:id="natasa_IS1006b_B.foa.119"/>
+    <foa endtime="429.68" starttime="428.48" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.120"/>
+    <foa endtime="435.48" starttime="429.68" type="place" place="table" nite:id="natasa_IS1006b_B.foa.121"/>
+    <foa endtime="440.08" starttime="435.48" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.122"/>
+    <foa endtime="440.44" starttime="440.08" type="person" role="ME" nxt_agent="D" nite:id="natasa_IS1006b_B.foa.123"/>
+    <foa endtime="442.28" starttime="440.44" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.124"/>
+    <foa endtime="444.24" starttime="442.28" type="person" role="ME" nxt_agent="D" nite:id="natasa_IS1006b_B.foa.125"/>
+    <foa endtime="445.96" starttime="444.24" type="unspecified" nite:id="natasa_IS1006b_B.foa.126"/>
+    <foa endtime="446.2" starttime="445.96" type="person" role="PM" nxt_agent="A" nite:id="natasa_IS1006b_B.foa.127"/>
+    <foa endtime="446.92" starttime="446.2" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.128"/>
+    <foa endtime="448.0" starttime="446.92" type="person" role="ME" nxt_agent="D" nite:id="natasa_IS1006b_B.foa.129"/>
+    <foa endtime="451.48" starttime="448.0" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.130"/>
+    <foa endtime="451.84" starttime="451.48" type="person" role="ME" nxt_agent="D" nite:id="natasa_IS1006b_B.foa.131"/>
+    <foa endtime="452.2" starttime="451.84" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.132"/>
+    <foa endtime="453.68" starttime="452.2" type="person" role="ME" nxt_agent="D" nite:id="natasa_IS1006b_B.foa.133"/>
+    <foa endtime="454.56" starttime="453.68" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.134"/>
+    <foa endtime="457.36" starttime="454.56" type="person" role="ME" nxt_agent="D" nite:id="natasa_IS1006b_B.foa.135"/>
+    <foa endtime="458.4" starttime="457.36" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.136"/>
+    <foa endtime="459.2" starttime="458.4" type="person" role="ME" nxt_agent="D" nite:id="natasa_IS1006b_B.foa.137"/>
+    <foa endtime="459.68" starttime="459.2" type="unspecified" nite:id="natasa_IS1006b_B.foa.138"/>
+    <foa endtime="461.52" starttime="459.68" type="person" role="PM" nxt_agent="A" nite:id="natasa_IS1006b_B.foa.139"/>
+    <foa endtime="465.76" starttime="461.52" type="place" place="table" nite:id="natasa_IS1006b_B.foa.140"/>
+    <foa endtime="474.76" starttime="465.76" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.141"/>
+    <foa endtime="480.48" starttime="474.76" type="place" place="table" nite:id="natasa_IS1006b_B.foa.142"/>
+    <foa endtime="482.4" starttime="480.48" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.143"/>
+    <foa endtime="489.16" starttime="482.4" type="place" place="table" nite:id="natasa_IS1006b_B.foa.144"/>
+    <foa endtime="492.84" starttime="489.16" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.145"/>
+    <foa endtime="500.0" starttime="492.84" type="place" place="table" nite:id="natasa_IS1006b_B.foa.146"/>
+    <foa endtime="500.36" starttime="500.0" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.147"/>
+    <foa endtime="504.08" starttime="500.36" type="place" place="table" nite:id="natasa_IS1006b_B.foa.148"/>
+    <foa endtime="506.72" starttime="504.08" type="person" role="PM" nxt_agent="A" nite:id="natasa_IS1006b_B.foa.149"/>
+    <foa endtime="510.32" starttime="506.72" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.150"/>
+    <foa endtime="511.76" starttime="510.32" type="person" role="PM" nxt_agent="A" nite:id="natasa_IS1006b_B.foa.151"/>
+    <foa endtime="514.08" starttime="511.76" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.152"/>
+    <foa endtime="516.76" starttime="514.08" type="person" role="ME" nxt_agent="D" nite:id="natasa_IS1006b_B.foa.153"/>
+    <foa endtime="519.36" starttime="516.76" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.154"/>
+    <foa endtime="520.6" starttime="519.36" type="person" role="ME" nxt_agent="D" nite:id="natasa_IS1006b_B.foa.155"/>
+    <foa endtime="522.72" starttime="520.6" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.156"/>
+    <foa endtime="523.36" starttime="522.72" type="person" role="ME" nxt_agent="D" nite:id="natasa_IS1006b_B.foa.157"/>
+    <foa endtime="534.56" starttime="523.36" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.158"/>
+    <foa endtime="538.2" starttime="534.56" type="place" place="table" nite:id="natasa_IS1006b_B.foa.159"/>
+    <foa endtime="542.92" starttime="538.2" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.160"/>
+    <foa endtime="544.84" starttime="542.92" type="place" place="table" nite:id="natasa_IS1006b_B.foa.161"/>
+    <foa endtime="545.84" starttime="544.84" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.162"/>
+    <foa endtime="551.88" starttime="545.84" type="place" place="table" nite:id="natasa_IS1006b_B.foa.163"/>
+    <foa endtime="558.32" starttime="551.88" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.164"/>
+    <foa endtime="560.28" starttime="558.32" type="person" role="ME" nxt_agent="D" nite:id="natasa_IS1006b_B.foa.165"/>
+    <foa endtime="562.12" starttime="560.28" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.166"/>
+    <foa endtime="563.08" starttime="562.12" type="unspecified" nite:id="natasa_IS1006b_B.foa.167"/>
+    <foa endtime="563.44" starttime="563.08" type="person" role="PM" nxt_agent="A" nite:id="natasa_IS1006b_B.foa.168"/>
+    <foa endtime="565.28" starttime="563.44" type="unspecified" nite:id="natasa_IS1006b_B.foa.169"/>
+    <foa endtime="567.84" starttime="565.28" type="place" place="table" nite:id="natasa_IS1006b_B.foa.170"/>
+    <foa endtime="568.88" starttime="567.84" type="unspecified" nite:id="natasa_IS1006b_B.foa.171"/>
+    <foa endtime="587.48" starttime="568.88" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.172"/>
+    <foa endtime="587.84" starttime="587.48" type="person" role="ME" nxt_agent="D" nite:id="natasa_IS1006b_B.foa.173"/>
+    <foa endtime="603.16" starttime="587.84" type="place" place="table" nite:id="natasa_IS1006b_B.foa.174"/>
+    <foa endtime="603.72" starttime="603.16" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.175"/>
+    <foa endtime="605.04" starttime="603.72" type="person" role="ME" nxt_agent="D" nite:id="natasa_IS1006b_B.foa.176"/>
+    <foa endtime="609.52" starttime="605.04" type="place" place="table" nite:id="natasa_IS1006b_B.foa.177"/>
+    <foa endtime="609.68" starttime="609.52" type="person" role="PM" nxt_agent="A" nite:id="natasa_IS1006b_B.foa.178"/>
+    <foa endtime="610.28" starttime="609.68" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.179"/>
+    <foa endtime="611.12" starttime="610.28" type="person" role="ME" nxt_agent="D" nite:id="natasa_IS1006b_B.foa.180"/>
+    <foa endtime="613.16" starttime="611.12" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.181"/>
+    <foa endtime="613.72" starttime="613.16" type="unspecified" nite:id="natasa_IS1006b_B.foa.182"/>
+    <foa endtime="614.44" starttime="613.72" type="person" role="ME" nxt_agent="D" nite:id="natasa_IS1006b_B.foa.183"/>
+    <foa endtime="617.52" starttime="614.44" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.184"/>
+    <foa endtime="618.08" starttime="617.52" type="person" role="ME" nxt_agent="D" nite:id="natasa_IS1006b_B.foa.185"/>
+    <foa endtime="619.12" starttime="618.08" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.186"/>
+    <foa endtime="619.72" starttime="619.12" type="person" role="ME" nxt_agent="D" nite:id="natasa_IS1006b_B.foa.187"/>
+    <foa endtime="622.08" starttime="619.72" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.188"/>
+    <foa endtime="624.96" starttime="622.08" type="unspecified" nite:id="natasa_IS1006b_B.foa.189"/>
+    <foa endtime="628.0" starttime="624.96" type="place" place="table" nite:id="natasa_IS1006b_B.foa.190"/>
+    <foa endtime="628.36" starttime="628.0" type="person" role="PM" nxt_agent="A" nite:id="natasa_IS1006b_B.foa.191"/>
+    <foa endtime="628.96" starttime="628.36" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.192"/>
+    <foa endtime="629.32" starttime="628.96" type="person" role="PM" nxt_agent="A" nite:id="natasa_IS1006b_B.foa.193"/>
+    <foa endtime="629.96" starttime="629.32" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.194"/>
+    <foa endtime="630.8" starttime="629.96" type="person" role="PM" nxt_agent="A" nite:id="natasa_IS1006b_B.foa.195"/>
+    <foa endtime="631.64" starttime="630.8" type="person" role="ME" nxt_agent="D" nite:id="natasa_IS1006b_B.foa.196"/>
+    <foa endtime="632.12" starttime="631.64" type="unspecified" nite:id="natasa_IS1006b_B.foa.197"/>
+    <foa endtime="633.68" starttime="632.12" type="place" place="table" nite:id="natasa_IS1006b_B.foa.198"/>
+    <foa endtime="636.6" starttime="633.68" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.199"/>
+    <foa endtime="637.08" starttime="636.6" type="unspecified" nite:id="natasa_IS1006b_B.foa.200"/>
+    <foa endtime="637.48" starttime="637.08" type="person" role="ME" nxt_agent="D" nite:id="natasa_IS1006b_B.foa.201"/>
+    <foa endtime="638.08" starttime="637.48" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.202"/>
+    <foa endtime="638.8" starttime="638.08" type="person" role="ME" nxt_agent="D" nite:id="natasa_IS1006b_B.foa.203"/>
+    <foa endtime="648.92" starttime="638.8" type="place" place="table" nite:id="natasa_IS1006b_B.foa.204"/>
+    <foa endtime="650.2" starttime="648.92" type="person" role="ME" nxt_agent="D" nite:id="natasa_IS1006b_B.foa.205"/>
+    <foa endtime="650.68" starttime="650.2" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.206"/>
+    <foa endtime="651.12" starttime="650.68" type="person" role="ME" nxt_agent="D" nite:id="natasa_IS1006b_B.foa.207"/>
+    <foa endtime="652.6" starttime="651.12" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.208"/>
+    <foa endtime="656.08" starttime="652.6" type="person" role="ME" nxt_agent="D" nite:id="natasa_IS1006b_B.foa.209"/>
+    <foa endtime="656.56" starttime="656.08" type="unspecified" nite:id="natasa_IS1006b_B.foa.210"/>
+    <foa endtime="663.72" starttime="656.56" type="place" place="table" nite:id="natasa_IS1006b_B.foa.211"/>
+    <foa endtime="664.2" starttime="663.72" type="person" role="PM" nxt_agent="A" nite:id="natasa_IS1006b_B.foa.212"/>
+    <foa endtime="674.36" starttime="664.2" type="place" place="table" nite:id="natasa_IS1006b_B.foa.213"/>
+    <foa endtime="674.6" starttime="674.36" type="person" role="PM" nxt_agent="A" nite:id="natasa_IS1006b_B.foa.214"/>
+    <foa endtime="697.36" starttime="674.6" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.215"/>
+    <foa endtime="697.8" starttime="697.36" type="person" role="ID" nxt_agent="C" nite:id="natasa_IS1006b_B.foa.216"/>
+    <foa endtime="698.32" starttime="697.8" type="place" place="table" nite:id="natasa_IS1006b_B.foa.217"/>
+    <foa endtime="702.76" starttime="698.32" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.218"/>
+    <foa endtime="704.52" starttime="702.76" type="place" place="table" nite:id="natasa_IS1006b_B.foa.219"/>
+    <foa endtime="704.92" starttime="704.52" type="person" role="PM" nxt_agent="A" nite:id="natasa_IS1006b_B.foa.220"/>
+    <foa endtime="707.16" starttime="704.92" type="place" place="table" nite:id="natasa_IS1006b_B.foa.221"/>
+    <foa endtime="707.44" starttime="707.16" type="person" role="ID" nxt_agent="C" nite:id="natasa_IS1006b_B.foa.222"/>
+    <foa endtime="712.12" starttime="707.44" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.223"/>
+    <foa endtime="712.96" starttime="712.12" type="unspecified" nite:id="natasa_IS1006b_B.foa.224"/>
+    <foa endtime="717.52" starttime="712.96" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.225"/>
+    <foa endtime="719.0" starttime="717.52" type="unspecified" nite:id="natasa_IS1006b_B.foa.226"/>
+    <foa endtime="720.48" starttime="719.0" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.227"/>
+    <foa endtime="720.96" starttime="720.48" type="place" place="table" nite:id="natasa_IS1006b_B.foa.228"/>
+    <foa endtime="723.28" starttime="720.96" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.229"/>
+    <foa endtime="724.4" starttime="723.28" type="unspecified" nite:id="natasa_IS1006b_B.foa.230"/>
+    <foa endtime="728.16" starttime="724.4" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.231"/>
+    <foa endtime="728.64" starttime="728.16" type="place" place="table" nite:id="natasa_IS1006b_B.foa.232"/>
+    <foa endtime="729.76" starttime="728.64" type="unspecified" nite:id="natasa_IS1006b_B.foa.233"/>
+    <foa endtime="730.48" starttime="729.76" type="place" place="table" nite:id="natasa_IS1006b_B.foa.234"/>
+    <foa endtime="731.44" starttime="730.48" type="person" role="PM" nxt_agent="A" nite:id="natasa_IS1006b_B.foa.235"/>
+    <foa endtime="733.56" starttime="731.44" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.236"/>
+    <foa endtime="734.12" starttime="733.56" type="place" place="table" nite:id="natasa_IS1006b_B.foa.237"/>
+    <foa endtime="735.08" starttime="734.12" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.238"/>
+    <foa endtime="735.44" starttime="735.08" type="unspecified" nite:id="natasa_IS1006b_B.foa.239"/>
+    <foa endtime="736.96" starttime="735.44" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.240"/>
+    <foa endtime="737.68" starttime="736.96" type="place" place="table" nite:id="natasa_IS1006b_B.foa.241"/>
+    <foa endtime="738.28" starttime="737.68" type="person" role="ID" nxt_agent="C" nite:id="natasa_IS1006b_B.foa.242"/>
+    <foa endtime="739.4" starttime="738.28" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.243"/>
+    <foa endtime="740.32" starttime="739.4" type="person" role="ME" nxt_agent="D" nite:id="natasa_IS1006b_B.foa.244"/>
+    <foa endtime="740.68" starttime="740.32" type="person" role="ID" nxt_agent="C" nite:id="natasa_IS1006b_B.foa.245"/>
+    <foa endtime="741.68" starttime="740.68" type="person" role="ME" nxt_agent="D" nite:id="natasa_IS1006b_B.foa.246"/>
+    <foa endtime="742.0" starttime="741.68" type="unspecified" nite:id="natasa_IS1006b_B.foa.247"/>
+    <foa endtime="744.92" starttime="742.0" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.248"/>
+    <foa endtime="749.28" starttime="744.92" type="place" place="table" nite:id="natasa_IS1006b_B.foa.249"/>
+    <foa endtime="752.32" starttime="749.28" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.250"/>
+    <foa endtime="753.68" starttime="752.32" type="place" place="table" nite:id="natasa_IS1006b_B.foa.251"/>
+    <foa endtime="754.48" starttime="753.68" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.252"/>
+    <foa endtime="754.96" starttime="754.48" type="person" role="PM" nxt_agent="A" nite:id="natasa_IS1006b_B.foa.253"/>
+    <foa endtime="755.2" starttime="754.96" type="person" role="ID" nxt_agent="C" nite:id="natasa_IS1006b_B.foa.254"/>
+    <foa endtime="755.72" starttime="755.2" type="unspecified" nite:id="natasa_IS1006b_B.foa.255"/>
+    <foa endtime="756.36" starttime="755.72" type="person" role="ME" nxt_agent="D" nite:id="natasa_IS1006b_B.foa.256"/>
+    <foa endtime="757.48" starttime="756.36" type="unspecified" nite:id="natasa_IS1006b_B.foa.257"/>
+    <foa endtime="762.96" starttime="757.48" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.258"/>
+    <foa endtime="763.32" starttime="762.96" type="unspecified" nite:id="natasa_IS1006b_B.foa.259"/>
+    <foa endtime="764.24" starttime="763.32" type="person" role="ME" nxt_agent="D" nite:id="natasa_IS1006b_B.foa.260"/>
+    <foa endtime="764.72" starttime="764.24" type="person" role="PM" nxt_agent="A" nite:id="natasa_IS1006b_B.foa.261"/>
+    <foa endtime="765.32" starttime="764.72" type="place" place="table" nite:id="natasa_IS1006b_B.foa.262"/>
+    <foa endtime="765.68" starttime="765.32" type="person" role="ID" nxt_agent="C" nite:id="natasa_IS1006b_B.foa.263"/>
+    <foa endtime="768.32" starttime="765.68" type="person" role="ME" nxt_agent="D" nite:id="natasa_IS1006b_B.foa.264"/>
+    <foa endtime="768.6" starttime="768.32" type="person" role="ID" nxt_agent="C" nite:id="natasa_IS1006b_B.foa.265"/>
+    <foa endtime="768.84" starttime="768.6" type="person" role="PM" nxt_agent="A" nite:id="natasa_IS1006b_B.foa.266"/>
+    <foa endtime="769.28" starttime="768.84" type="person" role="ID" nxt_agent="C" nite:id="natasa_IS1006b_B.foa.267"/>
+    <foa endtime="769.56" starttime="769.28" type="person" role="ME" nxt_agent="D" nite:id="natasa_IS1006b_B.foa.268"/>
+    <foa endtime="771.08" starttime="769.56" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.269"/>
+    <foa endtime="771.8" starttime="771.08" type="person" role="PM" nxt_agent="A" nite:id="natasa_IS1006b_B.foa.270"/>
+    <foa endtime="772.32" starttime="771.8" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.271"/>
+    <foa endtime="773.28" starttime="772.32" type="person" role="ME" nxt_agent="D" nite:id="natasa_IS1006b_B.foa.272"/>
+    <foa endtime="775.4" starttime="773.28" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.273"/>
+    <foa endtime="777.68" starttime="775.4" type="person" role="ME" nxt_agent="D" nite:id="natasa_IS1006b_B.foa.274"/>
+    <foa endtime="777.92" starttime="777.68" type="person" role="PM" nxt_agent="A" nite:id="natasa_IS1006b_B.foa.275"/>
+    <foa endtime="778.52" starttime="777.92" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.276"/>
+    <foa endtime="779.24" starttime="778.52" type="person" role="PM" nxt_agent="A" nite:id="natasa_IS1006b_B.foa.277"/>
+    <foa endtime="783.12" starttime="779.24" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.278"/>
+    <foa endtime="784.96" starttime="783.12" type="person" role="ME" nxt_agent="D" nite:id="natasa_IS1006b_B.foa.279"/>
+    <foa endtime="786.04" starttime="784.96" type="unspecified" nite:id="natasa_IS1006b_B.foa.280"/>
+    <foa endtime="789.28" starttime="786.04" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.281"/>
+    <foa endtime="790.52" starttime="789.28" type="person" role="ME" nxt_agent="D" nite:id="natasa_IS1006b_B.foa.282"/>
+    <foa endtime="791.72" starttime="790.52" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.283"/>
+    <foa endtime="792.08" starttime="791.72" type="person" role="PM" nxt_agent="A" nite:id="natasa_IS1006b_B.foa.284"/>
+    <foa endtime="793.56" starttime="792.08" type="unspecified" nite:id="natasa_IS1006b_B.foa.285"/>
+    <foa endtime="793.8" starttime="793.56" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.286"/>
+    <foa endtime="794.16" starttime="793.8" type="person" role="ID" nxt_agent="C" nite:id="natasa_IS1006b_B.foa.287"/>
+    <foa endtime="796.08" starttime="794.16" type="person" role="ME" nxt_agent="D" nite:id="natasa_IS1006b_B.foa.288"/>
+    <foa endtime="796.68" starttime="796.08" type="unspecified" nite:id="natasa_IS1006b_B.foa.289"/>
+    <foa endtime="797.76" starttime="796.68" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.290"/>
+    <foa endtime="798.04" starttime="797.76" type="person" role="PM" nxt_agent="A" nite:id="natasa_IS1006b_B.foa.291"/>
+    <foa endtime="799.48" starttime="798.04" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.292"/>
+    <foa endtime="799.84" starttime="799.48" type="unspecified" nite:id="natasa_IS1006b_B.foa.293"/>
+    <foa endtime="800.48" starttime="799.84" type="person" role="ME" nxt_agent="D" nite:id="natasa_IS1006b_B.foa.294"/>
+    <foa endtime="801.72" starttime="800.48" type="person" role="PM" nxt_agent="A" nite:id="natasa_IS1006b_B.foa.295"/>
+    <foa endtime="802.36" starttime="801.72" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.296"/>
+    <foa endtime="802.84" starttime="802.36" type="unspecified" nite:id="natasa_IS1006b_B.foa.297"/>
+    <foa endtime="812.2" starttime="802.84" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.298"/>
+    <foa endtime="812.76" starttime="812.2" type="place" place="table" nite:id="natasa_IS1006b_B.foa.299"/>
+    <foa endtime="813.2" starttime="812.76" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.300"/>
+    <foa endtime="814.28" starttime="813.2" type="person" role="PM" nxt_agent="A" nite:id="natasa_IS1006b_B.foa.301"/>
+    <foa endtime="818.72" starttime="814.28" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.302"/>
+    <foa endtime="819.76" starttime="818.72" type="person" role="ME" nxt_agent="D" nite:id="natasa_IS1006b_B.foa.303"/>
+    <foa endtime="820.32" starttime="819.76" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.304"/>
+    <foa endtime="820.56" starttime="820.32" type="unspecified" nite:id="natasa_IS1006b_B.foa.305"/>
+    <foa endtime="821.32" starttime="820.56" type="person" role="ME" nxt_agent="D" nite:id="natasa_IS1006b_B.foa.306"/>
+    <foa endtime="822.04" starttime="821.32" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.307"/>
+    <foa endtime="822.4" starttime="822.04" type="person" role="PM" nxt_agent="A" nite:id="natasa_IS1006b_B.foa.308"/>
+    <foa endtime="823.52" starttime="822.4" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.309"/>
+    <foa endtime="827.36" starttime="823.52" type="person" role="ME" nxt_agent="D" nite:id="natasa_IS1006b_B.foa.310"/>
+    <foa endtime="828.76" starttime="827.36" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.311"/>
+    <foa endtime="829.8" starttime="828.76" type="person" role="ME" nxt_agent="D" nite:id="natasa_IS1006b_B.foa.312"/>
+    <foa endtime="831.24" starttime="829.8" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.313"/>
+    <foa endtime="831.96" starttime="831.24" type="person" role="ID" nxt_agent="C" nite:id="natasa_IS1006b_B.foa.314"/>
+    <foa endtime="833.4" starttime="831.96" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.315"/>
+    <foa endtime="833.96" starttime="833.4" type="person" role="PM" nxt_agent="A" nite:id="natasa_IS1006b_B.foa.316"/>
+    <foa endtime="837.56" starttime="833.96" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.317"/>
+    <foa endtime="838.04" starttime="837.56" type="person" role="PM" nxt_agent="A" nite:id="natasa_IS1006b_B.foa.318"/>
+    <foa endtime="840.88" starttime="838.04" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.319"/>
+    <foa endtime="843.48" starttime="840.88" type="person" role="ME" nxt_agent="D" nite:id="natasa_IS1006b_B.foa.320"/>
+    <foa endtime="844.16" starttime="843.48" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.321"/>
+    <foa endtime="844.6" starttime="844.16" type="person" role="PM" nxt_agent="A" nite:id="natasa_IS1006b_B.foa.322"/>
+    <foa endtime="845.32" starttime="844.6" type="place" place="table" nite:id="natasa_IS1006b_B.foa.323"/>
+    <foa endtime="851.64" starttime="845.32" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.324"/>
+    <foa endtime="853.24" starttime="851.64" type="person" role="ME" nxt_agent="D" nite:id="natasa_IS1006b_B.foa.325"/>
+    <foa endtime="854.08" starttime="853.24" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.326"/>
+    <foa endtime="854.8" starttime="854.08" type="person" role="PM" nxt_agent="A" nite:id="natasa_IS1006b_B.foa.327"/>
+    <foa endtime="855.04" starttime="854.8" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.328"/>
+    <foa endtime="855.6" starttime="855.04" type="person" role="ID" nxt_agent="C" nite:id="natasa_IS1006b_B.foa.329"/>
+    <foa endtime="856.4" starttime="855.6" type="place" place="table" nite:id="natasa_IS1006b_B.foa.330"/>
+    <foa endtime="857.16" starttime="856.4" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.331"/>
+    <foa endtime="857.6" starttime="857.16" type="person" role="PM" nxt_agent="A" nite:id="natasa_IS1006b_B.foa.332"/>
+    <foa endtime="858.04" starttime="857.6" type="person" role="ID" nxt_agent="C" nite:id="natasa_IS1006b_B.foa.333"/>
+    <foa endtime="860.04" starttime="858.04" type="person" role="ME" nxt_agent="D" nite:id="natasa_IS1006b_B.foa.334"/>
+    <foa endtime="860.68" starttime="860.04" type="person" role="PM" nxt_agent="A" nite:id="natasa_IS1006b_B.foa.335"/>
+    <foa endtime="862.92" starttime="860.68" type="person" role="ME" nxt_agent="D" nite:id="natasa_IS1006b_B.foa.336"/>
+    <foa endtime="863.72" starttime="862.92" type="person" role="PM" nxt_agent="A" nite:id="natasa_IS1006b_B.foa.337"/>
+    <foa endtime="864.72" starttime="863.72" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.338"/>
+    <foa endtime="864.96" starttime="864.72" type="person" role="PM" nxt_agent="A" nite:id="natasa_IS1006b_B.foa.339"/>
+    <foa endtime="866.4" starttime="864.96" type="place" place="table" nite:id="natasa_IS1006b_B.foa.340"/>
+    <foa endtime="868.32" starttime="866.4" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.341"/>
+    <foa endtime="869.72" starttime="868.32" type="person" role="ME" nxt_agent="D" nite:id="natasa_IS1006b_B.foa.342"/>
+    <foa endtime="870.04" starttime="869.72" type="place" place="table" nite:id="natasa_IS1006b_B.foa.343"/>
+    <foa endtime="870.28" starttime="870.04" type="person" role="ME" nxt_agent="D" nite:id="natasa_IS1006b_B.foa.344"/>
+    <foa endtime="870.52" starttime="870.28" type="person" role="ID" nxt_agent="C" nite:id="natasa_IS1006b_B.foa.345"/>
+    <foa endtime="870.76" starttime="870.52" type="person" role="PM" nxt_agent="A" nite:id="natasa_IS1006b_B.foa.346"/>
+    <foa endtime="871.12" starttime="870.76" type="person" role="ME" nxt_agent="D" nite:id="natasa_IS1006b_B.foa.347"/>
+    <foa endtime="871.68" starttime="871.12" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.348"/>
+    <foa endtime="872.04" starttime="871.68" type="person" role="ID" nxt_agent="C" nite:id="natasa_IS1006b_B.foa.349"/>
+    <foa endtime="872.28" starttime="872.04" type="person" role="PM" nxt_agent="A" nite:id="natasa_IS1006b_B.foa.350"/>
+    <foa endtime="872.76" starttime="872.28" type="place" place="table" nite:id="natasa_IS1006b_B.foa.351"/>
+    <foa endtime="873.24" starttime="872.76" type="person" role="ME" nxt_agent="D" nite:id="natasa_IS1006b_B.foa.352"/>
+    <foa endtime="874.04" starttime="873.24" type="unspecified" nite:id="natasa_IS1006b_B.foa.353"/>
+    <foa endtime="874.52" starttime="874.04" type="person" role="PM" nxt_agent="A" nite:id="natasa_IS1006b_B.foa.354"/>
+    <foa endtime="874.76" starttime="874.52" type="person" role="ID" nxt_agent="C" nite:id="natasa_IS1006b_B.foa.355"/>
+    <foa endtime="876.08" starttime="874.76" type="person" role="PM" nxt_agent="A" nite:id="natasa_IS1006b_B.foa.356"/>
+    <foa endtime="879.64" starttime="876.08" type="person" role="ME" nxt_agent="D" nite:id="natasa_IS1006b_B.foa.357"/>
+    <foa endtime="881.16" starttime="879.64" type="person" role="PM" nxt_agent="A" nite:id="natasa_IS1006b_B.foa.358"/>
+    <foa endtime="881.68" starttime="881.16" type="unspecified" nite:id="natasa_IS1006b_B.foa.359"/>
+    <foa endtime="882.16" starttime="881.68" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.360"/>
+    <foa endtime="882.4" starttime="882.16" type="person" role="PM" nxt_agent="A" nite:id="natasa_IS1006b_B.foa.361"/>
+    <foa endtime="882.64" starttime="882.4" type="unspecified" nite:id="natasa_IS1006b_B.foa.362"/>
+    <foa endtime="883.0" starttime="882.64" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.363"/>
+    <foa endtime="884.12" starttime="883.0" type="person" role="ME" nxt_agent="D" nite:id="natasa_IS1006b_B.foa.364"/>
+    <foa endtime="884.52" starttime="884.12" type="person" role="PM" nxt_agent="A" nite:id="natasa_IS1006b_B.foa.365"/>
+    <foa endtime="885.08" starttime="884.52" type="place" place="table" nite:id="natasa_IS1006b_B.foa.366"/>
+    <foa endtime="886.36" starttime="885.08" type="person" role="ID" nxt_agent="C" nite:id="natasa_IS1006b_B.foa.367"/>
+    <foa endtime="886.52" starttime="886.36" type="person" role="PM" nxt_agent="A" nite:id="natasa_IS1006b_B.foa.368"/>
+    <foa endtime="887.52" starttime="886.52" type="person" role="ID" nxt_agent="C" nite:id="natasa_IS1006b_B.foa.369"/>
+    <foa endtime="888.76" starttime="887.52" type="person" role="PM" nxt_agent="A" nite:id="natasa_IS1006b_B.foa.370"/>
+    <foa endtime="889.72" starttime="888.76" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.371"/>
+    <foa endtime="890.2" starttime="889.72" type="person" role="PM" nxt_agent="A" nite:id="natasa_IS1006b_B.foa.372"/>
+    <foa endtime="890.68" starttime="890.2" type="place" place="table" nite:id="natasa_IS1006b_B.foa.373"/>
+    <foa endtime="894.48" starttime="890.68" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.374"/>
+    <foa endtime="894.96" starttime="894.48" type="person" role="PM" nxt_agent="A" nite:id="natasa_IS1006b_B.foa.375"/>
+    <foa endtime="897.52" starttime="894.96" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.376"/>
+    <foa endtime="898.84" starttime="897.52" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.377"/>
+    <foa endtime="899.68" starttime="898.84" type="person" role="ME" nxt_agent="D" nite:id="natasa_IS1006b_B.foa.378"/>
+    <foa endtime="900.6" starttime="899.68" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.379"/>
+    <foa endtime="902.96" starttime="900.6" type="person" role="ME" nxt_agent="D" nite:id="natasa_IS1006b_B.foa.380"/>
+    <foa endtime="905.6" starttime="902.96" type="place" place="table" nite:id="natasa_IS1006b_B.foa.381"/>
+    <foa endtime="908.12" starttime="905.6" type="unspecified" nite:id="natasa_IS1006b_B.foa.382"/>
+    <foa endtime="908.72" starttime="908.12" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.383"/>
+    <foa endtime="909.68" starttime="908.72" type="place" place="table" nite:id="natasa_IS1006b_B.foa.384"/>
+    <foa endtime="909.92" starttime="909.68" type="unspecified" nite:id="natasa_IS1006b_B.foa.385"/>
+    <foa endtime="910.4" starttime="909.92" type="person" role="ID" nxt_agent="C" nite:id="natasa_IS1006b_B.foa.386"/>
+    <foa endtime="910.64" starttime="910.4" type="person" role="PM" nxt_agent="A" nite:id="natasa_IS1006b_B.foa.387"/>
+    <foa endtime="911.84" starttime="910.64" type="place" place="table" nite:id="natasa_IS1006b_B.foa.388"/>
+    <foa endtime="912.48" starttime="911.84" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.389"/>
+    <foa endtime="913.92" starttime="912.48" type="person" role="ME" nxt_agent="D" nite:id="natasa_IS1006b_B.foa.390"/>
+    <foa endtime="918.32" starttime="913.92" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.391"/>
+    <foa endtime="919.04" starttime="918.32" type="person" role="ID" nxt_agent="C" nite:id="natasa_IS1006b_B.foa.392"/>
+    <foa endtime="919.28" starttime="919.04" type="person" role="PM" nxt_agent="A" nite:id="natasa_IS1006b_B.foa.393"/>
+    <foa endtime="919.64" starttime="919.28" type="place" place="table" nite:id="natasa_IS1006b_B.foa.394"/>
+    <foa endtime="919.96" starttime="919.64" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.395"/>
+    <foa endtime="921.8" starttime="919.96" type="person" role="ME" nxt_agent="D" nite:id="natasa_IS1006b_B.foa.396"/>
+    <foa endtime="922.4" starttime="921.8" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.397"/>
+    <foa endtime="923.32" starttime="922.4" type="place" place="table" nite:id="natasa_IS1006b_B.foa.398"/>
+    <foa endtime="924.48" starttime="923.32" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.399"/>
+    <foa endtime="925.2" starttime="924.48" type="person" role="ME" nxt_agent="D" nite:id="natasa_IS1006b_B.foa.400"/>
+    <foa endtime="925.96" starttime="925.2" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.401"/>
+    <foa endtime="927.16" starttime="925.96" type="person" role="ME" nxt_agent="D" nite:id="natasa_IS1006b_B.foa.402"/>
+    <foa endtime="927.52" starttime="927.16" type="person" role="PM" nxt_agent="A" nite:id="natasa_IS1006b_B.foa.403"/>
+    <foa endtime="928.36" starttime="927.52" type="unspecified" nite:id="natasa_IS1006b_B.foa.404"/>
+    <foa endtime="930.44" starttime="928.36" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.405"/>
+    <foa endtime="932.36" starttime="930.44" type="place" place="table" nite:id="natasa_IS1006b_B.foa.406"/>
+    <foa endtime="935.52" starttime="932.36" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.407"/>
+    <foa endtime="936.4" starttime="935.52" type="person" role="ME" nxt_agent="D" nite:id="natasa_IS1006b_B.foa.408"/>
+    <foa endtime="937.92" starttime="936.4" type="unspecified" nite:id="natasa_IS1006b_B.foa.409"/>
+    <foa endtime="938.88" starttime="937.92" type="person" role="ME" nxt_agent="D" nite:id="natasa_IS1006b_B.foa.410"/>
+    <foa endtime="939.24" starttime="938.88" type="person" role="PM" nxt_agent="A" nite:id="natasa_IS1006b_B.foa.411"/>
+    <foa endtime="939.6" starttime="939.24" type="place" place="table" nite:id="natasa_IS1006b_B.foa.412"/>
+    <foa endtime="940.08" starttime="939.6" type="person" role="ME" nxt_agent="D" nite:id="natasa_IS1006b_B.foa.413"/>
+    <foa endtime="940.2" starttime="940.08" type="person" role="ID" nxt_agent="C" nite:id="natasa_IS1006b_B.foa.414"/>
+    <foa endtime="940.92" starttime="940.2" type="place" place="table" nite:id="natasa_IS1006b_B.foa.415"/>
+    <foa endtime="943.4" starttime="940.92" type="unspecified" nite:id="natasa_IS1006b_B.foa.416"/>
+    <foa endtime="944.0" starttime="943.4" type="person" role="ID" nxt_agent="C" nite:id="natasa_IS1006b_B.foa.417"/>
+    <foa endtime="944.56" starttime="944.0" type="person" role="ME" nxt_agent="D" nite:id="natasa_IS1006b_B.foa.418"/>
+    <foa endtime="945.04" starttime="944.56" type="person" role="PM" nxt_agent="A" nite:id="natasa_IS1006b_B.foa.419"/>
+    <foa endtime="945.84" starttime="945.04" type="unspecified" nite:id="natasa_IS1006b_B.foa.420"/>
+    <foa endtime="946.2" starttime="945.84" type="person" role="PM" nxt_agent="A" nite:id="natasa_IS1006b_B.foa.421"/>
+    <foa endtime="947.24" starttime="946.2" type="person" role="ME" nxt_agent="D" nite:id="natasa_IS1006b_B.foa.422"/>
+    <foa endtime="947.92" starttime="947.24" type="person" role="PM" nxt_agent="A" nite:id="natasa_IS1006b_B.foa.423"/>
+    <foa endtime="948.48" starttime="947.92" type="person" role="ME" nxt_agent="D" nite:id="natasa_IS1006b_B.foa.424"/>
+    <foa endtime="949.64" starttime="948.48" type="place" place="table" nite:id="natasa_IS1006b_B.foa.425"/>
+    <foa endtime="951.08" starttime="949.64" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.426"/>
+    <foa endtime="951.72" starttime="951.08" type="place" place="table" nite:id="natasa_IS1006b_B.foa.427"/>
+    <foa endtime="951.96" starttime="951.72" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.428"/>
+    <foa endtime="952.36" starttime="951.96" type="person" role="PM" nxt_agent="A" nite:id="natasa_IS1006b_B.foa.429"/>
+    <foa endtime="970.12" starttime="952.36" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.430"/>
+    <foa endtime="972.56" starttime="970.12" type="place" place="table" nite:id="natasa_IS1006b_B.foa.431"/>
+    <foa endtime="973.44" starttime="972.56" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.432"/>
+    <foa endtime="976.16" starttime="973.44" type="place" place="table" nite:id="natasa_IS1006b_B.foa.433"/>
+    <foa endtime="976.72" starttime="976.16" type="person" role="PM" nxt_agent="A" nite:id="natasa_IS1006b_B.foa.434"/>
+    <foa endtime="979.8" starttime="976.72" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.435"/>
+    <foa endtime="980.56" starttime="979.8" type="person" role="ME" nxt_agent="D" nite:id="natasa_IS1006b_B.foa.436"/>
+    <foa endtime="980.8" starttime="980.56" type="person" role="ID" nxt_agent="C" nite:id="natasa_IS1006b_B.foa.437"/>
+    <foa endtime="982.0" starttime="980.8" type="place" place="table" nite:id="natasa_IS1006b_B.foa.438"/>
+    <foa endtime="982.88" starttime="982.0" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.439"/>
+    <foa endtime="983.36" starttime="982.88" type="person" role="PM" nxt_agent="A" nite:id="natasa_IS1006b_B.foa.440"/>
+    <foa endtime="983.6" starttime="983.36" type="person" role="ID" nxt_agent="C" nite:id="natasa_IS1006b_B.foa.441"/>
+    <foa endtime="986.4" starttime="983.6" type="person" role="ME" nxt_agent="D" nite:id="natasa_IS1006b_B.foa.442"/>
+    <foa endtime="986.76" starttime="986.4" type="place" place="table" nite:id="natasa_IS1006b_B.foa.443"/>
+    <foa endtime="988.56" starttime="986.76" type="person" role="ME" nxt_agent="D" nite:id="natasa_IS1006b_B.foa.444"/>
+    <foa endtime="989.76" starttime="988.56" type="unspecified" nite:id="natasa_IS1006b_B.foa.445"/>
+    <foa endtime="991.56" starttime="989.76" type="person" role="ME" nxt_agent="D" nite:id="natasa_IS1006b_B.foa.446"/>
+    <foa endtime="992.44" starttime="991.56" type="person" role="PM" nxt_agent="A" nite:id="natasa_IS1006b_B.foa.447"/>
+    <foa endtime="993.28" starttime="992.44" type="unspecified" nite:id="natasa_IS1006b_B.foa.448"/>
+    <foa endtime="994.4" starttime="993.28" type="person" role="ME" nxt_agent="D" nite:id="natasa_IS1006b_B.foa.449"/>
+    <foa endtime="995.6" starttime="994.4" type="person" role="PM" nxt_agent="A" nite:id="natasa_IS1006b_B.foa.450"/>
+    <foa endtime="995.84" starttime="995.6" type="person" role="ID" nxt_agent="C" nite:id="natasa_IS1006b_B.foa.451"/>
+    <foa endtime="996.84" starttime="995.84" type="person" role="ME" nxt_agent="D" nite:id="natasa_IS1006b_B.foa.452"/>
+    <foa endtime="997.68" starttime="996.84" type="unspecified" nite:id="natasa_IS1006b_B.foa.453"/>
+    <foa endtime="1002.96" starttime="997.68" type="person" role="ME" nxt_agent="D" nite:id="natasa_IS1006b_B.foa.454"/>
+    <foa endtime="1003.32" starttime="1002.96" type="person" role="ID" nxt_agent="C" nite:id="natasa_IS1006b_B.foa.455"/>
+    <foa endtime="1004.04" starttime="1003.32" type="unspecified" nite:id="natasa_IS1006b_B.foa.456"/>
+    <foa endtime="1005.64" starttime="1004.04" type="person" role="ME" nxt_agent="D" nite:id="natasa_IS1006b_B.foa.457"/>
+    <foa endtime="1006.24" starttime="1005.64" type="unspecified" nite:id="natasa_IS1006b_B.foa.458"/>
+    <foa endtime="1006.96" starttime="1006.24" type="person" role="ME" nxt_agent="D" nite:id="natasa_IS1006b_B.foa.459"/>
+    <foa endtime="1007.8" starttime="1006.96" type="person" role="ID" nxt_agent="C" nite:id="natasa_IS1006b_B.foa.460"/>
+    <foa endtime="1010.16" starttime="1007.8" type="place" place="table" nite:id="natasa_IS1006b_B.foa.461"/>
+    <foa endtime="1010.52" starttime="1010.16" type="person" role="ME" nxt_agent="D" nite:id="natasa_IS1006b_B.foa.462"/>
+    <foa endtime="1011.0" starttime="1010.52" type="unspecified" nite:id="natasa_IS1006b_B.foa.463"/>
+    <foa endtime="1011.44" starttime="1011.0" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.464"/>
+    <foa endtime="1011.8" starttime="1011.44" type="person" role="PM" nxt_agent="A" nite:id="natasa_IS1006b_B.foa.465"/>
+    <foa endtime="1013.24" starttime="1011.8" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.466"/>
+    <foa endtime="1013.84" starttime="1013.24" type="place" place="table" nite:id="natasa_IS1006b_B.foa.467"/>
+    <foa endtime="1014.92" starttime="1013.84" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.468"/>
+    <foa endtime="1016.08" starttime="1014.92" type="place" place="table" nite:id="natasa_IS1006b_B.foa.469"/>
+    <foa endtime="1016.8" starttime="1016.08" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.470"/>
+    <foa endtime="1017.2" starttime="1016.8" type="person" role="ME" nxt_agent="D" nite:id="natasa_IS1006b_B.foa.471"/>
+    <foa endtime="1018.92" starttime="1017.2" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.472"/>
+    <foa endtime="1020.28" starttime="1018.92" type="person" role="ME" nxt_agent="D" nite:id="natasa_IS1006b_B.foa.473"/>
+    <foa endtime="1021.04" starttime="1020.28" type="unspecified" nite:id="natasa_IS1006b_B.foa.474"/>
+    <foa endtime="1022.16" starttime="1021.04" type="person" role="ME" nxt_agent="D" nite:id="natasa_IS1006b_B.foa.475"/>
+    <foa endtime="1022.48" starttime="1022.16" type="unspecified" nite:id="natasa_IS1006b_B.foa.476"/>
+    <foa endtime="1022.72" starttime="1022.48" type="person" role="PM" nxt_agent="A" nite:id="natasa_IS1006b_B.foa.477"/>
+    <foa endtime="1025.4" starttime="1022.72" type="person" role="ME" nxt_agent="D" nite:id="natasa_IS1006b_B.foa.478"/>
+    <foa endtime="1026.08" starttime="1025.4" type="unspecified" nite:id="natasa_IS1006b_B.foa.479"/>
+    <foa endtime="1028.32" starttime="1026.08" type="person" role="ME" nxt_agent="D" nite:id="natasa_IS1006b_B.foa.480"/>
+    <foa endtime="1029.64" starttime="1028.32" type="unspecified" nite:id="natasa_IS1006b_B.foa.481"/>
+    <foa endtime="1030.0" starttime="1029.64" type="person" role="ME" nxt_agent="D" nite:id="natasa_IS1006b_B.foa.482"/>
+    <foa endtime="1032.8" starttime="1030.0" type="unspecified" nite:id="natasa_IS1006b_B.foa.483"/>
+    <foa endtime="1034.0" starttime="1032.8" type="person" role="ME" nxt_agent="D" nite:id="natasa_IS1006b_B.foa.484"/>
+    <foa endtime="1034.88" starttime="1034.0" type="unspecified" nite:id="natasa_IS1006b_B.foa.485"/>
+    <foa endtime="1035.36" starttime="1034.88" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.486"/>
+    <foa endtime="1035.84" starttime="1035.36" type="person" role="ID" nxt_agent="C" nite:id="natasa_IS1006b_B.foa.487"/>
+    <foa endtime="1036.32" starttime="1035.84" type="person" role="PM" nxt_agent="A" nite:id="natasa_IS1006b_B.foa.488"/>
+    <foa endtime="1037.8" starttime="1036.32" type="person" role="ME" nxt_agent="D" nite:id="natasa_IS1006b_B.foa.489"/>
+    <foa endtime="1038.4" starttime="1037.8" type="person" role="ID" nxt_agent="C" nite:id="natasa_IS1006b_B.foa.490"/>
+    <foa endtime="1038.76" starttime="1038.4" type="place" place="table" nite:id="natasa_IS1006b_B.foa.491"/>
+    <foa endtime="1039.68" starttime="1038.76" type="person" role="ME" nxt_agent="D" nite:id="natasa_IS1006b_B.foa.492"/>
+    <foa endtime="1041.44" starttime="1039.68" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.493"/>
+    <foa endtime="1041.68" starttime="1041.44" type="unspecified" nite:id="natasa_IS1006b_B.foa.494"/>
+    <foa endtime="1046.64" starttime="1041.68" type="person" role="ME" nxt_agent="D" nite:id="natasa_IS1006b_B.foa.495"/>
+    <foa endtime="1047.88" starttime="1046.64" type="person" role="ID" nxt_agent="C" nite:id="natasa_IS1006b_B.foa.496"/>
+    <foa endtime="1050.56" starttime="1047.88" type="person" role="ME" nxt_agent="D" nite:id="natasa_IS1006b_B.foa.497"/>
+    <foa endtime="1050.92" starttime="1050.56" type="place" place="table" nite:id="natasa_IS1006b_B.foa.498"/>
+    <foa endtime="1052.36" starttime="1050.92" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.499"/>
+    <foa endtime="1053.88" starttime="1052.36" type="person" role="ME" nxt_agent="D" nite:id="natasa_IS1006b_B.foa.500"/>
+    <foa endtime="1061.2" starttime="1053.88" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.501"/>
+    <foa endtime="1064.4" starttime="1061.2" type="person" role="ME" nxt_agent="D" nite:id="natasa_IS1006b_B.foa.502"/>
+    <foa endtime="1065.92" starttime="1064.4" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.503"/>
+    <foa endtime="1066.92" starttime="1065.92" type="person" role="ME" nxt_agent="D" nite:id="natasa_IS1006b_B.foa.504"/>
+    <foa endtime="1067.72" starttime="1066.92" type="place" place="table" nite:id="natasa_IS1006b_B.foa.505"/>
+    <foa endtime="1068.68" starttime="1067.72" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.506"/>
+    <foa endtime="1070.4" starttime="1068.68" type="person" role="ME" nxt_agent="D" nite:id="natasa_IS1006b_B.foa.507"/>
+    <foa endtime="1071.36" starttime="1070.4" type="unspecified" nite:id="natasa_IS1006b_B.foa.508"/>
+    <foa endtime="1072.0" starttime="1071.36" type="person" role="ME" nxt_agent="D" nite:id="natasa_IS1006b_B.foa.509"/>
+    <foa endtime="1072.24" starttime="1072.0" type="person" role="PM" nxt_agent="A" nite:id="natasa_IS1006b_B.foa.510"/>
+    <foa endtime="1072.68" starttime="1072.24" type="unspecified" nite:id="natasa_IS1006b_B.foa.511"/>
+    <foa endtime="1073.52" starttime="1072.68" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.512"/>
+    <foa endtime="1076.24" starttime="1073.52" type="person" role="ME" nxt_agent="D" nite:id="natasa_IS1006b_B.foa.513"/>
+    <foa endtime="1076.72" starttime="1076.24" type="person" role="PM" nxt_agent="A" nite:id="natasa_IS1006b_B.foa.514"/>
+    <foa endtime="1077.48" starttime="1076.72" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.515"/>
+    <foa endtime="1078.92" starttime="1077.48" type="person" role="ME" nxt_agent="D" nite:id="natasa_IS1006b_B.foa.516"/>
+    <foa endtime="1079.76" starttime="1078.92" type="unspecified" nite:id="natasa_IS1006b_B.foa.517"/>
+    <foa endtime="1080.2" starttime="1079.76" type="person" role="ME" nxt_agent="D" nite:id="natasa_IS1006b_B.foa.518"/>
+    <foa endtime="1080.44" starttime="1080.2" type="person" role="ID" nxt_agent="C" nite:id="natasa_IS1006b_B.foa.519"/>
+    <foa endtime="1082.12" starttime="1080.44" type="person" role="ME" nxt_agent="D" nite:id="natasa_IS1006b_B.foa.520"/>
+    <foa endtime="1083.44" starttime="1082.12" type="unspecified" nite:id="natasa_IS1006b_B.foa.521"/>
+    <foa endtime="1084.28" starttime="1083.44" type="person" role="ME" nxt_agent="D" nite:id="natasa_IS1006b_B.foa.522"/>
+    <foa endtime="1085.12" starttime="1084.28" type="unspecified" nite:id="natasa_IS1006b_B.foa.523"/>
+    <foa endtime="1089.16" starttime="1085.12" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.524"/>
+    <foa endtime="1089.88" starttime="1089.16" type="person" role="ME" nxt_agent="D" nite:id="natasa_IS1006b_B.foa.525"/>
+    <foa endtime="1090.84" starttime="1089.88" type="unspecified" nite:id="natasa_IS1006b_B.foa.526"/>
+    <foa endtime="1092.52" starttime="1090.84" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.527"/>
+    <foa endtime="1093.12" starttime="1092.52" type="person" role="ID" nxt_agent="C" nite:id="natasa_IS1006b_B.foa.528"/>
+    <foa endtime="1097.52" starttime="1093.12" type="person" role="PM" nxt_agent="A" nite:id="natasa_IS1006b_B.foa.529"/>
+    <foa endtime="1098.56" starttime="1097.52" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.530"/>
+    <foa endtime="1101.2" starttime="1098.56" type="person" role="PM" nxt_agent="A" nite:id="natasa_IS1006b_B.foa.531"/>
+    <foa endtime="1102.24" starttime="1101.2" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.532"/>
+    <foa endtime="1102.84" starttime="1102.24" type="person" role="PM" nxt_agent="A" nite:id="natasa_IS1006b_B.foa.533"/>
+    <foa endtime="1103.08" starttime="1102.84" type="unspecified" nite:id="natasa_IS1006b_B.foa.534"/>
+    <foa endtime="1103.72" starttime="1103.08" type="person" role="ME" nxt_agent="D" nite:id="natasa_IS1006b_B.foa.535"/>
+    <foa endtime="1104.4" starttime="1103.72" type="person" role="PM" nxt_agent="A" nite:id="natasa_IS1006b_B.foa.536"/>
+    <foa endtime="1105.0" starttime="1104.4" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.537"/>
+    <foa endtime="1106.8" starttime="1105.0" type="person" role="PM" nxt_agent="A" nite:id="natasa_IS1006b_B.foa.538"/>
+    <foa endtime="1107.04" starttime="1106.8" type="person" role="ID" nxt_agent="C" nite:id="natasa_IS1006b_B.foa.539"/>
+    <foa endtime="1107.24" starttime="1107.04" type="person" role="PM" nxt_agent="A" nite:id="natasa_IS1006b_B.foa.540"/>
+    <foa endtime="1108.12" starttime="1107.24" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.541"/>
+    <foa endtime="1109.08" starttime="1108.12" type="person" role="ME" nxt_agent="D" nite:id="natasa_IS1006b_B.foa.542"/>
+    <foa endtime="1109.64" starttime="1109.08" type="person" role="PM" nxt_agent="A" nite:id="natasa_IS1006b_B.foa.543"/>
+    <foa endtime="1110.04" starttime="1109.64" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.544"/>
+    <foa endtime="1110.88" starttime="1110.04" type="person" role="PM" nxt_agent="A" nite:id="natasa_IS1006b_B.foa.545"/>
+    <foa endtime="1111.12" starttime="1110.88" type="person" role="ID" nxt_agent="C" nite:id="natasa_IS1006b_B.foa.546"/>
+    <foa endtime="1113.28" starttime="1111.12" type="unspecified" nite:id="natasa_IS1006b_B.foa.547"/>
+    <foa endtime="1114.76" starttime="1113.28" type="person" role="PM" nxt_agent="A" nite:id="natasa_IS1006b_B.foa.548"/>
+    <foa endtime="1118.32" starttime="1114.76" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.549"/>
+    <foa endtime="1120.16" starttime="1118.32" type="person" role="PM" nxt_agent="A" nite:id="natasa_IS1006b_B.foa.550"/>
+    <foa endtime="1124.28" starttime="1120.16" type="person" role="ME" nxt_agent="D" nite:id="natasa_IS1006b_B.foa.551"/>
+    <foa endtime="1126.8" starttime="1124.28" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.552"/>
+    <foa endtime="1127.68" starttime="1126.8" type="person" role="PM" nxt_agent="A" nite:id="natasa_IS1006b_B.foa.553"/>
+    <foa endtime="1129.64" starttime="1127.68" type="person" role="ME" nxt_agent="D" nite:id="natasa_IS1006b_B.foa.554"/>
+    <foa endtime="1141.32" starttime="1129.64" type="person" role="PM" nxt_agent="A" nite:id="natasa_IS1006b_B.foa.555"/>
+    <foa endtime="1141.8" starttime="1141.32" type="unspecified" nite:id="natasa_IS1006b_B.foa.556"/>
+    <foa endtime="1142.24" starttime="1141.8" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.557"/>
+    <foa endtime="1142.72" starttime="1142.24" type="person" role="PM" nxt_agent="A" nite:id="natasa_IS1006b_B.foa.558"/>
+    <foa endtime="1142.96" starttime="1142.72" type="person" role="ID" nxt_agent="C" nite:id="natasa_IS1006b_B.foa.559"/>
+    <foa endtime="1143.36" starttime="1142.96" type="person" role="ME" nxt_agent="D" nite:id="natasa_IS1006b_B.foa.560"/>
+    <foa endtime="1143.72" starttime="1143.36" type="person" role="ID" nxt_agent="C" nite:id="natasa_IS1006b_B.foa.561"/>
+    <foa endtime="1144.08" starttime="1143.72" type="person" role="PM" nxt_agent="A" nite:id="natasa_IS1006b_B.foa.562"/>
+    <foa endtime="1144.32" starttime="1144.08" type="person" role="ID" nxt_agent="C" nite:id="natasa_IS1006b_B.foa.563"/>
+    <foa endtime="1144.76" starttime="1144.32" type="person" role="PM" nxt_agent="A" nite:id="natasa_IS1006b_B.foa.564"/>
+    <foa endtime="1145.32" starttime="1144.76" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.565"/>
+    <foa endtime="1146.88" starttime="1145.32" type="person" role="PM" nxt_agent="A" nite:id="natasa_IS1006b_B.foa.566"/>
+    <foa endtime="1147.12" starttime="1146.88" type="unspecified" nite:id="natasa_IS1006b_B.foa.567"/>
+    <foa endtime="1147.68" starttime="1147.12" type="person" role="ME" nxt_agent="D" nite:id="natasa_IS1006b_B.foa.568"/>
+    <foa endtime="1148.28" starttime="1147.68" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.569"/>
+    <foa endtime="1152.28" starttime="1148.28" type="person" role="ME" nxt_agent="D" nite:id="natasa_IS1006b_B.foa.570"/>
+    <foa endtime="1153.24" starttime="1152.28" type="unspecified" nite:id="natasa_IS1006b_B.foa.571"/>
+    <foa endtime="1154.0" starttime="1153.24" type="person" role="ME" nxt_agent="D" nite:id="natasa_IS1006b_B.foa.572"/>
+    <foa endtime="1154.88" starttime="1154.0" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.573"/>
+    <foa endtime="1156.32" starttime="1154.88" type="person" role="ME" nxt_agent="D" nite:id="natasa_IS1006b_B.foa.574"/>
+    <foa endtime="1158.04" starttime="1156.32" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.575"/>
+    <foa endtime="1164.08" starttime="1158.04" type="person" role="ME" nxt_agent="D" nite:id="natasa_IS1006b_B.foa.576"/>
+    <foa endtime="1165.76" starttime="1164.08" type="unspecified" nite:id="natasa_IS1006b_B.foa.577"/>
+    <foa endtime="1171.76" starttime="1165.76" type="person" role="ME" nxt_agent="D" nite:id="natasa_IS1006b_B.foa.578"/>
+    <foa endtime="1172.24" starttime="1171.76" type="unspecified" nite:id="natasa_IS1006b_B.foa.579"/>
+    <foa endtime="1172.8" starttime="1172.24" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.580"/>
+    <foa endtime="1173.64" starttime="1172.8" type="person" role="ME" nxt_agent="D" nite:id="natasa_IS1006b_B.foa.581"/>
+    <foa endtime="1174.24" starttime="1173.64" type="unspecified" nite:id="natasa_IS1006b_B.foa.582"/>
+    <foa endtime="1179.64" starttime="1174.24" type="person" role="ME" nxt_agent="D" nite:id="natasa_IS1006b_B.foa.583"/>
+    <foa endtime="1180.48" starttime="1179.64" type="unspecified" nite:id="natasa_IS1006b_B.foa.584"/>
+    <foa endtime="1193.28" starttime="1180.48" type="person" role="ME" nxt_agent="D" nite:id="natasa_IS1006b_B.foa.585"/>
+    <foa endtime="1193.8" starttime="1193.28" type="unspecified" nite:id="natasa_IS1006b_B.foa.586"/>
+    <foa endtime="1196.4" starttime="1193.8" type="person" role="ME" nxt_agent="D" nite:id="natasa_IS1006b_B.foa.587"/>
+    <foa endtime="1197.24" starttime="1196.4" type="unspecified" nite:id="natasa_IS1006b_B.foa.588"/>
+    <foa endtime="1200.08" starttime="1197.24" type="person" role="ME" nxt_agent="D" nite:id="natasa_IS1006b_B.foa.589"/>
+    <foa endtime="1201.0" starttime="1200.08" type="unspecified" nite:id="natasa_IS1006b_B.foa.590"/>
+    <foa endtime="1201.44" starttime="1201.0" type="person" role="ME" nxt_agent="D" nite:id="natasa_IS1006b_B.foa.591"/>
+    <foa endtime="1202.4" starttime="1201.44" type="person" role="PM" nxt_agent="A" nite:id="natasa_IS1006b_B.foa.592"/>
+    <foa endtime="1202.64" starttime="1202.4" type="person" role="ID" nxt_agent="C" nite:id="natasa_IS1006b_B.foa.593"/>
+    <foa endtime="1204.56" starttime="1202.64" type="person" role="ME" nxt_agent="D" nite:id="natasa_IS1006b_B.foa.594"/>
+    <foa endtime="1204.8" starttime="1204.56" type="unspecified" nite:id="natasa_IS1006b_B.foa.595"/>
+    <foa endtime="1209.48" starttime="1204.8" type="person" role="ID" nxt_agent="C" nite:id="natasa_IS1006b_B.foa.596"/>
+    <foa endtime="1210.24" starttime="1209.48" type="person" role="ME" nxt_agent="D" nite:id="natasa_IS1006b_B.foa.597"/>
+    <foa endtime="1210.92" starttime="1210.24" type="person" role="ID" nxt_agent="C" nite:id="natasa_IS1006b_B.foa.598"/>
+    <foa endtime="1223.68" starttime="1210.92" type="person" role="ME" nxt_agent="D" nite:id="natasa_IS1006b_B.foa.599"/>
+    <foa endtime="1224.96" starttime="1223.68" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.600"/>
+    <foa endtime="1227.24" starttime="1224.96" type="person" role="ME" nxt_agent="D" nite:id="natasa_IS1006b_B.foa.601"/>
+    <foa endtime="1228.92" starttime="1227.24" type="person" role="PM" nxt_agent="A" nite:id="natasa_IS1006b_B.foa.602"/>
+    <foa endtime="1229.48" starttime="1228.92" type="person" role="ME" nxt_agent="D" nite:id="natasa_IS1006b_B.foa.603"/>
+    <foa endtime="1232.8" starttime="1229.48" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.604"/>
+    <foa endtime="1233.96" starttime="1232.8" type="person" role="ME" nxt_agent="D" nite:id="natasa_IS1006b_B.foa.605"/>
+    <foa endtime="1237.28" starttime="1233.96" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.606"/>
+    <foa endtime="1238.84" starttime="1237.28" type="person" role="ME" nxt_agent="D" nite:id="natasa_IS1006b_B.foa.607"/>
+    <foa endtime="1243.4" starttime="1238.84" type="person" role="ID" nxt_agent="C" nite:id="natasa_IS1006b_B.foa.608"/>
+    <foa endtime="1244.08" starttime="1243.4" type="person" role="ME" nxt_agent="D" nite:id="natasa_IS1006b_B.foa.609"/>
+    <foa endtime="1245.56" starttime="1244.08" type="person" role="ID" nxt_agent="C" nite:id="natasa_IS1006b_B.foa.610"/>
+    <foa endtime="1247.8" starttime="1245.56" type="person" role="ME" nxt_agent="D" nite:id="natasa_IS1006b_B.foa.611"/>
+    <foa endtime="1251.84" starttime="1247.8" type="person" role="PM" nxt_agent="A" nite:id="natasa_IS1006b_B.foa.612"/>
+    <foa endtime="1252.8" starttime="1251.84" type="person" role="ME" nxt_agent="D" nite:id="natasa_IS1006b_B.foa.613"/>
+    <foa endtime="1255.32" starttime="1252.8" type="person" role="PM" nxt_agent="A" nite:id="natasa_IS1006b_B.foa.614"/>
+    <foa endtime="1257.04" starttime="1255.32" type="person" role="ME" nxt_agent="D" nite:id="natasa_IS1006b_B.foa.615"/>
+    <foa endtime="1257.76" starttime="1257.04" type="place" place="table" nite:id="natasa_IS1006b_B.foa.616"/>
+    <foa endtime="1258.6" starttime="1257.76" type="person" role="ME" nxt_agent="D" nite:id="natasa_IS1006b_B.foa.617"/>
+    <foa endtime="1261.0" starttime="1258.6" type="person" role="ID" nxt_agent="C" nite:id="natasa_IS1006b_B.foa.618"/>
+    <foa endtime="1262.2" starttime="1261.0" type="person" role="ME" nxt_agent="D" nite:id="natasa_IS1006b_B.foa.619"/>
+    <foa endtime="1263.16" starttime="1262.2" type="person" role="ID" nxt_agent="C" nite:id="natasa_IS1006b_B.foa.620"/>
+    <foa endtime="1263.6" starttime="1263.16" type="person" role="ME" nxt_agent="D" nite:id="natasa_IS1006b_B.foa.621"/>
+    <foa endtime="1264.0" starttime="1263.6" type="person" role="ID" nxt_agent="C" nite:id="natasa_IS1006b_B.foa.622"/>
+    <foa endtime="1265.28" starttime="1264.0" type="unspecified" nite:id="natasa_IS1006b_B.foa.623"/>
+    <foa endtime="1265.76" starttime="1265.28" type="person" role="ID" nxt_agent="C" nite:id="natasa_IS1006b_B.foa.624"/>
+    <foa endtime="1267.28" starttime="1265.76" type="place" place="table" nite:id="natasa_IS1006b_B.foa.625"/>
+    <foa endtime="1267.92" starttime="1267.28" type="person" role="ME" nxt_agent="D" nite:id="natasa_IS1006b_B.foa.626"/>
+    <foa endtime="1268.16" starttime="1267.92" type="person" role="ID" nxt_agent="C" nite:id="natasa_IS1006b_B.foa.627"/>
+    <foa endtime="1268.4" starttime="1268.16" type="person" role="PM" nxt_agent="A" nite:id="natasa_IS1006b_B.foa.628"/>
+    <foa endtime="1269.52" starttime="1268.4" type="place" place="table" nite:id="natasa_IS1006b_B.foa.629"/>
+    <foa endtime="1269.88" starttime="1269.52" type="person" role="ME" nxt_agent="D" nite:id="natasa_IS1006b_B.foa.630"/>
+    <foa endtime="1270.24" starttime="1269.88" type="person" role="ID" nxt_agent="C" nite:id="natasa_IS1006b_B.foa.631"/>
+    <foa endtime="1270.72" starttime="1270.24" type="person" role="PM" nxt_agent="A" nite:id="natasa_IS1006b_B.foa.632"/>
+    <foa endtime="1270.96" starttime="1270.72" type="place" place="table" nite:id="natasa_IS1006b_B.foa.633"/>
+    <foa endtime="1272.24" starttime="1270.96" type="person" role="PM" nxt_agent="A" nite:id="natasa_IS1006b_B.foa.634"/>
+    <foa endtime="1284.6" starttime="1272.24" type="person" role="ME" nxt_agent="D" nite:id="natasa_IS1006b_B.foa.635"/>
+    <foa endtime="1285.08" starttime="1284.6" type="person" role="PM" nxt_agent="A" nite:id="natasa_IS1006b_B.foa.636"/>
+    <foa endtime="1285.92" starttime="1285.08" type="unspecified" nite:id="natasa_IS1006b_B.foa.637"/>
+    <foa endtime="1286.28" starttime="1285.92" type="place" place="table" nite:id="natasa_IS1006b_B.foa.638"/>
+    <foa endtime="1286.76" starttime="1286.28" type="person" role="PM" nxt_agent="A" nite:id="natasa_IS1006b_B.foa.639"/>
+    <foa endtime="1288.16" starttime="1286.76" type="person" role="ME" nxt_agent="D" nite:id="natasa_IS1006b_B.foa.640"/>
+    <foa endtime="1288.56" starttime="1288.16" type="person" role="ID" nxt_agent="C" nite:id="natasa_IS1006b_B.foa.641"/>
+    <foa endtime="1288.68" starttime="1288.56" type="unspecified" nite:id="natasa_IS1006b_B.foa.642"/>
+    <foa endtime="1289.28" starttime="1288.68" type="person" role="PM" nxt_agent="A" nite:id="natasa_IS1006b_B.foa.643"/>
+    <foa endtime="1289.92" starttime="1289.28" type="person" role="ME" nxt_agent="D" nite:id="natasa_IS1006b_B.foa.644"/>
+    <foa endtime="1290.64" starttime="1289.92" type="person" role="PM" nxt_agent="A" nite:id="natasa_IS1006b_B.foa.645"/>
+    <foa endtime="1291.32" starttime="1290.64" type="person" role="ME" nxt_agent="D" nite:id="natasa_IS1006b_B.foa.646"/>
+    <foa endtime="1291.68" starttime="1291.32" type="person" role="PM" nxt_agent="A" nite:id="natasa_IS1006b_B.foa.647"/>
+    <foa endtime="1292.64" starttime="1291.68" type="place" place="table" nite:id="natasa_IS1006b_B.foa.648"/>
+    <foa endtime="1293.12" starttime="1292.64" type="person" role="ME" nxt_agent="D" nite:id="natasa_IS1006b_B.foa.649"/>
+    <foa endtime="1296.68" starttime="1293.12" type="place" place="table" nite:id="natasa_IS1006b_B.foa.650"/>
+    <foa endtime="1298.36" starttime="1296.68" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.651"/>
+    <foa endtime="1308.2" starttime="1298.36" type="place" place="table" nite:id="natasa_IS1006b_B.foa.652"/>
+    <foa endtime="1320.52" starttime="1308.2" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.653"/>
+    <foa endtime="1330.72" starttime="1320.52" type="place" place="table" nite:id="natasa_IS1006b_B.foa.654"/>
+    <foa endtime="1334.36" starttime="1330.72" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.655"/>
+    <foa endtime="1340.8" starttime="1334.36" type="place" place="table" nite:id="natasa_IS1006b_B.foa.656"/>
+    <foa endtime="1347.2" starttime="1340.8" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.657"/>
+    <foa endtime="1347.56" starttime="1347.2" type="person" role="ID" nxt_agent="C" nite:id="natasa_IS1006b_B.foa.658"/>
+    <foa endtime="1348.64" starttime="1347.56" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.659"/>
+    <foa endtime="1350.0" starttime="1348.64" type="place" place="table" nite:id="natasa_IS1006b_B.foa.660"/>
+    <foa endtime="1350.64" starttime="1350.0" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.661"/>
+    <foa endtime="1381.88" starttime="1350.64" type="place" place="table" nite:id="natasa_IS1006b_B.foa.662"/>
+    <foa endtime="1382.36" starttime="1381.88" type="person" role="ID" nxt_agent="C" nite:id="natasa_IS1006b_B.foa.663"/>
+    <foa endtime="1387.96" starttime="1382.36" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.664"/>
+    <foa endtime="1388.32" starttime="1387.96" type="unspecified" nite:id="natasa_IS1006b_B.foa.665"/>
+    <foa endtime="1389.04" starttime="1388.32" type="person" role="ID" nxt_agent="C" nite:id="natasa_IS1006b_B.foa.666"/>
+    <foa endtime="1394.16" starttime="1389.04" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.667"/>
+    <foa endtime="1415.16" starttime="1394.16" type="place" place="table" nite:id="natasa_IS1006b_B.foa.668"/>
+    <foa endtime="1423.44" starttime="1415.16" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.669"/>
+    <foa endtime="1424.04" starttime="1423.44" type="person" role="ID" nxt_agent="C" nite:id="natasa_IS1006b_B.foa.670"/>
+    <foa endtime="1432.6" starttime="1424.04" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.671"/>
+    <foa endtime="1434.4" starttime="1432.6" type="person" role="ID" nxt_agent="C" nite:id="natasa_IS1006b_B.foa.672"/>
+    <foa endtime="1435.4" starttime="1434.4" type="person" role="PM" nxt_agent="A" nite:id="natasa_IS1006b_B.foa.673"/>
+    <foa endtime="1437.08" starttime="1435.4" type="unspecified" nite:id="natasa_IS1006b_B.foa.674"/>
+    <foa endtime="1438.68" starttime="1437.08" type="person" role="ID" nxt_agent="C" nite:id="natasa_IS1006b_B.foa.675"/>
+    <foa endtime="1445.68" starttime="1438.68" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.676"/>
+    <foa endtime="1446.04" starttime="1445.68" type="person" role="ID" nxt_agent="C" nite:id="natasa_IS1006b_B.foa.677"/>
+    <foa endtime="1447.44" starttime="1446.04" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.678"/>
+    <foa endtime="1448.08" starttime="1447.44" type="person" role="ID" nxt_agent="C" nite:id="natasa_IS1006b_B.foa.679"/>
+    <foa endtime="1463.32" starttime="1448.08" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.680"/>
+    <foa endtime="1465.4" starttime="1463.32" type="place" place="table" nite:id="natasa_IS1006b_B.foa.681"/>
+    <foa endtime="1465.64" starttime="1465.4" type="person" role="PM" nxt_agent="A" nite:id="natasa_IS1006b_B.foa.682"/>
+    <foa endtime="1468.12" starttime="1465.64" type="unspecified" nite:id="natasa_IS1006b_B.foa.683"/>
+    <foa endtime="1470.76" starttime="1468.12" type="person" role="PM" nxt_agent="A" nite:id="natasa_IS1006b_B.foa.684"/>
+    <foa endtime="1472.0" starttime="1470.76" type="unspecified" nite:id="natasa_IS1006b_B.foa.685"/>
+    <foa endtime="1503.96" starttime="1472.0" type="place" place="table" nite:id="natasa_IS1006b_B.foa.686"/>
+    <foa endtime="1504.32" starttime="1503.96" type="person" role="ID" nxt_agent="C" nite:id="natasa_IS1006b_B.foa.687"/>
+    <foa endtime="1510.44" starttime="1504.32" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.688"/>
+    <foa endtime="1511.72" starttime="1510.44" type="person" role="ID" nxt_agent="C" nite:id="natasa_IS1006b_B.foa.689"/>
+    <foa endtime="1512.28" starttime="1511.72" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.690"/>
+    <foa endtime="1513.84" starttime="1512.28" type="person" role="ID" nxt_agent="C" nite:id="natasa_IS1006b_B.foa.691"/>
+    <foa endtime="1514.32" starttime="1513.84" type="unspecified" nite:id="natasa_IS1006b_B.foa.692"/>
+    <foa endtime="1515.28" starttime="1514.32" type="person" role="ID" nxt_agent="C" nite:id="natasa_IS1006b_B.foa.693"/>
+    <foa endtime="1528.72" starttime="1515.28" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.694"/>
+    <foa endtime="1529.16" starttime="1528.72" type="person" role="ID" nxt_agent="C" nite:id="natasa_IS1006b_B.foa.695"/>
+    <foa endtime="1529.72" starttime="1529.16" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.696"/>
+    <foa endtime="1530.52" starttime="1529.72" type="person" role="ID" nxt_agent="C" nite:id="natasa_IS1006b_B.foa.697"/>
+    <foa endtime="1531.04" starttime="1530.52" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.698"/>
+    <foa endtime="1531.4" starttime="1531.04" type="person" role="ID" nxt_agent="C" nite:id="natasa_IS1006b_B.foa.699"/>
+    <foa endtime="1533.56" starttime="1531.4" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.700"/>
+    <foa endtime="1534.64" starttime="1533.56" type="person" role="ID" nxt_agent="C" nite:id="natasa_IS1006b_B.foa.701"/>
+    <foa endtime="1537.68" starttime="1534.64" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.702"/>
+    <foa endtime="1538.4" starttime="1537.68" type="person" role="ID" nxt_agent="C" nite:id="natasa_IS1006b_B.foa.703"/>
+    <foa endtime="1541.28" starttime="1538.4" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.704"/>
+    <foa endtime="1542.12" starttime="1541.28" type="person" role="ID" nxt_agent="C" nite:id="natasa_IS1006b_B.foa.705"/>
+    <foa endtime="1543.6" starttime="1542.12" type="unspecified" nite:id="natasa_IS1006b_B.foa.706"/>
+    <foa endtime="1544.08" starttime="1543.6" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.707"/>
+    <foa endtime="1550.24" starttime="1544.08" type="person" role="ID" nxt_agent="C" nite:id="natasa_IS1006b_B.foa.708"/>
+    <foa endtime="1550.48" starttime="1550.24" type="person" role="PM" nxt_agent="A" nite:id="natasa_IS1006b_B.foa.709"/>
+    <foa endtime="1551.44" starttime="1550.48" type="place" place="table" nite:id="natasa_IS1006b_B.foa.710"/>
+    <foa endtime="1557.04" starttime="1551.44" type="person" role="PM" nxt_agent="A" nite:id="natasa_IS1006b_B.foa.711"/>
+    <foa endtime="1557.76" starttime="1557.04" type="place" place="table" nite:id="natasa_IS1006b_B.foa.712"/>
+    <foa endtime="1558.76" starttime="1557.76" type="person" role="ID" nxt_agent="C" nite:id="natasa_IS1006b_B.foa.713"/>
+    <foa endtime="1559.4" starttime="1558.76" type="unspecified" nite:id="natasa_IS1006b_B.foa.714"/>
+    <foa endtime="1560.76" starttime="1559.4" type="place" place="table" nite:id="natasa_IS1006b_B.foa.715"/>
+    <foa endtime="1561.0" starttime="1560.76" type="unspecified" nite:id="natasa_IS1006b_B.foa.716"/>
+    <foa endtime="1563.28" starttime="1561.0" type="place" place="table" nite:id="natasa_IS1006b_B.foa.717"/>
+    <foa endtime="1563.52" starttime="1563.28" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.718"/>
+    <foa endtime="1564.12" starttime="1563.52" type="place" place="whiteboard" nite:id="natasa_IS1006b_B.foa.719"/>
+    <foa endtime="1564.92" starttime="1564.12" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.720"/>
+    <foa endtime="1565.28" starttime="1564.92" type="person" role="ID" nxt_agent="C" nite:id="natasa_IS1006b_B.foa.721"/>
+    <foa endtime="1566.12" starttime="1565.28" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.722"/>
+    <foa endtime="1567.6" starttime="1566.12" type="person" role="ID" nxt_agent="C" nite:id="natasa_IS1006b_B.foa.723"/>
+    <foa endtime="1568.2" starttime="1567.6" type="unspecified" nite:id="natasa_IS1006b_B.foa.724"/>
+    <foa endtime="1571.36" starttime="1568.2" type="place" place="table" nite:id="natasa_IS1006b_B.foa.725"/>
+    <foa endtime="1573.0" starttime="1571.36" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.726"/>
+    <foa endtime="1575.76" starttime="1573.0" type="place" place="table" nite:id="natasa_IS1006b_B.foa.727"/>
+    <foa endtime="1579.12" starttime="1575.76" type="unspecified" nite:id="natasa_IS1006b_B.foa.728"/>
+    <foa endtime="1587.72" starttime="1579.12" type="place" place="whiteboard" nite:id="natasa_IS1006b_B.foa.729"/>
+    <foa endtime="1588.44" starttime="1587.72" type="person" role="ID" nxt_agent="C" nite:id="natasa_IS1006b_B.foa.730"/>
+    <foa endtime="1588.8" starttime="1588.44" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.731"/>
+    <foa endtime="1589.88" starttime="1588.8" type="place" place="whiteboard" nite:id="natasa_IS1006b_B.foa.732"/>
+    <foa endtime="1590.32" starttime="1589.88" type="person" role="ID" nxt_agent="C" nite:id="natasa_IS1006b_B.foa.733"/>
+    <foa endtime="1591.2" starttime="1590.32" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.734"/>
+    <foa endtime="1594.2" starttime="1591.2" type="place" place="whiteboard" nite:id="natasa_IS1006b_B.foa.735"/>
+    <foa endtime="1595.16" starttime="1594.2" type="person" role="ID" nxt_agent="C" nite:id="natasa_IS1006b_B.foa.736"/>
+    <foa endtime="1597.44" starttime="1595.16" type="unspecified" nite:id="natasa_IS1006b_B.foa.737"/>
+    <foa endtime="1599.48" starttime="1597.44" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.738"/>
+    <foa endtime="1600.88" starttime="1599.48" type="person" role="ID" nxt_agent="C" nite:id="natasa_IS1006b_B.foa.739"/>
+    <foa endtime="1601.6" starttime="1600.88" type="unspecified" nite:id="natasa_IS1006b_B.foa.740"/>
+    <foa endtime="1608.68" starttime="1601.6" type="place" place="table" nite:id="natasa_IS1006b_B.foa.741"/>
+    <foa endtime="1609.08" starttime="1608.68" type="person" role="PM" nxt_agent="A" nite:id="natasa_IS1006b_B.foa.742"/>
+    <foa endtime="1610.12" starttime="1609.08" type="place" place="table" nite:id="natasa_IS1006b_B.foa.743"/>
+    <foa endtime="1613.2" starttime="1610.12" type="unspecified" nite:id="natasa_IS1006b_B.foa.744"/>
+    <foa endtime="1614.52" starttime="1613.2" type="place" place="table" nite:id="natasa_IS1006b_B.foa.745"/>
+    <foa endtime="1615.64" starttime="1614.52" type="person" role="ID" nxt_agent="C" nite:id="natasa_IS1006b_B.foa.746"/>
+    <foa endtime="1616.0" starttime="1615.64" type="person" role="PM" nxt_agent="A" nite:id="natasa_IS1006b_B.foa.747"/>
+    <foa endtime="1617.52" starttime="1616.0" type="person" role="ME" nxt_agent="D" nite:id="natasa_IS1006b_B.foa.748"/>
+    <foa endtime="1623.88" starttime="1617.52" type="unspecified" nite:id="natasa_IS1006b_B.foa.749"/>
+    <foa endtime="1624.36" starttime="1623.88" type="person" role="ID" nxt_agent="C" nite:id="natasa_IS1006b_B.foa.750"/>
+    <foa endtime="1625.44" starttime="1624.36" type="unspecified" nite:id="natasa_IS1006b_B.foa.751"/>
+    <foa endtime="1626.52" starttime="1625.44" type="place" place="table" nite:id="natasa_IS1006b_B.foa.752"/>
+    <foa endtime="1627.24" starttime="1626.52" type="unspecified" nite:id="natasa_IS1006b_B.foa.753"/>
+    <foa endtime="1628.44" starttime="1627.24" type="person" role="ME" nxt_agent="D" nite:id="natasa_IS1006b_B.foa.754"/>
+    <foa endtime="1631.16" starttime="1628.44" type="unspecified" nite:id="natasa_IS1006b_B.foa.755"/>
+    <foa endtime="1631.52" starttime="1631.16" type="person" role="PM" nxt_agent="A" nite:id="natasa_IS1006b_B.foa.756"/>
+    <foa endtime="1632.56" starttime="1631.52" type="unspecified" nite:id="natasa_IS1006b_B.foa.757"/>
+    <foa endtime="1636.6" starttime="1632.56" type="place" place="table" nite:id="natasa_IS1006b_B.foa.758"/>
+    <foa endtime="1637.28" starttime="1636.6" type="unspecified" nite:id="natasa_IS1006b_B.foa.759"/>
+    <foa endtime="1641.28" starttime="1637.28" type="person" role="ID" nxt_agent="C" nite:id="natasa_IS1006b_B.foa.760"/>
+    <foa endtime="1641.64" starttime="1641.28" type="unspecified" nite:id="natasa_IS1006b_B.foa.761"/>
+    <foa endtime="1642.0" starttime="1641.64" type="person" role="PM" nxt_agent="A" nite:id="natasa_IS1006b_B.foa.762"/>
+    <foa endtime="1647.32" starttime="1642.0" type="unspecified" nite:id="natasa_IS1006b_B.foa.763"/>
+    <foa endtime="1649.52" starttime="1647.32" type="person" role="ID" nxt_agent="C" nite:id="natasa_IS1006b_B.foa.764"/>
+    <foa endtime="1651.68" starttime="1649.52" type="unspecified" nite:id="natasa_IS1006b_B.foa.765"/>
+    <foa endtime="1652.96" starttime="1651.68" type="place" place="table" nite:id="natasa_IS1006b_B.foa.766"/>
+    <foa endtime="1653.28" starttime="1652.96" type="unspecified" nite:id="natasa_IS1006b_B.foa.767"/>
+    <foa endtime="1662.88" starttime="1653.28" type="place" place="whiteboard" nite:id="natasa_IS1006b_B.foa.768"/>
+    <foa endtime="1664.12" starttime="1662.88" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.769"/>
+    <foa endtime="1666.2" starttime="1664.12" type="place" place="whiteboard" nite:id="natasa_IS1006b_B.foa.770"/>
+    <foa endtime="1675.56" starttime="1666.2" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.771"/>
+    <foa endtime="1676.4" starttime="1675.56" type="place" place="whiteboard" nite:id="natasa_IS1006b_B.foa.772"/>
+    <foa endtime="1678.92" starttime="1676.4" type="person" role="ID" nxt_agent="C" nite:id="natasa_IS1006b_B.foa.773"/>
+    <foa endtime="1679.88" starttime="1678.92" type="unspecified" nite:id="natasa_IS1006b_B.foa.774"/>
+    <foa endtime="1680.88" starttime="1679.88" type="person" role="ID" nxt_agent="C" nite:id="natasa_IS1006b_B.foa.775"/>
+    <foa endtime="1684.4" starttime="1680.88" type="unspecified" nite:id="natasa_IS1006b_B.foa.776"/>
+    <foa endtime="1685.32" starttime="1684.4" type="person" role="ID" nxt_agent="C" nite:id="natasa_IS1006b_B.foa.777"/>
+    <foa endtime="1685.56" starttime="1685.32" type="place" place="whiteboard" nite:id="natasa_IS1006b_B.foa.778"/>
+    <foa endtime="1686.48" starttime="1685.56" type="unspecified" nite:id="natasa_IS1006b_B.foa.779"/>
+    <foa endtime="1688.52" starttime="1686.48" type="person" role="PM" nxt_agent="A" nite:id="natasa_IS1006b_B.foa.780"/>
+    <foa endtime="1694.88" starttime="1688.52" type="unspecified" nite:id="natasa_IS1006b_B.foa.781"/>
+    <foa endtime="1697.4" starttime="1694.88" type="place" place="table" nite:id="natasa_IS1006b_B.foa.782"/>
+    <foa endtime="1698.52" starttime="1697.4" type="person" role="ID" nxt_agent="C" nite:id="natasa_IS1006b_B.foa.783"/>
+    <foa endtime="1701.2" starttime="1698.52" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.784"/>
+    <foa endtime="1701.56" starttime="1701.2" type="person" role="ID" nxt_agent="C" nite:id="natasa_IS1006b_B.foa.785"/>
+    <foa endtime="1702.64" starttime="1701.56" type="place" place="table" nite:id="natasa_IS1006b_B.foa.786"/>
+    <foa endtime="1703.0" starttime="1702.64" type="person" role="PM" nxt_agent="A" nite:id="natasa_IS1006b_B.foa.787"/>
+    <foa endtime="1714.52" starttime="1703.0" type="unspecified" nite:id="natasa_IS1006b_B.foa.788"/>
+    <foa endtime="1715.32" starttime="1714.52" type="person" role="ID" nxt_agent="C" nite:id="natasa_IS1006b_B.foa.789"/>
+    <foa endtime="1717.0" starttime="1715.32" type="unspecified" nite:id="natasa_IS1006b_B.foa.790"/>
+    <foa endtime="1717.48" starttime="1717.0" type="person" role="ID" nxt_agent="C" nite:id="natasa_IS1006b_B.foa.791"/>
+    <foa endtime="1723.48" starttime="1717.48" type="unspecified" nite:id="natasa_IS1006b_B.foa.792"/>
+    <foa endtime="1724.08" starttime="1723.48" type="person" role="ID" nxt_agent="C" nite:id="natasa_IS1006b_B.foa.793"/>
+    <foa endtime="1739.2" starttime="1724.08" type="unspecified" nite:id="natasa_IS1006b_B.foa.794"/>
+    <foa endtime="1742.2" starttime="1739.2" type="person" role="ME" nxt_agent="D" nite:id="natasa_IS1006b_B.foa.795"/>
+    <foa endtime="1742.8" starttime="1742.2" type="unspecified" nite:id="natasa_IS1006b_B.foa.796"/>
+    <foa endtime="1743.88" starttime="1742.8" type="person" role="ME" nxt_agent="D" nite:id="natasa_IS1006b_B.foa.797"/>
+    <foa endtime="1744.76" starttime="1743.88" type="unspecified" nite:id="natasa_IS1006b_B.foa.798"/>
+    <foa endtime="1750.4" starttime="1744.76" type="person" role="ME" nxt_agent="D" nite:id="natasa_IS1006b_B.foa.799"/>
+    <foa endtime="1750.96" starttime="1750.4" type="unspecified" nite:id="natasa_IS1006b_B.foa.800"/>
+    <foa endtime="1751.96" starttime="1750.96" type="person" role="PM" nxt_agent="A" nite:id="natasa_IS1006b_B.foa.801"/>
+    <foa endtime="1752.32" starttime="1751.96" type="unspecified" nite:id="natasa_IS1006b_B.foa.802"/>
+    <foa endtime="1752.72" starttime="1752.32" type="person" role="ME" nxt_agent="D" nite:id="natasa_IS1006b_B.foa.803"/>
+    <foa endtime="1754.48" starttime="1752.72" type="place" place="table" nite:id="natasa_IS1006b_B.foa.804"/>
+    <foa endtime="1757.6" starttime="1754.48" type="person" role="ME" nxt_agent="D" nite:id="natasa_IS1006b_B.foa.805"/>
+    <foa endtime="1758.08" starttime="1757.6" type="unspecified" nite:id="natasa_IS1006b_B.foa.806"/>
+    <foa endtime="1759.16" starttime="1758.08" type="person" role="ID" nxt_agent="C" nite:id="natasa_IS1006b_B.foa.807"/>
+    <foa endtime="1767.76" starttime="1759.16" type="unspecified" nite:id="natasa_IS1006b_B.foa.808"/>
+    <foa endtime="1771.24" starttime="1767.76" type="place" place="whiteboard" nite:id="natasa_IS1006b_B.foa.809"/>
+    <foa endtime="1778.52" starttime="1771.24" type="unspecified" nite:id="natasa_IS1006b_B.foa.810"/>
+    <foa endtime="1780.4" starttime="1778.52" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.811"/>
+    <foa endtime="1784.0" starttime="1780.4" type="unspecified" nite:id="natasa_IS1006b_B.foa.812"/>
+    <foa endtime="1784.48" starttime="1784.0" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.813"/>
+    <foa endtime="1785.72" starttime="1784.48" type="person" role="ID" nxt_agent="C" nite:id="natasa_IS1006b_B.foa.814"/>
+    <foa endtime="1786.2" starttime="1785.72" type="unspecified" nite:id="natasa_IS1006b_B.foa.815"/>
+    <foa endtime="1787.36" starttime="1786.2" type="place" place="table" nite:id="natasa_IS1006b_B.foa.816"/>
+    <foa endtime="1788.32" starttime="1787.36" type="unspecified" nite:id="natasa_IS1006b_B.foa.817"/>
+    <foa endtime="1790.12" starttime="1788.32" type="place" place="whiteboard" nite:id="natasa_IS1006b_B.foa.818"/>
+    <foa endtime="1790.64" starttime="1790.12" type="person" role="ID" nxt_agent="C" nite:id="natasa_IS1006b_B.foa.819"/>
+    <foa endtime="1793.88" starttime="1790.64" type="unspecified" nite:id="natasa_IS1006b_B.foa.820"/>
+    <foa endtime="1794.52" starttime="1793.88" type="person" role="ID" nxt_agent="C" nite:id="natasa_IS1006b_B.foa.821"/>
+    <foa endtime="1795.0" starttime="1794.52" type="unspecified" nite:id="natasa_IS1006b_B.foa.822"/>
+    <foa endtime="1795.32" starttime="1795.0" type="person" role="PM" nxt_agent="A" nite:id="natasa_IS1006b_B.foa.823"/>
+    <foa endtime="1796.12" starttime="1795.32" type="person" role="ID" nxt_agent="C" nite:id="natasa_IS1006b_B.foa.824"/>
+    <foa endtime="1797.12" starttime="1796.12" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.825"/>
+    <foa endtime="1799.36" starttime="1797.12" type="place" place="table" nite:id="natasa_IS1006b_B.foa.826"/>
+    <foa endtime="1799.84" starttime="1799.36" type="person" role="ID" nxt_agent="C" nite:id="natasa_IS1006b_B.foa.827"/>
+    <foa endtime="1803.56" starttime="1799.84" type="unspecified" nite:id="natasa_IS1006b_B.foa.828"/>
+    <foa endtime="1803.92" starttime="1803.56" type="person" role="ID" nxt_agent="C" nite:id="natasa_IS1006b_B.foa.829"/>
+    <foa endtime="1806.08" starttime="1803.92" type="unspecified" nite:id="natasa_IS1006b_B.foa.830"/>
+    <foa endtime="1806.8" starttime="1806.08" type="person" role="ID" nxt_agent="C" nite:id="natasa_IS1006b_B.foa.831"/>
+    <foa endtime="1808.12" starttime="1806.8" type="unspecified" nite:id="natasa_IS1006b_B.foa.832"/>
+    <foa endtime="1811.28" starttime="1808.12" type="person" role="ID" nxt_agent="C" nite:id="natasa_IS1006b_B.foa.833"/>
+    <foa endtime="1811.88" starttime="1811.28" type="person" role="PM" nxt_agent="A" nite:id="natasa_IS1006b_B.foa.834"/>
+    <foa endtime="1814.6" starttime="1811.88" type="person" role="ID" nxt_agent="C" nite:id="natasa_IS1006b_B.foa.835"/>
+    <foa endtime="1815.56" starttime="1814.6" type="place" place="table" nite:id="natasa_IS1006b_B.foa.836"/>
+    <foa endtime="1816.32" starttime="1815.56" type="person" role="PM" nxt_agent="A" nite:id="natasa_IS1006b_B.foa.837"/>
+    <foa endtime="1816.88" starttime="1816.32" type="person" role="ME" nxt_agent="D" nite:id="natasa_IS1006b_B.foa.838"/>
+    <foa endtime="1817.48" starttime="1816.88" type="person" role="PM" nxt_agent="A" nite:id="natasa_IS1006b_B.foa.839"/>
+    <foa endtime="1817.92" starttime="1817.48" type="person" role="ME" nxt_agent="D" nite:id="natasa_IS1006b_B.foa.840"/>
+    <foa endtime="1819.48" starttime="1817.92" type="person" role="PM" nxt_agent="A" nite:id="natasa_IS1006b_B.foa.841"/>
+    <foa endtime="1819.84" starttime="1819.48" type="unspecified" nite:id="natasa_IS1006b_B.foa.842"/>
+    <foa endtime="1825.76" starttime="1819.84" type="person" role="ID" nxt_agent="C" nite:id="natasa_IS1006b_B.foa.843"/>
+    <foa endtime="1827.84" starttime="1825.76" type="unspecified" nite:id="natasa_IS1006b_B.foa.844"/>
+    <foa endtime="1832.88" starttime="1827.84" type="person" role="ID" nxt_agent="C" nite:id="natasa_IS1006b_B.foa.845"/>
+    <foa endtime="1834.6" starttime="1832.88" type="place" place="table" nite:id="natasa_IS1006b_B.foa.846"/>
+    <foa endtime="1835.56" starttime="1834.6" type="unspecified" nite:id="natasa_IS1006b_B.foa.847"/>
+    <foa endtime="1838.04" starttime="1835.56" type="place" place="table" nite:id="natasa_IS1006b_B.foa.848"/>
+    <foa endtime="1840.08" starttime="1838.04" type="unspecified" nite:id="natasa_IS1006b_B.foa.849"/>
+    <foa endtime="1843.48" starttime="1840.08" type="person" role="ME" nxt_agent="D" nite:id="natasa_IS1006b_B.foa.850"/>
+    <foa endtime="1849.68" starttime="1843.48" type="unspecified" nite:id="natasa_IS1006b_B.foa.851"/>
+    <foa endtime="1862.32" starttime="1849.68" type="place" place="table" nite:id="natasa_IS1006b_B.foa.852"/>
+    <foa endtime="1863.8" starttime="1862.32" type="unspecified" nite:id="natasa_IS1006b_B.foa.853"/>
+    <foa endtime="1864.36" starttime="1863.8" type="person" role="PM" nxt_agent="A" nite:id="natasa_IS1006b_B.foa.854"/>
+    <foa endtime="1867.36" starttime="1864.36" type="place" place="table" nite:id="natasa_IS1006b_B.foa.855"/>
+    <foa endtime="1868.76" starttime="1867.36" type="person" role="PM" nxt_agent="A" nite:id="natasa_IS1006b_B.foa.856"/>
+    <foa endtime="1869.24" starttime="1868.76" type="place" place="table" nite:id="natasa_IS1006b_B.foa.857"/>
+    <foa endtime="1870.88" starttime="1869.24" type="unspecified" nite:id="natasa_IS1006b_B.foa.858"/>
+    <foa endtime="1871.16" starttime="1870.88" type="place" place="table" nite:id="natasa_IS1006b_B.foa.859"/>
+    <foa endtime="1872.88" starttime="1871.16" type="person" role="PM" nxt_agent="A" nite:id="natasa_IS1006b_B.foa.860"/>
+    <foa endtime="1874.08" starttime="1872.88" type="person" role="ME" nxt_agent="D" nite:id="natasa_IS1006b_B.foa.861"/>
+    <foa endtime="1876.28" starttime="1874.08" type="person" role="PM" nxt_agent="A" nite:id="natasa_IS1006b_B.foa.862"/>
+    <foa endtime="1878.12" starttime="1876.28" type="unspecified" nite:id="natasa_IS1006b_B.foa.863"/>
+    <foa endtime="1879.4" starttime="1878.12" type="person" role="PM" nxt_agent="A" nite:id="natasa_IS1006b_B.foa.864"/>
+    <foa endtime="1880.16" starttime="1879.4" type="person" role="ME" nxt_agent="D" nite:id="natasa_IS1006b_B.foa.865"/>
+    <foa endtime="1880.88" starttime="1880.16" type="person" role="PM" nxt_agent="A" nite:id="natasa_IS1006b_B.foa.866"/>
+    <foa endtime="1881.56" starttime="1880.88" type="person" role="ID" nxt_agent="C" nite:id="natasa_IS1006b_B.foa.867"/>
+    <foa endtime="1882.08" starttime="1881.56" type="person" role="PM" nxt_agent="A" nite:id="natasa_IS1006b_B.foa.868"/>
+    <foa endtime="1882.56" starttime="1882.08" type="unspecified" nite:id="natasa_IS1006b_B.foa.869"/>
+    <foa endtime="1883.0" starttime="1882.56" type="person" role="ID" nxt_agent="C" nite:id="natasa_IS1006b_B.foa.870"/>
+    <foa endtime="1884.08" starttime="1883.0" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.871"/>
+    <foa endtime="1887.92" starttime="1884.08" type="place" place="table" nite:id="natasa_IS1006b_B.foa.872"/>
+    <foa endtime="1888.56" starttime="1887.92" type="person" role="PM" nxt_agent="A" nite:id="natasa_IS1006b_B.foa.873"/>
+    <foa endtime="1889.96" starttime="1888.56" type="unspecified" nite:id="natasa_IS1006b_B.foa.874"/>
+    <foa endtime="1891.88" starttime="1889.96" type="place" place="table" nite:id="natasa_IS1006b_B.foa.875"/>
+    <foa endtime="1892.44" starttime="1891.88" type="person" role="PM" nxt_agent="A" nite:id="natasa_IS1006b_B.foa.876"/>
+    <foa endtime="1893.0" starttime="1892.44" type="unspecified" nite:id="natasa_IS1006b_B.foa.877"/>
+    <foa endtime="1902.28" starttime="1893.0" type="place" place="table" nite:id="natasa_IS1006b_B.foa.878"/>
+    <foa endtime="1902.64" starttime="1902.28" type="place" place="whiteboard" nite:id="natasa_IS1006b_B.foa.879"/>
+    <foa endtime="1904.68" starttime="1902.64" type="unspecified" nite:id="natasa_IS1006b_B.foa.880"/>
+    <foa endtime="1908.0" starttime="1904.68" type="place" place="whiteboard" nite:id="natasa_IS1006b_B.foa.881"/>
+    <foa endtime="1908.8" starttime="1908.0" type="unspecified" nite:id="natasa_IS1006b_B.foa.882"/>
+    <foa endtime="1909.4" starttime="1908.8" type="place" place="table" nite:id="natasa_IS1006b_B.foa.883"/>
+    <foa endtime="1911.04" starttime="1909.4" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.884"/>
+    <foa endtime="1915.24" starttime="1911.04" type="place" place="table" nite:id="natasa_IS1006b_B.foa.885"/>
+    <foa endtime="1930.0" starttime="1915.24" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.886"/>
+    <foa endtime="1933.28" starttime="1930.0" type="person" role="PM" nxt_agent="A" nite:id="natasa_IS1006b_B.foa.887"/>
+    <foa endtime="1936.0" starttime="1933.28" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.888"/>
+    <foa endtime="1959.24" starttime="1936.0" type="place" place="table" nite:id="natasa_IS1006b_B.foa.889"/>
+    <foa endtime="1960.2" starttime="1959.24" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.890"/>
+    <foa endtime="1966.0" starttime="1960.2" type="place" place="table" nite:id="natasa_IS1006b_B.foa.891"/>
+    <foa endtime="1966.4" starttime="1966.0" type="person" role="PM" nxt_agent="A" nite:id="natasa_IS1006b_B.foa.892"/>
+    <foa endtime="1982.16" starttime="1966.4" type="place" place="table" nite:id="natasa_IS1006b_B.foa.893"/>
+    <foa endtime="1982.4" starttime="1982.16" type="unspecified" nite:id="natasa_IS1006b_B.foa.894"/>
+    <foa endtime="1990.68" starttime="1982.4" type="place" place="slide-screen" nite:id="natasa_IS1006b_B.foa.895"/>
+    <foa endtime="1991.12" starttime="1990.68" type="person" role="PM" nxt_agent="A" nite:id="natasa_IS1006b_B.foa.896"/>
+    <foa endtime="1995.0" starttime="1991.12" type="place" place="table" nite:id="natasa_IS1006b_B.foa.897"/>
+    <foa endtime="1995.84" starttime="1995.0" type="person" role="PM" nxt_agent="A" nite:id="natasa_IS1006b_B.foa.898"/>
+    <foa endtime="1999.36" starttime="1995.84" type="place" place="table" nite:id="natasa_IS1006b_B.foa.899"/>
+    <foa endtime="1999.96" starttime="1999.36" type="person" role="PM" nxt_agent="A" nite:id="natasa_IS1006b_B.foa.900"/>
+    <foa endtime="2001.92" starttime="1999.96" type="place" place="table" nite:id="natasa_IS1006b_B.foa.901"/>
+    <foa endtime="2002.72" starttime="2001.92" type="person" role="PM" nxt_agent="A" nite:id="natasa_IS1006b_B.foa.902"/>
+    <foa endtime="2003.84" starttime="2002.72" type="person" role="ID" nxt_agent="C" nite:id="natasa_IS1006b_B.foa.903"/>
+    <foa endtime="2013.88" starttime="2003.84" type="place" place="table" nite:id="natasa_IS1006b_B.foa.904"/>
+    <foa endtime="2014.84" starttime="2013.88" type="person" role="ID" nxt_agent="C" nite:id="natasa_IS1006b_B.foa.905"/>
+    <foa endtime="2015.56" starttime="2014.84" type="unspecified" nite:id="natasa_IS1006b_B.foa.906"/>
+    <foa endtime="2036.04" starttime="2015.56" type="place" place="table" nite:id="natasa_IS1006b_B.foa.907"/>
+    <foa endtime="2037.2" starttime="2036.04" type="person" role="PM" nxt_agent="A" nite:id="natasa_IS1006b_B.foa.908"/>
+    <foa endtime="2040.4" starttime="2037.2" type="person" role="ME" nxt_agent="D" nite:id="natasa_IS1006b_B.foa.909"/>
+    <foa endtime="2042.84" starttime="2040.4" type="unspecified" nite:id="natasa_IS1006b_B.foa.910"/>
+    <foa endtime="2044.24" starttime="2042.84" type="person" role="ME" nxt_agent="D" nite:id="natasa_IS1006b_B.foa.911"/>
+    <foa endtime="2044.6" starttime="2044.24" type="unspecified" nite:id="natasa_IS1006b_B.foa.912"/>
+    <foa endtime="2046.36" starttime="2044.6" type="person" role="ME" nxt_agent="D" nite:id="natasa_IS1006b_B.foa.913"/>
+    <foa endtime="2046.84" starttime="2046.36" type="person" role="PM" nxt_agent="A" nite:id="natasa_IS1006b_B.foa.914"/>
+    <foa endtime="2047.68" starttime="2046.84" type="person" role="ID" nxt_agent="C" nite:id="natasa_IS1006b_B.foa.915"/>
+    <foa endtime="2050.08" starttime="2047.68" type="person" role="ME" nxt_agent="D" nite:id="natasa_IS1006b_B.foa.916"/>
+    <foa endtime="2052.12" starttime="2050.08" type="person" role="PM" nxt_agent="A" nite:id="natasa_IS1006b_B.foa.917"/>
+    <foa endtime="2053.08" starttime="2052.12" type="place" place="table" nite:id="natasa_IS1006b_B.foa.918"/>
+    <foa endtime="2053.32" starttime="2053.08" type="person" role="ID" nxt_agent="C" nite:id="natasa_IS1006b_B.foa.919"/>
+    <foa endtime="2056.28" starttime="2053.32" type="person" role="PM" nxt_agent="A" nite:id="natasa_IS1006b_B.foa.920"/>
+    <foa endtime="2056.52" starttime="2056.28" type="unspecified" nite:id="natasa_IS1006b_B.foa.921"/>
+    <foa endtime="2059.88" starttime="2056.52" type="person" role="ID" nxt_agent="C" nite:id="natasa_IS1006b_B.foa.922"/>
+    <foa endtime="2060.64" starttime="2059.88" type="place" place="table" nite:id="natasa_IS1006b_B.foa.923"/>
+    <foa endtime="2060.88" starttime="2060.64" type="person" role="ID" nxt_agent="C" nite:id="natasa_IS1006b_B.foa.924"/>
+    <foa endtime="2061.36" starttime="2060.88" type="unspecified" nite:id="natasa_IS1006b_B.foa.925"/>
+    <foa endtime="2061.6" starttime="2061.36" type="person" role="ID" nxt_agent="C" nite:id="natasa_IS1006b_B.foa.926"/>
+    <foa endtime="2063.16" starttime="2061.6" type="unspecified" nite:id="natasa_IS1006b_B.foa.927"/>
+    <foa endtime="2065.44" starttime="2063.16" type="person" role="ME" nxt_agent="D" nite:id="natasa_IS1006b_B.foa.928"/>
+    <foa endtime="2066.68" starttime="2065.44" type="unspecified" nite:id="natasa_IS1006b_B.foa.929"/>
+    <foa endtime="2066.84" starttime="2066.68" type="person" role="ID" nxt_agent="C" nite:id="natasa_IS1006b_B.foa.930"/>
+    <foa endtime="2067.16" starttime="2066.84" type="unspecified" nite:id="natasa_IS1006b_B.foa.931"/>
+    <foa endtime="2068.28" starttime="2067.16" type="person" role="ME" nxt_agent="D" nite:id="natasa_IS1006b_B.foa.932"/>
+    <foa endtime="2069.44" starttime="2068.28" type="unspecified" nite:id="natasa_IS1006b_B.foa.933"/>
+    <foa endtime="2069.68" starttime="2069.44" type="person" role="ID" nxt_agent="C" nite:id="natasa_IS1006b_B.foa.934"/>
+    <foa endtime="2070.16" starttime="2069.68" type="person" role="PM" nxt_agent="A" nite:id="natasa_IS1006b_B.foa.935"/>
+    <foa endtime="2071.24" starttime="2070.16" type="person" role="ME" nxt_agent="D" nite:id="natasa_IS1006b_B.foa.936"/>
+    <foa endtime="2071.72" starttime="2071.24" type="unspecified" nite:id="natasa_IS1006b_B.foa.937"/>
+    <foa endtime="2073.8" starttime="2071.72" type="person" role="ME" nxt_agent="D" nite:id="natasa_IS1006b_B.foa.938"/>
+    <foa endtime="2074.04" starttime="2073.8" type="unspecified" nite:id="natasa_IS1006b_B.foa.939"/>
+    <foa endtime="2082.16" starttime="2074.04" type="place" place="table" nite:id="natasa_IS1006b_B.foa.940"/>
+    <foa endtime="2082.8" starttime="2082.16" type="person" role="ME" nxt_agent="D" nite:id="natasa_IS1006b_B.foa.941"/>
+    <foa endtime="2085.2" starttime="2082.8" type="place" place="table" nite:id="natasa_IS1006b_B.foa.942"/>
+    <foa endtime="2085.68" starttime="2085.2" type="person" role="PM" nxt_agent="A" nite:id="natasa_IS1006b_B.foa.943"/>
+    <foa endtime="2092.52" starttime="2085.68" type="place" place="table" nite:id="natasa_IS1006b_B.foa.944"/>
+    <foa endtime="2095.04" starttime="2092.52" type="person" role="ID" nxt_agent="C" nite:id="natasa_IS1006b_B.foa.945"/>
+    <foa endtime="2095.4" starttime="2095.04" type="unspecified" nite:id="natasa_IS1006b_B.foa.946"/>
+    <foa endtime="2095.8" starttime="2095.4" type="person" role="PM" nxt_agent="A" nite:id="natasa_IS1006b_B.foa.947"/>
+    <foa endtime="2097.08" starttime="2095.8" type="person" role="ID" nxt_agent="C" nite:id="natasa_IS1006b_B.foa.948"/>
+    <foa endtime="2097.6" starttime="2097.08" type="place" place="table" nite:id="natasa_IS1006b_B.foa.949"/>
+    <foa endtime="2098.44" starttime="2097.6" type="person" role="ID" nxt_agent="C" nite:id="natasa_IS1006b_B.foa.950"/>
+    <foa endtime="2102.28" starttime="2098.44" type="place" place="table" nite:id="natasa_IS1006b_B.foa.951"/>
+    <foa endtime="2103.52" starttime="2102.28" type="unspecified" nite:id="natasa_IS1006b_B.foa.952"/>
+    <foa endtime="2104.08" starttime="2103.52" type="person" role="PM" nxt_agent="A" nite:id="natasa_IS1006b_B.foa.953"/>
+    <foa endtime="2107.88" starttime="2104.08" type="person" role="ID" nxt_agent="C" nite:id="natasa_IS1006b_B.foa.954"/>
+    <foa endtime="2109.16" starttime="2107.88" type="person" role="ME" nxt_agent="D" nite:id="natasa_IS1006b_B.foa.955"/>
+    <foa endtime="2109.76" starttime="2109.16" type="place" place="table" nite:id="natasa_IS1006b_B.foa.956"/>
+    <foa endtime="2110.84" starttime="2109.76" type="person" role="ME" nxt_agent="D" nite:id="natasa_IS1006b_B.foa.957"/>
+    <foa endtime="2112.16" starttime="2110.84" type="unspecified" nite:id="natasa_IS1006b_B.foa.958"/>
+    <foa endtime="2113.32" starttime="2112.16" type="person" role="ME" nxt_agent="D" nite:id="natasa_IS1006b_B.foa.959"/>
+    <foa endtime="2114.04" starttime="2113.32" type="place" place="table" nite:id="natasa_IS1006b_B.foa.960"/>
+    <foa endtime="2115.32" starttime="2114.04" type="person" role="PM" nxt_agent="A" nite:id="natasa_IS1006b_B.foa.961"/>
+    <foa endtime="2116.88" starttime="2115.32" type="place" place="table" nite:id="natasa_IS1006b_B.foa.962"/>
+    <foa endtime="2118.04" starttime="2116.88" type="person" role="PM" nxt_agent="A" nite:id="natasa_IS1006b_B.foa.963"/>
+    <foa endtime="2119.0" starttime="2118.04" type="place" place="table" nite:id="natasa_IS1006b_B.foa.964"/>
+    <foa endtime="2121.28" starttime="2119.0" type="person" role="PM" nxt_agent="A" nite:id="natasa_IS1006b_B.foa.965"/>
+    <foa endtime="2132.84" starttime="2121.28" type="place" place="table" nite:id="natasa_IS1006b_B.foa.966"/>
+    <foa endtime="2133.4" starttime="2132.84" type="person" role="PM" nxt_agent="A" nite:id="natasa_IS1006b_B.foa.967"/>
+    <foa endtime="2133.64" starttime="2133.4" type="person" role="ID" nxt_agent="C" nite:id="natasa_IS1006b_B.foa.968"/>
+    <foa endtime="2137.72" starttime="2133.64" type="place" place="table" nite:id="natasa_IS1006b_B.foa.969"/>
+    <foa endtime="2141.72" starttime="2137.72" type="unspecified" nite:id="natasa_IS1006b_B.foa.970"/>
+    <foa endtime="2145.04" starttime="2141.72" type="place" place="table" nite:id="natasa_IS1006b_B.foa.971"/>
+    <foa endtime="2149.0" starttime="2145.04" type="unspecified" nite:id="natasa_IS1006b_B.foa.972"/>
+</nite:root>

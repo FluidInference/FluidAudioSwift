@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<nite:root xmlns:nite="http://nite.sourceforge.net/">
+<abstract nite:id="ES2012c.elana.abstract.1">
+
+<sentence nite:id="ES2012c.elana.s.1">The project manager opens the meeting by recapping the discussions of the previous meeting, telling the group this meeting's agenda, and stating what each person will do for the next meeting.</sentence>  <sentence nite:id="ES2012c.elana.s.2">Then the industrial designer talks about the components design and explains exactly what remotes do and how they operate.</sentence>  <sentence nite:id="ES2012c.elana.s.3">He also talks about batteries and chips.</sentence>  <sentence nite:id="ES2012c.elana.s.4">The interface specialist present research from the internet about user interface.</sentence>  <sentence nite:id="ES2012c.elana.s.5">He talks about minimizing the clutter on the remote, and suggests using a slide button like on a mouse.</sentence>  <sentence nite:id="ES2012c.elana.s.6">The marketing expert presents, talking about trend-watching and how fruits and vegetables are currently an important theme.</sentence>  <sentence nite:id="ES2012c.elana.s.7">They talk about making changable colors available and possibly including batteries with them.</sentence>  <sentence nite:id="ES2012c.elana.s.8">They discuss what the remote should look like in terms of shape color, and then talk about components, materials, and energy sources.</sentence>  <sentence nite:id="ES2012c.elana.s.9">Then they close the meeting.</sentence>   
+</abstract>
+<actions nite:id="ES2012c.elana.actions.1">
+
+<sentence nite:id="ES2012c.elana.s.10">The marketing expert will be doing the product evaulation.</sentence>
+<sentence nite:id="ES2012c.elana.s.11">The interface designer will be looking at the look, feel, and design.</sentence>
+<sentence nite:id="ES2012c.elana.s.12">The industrial specialist will be looking at how the user uses the product.</sentence>
+<sentence nite:id="ES2012c.elana.s.13">The interface designer and industrial specialist will be producing a model of the product</sentence>
+
+</actions>
+<decisions nite:id="ES2012c.elana.decisions.1">
+
+<sentence nite:id="ES2012c.elana.s.14">The remote will have a long-term battery source.</sentence>
+<sentence nite:id="ES2012c.elana.s.15">The remote will contain a custom chip.</sentence>
+<sentence nite:id="ES2012c.elana.s.16">Will be curved, shape similar to a computer mouse, but narrower.</sentence>
+<sentence nite:id="ES2012c.elana.s.17">Will have voice with fewer buttons.</sentence>
+<sentence nite:id="ES2012c.elana.s.18">Will have menu, channel, power, volume buttons.</sentence>
+<sentence nite:id="ES2012c.elana.s.19">No display screen.</sentence>
+<sentence nite:id="ES2012c.elana.s.20">If used, face plates will be cheap.</sentence> 
+</decisions>
+<problems nite:id="ES2012c.elana.problems.1">
+
+<sentence nite:id="ES2012c.elana.s.21">To add voice option, likely need to design own chip.</sentence>  <sentence nite:id="ES2012c.elana.s.22">However, a custom design chip is more expensive and would take longer than using an existing chip.</sentence>
+<sentence nite:id="ES2012c.elana.s.23">Whether to use changable face plates.</sentence> 
+</problems>
+</nite:root>

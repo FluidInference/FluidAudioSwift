@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<nite:root nite:id="IS1009c.topic" xmlns:nite="http://nite.sourceforge.net/">
+   <topic nite:id="IS1009c.topic.vkaraisk.3">
+      <nite:pointer role="scenario_topic_type"  href="default-topics.xml#id(top.11)"/>
+      <nite:child href="IS1009c.A.words.xml#id(IS1009c.A.words0)..id(IS1009c.A.words5)"/>
+      <nite:child href="IS1009c.C.words.xml#id(IS1009c.C.words0)..id(IS1009c.C.words1)"/>
+      <nite:child href="IS1009c.A.words.xml#id(IS1009c.A.words6)"/>
+      <nite:child href="IS1009c.D.words.xml#id(IS1009c.D.words0)..id(IS1009c.D.words1)"/>
+      <nite:child href="IS1009c.B.words.xml#id(IS1009c.B.words0)..id(IS1009c.B.words1)"/>
+      <nite:child href="IS1009c.A.words.xml#id(IS1009c.A.words7)..id(IS1009c.A.words13)"/>
+      <nite:child href="IS1009c.C.words.xml#id(IS1009c.C.words2)..id(IS1009c.C.words5)"/>
+      <nite:child href="IS1009c.A.words.xml#id(IS1009c.A.words14)..id(IS1009c.A.words51)"/>
+      <nite:child href="IS1009c.B.words.xml#id(IS1009c.B.words2)..id(IS1009c.B.words3)"/>
+      <nite:child href="IS1009c.A.words.xml#id(IS1009c.A.words52)..id(IS1009c.A.words129)"/>
+      <nite:child href="IS1009c.D.words.xml#id(IS1009c.D.words2)"/>
+      <nite:child href="IS1009c.A.words.xml#id(IS1009c.A.words130)..id(IS1009c.A.words238)"/>
+      <nite:child href="IS1009c.C.words.xml#id(IS1009c.C.words6)..id(IS1009c.C.words7)"/>
+      <nite:child href="IS1009c.A.words.xml#id(IS1009c.A.words239)..id(IS1009c.A.words253)"/>
+      <nite:child href="IS1009c.D.words.xml#id(IS1009c.D.words3)"/>
+      <nite:child href="IS1009c.A.words.xml#id(IS1009c.A.words254)..id(IS1009c.A.words423)"/>
+      <nite:child href="IS1009c.B.words.xml#id(IS1009c.B.words4)..id(IS1009c.B.words6)"/>
+      <nite:child href="IS1009c.A.words.xml#id(IS1009c.A.words424)..id(IS1009c.A.words495)"/>
+      <nite:child href="IS1009c.D.words.xml#id(IS1009c.D.words4)..id(IS1009c.D.words5)"/>
+      <nite:child href="IS1009c.A.words.xml#id(IS1009c.A.words496)..id(IS1009c.A.words521)"/>
+      <nite:child href="IS1009c.B.words.xml#id(IS1009c.B.words7)..id(IS1009c.B.words8)"/>
+      <nite:child href="IS1009c.A.words.xml#id(IS1009c.A.words522)..id(IS1009c.A.words538)"/>
+      <nite:child href="IS1009c.C.words.xml#id(IS1009c.C.words8)..id(IS1009c.C.words9)"/>
+      <nite:child href="IS1009c.B.words.xml#id(IS1009c.B.words9)..id(IS1009c.B.words10)"/>
+      <nite:child href="IS1009c.D.words.xml#id(IS1009c.D.words6)..id(IS1009c.D.words19)"/>
+      <nite:child href="IS1009c.A.words.xml#id(IS1009c.A.words539)..id(IS1009c.A.words578)"/>
+   </topic>
+   <topic nite:id="IS1009c.topic.vkaraisk.4" other_description="user interface presentation">
+      <nite:pointer role="scenario_topic_type"  href="default-topics.xml#id(top.4)"/>
+      <nite:child href="IS1009c.B.words.xml#id(IS1009c.B.words11)..id(IS1009c.B.words26)"/>
+      <nite:child href="IS1009c.A.words.xml#id(IS1009c.A.words579)..id(IS1009c.A.words593)"/>
+      <nite:child href="IS1009c.D.words.xml#id(IS1009c.D.words20)"/>
+      <nite:child href="IS1009c.A.words.xml#id(IS1009c.A.words594)..id(IS1009c.A.words600)"/>
+      <nite:child href="IS1009c.B.words.xml#id(IS1009c.B.words27)..id(IS1009c.B.words28)"/>
+      <nite:child href="IS1009c.A.words.xml#id(IS1009c.A.words601)..id(IS1009c.A.words602)"/>
+      <nite:child href="IS1009c.B.words.xml#id(IS1009c.B.words29)..id(IS1009c.B.words35)"/>
+      <nite:child href="IS1009c.A.words.xml#id(IS1009c.A.words603)..id(IS1009c.A.words604)"/>
+      <nite:child href="IS1009c.B.words.xml#id(IS1009c.B.words36)..id(IS1009c.B.words71)"/>
+      <topic nite:id="IS1009c.topic.vkaraisk.5" other_description="basic buttons">
+         <nite:pointer role="scenario_topic_type"  href="default-topics.xml#id(top.4)"/>
+         <nite:child href="IS1009c.B.words.xml#id(IS1009c.B.words72)..id(IS1009c.B.words130)"/>
+         <nite:child href="IS1009c.A.words.xml#id(IS1009c.A.words605)..id(IS1009c.A.words612)"/>
+         <nite:child href="IS1009c.B.words.xml#id(IS1009c.B.words131)..id(IS1009c.B.words133)"/>
+         <nite:child href="IS1009c.A.words.xml#id(IS1009c.A.words613)..id(IS1009c.A.words624)"/>
+         <nite:child href="IS1009c.B.words.xml#id(IS1009c.B.words134)..id(IS1009c.B.words177)"/>
+         <nite:child href="IS1009c.A.words.xml#id(IS1009c.A.words625)..id(IS1009c.A.words626)"/>
+         <nite:child href="IS1009c.B.words.xml#id(IS1009c.B.words178)..id(IS1009c.B.words212)"/>
+         <nite:child href="IS1009c.C.words.xml#id(IS1009c.C.words10)..id(IS1009c.C.words15)"/>
+         <nite:child href="IS1009c.A.words.xml#id(IS1009c.A.words627)..id(IS1009c.A.words632)"/>
+         <nite:child href="IS1009c.B.words.xml#id(IS1009c.B.words213)..id(IS1009c.B.words233)"/>
+         <nite:child href="IS1009c.A.words.xml#id(IS1009c.A.words633)..id(IS1009c.A.words634)"/>
+         <nite:child href="IS1009c.B.words.xml#id(IS1009c.B.words234)..id(IS1009c.B.words305)"/>
+         <nite:child href="IS1009c.D.words.xml#id(IS1009c.D.words21)"/>
+         <nite:child href="IS1009c.A.words.xml#id(IS1009c.A.words635)..id(IS1009c.A.words636)"/>
+         <nite:child href="IS1009c.B.words.xml#id(IS1009c.B.words306)..id(IS1009c.B.words411)"/>
+      </topic>
+      <topic nite:id="IS1009c.topic.vkaraisk.6" other_description="speech recognition">
+         <nite:pointer role="scenario_topic_type"  href="default-topics.xml#id(top.4)"/>
+         <nite:child href="IS1009c.B.words.xml#id(IS1009c.B.words412)..id(IS1009c.B.words464)"/>
+         <nite:child href="IS1009c.A.words.xml#id(IS1009c.A.words637)..id(IS1009c.A.words638)"/>
+         <nite:child href="IS1009c.B.words.xml#id(IS1009c.B.words465)..id(IS1009c.B.words560)"/>
+         <nite:child href="IS1009c.D.words.xml#id(IS1009c.D.words22)"/>
+         <nite:child href="IS1009c.A.words.xml#id(IS1009c.A.words639)..id(IS1009c.A.words646)"/>
+      </topic>
+      <topic nite:id="IS1009c.topic.vkaraisk.7" other_description="alternative interface options">
+         <nite:pointer role="scenario_topic_type"  href="default-topics.xml#id(top.4)"/>
+         <nite:child href="IS1009c.B.words.xml#id(IS1009c.B.words561)..id(IS1009c.B.words573)"/>
+         <nite:child href="IS1009c.A.words.xml#id(IS1009c.A.words647)..id(IS1009c.A.words648)"/>
+         <nite:child href="IS1009c.B.words.xml#id(IS1009c.B.words574)..id(IS1009c.B.words594)"/>
+         <nite:child href="IS1009c.A.words.xml#id(IS1009c.A.words649)..id(IS1009c.A.words652)"/>
+         <nite:child href="IS1009c.B.words.xml#id(IS1009c.B.words595)..id(IS1009c.B.words675)"/>
+         <nite:child href="IS1009c.A.words.xml#id(IS1009c.A.words653)..id(IS1009c.A.words656)"/>
+         <nite:child href="IS1009c.B.words.xml#id(IS1009c.B.words676)..id(IS1009c.B.words727)"/>
+         <nite:child href="IS1009c.D.words.xml#id(IS1009c.D.words23)"/>
+         <nite:child href="IS1009c.A.words.xml#id(IS1009c.A.words657)..id(IS1009c.A.words658)"/>
+         <nite:child href="IS1009c.B.words.xml#id(IS1009c.B.words728)..id(IS1009c.B.words734)"/>
+         <nite:child href="IS1009c.A.words.xml#id(IS1009c.A.words659)"/>
+         <nite:child href="IS1009c.B.words.xml#id(IS1009c.B.words735)..id(IS1009c.B.words798)"/>
+         <nite:child href="IS1009c.A.words.xml#id(IS1009c.A.words660)..id(IS1009c.A.words661)"/>
+         <nite:child href="IS1009c.C.words.xml#id(IS1009c.C.words16)..id(IS1009c.C.words17)"/>
+         <nite:child href="IS1009c.A.words.xml#id(IS1009c.A.words662)..id(IS1009c.A.words663)"/>
+         <nite:child href="IS1009c.B.words.xml#id(IS1009c.B.words799)..id(IS1009c.B.words822)"/>
+         <nite:child href="IS1009c.D.words.xml#id(IS1009c.D.words24)"/>
+         <nite:child href="IS1009c.B.words.xml#id(IS1009c.B.words823)..id(IS1009c.B.words855)"/>
+         <nite:child href="IS1009c.A.words.xml#id(IS1009c.A.words664)"/>
+         <nite:child href="IS1009c.C.words.xml#id(IS1009c.C.words18)"/>
+         <nite:child href="IS1009c.D.words.xml#id(IS1009c.D.words25)"/>
+         <nite:child href="IS1009c.A.words.xml#id(IS1009c.A.words665)"/>
+         <nite:child href="IS1009c.D.words.xml#id(IS1009c.D.words26)..id(IS1009c.D.words40)"/>
+         <nite:child href="IS1009c.B.words.xml#id(IS1009c.B.words856)"/>
+         <nite:child href="IS1009c.A.words.xml#id(IS1009c.A.words666)"/>
+         <nite:child href="IS1009c.B.words.xml#id(IS1009c.B.words857)..id(IS1009c.B.words894)"/>
+         <nite:child href="IS1009c.D.words.xml#id(IS1009c.D.words41)..id(IS1009c.D.words42)"/>
+         <nite:child href="IS1009c.A.words.xml#id(IS1009c.A.words667)..id(IS1009c.A.words668)"/>
+         <nite:child href="IS1009c.B.words.xml#id(IS1009c.B.words895)..id(IS1009c.B.words907)"/>
+      </topic>
+      <nite:child href="IS1009c.B.words.xml#id(IS1009c.B.words908)..id(IS1009c.B.words936)"/>
+      <nite:child href="IS1009c.D.words.xml#id(IS1009c.D.words43)"/>
+      <nite:child href="IS1009c.A.words.xml#id(IS1009c.A.words669)..id(IS1009c.A.words672)"/>
+      <nite:child href="IS1009c.B.words.xml#id(IS1009c.B.words937)..id(IS1009c.B.words941)"/>
+      <nite:child href="IS1009c.A.words.xml#id(IS1009c.A.words673)..id(IS1009c.A.words689)"/>
+      <nite:child href="IS1009c.D.words.xml#id(IS1009c.D.words44)..id(IS1009c.D.words140)"/>
+      <nite:child href="IS1009c.C.words.xml#id(IS1009c.C.words19)..id(IS1009c.C.words20)"/>
+      <nite:child href="IS1009c.B.words.xml#id(IS1009c.B.words942)..id(IS1009c.B.words947)"/>
+      <nite:child href="IS1009c.C.words.xml#id(IS1009c.C.words21)"/>
+      <nite:child href="IS1009c.A.words.xml#id(IS1009c.A.words690)..id(IS1009c.A.words697)"/>
+      <nite:child href="IS1009c.B.words.xml#id(IS1009c.B.words948)..id(IS1009c.B.words952)"/>
+      <nite:child href="IS1009c.A.words.xml#id(IS1009c.A.words698)..id(IS1009c.A.words741)"/>
+      <nite:child href="IS1009c.D.words.xml#id(IS1009c.D.words141)..id(IS1009c.D.words155)"/>
+      <nite:child href="IS1009c.B.words.xml#id(IS1009c.B.words953)..id(IS1009c.B.words955)"/>
+      <nite:child href="IS1009c.D.words.xml#id(IS1009c.D.words156)..id(IS1009c.D.words174)"/>
+      <nite:child href="IS1009c.A.words.xml#id(IS1009c.A.words742)..id(IS1009c.A.words746)"/>
+   </topic>
+   <topic nite:id="IS1009c.topic.vkaraisk.8" other_description="industrial design presentation">
+      <nite:pointer role="scenario_topic_type"  href="default-topics.xml#id(top.4)"/>
+      <nite:child href="IS1009c.A.words.xml#id(IS1009c.A.words747)..id(IS1009c.A.words754)"/>
+      <nite:child href="IS1009c.C.words.xml#id(IS1009c.C.words22)..id(IS1009c.C.words25)"/>
+      <nite:child href="IS1009c.A.words.xml#id(IS1009c.A.words755)..id(IS1009c.A.words761)"/>
+      <nite:child href="IS1009c.C.words.xml#id(IS1009c.C.words26)..id(IS1009c.C.words28)"/>
+      <nite:child href="IS1009c.D.words.xml#id(IS1009c.D.words175)"/>
+      <nite:child href="IS1009c.A.words.xml#id(IS1009c.A.words762)..id(IS1009c.A.words764)"/>
+      <nite:child href="IS1009c.C.words.xml#id(IS1009c.C.words29)..id(IS1009c.C.words42)"/>
+      <nite:child href="IS1009c.A.words.xml#id(IS1009c.A.words765)..id(IS1009c.A.words766)"/>
+      <nite:child href="IS1009c.C.words.xml#id(IS1009c.C.words43)..id(IS1009c.C.words44)"/>
+      <nite:child href="IS1009c.A.words.xml#id(IS1009c.A.words767)..id(IS1009c.A.words774)"/>
+      <topic nite:id="IS1009c.topic.vkaraisk.9" other_description="components">
+         <nite:pointer role="scenario_topic_type"  href="default-topics.xml#id(top.4)"/>
+         <nite:child href="IS1009c.C.words.xml#id(IS1009c.C.words45)..id(IS1009c.C.words80)"/>
+         <nite:child href="IS1009c.D.words.xml#id(IS1009c.D.words176)..id(IS1009c.D.words177)"/>
+         <nite:child href="IS1009c.A.words.xml#id(IS1009c.A.words775)..id(IS1009c.A.words776)"/>
+         <nite:child href="IS1009c.C.words.xml#id(IS1009c.C.words81)..id(IS1009c.C.words124)"/>
+         <nite:child href="IS1009c.D.words.xml#id(IS1009c.D.words178)"/>
+         <nite:child href="IS1009c.C.words.xml#id(IS1009c.C.words125)..id(IS1009c.C.words192)"/>
+         <nite:child href="IS1009c.A.words.xml#id(IS1009c.A.words777)..id(IS1009c.A.words780)"/>
+         <nite:child href="IS1009c.C.words.xml#id(IS1009c.C.words193)..id(IS1009c.C.words237)"/>
+         <nite:child href="IS1009c.D.words.xml#id(IS1009c.D.words179)..id(IS1009c.D.words184)"/>
+         <nite:child href="IS1009c.C.words.xml#id(IS1009c.C.words238)..id(IS1009c.C.words453)"/>
+         <nite:child href="IS1009c.D.words.xml#id(IS1009c.D.words185)..id(IS1009c.D.words186)"/>
+         <nite:child href="IS1009c.A.words.xml#id(IS1009c.A.words781)..id(IS1009c.A.words782)"/>
+         <nite:child href="IS1009c.C.words.xml#id(IS1009c.C.words454)..id(IS1009c.C.words604)"/>
+         <nite:child href="IS1009c.D.words.xml#id(IS1009c.D.words187)..id(IS1009c.D.words188)"/>
+         <nite:child href="IS1009c.C.words.xml#id(IS1009c.C.words605)..id(IS1009c.C.words617)"/>
+      </topic>
+      <topic nite:id="IS1009c.topic.vkaraisk.10" other_description="how it works">
+         <nite:pointer role="scenario_topic_type"  href="default-topics.xml#id(top.4)"/>
+         <nite:child href="IS1009c.C.words.xml#id(IS1009c.C.words618)..id(IS1009c.C.words644)"/>
+         <nite:child href="IS1009c.A.words.xml#id(IS1009c.A.words783)..id(IS1009c.A.words785)"/>
+         <nite:child href="IS1009c.C.words.xml#id(IS1009c.C.words645)..id(IS1009c.C.words754)"/>
+         <nite:child href="IS1009c.D.words.xml#id(IS1009c.D.words189)..id(IS1009c.D.words190)"/>
+         <nite:child href="IS1009c.C.words.xml#id(IS1009c.C.words755)..id(IS1009c.C.words975)"/>
+         <nite:child href="IS1009c.B.words.xml#id(IS1009c.B.words956)..id(IS1009c.B.words958)"/>
+      </topic>
+      <topic nite:id="IS1009c.topic.vkaraisk.11" other_description="components">
+         <nite:pointer role="scenario_topic_type"  href="default-topics.xml#id(top.4)"/>
+         <nite:child href="IS1009c.C.words.xml#id(IS1009c.C.words976)..id(IS1009c.C.words1023)"/>
+         <nite:child href="IS1009c.D.words.xml#id(IS1009c.D.words191)..id(IS1009c.D.words192)"/>
+         <nite:child href="IS1009c.C.words.xml#id(IS1009c.C.words1024)..id(IS1009c.C.words1093)"/>
+         <nite:child href="IS1009c.D.words.xml#id(IS1009c.D.words193)..id(IS1009c.D.words196)"/>
+         <nite:child href="IS1009c.A.words.xml#id(IS1009c.A.words786)..id(IS1009c.A.words789)"/>
+         <nite:child href="IS1009c.C.words.xml#id(IS1009c.C.words1094)..id(IS1009c.C.words1139)"/>
+         <nite:child href="IS1009c.A.words.xml#id(IS1009c.A.words790)..id(IS1009c.A.words793)"/>
+         <nite:child href="IS1009c.B.words.xml#id(IS1009c.B.words959)..id(IS1009c.B.words961)"/>
+         <nite:child href="IS1009c.D.words.xml#id(IS1009c.D.words197)..id(IS1009c.D.words198)"/>
+         <nite:child href="IS1009c.C.words.xml#id(IS1009c.C.words1140)..id(IS1009c.C.words1220)"/>
+         <nite:child href="IS1009c.B.words.xml#id(IS1009c.B.words962)..id(IS1009c.B.words963)"/>
+         <nite:child href="IS1009c.A.words.xml#id(IS1009c.A.words794)..id(IS1009c.A.words797)"/>
+         <nite:child href="IS1009c.C.words.xml#id(IS1009c.C.words1221)..id(IS1009c.C.words1370)"/>
+         <nite:child href="IS1009c.B.words.xml#id(IS1009c.B.words964)..id(IS1009c.B.words965)"/>
+         <nite:child href="IS1009c.D.words.xml#id(IS1009c.D.words199)"/>
+         <nite:child href="IS1009c.C.words.xml#id(IS1009c.C.words1371)..id(IS1009c.C.words1459)"/>
+         <nite:child href="IS1009c.B.words.xml#id(IS1009c.B.words966)..id(IS1009c.B.words967)"/>
+         <nite:child href="IS1009c.C.words.xml#id(IS1009c.C.words1460)..id(IS1009c.C.words1490)"/>
+         <nite:child href="IS1009c.A.words.xml#id(IS1009c.A.words798)..id(IS1009c.A.words799)"/>
+         <nite:child href="IS1009c.D.words.xml#id(IS1009c.D.words200)..id(IS1009c.D.words201)"/>
+         <nite:child href="IS1009c.C.words.xml#id(IS1009c.C.words1491)..id(IS1009c.C.words1634)"/>
+         <nite:child href="IS1009c.D.words.xml#id(IS1009c.D.words202)..id(IS1009c.D.words203)"/>
+         <nite:child href="IS1009c.B.words.xml#id(IS1009c.B.words968)..id(IS1009c.B.words969)"/>
+         <nite:child href="IS1009c.D.words.xml#id(IS1009c.D.words204)..id(IS1009c.D.words208)"/>
+         <nite:child href="IS1009c.C.words.xml#id(IS1009c.C.words1635)..id(IS1009c.C.words1673)"/>
+         <nite:child href="IS1009c.B.words.xml#id(IS1009c.B.words970)..id(IS1009c.B.words971)"/>
+         <nite:child href="IS1009c.A.words.xml#id(IS1009c.A.words800)..id(IS1009c.A.words819)"/>
+         <nite:child href="IS1009c.C.words.xml#id(IS1009c.C.words1674)..id(IS1009c.C.words1783)"/>
+      </topic>
+      <nite:child href="IS1009c.A.words.xml#id(IS1009c.A.words820)..id(IS1009c.A.words831)"/>
+      <nite:child href="IS1009c.D.words.xml#id(IS1009c.D.words209)..id(IS1009c.D.words230)"/>
+      <nite:child href="IS1009c.C.words.xml#id(IS1009c.C.words1784)..id(IS1009c.C.words1869)"/>
+      <nite:child href="IS1009c.D.words.xml#id(IS1009c.D.words231)..id(IS1009c.D.words251)"/>
+      <nite:child href="IS1009c.B.words.xml#id(IS1009c.B.words972)..id(IS1009c.B.words973)"/>
+   </topic>
+   <topic nite:id="IS1009c.topic.vkaraisk.12" other_description="marketing presentation">
+      <nite:pointer role="scenario_topic_type"  href="default-topics.xml#id(top.4)"/>
+      <nite:child href="IS1009c.A.words.xml#id(IS1009c.A.words832)..id(IS1009c.A.words860)"/>
+      <nite:child href="IS1009c.D.words.xml#id(IS1009c.D.words252)..id(IS1009c.D.words264)"/>
+      <nite:child href="IS1009c.A.words.xml#id(IS1009c.A.words861)..id(IS1009c.A.words863)"/>
+      <nite:child href="IS1009c.D.words.xml#id(IS1009c.D.words265)..id(IS1009c.D.words716)"/>
+      <nite:child href="IS1009c.B.words.xml#id(IS1009c.B.words974)..id(IS1009c.B.words977)"/>
+      <nite:child href="IS1009c.D.words.xml#id(IS1009c.D.words717)"/>
+   </topic>
+   <topic nite:id="IS1009c.topic.vkaraisk.13" other_description="decisions">
+      <nite:pointer role="scenario_topic_type"  href="default-topics.xml#id(top.4)"/>
+      <nite:child href="IS1009c.A.words.xml#id(IS1009c.A.words864)..id(IS1009c.A.words891)"/>
+      <nite:child href="IS1009c.D.words.xml#id(IS1009c.D.words718)..id(IS1009c.D.words719)"/>
+      <nite:child href="IS1009c.A.words.xml#id(IS1009c.A.words892)..id(IS1009c.A.words901)"/>
+      <nite:child href="IS1009c.D.words.xml#id(IS1009c.D.words720)"/>
+      <nite:child href="IS1009c.A.words.xml#id(IS1009c.A.words902)..id(IS1009c.A.words905)"/>
+      <nite:child href="IS1009c.D.words.xml#id(IS1009c.D.words721)..id(IS1009c.D.words735)"/>
+      <nite:child href="IS1009c.A.words.xml#id(IS1009c.A.words906)"/>
+      <nite:child href="IS1009c.B.words.xml#id(IS1009c.B.words978)..id(IS1009c.B.words994)"/>
+      <nite:child href="IS1009c.A.words.xml#id(IS1009c.A.words907)..id(IS1009c.A.words914)"/>
+      <nite:child href="IS1009c.D.words.xml#id(IS1009c.D.words736)..id(IS1009c.D.words737)"/>
+      <nite:child href="IS1009c.C.words.xml#id(IS1009c.C.words1870)..id(IS1009c.C.words1871)"/>
+      <nite:child href="IS1009c.D.words.xml#id(IS1009c.D.words738)..id(IS1009c.D.words749)"/>
+      <nite:child href="IS1009c.C.words.xml#id(IS1009c.C.words1872)..id(IS1009c.C.words1875)"/>
+      <nite:child href="IS1009c.B.words.xml#id(IS1009c.B.words995)..id(IS1009c.B.words1005)"/>
+      <nite:child href="IS1009c.D.words.xml#id(IS1009c.D.words750)..id(IS1009c.D.words776)"/>
+      <nite:child href="IS1009c.C.words.xml#id(IS1009c.C.words1876)..id(IS1009c.C.words1877)"/>
+      <nite:child href="IS1009c.A.words.xml#id(IS1009c.A.words915)..id(IS1009c.A.words918)"/>
+      <nite:child href="IS1009c.C.words.xml#id(IS1009c.C.words1878)..id(IS1009c.C.words1915)"/>
+      <nite:child href="IS1009c.A.words.xml#id(IS1009c.A.words919)..id(IS1009c.A.words920)"/>
+      <nite:child href="IS1009c.D.words.xml#id(IS1009c.D.words777)..id(IS1009c.D.words779)"/>
+      <nite:child href="IS1009c.C.words.xml#id(IS1009c.C.words1916)..id(IS1009c.C.words1947)"/>
+      <nite:child href="IS1009c.B.words.xml#id(IS1009c.B.words1006)..id(IS1009c.B.words1007)"/>
+      <nite:child href="IS1009c.D.words.xml#id(IS1009c.D.words780)..id(IS1009c.D.words781)"/>
+      <nite:child href="IS1009c.A.words.xml#id(IS1009c.A.words921)..id(IS1009c.A.words932)"/>
+      <nite:child href="IS1009c.C.words.xml#id(IS1009c.C.words1948)..id(IS1009c.C.words1964)"/>
+      <nite:child href="IS1009c.D.words.xml#id(IS1009c.D.words782)"/>
+      <nite:child href="IS1009c.B.words.xml#id(IS1009c.B.words1008)..id(IS1009c.B.words1107)"/>
+      <nite:child href="IS1009c.C.words.xml#id(IS1009c.C.words1965)..id(IS1009c.C.words1980)"/>
+      <nite:child href="IS1009c.A.words.xml#id(IS1009c.A.words933)..id(IS1009c.A.words960)"/>
+      <nite:child href="IS1009c.D.words.xml#id(IS1009c.D.words783)..id(IS1009c.D.words809)"/>
+      <nite:child href="IS1009c.A.words.xml#id(IS1009c.A.words961)..id(IS1009c.A.words964)"/>
+      <nite:child href="IS1009c.B.words.xml#id(IS1009c.B.words1108)..id(IS1009c.B.words1111)"/>
+      <nite:child href="IS1009c.C.words.xml#id(IS1009c.C.words1981)..id(IS1009c.C.words1984)"/>
+      <nite:child href="IS1009c.A.words.xml#id(IS1009c.A.words965)..id(IS1009c.A.words971)"/>
+      <nite:child href="IS1009c.C.words.xml#id(IS1009c.C.words1985)..id(IS1009c.C.words1986)"/>
+      <nite:child href="IS1009c.D.words.xml#id(IS1009c.D.words810)..id(IS1009c.D.words811)"/>
+      <nite:child href="IS1009c.B.words.xml#id(IS1009c.B.words1112)..id(IS1009c.B.words1113)"/>
+      <nite:child href="IS1009c.A.words.xml#id(IS1009c.A.words972)..id(IS1009c.A.words997)"/>
+      <nite:child href="IS1009c.C.words.xml#id(IS1009c.C.words1987)..id(IS1009c.C.words1988)"/>
+      <nite:child href="IS1009c.D.words.xml#id(IS1009c.D.words812)..id(IS1009c.D.words822)"/>
+      <nite:child href="IS1009c.B.words.xml#id(IS1009c.B.words1114)..id(IS1009c.B.words1116)"/>
+      <nite:child href="IS1009c.C.words.xml#id(IS1009c.C.words1989)..id(IS1009c.C.words1996)"/>
+      <nite:child href="IS1009c.B.words.xml#id(IS1009c.B.words1117)..id(IS1009c.B.words1121)"/>
+      <nite:child href="IS1009c.A.words.xml#id(IS1009c.A.words998)..id(IS1009c.A.words1006)"/>
+      <nite:child href="IS1009c.D.words.xml#id(IS1009c.D.words823)..id(IS1009c.D.words824)"/>
+      <nite:child href="IS1009c.B.words.xml#id(IS1009c.B.words1122)..id(IS1009c.B.words1123)"/>
+      <nite:child href="IS1009c.A.words.xml#id(IS1009c.A.words1007)..id(IS1009c.A.words1017)"/>
+      <nite:child href="IS1009c.D.words.xml#id(IS1009c.D.words825)"/>
+      <nite:child href="IS1009c.A.words.xml#id(IS1009c.A.words1018)..id(IS1009c.A.words1029)"/>
+      <nite:child href="IS1009c.C.words.xml#id(IS1009c.C.words1997)..id(IS1009c.C.words2011)"/>
+      <nite:child href="IS1009c.B.words.xml#id(IS1009c.B.words1124)..id(IS1009c.B.words1125)"/>
+      <nite:child href="IS1009c.A.words.xml#id(IS1009c.A.words1030)..id(IS1009c.A.words1039)"/>
+      <nite:child href="IS1009c.C.words.xml#id(IS1009c.C.words2012)..id(IS1009c.C.words2013)"/>
+      <nite:child href="IS1009c.A.words.xml#id(IS1009c.A.words1040)..id(IS1009c.A.words1049)"/>
+      <nite:child href="IS1009c.B.words.xml#id(IS1009c.B.words1126)..id(IS1009c.B.words1127)"/>
+      <nite:child href="IS1009c.C.words.xml#id(IS1009c.C.words2014)..id(IS1009c.C.words2015)"/>
+      <nite:child href="IS1009c.D.words.xml#id(IS1009c.D.words826)..id(IS1009c.D.words832)"/>
+      <nite:child href="IS1009c.B.words.xml#id(IS1009c.B.words1128)..id(IS1009c.B.words1147)"/>
+      <nite:child href="IS1009c.D.words.xml#id(IS1009c.D.words833)..id(IS1009c.D.words856)"/>
+      <nite:child href="IS1009c.A.words.xml#id(IS1009c.A.words1050)..id(IS1009c.A.words1066)"/>
+      <nite:child href="IS1009c.B.words.xml#id(IS1009c.B.words1148)..id(IS1009c.B.words1151)"/>
+      <nite:child href="IS1009c.C.words.xml#id(IS1009c.C.words2016)..id(IS1009c.C.words2018)"/>
+      <nite:child href="IS1009c.D.words.xml#id(IS1009c.D.words857)..id(IS1009c.D.words882)"/>
+      <nite:child href="IS1009c.C.words.xml#id(IS1009c.C.words2019)..id(IS1009c.C.words2024)"/>
+      <nite:child href="IS1009c.A.words.xml#id(IS1009c.A.words1067)..id(IS1009c.A.words1068)"/>
+      <nite:child href="IS1009c.B.words.xml#id(IS1009c.B.words1152)..id(IS1009c.B.words1153)"/>
+   </topic>
+   <topic nite:id="IS1009c.topic.vkaraisk.14">
+      <nite:pointer role="scenario_topic_type"  href="default-topics.xml#id(top.12)"/>
+      <nite:child href="IS1009c.A.words.xml#id(IS1009c.A.words1069)..id(IS1009c.A.words1123)"/>
+      <nite:child href="IS1009c.C.words.xml#id(IS1009c.C.words2025)..id(IS1009c.C.words2026)"/>
+      <nite:child href="IS1009c.A.words.xml#id(IS1009c.A.words1124)..id(IS1009c.A.words1177)"/>
+      <nite:child href="IS1009c.D.words.xml#id(IS1009c.D.words883)..id(IS1009c.D.words885)"/>
+      <nite:child href="IS1009c.B.words.xml#id(IS1009c.B.words1154)..id(IS1009c.B.words1155)"/>
+      <nite:child href="IS1009c.D.words.xml#id(IS1009c.D.words886)..id(IS1009c.D.words887)"/>
+      <nite:child href="IS1009c.B.words.xml#id(IS1009c.B.words1156)"/>
+      <nite:child href="IS1009c.C.words.xml#id(IS1009c.C.words2027)..id(IS1009c.C.words2028)"/>
+      <nite:child href="IS1009c.B.words.xml#id(IS1009c.B.words1157)..id(IS1009c.B.words1158)"/>
+      <nite:child href="IS1009c.A.words.xml#id(IS1009c.A.words1178)..id(IS1009c.A.words1205)"/>
+      <nite:child href="IS1009c.D.words.xml#id(IS1009c.D.words888)..id(IS1009c.D.words893)"/>
+      <nite:child href="IS1009c.B.words.xml#id(IS1009c.B.words1159)"/>
+      <nite:child href="IS1009c.C.words.xml#id(IS1009c.C.words2029)"/>
+      <nite:child href="IS1009c.A.words.xml#id(IS1009c.A.words1206)"/>
+      <nite:child href="IS1009c.B.words.xml#id(IS1009c.B.words1160)"/>
+      <nite:child href="IS1009c.A.words.xml#id(IS1009c.A.words1207)..id(IS1009c.A.words1233)"/>
+      <nite:child href="IS1009c.C.words.xml#id(IS1009c.C.words2030)..id(IS1009c.C.words2031)"/>
+      <nite:child href="IS1009c.B.words.xml#id(IS1009c.B.words1161)..id(IS1009c.B.words1162)"/>
+      <nite:child href="IS1009c.A.words.xml#id(IS1009c.A.words1234)..id(IS1009c.A.words1238)"/>
+      <nite:child href="IS1009c.C.words.xml#id(IS1009c.C.words2032)..id(IS1009c.C.words2034)"/>
+      <nite:child href="IS1009c.B.words.xml#id(IS1009c.B.words1163)..id(IS1009c.B.words1165)"/>
+   </topic>
+</nite:root>

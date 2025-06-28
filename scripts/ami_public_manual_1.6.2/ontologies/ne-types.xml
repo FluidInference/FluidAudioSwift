@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<ne-type nite:id="ne_0" name="ne-root" xmlns:nite="http://nite.sourceforge.net/" xmlns:xlink="http://www.w3.org/1999/xlink">
+   <ne-type nite:id="ne_1" name="ENAMEX" gloss="" abbrev="">
+      <ne-type nite:id="ne_11" name="PERSON" gloss="" abbrev="pers">
+         <ne-type nite:id="ne_111" name="PARTICIPANT" gloss="" abbrev="p_part">
+            <ne-type nite:id="ne_1111" keystroke="typed 1" name="PROJECT_MANAGER" gloss="" abbrev="p_pm"/>
+            <ne-type nite:id="ne_1112" keystroke="typed 2" name="INTERFACE_SPECIALIST" gloss="" abbrev="p_is"/>
+            <ne-type nite:id="ne_1113" keystroke="typed 3" name="MARKETING" gloss="" abbrev="p_market"/>
+            <ne-type nite:id="ne_1114" keystroke="typed 4" name="INDUSTRIAL_DESIGNER" gloss="" abbrev="p_id"/>
+         </ne-type>
+         <ne-type nite:id="ne_112" keystroke="typed e" name="EXPERIMENTER" gloss="" abbrev="p_exp"/>
+         <ne-type nite:id="ne_113" keystroke="typed O" name="OTHER" gloss="" abbrev="p_other"/>
+      </ne-type>
+      <ne-type nite:id="ne_13" keystroke="typed l" name="LOCATION" gloss="" abbrev="loc"/>
+      <ne-type nite:id="ne_14" keystroke="typed o" name="ORGANIZATION" gloss="" abbrev="org"/>
+   </ne-type>
+   <ne-type nite:id="ne_2" name="TIMEX" gloss="" abbrev="">
+      <ne-type nite:id="ne_21" keystroke="typed t" name="TIME" gloss="" abbrev="time"/>
+      <ne-type nite:id="ne_22" keystroke="typed d" name="DATE" gloss="" abbrev="date"/>
+      <ne-type nite:id="ne_23" keystroke="typed D" name="DURATION" gloss="" abbrev="dur"/>
+   </ne-type>
+   <ne-type nite:id="ne_3" name="NUMEX" gloss="" abbrev="">
+      <ne-type nite:id="ne_31" keystroke="typed m" name="MONEY" gloss="" abbrev="mon"/>
+      <ne-type nite:id="ne_32" keystroke="typed M" name="MEASURE" gloss="" abbrev="meas"/>
+      <ne-type nite:id="ne_33" keystroke="typed p" name="PERCENT" gloss="" abbrev="pct"/>
+      <ne-type nite:id="ne_34" keystroke="typed a" name="CARDINAL" gloss="" abbrev="card"/>
+   </ne-type>
+   <ne-type nite:id="ne_40" name="ARTEFACT" gloss="" abbrev="art">
+      <ne-type nite:id="ne_41" keystroke="typed f" name="FURNITURE" gloss="" abbrev="furn"/>
+      <ne-type nite:id="ne_42" keystroke="typed w" name="MEANS_OF_WORKING" gloss="" abbrev="mow"/>
+      <ne-type nite:id="ne_43" keystroke="typed r" name="RECORDING_DEVICES" gloss="" abbrev="rec"/>
+      <ne-type nite:id="ne_44" keystroke="typed F" name="MODELLING_STUFF" gloss="" abbrev="mod"/>
+      <ne-type nite:id="ne_45" keystroke="typed i" name="INCIDENTAL" gloss="" abbrev="inc"/>
+      <ne-type nite:id="ne_46" keystroke="typed C" name="CONSTRUCTED" gloss="" abbrev="const"/>
+      <ne-type nite:id="ne_47" keystroke="typed R" name="DRAWING" gloss="" abbrev="drw"/>
+   </ne-type>
+   <ne-type nite:id="ne_50" keystroke="typed c" name="COLOUR" gloss="" abbrev="col"/>
+   <ne-type nite:id="ne_60" keystroke="typed s" name="SHAPE" gloss="" abbrev="shp"/>
+   <ne-type nite:id="ne_70" keystroke="typed T" name="MATERIALS" gloss="" abbrev="mat"/>
+</ne-type>

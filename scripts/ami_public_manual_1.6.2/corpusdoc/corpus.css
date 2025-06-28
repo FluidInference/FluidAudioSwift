@@ -1,0 +1,50 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+#content {
+	width: 400px;
+	font-family: Tahoma, sans-serif;
+	font-size: 10px;
+}
+
+#header {
+	font-family: Arial, sans-serif;
+	text-align: center;
+	border-bottom: 1px dashed #697;
+}
+
+i {
+	font-weight: lighter;
+}
+
+dt {
+	font-weight: bold;
+	text-align: left;
+}
+
+dd {
+	padding: 2px 5px 2px 2px;
+}
+
+#topmenu {
+	font-family: Arial, sans-serif;
+        text-align: center;
+}
+
+#content h2 {
+	margin: 2px 2px 0 2px;
+	padding: 3px 0 3px 10px;
+	font-family: Arial, sans-serif;
+	font-size: 14px;
+	color: navyblue;
+}
+
+#content p {
+	margin: 1px 1px 0 1px;
+}
+
+#content a:hover {
+	background-color: #eee;
+}

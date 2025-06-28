@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<nite:root nite:id="TS3003a.argumentationrels" xmlns:nite="http://nite.sourceforge.net/">
+   <ar nite:id="TS3003a.argumentationrels.Daan.1">
+      <nite:pointer role="source"  href="TS3003a.A.argumentstructs.xml#id(TS3003a.A.argumentstructs.Daan.1)"/>
+      <nite:pointer role="target"  href="TS3003a.C.argumentstructs.xml#id(TS3003a.C.argumentstructs.Daan.1)"/>
+      <nite:pointer role="type"  href="ar-types.xml#id(art_2)"/>
+   </ar>
+   <ar nite:id="TS3003a.argumentationrels.Daan.2">
+      <nite:pointer role="source"  href="TS3003a.A.argumentstructs.xml#id(TS3003a.A.argumentstructs.Daan.1)"/>
+      <nite:pointer role="target"  href="TS3003a.D.argumentstructs.xml#id(TS3003a.D.argumentstructs.Daan.1)"/>
+      <nite:pointer role="type"  href="ar-types.xml#id(art_1)"/>
+   </ar>
+   <ar nite:id="TS3003a.argumentationrels.Daan.3">
+      <nite:pointer role="source"  href="TS3003a.D.argumentstructs.xml#id(TS3003a.D.argumentstructs.Daan.1)"/>
+      <nite:pointer role="target"  href="TS3003a.A.argumentstructs.xml#id(TS3003a.A.argumentstructs.Daan.2)"/>
+      <nite:pointer role="type"  href="ar-types.xml#id(art_5)"/>
+   </ar>
+</nite:root>

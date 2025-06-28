@@ -846,7 +846,7 @@ struct DiarizationCLI {
                 continue
             }
 
-            // Try to download from Hugging Face
+            // Try to download from AMI corpus mirror
             let success = await downloadAMIFile(
                 meetingId: meetingId,
                 variant: variant,
@@ -875,46 +875,55 @@ struct DiarizationCLI {
     static func downloadAMIFile(meetingId: String, variant: AMIVariant, outputPath: URL) async
         -> Bool
     {
-        // Use official AMI corpus mirror
-        let baseURL = "https://groups.inf.ed.ac.uk/ami/AMICorpusMirror/amicorpus"
-        let urlString = "\(baseURL)/\(meetingId)/audio/\(meetingId).\(variant.filePattern)"
-
-        guard let url = URL(string: urlString) else {
-            print("     ⚠️ Invalid URL: \(urlString)")
-            return false
-        }
-
-        do {
-            print("     📥 Downloading from: \(urlString)")
-            let (data, response) = try await URLSession.shared.data(from: url)
-
-            if let httpResponse = response as? HTTPURLResponse {
-                if httpResponse.statusCode == 200 {
-                    try data.write(to: outputPath)
-
-                    // Verify it's a valid audio file
-                    if await isValidAudioFile(outputPath) {
-                        let fileSizeMB = Double(data.count) / (1024 * 1024)
-                        print("     ✅ Downloaded \(String(format: "%.1f", fileSizeMB)) MB")
-                        return true
-                    } else {
-                        print("     ⚠️ Downloaded file is not valid audio")
-                        try? FileManager.default.removeItem(at: outputPath)
-                        return false
-                    }
-                } else if httpResponse.statusCode == 404 {
-                    print("     ⚠️ File not found (HTTP 404)")
-                    return false
-                } else {
-                    print("     ⚠️ HTTP error: \(httpResponse.statusCode)")
-                    return false
-                }
+        // Try multiple URL patterns - the AMI corpus mirror structure has some variations
+        let baseURLs = [
+            "https://groups.inf.ed.ac.uk/ami/AMICorpusMirror//amicorpus",  // Double slash pattern (from user's working example)
+            "https://groups.inf.ed.ac.uk/ami/AMICorpusMirror/amicorpus",   // Single slash pattern
+            "https://groups.inf.ed.ac.uk/ami/AMICorpusMirror//amicorpus",  // Alternative with extra slash
+        ]
+        
+        for (_, baseURL) in baseURLs.enumerated() {
+            let urlString = "\(baseURL)/\(meetingId)/audio/\(meetingId).\(variant.filePattern)"
+            
+            guard let url = URL(string: urlString) else {
+                print("     ⚠️ Invalid URL: \(urlString)")
+                continue
             }
-        } catch {
-            print("     ⚠️ Download error: \(error.localizedDescription)")
-            return false
+            
+            do {
+                print("     📥 Downloading from: \(urlString)")
+                let (data, response) = try await URLSession.shared.data(from: url)
+                
+                if let httpResponse = response as? HTTPURLResponse {
+                    if httpResponse.statusCode == 200 {
+                        try data.write(to: outputPath)
+                        
+                        // Verify it's a valid audio file
+                        if await isValidAudioFile(outputPath) {
+                            let fileSizeMB = Double(data.count) / (1024 * 1024)
+                            print("     ✅ Downloaded \(String(format: "%.1f", fileSizeMB)) MB")
+                            return true
+                        } else {
+                            print("     ⚠️ Downloaded file is not valid audio")
+                            try? FileManager.default.removeItem(at: outputPath)
+                            // Try next URL
+                            continue
+                        }
+                    } else if httpResponse.statusCode == 404 {
+                        print("     ⚠️ File not found (HTTP 404) - trying next URL...")
+                        continue
+                    } else {
+                        print("     ⚠️ HTTP error: \(httpResponse.statusCode) - trying next URL...")
+                        continue
+                    }
+                }
+            } catch {
+                print("     ⚠️ Download error: \(error.localizedDescription) - trying next URL...")
+                continue
+            }
         }
-
+        
+        print("     ❌ Failed to download from all available URLs")
         return false
     }
 

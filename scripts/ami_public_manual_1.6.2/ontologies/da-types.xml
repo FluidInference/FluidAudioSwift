@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<da-type nite:id="cmrda" name="da-type" xmlns:nite="http://nite.sourceforge.net/" xmlns:xlink="http://www.w3.org/1999/xlink">
+   <da-type nite:id="ami_daclass_0" name="minor" gloss="Minor">
+      <da-type nite:id="ami_da_1" name="bck" gloss="Backchannel"/>
+      <da-type nite:id="ami_da_2" name="stl" gloss="Stall"/>
+      <da-type nite:id="ami_da_3" name="fra" gloss="Fragment"/>
+   </da-type>
+   <da-type nite:id="ami_daclass_1" name="task" gloss="Task">
+      <da-type nite:id="ami_da_4" name="inf" gloss="Inform"/>
+      <da-type nite:id="ami_da_6" name="sug" gloss="Suggest"/>
+      <da-type nite:id="ami_da_9" name="ass" gloss="Assess"/>
+   </da-type>
+   <da-type nite:id="ami_daclass_2" name="elicit" gloss="Elicit">
+      <da-type nite:id="ami_da_5" name="el.inf" gloss="Elicit-Inform"/>
+      <da-type nite:id="ami_da_8" name="el.sug" gloss="Elicit-Offer-Or-Suggestion"/>
+      <da-type nite:id="ami_da_11" name="el.ass" gloss="Elicit-Assessment"/>
+      <da-type nite:id="ami_da_13" name="el.und" gloss="Elicit-Comment-Understanding"/>
+   </da-type>
+   <da-type nite:id="ami_daclass_3" name="other" gloss="Other">
+      <da-type nite:id="ami_da_7" name="off" gloss="Offer"/>
+      <da-type nite:id="ami_da_12" name="und" gloss="Comment-About-Understanding"/>
+      <da-type nite:id="ami_da_14" name="be.pos" gloss="Be-Positive"/>
+      <da-type nite:id="ami_da_15" name="be.neg" gloss="Be-Negative"/>
+      <da-type nite:id="ami_da_16" name="oth" gloss="Other"/>
+   </da-type>
+   <da-type nite:id="ami_daclass_4" name="unlab" gloss="Unlab"/>
+</da-type>

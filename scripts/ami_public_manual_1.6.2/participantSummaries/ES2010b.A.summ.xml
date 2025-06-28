@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<nite:root xmlns:nite="http://nite.sourceforge.net/">
+<participant_abstract nite:id="ES2010bPM.pabstract.1">
+    <sent nite:id="ES2010bPM.s.1">The meeting began with the project manager opening the meeting, and discussed the agenda.</sent>  <sent nite:id="ES2010bPM.s.2">Then each team member presented their findings, which came as a result of a period of independent work.</sent>  <sent nite:id="ES2010bPM.s.3">Discussions took place regarding the design of the remote control.</sent> <sent nite:id="ES2010bPM.s.4">The new product requirements were introduced by the project manager, and then  more discussion occurred.</sent>  <sent nite:id="ES2010bPM.s.5">The meeting closed with an overview of the next few hours.</sent> 
+</participant_abstract>
+<participant_actions nite:id="ES2010bPM.pactions.1">
+   <sent nite:id="ES2010bPM.s.6">PM - type up minutes.</sent>   <sent nite:id="ES2010bPM.s.7">Other team members - research.</sent> 
+</participant_actions>
+<participant_decisions nite:id="ES2010bPM.pdecisions.1">
+    <sent nite:id="ES2010bPM.s.8">Determined target group - all ages, little to no tech. experience.</sent>   <sent import="high" nite:id="ES2010bPM.s.9">determined fuctions - change channel, raise or lower volume, mute, turn on off, light up at night, perhaps have voice recognition.</sent> <sent nite:id="ES2010bPM.s.10">, have company logo and color, have menu access.</sent> 
+</participant_decisions>
+<participant_problems nite:id="ES2010bPM.pproblems.1">
+    <sent nite:id="ES2010bPM.s.11">Have raised more issues and not made definitive decisions (i.e. power source - batteries or charger?, speech recognition?).</sent> 
+</participant_problems>
+</nite:root>

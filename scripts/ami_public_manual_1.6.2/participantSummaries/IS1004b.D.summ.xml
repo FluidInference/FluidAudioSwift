@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<nite:root xmlns:nite="http://nite.sourceforge.net/">
+<participant_actions nite:id="IS1004bME.pactions.1">
+ <sent nite:id="IS1004bME.s.1">Now that we all know more specifically what kind of product we want.</sent> <sent nite:id="IS1004bME.s.2">We
+need to refine more its characteristics taking into account the target
+market and the current budget.</sent>
+
+</participant_actions>
+<participant_decisions nite:id="IS1004bME.pdecisions.1">
+  <sent nite:id="IS1004bME.s.3">Specially thought for TV purposes.</sent>
+ <sent import="high" nite:id="IS1004bME.s.4">Fancy, good shape for continuous use.</sent>
+ <sent nite:id="IS1004bME.s.5">Adding LCD.
+ - Discarding speech recognition feature.</sent>
+ <sent import="high" nite:id="IS1004bME.s.6">Reconsidering initial budget and potential market.</sent>
+ <sent nite:id="IS1004bME.s.7">*Adding other cool features not related with TV.
+ - *Multifunctional buttons.</sent>
+ 
+
+</participant_decisions>
+<participant_problems nite:id="IS1004bME.pproblems.1">
+  <sent import="high" nite:id="IS1004bME.s.8">There was no agreement about the target market.</sent>
+ <sent nite:id="IS1004bME.s.9">The above problem is, in my opinion, the generating one of all the rest:
+ - Features incorporated to the remote control.</sent>
+ <sent nite:id="IS1004bME.s.10">LCD showing programs information.</sent>
+ <sent nite:id="IS1004bME.s.11">No speech recognition feature.</sent>  
+
+</participant_problems>
+</nite:root>

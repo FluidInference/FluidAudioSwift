@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<nite:root xmlns:nite="http://nite.sourceforge.net/">
+<participant_abstract nite:id="ES2003bPM.pabstract.1">
+   <sent nite:id="ES2003bPM.s.1">Meeting was managed in a amatuerish way, bit too unfocussed in locations.</sent> <sent nite:id="ES2003bPM.s.2">I feel that we got there in the end and have an idea of what needs to be done for the next stage.</sent> <sent nite:id="ES2003bPM.s.3">We have the basic requirements and to some extent goals for individuals for the next stage.</sent>   
+</participant_abstract>
+<participant_actions nite:id="ES2003bPM.pactions.1">
+   <sent nite:id="ES2003bPM.s.4">User Interface designer.</sent>       <sent nite:id="ES2003bPM.s.5">Come up with various designs with a joystick, 3 buttonsand LCD.</sent>   <sent nite:id="ES2003bPM.s.6">Marketing Expert.</sent>       <sent nite:id="ES2003bPM.s.7">Research into opinions based on current design spec.   Functional designer.</sent>       <sent nite:id="ES2003bPM.s.8">Look into practicality of proposed design.</sent> <sent nite:id="ES2003bPM.s.9">Battery, transmitter for locating RC, speaker to make user aware of location and LED to help signify location as well.</sent>   <sent nite:id="ES2003bPM.s.10">Project Manager.</sent>       <sent nite:id="ES2003bPM.s.11">Oversee everybody.</sent> <sent nite:id="ES2003bPM.s.12">In other words not do much expect write reports?</sent>
+
+</participant_actions>
+<participant_decisions nite:id="ES2003bPM.pdecisions.1">
+    <sent import="high" nite:id="ES2003bPM.s.13">RC will incorporate the ability to locate itself using a beeper system similar to those found on certain digital telephones.</sent>   <sent import="high" nite:id="ES2003bPM.s.14">Use of LCD to manage most functions with few buttons to confuse.</sent> <sent nite:id="ES2003bPM.s.15">Most common functions will be accessible in this manner.</sent> 
+</participant_decisions>
+<participant_problems nite:id="ES2003bPM.pproblems.1">
+   <sent nite:id="ES2003bPM.s.16">Certain participants were slightly underprepared (Functional designer and Project manager).</sent>   <sent import="high" nite:id="ES2003bPM.s.17">Keeping the meeting flowing well.</sent>  
+</participant_problems>
+</nite:root>

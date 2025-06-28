@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<nite:root nite:id="IS1004a.B.ne" xmlns:nite="http://nite.sourceforge.net/">
+   <named-entity nite:id="IS1004a.B.ne.1">
+      <nite:pointer role="type"  href="ne-types.xml#id(ne_1112)"/>
+      <nite:child href="IS1004a.B.words.xml#id(IS1004a.B.words7)"/>
+   </named-entity>
+   <named-entity nite:id="IS1004a.B.ne.2">
+      <nite:pointer role="type"  href="ne-types.xml#id(ne_1112)"/>
+      <nite:child href="IS1004a.B.words.xml#id(IS1004a.B.words11)..id(IS1004a.B.words13)"/>
+   </named-entity>
+   <named-entity nite:id="IS1004a.B.ne.3">
+      <nite:pointer role="type"  href="ne-types.xml#id(ne_42)"/>
+      <nite:child href="IS1004a.B.words.xml#id(IS1004a.B.words87)..id(IS1004a.B.words88)"/>
+   </named-entity>
+   <named-entity nite:id="IS1004a.B.ne.4">
+      <nite:pointer role="type"  href="ne-types.xml#id(ne_47)"/>
+      <nite:child href="IS1004a.B.words.xml#id(IS1004a.B.words99)"/>
+   </named-entity>
+   <named-entity nite:id="IS1004a.B.ne.5">
+      <nite:pointer role="type"  href="ne-types.xml#id(ne_34)"/>
+      <nite:child href="IS1004a.B.words.xml#id(IS1004a.B.words105)"/>
+   </named-entity>
+   <named-entity nite:id="IS1004a.B.ne.6">
+      <nite:pointer role="type"  href="ne-types.xml#id(ne_47)"/>
+      <nite:child href="IS1004a.B.words.xml#id(IS1004a.B.words106)"/>
+   </named-entity>
+   <named-entity nite:id="IS1004a.B.ne.7">
+      <nite:pointer role="type"  href="ne-types.xml#id(ne_47)"/>
+      <nite:child href="IS1004a.B.words.xml#id(IS1004a.B.words116)"/>
+   </named-entity>
+   <named-entity nite:id="IS1004a.B.ne.8">
+      <nite:pointer role="type"  href="ne-types.xml#id(ne_34)"/>
+      <nite:child href="IS1004a.B.words.xml#id(IS1004a.B.words118)"/>
+   </named-entity>
+   <named-entity nite:id="IS1004a.B.ne.9">
+      <nite:pointer role="type"  href="ne-types.xml#id(ne_34)"/>
+      <nite:child href="IS1004a.B.words.xml#id(IS1004a.B.words124)"/>
+   </named-entity>
+   <named-entity nite:id="IS1004a.B.ne.10">
+      <nite:pointer role="type"  href="ne-types.xml#id(ne_50)"/>
+      <nite:child href="IS1004a.B.words.xml#id(IS1004a.B.words273)"/>
+   </named-entity>
+   <named-entity nite:id="IS1004a.B.ne.11">
+      <nite:pointer role="type"  href="ne-types.xml#id(ne_34)"/>
+      <nite:child href="IS1004a.B.words.xml#id(IS1004a.B.words309)"/>
+   </named-entity>
+   <named-entity nite:id="IS1004a.B.ne.12">
+      <nite:pointer role="type"  href="ne-types.xml#id(ne_31)"/>
+      <nite:child href="IS1004a.B.words.xml#id(IS1004a.B.words457)..id(IS1004a.B.words458)"/>
+   </named-entity>
+</nite:root>

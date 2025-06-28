@@ -1,0 +1,1461 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<nite:root nite:id="ES2004d.adjacency-pairs" xmlns:nite="http://nite.sourceforge.net/">
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.1">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="target"  href="ES2004d.D.dialog-act.xml#id(ES2004d.D.dialog-act.vkaraisk.2)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.2">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.B.dialog-act.xml#id(ES2004d.B.dialog-act.vkaraisk.5)"/>
+      <nite:pointer role="target"  href="ES2004d.A.dialog-act.xml#id(ES2004d.A.dialog-act.vkaraisk.4)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.3">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="target"  href="ES2004d.B.dialog-act.xml#id(ES2004d.B.dialog-act.vkaraisk.6)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.4">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.C.dialog-act.xml#id(ES2004d.C.dialog-act.vkaraisk.1)"/>
+      <nite:pointer role="target"  href="ES2004d.B.dialog-act.xml#id(ES2004d.B.dialog-act.vkaraisk.20)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.5">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.C.dialog-act.xml#id(ES2004d.C.dialog-act.vkaraisk.1)"/>
+      <nite:pointer role="target"  href="ES2004d.A.dialog-act.xml#id(ES2004d.A.dialog-act.vkaraisk.6)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.6">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.B.dialog-act.xml#id(ES2004d.B.dialog-act.vkaraisk.20)"/>
+      <nite:pointer role="target"  href="ES2004d.C.dialog-act.xml#id(ES2004d.C.dialog-act.vkaraisk.2)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.7">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.A.dialog-act.xml#id(ES2004d.A.dialog-act.vkaraisk.8)"/>
+      <nite:pointer role="target"  href="ES2004d.C.dialog-act.xml#id(ES2004d.C.dialog-act.vkaraisk.3)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.8">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.C.dialog-act.xml#id(ES2004d.C.dialog-act.vkaraisk.4)"/>
+      <nite:pointer role="target"  href="ES2004d.A.dialog-act.xml#id(ES2004d.A.dialog-act.vkaraisk.9)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.9">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.C.dialog-act.xml#id(ES2004d.C.dialog-act.vkaraisk.6)"/>
+      <nite:pointer role="target"  href="ES2004d.A.dialog-act.xml#id(ES2004d.A.dialog-act.vkaraisk.11)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.10">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.C.dialog-act.xml#id(ES2004d.C.dialog-act.vkaraisk.8)"/>
+      <nite:pointer role="target"  href="ES2004d.B.dialog-act.xml#id(ES2004d.B.dialog-act.vkaraisk.21)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.12">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.C.dialog-act.xml#id(ES2004d.C.dialog-act.vkaraisk.24)"/>
+      <nite:pointer role="target"  href="ES2004d.B.dialog-act.xml#id(ES2004d.B.dialog-act.vkaraisk.36)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.13">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.B.dialog-act.xml#id(ES2004d.B.dialog-act.vkaraisk.37)"/>
+      <nite:pointer role="target"  href="ES2004d.C.dialog-act.xml#id(ES2004d.C.dialog-act.vkaraisk.32)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.14">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.B.dialog-act.xml#id(ES2004d.B.dialog-act.vkaraisk.37)"/>
+      <nite:pointer role="target"  href="ES2004d.A.dialog-act.xml#id(ES2004d.A.dialog-act.vkaraisk.29)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.15">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.C.dialog-act.xml#id(ES2004d.C.dialog-act.vkaraisk.32)"/>
+      <nite:pointer role="target"  href="ES2004d.B.dialog-act.xml#id(ES2004d.B.dialog-act.vkaraisk.39)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.18">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.D.dialog-act.xml#id(ES2004d.D.dialog-act.vkaraisk.3)"/>
+      <nite:pointer role="target"  href="ES2004d.C.dialog-act.xml#id(ES2004d.C.dialog-act.vkaraisk.38)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.20">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.C.dialog-act.xml#id(ES2004d.C.dialog-act.vkaraisk.40)"/>
+      <nite:pointer role="target"  href="ES2004d.B.dialog-act.xml#id(ES2004d.B.dialog-act.vkaraisk.40)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.21">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.C.dialog-act.xml#id(ES2004d.C.dialog-act.vkaraisk.40)"/>
+      <nite:pointer role="target"  href="ES2004d.A.dialog-act.xml#id(ES2004d.A.dialog-act.vkaraisk.31)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.22">
+      <nite:pointer role="source"  href="ES2004d.B.dialog-act.xml#id(ES2004d.B.dialog-act.vkaraisk.41)"/>
+      <nite:pointer role="target"  href="ES2004d.B.dialog-act.xml#id(ES2004d.B.dialog-act.vkaraisk.42)"/>
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_2)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.23">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.B.dialog-act.xml#id(ES2004d.B.dialog-act.vkaraisk.44)"/>
+      <nite:pointer role="target"  href="ES2004d.C.dialog-act.xml#id(ES2004d.C.dialog-act.vkaraisk.56)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.24">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.C.dialog-act.xml#id(ES2004d.C.dialog-act.vkaraisk.56)"/>
+      <nite:pointer role="target"  href="ES2004d.B.dialog-act.xml#id(ES2004d.B.dialog-act.vkaraisk.45)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.26">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.A.dialog-act.xml#id(ES2004d.A.dialog-act.vkaraisk.33)"/>
+      <nite:pointer role="target"  href="ES2004d.C.dialog-act.xml#id(ES2004d.C.dialog-act.vkaraisk.57)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.28">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.C.dialog-act.xml#id(ES2004d.C.dialog-act.vkaraisk.56)"/>
+      <nite:pointer role="target"  href="ES2004d.B.dialog-act.xml#id(ES2004d.B.dialog-act.vkaraisk.48)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.29">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.A.dialog-act.xml#id(ES2004d.A.dialog-act.vkaraisk.34)"/>
+      <nite:pointer role="target"  href="ES2004d.B.dialog-act.xml#id(ES2004d.B.dialog-act.vkaraisk.49)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.30">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.C.dialog-act.xml#id(ES2004d.C.dialog-act.vkaraisk.58)"/>
+      <nite:pointer role="target"  href="ES2004d.A.dialog-act.xml#id(ES2004d.A.dialog-act.vkaraisk.35)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.31">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.C.dialog-act.xml#id(ES2004d.C.dialog-act.vkaraisk.58)"/>
+      <nite:pointer role="target"  href="ES2004d.B.dialog-act.xml#id(ES2004d.B.dialog-act.vkaraisk.51)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.32">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.B.dialog-act.xml#id(ES2004d.B.dialog-act.vkaraisk.53)"/>
+      <nite:pointer role="target"  href="ES2004d.C.dialog-act.xml#id(ES2004d.C.dialog-act.vkaraisk.64)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.33">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.B.dialog-act.xml#id(ES2004d.B.dialog-act.vkaraisk.53)"/>
+      <nite:pointer role="target"  href="ES2004d.A.dialog-act.xml#id(ES2004d.A.dialog-act.vkaraisk.40)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.34">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.B.dialog-act.xml#id(ES2004d.B.dialog-act.vkaraisk.57)"/>
+      <nite:pointer role="target"  href="ES2004d.D.dialog-act.xml#id(ES2004d.D.dialog-act.vkaraisk.6)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.35">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.D.dialog-act.xml#id(ES2004d.D.dialog-act.vkaraisk.35)"/>
+      <nite:pointer role="target"  href="ES2004d.A.dialog-act.xml#id(ES2004d.A.dialog-act.vkaraisk.51)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.36">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.A.dialog-act.xml#id(ES2004d.A.dialog-act.vkaraisk.52)"/>
+      <nite:pointer role="target"  href="ES2004d.D.dialog-act.xml#id(ES2004d.D.dialog-act.vkaraisk.39)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.37">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.D.dialog-act.xml#id(ES2004d.D.dialog-act.vkaraisk.39)"/>
+      <nite:pointer role="target"  href="ES2004d.A.dialog-act.xml#id(ES2004d.A.dialog-act.vkaraisk.53)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.38">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.D.dialog-act.xml#id(ES2004d.D.dialog-act.vkaraisk.42)"/>
+      <nite:pointer role="target"  href="ES2004d.B.dialog-act.xml#id(ES2004d.B.dialog-act.vkaraisk.66)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.39">
+      <nite:pointer role="source"  href="ES2004d.D.dialog-act.xml#id(ES2004d.D.dialog-act.vkaraisk.48)"/>
+      <nite:pointer role="target"  href="ES2004d.D.dialog-act.xml#id(ES2004d.D.dialog-act.vkaraisk.49)"/>
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_2)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.40">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.D.dialog-act.xml#id(ES2004d.D.dialog-act.vkaraisk.56)"/>
+      <nite:pointer role="target"  href="ES2004d.B.dialog-act.xml#id(ES2004d.B.dialog-act.vkaraisk.68)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.41">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.D.dialog-act.xml#id(ES2004d.D.dialog-act.vkaraisk.56)"/>
+      <nite:pointer role="target"  href="ES2004d.A.dialog-act.xml#id(ES2004d.A.dialog-act.vkaraisk.55)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.42">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.D.dialog-act.xml#id(ES2004d.D.dialog-act.vkaraisk.56)"/>
+      <nite:pointer role="target"  href="ES2004d.C.dialog-act.xml#id(ES2004d.C.dialog-act.vkaraisk.72)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.43">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.D.dialog-act.xml#id(ES2004d.D.dialog-act.vkaraisk.56)"/>
+      <nite:pointer role="target"  href="ES2004d.D.dialog-act.xml#id(ES2004d.D.dialog-act.vkaraisk.57)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.44">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.D.dialog-act.xml#id(ES2004d.D.dialog-act.vkaraisk.59)"/>
+      <nite:pointer role="target"  href="ES2004d.C.dialog-act.xml#id(ES2004d.C.dialog-act.vkaraisk.73)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.45">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.D.dialog-act.xml#id(ES2004d.D.dialog-act.vkaraisk.62)"/>
+      <nite:pointer role="target"  href="ES2004d.D.dialog-act.xml#id(ES2004d.D.dialog-act.vkaraisk.65)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.46">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.D.dialog-act.xml#id(ES2004d.D.dialog-act.vkaraisk.65)"/>
+      <nite:pointer role="target"  href="ES2004d.B.dialog-act.xml#id(ES2004d.B.dialog-act.vkaraisk.70)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.47">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.D.dialog-act.xml#id(ES2004d.D.dialog-act.vkaraisk.62)"/>
+      <nite:pointer role="target"  href="ES2004d.C.dialog-act.xml#id(ES2004d.C.dialog-act.vkaraisk.74)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.48">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.D.dialog-act.xml#id(ES2004d.D.dialog-act.vkaraisk.62)"/>
+      <nite:pointer role="target"  href="ES2004d.C.dialog-act.xml#id(ES2004d.C.dialog-act.vkaraisk.75)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.49">
+      <nite:pointer role="source"  href="ES2004d.C.dialog-act.xml#id(ES2004d.C.dialog-act.vkaraisk.74)"/>
+      <nite:pointer role="target"  href="ES2004d.C.dialog-act.xml#id(ES2004d.C.dialog-act.vkaraisk.76)"/>
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_2)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.50">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.D.dialog-act.xml#id(ES2004d.D.dialog-act.vkaraisk.62)"/>
+      <nite:pointer role="target"  href="ES2004d.C.dialog-act.xml#id(ES2004d.C.dialog-act.vkaraisk.77)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.51">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.B.dialog-act.xml#id(ES2004d.B.dialog-act.vkaraisk.70)"/>
+      <nite:pointer role="target"  href="ES2004d.B.dialog-act.xml#id(ES2004d.B.dialog-act.vkaraisk.71)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.52">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.C.dialog-act.xml#id(ES2004d.C.dialog-act.vkaraisk.74)"/>
+      <nite:pointer role="target"  href="ES2004d.D.dialog-act.xml#id(ES2004d.D.dialog-act.vkaraisk.69)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.53">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.C.dialog-act.xml#id(ES2004d.C.dialog-act.vkaraisk.77)"/>
+      <nite:pointer role="target"  href="ES2004d.D.dialog-act.xml#id(ES2004d.D.dialog-act.vkaraisk.70)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.54">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.D.dialog-act.xml#id(ES2004d.D.dialog-act.vkaraisk.62)"/>
+      <nite:pointer role="target"  href="ES2004d.B.dialog-act.xml#id(ES2004d.B.dialog-act.vkaraisk.72)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.55">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.B.dialog-act.xml#id(ES2004d.B.dialog-act.vkaraisk.72)"/>
+      <nite:pointer role="target"  href="ES2004d.D.dialog-act.xml#id(ES2004d.D.dialog-act.vkaraisk.71)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.56">
+      <nite:pointer role="source"  href="ES2004d.D.dialog-act.xml#id(ES2004d.D.dialog-act.vkaraisk.62)"/>
+      <nite:pointer role="target"  href="ES2004d.A.dialog-act.xml#id(ES2004d.A.dialog-act.vkaraisk.58)"/>
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_4)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.57">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.A.dialog-act.xml#id(ES2004d.A.dialog-act.vkaraisk.58)"/>
+      <nite:pointer role="target"  href="ES2004d.D.dialog-act.xml#id(ES2004d.D.dialog-act.vkaraisk.72)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.58">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.D.dialog-act.xml#id(ES2004d.D.dialog-act.vkaraisk.72)"/>
+      <nite:pointer role="target"  href="ES2004d.A.dialog-act.xml#id(ES2004d.A.dialog-act.vkaraisk.59)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.59">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.D.dialog-act.xml#id(ES2004d.D.dialog-act.vkaraisk.74)"/>
+      <nite:pointer role="target"  href="ES2004d.C.dialog-act.xml#id(ES2004d.C.dialog-act.vkaraisk.78)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.60">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.D.dialog-act.xml#id(ES2004d.D.dialog-act.vkaraisk.73)"/>
+      <nite:pointer role="target"  href="ES2004d.A.dialog-act.xml#id(ES2004d.A.dialog-act.vkaraisk.60)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.61">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.D.dialog-act.xml#id(ES2004d.D.dialog-act.vkaraisk.75)"/>
+      <nite:pointer role="target"  href="ES2004d.A.dialog-act.xml#id(ES2004d.A.dialog-act.vkaraisk.61)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.62">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.D.dialog-act.xml#id(ES2004d.D.dialog-act.vkaraisk.75)"/>
+      <nite:pointer role="target"  href="ES2004d.C.dialog-act.xml#id(ES2004d.C.dialog-act.vkaraisk.79)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.63">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.A.dialog-act.xml#id(ES2004d.A.dialog-act.vkaraisk.61)"/>
+      <nite:pointer role="target"  href="ES2004d.D.dialog-act.xml#id(ES2004d.D.dialog-act.vkaraisk.76)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.64">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.D.dialog-act.xml#id(ES2004d.D.dialog-act.vkaraisk.78)"/>
+      <nite:pointer role="target"  href="ES2004d.D.dialog-act.xml#id(ES2004d.D.dialog-act.vkaraisk.79)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.65">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.D.dialog-act.xml#id(ES2004d.D.dialog-act.vkaraisk.78)"/>
+      <nite:pointer role="target"  href="ES2004d.C.dialog-act.xml#id(ES2004d.C.dialog-act.vkaraisk.80)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.66">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.C.dialog-act.xml#id(ES2004d.C.dialog-act.vkaraisk.80)"/>
+      <nite:pointer role="target"  href="ES2004d.D.dialog-act.xml#id(ES2004d.D.dialog-act.vkaraisk.80)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.67">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.D.dialog-act.xml#id(ES2004d.D.dialog-act.vkaraisk.78)"/>
+      <nite:pointer role="target"  href="ES2004d.B.dialog-act.xml#id(ES2004d.B.dialog-act.vkaraisk.73)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.68">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="target"  href="ES2004d.A.dialog-act.xml#id(ES2004d.A.dialog-act.vkaraisk.64)"/>
+      <nite:pointer role="source"  href="ES2004d.A.dialog-act.xml#id(ES2004d.A.dialog-act.vkaraisk.58)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.69">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="target"  href="ES2004d.A.dialog-act.xml#id(ES2004d.A.dialog-act.vkaraisk.66)"/>
+      <nite:pointer role="source"  href="ES2004d.D.dialog-act.xml#id(ES2004d.D.dialog-act.vkaraisk.62)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.71">
+      <nite:pointer role="source"  href="ES2004d.A.dialog-act.xml#id(ES2004d.A.dialog-act.vkaraisk.66)"/>
+      <nite:pointer role="target"  href="ES2004d.D.dialog-act.xml#id(ES2004d.D.dialog-act.vkaraisk.84)"/>
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_3)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.72">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.D.dialog-act.xml#id(ES2004d.D.dialog-act.vkaraisk.84)"/>
+      <nite:pointer role="target"  href="ES2004d.A.dialog-act.xml#id(ES2004d.A.dialog-act.vkaraisk.70)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.73">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.A.dialog-act.xml#id(ES2004d.A.dialog-act.vkaraisk.70)"/>
+      <nite:pointer role="target"  href="ES2004d.D.dialog-act.xml#id(ES2004d.D.dialog-act.vkaraisk.87)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.74">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.B.dialog-act.xml#id(ES2004d.B.dialog-act.vkaraisk.74)"/>
+      <nite:pointer role="target"  href="ES2004d.D.dialog-act.xml#id(ES2004d.D.dialog-act.vkaraisk.94)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.75">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.B.dialog-act.xml#id(ES2004d.B.dialog-act.vkaraisk.74)"/>
+      <nite:pointer role="target"  href="ES2004d.C.dialog-act.xml#id(ES2004d.C.dialog-act.vkaraisk.82)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.76">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.A.dialog-act.xml#id(ES2004d.A.dialog-act.vkaraisk.74)"/>
+      <nite:pointer role="target"  href="ES2004d.A.dialog-act.xml#id(ES2004d.A.dialog-act.vkaraisk.76)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.77">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.A.dialog-act.xml#id(ES2004d.A.dialog-act.vkaraisk.75)"/>
+      <nite:pointer role="target"  href="ES2004d.A.dialog-act.xml#id(ES2004d.A.dialog-act.vkaraisk.76)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.78">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.D.dialog-act.xml#id(ES2004d.D.dialog-act.vkaraisk.97)"/>
+      <nite:pointer role="target"  href="ES2004d.A.dialog-act.xml#id(ES2004d.A.dialog-act.vkaraisk.77)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.79">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.A.dialog-act.xml#id(ES2004d.A.dialog-act.vkaraisk.77)"/>
+      <nite:pointer role="target"  href="ES2004d.D.dialog-act.xml#id(ES2004d.D.dialog-act.vkaraisk.98)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.80">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.D.dialog-act.xml#id(ES2004d.D.dialog-act.vkaraisk.100)"/>
+      <nite:pointer role="target"  href="ES2004d.D.dialog-act.xml#id(ES2004d.D.dialog-act.vkaraisk.101)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.81">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.C.dialog-act.xml#id(ES2004d.C.dialog-act.vkaraisk.83)"/>
+      <nite:pointer role="target"  href="ES2004d.D.dialog-act.xml#id(ES2004d.D.dialog-act.vkaraisk.102)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.82">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.D.dialog-act.xml#id(ES2004d.D.dialog-act.vkaraisk.105)"/>
+      <nite:pointer role="target"  href="ES2004d.D.dialog-act.xml#id(ES2004d.D.dialog-act.vkaraisk.106)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.83">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.D.dialog-act.xml#id(ES2004d.D.dialog-act.vkaraisk.105)"/>
+      <nite:pointer role="target"  href="ES2004d.C.dialog-act.xml#id(ES2004d.C.dialog-act.vkaraisk.84)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.84">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.C.dialog-act.xml#id(ES2004d.C.dialog-act.vkaraisk.84)"/>
+      <nite:pointer role="target"  href="ES2004d.D.dialog-act.xml#id(ES2004d.D.dialog-act.vkaraisk.107)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.85">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.D.dialog-act.xml#id(ES2004d.D.dialog-act.vkaraisk.105)"/>
+      <nite:pointer role="target"  href="ES2004d.B.dialog-act.xml#id(ES2004d.B.dialog-act.vkaraisk.75)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.86">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.B.dialog-act.xml#id(ES2004d.B.dialog-act.vkaraisk.75)"/>
+      <nite:pointer role="target"  href="ES2004d.D.dialog-act.xml#id(ES2004d.D.dialog-act.vkaraisk.108)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.87">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.D.dialog-act.xml#id(ES2004d.D.dialog-act.vkaraisk.105)"/>
+      <nite:pointer role="target"  href="ES2004d.A.dialog-act.xml#id(ES2004d.A.dialog-act.vkaraisk.78)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.88">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.A.dialog-act.xml#id(ES2004d.A.dialog-act.vkaraisk.78)"/>
+      <nite:pointer role="target"  href="ES2004d.D.dialog-act.xml#id(ES2004d.D.dialog-act.vkaraisk.109)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.89">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.B.dialog-act.xml#id(ES2004d.B.dialog-act.vkaraisk.76)"/>
+      <nite:pointer role="target"  href="ES2004d.C.dialog-act.xml#id(ES2004d.C.dialog-act.vkaraisk.86)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.90">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.D.dialog-act.xml#id(ES2004d.D.dialog-act.vkaraisk.113)"/>
+      <nite:pointer role="target"  href="ES2004d.B.dialog-act.xml#id(ES2004d.B.dialog-act.vkaraisk.77)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.91">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="target"  href="ES2004d.C.dialog-act.xml#id(ES2004d.C.dialog-act.vkaraisk.88)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.92">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.D.dialog-act.xml#id(ES2004d.D.dialog-act.vkaraisk.118)"/>
+      <nite:pointer role="target"  href="ES2004d.C.dialog-act.xml#id(ES2004d.C.dialog-act.vkaraisk.90)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.93">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.D.dialog-act.xml#id(ES2004d.D.dialog-act.vkaraisk.119)"/>
+      <nite:pointer role="target"  href="ES2004d.C.dialog-act.xml#id(ES2004d.C.dialog-act.vkaraisk.92)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.94">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.D.dialog-act.xml#id(ES2004d.D.dialog-act.vkaraisk.121)"/>
+      <nite:pointer role="target"  href="ES2004d.A.dialog-act.xml#id(ES2004d.A.dialog-act.vkaraisk.84)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.95">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.D.dialog-act.xml#id(ES2004d.D.dialog-act.vkaraisk.121)"/>
+      <nite:pointer role="target"  href="ES2004d.C.dialog-act.xml#id(ES2004d.C.dialog-act.vkaraisk.95)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.96">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.C.dialog-act.xml#id(ES2004d.C.dialog-act.vkaraisk.95)"/>
+      <nite:pointer role="target"  href="ES2004d.D.dialog-act.xml#id(ES2004d.D.dialog-act.vkaraisk.122)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.97">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.D.dialog-act.xml#id(ES2004d.D.dialog-act.vkaraisk.123)"/>
+      <nite:pointer role="target"  href="ES2004d.C.dialog-act.xml#id(ES2004d.C.dialog-act.vkaraisk.97)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.98">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.D.dialog-act.xml#id(ES2004d.D.dialog-act.vkaraisk.123)"/>
+      <nite:pointer role="target"  href="ES2004d.A.dialog-act.xml#id(ES2004d.A.dialog-act.vkaraisk.86)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.99">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.C.dialog-act.xml#id(ES2004d.C.dialog-act.vkaraisk.98)"/>
+      <nite:pointer role="target"  href="ES2004d.D.dialog-act.xml#id(ES2004d.D.dialog-act.vkaraisk.124)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.100">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="target"  href="ES2004d.D.dialog-act.xml#id(ES2004d.D.dialog-act.vkaraisk.125)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.101">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.D.dialog-act.xml#id(ES2004d.D.dialog-act.vkaraisk.125)"/>
+      <nite:pointer role="target"  href="ES2004d.C.dialog-act.xml#id(ES2004d.C.dialog-act.vkaraisk.100)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.102">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.C.dialog-act.xml#id(ES2004d.C.dialog-act.vkaraisk.100)"/>
+      <nite:pointer role="target"  href="ES2004d.D.dialog-act.xml#id(ES2004d.D.dialog-act.vkaraisk.126)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.103">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="target"  href="ES2004d.B.dialog-act.xml#id(ES2004d.B.dialog-act.vkaraisk.79)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.104">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="target"  href="ES2004d.A.dialog-act.xml#id(ES2004d.A.dialog-act.vkaraisk.88)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.105">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.B.dialog-act.xml#id(ES2004d.B.dialog-act.vkaraisk.79)"/>
+      <nite:pointer role="target"  href="ES2004d.D.dialog-act.xml#id(ES2004d.D.dialog-act.vkaraisk.128)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.106">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="target"  href="ES2004d.D.dialog-act.xml#id(ES2004d.D.dialog-act.vkaraisk.129)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.107">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.D.dialog-act.xml#id(ES2004d.D.dialog-act.vkaraisk.133)"/>
+      <nite:pointer role="target"  href="ES2004d.C.dialog-act.xml#id(ES2004d.C.dialog-act.vkaraisk.88)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.108">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.D.dialog-act.xml#id(ES2004d.D.dialog-act.vkaraisk.133)"/>
+      <nite:pointer role="target"  href="ES2004d.D.dialog-act.xml#id(ES2004d.D.dialog-act.vkaraisk.125)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.109">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.D.dialog-act.xml#id(ES2004d.D.dialog-act.vkaraisk.133)"/>
+      <nite:pointer role="target"  href="ES2004d.B.dialog-act.xml#id(ES2004d.B.dialog-act.vkaraisk.79)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.110">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.D.dialog-act.xml#id(ES2004d.D.dialog-act.vkaraisk.133)"/>
+      <nite:pointer role="target"  href="ES2004d.A.dialog-act.xml#id(ES2004d.A.dialog-act.vkaraisk.88)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.111">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.D.dialog-act.xml#id(ES2004d.D.dialog-act.vkaraisk.134)"/>
+      <nite:pointer role="target"  href="ES2004d.C.dialog-act.xml#id(ES2004d.C.dialog-act.vkaraisk.103)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.112">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.D.dialog-act.xml#id(ES2004d.D.dialog-act.vkaraisk.138)"/>
+      <nite:pointer role="target"  href="ES2004d.B.dialog-act.xml#id(ES2004d.B.dialog-act.vkaraisk.81)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.115">
+      <nite:pointer role="source"  href="ES2004d.D.dialog-act.xml#id(ES2004d.D.dialog-act.vkaraisk.132)"/>
+      <nite:pointer role="target"  href="ES2004d.C.dialog-act.xml#id(ES2004d.C.dialog-act.vkaraisk.110)"/>
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_4)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.116">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.C.dialog-act.xml#id(ES2004d.C.dialog-act.vkaraisk.110)"/>
+      <nite:pointer role="target"  href="ES2004d.D.dialog-act.xml#id(ES2004d.D.dialog-act.vkaraisk.147)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.117">
+      <nite:pointer role="source"  href="ES2004d.D.dialog-act.xml#id(ES2004d.D.dialog-act.vkaraisk.132)"/>
+      <nite:pointer role="target"  href="ES2004d.B.dialog-act.xml#id(ES2004d.B.dialog-act.vkaraisk.89)"/>
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_4)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.118">
+      <nite:pointer role="target"  href="ES2004d.A.dialog-act.xml#id(ES2004d.A.dialog-act.vkaraisk.90)"/>
+      <nite:pointer role="source"  href="ES2004d.D.dialog-act.xml#id(ES2004d.D.dialog-act.vkaraisk.132)"/>
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_4)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.119">
+      <nite:pointer role="source"  href="ES2004d.D.dialog-act.xml#id(ES2004d.D.dialog-act.vkaraisk.132)"/>
+      <nite:pointer role="target"  href="ES2004d.D.dialog-act.xml#id(ES2004d.D.dialog-act.vkaraisk.146)"/>
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_4)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.120">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.B.dialog-act.xml#id(ES2004d.B.dialog-act.vkaraisk.89)"/>
+      <nite:pointer role="target"  href="ES2004d.D.dialog-act.xml#id(ES2004d.D.dialog-act.vkaraisk.148)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.121">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.A.dialog-act.xml#id(ES2004d.A.dialog-act.vkaraisk.90)"/>
+      <nite:pointer role="target"  href="ES2004d.D.dialog-act.xml#id(ES2004d.D.dialog-act.vkaraisk.149)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.122">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.D.dialog-act.xml#id(ES2004d.D.dialog-act.vkaraisk.151)"/>
+      <nite:pointer role="target"  href="ES2004d.C.dialog-act.xml#id(ES2004d.C.dialog-act.vkaraisk.112)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.123">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.D.dialog-act.xml#id(ES2004d.D.dialog-act.vkaraisk.156)"/>
+      <nite:pointer role="target"  href="ES2004d.C.dialog-act.xml#id(ES2004d.C.dialog-act.vkaraisk.114)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.124">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.D.dialog-act.xml#id(ES2004d.D.dialog-act.vkaraisk.156)"/>
+      <nite:pointer role="target"  href="ES2004d.A.dialog-act.xml#id(ES2004d.A.dialog-act.vkaraisk.92)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.125">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.D.dialog-act.xml#id(ES2004d.D.dialog-act.vkaraisk.156)"/>
+      <nite:pointer role="target"  href="ES2004d.D.dialog-act.xml#id(ES2004d.D.dialog-act.vkaraisk.157)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.126">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.C.dialog-act.xml#id(ES2004d.C.dialog-act.vkaraisk.114)"/>
+      <nite:pointer role="target"  href="ES2004d.D.dialog-act.xml#id(ES2004d.D.dialog-act.vkaraisk.158)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.127">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.D.dialog-act.xml#id(ES2004d.D.dialog-act.vkaraisk.157)"/>
+      <nite:pointer role="target"  href="ES2004d.C.dialog-act.xml#id(ES2004d.C.dialog-act.vkaraisk.115)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.128">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.D.dialog-act.xml#id(ES2004d.D.dialog-act.vkaraisk.159)"/>
+      <nite:pointer role="target"  href="ES2004d.C.dialog-act.xml#id(ES2004d.C.dialog-act.vkaraisk.116)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.129">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.C.dialog-act.xml#id(ES2004d.C.dialog-act.vkaraisk.116)"/>
+      <nite:pointer role="target"  href="ES2004d.D.dialog-act.xml#id(ES2004d.D.dialog-act.vkaraisk.160)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.130">
+      <nite:pointer role="source"  href="ES2004d.D.dialog-act.xml#id(ES2004d.D.dialog-act.vkaraisk.162)"/>
+      <nite:pointer role="target"  href="ES2004d.C.dialog-act.xml#id(ES2004d.C.dialog-act.vkaraisk.119)"/>
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_2)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.131">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.C.dialog-act.xml#id(ES2004d.C.dialog-act.vkaraisk.119)"/>
+      <nite:pointer role="target"  href="ES2004d.D.dialog-act.xml#id(ES2004d.D.dialog-act.vkaraisk.163)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.132">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.B.dialog-act.xml#id(ES2004d.B.dialog-act.vkaraisk.93)"/>
+      <nite:pointer role="target"  href="ES2004d.D.dialog-act.xml#id(ES2004d.D.dialog-act.vkaraisk.165)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.133">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.B.dialog-act.xml#id(ES2004d.B.dialog-act.vkaraisk.93)"/>
+      <nite:pointer role="target"  href="ES2004d.D.dialog-act.xml#id(ES2004d.D.dialog-act.vkaraisk.166)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.134">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="target"  href="ES2004d.D.dialog-act.xml#id(ES2004d.D.dialog-act.vkaraisk.167)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.135">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="target"  href="ES2004d.C.dialog-act.xml#id(ES2004d.C.dialog-act.vkaraisk.122)"/>
+      <nite:pointer role="source"  href="ES2004d.D.dialog-act.xml#id(ES2004d.D.dialog-act.vkaraisk.167)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.136">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.C.dialog-act.xml#id(ES2004d.C.dialog-act.vkaraisk.122)"/>
+      <nite:pointer role="target"  href="ES2004d.D.dialog-act.xml#id(ES2004d.D.dialog-act.vkaraisk.168)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.137">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="target"  href="ES2004d.B.dialog-act.xml#id(ES2004d.B.dialog-act.vkaraisk.94)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.138">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.B.dialog-act.xml#id(ES2004d.B.dialog-act.vkaraisk.94)"/>
+      <nite:pointer role="target"  href="ES2004d.D.dialog-act.xml#id(ES2004d.D.dialog-act.vkaraisk.169)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.139">
+      <nite:pointer role="target"  href="ES2004d.C.dialog-act.xml#id(ES2004d.C.dialog-act.vkaraisk.123)"/>
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_2)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.140">
+      <nite:pointer role="target"  href="ES2004d.D.dialog-act.xml#id(ES2004d.D.dialog-act.vkaraisk.174)"/>
+      <nite:pointer role="source"  href="ES2004d.D.dialog-act.xml#id(ES2004d.D.dialog-act.vkaraisk.175)"/>
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_4)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.141">
+      <nite:pointer role="source"  href="ES2004d.D.dialog-act.xml#id(ES2004d.D.dialog-act.vkaraisk.177)"/>
+      <nite:pointer role="target"  href="ES2004d.B.dialog-act.xml#id(ES2004d.B.dialog-act.vkaraisk.96)"/>
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_2)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.142">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.D.dialog-act.xml#id(ES2004d.D.dialog-act.vkaraisk.178)"/>
+      <nite:pointer role="target"  href="ES2004d.B.dialog-act.xml#id(ES2004d.B.dialog-act.vkaraisk.97)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.143">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.D.dialog-act.xml#id(ES2004d.D.dialog-act.vkaraisk.178)"/>
+      <nite:pointer role="target"  href="ES2004d.D.dialog-act.xml#id(ES2004d.D.dialog-act.vkaraisk.179)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.144">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.D.dialog-act.xml#id(ES2004d.D.dialog-act.vkaraisk.176)"/>
+      <nite:pointer role="target"  href="ES2004d.D.dialog-act.xml#id(ES2004d.D.dialog-act.vkaraisk.180)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.145">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.D.dialog-act.xml#id(ES2004d.D.dialog-act.vkaraisk.181)"/>
+      <nite:pointer role="target"  href="ES2004d.C.dialog-act.xml#id(ES2004d.C.dialog-act.vkaraisk.131)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.146">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.B.dialog-act.xml#id(ES2004d.B.dialog-act.vkaraisk.98)"/>
+      <nite:pointer role="target"  href="ES2004d.D.dialog-act.xml#id(ES2004d.D.dialog-act.vkaraisk.182)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.147">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.D.dialog-act.xml#id(ES2004d.D.dialog-act.vkaraisk.185)"/>
+      <nite:pointer role="target"  href="ES2004d.B.dialog-act.xml#id(ES2004d.B.dialog-act.vkaraisk.99)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.148">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.D.dialog-act.xml#id(ES2004d.D.dialog-act.vkaraisk.185)"/>
+      <nite:pointer role="target"  href="ES2004d.C.dialog-act.xml#id(ES2004d.C.dialog-act.vkaraisk.132)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.149">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="target"  href="ES2004d.B.dialog-act.xml#id(ES2004d.B.dialog-act.vkaraisk.100)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.151">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="target"  href="ES2004d.B.dialog-act.xml#id(ES2004d.B.dialog-act.vkaraisk.113)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.152">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.B.dialog-act.xml#id(ES2004d.B.dialog-act.vkaraisk.116)"/>
+      <nite:pointer role="target"  href="ES2004d.C.dialog-act.xml#id(ES2004d.C.dialog-act.vkaraisk.135)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.153">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.B.dialog-act.xml#id(ES2004d.B.dialog-act.vkaraisk.116)"/>
+      <nite:pointer role="target"  href="ES2004d.D.dialog-act.xml#id(ES2004d.D.dialog-act.vkaraisk.191)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.154">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.C.dialog-act.xml#id(ES2004d.C.dialog-act.vkaraisk.135)"/>
+      <nite:pointer role="target"  href="ES2004d.B.dialog-act.xml#id(ES2004d.B.dialog-act.vkaraisk.117)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.155">
+      <nite:pointer role="target"  href="ES2004d.B.dialog-act.xml#id(ES2004d.B.dialog-act.vkaraisk.118)"/>
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_2)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.156">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.B.dialog-act.xml#id(ES2004d.B.dialog-act.vkaraisk.121)"/>
+      <nite:pointer role="target"  href="ES2004d.C.dialog-act.xml#id(ES2004d.C.dialog-act.vkaraisk.136)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.157">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.B.dialog-act.xml#id(ES2004d.B.dialog-act.vkaraisk.121)"/>
+      <nite:pointer role="target"  href="ES2004d.A.dialog-act.xml#id(ES2004d.A.dialog-act.vkaraisk.99)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.158">
+      <nite:pointer role="source"  href="ES2004d.B.dialog-act.xml#id(ES2004d.B.dialog-act.vkaraisk.122)"/>
+      <nite:pointer role="target"  href="ES2004d.C.dialog-act.xml#id(ES2004d.C.dialog-act.vkaraisk.139)"/>
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_2)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.159">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.C.dialog-act.xml#id(ES2004d.C.dialog-act.vkaraisk.145)"/>
+      <nite:pointer role="target"  href="ES2004d.B.dialog-act.xml#id(ES2004d.B.dialog-act.vkaraisk.123)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.160">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.C.dialog-act.xml#id(ES2004d.C.dialog-act.vkaraisk.144)"/>
+      <nite:pointer role="target"  href="ES2004d.B.dialog-act.xml#id(ES2004d.B.dialog-act.vkaraisk.124)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.161">
+      <nite:pointer role="source"  href="ES2004d.B.dialog-act.xml#id(ES2004d.B.dialog-act.vkaraisk.126)"/>
+      <nite:pointer role="target"  href="ES2004d.C.dialog-act.xml#id(ES2004d.C.dialog-act.vkaraisk.150)"/>
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_2)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.164">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.B.dialog-act.xml#id(ES2004d.B.dialog-act.vkaraisk.127)"/>
+      <nite:pointer role="target"  href="ES2004d.C.dialog-act.xml#id(ES2004d.C.dialog-act.vkaraisk.152)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.165">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.C.dialog-act.xml#id(ES2004d.C.dialog-act.vkaraisk.153)"/>
+      <nite:pointer role="target"  href="ES2004d.A.dialog-act.xml#id(ES2004d.A.dialog-act.vkaraisk.100)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.166">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.C.dialog-act.xml#id(ES2004d.C.dialog-act.vkaraisk.153)"/>
+      <nite:pointer role="target"  href="ES2004d.B.dialog-act.xml#id(ES2004d.B.dialog-act.vkaraisk.128)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.167">
+      <nite:pointer role="source"  href="ES2004d.C.dialog-act.xml#id(ES2004d.C.dialog-act.vkaraisk.154)"/>
+      <nite:pointer role="target"  href="ES2004d.C.dialog-act.xml#id(ES2004d.C.dialog-act.vkaraisk.155)"/>
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_2)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.168">
+      <nite:pointer role="source"  href="ES2004d.C.dialog-act.xml#id(ES2004d.C.dialog-act.vkaraisk.154)"/>
+      <nite:pointer role="target"  href="ES2004d.A.dialog-act.xml#id(ES2004d.A.dialog-act.vkaraisk.102)"/>
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_2)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.169">
+      <nite:pointer role="source"  href="ES2004d.B.dialog-act.xml#id(ES2004d.B.dialog-act.vkaraisk.129)"/>
+      <nite:pointer role="target"  href="ES2004d.C.dialog-act.xml#id(ES2004d.C.dialog-act.vkaraisk.157)"/>
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_2)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.170">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.C.dialog-act.xml#id(ES2004d.C.dialog-act.vkaraisk.158)"/>
+      <nite:pointer role="target"  href="ES2004d.A.dialog-act.xml#id(ES2004d.A.dialog-act.vkaraisk.103)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.172">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.B.dialog-act.xml#id(ES2004d.B.dialog-act.vkaraisk.133)"/>
+      <nite:pointer role="target"  href="ES2004d.D.dialog-act.xml#id(ES2004d.D.dialog-act.vkaraisk.194)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.174">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.B.dialog-act.xml#id(ES2004d.B.dialog-act.vkaraisk.137)"/>
+      <nite:pointer role="target"  href="ES2004d.C.dialog-act.xml#id(ES2004d.C.dialog-act.vkaraisk.169)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.175">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.B.dialog-act.xml#id(ES2004d.B.dialog-act.vkaraisk.137)"/>
+      <nite:pointer role="target"  href="ES2004d.A.dialog-act.xml#id(ES2004d.A.dialog-act.vkaraisk.107)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.176">
+      <nite:pointer role="target"  href="ES2004d.A.dialog-act.xml#id(ES2004d.A.dialog-act.vkaraisk.110)"/>
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_2)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.177">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.A.dialog-act.xml#id(ES2004d.A.dialog-act.vkaraisk.112)"/>
+      <nite:pointer role="target"  href="ES2004d.C.dialog-act.xml#id(ES2004d.C.dialog-act.vkaraisk.171)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.178">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.B.dialog-act.xml#id(ES2004d.B.dialog-act.vkaraisk.140)"/>
+      <nite:pointer role="target"  href="ES2004d.A.dialog-act.xml#id(ES2004d.A.dialog-act.vkaraisk.113)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.179">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.A.dialog-act.xml#id(ES2004d.A.dialog-act.vkaraisk.116)"/>
+      <nite:pointer role="target"  href="ES2004d.C.dialog-act.xml#id(ES2004d.C.dialog-act.vkaraisk.172)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.180">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.A.dialog-act.xml#id(ES2004d.A.dialog-act.vkaraisk.116)"/>
+      <nite:pointer role="target"  href="ES2004d.B.dialog-act.xml#id(ES2004d.B.dialog-act.vkaraisk.141)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.181">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.D.dialog-act.xml#id(ES2004d.D.dialog-act.vkaraisk.198)"/>
+      <nite:pointer role="target"  href="ES2004d.A.dialog-act.xml#id(ES2004d.A.dialog-act.vkaraisk.117)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.182">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.D.dialog-act.xml#id(ES2004d.D.dialog-act.vkaraisk.198)"/>
+      <nite:pointer role="target"  href="ES2004d.A.dialog-act.xml#id(ES2004d.A.dialog-act.vkaraisk.118)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.183">
+      <nite:pointer role="source"  href="ES2004d.B.dialog-act.xml#id(ES2004d.B.dialog-act.vkaraisk.146)"/>
+      <nite:pointer role="target"  href="ES2004d.C.dialog-act.xml#id(ES2004d.C.dialog-act.vkaraisk.173)"/>
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_2)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.184">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.B.dialog-act.xml#id(ES2004d.B.dialog-act.vkaraisk.147)"/>
+      <nite:pointer role="target"  href="ES2004d.D.dialog-act.xml#id(ES2004d.D.dialog-act.vkaraisk.200)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.185">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.A.dialog-act.xml#id(ES2004d.A.dialog-act.vkaraisk.116)"/>
+      <nite:pointer role="target"  href="ES2004d.B.dialog-act.xml#id(ES2004d.B.dialog-act.vkaraisk.148)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.186">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.B.dialog-act.xml#id(ES2004d.B.dialog-act.vkaraisk.148)"/>
+      <nite:pointer role="target"  href="ES2004d.D.dialog-act.xml#id(ES2004d.D.dialog-act.vkaraisk.206)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.187">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.B.dialog-act.xml#id(ES2004d.B.dialog-act.vkaraisk.149)"/>
+      <nite:pointer role="target"  href="ES2004d.C.dialog-act.xml#id(ES2004d.C.dialog-act.vkaraisk.178)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.188">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.B.dialog-act.xml#id(ES2004d.B.dialog-act.vkaraisk.149)"/>
+      <nite:pointer role="target"  href="ES2004d.D.dialog-act.xml#id(ES2004d.D.dialog-act.vkaraisk.207)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.190">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.D.dialog-act.xml#id(ES2004d.D.dialog-act.vkaraisk.208)"/>
+      <nite:pointer role="target"  href="ES2004d.B.dialog-act.xml#id(ES2004d.B.dialog-act.vkaraisk.155)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.191">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.B.dialog-act.xml#id(ES2004d.B.dialog-act.vkaraisk.156)"/>
+      <nite:pointer role="target"  href="ES2004d.A.dialog-act.xml#id(ES2004d.A.dialog-act.vkaraisk.119)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.192">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.A.dialog-act.xml#id(ES2004d.A.dialog-act.vkaraisk.119)"/>
+      <nite:pointer role="target"  href="ES2004d.C.dialog-act.xml#id(ES2004d.C.dialog-act.vkaraisk.179)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.193">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.B.dialog-act.xml#id(ES2004d.B.dialog-act.vkaraisk.156)"/>
+      <nite:pointer role="target"  href="ES2004d.C.dialog-act.xml#id(ES2004d.C.dialog-act.vkaraisk.181)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.194">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.B.dialog-act.xml#id(ES2004d.B.dialog-act.vkaraisk.156)"/>
+      <nite:pointer role="target"  href="ES2004d.C.dialog-act.xml#id(ES2004d.C.dialog-act.vkaraisk.180)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.195">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.D.dialog-act.xml#id(ES2004d.D.dialog-act.vkaraisk.212)"/>
+      <nite:pointer role="target"  href="ES2004d.C.dialog-act.xml#id(ES2004d.C.dialog-act.vkaraisk.184)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.196">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.D.dialog-act.xml#id(ES2004d.D.dialog-act.vkaraisk.212)"/>
+      <nite:pointer role="target"  href="ES2004d.D.dialog-act.xml#id(ES2004d.D.dialog-act.vkaraisk.215)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.197">
+      <nite:pointer role="source"  href="ES2004d.B.dialog-act.xml#id(ES2004d.B.dialog-act.vkaraisk.158)"/>
+      <nite:pointer role="target"  href="ES2004d.B.dialog-act.xml#id(ES2004d.B.dialog-act.vkaraisk.159)"/>
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_2)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.198">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.D.dialog-act.xml#id(ES2004d.D.dialog-act.vkaraisk.218)"/>
+      <nite:pointer role="target"  href="ES2004d.C.dialog-act.xml#id(ES2004d.C.dialog-act.vkaraisk.185)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.199">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="target"  href="ES2004d.C.dialog-act.xml#id(ES2004d.C.dialog-act.vkaraisk.186)"/>
+      <nite:pointer role="source"  href="ES2004d.D.dialog-act.xml#id(ES2004d.D.dialog-act.vkaraisk.223)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.200">
+      <nite:pointer role="source"  href="ES2004d.D.dialog-act.xml#id(ES2004d.D.dialog-act.vkaraisk.222)"/>
+      <nite:pointer role="target"  href="ES2004d.A.dialog-act.xml#id(ES2004d.A.dialog-act.vkaraisk.125)"/>
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_2)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.201">
+      <nite:pointer role="source"  href="ES2004d.D.dialog-act.xml#id(ES2004d.D.dialog-act.vkaraisk.221)"/>
+      <nite:pointer role="target"  href="ES2004d.A.dialog-act.xml#id(ES2004d.A.dialog-act.vkaraisk.126)"/>
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_3)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.202">
+      <nite:pointer role="target"  href="ES2004d.C.dialog-act.xml#id(ES2004d.C.dialog-act.vkaraisk.188)"/>
+      <nite:pointer role="source"  href="ES2004d.D.dialog-act.xml#id(ES2004d.D.dialog-act.vkaraisk.221)"/>
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_2)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.203">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.B.dialog-act.xml#id(ES2004d.B.dialog-act.vkaraisk.164)"/>
+      <nite:pointer role="target"  href="ES2004d.D.dialog-act.xml#id(ES2004d.D.dialog-act.vkaraisk.224)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.204">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="target"  href="ES2004d.B.dialog-act.xml#id(ES2004d.B.dialog-act.vkaraisk.165)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.205">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.C.dialog-act.xml#id(ES2004d.C.dialog-act.vkaraisk.194)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.206">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.C.dialog-act.xml#id(ES2004d.C.dialog-act.vkaraisk.193)"/>
+      <nite:pointer role="target"  href="ES2004d.A.dialog-act.xml#id(ES2004d.A.dialog-act.vkaraisk.127)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.207">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.B.dialog-act.xml#id(ES2004d.B.dialog-act.vkaraisk.167)"/>
+      <nite:pointer role="target"  href="ES2004d.C.dialog-act.xml#id(ES2004d.C.dialog-act.vkaraisk.196)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.208">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.B.dialog-act.xml#id(ES2004d.B.dialog-act.vkaraisk.167)"/>
+      <nite:pointer role="target"  href="ES2004d.D.dialog-act.xml#id(ES2004d.D.dialog-act.vkaraisk.227)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.209">
+      <nite:pointer role="source"  href="ES2004d.C.dialog-act.xml#id(ES2004d.C.dialog-act.vkaraisk.193)"/>
+      <nite:pointer role="target"  href="ES2004d.A.dialog-act.xml#id(ES2004d.A.dialog-act.vkaraisk.129)"/>
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_2)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.210">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.D.dialog-act.xml#id(ES2004d.D.dialog-act.vkaraisk.229)"/>
+      <nite:pointer role="target"  href="ES2004d.C.dialog-act.xml#id(ES2004d.C.dialog-act.vkaraisk.199)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.211">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.A.dialog-act.xml#id(ES2004d.A.dialog-act.vkaraisk.134)"/>
+      <nite:pointer role="target"  href="ES2004d.C.dialog-act.xml#id(ES2004d.C.dialog-act.vkaraisk.202)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.212">
+      <nite:pointer role="source"  href="ES2004d.C.dialog-act.xml#id(ES2004d.C.dialog-act.vkaraisk.205)"/>
+      <nite:pointer role="target"  href="ES2004d.C.dialog-act.xml#id(ES2004d.C.dialog-act.vkaraisk.204)"/>
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_2)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.213">
+      <nite:pointer role="source"  href="ES2004d.D.dialog-act.xml#id(ES2004d.D.dialog-act.vkaraisk.232)"/>
+      <nite:pointer role="target"  href="ES2004d.C.dialog-act.xml#id(ES2004d.C.dialog-act.vkaraisk.207)"/>
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_2)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.214">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.C.dialog-act.xml#id(ES2004d.C.dialog-act.vkaraisk.208)"/>
+      <nite:pointer role="target"  href="ES2004d.B.dialog-act.xml#id(ES2004d.B.dialog-act.vkaraisk.173)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.215">
+      <nite:pointer role="source"  href="ES2004d.B.dialog-act.xml#id(ES2004d.B.dialog-act.vkaraisk.176)"/>
+      <nite:pointer role="target"  href="ES2004d.C.dialog-act.xml#id(ES2004d.C.dialog-act.vkaraisk.213)"/>
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_4)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.216">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.C.dialog-act.xml#id(ES2004d.C.dialog-act.vkaraisk.213)"/>
+      <nite:pointer role="target"  href="ES2004d.B.dialog-act.xml#id(ES2004d.B.dialog-act.vkaraisk.177)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.217">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.B.dialog-act.xml#id(ES2004d.B.dialog-act.vkaraisk.182)"/>
+      <nite:pointer role="target"  href="ES2004d.D.dialog-act.xml#id(ES2004d.D.dialog-act.vkaraisk.235)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.218">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.B.dialog-act.xml#id(ES2004d.B.dialog-act.vkaraisk.182)"/>
+      <nite:pointer role="target"  href="ES2004d.D.dialog-act.xml#id(ES2004d.D.dialog-act.vkaraisk.234)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.219">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.B.dialog-act.xml#id(ES2004d.B.dialog-act.vkaraisk.182)"/>
+      <nite:pointer role="target"  href="ES2004d.A.dialog-act.xml#id(ES2004d.A.dialog-act.vkaraisk.138)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.221">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="target"  href="ES2004d.D.dialog-act.xml#id(ES2004d.D.dialog-act.vkaraisk.240)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.222">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="target"  href="ES2004d.D.dialog-act.xml#id(ES2004d.D.dialog-act.vkaraisk.243)"/>
+      <nite:pointer role="source"  href="ES2004d.B.dialog-act.xml#id(ES2004d.B.dialog-act.vkaraisk.182)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.223">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.D.dialog-act.xml#id(ES2004d.D.dialog-act.vkaraisk.239)"/>
+      <nite:pointer role="target"  href="ES2004d.B.dialog-act.xml#id(ES2004d.B.dialog-act.vkaraisk.190)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.224">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.D.dialog-act.xml#id(ES2004d.D.dialog-act.vkaraisk.237)"/>
+      <nite:pointer role="target"  href="ES2004d.B.dialog-act.xml#id(ES2004d.B.dialog-act.vkaraisk.191)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.225">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.D.dialog-act.xml#id(ES2004d.D.dialog-act.vkaraisk.237)"/>
+      <nite:pointer role="target"  href="ES2004d.C.dialog-act.xml#id(ES2004d.C.dialog-act.vkaraisk.224)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.226">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.B.dialog-act.xml#id(ES2004d.B.dialog-act.vkaraisk.191)"/>
+      <nite:pointer role="target"  href="ES2004d.D.dialog-act.xml#id(ES2004d.D.dialog-act.vkaraisk.244)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.227">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.B.dialog-act.xml#id(ES2004d.B.dialog-act.vkaraisk.191)"/>
+      <nite:pointer role="target"  href="ES2004d.C.dialog-act.xml#id(ES2004d.C.dialog-act.vkaraisk.225)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.228">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.B.dialog-act.xml#id(ES2004d.B.dialog-act.vkaraisk.194)"/>
+      <nite:pointer role="target"  href="ES2004d.C.dialog-act.xml#id(ES2004d.C.dialog-act.vkaraisk.226)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.229">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.C.dialog-act.xml#id(ES2004d.C.dialog-act.vkaraisk.227)"/>
+      <nite:pointer role="target"  href="ES2004d.A.dialog-act.xml#id(ES2004d.A.dialog-act.vkaraisk.140)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.230">
+      <nite:pointer role="source"  href="ES2004d.C.dialog-act.xml#id(ES2004d.C.dialog-act.vkaraisk.227)"/>
+      <nite:pointer role="target"  href="ES2004d.A.dialog-act.xml#id(ES2004d.A.dialog-act.vkaraisk.142)"/>
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_2)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.231">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.C.dialog-act.xml#id(ES2004d.C.dialog-act.vkaraisk.228)"/>
+      <nite:pointer role="target"  href="ES2004d.B.dialog-act.xml#id(ES2004d.B.dialog-act.vkaraisk.197)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.232">
+      <nite:pointer role="source"  href="ES2004d.B.dialog-act.xml#id(ES2004d.B.dialog-act.vkaraisk.198)"/>
+      <nite:pointer role="target"  href="ES2004d.D.dialog-act.xml#id(ES2004d.D.dialog-act.vkaraisk.251)"/>
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_3)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.233">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.B.dialog-act.xml#id(ES2004d.B.dialog-act.vkaraisk.201)"/>
+      <nite:pointer role="target"  href="ES2004d.D.dialog-act.xml#id(ES2004d.D.dialog-act.vkaraisk.254)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.235">
+      <nite:pointer role="source"  href="ES2004d.B.dialog-act.xml#id(ES2004d.B.dialog-act.vkaraisk.198)"/>
+      <nite:pointer role="target"  href="ES2004d.A.dialog-act.xml#id(ES2004d.A.dialog-act.vkaraisk.143)"/>
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_2)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.236">
+      <nite:pointer role="source"  href="ES2004d.B.dialog-act.xml#id(ES2004d.B.dialog-act.vkaraisk.204)"/>
+      <nite:pointer role="target"  href="ES2004d.B.dialog-act.xml#id(ES2004d.B.dialog-act.vkaraisk.205)"/>
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_2)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.237">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.B.dialog-act.xml#id(ES2004d.B.dialog-act.vkaraisk.206)"/>
+      <nite:pointer role="target"  href="ES2004d.C.dialog-act.xml#id(ES2004d.C.dialog-act.vkaraisk.229)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.238">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="target"  href="ES2004d.D.dialog-act.xml#id(ES2004d.D.dialog-act.vkaraisk.261)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.239">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.B.dialog-act.xml#id(ES2004d.B.dialog-act.vkaraisk.211)"/>
+      <nite:pointer role="target"  href="ES2004d.C.dialog-act.xml#id(ES2004d.C.dialog-act.vkaraisk.231)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.240">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.B.dialog-act.xml#id(ES2004d.B.dialog-act.vkaraisk.212)"/>
+      <nite:pointer role="target"  href="ES2004d.C.dialog-act.xml#id(ES2004d.C.dialog-act.vkaraisk.232)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.241">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.C.dialog-act.xml#id(ES2004d.C.dialog-act.vkaraisk.232)"/>
+      <nite:pointer role="target"  href="ES2004d.B.dialog-act.xml#id(ES2004d.B.dialog-act.vkaraisk.213)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.242">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="target"  href="ES2004d.C.dialog-act.xml#id(ES2004d.C.dialog-act.vkaraisk.234)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.243">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.C.dialog-act.xml#id(ES2004d.C.dialog-act.vkaraisk.233)"/>
+      <nite:pointer role="target"  href="ES2004d.B.dialog-act.xml#id(ES2004d.B.dialog-act.vkaraisk.214)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.244">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="target"  href="ES2004d.A.dialog-act.xml#id(ES2004d.A.dialog-act.vkaraisk.149)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.245">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.A.dialog-act.xml#id(ES2004d.A.dialog-act.vkaraisk.149)"/>
+      <nite:pointer role="target"  href="ES2004d.C.dialog-act.xml#id(ES2004d.C.dialog-act.vkaraisk.235)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.246">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="target"  href="ES2004d.C.dialog-act.xml#id(ES2004d.C.dialog-act.vkaraisk.236)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.247">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.B.dialog-act.xml#id(ES2004d.B.dialog-act.vkaraisk.220)"/>
+      <nite:pointer role="target"  href="ES2004d.C.dialog-act.xml#id(ES2004d.C.dialog-act.vkaraisk.237)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.248">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.B.dialog-act.xml#id(ES2004d.B.dialog-act.vkaraisk.220)"/>
+      <nite:pointer role="target"  href="ES2004d.A.dialog-act.xml#id(ES2004d.A.dialog-act.vkaraisk.151)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.249">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.B.dialog-act.xml#id(ES2004d.B.dialog-act.vkaraisk.222)"/>
+      <nite:pointer role="target"  href="ES2004d.A.dialog-act.xml#id(ES2004d.A.dialog-act.vkaraisk.152)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.250">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.B.dialog-act.xml#id(ES2004d.B.dialog-act.vkaraisk.222)"/>
+      <nite:pointer role="target"  href="ES2004d.C.dialog-act.xml#id(ES2004d.C.dialog-act.vkaraisk.238)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.251">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.B.dialog-act.xml#id(ES2004d.B.dialog-act.vkaraisk.222)"/>
+      <nite:pointer role="target"  href="ES2004d.A.dialog-act.xml#id(ES2004d.A.dialog-act.vkaraisk.153)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.252">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.B.dialog-act.xml#id(ES2004d.B.dialog-act.vkaraisk.224)"/>
+      <nite:pointer role="target"  href="ES2004d.C.dialog-act.xml#id(ES2004d.C.dialog-act.vkaraisk.239)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.254">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.D.dialog-act.xml#id(ES2004d.D.dialog-act.vkaraisk.264)"/>
+      <nite:pointer role="target"  href="ES2004d.C.dialog-act.xml#id(ES2004d.C.dialog-act.vkaraisk.242)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.255">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.D.dialog-act.xml#id(ES2004d.D.dialog-act.vkaraisk.266)"/>
+      <nite:pointer role="target"  href="ES2004d.A.dialog-act.xml#id(ES2004d.A.dialog-act.vkaraisk.155)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.256">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="target"  href="ES2004d.A.dialog-act.xml#id(ES2004d.A.dialog-act.vkaraisk.157)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.257">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.A.dialog-act.xml#id(ES2004d.A.dialog-act.vkaraisk.158)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.258">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.A.dialog-act.xml#id(ES2004d.A.dialog-act.vkaraisk.158)"/>
+      <nite:pointer role="target"  href="ES2004d.A.dialog-act.xml#id(ES2004d.A.dialog-act.vkaraisk.160)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.259">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="target"  href="ES2004d.A.dialog-act.xml#id(ES2004d.A.dialog-act.vkaraisk.161)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.260">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.B.dialog-act.xml#id(ES2004d.B.dialog-act.vkaraisk.229)"/>
+      <nite:pointer role="target"  href="ES2004d.C.dialog-act.xml#id(ES2004d.C.dialog-act.vkaraisk.246)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.261">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.D.dialog-act.xml#id(ES2004d.D.dialog-act.vkaraisk.265)"/>
+      <nite:pointer role="target"  href="ES2004d.C.dialog-act.xml#id(ES2004d.C.dialog-act.vkaraisk.248)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.262">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.C.dialog-act.xml#id(ES2004d.C.dialog-act.vkaraisk.250)"/>
+      <nite:pointer role="target"  href="ES2004d.C.dialog-act.xml#id(ES2004d.C.dialog-act.vkaraisk.251)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.263">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.C.dialog-act.xml#id(ES2004d.C.dialog-act.vkaraisk.253)"/>
+      <nite:pointer role="target"  href="ES2004d.B.dialog-act.xml#id(ES2004d.B.dialog-act.vkaraisk.231)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.264">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="target"  href="ES2004d.B.dialog-act.xml#id(ES2004d.B.dialog-act.vkaraisk.232)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.265">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.B.dialog-act.xml#id(ES2004d.B.dialog-act.vkaraisk.232)"/>
+      <nite:pointer role="target"  href="ES2004d.C.dialog-act.xml#id(ES2004d.C.dialog-act.vkaraisk.256)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.266">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.B.dialog-act.xml#id(ES2004d.B.dialog-act.vkaraisk.232)"/>
+      <nite:pointer role="target"  href="ES2004d.A.dialog-act.xml#id(ES2004d.A.dialog-act.vkaraisk.164)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.267">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.B.dialog-act.xml#id(ES2004d.B.dialog-act.vkaraisk.235)"/>
+      <nite:pointer role="target"  href="ES2004d.B.dialog-act.xml#id(ES2004d.B.dialog-act.vkaraisk.238)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.268">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="target"  href="ES2004d.B.dialog-act.xml#id(ES2004d.B.dialog-act.vkaraisk.241)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.269">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="target"  href="ES2004d.A.dialog-act.xml#id(ES2004d.A.dialog-act.vkaraisk.165)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.270">
+      <nite:pointer role="source"  href="ES2004d.D.dialog-act.xml#id(ES2004d.D.dialog-act.vkaraisk.271)"/>
+      <nite:pointer role="target"  href="ES2004d.B.dialog-act.xml#id(ES2004d.B.dialog-act.vkaraisk.244)"/>
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_4)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.271">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="target"  href="ES2004d.B.dialog-act.xml#id(ES2004d.B.dialog-act.vkaraisk.246)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.274">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.D.dialog-act.xml#id(ES2004d.D.dialog-act.vkaraisk.272)"/>
+      <nite:pointer role="target"  href="ES2004d.C.dialog-act.xml#id(ES2004d.C.dialog-act.vkaraisk.263)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.275">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.D.dialog-act.xml#id(ES2004d.D.dialog-act.vkaraisk.272)"/>
+      <nite:pointer role="target"  href="ES2004d.C.dialog-act.xml#id(ES2004d.C.dialog-act.vkaraisk.264)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.276">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.C.dialog-act.xml#id(ES2004d.C.dialog-act.vkaraisk.266)"/>
+      <nite:pointer role="target"  href="ES2004d.D.dialog-act.xml#id(ES2004d.D.dialog-act.vkaraisk.275)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.277">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.C.dialog-act.xml#id(ES2004d.C.dialog-act.vkaraisk.266)"/>
+      <nite:pointer role="target"  href="ES2004d.B.dialog-act.xml#id(ES2004d.B.dialog-act.vkaraisk.249)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.278">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.C.dialog-act.xml#id(ES2004d.C.dialog-act.vkaraisk.266)"/>
+      <nite:pointer role="target"  href="ES2004d.B.dialog-act.xml#id(ES2004d.B.dialog-act.vkaraisk.251)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.279">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="target"  href="ES2004d.B.dialog-act.xml#id(ES2004d.B.dialog-act.vkaraisk.252)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.280">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="target"  href="ES2004d.A.dialog-act.xml#id(ES2004d.A.dialog-act.vkaraisk.171)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.281">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.A.dialog-act.xml#id(ES2004d.A.dialog-act.vkaraisk.175)"/>
+      <nite:pointer role="target"  href="ES2004d.C.dialog-act.xml#id(ES2004d.C.dialog-act.vkaraisk.272)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.282">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.B.dialog-act.xml#id(ES2004d.B.dialog-act.vkaraisk.260)"/>
+      <nite:pointer role="target"  href="ES2004d.D.dialog-act.xml#id(ES2004d.D.dialog-act.vkaraisk.284)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.283">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.B.dialog-act.xml#id(ES2004d.B.dialog-act.vkaraisk.264)"/>
+      <nite:pointer role="target"  href="ES2004d.C.dialog-act.xml#id(ES2004d.C.dialog-act.vkaraisk.273)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.284">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.C.dialog-act.xml#id(ES2004d.C.dialog-act.vkaraisk.279)"/>
+      <nite:pointer role="target"  href="ES2004d.C.dialog-act.xml#id(ES2004d.C.dialog-act.vkaraisk.280)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.285">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.C.dialog-act.xml#id(ES2004d.C.dialog-act.vkaraisk.283)"/>
+      <nite:pointer role="target"  href="ES2004d.D.dialog-act.xml#id(ES2004d.D.dialog-act.vkaraisk.289)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.286">
+      <nite:pointer role="source"  href="ES2004d.B.dialog-act.xml#id(ES2004d.B.dialog-act.vkaraisk.270)"/>
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_2)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.287">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.B.dialog-act.xml#id(ES2004d.B.dialog-act.vkaraisk.270)"/>
+      <nite:pointer role="target"  href="ES2004d.C.dialog-act.xml#id(ES2004d.C.dialog-act.vkaraisk.286)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.288">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.B.dialog-act.xml#id(ES2004d.B.dialog-act.vkaraisk.274)"/>
+      <nite:pointer role="target"  href="ES2004d.C.dialog-act.xml#id(ES2004d.C.dialog-act.vkaraisk.289)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.289">
+      <nite:pointer role="target"  href="ES2004d.A.dialog-act.xml#id(ES2004d.A.dialog-act.vkaraisk.181)"/>
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_3)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.290">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="target"  href="ES2004d.D.dialog-act.xml#id(ES2004d.D.dialog-act.vkaraisk.291)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.291">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.D.dialog-act.xml#id(ES2004d.D.dialog-act.vkaraisk.295)"/>
+      <nite:pointer role="target"  href="ES2004d.B.dialog-act.xml#id(ES2004d.B.dialog-act.vkaraisk.281)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.292">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.D.dialog-act.xml#id(ES2004d.D.dialog-act.vkaraisk.295)"/>
+      <nite:pointer role="target"  href="ES2004d.C.dialog-act.xml#id(ES2004d.C.dialog-act.vkaraisk.293)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.293">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="target"  href="ES2004d.D.dialog-act.xml#id(ES2004d.D.dialog-act.vkaraisk.299)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.294">
+      <nite:pointer role="source"  href="ES2004d.D.dialog-act.xml#id(ES2004d.D.dialog-act.vkaraisk.298)"/>
+      <nite:pointer role="target"  href="ES2004d.B.dialog-act.xml#id(ES2004d.B.dialog-act.vkaraisk.284)"/>
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_2)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.295">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.B.dialog-act.xml#id(ES2004d.B.dialog-act.vkaraisk.284)"/>
+      <nite:pointer role="target"  href="ES2004d.D.dialog-act.xml#id(ES2004d.D.dialog-act.vkaraisk.300)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.296">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.B.dialog-act.xml#id(ES2004d.B.dialog-act.vkaraisk.285)"/>
+      <nite:pointer role="target"  href="ES2004d.D.dialog-act.xml#id(ES2004d.D.dialog-act.vkaraisk.302)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.297">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.D.dialog-act.xml#id(ES2004d.D.dialog-act.vkaraisk.301)"/>
+      <nite:pointer role="target"  href="ES2004d.B.dialog-act.xml#id(ES2004d.B.dialog-act.vkaraisk.286)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.298">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.D.dialog-act.xml#id(ES2004d.D.dialog-act.vkaraisk.307)"/>
+      <nite:pointer role="target"  href="ES2004d.B.dialog-act.xml#id(ES2004d.B.dialog-act.vkaraisk.291)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.299">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.B.dialog-act.xml#id(ES2004d.B.dialog-act.vkaraisk.290)"/>
+      <nite:pointer role="target"  href="ES2004d.D.dialog-act.xml#id(ES2004d.D.dialog-act.vkaraisk.308)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.300">
+      <nite:pointer role="source"  href="ES2004d.B.dialog-act.xml#id(ES2004d.B.dialog-act.vkaraisk.289)"/>
+      <nite:pointer role="target"  href="ES2004d.B.dialog-act.xml#id(ES2004d.B.dialog-act.vkaraisk.292)"/>
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_2)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.301">
+      <nite:pointer role="source"  href="ES2004d.B.dialog-act.xml#id(ES2004d.B.dialog-act.vkaraisk.299)"/>
+      <nite:pointer role="target"  href="ES2004d.B.dialog-act.xml#id(ES2004d.B.dialog-act.vkaraisk.297)"/>
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_3)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.302">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.B.dialog-act.xml#id(ES2004d.B.dialog-act.vkaraisk.300)"/>
+      <nite:pointer role="target"  href="ES2004d.D.dialog-act.xml#id(ES2004d.D.dialog-act.vkaraisk.310)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.303">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.B.dialog-act.xml#id(ES2004d.B.dialog-act.vkaraisk.300)"/>
+      <nite:pointer role="target"  href="ES2004d.C.dialog-act.xml#id(ES2004d.C.dialog-act.vkaraisk.296)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.304">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.B.dialog-act.xml#id(ES2004d.B.dialog-act.vkaraisk.303)"/>
+      <nite:pointer role="target"  href="ES2004d.A.dialog-act.xml#id(ES2004d.A.dialog-act.vkaraisk.189)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.305">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.D.dialog-act.xml#id(ES2004d.D.dialog-act.vkaraisk.315)"/>
+      <nite:pointer role="target"  href="ES2004d.B.dialog-act.xml#id(ES2004d.B.dialog-act.vkaraisk.306)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.306">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.D.dialog-act.xml#id(ES2004d.D.dialog-act.vkaraisk.315)"/>
+      <nite:pointer role="target"  href="ES2004d.C.dialog-act.xml#id(ES2004d.C.dialog-act.vkaraisk.303)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.307">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="target"  href="ES2004d.D.dialog-act.xml#id(ES2004d.D.dialog-act.vkaraisk.316)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.308">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="target"  href="ES2004d.D.dialog-act.xml#id(ES2004d.D.dialog-act.vkaraisk.317)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.309">
+      <nite:pointer role="source"  href="ES2004d.B.dialog-act.xml#id(ES2004d.B.dialog-act.vkaraisk.309)"/>
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_2)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.310">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.B.dialog-act.xml#id(ES2004d.B.dialog-act.vkaraisk.309)"/>
+      <nite:pointer role="target"  href="ES2004d.D.dialog-act.xml#id(ES2004d.D.dialog-act.vkaraisk.319)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.311">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.B.dialog-act.xml#id(ES2004d.B.dialog-act.vkaraisk.310)"/>
+      <nite:pointer role="target"  href="ES2004d.A.dialog-act.xml#id(ES2004d.A.dialog-act.vkaraisk.191)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.312">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.B.dialog-act.xml#id(ES2004d.B.dialog-act.vkaraisk.312)"/>
+      <nite:pointer role="target"  href="ES2004d.A.dialog-act.xml#id(ES2004d.A.dialog-act.vkaraisk.193)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.313">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.B.dialog-act.xml#id(ES2004d.B.dialog-act.vkaraisk.312)"/>
+      <nite:pointer role="target"  href="ES2004d.D.dialog-act.xml#id(ES2004d.D.dialog-act.vkaraisk.324)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.314">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.A.dialog-act.xml#id(ES2004d.A.dialog-act.vkaraisk.195)"/>
+      <nite:pointer role="target"  href="ES2004d.B.dialog-act.xml#id(ES2004d.B.dialog-act.vkaraisk.318)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.315">
+      <nite:pointer role="source"  href="ES2004d.B.dialog-act.xml#id(ES2004d.B.dialog-act.vkaraisk.318)"/>
+      <nite:pointer role="target"  href="ES2004d.B.dialog-act.xml#id(ES2004d.B.dialog-act.vkaraisk.319)"/>
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_4)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.316">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.C.dialog-act.xml#id(ES2004d.C.dialog-act.vkaraisk.313)"/>
+      <nite:pointer role="target"  href="ES2004d.B.dialog-act.xml#id(ES2004d.B.dialog-act.vkaraisk.322)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.317">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.C.dialog-act.xml#id(ES2004d.C.dialog-act.vkaraisk.315)"/>
+      <nite:pointer role="target"  href="ES2004d.D.dialog-act.xml#id(ES2004d.D.dialog-act.vkaraisk.330)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.318">
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_1)"/>
+      <nite:pointer role="source"  href="ES2004d.C.dialog-act.xml#id(ES2004d.C.dialog-act.vkaraisk.315)"/>
+      <nite:pointer role="target"  href="ES2004d.D.dialog-act.xml#id(ES2004d.D.dialog-act.vkaraisk.331)"/>
+   </adjacency-pair>
+   <adjacency-pair nite:id="ES2004d.adjacency-pairs.vkaraisk.319">
+      <nite:pointer role="source"  href="ES2004d.D.dialog-act.xml#id(ES2004d.D.dialog-act.vkaraisk.332)"/>
+      <nite:pointer role="target"  href="ES2004d.C.dialog-act.xml#id(ES2004d.C.dialog-act.vkaraisk.316)"/>
+      <nite:pointer role="type"  href="ap-types.xml#id(apt_2)"/>
+   </adjacency-pair>
+</nite:root>

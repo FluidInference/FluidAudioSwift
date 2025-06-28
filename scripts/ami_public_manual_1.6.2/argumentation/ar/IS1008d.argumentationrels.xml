@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<nite:root nite:id="IS1008d.argumentationrels" xmlns:nite="http://nite.sourceforge.net/">
+   <ar nite:id="IS1008d.argumentationrels.Daan.1">
+      <nite:pointer role="source"  href="IS1008d.B.argumentstructs.xml#id(IS1008d.B.argumentstructs.Daan.1)"/>
+      <nite:pointer role="target"  href="IS1008d.A.argumentstructs.xml#id(IS1008d.A.argumentstructs.Daan.1)"/>
+      <nite:pointer role="type"  href="ar-types.xml#id(art_4)"/>
+   </ar>
+   <ar nite:id="IS1008d.argumentationrels.Daan.2">
+      <nite:pointer role="source"  href="IS1008d.A.argumentstructs.xml#id(IS1008d.A.argumentstructs.Daan.1)"/>
+      <nite:pointer role="target"  href="IS1008d.A.argumentstructs.xml#id(IS1008d.A.argumentstructs.Daan.2)"/>
+      <nite:pointer role="type"  href="ar-types.xml#id(art_5)"/>
+   </ar>
+   <ar nite:id="IS1008d.argumentationrels.Daan.3">
+      <nite:pointer role="source"  href="IS1008d.A.argumentstructs.xml#id(IS1008d.A.argumentstructs.Daan.2)"/>
+      <nite:pointer role="target"  href="IS1008d.B.argumentstructs.xml#id(IS1008d.B.argumentstructs.Daan.2)"/>
+      <nite:pointer role="type"  href="ar-types.xml#id(art_2)"/>
+   </ar>
+   <ar nite:id="IS1008d.argumentationrels.Daan.4">
+      <nite:pointer role="source"  href="IS1008d.B.argumentstructs.xml#id(IS1008d.B.argumentstructs.Daan.1)"/>
+      <nite:pointer role="target"  href="IS1008d.C.argumentstructs.xml#id(IS1008d.C.argumentstructs.Daan.1)"/>
+      <nite:pointer role="type"  href="ar-types.xml#id(art_8)"/>
+   </ar>
+   <ar nite:id="IS1008d.argumentationrels.Daan.5">
+      <nite:pointer role="source"  href="IS1008d.B.argumentstructs.xml#id(IS1008d.B.argumentstructs.Daan.1)"/>
+      <nite:pointer role="target"  href="IS1008d.A.argumentstructs.xml#id(IS1008d.A.argumentstructs.Daan.3)"/>
+      <nite:pointer role="type"  href="ar-types.xml#id(art_4)"/>
+   </ar>
+   <ar nite:id="IS1008d.argumentationrels.Daan.6">
+      <nite:pointer role="source"  href="IS1008d.A.argumentstructs.xml#id(IS1008d.A.argumentstructs.Daan.3)"/>
+      <nite:pointer role="target"  href="IS1008d.C.argumentstructs.xml#id(IS1008d.C.argumentstructs.Daan.2)"/>
+      <nite:pointer role="type"  href="ar-types.xml#id(art_2)"/>
+   </ar>
+   <ar nite:id="IS1008d.argumentationrels.Daan.7">
+      <nite:pointer role="source"  href="IS1008d.C.argumentstructs.xml#id(IS1008d.C.argumentstructs.Daan.2)"/>
+      <nite:pointer role="target"  href="IS1008d.B.argumentstructs.xml#id(IS1008d.B.argumentstructs.Daan.3)"/>
+      <nite:pointer role="type"  href="ar-types.xml#id(art_5)"/>
+   </ar>
+   <ar nite:id="IS1008d.argumentationrels.Daan.8">
+      <nite:pointer role="source"  href="IS1008d.B.argumentstructs.xml#id(IS1008d.B.argumentstructs.Daan.3)"/>
+      <nite:pointer role="target"  href="IS1008d.C.argumentstructs.xml#id(IS1008d.C.argumentstructs.Daan.3)"/>
+      <nite:pointer role="type"  href="ar-types.xml#id(art_1)"/>
+   </ar>
+   <ar nite:id="IS1008d.argumentationrels.Daan.9">
+      <nite:pointer role="source"  href="IS1008d.C.argumentstructs.xml#id(IS1008d.C.argumentstructs.Daan.3)"/>
+      <nite:pointer role="target"  href="IS1008d.D.argumentstructs.xml#id(IS1008d.D.argumentstructs.Daan.1)"/>
+      <nite:pointer role="type"  href="ar-types.xml#id(art_5)"/>
+   </ar>
+   <ar nite:id="IS1008d.argumentationrels.Daan.10">
+      <nite:pointer role="source"  href="IS1008d.A.argumentstructs.xml#id(IS1008d.A.argumentstructs.Daan.3)"/>
+      <nite:pointer role="target"  href="IS1008d.C.argumentstructs.xml#id(IS1008d.C.argumentstructs.Daan.4)"/>
+      <nite:pointer role="type"  href="ar-types.xml#id(art_2)"/>
+   </ar>
+   <ar nite:id="IS1008d.argumentationrels.Daan.12">
+      <nite:pointer role="source"  href="IS1008d.C.argumentstructs.xml#id(IS1008d.C.argumentstructs.Daan.4)"/>
+      <nite:pointer role="target"  href="IS1008d.A.argumentstructs.xml#id(IS1008d.A.argumentstructs.Daan.4)"/>
+      <nite:pointer role="type"  href="ar-types.xml#id(art_1)"/>
+   </ar>
+   <ar nite:id="IS1008d.argumentationrels.Daan.13">
+      <nite:pointer role="source"  href="IS1008d.D.argumentstructs.xml#id(IS1008d.D.argumentstructs.Daan.3)"/>
+      <nite:pointer role="target"  href="IS1008d.D.argumentstructs.xml#id(IS1008d.D.argumentstructs.Daan.4)"/>
+      <nite:pointer role="type"  href="ar-types.xml#id(art_5)"/>
+   </ar>
+   <ar nite:id="IS1008d.argumentationrels.Daan.14">
+      <nite:pointer role="source"  href="IS1008d.D.argumentstructs.xml#id(IS1008d.D.argumentstructs.Daan.4)"/>
+      <nite:pointer role="target"  href="IS1008d.A.argumentstructs.xml#id(IS1008d.A.argumentstructs.Daan.5)"/>
+      <nite:pointer role="type"  href="ar-types.xml#id(art_1)"/>
+   </ar>
+   <ar nite:id="IS1008d.argumentationrels.Daan.15">
+      <nite:pointer role="source"  href="IS1008d.D.argumentstructs.xml#id(IS1008d.D.argumentstructs.Daan.4)"/>
+      <nite:pointer role="target"  href="IS1008d.B.argumentstructs.xml#id(IS1008d.B.argumentstructs.Daan.4)"/>
+      <nite:pointer role="type"  href="ar-types.xml#id(art_7)"/>
+   </ar>
+   <ar nite:id="IS1008d.argumentationrels.Daan.16">
+      <nite:pointer role="source"  href="IS1008d.B.argumentstructs.xml#id(IS1008d.B.argumentstructs.Daan.4)"/>
+      <nite:pointer role="target"  href="IS1008d.C.argumentstructs.xml#id(IS1008d.C.argumentstructs.Daan.5)"/>
+      <nite:pointer role="type"  href="ar-types.xml#id(art_1)"/>
+   </ar>
+   <ar nite:id="IS1008d.argumentationrels.Daan.18">
+      <nite:pointer role="source"  href="IS1008d.C.argumentstructs.xml#id(IS1008d.C.argumentstructs.Daan.5)"/>
+      <nite:pointer role="target"  href="IS1008d.C.argumentstructs.xml#id(IS1008d.C.argumentstructs.Daan.6)"/>
+      <nite:pointer role="type"  href="ar-types.xml#id(art_5)"/>
+   </ar>
+   <ar nite:id="IS1008d.argumentationrels.Daan.19">
+      <nite:pointer role="source"  href="IS1008d.C.argumentstructs.xml#id(IS1008d.C.argumentstructs.Daan.6)"/>
+      <nite:pointer role="target"  href="IS1008d.A.argumentstructs.xml#id(IS1008d.A.argumentstructs.Daan.6)"/>
+      <nite:pointer role="type"  href="ar-types.xml#id(art_5)"/>
+   </ar>
+   <ar nite:id="IS1008d.argumentationrels.Daan.20">
+      <nite:pointer role="source"  href="IS1008d.A.argumentstructs.xml#id(IS1008d.A.argumentstructs.Daan.6)"/>
+      <nite:pointer role="target"  href="IS1008d.C.argumentstructs.xml#id(IS1008d.C.argumentstructs.Daan.7)"/>
+      <nite:pointer role="type"  href="ar-types.xml#id(art_5)"/>
+   </ar>
+   <ar nite:id="IS1008d.argumentationrels.Daan.21">
+      <nite:pointer role="source"  href="IS1008d.C.argumentstructs.xml#id(IS1008d.C.argumentstructs.Daan.7)"/>
+      <nite:pointer role="target"  href="IS1008d.B.argumentstructs.xml#id(IS1008d.B.argumentstructs.Daan.5)"/>
+      <nite:pointer role="type"  href="ar-types.xml#id(art_1)"/>
+   </ar>
+   <ar nite:id="IS1008d.argumentationrels.Daan.22">
+      <nite:pointer role="source"  href="IS1008d.B.argumentstructs.xml#id(IS1008d.B.argumentstructs.Daan.5)"/>
+      <nite:pointer role="target"  href="IS1008d.A.argumentstructs.xml#id(IS1008d.A.argumentstructs.Daan.7)"/>
+      <nite:pointer role="type"  href="ar-types.xml#id(art_1)"/>
+   </ar>
+   <ar nite:id="IS1008d.argumentationrels.Daan.24">
+      <nite:pointer role="type"  href="ar-types.xml#id(art_1)"/>
+      <nite:pointer role="source"  href="IS1008d.B.argumentstructs.xml#id(IS1008d.B.argumentstructs.Daan.5)"/>
+      <nite:pointer role="target"  href="IS1008d.B.argumentstructs.xml#id(IS1008d.B.argumentstructs.Daan.6)"/>
+   </ar>
+   <ar nite:id="IS1008d.argumentationrels.Daan.25">
+      <nite:pointer role="source"  href="IS1008d.B.argumentstructs.xml#id(IS1008d.B.argumentstructs.Daan.5)"/>
+      <nite:pointer role="target"  href="IS1008d.A.argumentstructs.xml#id(IS1008d.A.argumentstructs.Daan.9)"/>
+      <nite:pointer role="type"  href="ar-types.xml#id(art_1)"/>
+   </ar>
+   <ar nite:id="IS1008d.argumentationrels.Daan.26">
+      <nite:pointer role="source"  href="IS1008d.A.argumentstructs.xml#id(IS1008d.A.argumentstructs.Daan.9)"/>
+      <nite:pointer role="target"  href="IS1008d.A.argumentstructs.xml#id(IS1008d.A.argumentstructs.Daan.10)"/>
+      <nite:pointer role="type"  href="ar-types.xml#id(art_5)"/>
+   </ar>
+   <ar nite:id="IS1008d.argumentationrels.Daan.27">
+      <nite:pointer role="source"  href="IS1008d.A.argumentstructs.xml#id(IS1008d.A.argumentstructs.Daan.9)"/>
+      <nite:pointer role="target"  href="IS1008d.D.argumentstructs.xml#id(IS1008d.D.argumentstructs.Daan.5)"/>
+      <nite:pointer role="type"  href="ar-types.xml#id(art_5)"/>
+   </ar>
+   <ar nite:id="IS1008d.argumentationrels.Daan.28">
+      <nite:pointer role="source"  href="IS1008d.A.argumentstructs.xml#id(IS1008d.A.argumentstructs.Daan.9)"/>
+      <nite:pointer role="target"  href="IS1008d.B.argumentstructs.xml#id(IS1008d.B.argumentstructs.Daan.7)"/>
+      <nite:pointer role="type"  href="ar-types.xml#id(art_3)"/>
+   </ar>
+   <ar nite:id="IS1008d.argumentationrels.Daan.29">
+      <nite:pointer role="source"  href="IS1008d.B.argumentstructs.xml#id(IS1008d.B.argumentstructs.Daan.5)"/>
+      <nite:pointer role="target"  href="IS1008d.C.argumentstructs.xml#id(IS1008d.C.argumentstructs.Daan.8)"/>
+      <nite:pointer role="type"  href="ar-types.xml#id(art_1)"/>
+   </ar>
+   <ar nite:id="IS1008d.argumentationrels.Daan.30">
+      <nite:pointer role="source"  href="IS1008d.C.argumentstructs.xml#id(IS1008d.C.argumentstructs.Daan.8)"/>
+      <nite:pointer role="target"  href="IS1008d.D.argumentstructs.xml#id(IS1008d.D.argumentstructs.Daan.6)"/>
+      <nite:pointer role="type"  href="ar-types.xml#id(art_5)"/>
+   </ar>
+   <ar nite:id="IS1008d.argumentationrels.Daan.31">
+      <nite:pointer role="source"  href="IS1008d.C.argumentstructs.xml#id(IS1008d.C.argumentstructs.Daan.8)"/>
+      <nite:pointer role="target"  href="IS1008d.B.argumentstructs.xml#id(IS1008d.B.argumentstructs.Daan.8)"/>
+      <nite:pointer role="type"  href="ar-types.xml#id(art_5)"/>
+   </ar>
+   <ar nite:id="IS1008d.argumentationrels.Daan.33">
+      <nite:pointer role="source"  href="IS1008d.B.argumentstructs.xml#id(IS1008d.B.argumentstructs.Daan.9)"/>
+      <nite:pointer role="target"  href="IS1008d.B.argumentstructs.xml#id(IS1008d.B.argumentstructs.Daan.10)"/>
+      <nite:pointer role="type"  href="ar-types.xml#id(art_5)"/>
+   </ar>
+   <ar nite:id="IS1008d.argumentationrels.Daan.34">
+      <nite:pointer role="source"  href="IS1008d.C.argumentstructs.xml#id(IS1008d.C.argumentstructs.Daan.8)"/>
+      <nite:pointer role="target"  href="IS1008d.D.argumentstructs.xml#id(IS1008d.D.argumentstructs.Daan.7)"/>
+      <nite:pointer role="type"  href="ar-types.xml#id(art_1)"/>
+   </ar>
+   <ar nite:id="IS1008d.argumentationrels.Daan.35">
+      <nite:pointer role="source"  href="IS1008d.D.argumentstructs.xml#id(IS1008d.D.argumentstructs.Daan.7)"/>
+      <nite:pointer role="target"  href="IS1008d.D.argumentstructs.xml#id(IS1008d.D.argumentstructs.Daan.8)"/>
+      <nite:pointer role="type"  href="ar-types.xml#id(art_5)"/>
+   </ar>
+   <ar nite:id="IS1008d.argumentationrels.Daan.36">
+      <nite:pointer role="source"  href="IS1008d.B.argumentstructs.xml#id(IS1008d.B.argumentstructs.Daan.8)"/>
+      <nite:pointer role="target"  href="IS1008d.D.argumentstructs.xml#id(IS1008d.D.argumentstructs.Daan.9)"/>
+      <nite:pointer role="type"  href="ar-types.xml#id(art_5)"/>
+   </ar>
+   <ar nite:id="IS1008d.argumentationrels.Daan.37">
+      <nite:pointer role="source"  href="IS1008d.D.argumentstructs.xml#id(IS1008d.D.argumentstructs.Daan.9)"/>
+      <nite:pointer role="target"  href="IS1008d.A.argumentstructs.xml#id(IS1008d.A.argumentstructs.Daan.11)"/>
+      <nite:pointer role="type"  href="ar-types.xml#id(art_1)"/>
+   </ar>
+   <ar nite:id="IS1008d.argumentationrels.Daan.38">
+      <nite:pointer role="source"  href="IS1008d.D.argumentstructs.xml#id(IS1008d.D.argumentstructs.Daan.9)"/>
+      <nite:pointer role="target"  href="IS1008d.B.argumentstructs.xml#id(IS1008d.B.argumentstructs.Daan.11)"/>
+      <nite:pointer role="type"  href="ar-types.xml#id(art_1)"/>
+   </ar>
+   <ar nite:id="IS1008d.argumentationrels.Daan.39">
+      <nite:pointer role="source"  href="IS1008d.D.argumentstructs.xml#id(IS1008d.D.argumentstructs.Daan.9)"/>
+      <nite:pointer role="target"  href="IS1008d.A.argumentstructs.xml#id(IS1008d.A.argumentstructs.Daan.12)"/>
+      <nite:pointer role="type"  href="ar-types.xml#id(art_1)"/>
+   </ar>
+   <ar nite:id="IS1008d.argumentationrels.Daan.40">
+      <nite:pointer role="source"  href="IS1008d.D.argumentstructs.xml#id(IS1008d.D.argumentstructs.Daan.10)"/>
+      <nite:pointer role="target"  href="IS1008d.B.argumentstructs.xml#id(IS1008d.B.argumentstructs.Daan.12)"/>
+      <nite:pointer role="type"  href="ar-types.xml#id(art_7)"/>
+   </ar>
+   <ar nite:id="IS1008d.argumentationrels.Daan.41">
+      <nite:pointer role="source"  href="IS1008d.B.argumentstructs.xml#id(IS1008d.B.argumentstructs.Daan.12)"/>
+      <nite:pointer role="target"  href="IS1008d.C.argumentstructs.xml#id(IS1008d.C.argumentstructs.Daan.10)"/>
+      <nite:pointer role="type"  href="ar-types.xml#id(art_1)"/>
+   </ar>
+   <ar nite:id="IS1008d.argumentationrels.Daan.42">
+      <nite:pointer role="source"  href="IS1008d.C.argumentstructs.xml#id(IS1008d.C.argumentstructs.Daan.10)"/>
+      <nite:pointer role="target"  href="IS1008d.A.argumentstructs.xml#id(IS1008d.A.argumentstructs.Daan.13)"/>
+      <nite:pointer role="type"  href="ar-types.xml#id(art_1)"/>
+   </ar>
+   <ar nite:id="IS1008d.argumentationrels.Daan.43">
+      <nite:pointer role="source"  href="IS1008d.A.argumentstructs.xml#id(IS1008d.A.argumentstructs.Daan.13)"/>
+      <nite:pointer role="target"  href="IS1008d.A.argumentstructs.xml#id(IS1008d.A.argumentstructs.Daan.14)"/>
+      <nite:pointer role="type"  href="ar-types.xml#id(art_5)"/>
+   </ar>
+   <ar nite:id="IS1008d.argumentationrels.Daan.44">
+      <nite:pointer role="source"  href="IS1008d.A.argumentstructs.xml#id(IS1008d.A.argumentstructs.Daan.14)"/>
+      <nite:pointer role="target"  href="IS1008d.A.argumentstructs.xml#id(IS1008d.A.argumentstructs.Daan.15)"/>
+      <nite:pointer role="type"  href="ar-types.xml#id(art_5)"/>
+   </ar>
+   <ar nite:id="IS1008d.argumentationrels.Daan.45">
+      <nite:pointer role="source"  href="IS1008d.A.argumentstructs.xml#id(IS1008d.A.argumentstructs.Daan.15)"/>
+      <nite:pointer role="target"  href="IS1008d.A.argumentstructs.xml#id(IS1008d.A.argumentstructs.Daan.16)"/>
+      <nite:pointer role="type"  href="ar-types.xml#id(art_7)"/>
+   </ar>
+   <ar nite:id="IS1008d.argumentationrels.Daan.46">
+      <nite:pointer role="source"  href="IS1008d.A.argumentstructs.xml#id(IS1008d.A.argumentstructs.Daan.15)"/>
+      <nite:pointer role="target"  href="IS1008d.C.argumentstructs.xml#id(IS1008d.C.argumentstructs.Daan.11)"/>
+      <nite:pointer role="type"  href="ar-types.xml#id(art_2)"/>
+   </ar>
+   <ar nite:id="IS1008d.argumentationrels.Daan.47">
+      <nite:pointer role="source"  href="IS1008d.C.argumentstructs.xml#id(IS1008d.C.argumentstructs.Daan.11)"/>
+      <nite:pointer role="target"  href="IS1008d.D.argumentstructs.xml#id(IS1008d.D.argumentstructs.Daan.11)"/>
+      <nite:pointer role="type"  href="ar-types.xml#id(art_1)"/>
+   </ar>
+   <ar nite:id="IS1008d.argumentationrels.Daan.48">
+      <nite:pointer role="source"  href="IS1008d.C.argumentstructs.xml#id(IS1008d.C.argumentstructs.Daan.11)"/>
+      <nite:pointer role="target"  href="IS1008d.A.argumentstructs.xml#id(IS1008d.A.argumentstructs.Daan.17)"/>
+      <nite:pointer role="type"  href="ar-types.xml#id(art_3)"/>
+   </ar>
+   <ar nite:id="IS1008d.argumentationrels.Daan.50">
+      <nite:pointer role="source"  href="IS1008d.A.argumentstructs.xml#id(IS1008d.A.argumentstructs.Daan.17)"/>
+      <nite:pointer role="target"  href="IS1008d.D.argumentstructs.xml#id(IS1008d.D.argumentstructs.Daan.12)"/>
+      <nite:pointer role="type"  href="ar-types.xml#id(art_4)"/>
+   </ar>
+   <ar nite:id="IS1008d.argumentationrels.Daan.51">
+      <nite:pointer role="source"  href="IS1008d.A.argumentstructs.xml#id(IS1008d.A.argumentstructs.Daan.17)"/>
+      <nite:pointer role="target"  href="IS1008d.C.argumentstructs.xml#id(IS1008d.C.argumentstructs.Daan.12)"/>
+      <nite:pointer role="type"  href="ar-types.xml#id(art_2)"/>
+   </ar>
+   <ar nite:id="IS1008d.argumentationrels.Daan.52">
+      <nite:pointer role="source"  href="IS1008d.C.argumentstructs.xml#id(IS1008d.C.argumentstructs.Daan.12)"/>
+      <nite:pointer role="target"  href="IS1008d.A.argumentstructs.xml#id(IS1008d.A.argumentstructs.Daan.18)"/>
+      <nite:pointer role="type"  href="ar-types.xml#id(art_5)"/>
+   </ar>
+   <ar nite:id="IS1008d.argumentationrels.Daan.53">
+      <nite:pointer role="source"  href="IS1008d.A.argumentstructs.xml#id(IS1008d.A.argumentstructs.Daan.18)"/>
+      <nite:pointer role="target"  href="IS1008d.C.argumentstructs.xml#id(IS1008d.C.argumentstructs.Daan.13)"/>
+      <nite:pointer role="type"  href="ar-types.xml#id(art_5)"/>
+   </ar>
+   <ar nite:id="IS1008d.argumentationrels.Daan.54">
+      <nite:pointer role="source"  href="IS1008d.C.argumentstructs.xml#id(IS1008d.C.argumentstructs.Daan.13)"/>
+      <nite:pointer role="target"  href="IS1008d.A.argumentstructs.xml#id(IS1008d.A.argumentstructs.Daan.19)"/>
+      <nite:pointer role="type"  href="ar-types.xml#id(art_5)"/>
+   </ar>
+   <ar nite:id="IS1008d.argumentationrels.Daan.55">
+      <nite:pointer role="source"  href="IS1008d.C.argumentstructs.xml#id(IS1008d.C.argumentstructs.Daan.13)"/>
+      <nite:pointer role="target"  href="IS1008d.C.argumentstructs.xml#id(IS1008d.C.argumentstructs.Daan.14)"/>
+      <nite:pointer role="type"  href="ar-types.xml#id(art_5)"/>
+   </ar>
+   <ar nite:id="IS1008d.argumentationrels.Daan.58">
+      <nite:pointer role="source"  href="IS1008d.C.argumentstructs.xml#id(IS1008d.C.argumentstructs.Daan.14)"/>
+      <nite:pointer role="target"  href="IS1008d.B.argumentstructs.xml#id(IS1008d.B.argumentstructs.Daan.13)"/>
+      <nite:pointer role="type"  href="ar-types.xml#id(art_7)"/>
+   </ar>
+   <ar nite:id="IS1008d.argumentationrels.Daan.59">
+      <nite:pointer role="source"  href="IS1008d.B.argumentstructs.xml#id(IS1008d.B.argumentstructs.Daan.14)"/>
+      <nite:pointer role="target"  href="IS1008d.A.argumentstructs.xml#id(IS1008d.A.argumentstructs.Daan.20)"/>
+      <nite:pointer role="type"  href="ar-types.xml#id(art_4)"/>
+   </ar>
+   <ar nite:id="IS1008d.argumentationrels.Daan.60">
+      <nite:pointer role="source"  href="IS1008d.B.argumentstructs.xml#id(IS1008d.B.argumentstructs.Daan.14)"/>
+      <nite:pointer role="target"  href="IS1008d.D.argumentstructs.xml#id(IS1008d.D.argumentstructs.Daan.13)"/>
+      <nite:pointer role="type"  href="ar-types.xml#id(art_4)"/>
+   </ar>
+   <ar nite:id="IS1008d.argumentationrels.Daan.61">
+      <nite:pointer role="source"  href="IS1008d.B.argumentstructs.xml#id(IS1008d.B.argumentstructs.Daan.14)"/>
+      <nite:pointer role="target"  href="IS1008d.B.argumentstructs.xml#id(IS1008d.B.argumentstructs.Daan.15)"/>
+      <nite:pointer role="type"  href="ar-types.xml#id(art_6)"/>
+   </ar>
+   <ar nite:id="IS1008d.argumentationrels.Daan.62">
+      <nite:pointer role="source"  href="IS1008d.B.argumentstructs.xml#id(IS1008d.B.argumentstructs.Daan.15)"/>
+      <nite:pointer role="target"  href="IS1008d.A.argumentstructs.xml#id(IS1008d.A.argumentstructs.Daan.21)"/>
+      <nite:pointer role="type"  href="ar-types.xml#id(art_4)"/>
+   </ar>
+   <ar nite:id="IS1008d.argumentationrels.Daan.63">
+      <nite:pointer role="source"  href="IS1008d.B.argumentstructs.xml#id(IS1008d.B.argumentstructs.Daan.15)"/>
+      <nite:pointer role="target"  href="IS1008d.B.argumentstructs.xml#id(IS1008d.B.argumentstructs.Daan.16)"/>
+      <nite:pointer role="type"  href="ar-types.xml#id(art_5)"/>
+   </ar>
+   <ar nite:id="IS1008d.argumentationrels.Daan.64">
+      <nite:pointer role="source"  href="IS1008d.B.argumentstructs.xml#id(IS1008d.B.argumentstructs.Daan.16)"/>
+      <nite:pointer role="target"  href="IS1008d.C.argumentstructs.xml#id(IS1008d.C.argumentstructs.Daan.15)"/>
+      <nite:pointer role="type"  href="ar-types.xml#id(art_1)"/>
+   </ar>
+   <ar nite:id="IS1008d.argumentationrels.Daan.65">
+      <nite:pointer role="source"  href="IS1008d.B.argumentstructs.xml#id(IS1008d.B.argumentstructs.Daan.16)"/>
+      <nite:pointer role="target"  href="IS1008d.D.argumentstructs.xml#id(IS1008d.D.argumentstructs.Daan.14)"/>
+      <nite:pointer role="type"  href="ar-types.xml#id(art_4)"/>
+   </ar>
+   <ar nite:id="IS1008d.argumentationrels.Daan.66">
+      <nite:pointer role="source"  href="IS1008d.D.argumentstructs.xml#id(IS1008d.D.argumentstructs.Daan.14)"/>
+      <nite:pointer role="target"  href="IS1008d.B.argumentstructs.xml#id(IS1008d.B.argumentstructs.Daan.17)"/>
+      <nite:pointer role="type"  href="ar-types.xml#id(art_1)"/>
+   </ar>
+   <ar nite:id="IS1008d.argumentationrels.Daan.67">
+      <nite:pointer role="source"  href="IS1008d.B.argumentstructs.xml#id(IS1008d.B.argumentstructs.Daan.17)"/>
+      <nite:pointer role="target"  href="IS1008d.C.argumentstructs.xml#id(IS1008d.C.argumentstructs.Daan.16)"/>
+      <nite:pointer role="type"  href="ar-types.xml#id(art_7)"/>
+   </ar>
+   <ar nite:id="IS1008d.argumentationrels.Daan.69">
+      <nite:pointer role="source"  href="IS1008d.B.argumentstructs.xml#id(IS1008d.B.argumentstructs.Daan.17)"/>
+      <nite:pointer role="target"  href="IS1008d.B.argumentstructs.xml#id(IS1008d.B.argumentstructs.Daan.18)"/>
+      <nite:pointer role="type"  href="ar-types.xml#id(art_7)"/>
+   </ar>
+   <ar nite:id="IS1008d.argumentationrels.Daan.71">
+      <nite:pointer role="source"  href="IS1008d.B.argumentstructs.xml#id(IS1008d.B.argumentstructs.Daan.17)"/>
+      <nite:pointer role="target"  href="IS1008d.A.argumentstructs.xml#id(IS1008d.A.argumentstructs.Daan.23)"/>
+      <nite:pointer role="type"  href="ar-types.xml#id(art_7)"/>
+   </ar>
+   <ar nite:id="IS1008d.argumentationrels.Daan.72">
+      <nite:pointer role="source"  href="IS1008d.A.argumentstructs.xml#id(IS1008d.A.argumentstructs.Daan.23)"/>
+      <nite:pointer role="target"  href="IS1008d.B.argumentstructs.xml#id(IS1008d.B.argumentstructs.Daan.19)"/>
+      <nite:pointer role="type"  href="ar-types.xml#id(art_1)"/>
+   </ar>
+   <ar nite:id="IS1008d.argumentationrels.Daan.74">
+      <nite:pointer role="source"  href="IS1008d.C.argumentstructs.xml#id(IS1008d.C.argumentstructs.Daan.13)"/>
+      <nite:pointer role="target"  href="IS1008d.C.argumentstructs.xml#id(IS1008d.C.argumentstructs.Daan.17)"/>
+      <nite:pointer role="type"  href="ar-types.xml#id(art_5)"/>
+   </ar>
+   <ar nite:id="IS1008d.argumentationrels.Daan.75">
+      <nite:pointer role="source"  href="IS1008d.B.argumentstructs.xml#id(IS1008d.B.argumentstructs.Daan.13)"/>
+      <nite:pointer role="target"  href="IS1008d.B.argumentstructs.xml#id(IS1008d.B.argumentstructs.Daan.14)"/>
+      <nite:pointer role="type"  href="ar-types.xml#id(art_4)"/>
+   </ar>
+   <ar nite:id="IS1008d.argumentationrels.Daan.76">
+      <nite:pointer role="source"  href="IS1008d.B.argumentstructs.xml#id(IS1008d.B.argumentstructs.Daan.4)"/>
+      <nite:pointer role="target"  href="IS1008d.B.argumentstructs.xml#id(IS1008d.B.argumentstructs.Daan.9)"/>
+      <nite:pointer role="type"  href="ar-types.xml#id(art_1)"/>
+   </ar>
+   <ar nite:id="IS1008d.argumentationrels.Daan.77">
+      <nite:pointer role="source"  href="IS1008d.C.argumentstructs.xml#id(IS1008d.C.argumentstructs.Daan.4)"/>
+      <nite:pointer role="target"  href="IS1008d.D.argumentstructs.xml#id(IS1008d.D.argumentstructs.Daan.2)"/>
+      <nite:pointer role="type"  href="ar-types.xml#id(art_1)"/>
+   </ar>
+</nite:root>

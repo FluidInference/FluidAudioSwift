@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<nite:root nite:id="IS1003c.A.argumentstructs" xmlns:nite="http://nite.sourceforge.net/">
+   <ae nite:id="IS1003c.A.argumentstructs.1">
+      <nite:pointer role="type"  href="ae-types.xml#id(ae_6)"/>
+      <nite:child href="IS1003c.A.words.xml#id(IS1003c.A.words128)..id(IS1003c.A.words144)"/>
+      <nite:child href="IS1003c.A.words.xml#id(IS1003c.A.words146)..id(IS1003c.A.words263)"/>
+      <nite:child href="IS1003c.A.words.xml#id(IS1003c.A.words265)..id(IS1003c.A.words397)"/>
+      <nite:child href="IS1003c.A.words.xml#id(IS1003c.A.words399)..id(IS1003c.A.words408)"/>
+   </ae>
+   <ae nite:id="IS1003c.A.argumentstructs.2">
+      <nite:pointer role="type"  href="ae-types.xml#id(ae_6)"/>
+      <nite:child href="IS1003c.A.words.xml#id(IS1003c.A.words762)..id(IS1003c.A.words822)"/>
+      <nite:child href="IS1003c.A.words.xml#id(IS1003c.A.words824)..id(IS1003c.A.words891)"/>
+      <nite:child href="IS1003c.A.words.xml#id(IS1003c.A.words893)..id(IS1003c.A.words897)"/>
+   </ae>
+</nite:root>
