@@ -7,6 +7,9 @@ on:
     branches: [main]
 
 concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
   build-and-test:
     name: Build and Test Swift Package
