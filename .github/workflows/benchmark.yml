@@ -68,6 +68,13 @@ jobs:
           fi
         timeout-minutes: 25
 
+      - name: Show benchmark_results.json
+        if: always()
+        run: |
+          echo "--- benchmark_results.json ---"
+          cat benchmark_results.json || echo "benchmark_results.json not found"
+          echo "-----------------------------"
+
       - name: Comment PR with Benchmark Results
         if: always()
         uses: actions/github-script@v7
