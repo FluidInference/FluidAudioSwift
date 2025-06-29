@@ -5,10 +5,10 @@ import OSLog
 
 // MARK: - CLI Logger
 
-private let logger = Logger(subsystem: "com.fluidinfluence.diarizer", category: "CLI")
-
 @main
 struct DiarizationCLI {
+    static let logger = Logger(subsystem: "com.fluidinfluence.diarizer", category: "CLI")
+
     static func main() async {
         let arguments = CommandLine.arguments
 
