@@ -830,40 +830,52 @@ struct DiarizationCLI {
             }
         }
 
-        // Find best assignment using greedy approach
-        // (For full optimality, would use Hungarian algorithm, but greedy works well for speaker diarization)
-        var mapping: [String: String] = [:]
-        var usedGtSpeakers: Set<String> = []
-
-        // Sort predicted speakers by total activity (most active first)
-        let sortedPredSpeakers = predSpeakers.sorted { pred1, pred2 in
-            let total1 = overlapMatrix[pred1]!.values.reduce(0, +)
-            let total2 = overlapMatrix[pred2]!.values.reduce(0, +)
-            return total1 > total2
+        // Find optimal assignment using Hungarian Algorithm for globally optimal solution
+        let predSpeakerArray = Array(predSpeakers).sorted()  // Consistent ordering
+        let gtSpeakerArray = Array(gtSpeakers).sorted()      // Consistent ordering
+        
+        // Build numerical overlap matrix for Hungarian algorithm
+        var numericalOverlapMatrix: [[Int]] = []
+        for predSpeaker in predSpeakerArray {
+            var row: [Int] = []
+            for gtSpeaker in gtSpeakerArray {
+                row.append(overlapMatrix[predSpeaker]![gtSpeaker]!)
+            }
+            numericalOverlapMatrix.append(row)
         }
-
-        for predSpeaker in sortedPredSpeakers {
-            // Find best GT speaker for this predicted speaker (not already used)
-            var bestGtSpeaker: String?
-            var bestOverlap = 0
-
-            for gtSpeaker in gtSpeakers {
-                if !usedGtSpeakers.contains(gtSpeaker) {
-                    let overlap = overlapMatrix[predSpeaker]![gtSpeaker]!
-                    if overlap > bestOverlap {
-                        bestOverlap = overlap
-                        bestGtSpeaker = gtSpeaker
-                    }
+        
+        // Convert overlap matrix to cost matrix (higher overlap = lower cost)
+        let costMatrix = HungarianAlgorithm.overlapToCostMatrix(numericalOverlapMatrix)
+        
+        // Solve optimal assignment
+        let assignments = HungarianAlgorithm.minimumCostAssignment(costs: costMatrix)
+        
+        // Create speaker mapping from Hungarian result
+        var mapping: [String: String] = [:]
+        var totalAssignmentCost: Float = 0
+        var totalOverlap = 0
+        
+        for (predIndex, gtIndex) in assignments.assignments.enumerated() {
+            if gtIndex != -1 && predIndex < predSpeakerArray.count && gtIndex < gtSpeakerArray.count {
+                let predSpeaker = predSpeakerArray[predIndex]
+                let gtSpeaker = gtSpeakerArray[gtIndex]
+                let overlap = overlapMatrix[predSpeaker]![gtSpeaker]!
+                
+                if overlap > 0 {  // Only assign if there's actual overlap
+                    mapping[predSpeaker] = gtSpeaker
+                    totalOverlap += overlap
+                    print("🔍 HUNGARIAN MAPPING: '\(predSpeaker)' → '\(gtSpeaker)' (overlap: \(overlap) frames)")
                 }
             }
-
-            if let bestGt = bestGtSpeaker, bestOverlap > 0 {
-                mapping[predSpeaker] = bestGt
-                usedGtSpeakers.insert(bestGt)
-                print(
-                    "🔍 MAPPING: '\(predSpeaker)' → '\(bestGt)' (overlap: \(bestOverlap) frames)")
-            } else {
-                print("🔍 MAPPING: '\(predSpeaker)' → NO_MATCH (no suitable GT speaker)")
+        }
+        
+        totalAssignmentCost = assignments.totalCost
+        print("🔍 HUNGARIAN RESULT: Total assignment cost: \(String(format: "%.1f", totalAssignmentCost)), Total overlap: \(totalOverlap) frames")
+        
+        // Handle unassigned predicted speakers
+        for predSpeaker in predSpeakerArray {
+            if mapping[predSpeaker] == nil {
+                print("🔍 HUNGARIAN MAPPING: '\(predSpeaker)' → NO_MATCH (no beneficial assignment)")
             }
         }
 
@@ -1063,9 +1075,15 @@ struct DiarizationCLI {
 
         // Core AMI test set - smaller subset for initial benchmarking
         let commonMeetings = [
-            "ES2002a", "ES2003a", "ES2004a", "ES2005a",
-            "IS1000a", "IS1001a", "IS1002b",
-            "TS3003a", "TS3004a",
+            "ES2002a",
+            "ES2003a",
+            "ES2004a",
+            "ES2005a",
+            "IS1000a",
+            "IS1001a",
+            "IS1002b",
+            "TS3003a",
+            "TS3004a",
         ]
 
         var downloadedFiles = 0

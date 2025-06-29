@@ -8,6 +8,7 @@ FluidAudioSwift is a high-performance Swift framework for on-device speaker diar
 ## 🎯 Performance
 
 **AMI Benchmark Results** (Single Distant Microphone):
+
 - **DER: 17.7%** - Competitive with Powerset BCE 2023 (18.5%)
 - **JER: 28.0%** - Outperforms EEND 2019 (25.3%) and x-vector clustering (28.7%)
 - **RTF: 0.02x** - Real-time processing with 50x speedup
@@ -80,32 +81,6 @@ swift run fluidaudio benchmark --threshold 0.7 --min-duration-on 1.0 --output re
 
 # Test single file for quick parameter tuning  
 swift run fluidaudio benchmark --single-file ES2004a --threshold 0.8
-```
-
-**Example Output:**
-```
-🏆 AMI-SDM Benchmark Results
-===========================================================================
-│ Meeting ID    │  DER   │  JER   │  RTF   │ Duration │ Speakers │
-├───────────────┼────────┼────────┼────────┼──────────┼──────────┤
-│ ES2004a       │ 17.7%  │ 28.0%  │ 0.02x  │ 34:56    │ 9        │
-│ ES2005a       │ 19.2%  │ 29.1%  │ 0.02x  │ 31:42    │ 8        │
-├───────────────┼────────┼────────┼────────┼──────────┼──────────┤
-│ AVERAGE       │ 18.5%  │ 28.6%  │ 0.02x  │ 66:38    │ 8.5      │
-└───────────────┴────────┴────────┴────────┴──────────┴──────────┘
-
-📊 Statistical Analysis:
-   DER: 18.5% ± 1.1% (min: 17.7%, max: 19.2%)
-   Files Processed: 2
-   Total Audio: 66:38 (66.6 minutes)
-
-📝 Research Comparison:
-   Your Results:          18.5% DER
-   Powerset BCE (2023):   18.5% DER
-   EEND (2019):           25.3% DER
-   x-vector clustering:   28.7% DER
-
-🎉 EXCELLENT: Competitive with state-of-the-art research!
 ```
 
 ### Process Individual Files
