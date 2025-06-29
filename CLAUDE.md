@@ -218,8 +218,11 @@ START optimization iteration:
 
 | Date | Phase | Parameters | DER | JER | RTF | Notes |
 |------|-------|------------|-----|-----|-----|-------|
-| 2024-06-28 | Baseline | threshold=0.7, defaults | 81.0% | 24.4% | 0.02x | Initial measurement |
-| | | | | | | |
+| 2024-06-28 | Baseline | threshold=0.7, defaults | 75.4% | 16.6% | 0.02x | Initial measurement (9 files) |
+| 2024-06-28 | Debug | threshold=0.7, ES2004a only | 81.0% | 24.4% | 0.02x | Single file baseline |
+| 2024-06-28 | Debug | threshold=0.1, ES2004a only | 81.0% | 24.4% | 0.02x | **BUG: Same as 0.7!** |
+| 2024-06-28 | Debug | activity=1.0, ES2004a only | 81.2% | 24.0% | 0.02x | Activity threshold works |
+| | | | | | | **ISSUE: clusteringThreshold not affecting results** |
 
 ## Best Configurations Found
 

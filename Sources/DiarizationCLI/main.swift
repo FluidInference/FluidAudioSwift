@@ -50,6 +50,7 @@ struct DiarizationCLI {
                 --min-duration-on <float>   Minimum speaker segment duration in seconds [default: 1.0]
                 --min-duration-off <float>  Minimum silence between speakers in seconds [default: 0.5]
                 --min-activity <float>      Minimum activity threshold in frames [default: 10.0]
+                --single-file <name>    Test only one specific meeting file (e.g., ES2004a)
                 --debug                 Enable debug mode
                 --output <file>         Output results to JSON file
                 --auto-download         Automatically download dataset if not found
@@ -91,6 +92,7 @@ struct DiarizationCLI {
         var minDurationOn: Float = 1.0
         var minDurationOff: Float = 0.5
         var minActivityThreshold: Float = 10.0
+        var singleFile: String?
         var debugMode = false
         var outputFile: String?
         var autoDownload = false
@@ -122,6 +124,11 @@ struct DiarizationCLI {
             case "--min-activity":
                 if i + 1 < arguments.count {
                     minActivityThreshold = Float(arguments[i + 1]) ?? 10.0
+                    i += 1
+                }
+            case "--single-file":
+                if i + 1 < arguments.count {
+                    singleFile = arguments[i + 1]
                     i += 1
                 }
             case "--debug":
@@ -170,10 +177,10 @@ struct DiarizationCLI {
         switch dataset.lowercased() {
         case "ami-sdm":
             await runAMISDMBenchmark(
-                manager: manager, outputFile: outputFile, autoDownload: autoDownload)
+                manager: manager, outputFile: outputFile, autoDownload: autoDownload, singleFile: singleFile)
         case "ami-ihm":
             await runAMIIHMBenchmark(
-                manager: manager, outputFile: outputFile, autoDownload: autoDownload)
+                manager: manager, outputFile: outputFile, autoDownload: autoDownload, singleFile: singleFile)
         default:
             print("❌ Unsupported dataset: \(dataset)")
             print("💡 Supported datasets: ami-sdm, ami-ihm")
@@ -319,7 +326,7 @@ struct DiarizationCLI {
     // MARK: - AMI Benchmark Implementation
 
     static func runAMISDMBenchmark(
-        manager: DiarizerManager, outputFile: String?, autoDownload: Bool
+        manager: DiarizerManager, outputFile: String?, autoDownload: Bool, singleFile: String? = nil
     ) async {
         let homeDir = FileManager.default.homeDirectoryForCurrentUser
         let amiDirectory = homeDir.appendingPathComponent(
@@ -351,12 +358,18 @@ struct DiarizationCLI {
             }
         }
 
-        let commonMeetings = [
-            // Core AMI test set - smaller subset for initial benchmarking
-            "ES2002a", "ES2003a", "ES2004a", "ES2005a",
-            "IS1000a", "IS1001a", "IS1002b",
-            "TS3003a", "TS3004a",
-        ]
+        let commonMeetings: [String]
+        if let singleFile = singleFile {
+            commonMeetings = [singleFile]
+            print("📋 Testing single file: \(singleFile)")
+        } else {
+            commonMeetings = [
+                // Core AMI test set - smaller subset for initial benchmarking
+                "ES2002a", "ES2003a", "ES2004a", "ES2005a",
+                "IS1000a", "IS1001a", "IS1002b",
+                "TS3003a", "TS3004a",
+            ]
+        }
 
         var benchmarkResults: [BenchmarkResult] = []
         var totalDER: Float = 0.0
@@ -461,7 +474,7 @@ struct DiarizationCLI {
     }
 
     static func runAMIIHMBenchmark(
-        manager: DiarizerManager, outputFile: String?, autoDownload: Bool
+        manager: DiarizerManager, outputFile: String?, autoDownload: Bool, singleFile: String? = nil
     ) async {
         let homeDir = FileManager.default.homeDirectoryForCurrentUser
         let amiDirectory = homeDir.appendingPathComponent(
@@ -714,6 +727,11 @@ struct DiarizationCLI {
         let frameSize: Float = 0.01
         let totalFrames = Int(totalDuration / frameSize)
 
+        // Step 1: Find optimal speaker assignment using frame-based overlap
+        let speakerMapping = findOptimalSpeakerMapping(predicted: predicted, groundTruth: groundTruth, totalDuration: totalDuration)
+        
+        print("🔍 SPEAKER MAPPING: \(speakerMapping)")
+
         var missedFrames = 0
         var falseAlarmFrames = 0
         var speakerErrorFrames = 0
@@ -732,8 +750,14 @@ struct DiarizationCLI {
             case (_, nil):
                 missedFrames += 1
             case let (gt?, pred?):
-                if gt != pred {
+                // Map predicted speaker ID to ground truth speaker ID
+                let mappedPredSpeaker = speakerMapping[pred] ?? pred
+                if gt != mappedPredSpeaker {
                     speakerErrorFrames += 1
+                    // Debug first few mismatches
+                    if speakerErrorFrames <= 5 {
+                        print("🔍 DER DEBUG: Speaker mismatch at \(String(format: "%.2f", frameTime))s - GT: '\(gt)' vs Pred: '\(pred)' (mapped: '\(mappedPredSpeaker)')")
+                    }
                 }
             }
         }
@@ -741,6 +765,10 @@ struct DiarizationCLI {
         let der =
             Float(missedFrames + falseAlarmFrames + speakerErrorFrames) / Float(totalFrames) * 100
         let jer = calculateJaccardErrorRate(predicted: predicted, groundTruth: groundTruth)
+        
+        // Debug error breakdown
+        print("🔍 DER BREAKDOWN: Missed: \(missedFrames), FalseAlarm: \(falseAlarmFrames), SpeakerError: \(speakerErrorFrames), Total: \(totalFrames)")
+        print("🔍 DER RATES: Miss: \(String(format: "%.1f", Float(missedFrames) / Float(totalFrames) * 100))%, FA: \(String(format: "%.1f", Float(falseAlarmFrames) / Float(totalFrames) * 100))%, SE: \(String(format: "%.1f", Float(speakerErrorFrames) / Float(totalFrames) * 100))%")
 
         return DiarizationMetrics(
             der: der,
@@ -768,6 +796,76 @@ struct DiarizationCLI {
             }
         }
         return nil
+    }
+    
+    /// Find optimal speaker mapping using frame-by-frame overlap analysis
+    static func findOptimalSpeakerMapping(predicted: [TimedSpeakerSegment], groundTruth: [TimedSpeakerSegment], totalDuration: Float) -> [String: String] {
+        let frameSize: Float = 0.01
+        let totalFrames = Int(totalDuration / frameSize)
+        
+        // Get all unique speaker IDs
+        let predSpeakers = Set(predicted.map { $0.speakerId })
+        let gtSpeakers = Set(groundTruth.map { $0.speakerId })
+        
+        // Build overlap matrix: [predSpeaker][gtSpeaker] = overlap_frames
+        var overlapMatrix: [String: [String: Int]] = [:]
+        
+        for predSpeaker in predSpeakers {
+            overlapMatrix[predSpeaker] = [:]
+            for gtSpeaker in gtSpeakers {
+                overlapMatrix[predSpeaker]![gtSpeaker] = 0
+            }
+        }
+        
+        // Calculate frame-by-frame overlaps
+        for frame in 0..<totalFrames {
+            let frameTime = Float(frame) * frameSize
+            
+            let gtSpeaker = findSpeakerAtTime(frameTime, in: groundTruth)
+            let predSpeaker = findSpeakerAtTime(frameTime, in: predicted)
+            
+            if let gt = gtSpeaker, let pred = predSpeaker {
+                overlapMatrix[pred]![gt]! += 1
+            }
+        }
+        
+        // Find best assignment using greedy approach
+        // (For full optimality, would use Hungarian algorithm, but greedy works well for speaker diarization)
+        var mapping: [String: String] = [:]
+        var usedGtSpeakers: Set<String> = []
+        
+        // Sort predicted speakers by total activity (most active first)
+        let sortedPredSpeakers = predSpeakers.sorted { pred1, pred2 in
+            let total1 = overlapMatrix[pred1]!.values.reduce(0, +)
+            let total2 = overlapMatrix[pred2]!.values.reduce(0, +)
+            return total1 > total2
+        }
+        
+        for predSpeaker in sortedPredSpeakers {
+            // Find best GT speaker for this predicted speaker (not already used)
+            var bestGtSpeaker: String?
+            var bestOverlap = 0
+            
+            for gtSpeaker in gtSpeakers {
+                if !usedGtSpeakers.contains(gtSpeaker) {
+                    let overlap = overlapMatrix[predSpeaker]![gtSpeaker]!
+                    if overlap > bestOverlap {
+                        bestOverlap = overlap
+                        bestGtSpeaker = gtSpeaker
+                    }
+                }
+            }
+            
+            if let bestGt = bestGtSpeaker, bestOverlap > 0 {
+                mapping[predSpeaker] = bestGt
+                usedGtSpeakers.insert(bestGt)
+                print("🔍 MAPPING: '\(predSpeaker)' → '\(bestGt)' (overlap: \(bestOverlap) frames)")
+            } else {
+                print("🔍 MAPPING: '\(predSpeaker)' → NO_MATCH (no suitable GT speaker)")
+            }
+        }
+        
+        return mapping
     }
 
     // MARK: - Output and Results

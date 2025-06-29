@@ -680,7 +680,7 @@ public final class DiarizerManager: @unchecked Sendable {
     /// Calculate cosine distance between two embeddings
     public func cosineDistance(_ a: [Float], _ b: [Float]) -> Float {
         guard a.count == b.count, !a.isEmpty else {
-            logger.error("Invalid embeddings for distance calculation")
+            logger.error("🔍 CLUSTERING DEBUG: Invalid embeddings for distance calculation - a.count: \(a.count), b.count: \(b.count)")
             return Float.infinity
         }
 
@@ -698,12 +698,17 @@ public final class DiarizerManager: @unchecked Sendable {
         magnitudeB = sqrt(magnitudeB)
 
         guard magnitudeA > 0 && magnitudeB > 0 else {
-            logger.info("Zero magnitude embedding detected")
+            logger.warning("🔍 CLUSTERING DEBUG: Zero magnitude embedding detected - magnitudeA: \(magnitudeA), magnitudeB: \(magnitudeB)")
             return Float.infinity
         }
 
         let similarity = dotProduct / (magnitudeA * magnitudeB)
-        return 1 - similarity
+        let distance = 1 - similarity
+        
+        // DEBUG: Log distance calculation details
+        logger.debug("🔍 CLUSTERING DEBUG: cosineDistance - similarity: \(String(format: "%.4f", similarity)), distance: \(String(format: "%.4f", distance)), magA: \(String(format: "%.4f", magnitudeA)), magB: \(String(format: "%.4f", magnitudeB))")
+        
+        return distance
     }
 
     private func calculateRMSEnergy(_ samples: [Float]) -> Float {
@@ -764,6 +769,8 @@ public final class DiarizerManager: @unchecked Sendable {
             throw DiarizerError.notInitialized
         }
 
+        // Debug removed for cleaner output
+        logger.error("🔍 CLUSTERING DEBUG: Starting complete diarization for \(samples.count) samples with threshold=\(self.config.clusteringThreshold)")
         logger.info("Starting complete diarization for \(samples.count) samples")
 
         let chunkSize = sampleRate * 10 // 10 seconds
@@ -785,6 +792,7 @@ public final class DiarizerManager: @unchecked Sendable {
             allSegments.append(contentsOf: chunkSegments)
         }
 
+        print("🔍 FINAL CLUSTERING RESULT: \(allSegments.count) segments, \(speakerDB.count) speakers detected with threshold=\(self.config.clusteringThreshold)")
         logger.info("Complete diarization finished: \(allSegments.count) segments, \(speakerDB.count) speakers")
         return DiarizationResult(segments: allSegments, speakerDatabase: speakerDB)
     }
@@ -796,6 +804,8 @@ public final class DiarizerManager: @unchecked Sendable {
         speakerDB: inout [String: [Float]],
         sampleRate: Int = 16000
     ) async throws -> [TimedSpeakerSegment] {
+        // Debug removed for cleaner output
+        logger.error("🔍 CLUSTERING DEBUG: processChunkWithSpeakerTracking called, chunk size: \(chunk.count), offset: \(chunkOffset)")
         let chunkSize = sampleRate * 10 // 10 seconds
         var paddedChunk = chunk
         if chunk.count < chunkSize {
@@ -823,20 +833,43 @@ public final class DiarizerManager: @unchecked Sendable {
         let speakerActivities = calculateSpeakerActivities(binarizedSegments)
 
         // Step 4: Assign consistent speaker IDs using global database
+        logger.error("🔍 CLUSTERING DEBUG: Processing \(speakerActivities.count) potential speakers with clusteringThreshold=\(self.config.clusteringThreshold)")
         var speakerLabels: [String] = []
+        var activityFilteredCount = 0
+        var embeddingInvalidCount = 0
+        var clusteringProcessedCount = 0
+        
         for (speakerIndex, activity) in speakerActivities.enumerated() {
-            if activity > config.minActivityThreshold { // Use configurable activity threshold
+            logger.info("🔍 CLUSTERING DEBUG: Speaker \(speakerIndex): activity=\(String(format: "%.2f", activity)), activityThreshold=\(String(format: "%.2f", self.config.minActivityThreshold))")
+            
+            if activity > self.config.minActivityThreshold { // Use configurable activity threshold
                 let embedding = embeddings[speakerIndex]
+                logger.info("🔍 CLUSTERING DEBUG: Speaker \(speakerIndex) passed activity threshold, embedding size: \(embedding.count)")
+                
                 if validateEmbedding(embedding) {
+                    // Calculate embedding statistics for debugging
+                    let magnitude = sqrt(embedding.map { $0 * $0 }.reduce(0, +))
+                    let mean = embedding.reduce(0, +) / Float(embedding.count)
+                    logger.info("🔍 CLUSTERING DEBUG: Speaker \(speakerIndex) embedding valid - magnitude: \(String(format: "%.4f", magnitude)), mean: \(String(format: "%.4f", mean))")
+                    
+                    clusteringProcessedCount += 1
                     let speakerId = assignSpeaker(embedding: embedding, speakerDB: &speakerDB)
                     speakerLabels.append(speakerId)
                 } else {
+                    embeddingInvalidCount += 1
+                    logger.warning("🔍 CLUSTERING DEBUG: Speaker \(speakerIndex) embedding INVALID - skipping")
                     speakerLabels.append("")  // Invalid embedding
                 }
             } else {
+                activityFilteredCount += 1
+                logger.info("🔍 CLUSTERING DEBUG: Speaker \(speakerIndex) below activity threshold - skipping")
                 speakerLabels.append("")  // No activity
             }
         }
+        
+        // Log filtering statistics
+        print("🔍 PRE-FILTERING STATS: Total=\(speakerActivities.count), ActivityFiltered=\(activityFilteredCount), EmbeddingInvalid=\(embeddingInvalidCount), ProcessedForClustering=\(clusteringProcessedCount)")
+        logger.error("🔍 PRE-FILTERING STATS: Total=\(speakerActivities.count), ActivityFiltered=\(activityFilteredCount), EmbeddingInvalid=\(embeddingInvalidCount), ProcessedForClustering=\(clusteringProcessedCount)")
 
         // Step 5: Create temporal segments with consistent speaker IDs
         return createTimedSegments(
@@ -865,39 +898,56 @@ public final class DiarizerManager: @unchecked Sendable {
 
     /// Assign speaker ID using global database (like main.swift)
     private func assignSpeaker(embedding: [Float], speakerDB: inout [String: [Float]]) -> String {
+        // DEBUG: Log clustering configuration
+        let speakerCount = speakerDB.count
+        // Debug removed for cleaner output
+        logger.error("🔍 CLUSTERING DEBUG: assignSpeaker called with threshold=\(self.config.clusteringThreshold)")
+        logger.error("🔍 CLUSTERING DEBUG: Current speaker database has \(speakerCount) speakers")
+        
         if speakerDB.isEmpty {
             let speakerId = "Speaker 1"
             speakerDB[speakerId] = embedding
-            logger.info("Created new speaker: \(speakerId)")
+            logger.info("🔍 CLUSTERING DEBUG: Created first speaker: \(speakerId)")
             return speakerId
         }
 
         var minDistance: Float = Float.greatestFiniteMagnitude
         var identifiedSpeaker: String? = nil
+        var allDistances: [(String, Float)] = []
 
         for (speakerId, refEmbedding) in speakerDB {
             let distance = cosineDistance(embedding, refEmbedding)
+            allDistances.append((speakerId, distance))
+            // Debug removed for cleaner output
+            
             if distance < minDistance {
                 minDistance = distance
                 identifiedSpeaker = speakerId
             }
         }
 
+        // DEBUG: Log all distances and decision logic
+        logger.info("🔍 CLUSTERING DEBUG: All distances: \(allDistances.map { "\($0.0):\(String(format: "%.4f", $0.1))" }.joined(separator: ", "))")
+        logger.info("🔍 CLUSTERING DEBUG: Min distance: \(String(format: "%.4f", minDistance)) to speaker: \(identifiedSpeaker ?? "nil")")
+        // Keep final decision log
+        print("🔍 CLUSTERING: minDist=\(String(format: "%.3f", minDistance)) vs threshold=\(String(format: "%.3f", self.config.clusteringThreshold)) → \(minDistance > self.config.clusteringThreshold ? "NEW" : "MATCH")")
+
         if let bestSpeaker = identifiedSpeaker {
-            if minDistance > config.clusteringThreshold {
+            if minDistance > self.config.clusteringThreshold {
                 // New speaker
                 let newSpeakerId = "Speaker \(speakerDB.count + 1)"
                 speakerDB[newSpeakerId] = embedding
-                logger.info("Created new speaker: \(newSpeakerId) (distance: \(String(format: "%.3f", minDistance)))")
+                logger.error("🔍 CLUSTERING DEBUG: ✅ CREATED NEW SPEAKER: \(newSpeakerId) (distance: \(String(format: "%.4f", minDistance)) > threshold: \(String(format: "%.4f", self.config.clusteringThreshold)))")
                 return newSpeakerId
             } else {
                 // Existing speaker - update embedding (exponential moving average)
                 updateSpeakerEmbedding(bestSpeaker, embedding, speakerDB: &speakerDB)
-                logger.debug("Matched existing speaker: \(bestSpeaker) (distance: \(String(format: "%.3f", minDistance)))")
+                logger.error("🔍 CLUSTERING DEBUG: ✅ MATCHED EXISTING SPEAKER: \(bestSpeaker) (distance: \(String(format: "%.4f", minDistance)) <= threshold: \(String(format: "%.4f", self.config.clusteringThreshold)))")
                 return bestSpeaker
             }
         }
 
+        logger.error("🔍 CLUSTERING DEBUG: 🚨 FALLBACK to Unknown speaker - this should not happen!")
         return "Unknown"
     }
 
@@ -989,10 +1039,20 @@ public final class DiarizerManager: @unchecked Sendable {
 
         let startTime = slidingWindow.time(forFrame: startFrame)
         let endTime = slidingWindow.time(forFrame: endFrame)
+        let duration = endTime - startTime
+        
+        // Check minimum duration requirement
+        if Float(duration) < self.config.minDurationOn {
+            print("🔍 SEGMENT FILTERED: Speaker \(speakerLabels[speakerIndex]) segment \(String(format: "%.2f", duration))s < minDurationOn \(String(format: "%.2f", self.config.minDurationOn))s")
+            return nil
+        }
+        
         let embedding = embeddings[speakerIndex]
         let activity = speakerActivities[speakerIndex]
         let quality = calculateEmbeddingQuality(embedding) * (activity / Float(endFrame - startFrame))
 
+        print("🔍 SEGMENT KEPT: Speaker \(speakerLabels[speakerIndex]) segment \(String(format: "%.2f", duration))s >= minDurationOn \(String(format: "%.2f", self.config.minDurationOn))s")
+        
         return TimedSpeakerSegment(
             speakerId: speakerLabels[speakerIndex],
             embedding: embedding,
