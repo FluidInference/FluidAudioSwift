@@ -1,12 +1,14 @@
-name: CoreML Build Compile
+name: Build and Test
 
 on:
   pull_request:
     branches: [main]
+  push:
+    branches: [main]
 
 jobs:
-  verify-coreml:
-    name: Verify CoreMLDiarizerManager Builds
+  build-and-test:
+    name: Build and Test Swift Package
     runs-on: macos-latest
 
     steps:
@@ -21,6 +23,6 @@ jobs:
       - name: Build package
         run: swift build
 
-      - name: Verify DiarizerManager runs
+      - name: Run tests
         run: swift test
-        timeout-minutes: 15
+        timeout-minutes: 10
