@@ -318,12 +318,14 @@ swift run fluidaudio benchmark --auto-download --output results_[timestamp].json
 ```
 
 ### Result Analysis
+
 - DER (Diarization Error Rate): Primary metric to minimize
 - JER (Jaccard Error Rate): Secondary metric
 - Look for parameter combinations that reduce both
 - Consider RTF (Real-Time Factor) for practical deployment
 
 ### Stopping Criteria
+
 - DER improvements < 1% for 3 consecutive parameter tests
 - DER reaches target of < 30%
 - All parameter combinations in current phase tested
