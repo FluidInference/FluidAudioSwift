@@ -7,9 +7,6 @@ on:
     branches: [main]
 
 concurrency:
-  group: ${{ github.workflow }}-${{ github.ref }}
-  cancel-in-progress: true
-
 jobs:
   build-and-test:
     name: Build and Test Swift Package
@@ -19,10 +16,10 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Setup Swift 6.1.2
+      - name: Setup Swift 6.1
         uses: swift-actions/setup-swift@v2
         with:
-          swift-version: "6.1.2"
+          swift-version: "6.1"
 
       - name: Build package
         run: swift build

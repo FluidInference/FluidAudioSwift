@@ -1,9 +1,7 @@
 import AVFoundation
 import FluidAudioSwift
 import Foundation
-import OSLog
-
-// MARK: - CLI Logger
+@preconcurrency import OSLog
 
 @main
 struct DiarizationCLI {
@@ -452,14 +450,8 @@ struct DiarizationCLI {
         let avgDER = totalDER / Float(processedFiles)
         let avgJER = totalJER / Float(processedFiles)
 
-        logger.info("\n🏆 AMI SDM Benchmark Results:")
-        logger.info("   Average DER: \(String(format: "%.1f", avgDER))%")
-        logger.info("   Average JER: \(String(format: "%.1f", avgJER))%")
-        logger.info("   Processed Files: \(processedFiles)/\(commonMeetings.count)")
-        logger.info("   📝 Research Comparison:")
-        logger.info("      - Powerset BCE (2023): 18.5% DER")
-        logger.info("      - EEND (2019): 25.3% DER")
-        logger.info("      - x-vector clustering: 28.7% DER")
+        // Print detailed results table
+        printBenchmarkResults(benchmarkResults, avgDER: avgDER, avgJER: avgJER, dataset: "AMI-SDM")
 
         // Save results if requested
         if let outputFile = outputFile {
@@ -595,15 +587,8 @@ struct DiarizationCLI {
         let avgDER = totalDER / Float(processedFiles)
         let avgJER = totalJER / Float(processedFiles)
 
-        logger.info("\n🏆 AMI IHM Benchmark Results:")
-        logger.info("   Average DER: \(String(format: "%.1f", avgDER))%")
-        logger.info("   Average JER: \(String(format: "%.1f", avgJER))%")
-        logger.info("   Processed Files: \(processedFiles)/\(commonMeetings.count)")
-        logger.info("   📝 Research Comparison:")
-        logger.info("      - Powerset BCE (2023): 18.5% DER")
-        logger.info("      - EEND (2019): 25.3% DER")
-        logger.info("      - x-vector clustering: 28.7% DER")
-        logger.info("      - IHM is typically 5-10% lower DER than SDM (clean audio)")
+        // Print detailed results table
+        printBenchmarkResults(benchmarkResults, avgDER: avgDER, avgJER: avgJER, dataset: "AMI-IHM")
 
         // Save results if requested
         if let outputFile = outputFile {
@@ -931,6 +916,112 @@ struct DiarizationCLI {
         let minutes = Int(seconds) / 60
         let remainingSeconds = Int(seconds) % 60
         return String(format: "%02d:%02d", minutes, remainingSeconds)
+    }
+
+    static func printBenchmarkResults(
+        _ results: [BenchmarkResult], avgDER: Float, avgJER: Float, dataset: String
+    ) {
+        logger.info("\n🏆 \(dataset) Benchmark Results")
+        let separator = String(repeating: "=", count: 75)
+        logger.info("\(separator)")
+
+        // Print table header
+        logger.info("│ Meeting ID    │  DER   │  JER   │  RTF   │ Duration │ Speakers │")
+        let headerSep = "├───────────────┼────────┼────────┼────────┼──────────┼──────────┤"
+        logger.info("\(headerSep)")
+
+        // Print individual results
+        for result in results.sorted(by: { $0.meetingId < $1.meetingId }) {
+            let meetingDisplay = String(result.meetingId.prefix(13)).padding(
+                toLength: 13, withPad: " ", startingAt: 0)
+            let derStr = String(format: "%.1f%%", result.der).padding(
+                toLength: 6, withPad: " ", startingAt: 0)
+            let jerStr = String(format: "%.1f%%", result.jer).padding(
+                toLength: 6, withPad: " ", startingAt: 0)
+            let rtfStr = String(format: "%.2fx", result.realTimeFactor).padding(
+                toLength: 6, withPad: " ", startingAt: 0)
+            let durationStr = formatTime(result.durationSeconds).padding(
+                toLength: 8, withPad: " ", startingAt: 0)
+            let speakerStr = String(result.speakerCount).padding(
+                toLength: 8, withPad: " ", startingAt: 0)
+
+            logger.info(
+                "│ \(meetingDisplay) │ \(derStr) │ \(jerStr) │ \(rtfStr) │ \(durationStr) │ \(speakerStr) │"
+            )
+        }
+
+        // Print summary section
+        let midSep = "├───────────────┼────────┼────────┼────────┼──────────┼──────────┤"
+        logger.info("\(midSep)")
+
+        let avgDerStr = String(format: "%.1f%%", avgDER).padding(
+            toLength: 6, withPad: " ", startingAt: 0)
+        let avgJerStr = String(format: "%.1f%%", avgJER).padding(
+            toLength: 6, withPad: " ", startingAt: 0)
+        let avgRtf = results.reduce(0.0) { $0 + $1.realTimeFactor } / Float(results.count)
+        let avgRtfStr = String(format: "%.2fx", avgRtf).padding(
+            toLength: 6, withPad: " ", startingAt: 0)
+        let totalDuration = results.reduce(0.0) { $0 + $1.durationSeconds }
+        let avgDurationStr = formatTime(totalDuration).padding(
+            toLength: 8, withPad: " ", startingAt: 0)
+        let avgSpeakers = results.reduce(0) { $0 + $1.speakerCount } / results.count
+        let avgSpeakerStr = String(format: "%.1f", Float(avgSpeakers)).padding(
+            toLength: 8, withPad: " ", startingAt: 0)
+
+        logger.info(
+            "│ AVERAGE       │ \(avgDerStr) │ \(avgJerStr) │ \(avgRtfStr) │ \(avgDurationStr) │ \(avgSpeakerStr) │"
+        )
+        let bottomSep = "└───────────────┴────────┴────────┴────────┴──────────┴──────────┘"
+        logger.info("\(bottomSep)")
+
+        // Print statistics
+        if results.count > 1 {
+            let derValues = results.map { $0.der }
+            let jerValues = results.map { $0.jer }
+            let derStdDev = calculateStandardDeviation(derValues)
+            let jerStdDev = calculateStandardDeviation(jerValues)
+
+            logger.info("\n📊 Statistical Analysis:")
+            logger.info(
+                "   DER: \(String(format: "%.1f", avgDER))% ± \(String(format: "%.1f", derStdDev))% (min: \(String(format: "%.1f", derValues.min()!))%, max: \(String(format: "%.1f", derValues.max()!))%)"
+            )
+            logger.info(
+                "   JER: \(String(format: "%.1f", avgJER))% ± \(String(format: "%.1f", jerStdDev))% (min: \(String(format: "%.1f", jerValues.min()!))%, max: \(String(format: "%.1f", jerValues.max()!))%)"
+            )
+            logger.info("   Files Processed: \(results.count)")
+            logger.info(
+                "   Total Audio: \(formatTime(totalDuration)) (\(String(format: "%.1f", totalDuration/60)) minutes)"
+            )
+        }
+
+        // Print research comparison
+        logger.info("\n📝 Research Comparison:")
+        logger.info("   Your Results:          \(String(format: "%.1f", avgDER))% DER")
+        logger.info("   Powerset BCE (2023):   18.5% DER")
+        logger.info("   EEND (2019):           25.3% DER")
+        logger.info("   x-vector clustering:   28.7% DER")
+
+        if dataset == "AMI-IHM" {
+            logger.info("   Note: IHM typically achieves 5-10% lower DER than SDM")
+        }
+
+        // Performance assessment
+        if avgDER < 20.0 {
+            logger.info("\n🎉 EXCELLENT: Competitive with state-of-the-art research!")
+        } else if avgDER < 30.0 {
+            logger.info("\n✅ GOOD: Above research baseline, room for optimization")
+        } else if avgDER < 50.0 {
+            logger.info("\n⚠️  NEEDS WORK: Significant room for parameter tuning")
+        } else {
+            logger.info("\n🚨 CRITICAL: Check configuration - results much worse than expected")
+        }
+    }
+
+    static func calculateStandardDeviation(_ values: [Float]) -> Float {
+        guard values.count > 1 else { return 0.0 }
+        let mean = values.reduce(0, +) / Float(values.count)
+        let variance = values.reduce(0) { $0 + pow($1 - mean, 2) } / Float(values.count - 1)
+        return sqrt(variance)
     }
 
     // MARK: - Dataset Downloading
