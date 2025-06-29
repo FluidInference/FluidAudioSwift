@@ -7,11 +7,24 @@ FluidAudioSwift is a high-performance Swift framework for on-device speaker diar
 
 ## 🎯 Performance
 
-**AMI Benchmark Results** (Single Distant Microphone):
+**AMI Benchmark Results** (Single Distant Microphone), a subset of the files:
 
 - **DER: 17.7%** - Competitive with Powerset BCE 2023 (18.5%)
 - **JER: 28.0%** - Outperforms EEND 2019 (25.3%) and x-vector clustering (28.7%)
 - **RTF: 0.02x** - Real-time processing with 50x speedup
+
+```
+  RTF = Processing Time / Audio Duration
+
+  With RTF = 0.02x:
+  - 1 minute of audio takes 0.02 × 60 = 1.2 seconds to process
+  - 10 minutes of audio takes 0.02 × 600 = 12 seconds to process
+
+  For real-time speech-to-text:
+  - Latency: ~1.2 seconds per minute of audio
+  - Throughput: Can process 50x faster than real-time
+  - Pipeline impact: Minimal - diarization won't be the bottleneck
+```
 
 ## Features
 
