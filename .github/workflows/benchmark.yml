@@ -33,23 +33,30 @@ jobs:
         id: benchmark
         run: |
           echo "🚀 Running single file benchmark..."
-          # Run benchmark with ES2004a file and save results to JSON
-          swift run fluidaudio benchmark --auto-download --single-file ES2004a --output benchmark_results.json
+          swift run fluidaudio benchmark --auto-download --single-file ES2004a --output benchmark_results.json | tee benchmark.log
+
+          # Extract total time from CLI output
+          if grep -q "Total benchmark execution time:" benchmark.log; then
+            BENCHMARK_TIME=$(grep "Total benchmark execution time:" benchmark.log | grep -o '[0-9.]*')
+            echo "BENCHMARK_TIME=${BENCHMARK_TIME}" >> $GITHUB_OUTPUT
+          else
+            echo "BENCHMARK_TIME=NA" >> $GITHUB_OUTPUT
+          fi
 
           # Extract key metrics from JSON output
           if [ -f benchmark_results.json ]; then
             # Parse JSON results (using basic tools available in GitHub runners)
             AVERAGE_DER=$(cat benchmark_results.json | grep -o '"averageDER":[0-9]*\.?[0-9]*' | cut -d':' -f2)
-            AVERAGE_JER=$(cat benchmark_results.json | grep -o '"averageJER":[0-9]*\.?[0-9]*' | cut -d':' -f2) 
+            AVERAGE_JER=$(cat benchmark_results.json | grep -o '"averageJER":[0-9]*\.?[0-9]*' | cut -d':' -f2)
             PROCESSED_FILES=$(cat benchmark_results.json | grep -o '"processedFiles":[0-9]*' | cut -d':' -f2)
-            
+
             # Get first result details
             RTF=$(cat benchmark_results.json | grep -o '"realTimeFactor":[0-9]*\.?[0-9]*' | head -1 | cut -d':' -f2)
             DURATION=$(cat benchmark_results.json | grep -o '"durationSeconds":[0-9]*\.?[0-9]*' | head -1 | cut -d':' -f2)
             SPEAKER_COUNT=$(cat benchmark_results.json | grep -o '"speakerCount":[0-9]*' | head -1 | cut -d':' -f2)
-            
+
             echo "DER=${AVERAGE_DER}" >> $GITHUB_OUTPUT
-            echo "JER=${AVERAGE_JER}" >> $GITHUB_OUTPUT  
+            echo "JER=${AVERAGE_JER}" >> $GITHUB_OUTPUT
             echo "RTF=${RTF}" >> $GITHUB_OUTPUT
             echo "DURATION=${DURATION}" >> $GITHUB_OUTPUT
             echo "SPEAKER_COUNT=${SPEAKER_COUNT}" >> $GITHUB_OUTPUT
@@ -76,15 +83,17 @@ jobs:
               const rtf = parseFloat('${{ steps.benchmark.outputs.RTF }}').toFixed(2);
               const duration = parseFloat('${{ steps.benchmark.outputs.DURATION }}').toFixed(1);
               const speakerCount = '${{ steps.benchmark.outputs.SPEAKER_COUNT }}';
-              
+              const benchmarkTime = '${{ steps.benchmark.outputs.BENCHMARK_TIME }}';
+
               comment += `**Test File:** ES2004a (${duration}s audio)\n\n`;
               comment += '| Metric | Value | Target | Status |\n';
               comment += '|--------|-------|--------|---------|\n';
               comment += `| **DER** (Diarization Error Rate) | ${der}% | < 30% | ${der < 30 ? '✅' : '❌'} |\n`;
               comment += `| **JER** (Jaccard Error Rate) | ${jer}% | < 25% | ${jer < 25 ? '✅' : '❌'} |\n`;
               comment += `| **RTF** (Real-Time Factor) | ${rtf}x | < 1.0x | ${rtf < 1.0 ? '✅' : '❌'} |\n`;
-              comment += `| **Speakers Detected** | ${speakerCount} | - | ℹ️ |\n\n`;
-              
+              comment += `| **Speakers Detected** | ${speakerCount} | - | ℹ️ |\n`;
+              comment += `| **Benchmark Runtime** | ${benchmarkTime}s | - | ℹ️ |\n\n`;
+
               // Performance assessment
               if (der < 20) {
                 comment += '🎉 **Excellent Performance!** - Competitive with state-of-the-art research\n';
@@ -93,12 +102,12 @@ jobs:
               } else {
                 comment += '⚠️ **Performance Below Target** - Consider parameter optimization\n';
               }
-              
+
               comment += '\n📊 **Research Comparison:**\n';
               comment += '- Powerset BCE (2023): 18.5% DER\n';
               comment += '- EEND (2019): 25.3% DER\n';
               comment += '- x-vector clustering: 28.7% DER\n';
-              
+
             } else {
               comment += '❌ **Benchmark Failed**\n\n';
               comment += 'The single file benchmark could not complete successfully. ';
