@@ -6,7 +6,7 @@ FluidAudioSwift is a speaker diarization system for Apple platforms using Core M
 ## Current Performance Baseline (AMI Benchmark)
 - **Dataset**: AMI SDM (Single Distant Microphone)
 - **Current Results**: DER: 81.0%, JER: 24.4%, RTF: 0.02x
-- **Research Benchmarks**: 
+- **Research Benchmarks**:
   - Powerset BCE (2023): 18.5% DER
   - EEND (2019): 25.3% DER
   - x-vector clustering: 28.7% DER
@@ -69,7 +69,7 @@ The CLI needs to be extended to support:
    - Run 3-5 iterations of same config to measure stability
    - Calculate mean ± std deviation for DER, JER, RTF
    - **RED FLAG**: If std deviation > 5%, investigate non-deterministic behavior
-   
+
 2. **Deep error analysis** (act like forensic ML engineer):
    - **If DER > 60%**: Likely clustering failure - speakers being confused
    - **If JER > DER**: Timeline alignment issues - check duration parameters
@@ -92,19 +92,19 @@ The CLI needs to be extended to support:
    - **Test parameter extremes first**: (0.3, 0.9) for clusteringThreshold
    - **CONSISTENCY CHECK**: If extreme values give identical results → INVESTIGATE
    - **SANITY CHECK**: If threshold=0.9 gives same DER as threshold=0.3 → MODEL ISSUE
-   
+
 3. **Expert troubleshooting triggers**:
    ```
    IF (same DER across 3+ different parameter values):
        → Check if parameters are actually being used
        → Verify model isn't using cached/default values
        → Add debug logging to confirm parameter propagation
-   
+
    IF (DER increases when it should decrease):
        → Analyze what type of errors increased
        → Check if we're optimizing the wrong bottleneck
        → Verify ground truth data integrity
-   
+
    IF (improvement then sudden degradation):
        → Look for parameter interaction effects
        → Check if we hit a threshold/boundary condition
@@ -137,7 +137,7 @@ The CLI needs to be extended to support:
    - Are we creating too many micro-clusters?
    - Is the similarity metric broken?
    - Are we hitting edge cases in clustering algorithm?
-   
+
    IF (longer minDurationOn → worse performance):
    THEN check:
    - Are we filtering out too much real speech?
@@ -162,10 +162,10 @@ The CLI needs to be extended to support:
    ```
    IF (DER variance > 10% across files):
        → Need more robust parameters, not just lowest DER
-   
+
    IF (no improvement after 5 tests):
        → Switch to different parameter or try combinations
-   
+
    IF (improvements < 2% but consistent):
        → Continue fine-tuning in smaller steps
    ```
@@ -192,7 +192,7 @@ The CLI needs to be extended to support:
 
 ```
 START optimization iteration:
-├── Results identical to previous? 
+├── Results identical to previous?
 │   ├── YES → INVESTIGATE: Parameter not being used / Model caching
 │   └── NO → Continue
 ├── Results worse than expected?
@@ -208,7 +208,7 @@ START optimization iteration:
 
 **Immediately investigate if you see:**
 - Same DER across 4+ different parameter values
-- DER improvement then sudden 20%+ degradation  
+- DER improvement then sudden 20%+ degradation
 - RTF varying by >50% with same parameters
 - JER > DER consistently (suggests timeline issues)
 - Parameters having opposite effect than expected
@@ -236,7 +236,7 @@ START optimization iteration:
 DiarizerConfig(
     clusteringThreshold: 0.7,     // Optimal value: 17.7% DER
     minDurationOn: 1.0,           // Default working well
-    minDurationOff: 0.5,          // Default working well  
+    minDurationOff: 0.5,          // Default working well
     minActivityThreshold: 10.0,   // Default working well
     debugMode: false
 )
@@ -254,7 +254,7 @@ DiarizerConfig(
 
 ### Clustering Threshold Impact (ES2004a):
 - **0.1**: 75.8% DER - Over-clustering (153+ speakers), severe speaker confusion
-- **0.5**: 20.6% DER - Still too many speakers 
+- **0.5**: 20.6% DER - Still too many speakers
 - **0.7**: 17.7% DER - **OPTIMAL** - Good balance, ~9 speakers
 - **0.8**: 18.0% DER - Nearly optimal, slightly fewer speakers
 - **0.9**: 40.2% DER - Under-clustering, too few speakers
@@ -267,7 +267,7 @@ DiarizerConfig(
 
 ## Final Recommendations
 
-### 🎉 MISSION ACCOMPLISHED! 
+### 🎉 MISSION ACCOMPLISHED!
 
 **Target Achievement**: ✅ DER < 30% → **Achieved 17.7% DER**
 **Research Competitive**: ✅ Better than EEND (25.3%) and x-vector (28.7%)
@@ -297,7 +297,7 @@ DiarizerConfig(
 
 ### Architecture Insights:
 - **Online diarization works well** for benchmarking with proper clustering
-- **Chunk-based processing** (10-second chunks) doesn't hurt performance significantly  
+- **Chunk-based processing** (10-second chunks) doesn't hurt performance significantly
 - **Speaker tracking across chunks** is effective with current approach
 
 ## Instructions for Claude Code
@@ -364,3 +364,43 @@ The CLI now provides **beautiful tabular output** that's easy to read and parse:
 - DER improvements < 1% for 3 consecutive parameter tests
 - DER reaches target of < 30% (✅ **ACHIEVED: 17.7%**)
 - All parameter combinations in current phase tested
+
+## Benchmarking
+
+### Metal Acceleration Benchmarks
+
+The project includes comprehensive benchmarks to measure Metal vs Accelerate performance:
+
+```bash
+# Run complete benchmark suite
+swift test --filter MetalAccelerationBenchmarks
+
+# Run specific benchmark categories
+swift test --filter testCosineDistanceBatchSizeBenchmark
+swift test --filter testEndToEndDiarizationBenchmark
+swift test --filter testMemoryUsageBenchmark
+
+# Use the convenience script
+./scripts/run-benchmarks.sh
+```
+
+**Benchmark categories:**
+- **Cosine distance calculations**: Batch size optimization (8-128 embeddings)
+- **Powerset conversion operations**: GPU vs CPU compute kernels
+- **End-to-end diarization**: Real-world performance comparison
+- **Memory usage analysis**: Peak memory consumption comparison
+- **Scalability testing**: Performance across different matrix sizes
+
+**CI Integration:**
+- Automated benchmarks run on all PRs
+- Performance regression detection
+- Automated PR comments with results
+- Baseline comparison against main branch
+
+## Troubleshooting
+
+- Model downloads may fail in test environments - expected behavior
+- First-time initialization requires network access for model downloads
+- Models are cached in `~/Library/Application Support/SpeakerKitModels/coreml/`
+- Enable debug mode in config for detailed logging
+- Metal acceleration may be slower for small operations due to GPU overhead
