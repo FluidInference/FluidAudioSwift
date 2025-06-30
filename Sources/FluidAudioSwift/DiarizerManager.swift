@@ -459,7 +459,7 @@ public final class DiarizerManager: @unchecked Sendable {
 
     /// Download required models for diarization
     public func downloadModels() async throws -> ModelPaths {
-        logger.info("Downloading diarization models from Hugging Face")
+        logger.info("Checking for existing diarization models")
 
         let modelsDirectory = getModelsDirectory()
 
@@ -468,28 +468,48 @@ public final class DiarizerManager: @unchecked Sendable {
         ).path
         let embeddingModelPath = modelsDirectory.appendingPathComponent("wespeaker.mlmodelc").path
 
-        // Force redownload - remove existing models first
-        try? FileManager.default.removeItem(at: URL(fileURLWithPath: segmentationModelPath))
-        try? FileManager.default.removeItem(at: URL(fileURLWithPath: embeddingModelPath))
-        logger.info("Removed existing models to force fresh download")
+        let segmentationURL = URL(fileURLWithPath: segmentationModelPath)
+        let embeddingURL = URL(fileURLWithPath: embeddingModelPath)
 
-        // Download segmentation model bundle from Hugging Face
-        try await downloadMLModelCBundle(
-            repoPath: "bweng/speaker-diarization-coreml",
-            modelName: "pyannote_segmentation.mlmodelc",
-            outputPath: URL(fileURLWithPath: segmentationModelPath)
-        )
-        logger.info("Downloaded segmentation model bundle from Hugging Face")
+        // Check if models already exist and are valid
+        let segmentationExists =
+            FileManager.default.fileExists(atPath: segmentationModelPath)
+            && isModelCompiled(at: segmentationURL)
+        let embeddingExists =
+            FileManager.default.fileExists(atPath: embeddingModelPath)
+            && isModelCompiled(at: embeddingURL)
 
-        // Download embedding model bundle from Hugging Face
-        try await downloadMLModelCBundle(
-            repoPath: "bweng/speaker-diarization-coreml",
-            modelName: "wespeaker.mlmodelc",
-            outputPath: URL(fileURLWithPath: embeddingModelPath)
-        )
-        logger.info("Downloaded embedding model bundle from Hugging Face")
+        if segmentationExists && embeddingExists {
+            logger.info("Valid models already exist, skipping download")
+            return ModelPaths(
+                segmentationPath: segmentationModelPath, embeddingPath: embeddingModelPath)
+        }
 
-        logger.info("Successfully downloaded and compiled diarization models from Hugging Face")
+        logger.info("Downloading missing or invalid diarization models from Hugging Face")
+
+        // Download segmentation model if needed
+        if !segmentationExists {
+            logger.info("Downloading segmentation model bundle from Hugging Face")
+            try await downloadMLModelCBundle(
+                repoPath: "bweng/speaker-diarization-coreml",
+                modelName: "pyannote_segmentation.mlmodelc",
+                outputPath: segmentationURL
+            )
+            logger.info("Downloaded segmentation model bundle from Hugging Face")
+        }
+
+        // Download embedding model if needed
+        if !embeddingExists {
+            logger.info("Downloading embedding model bundle from Hugging Face")
+            try await downloadMLModelCBundle(
+                repoPath: "bweng/speaker-diarization-coreml",
+                modelName: "wespeaker.mlmodelc",
+                outputPath: embeddingURL
+            )
+            logger.info("Downloaded embedding model bundle from Hugging Face")
+        }
+
+        logger.info("Successfully ensured diarization models are available")
         return ModelPaths(
             segmentationPath: segmentationModelPath, embeddingPath: embeddingModelPath)
     }
@@ -592,26 +612,6 @@ public final class DiarizerManager: @unchecked Sendable {
                     "Critical error downloading \(weightFile): \(error.localizedDescription)")
                 throw DiarizerError.modelDownloadFailed
             }
-        }
-
-        // Also try to download analytics directory if it exists
-        let analyticsURL = URL(
-            string:
-                "https://huggingface.co/\(repoPath)/resolve/main/\(modelName)/analytics/coremldata.bin"
-        )!
-        do {
-            let (tempFile, response) = try await URLSession.shared.download(from: analyticsURL)
-            if let httpResponse = response as? HTTPURLResponse, httpResponse.statusCode == 200 {
-                let analyticsDir = outputPath.appendingPathComponent("analytics")
-                try FileManager.default.createDirectory(
-                    at: analyticsDir, withIntermediateDirectories: true)
-                let destinationPath = analyticsDir.appendingPathComponent("coremldata.bin")
-                try? FileManager.default.removeItem(at: destinationPath)
-                try FileManager.default.moveItem(at: tempFile, to: destinationPath)
-                logger.info("Downloaded analytics/coremldata.bin for \(modelName)")
-            }
-        } catch {
-            logger.info("Analytics directory not found or not needed for \(modelName)")
         }
 
         // Make a HEAD request to config.json to trigger download count in HuggingFace
