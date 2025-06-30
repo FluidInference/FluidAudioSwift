@@ -32,14 +32,82 @@ public struct DiarizerConfig: Sendable {
     }
 }
 
+/// Detailed timing breakdown for each stage of the diarization pipeline
+public struct PipelineTimings: Sendable, Codable {
+    public let modelDownloadSeconds: TimeInterval
+    public let modelCompilationSeconds: TimeInterval
+    public let audioLoadingSeconds: TimeInterval
+    public let segmentationSeconds: TimeInterval
+    public let embeddingExtractionSeconds: TimeInterval
+    public let speakerClusteringSeconds: TimeInterval
+    public let postProcessingSeconds: TimeInterval
+    public let totalInferenceSeconds: TimeInterval  // segmentation + embedding + clustering
+    public let totalProcessingSeconds: TimeInterval  // all stages combined
+    
+    public init(
+        modelDownloadSeconds: TimeInterval = 0,
+        modelCompilationSeconds: TimeInterval = 0,
+        audioLoadingSeconds: TimeInterval = 0,
+        segmentationSeconds: TimeInterval = 0,
+        embeddingExtractionSeconds: TimeInterval = 0,
+        speakerClusteringSeconds: TimeInterval = 0,
+        postProcessingSeconds: TimeInterval = 0
+    ) {
+        self.modelDownloadSeconds = modelDownloadSeconds
+        self.modelCompilationSeconds = modelCompilationSeconds
+        self.audioLoadingSeconds = audioLoadingSeconds
+        self.segmentationSeconds = segmentationSeconds
+        self.embeddingExtractionSeconds = embeddingExtractionSeconds
+        self.speakerClusteringSeconds = speakerClusteringSeconds
+        self.postProcessingSeconds = postProcessingSeconds
+        self.totalInferenceSeconds = segmentationSeconds + embeddingExtractionSeconds + speakerClusteringSeconds
+        self.totalProcessingSeconds = modelDownloadSeconds + modelCompilationSeconds + audioLoadingSeconds + 
+                                    segmentationSeconds + embeddingExtractionSeconds + speakerClusteringSeconds + postProcessingSeconds
+    }
+    
+    /// Calculate percentage breakdown of time spent in each stage
+    public var stagePercentages: [String: Double] {
+        guard totalProcessingSeconds > 0 else {
+            return [:]
+        }
+        
+        return [
+            "Model Download": (modelDownloadSeconds / totalProcessingSeconds) * 100,
+            "Model Compilation": (modelCompilationSeconds / totalProcessingSeconds) * 100,
+            "Audio Loading": (audioLoadingSeconds / totalProcessingSeconds) * 100,
+            "Segmentation": (segmentationSeconds / totalProcessingSeconds) * 100,
+            "Embedding Extraction": (embeddingExtractionSeconds / totalProcessingSeconds) * 100,
+            "Speaker Clustering": (speakerClusteringSeconds / totalProcessingSeconds) * 100,
+            "Post Processing": (postProcessingSeconds / totalProcessingSeconds) * 100
+        ]
+    }
+    
+    /// Identify the bottleneck stage (stage taking the most time)
+    public var bottleneckStage: String {
+        let stages = [
+            ("Model Download", modelDownloadSeconds),
+            ("Model Compilation", modelCompilationSeconds),
+            ("Audio Loading", audioLoadingSeconds),
+            ("Segmentation", segmentationSeconds),
+            ("Embedding Extraction", embeddingExtractionSeconds),
+            ("Speaker Clustering", speakerClusteringSeconds),
+            ("Post Processing", postProcessingSeconds)
+        ]
+        
+        return stages.max(by: { $0.1 < $1.1 })?.0 ?? "Unknown"
+    }
+}
+
 /// Complete diarization result with consistent speaker IDs and embeddings
 public struct DiarizationResult: Sendable {
     public let segments: [TimedSpeakerSegment]
     public let speakerDatabase: [String: [Float]]  // Speaker ID → representative embedding
+    public let timings: PipelineTimings
 
-    public init(segments: [TimedSpeakerSegment], speakerDatabase: [String: [Float]]) {
+    public init(segments: [TimedSpeakerSegment], speakerDatabase: [String: [Float]], timings: PipelineTimings = PipelineTimings()) {
         self.segments = segments
         self.speakerDatabase = speakerDatabase
+        self.timings = timings
     }
 }
 
@@ -168,6 +236,10 @@ public final class DiarizerManager: @unchecked Sendable {
     // ML models
     private var segmentationModel: MLModel?
     private var embeddingModel: MLModel?
+    
+    // Timing tracking
+    private var modelDownloadTime: TimeInterval = 0
+    private var modelCompilationTime: TimeInterval = 0
 
     public init(config: DiarizerConfig = .default) {
         self.config = config
@@ -176,20 +248,31 @@ public final class DiarizerManager: @unchecked Sendable {
     public var isAvailable: Bool {
         return segmentationModel != nil && embeddingModel != nil
     }
+    
+    /// Get the initialization timing data
+    public var initializationTimings: (downloadTime: TimeInterval, compilationTime: TimeInterval) {
+        return (modelDownloadTime, modelCompilationTime)
+    }
 
     public func initialize() async throws {
+        let initStartTime = Date()
         logger.info("Initializing diarization system")
 
         try await cleanupBrokenModels()
 
+        let downloadStartTime = Date()
         let modelPaths = try await downloadModels()
+        self.modelDownloadTime = Date().timeIntervalSince(downloadStartTime)
 
         let segmentationURL = URL(fileURLWithPath: modelPaths.segmentationPath)
         let embeddingURL = URL(fileURLWithPath: modelPaths.embeddingPath)
 
+        let compilationStartTime = Date()
         try await loadModelsWithAutoRecovery(segmentationURL: segmentationURL, embeddingURL: embeddingURL)
+        self.modelCompilationTime = Date().timeIntervalSince(compilationStartTime)
 
-        logger.info("Diarization system initialized successfully")
+        let totalInitTime = Date().timeIntervalSince(initStartTime)
+        logger.info("Diarization system initialized successfully in \(String(format: "%.2f", totalInitTime))s (download: \(String(format: "%.2f", self.modelDownloadTime))s, compilation: \(String(format: "%.2f", self.modelCompilationTime))s)")
     }
 
     /// Load models with automatic recovery on compilation failures
@@ -913,6 +996,12 @@ public final class DiarizerManager: @unchecked Sendable {
             throw DiarizerError.notInitialized
         }
 
+        let processingStartTime = Date()
+        var segmentationTime: TimeInterval = 0
+        var embeddingTime: TimeInterval = 0
+        var clusteringTime: TimeInterval = 0
+        var postProcessingTime: TimeInterval = 0
+
         let chunkSize = sampleRate * 10  // 10 seconds
         var allSegments: [TimedSpeakerSegment] = []
         var speakerDB: [String: [Float]] = [:]  // Global speaker database
@@ -923,25 +1012,58 @@ public final class DiarizerManager: @unchecked Sendable {
             let chunk = Array(samples[chunkStart..<chunkEnd])
             let chunkOffset = Double(chunkStart) / Double(sampleRate)
 
-            let chunkSegments = try await processChunkWithSpeakerTracking(
+            let (chunkSegments, chunkTimings) = try await processChunkWithSpeakerTracking(
                 chunk,
                 chunkOffset: chunkOffset,
                 speakerDB: &speakerDB,
                 sampleRate: sampleRate
             )
             allSegments.append(contentsOf: chunkSegments)
+            
+            // Accumulate timing from all chunks
+            segmentationTime += chunkTimings.segmentationTime
+            embeddingTime += chunkTimings.embeddingTime
+            clusteringTime += chunkTimings.clusteringTime
         }
 
-        return DiarizationResult(segments: allSegments, speakerDatabase: speakerDB)
+        let postProcessingStartTime = Date()
+        // Post-processing: filter segments, apply duration constraints, etc.
+        let filteredSegments = applyPostProcessingFilters(allSegments)
+        postProcessingTime = Date().timeIntervalSince(postProcessingStartTime)
+
+        let totalProcessingTime = Date().timeIntervalSince(processingStartTime)
+
+        let timings = PipelineTimings(
+            modelDownloadSeconds: self.modelDownloadTime,
+            modelCompilationSeconds: self.modelCompilationTime,
+            audioLoadingSeconds: 0, // Will be set by CLI
+            segmentationSeconds: segmentationTime,
+            embeddingExtractionSeconds: embeddingTime,
+            speakerClusteringSeconds: clusteringTime,
+            postProcessingSeconds: postProcessingTime
+        )
+
+        logger.info("Complete diarization finished in \(String(format: "%.2f", totalProcessingTime))s (segmentation: \(String(format: "%.2f", segmentationTime))s, embedding: \(String(format: "%.2f", embeddingTime))s, clustering: \(String(format: "%.2f", clusteringTime))s, post-processing: \(String(format: "%.2f", postProcessingTime))s)")
+
+        return DiarizationResult(segments: filteredSegments, speakerDatabase: speakerDB, timings: timings)
     }
 
-    /// Process a single chunk with speaker tracking across chunks
+    /// Timing data for chunk processing
+    private struct ChunkTimings {
+        let segmentationTime: TimeInterval
+        let embeddingTime: TimeInterval
+        let clusteringTime: TimeInterval
+    }
+
+    /// Process a single chunk with speaker tracking and timing
     private func processChunkWithSpeakerTracking(
         _ chunk: [Float],
         chunkOffset: Double,
         speakerDB: inout [String: [Float]],
         sampleRate: Int = 16000
-    ) async throws -> [TimedSpeakerSegment] {
+    ) async throws -> ([TimedSpeakerSegment], ChunkTimings) {
+        let segmentationStartTime = Date()
+        
         let chunkSize = sampleRate * 10  // 10 seconds
         var paddedChunk = chunk
         if chunk.count < chunkSize {
@@ -952,6 +1074,9 @@ public final class DiarizerManager: @unchecked Sendable {
         let binarizedSegments = try getSegments(audioChunk: paddedChunk)
         let slidingFeature = createSlidingWindowFeature(
             binarizedSegments: binarizedSegments, chunkOffset: chunkOffset)
+        
+        let segmentationTime = Date().timeIntervalSince(segmentationStartTime)
+        let embeddingStartTime = Date()
 
         // Step 2: Get embeddings using same segmentation results
         guard let embeddingModel = self.embeddingModel else {
@@ -965,6 +1090,9 @@ public final class DiarizerManager: @unchecked Sendable {
             embeddingModel: embeddingModel,
             sampleRate: sampleRate
         )
+        
+        let embeddingTime = Date().timeIntervalSince(embeddingStartTime)
+        let clusteringStartTime = Date()
 
         // Step 3: Calculate speaker activities
         let speakerActivities = calculateSpeakerActivities(binarizedSegments)
@@ -988,19 +1116,40 @@ public final class DiarizerManager: @unchecked Sendable {
                 }
             } else {
                 activityFilteredCount += 1
-
                 speakerLabels.append("")  // No activity
             }
         }
+        
+        let clusteringTime = Date().timeIntervalSince(clusteringStartTime)
 
         // Step 5: Create temporal segments with consistent speaker IDs
-        return createTimedSegments(
+        let segments = createTimedSegments(
             binarizedSegments: binarizedSegments,
             slidingWindow: slidingFeature.slidingWindow,
             embeddings: embeddings,
             speakerLabels: speakerLabels,
             speakerActivities: speakerActivities
         )
+        
+        let timings = ChunkTimings(
+            segmentationTime: segmentationTime,
+            embeddingTime: embeddingTime,
+            clusteringTime: clusteringTime
+        )
+        
+        return (segments, timings)
+    }
+
+    
+    /// Apply post-processing filters to segments
+    private func applyPostProcessingFilters(_ segments: [TimedSpeakerSegment]) -> [TimedSpeakerSegment] {
+        return segments.filter { segment in
+            // Apply minimum duration filter
+            segment.durationSeconds >= self.config.minDurationOn
+        }.compactMap { segment in
+            // Additional post-processing could be added here
+            return segment
+        }
     }
 
     /// Calculate total activity for each speaker across all frames
