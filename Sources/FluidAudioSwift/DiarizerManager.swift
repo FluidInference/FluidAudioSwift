@@ -108,6 +108,7 @@ public struct AudioValidationResult: Sendable {
 public enum DiarizerError: Error, LocalizedError {
     case notInitialized
     case modelDownloadFailed
+    case modelCompilationFailed
     case embeddingExtractionFailed
     case invalidAudioData
     case processingFailed(String)
@@ -118,6 +119,8 @@ public enum DiarizerError: Error, LocalizedError {
             return "Diarization system not initialized. Call initialize() first."
         case .modelDownloadFailed:
             return "Failed to download required models."
+        case .modelCompilationFailed:
+            return "Failed to compile CoreML models."
         case .embeddingExtractionFailed:
             return "Failed to extract speaker embedding from audio."
         case .invalidAudioData:
@@ -184,10 +187,82 @@ public final class DiarizerManager: @unchecked Sendable {
         let segmentationURL = URL(fileURLWithPath: modelPaths.segmentationPath)
         let embeddingURL = URL(fileURLWithPath: modelPaths.embeddingPath)
 
-        self.segmentationModel = try MLModel(contentsOf: segmentationURL)
-        self.embeddingModel = try MLModel(contentsOf: embeddingURL)
+        try await loadModelsWithAutoRecovery(segmentationURL: segmentationURL, embeddingURL: embeddingURL)
 
         logger.info("Diarization system initialized successfully")
+    }
+
+    /// Load models with automatic recovery on compilation failures
+    private func loadModelsWithAutoRecovery(segmentationURL: URL, embeddingURL: URL, maxRetries: Int = 2) async throws {
+        var attempt = 0
+        
+        while attempt <= maxRetries {
+            do {
+                // Try to load both models
+                logger.info("Attempting to load CoreML models (attempt \(attempt + 1)/\(maxRetries + 1))")
+                
+                let segmentationModel = try MLModel(contentsOf: segmentationURL)
+                let embeddingModel = try MLModel(contentsOf: embeddingURL)
+                
+                // If we get here, both models loaded successfully
+                self.segmentationModel = segmentationModel
+                self.embeddingModel = embeddingModel
+                
+                if attempt > 0 {
+                    logger.info("Models loaded successfully after \(attempt) recovery attempt(s)")
+                }
+                return
+                
+            } catch {
+                logger.warning("Model loading failed (attempt \(attempt + 1)): \(error.localizedDescription)")
+                
+                // If this is our last attempt, throw the error
+                if attempt >= maxRetries {
+                    logger.error("Model loading failed after \(maxRetries + 1) attempts, giving up")
+                    throw DiarizerError.modelCompilationFailed
+                }
+                
+                // Auto-recovery: Delete corrupted models and re-download
+                logger.info("Initiating auto-recovery: removing corrupted models and re-downloading...")
+                
+                try await performModelRecovery(segmentationURL: segmentationURL, embeddingURL: embeddingURL)
+                
+                attempt += 1
+            }
+        }
+    }
+
+    /// Perform model recovery by deleting and re-downloading corrupted models
+    private func performModelRecovery(segmentationURL: URL, embeddingURL: URL) async throws {
+        // Remove potentially corrupted model files
+        if FileManager.default.fileExists(atPath: segmentationURL.path) {
+            logger.info("Removing corrupted segmentation model at \(segmentationURL.path)")
+            try FileManager.default.removeItem(at: segmentationURL)
+        }
+        
+        if FileManager.default.fileExists(atPath: embeddingURL.path) {
+            logger.info("Removing corrupted embedding model at \(embeddingURL.path)")
+            try FileManager.default.removeItem(at: embeddingURL)
+        }
+        
+        // Re-download the models from Hugging Face
+        logger.info("Re-downloading models from Hugging Face...")
+        
+        // Re-download segmentation model
+        try await downloadMLModelCBundle(
+            repoPath: "bweng/speaker-diarization-coreml",
+            modelName: "pyannote_segmentation.mlmodelc",
+            outputPath: segmentationURL
+        )
+        
+        // Re-download embedding model
+        try await downloadMLModelCBundle(
+            repoPath: "bweng/speaker-diarization-coreml",
+            modelName: "wespeaker.mlmodelc",
+            outputPath: embeddingURL
+        )
+        
+        logger.info("Model recovery completed - models re-downloaded")
     }
 
     private func cleanupBrokenModels() async throws {
