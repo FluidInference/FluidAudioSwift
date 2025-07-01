@@ -161,3 +161,6 @@ Apache 2.0 - see [LICENSE](LICENSE) for details.
 
 This project builds upon the excellent work of the [sherpa-onnx](https://github.com/k2-fsa/sherpa-onnx) project for speaker diarization algorithms and techniques. We extend our gratitude to the sherpa-onnx contributors for their foundational work in on-device speech processing. 
 
+## Community
+
+[Join our discord](https://discord.gg/8FbwRaDFJR)
