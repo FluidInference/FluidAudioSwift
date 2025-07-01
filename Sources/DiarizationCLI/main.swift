@@ -346,7 +346,7 @@ struct DiarizationCLI {
         if !FileManager.default.fileExists(atPath: amiDirectory.path) {
             if autoDownload {
                 print("📥 AMI SDM dataset not found - downloading automatically...")
-                await downloadAMIDataset(variant: .sdm, force: false)
+                await downloadAMIDataset(variant: .sdm, force: false, singleFile: singleFile)
 
                 // Check again after download
                 if !FileManager.default.fileExists(atPath: amiDirectory.path) {
@@ -503,7 +503,7 @@ struct DiarizationCLI {
         if !FileManager.default.fileExists(atPath: amiDirectory.path) {
             if autoDownload {
                 print("📥 AMI IHM dataset not found - downloading automatically...")
-                await downloadAMIDataset(variant: .ihm, force: false)
+                await downloadAMIDataset(variant: .ihm, force: false, singleFile: singleFile)
 
                 // Check again after download
                 if !FileManager.default.fileExists(atPath: amiDirectory.path) {
@@ -1274,7 +1274,7 @@ struct DiarizationCLI {
         }
     }
 
-    static func downloadAMIDataset(variant: AMIVariant, force: Bool) async {
+    static func downloadAMIDataset(variant: AMIVariant, force: Bool, singleFile: String? = nil) async {
         let homeDir = FileManager.default.homeDirectoryForCurrentUser
         let baseDir = homeDir.appendingPathComponent("FluidAudioDatasets")
         let amiDir = baseDir.appendingPathComponent("ami_official")
@@ -1293,17 +1293,23 @@ struct DiarizationCLI {
         print("   Target directory: \(variantDir.path)")
 
         // Core AMI test set - smaller subset for initial benchmarking
-        let commonMeetings = [
-            "ES2002a",
-            "ES2003a",
-            "ES2004a",
-            "ES2005a",
-            "IS1000a",
-            "IS1001a",
-            "IS1002b",
-            "TS3003a",
-            "TS3004a",
-        ]
+        let commonMeetings: [String]
+        if let singleFile = singleFile {
+            commonMeetings = [singleFile]
+            print("📋 Downloading single file: \(singleFile)")
+        } else {
+            commonMeetings = [
+                "ES2002a",
+                "ES2003a",
+                "ES2004a",
+                "ES2005a",
+                "IS1000a",
+                "IS1001a",
+                "IS1002b",
+                "TS3003a",
+                "TS3004a",
+            ]
+        }
 
         var downloadedFiles = 0
         var skippedFiles = 0
