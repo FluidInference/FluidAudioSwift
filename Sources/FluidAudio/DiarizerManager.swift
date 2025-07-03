@@ -1034,7 +1034,7 @@ public final class DiarizerManager: @unchecked Sendable {
 
     // MARK: - Combined Efficient Diarization
 
-    /// Perform complete diarization with consistent speaker IDs across chunks and VAD filtering
+    /// Perform complete diarization with consistent speaker IDs across chunks
     /// This is more efficient than calling performSegmentation + extractEmbedding separately
     public func performCompleteDiarization(_ samples: [Float], sampleRate: Int = 16000) async throws
         -> DiarizationResult
@@ -1049,14 +1049,24 @@ public final class DiarizerManager: @unchecked Sendable {
         var clusteringTime: TimeInterval = 0
         var postProcessingTime: TimeInterval = 0
 
+        // Optional VAD pre-processing (disabled by default for better performance)
+        let processedSamples: [Float]
+        if config.vadConfig.enableVAD && config.debugMode {
+            logger.info("Applying VAD pre-processing to entire audio (debug mode)")
+            processedSamples = vadManager.detectVoiceActivity(in: samples)
+            logger.info("VAD pre-processing: \(samples.count) → \(processedSamples.count) samples")
+        } else {
+            processedSamples = samples
+        }
+
         let chunkSize = sampleRate * 10  // 10 seconds
         var allSegments: [TimedSpeakerSegment] = []
         var speakerDB: [String: [Float]] = [:]  // Global speaker database
 
         // Process in 10-second chunks
-        for chunkStart in stride(from: 0, to: samples.count, by: chunkSize) {
-            let chunkEnd = min(chunkStart + chunkSize, samples.count)
-            let chunk = Array(samples[chunkStart..<chunkEnd])
+        for chunkStart in stride(from: 0, to: processedSamples.count, by: chunkSize) {
+            let chunkEnd = min(chunkStart + chunkSize, processedSamples.count)
+            let chunk = Array(processedSamples[chunkStart..<chunkEnd])
             let chunkOffset = Double(chunkStart) / Double(sampleRate)
 
             let (chunkSegments, chunkTimings) = try await processChunkWithSpeakerTracking(
@@ -1147,48 +1157,14 @@ public final class DiarizerManager: @unchecked Sendable {
         // Step 3: Calculate speaker activities
         let speakerActivities = calculateSpeakerActivities(binarizedSegments)
 
-        // Step 4: Apply VAD filtering to individual speaker segments
-        var vadFilteredSpeakers: [Bool] = []
-        var vadFilteredCount = 0
-        var vadPassedCount = 0
-
-        for speakerIndex in 0..<speakerActivities.count {
-            let activity = speakerActivities[speakerIndex]
-
-            if activity > self.config.minActivityThreshold {
-                // Extract audio segment for this speaker
-                let speakerSegment = extractSpeakerSegment(
-                    from: paddedChunk,
-                    binarizedSegments: binarizedSegments,
-                    speakerIndex: speakerIndex,
-                    sampleRate: sampleRate
-                )
-
-                // Apply VAD filtering
-                let hasSpeech = vadManager.isSpeechDetected(in: speakerSegment)
-                vadFilteredSpeakers.append(hasSpeech)
-
-                if hasSpeech {
-                    vadPassedCount += 1
-                } else {
-                    vadFilteredCount += 1
-                    if config.debugMode {
-                        logger.debug("VAD filtered out speaker \(speakerIndex): no speech detected")
-                    }
-                }
-            } else {
-                vadFilteredSpeakers.append(false)
-            }
-        }
-
-        // Step 5: Assign consistent speaker IDs using global database (only for VAD-passed speakers)
+                // Step 4: Assign consistent speaker IDs using global database
         var speakerLabels: [String] = []
         var activityFilteredCount = 0
         var embeddingInvalidCount = 0
         var clusteringProcessedCount = 0
 
         for (speakerIndex, activity) in speakerActivities.enumerated() {
-            if activity > self.config.minActivityThreshold && vadFilteredSpeakers[speakerIndex] {
+            if activity > self.config.minActivityThreshold {
                 let embedding = embeddings[speakerIndex]
                 if validateEmbedding(embedding) {
                     clusteringProcessedCount += 1
@@ -1199,20 +1175,18 @@ public final class DiarizerManager: @unchecked Sendable {
                     speakerLabels.append("")  // Invalid embedding
                 }
             } else {
-                if activity <= self.config.minActivityThreshold {
-                    activityFilteredCount += 1
-                }
-                speakerLabels.append("")  // No activity or VAD filtered
+                activityFilteredCount += 1
+                speakerLabels.append("")  // No activity
             }
         }
 
         let clusteringTime = Date().timeIntervalSince(clusteringStartTime)
 
         if config.debugMode {
-            logger.debug("Chunk processing stats - Activity filtered: \(activityFilteredCount), VAD filtered: \(vadFilteredCount), VAD passed: \(vadPassedCount), Embedding invalid: \(embeddingInvalidCount), Clustering processed: \(clusteringProcessedCount)")
+            logger.debug("Chunk processing stats - Activity filtered: \(activityFilteredCount), Embedding invalid: \(embeddingInvalidCount), Clustering processed: \(clusteringProcessedCount)")
         }
 
-        // Step 6: Create temporal segments with consistent speaker IDs
+        // Step 5: Create temporal segments with consistent speaker IDs
         let segments = createTimedSegments(
             binarizedSegments: binarizedSegments,
             slidingWindow: slidingFeature.slidingWindow,
@@ -1258,40 +1232,7 @@ public final class DiarizerManager: @unchecked Sendable {
         return activities
     }
 
-    /// Extract audio segment for a specific speaker based on binarized segments
-    private func extractSpeakerSegment(
-        from audioChunk: [Float],
-        binarizedSegments: [[[Float]]],
-        speakerIndex: Int,
-        sampleRate: Int
-    ) -> [Float] {
-        let segmentation = binarizedSegments[0]
-        let numFrames = segmentation.count
-        let samplesPerFrame = audioChunk.count / numFrames
 
-        var speakerSegment: [Float] = []
-
-        for frameIndex in 0..<numFrames {
-            let speakerActivity = segmentation[frameIndex][speakerIndex]
-
-            // If this speaker is active in this frame, add the audio
-            if speakerActivity > 0.5 {
-                let startSample = frameIndex * samplesPerFrame
-                let endSample = min((frameIndex + 1) * samplesPerFrame, audioChunk.count)
-
-                if startSample < audioChunk.count && endSample <= audioChunk.count {
-                    speakerSegment.append(contentsOf: audioChunk[startSample..<endSample])
-                }
-            }
-        }
-
-        // If the segment is too short, pad with silence or return original chunk
-        if speakerSegment.count < sampleRate / 10 {  // Less than 0.1 seconds
-            return speakerSegment.isEmpty ? [] : speakerSegment
-        }
-
-        return speakerSegment
-    }
 
     /// Assign speaker ID using global database (like main.swift)
     private func assignSpeaker(embedding: [Float], speakerDB: inout [String: [Float]]) -> String {
