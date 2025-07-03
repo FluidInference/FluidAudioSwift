@@ -423,27 +423,8 @@ struct DiarizationCLI {
                 let audioLoadingTime = Date().timeIntervalSince(audioLoadingStartTime)
                 let duration = Float(audioSamples.count) / 16000.0
                 
-                // Get ground truth speaker count for adaptive clustering
-                let groundTruthSpeakerCount = getGroundTruthSpeakerCount(for: meetingId)
-                
-                // Create adaptive config for this specific meeting
-                let adaptiveConfig = DiarizerConfig(
-                    clusteringThreshold: config.clusteringThreshold,
-                    minDurationOn: config.minDurationOn,
-                    minDurationOff: config.minDurationOff,
-                    minActivityThreshold: config.minActivityThreshold,
-                    debugMode: config.debugMode,
-                    vadConfig: config.vadConfig,
-                    targetSpeakerCount: groundTruthSpeakerCount,
-                    enableAdaptiveClustering: true
-                )
-                
-                // Create adaptive manager for this meeting
-                let adaptiveManager = DiarizerManager(config: adaptiveConfig)
-                try await adaptiveManager.initialize()
-
                 let startTime = Date()
-                let result = try await adaptiveManager.performCompleteDiarization(
+                let result = try await manager.performCompleteDiarization(
                     audioSamples, sampleRate: 16000)
                 let processingTime = Date().timeIntervalSince(startTime)
 
@@ -1460,43 +1441,6 @@ struct DiarizationCLI {
 
     // MARK: - AMI Annotation Loading
 
-    /// Get ground truth speaker count from AMI meetings.xml
-    static func getGroundTruthSpeakerCount(for meetingId: String) -> Int {
-        let possibleLocations = [
-            URL(fileURLWithPath: "Tests/ami_public_1.6.2"),
-            URL(fileURLWithPath: "../Tests/ami_public_1.6.2"),
-            URL(fileURLWithPath: "./Tests/ami_public_1.6.2"),
-            URL(fileURLWithPath: "/Users/kikow/brandon/FluidAudioSwift/Tests/ami_public_1.6.2")
-        ]
-        
-        for location in possibleLocations {
-            let meetingsFile = location.appendingPathComponent("corpusResources/meetings.xml")
-            if FileManager.default.fileExists(atPath: meetingsFile.path) {
-                do {
-                    let xmlData = try Data(contentsOf: meetingsFile)
-                    let xmlString = String(data: xmlData, encoding: .utf8) ?? ""
-                    
-                    // Find the meeting entry for this meetingId
-                    if let meetingRange = xmlString.range(of: "observation=\"\(meetingId)\"") {
-                        let afterObservation = xmlString[meetingRange.upperBound...]
-                        
-                        // Count speaker elements within this meeting
-                        if let meetingEndRange = afterObservation.range(of: "</meeting>") {
-                            let meetingContent = String(afterObservation[..<meetingEndRange.lowerBound])
-                            let speakerCount = meetingContent.components(separatedBy: "<speaker ").count - 1
-                            print("   📊 Ground truth speakers for \(meetingId): \(speakerCount)")
-                            return speakerCount
-                        }
-                    }
-                } catch {
-                    continue
-                }
-            }
-        }
-        
-        print("   ⚠️ Could not determine ground truth speaker count for \(meetingId), defaulting to 4")
-        return 4  // Default AMI meeting speaker count
-    }
     
     /// Load AMI ground truth annotations for a specific meeting
     static func loadAMIGroundTruth(for meetingId: String, duration: Float) async

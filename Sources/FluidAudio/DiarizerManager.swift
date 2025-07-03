@@ -11,8 +11,6 @@ public struct DiarizerConfig: Sendable {
     public var debugMode: Bool = false
     public var modelCacheDirectory: URL?
     public var vadConfig: VadConfig = .default  // Voice Activity Detection configuration
-    public var targetSpeakerCount: Int = -1  // Target speaker count for adaptive clustering (-1 = auto-detect)
-    public var enableAdaptiveClustering: Bool = true  // Enable adaptive clustering to match target speaker count
 
     public static let `default` = DiarizerConfig()
 
@@ -24,9 +22,7 @@ public struct DiarizerConfig: Sendable {
         minActivityThreshold: Float = 10.0,
         debugMode: Bool = false,
         modelCacheDirectory: URL? = nil,
-        vadConfig: VadConfig = .default,
-        targetSpeakerCount: Int = -1,
-        enableAdaptiveClustering: Bool = true
+        vadConfig: VadConfig = .default
     ) {
         self.clusteringThreshold = clusteringThreshold
         self.minDurationOn = minDurationOn
@@ -36,8 +32,6 @@ public struct DiarizerConfig: Sendable {
         self.debugMode = debugMode
         self.modelCacheDirectory = modelCacheDirectory
         self.vadConfig = vadConfig
-        self.targetSpeakerCount = targetSpeakerCount
-        self.enableAdaptiveClustering = enableAdaptiveClustering
     }
 }
 
@@ -1395,20 +1389,11 @@ public final class DiarizerManager: @unchecked Sendable {
         }
 
         if let bestSpeaker = identifiedSpeaker {
-            // Use adaptive clustering threshold based on target speaker count
-            let adaptiveThreshold = getAdaptiveClusteringThreshold(currentSpeakerCount: speakerDB.count)
-            
-            if minDistance > adaptiveThreshold {
-                // New speaker - but check if we should create one
-                if shouldCreateNewSpeaker(currentCount: speakerDB.count, distance: minDistance, allDistances: allDistances) {
-                    let newSpeakerId = "Speaker \(speakerDB.count + 1)"
-                    speakerDB[newSpeakerId] = embedding
-                    return newSpeakerId
-                } else {
-                    // Force assign to closest existing speaker to avoid over-clustering
-                    updateSpeakerEmbedding(bestSpeaker, embedding, speakerDB: &speakerDB)
-                    return bestSpeaker
-                }
+            if minDistance > config.clusteringThreshold {
+                // New speaker
+                let newSpeakerId = "Speaker \(speakerDB.count + 1)"
+                speakerDB[newSpeakerId] = embedding
+                return newSpeakerId
             } else {
                 // Existing speaker - update embedding (exponential moving average)
                 updateSpeakerEmbedding(bestSpeaker, embedding, speakerDB: &speakerDB)
@@ -1419,48 +1404,6 @@ public final class DiarizerManager: @unchecked Sendable {
         return "Unknown"
     }
     
-    /// Get adaptive clustering threshold based on current speaker count and target
-    private func getAdaptiveClusteringThreshold(currentSpeakerCount: Int) -> Float {
-        guard config.enableAdaptiveClustering && config.targetSpeakerCount > 0 else {
-            return config.clusteringThreshold
-        }
-        
-        let targetCount = Float(config.targetSpeakerCount)
-        let currentCount = Float(currentSpeakerCount)
-        
-        if currentCount < targetCount {
-            // We have fewer speakers than target - be more permissive (lower threshold)
-            let ratio = currentCount / targetCount
-            let adjustment = (1.0 - ratio) * 0.3  // Max adjustment of 0.3
-            return max(0.1, config.clusteringThreshold - adjustment)
-        } else if currentCount >= targetCount {
-            // We have enough or too many speakers - be more strict (higher threshold)
-            let excess = (currentCount - targetCount) / targetCount
-            let adjustment = min(excess * 0.4, 0.4)  // Max adjustment of 0.4
-            return min(0.95, config.clusteringThreshold + adjustment)
-        }
-        
-        return config.clusteringThreshold
-    }
-    
-    /// Determine if we should create a new speaker based on adaptive criteria
-    private func shouldCreateNewSpeaker(currentCount: Int, distance: Float, allDistances: [(String, Float)]) -> Bool {
-        guard config.enableAdaptiveClustering && config.targetSpeakerCount > 0 else {
-            return true  // Default behavior
-        }
-        
-        // If we already have target count or more, be very strict about new speakers
-        if currentCount >= config.targetSpeakerCount {
-            // Only create new speaker if the distance is extremely high (very different)
-            // Sort distances for deterministic calculation
-            let sortedDistances = allDistances.sorted { $0.0 < $1.0 }
-            let avgDistance = sortedDistances.reduce(0.0) { $0 + $1.1 } / Float(sortedDistances.count)
-            return distance > (avgDistance * 1.5) && distance > 0.8
-        }
-        
-        // If we're below target count, be more permissive
-        return true
-    }
 
     /// Update speaker embedding with exponential moving average
     private func updateSpeakerEmbedding(
