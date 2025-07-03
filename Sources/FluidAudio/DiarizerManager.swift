@@ -1382,7 +1382,10 @@ public final class DiarizerManager: @unchecked Sendable {
         var identifiedSpeaker: String? = nil
         var allDistances: [(String, Float)] = []
 
-        for (speakerId, refEmbedding) in speakerDB {
+        // Sort speaker IDs for deterministic iteration order
+        let sortedSpeakers = speakerDB.keys.sorted()
+        for speakerId in sortedSpeakers {
+            guard let refEmbedding = speakerDB[speakerId] else { continue }
             let distance = cosineDistance(embedding, refEmbedding)
             allDistances.append((speakerId, distance))
             if distance < minDistance {
@@ -1449,7 +1452,9 @@ public final class DiarizerManager: @unchecked Sendable {
         // If we already have target count or more, be very strict about new speakers
         if currentCount >= config.targetSpeakerCount {
             // Only create new speaker if the distance is extremely high (very different)
-            let avgDistance = allDistances.reduce(0.0) { $0 + $1.1 } / Float(allDistances.count)
+            // Sort distances for deterministic calculation
+            let sortedDistances = allDistances.sorted { $0.0 < $1.0 }
+            let avgDistance = sortedDistances.reduce(0.0) { $0 + $1.1 } / Float(sortedDistances.count)
             return distance > (avgDistance * 1.5) && distance > 0.8
         }
         

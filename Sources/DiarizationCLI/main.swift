@@ -55,6 +55,7 @@ struct DiarizationCLI {
                 --debug                 Enable debug mode
                 --output <file>         Output results to JSON file
                 --auto-download         Automatically download dataset if not found
+                --iterations <num>      Run multiple iterations for consistency testing [default: 1]
 
             NOTE: Benchmark now uses real AMI manual annotations from Tests/ami_public_1.6.2/
                   If annotations are not found, falls back to simplified placeholder.
@@ -100,6 +101,7 @@ struct DiarizationCLI {
         var outputFile: String?
         var autoDownload = false
         var disableVAD = false
+        var iterations = 1
 
         // Parse arguments
         var i = 0
@@ -146,6 +148,11 @@ struct DiarizationCLI {
                 autoDownload = true
             case "--disable-vad":
                 disableVAD = true
+            case "--iterations":
+                if i + 1 < arguments.count {
+                    iterations = Int(arguments[i + 1]) ?? 1
+                    i += 1
+                }
             default:
                 print("⚠️ Unknown option: \(arguments[i])")
             }
@@ -160,6 +167,9 @@ struct DiarizationCLI {
         print("   Debug mode: \(debugMode ? "enabled" : "disabled")")
         print("   Auto-download: \(autoDownload ? "enabled" : "disabled")")
         print("   VAD: \(disableVAD ? "disabled" : "enabled")")
+        if iterations > 1 {
+            print("   Iterations: \(iterations) (consistency testing)")
+        }
 
         let vadConfig = VadConfig(enableVAD: !disableVAD)
         let config = DiarizerConfig(
@@ -187,11 +197,11 @@ struct DiarizationCLI {
         case "ami-sdm":
             await runAMISDMBenchmark(
                 manager: manager, config: config, outputFile: outputFile, autoDownload: autoDownload,
-                singleFile: singleFile)
+                singleFile: singleFile, iterations: iterations)
         case "ami-ihm":
             await runAMIIHMBenchmark(
                 manager: manager, config: config, outputFile: outputFile, autoDownload: autoDownload,
-                singleFile: singleFile)
+                singleFile: singleFile, iterations: iterations)
         default:
             print("❌ Unsupported dataset: \(dataset)")
             print("💡 Supported datasets: ami-sdm, ami-ihm")
@@ -342,7 +352,7 @@ struct DiarizationCLI {
     // MARK: - AMI Benchmark Implementation
 
     static func runAMISDMBenchmark(
-        manager: DiarizerManager, config: DiarizerConfig, outputFile: String?, autoDownload: Bool, singleFile: String? = nil
+        manager: DiarizerManager, config: DiarizerConfig, outputFile: String?, autoDownload: Bool, singleFile: String? = nil, iterations: Int = 1
     ) async {
         let homeDir = FileManager.default.homeDirectoryForCurrentUser
         let amiDirectory = homeDir.appendingPathComponent(
@@ -519,7 +529,7 @@ struct DiarizationCLI {
     }
 
     static func runAMIIHMBenchmark(
-        manager: DiarizerManager, config: DiarizerConfig, outputFile: String?, autoDownload: Bool, singleFile: String? = nil
+        manager: DiarizerManager, config: DiarizerConfig, outputFile: String?, autoDownload: Bool, singleFile: String? = nil, iterations: Int = 1
     ) async {
         let homeDir = FileManager.default.homeDirectoryForCurrentUser
         let amiDirectory = homeDir.appendingPathComponent(
