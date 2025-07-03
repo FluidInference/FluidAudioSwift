@@ -11,6 +11,8 @@ public struct DiarizerConfig: Sendable {
     public var debugMode: Bool = false
     public var modelCacheDirectory: URL?
     public var vadConfig: VadConfig = .default  // Voice Activity Detection configuration
+    public var targetSpeakerCount: Int = -1  // Target speaker count for adaptive clustering (-1 = auto-detect)
+    public var enableAdaptiveClustering: Bool = true  // Enable adaptive clustering to match target speaker count
 
     public static let `default` = DiarizerConfig()
 
@@ -22,7 +24,9 @@ public struct DiarizerConfig: Sendable {
         minActivityThreshold: Float = 10.0,
         debugMode: Bool = false,
         modelCacheDirectory: URL? = nil,
-        vadConfig: VadConfig = .default
+        vadConfig: VadConfig = .default,
+        targetSpeakerCount: Int = -1,
+        enableAdaptiveClustering: Bool = true
     ) {
         self.clusteringThreshold = clusteringThreshold
         self.minDurationOn = minDurationOn
@@ -32,6 +36,8 @@ public struct DiarizerConfig: Sendable {
         self.debugMode = debugMode
         self.modelCacheDirectory = modelCacheDirectory
         self.vadConfig = vadConfig
+        self.targetSpeakerCount = targetSpeakerCount
+        self.enableAdaptiveClustering = enableAdaptiveClustering
     }
 }
 
@@ -1302,27 +1308,38 @@ public final class DiarizerManager: @unchecked Sendable {
                 let soundAnalysisResult = vadManager.isSpeechDetected(in: speakerAudio)
                 let energyResult = vadManager.calculateRMSEnergy(speakerAudio) > config.vadConfig.energyVADThreshold
 
-                // ULTRA-CONSERVATIVE VAD: Only filter extremely obvious ambient noise
-                // Preserve ALL potential speakers - better to have false positives than miss real speakers
-                let minSpeechLength = max(100, speakerAudio.count / 32) // Very low minimum length
-                let isExtremelyLowEnergy = vadManager.calculateRMSEnergy(speakerAudio) < (config.vadConfig.energyVADThreshold * 0.2)
+                // SMART AMBIENT NOISE DETECTION: Target only obvious non-speech ambient noise
+                // Preserve ALL speech (including whispers, overlaps, background speakers)
+                let minSpeechLength = max(160, speakerAudio.count / 20) // Very permissive minimum (0.01s at 16kHz)
+                let energy = vadManager.calculateRMSEnergy(speakerAudio)
+                let isAmbientNoise = energy < config.vadConfig.energyVADThreshold
                 
-                // Only filter if ALL conditions are true: extremely low energy AND no speech detection AND very short
-                // This ensures we ONLY filter obvious ambient noise, never legitimate speakers
-                let isDurationTooShort = speakerAudio.count < minSpeechLength
-                hasSpeech = soundAnalysisResult || energyResult || !isExtremelyLowEnergy || !isDurationTooShort
+                // Multi-criteria ambient noise detection:
+                // 1. Must be very low energy (below ambient threshold)
+                // 2. Must have no speech characteristics detected
+                // 3. Must be very short duration (< 0.01s worth of samples)
+                let isVeryShort = speakerAudio.count < minSpeechLength
+                let hasNoSpeechCharacteristics = !soundAnalysisResult && !energyResult
+                
+                // Only filter if ALL criteria indicate obvious ambient noise
+                let isObviousAmbientNoise = isAmbientNoise && hasNoSpeechCharacteristics && isVeryShort
+                hasSpeech = !isObviousAmbientNoise
 
                 if config.debugMode {
                     let energy = vadManager.calculateRMSEnergy(speakerAudio)
-                    logger.debug("VAD: SoundAnalysis=\(soundAnalysisResult), Energy=\(energyResult), EnergyValue=\(energy), ExtremelyLow=\(isExtremelyLowEnergy), Length=\(speakerAudio.count), TooShort=\(isDurationTooShort), Decision=\(hasSpeech)")
+                    logger.debug("VAD: SoundAnalysis=\(soundAnalysisResult), Energy=\(energyResult), EnergyValue=\(energy), Ambient=\(isAmbientNoise), VeryShort=\(isVeryShort), ObviousNoise=\(isObviousAmbientNoise), Decision=\(hasSpeech)")
                 }
 
-                if !hasSpeech {
-                    // Filter out this speaker's activity (set to 0)
+                if isObviousAmbientNoise {
+                    // Filter out obvious ambient noise only
                     for frameIndex in 0..<numFrames {
                         filteredSegments[0][frameIndex][speakerIndex] = 0.0
                     }
                     nonSpeechFilteredCount += 1
+                    
+                    if config.debugMode {
+                        logger.debug("Filtered ambient noise: energy=\(energy), duration=\(Float(speakerAudio.count)/16000.0)s")
+                    }
                 } else {
                     speechDetectedCount += 1
                 }
@@ -1375,11 +1392,20 @@ public final class DiarizerManager: @unchecked Sendable {
         }
 
         if let bestSpeaker = identifiedSpeaker {
-            if minDistance > self.config.clusteringThreshold {
-                // New speaker
-                let newSpeakerId = "Speaker \(speakerDB.count + 1)"
-                speakerDB[newSpeakerId] = embedding
-                return newSpeakerId
+            // Use adaptive clustering threshold based on target speaker count
+            let adaptiveThreshold = getAdaptiveClusteringThreshold(currentSpeakerCount: speakerDB.count)
+            
+            if minDistance > adaptiveThreshold {
+                // New speaker - but check if we should create one
+                if shouldCreateNewSpeaker(currentCount: speakerDB.count, distance: minDistance, allDistances: allDistances) {
+                    let newSpeakerId = "Speaker \(speakerDB.count + 1)"
+                    speakerDB[newSpeakerId] = embedding
+                    return newSpeakerId
+                } else {
+                    // Force assign to closest existing speaker to avoid over-clustering
+                    updateSpeakerEmbedding(bestSpeaker, embedding, speakerDB: &speakerDB)
+                    return bestSpeaker
+                }
             } else {
                 // Existing speaker - update embedding (exponential moving average)
                 updateSpeakerEmbedding(bestSpeaker, embedding, speakerDB: &speakerDB)
@@ -1388,6 +1414,47 @@ public final class DiarizerManager: @unchecked Sendable {
         }
 
         return "Unknown"
+    }
+    
+    /// Get adaptive clustering threshold based on current speaker count and target
+    private func getAdaptiveClusteringThreshold(currentSpeakerCount: Int) -> Float {
+        guard config.enableAdaptiveClustering && config.targetSpeakerCount > 0 else {
+            return config.clusteringThreshold
+        }
+        
+        let targetCount = Float(config.targetSpeakerCount)
+        let currentCount = Float(currentSpeakerCount)
+        
+        if currentCount < targetCount {
+            // We have fewer speakers than target - be more permissive (lower threshold)
+            let ratio = currentCount / targetCount
+            let adjustment = (1.0 - ratio) * 0.3  // Max adjustment of 0.3
+            return max(0.1, config.clusteringThreshold - adjustment)
+        } else if currentCount >= targetCount {
+            // We have enough or too many speakers - be more strict (higher threshold)
+            let excess = (currentCount - targetCount) / targetCount
+            let adjustment = min(excess * 0.4, 0.4)  // Max adjustment of 0.4
+            return min(0.95, config.clusteringThreshold + adjustment)
+        }
+        
+        return config.clusteringThreshold
+    }
+    
+    /// Determine if we should create a new speaker based on adaptive criteria
+    private func shouldCreateNewSpeaker(currentCount: Int, distance: Float, allDistances: [(String, Float)]) -> Bool {
+        guard config.enableAdaptiveClustering && config.targetSpeakerCount > 0 else {
+            return true  // Default behavior
+        }
+        
+        // If we already have target count or more, be very strict about new speakers
+        if currentCount >= config.targetSpeakerCount {
+            // Only create new speaker if the distance is extremely high (very different)
+            let avgDistance = allDistances.reduce(0.0) { $0 + $1.1 } / Float(allDistances.count)
+            return distance > (avgDistance * 1.5) && distance > 0.8
+        }
+        
+        // If we're below target count, be more permissive
+        return true
     }
 
     /// Update speaker embedding with exponential moving average
