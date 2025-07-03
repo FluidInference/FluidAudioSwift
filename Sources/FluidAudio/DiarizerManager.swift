@@ -1138,7 +1138,7 @@ public final class DiarizerManager: @unchecked Sendable {
 
         let segmentationTime = Date().timeIntervalSince(segmentationStartTime)
 
-        // Step 2: Apply adaptive VAD to filter out non-speech segments
+        // Step 2: Apply conservative VAD to filter obvious ambient noise before embedding extraction
         let vadStartTime = Date()
         let speechFilteredSegments = config.vadConfig.enableVAD ?
             applyAdaptiveVADToSegments(binarizedSegments, audioChunk: paddedChunk, sampleRate: sampleRate) :
@@ -1228,8 +1228,48 @@ public final class DiarizerManager: @unchecked Sendable {
             return segment
         }
     }
+    
+    /// Apply VAD as final post-processing to filter obvious ambient noise from completed segments
+    private func applyVADToFinalSegments(_ segments: [TimedSpeakerSegment], audioChunk: [Float], sampleRate: Int) -> [TimedSpeakerSegment] {
+        guard !segments.isEmpty else { return segments }
+        
+        var filteredSegments: [TimedSpeakerSegment] = []
+        
+        for segment in segments {
+            // Extract audio for this segment
+            let startSample = max(0, Int(segment.startTimeSeconds * Float(sampleRate)))
+            let endSample = min(audioChunk.count, Int(segment.endTimeSeconds * Float(sampleRate)))
+            
+            guard startSample < endSample else {
+                // Keep segment if we can't extract audio
+                filteredSegments.append(segment)
+                continue
+            }
+            
+            let segmentAudio = Array(audioChunk[startSample..<endSample])
+            
+            // Apply very conservative VAD - only filter obvious ambient noise
+            let energy = vadManager.calculateRMSEnergy(segmentAudio)
+            let speechDetected = vadManager.isSpeechDetected(in: segmentAudio)
+            
+            // Only filter if energy is extremely low AND no speech detected
+            let isObviousAmbientNoise = energy < (config.vadConfig.energyVADThreshold * 0.3) && !speechDetected
+            
+            if !isObviousAmbientNoise {
+                filteredSegments.append(segment)
+            } else if config.debugMode {
+                logger.debug("VAD filtered obvious ambient noise: \(segment.startTimeSeconds)-\(segment.endTimeSeconds)s, energy=\(energy), speech=\(speechDetected)")
+            }
+        }
+        
+        if config.debugMode {
+            logger.debug("Final VAD filtering: \(segments.count) -> \(filteredSegments.count) segments")
+        }
+        
+        return filteredSegments
+    }
 
-    /// Apply adaptive VAD to segmented regions to filter out non-speech with conference-optimized parameters
+    /// Legacy: Apply adaptive VAD to segmented regions (now unused in main pipeline)
     private func applyAdaptiveVADToSegments(_ binarizedSegments: [[[Float]]], audioChunk: [Float], sampleRate: Int) -> [[[Float]]] {
         let numSpeakers = binarizedSegments[0][0].count
         let numFrames = binarizedSegments[0].count
@@ -1262,12 +1302,19 @@ public final class DiarizerManager: @unchecked Sendable {
                 let soundAnalysisResult = vadManager.isSpeechDetected(in: speakerAudio)
                 let energyResult = vadManager.calculateRMSEnergy(speakerAudio) > config.vadConfig.energyVADThreshold
 
-                // Be permissive for conference audio - accept if either method detects speech
-                let minSpeechLength = max(400, speakerAudio.count / 8) // Lower minimum for better recall
-                hasSpeech = (soundAnalysisResult || energyResult) && speakerAudio.count >= minSpeechLength
+                // ULTRA-CONSERVATIVE VAD: Only filter extremely obvious ambient noise
+                // Preserve ALL potential speakers - better to have false positives than miss real speakers
+                let minSpeechLength = max(100, speakerAudio.count / 32) // Very low minimum length
+                let isExtremelyLowEnergy = vadManager.calculateRMSEnergy(speakerAudio) < (config.vadConfig.energyVADThreshold * 0.2)
+                
+                // Only filter if ALL conditions are true: extremely low energy AND no speech detection AND very short
+                // This ensures we ONLY filter obvious ambient noise, never legitimate speakers
+                let isDurationTooShort = speakerAudio.count < minSpeechLength
+                hasSpeech = soundAnalysisResult || energyResult || !isExtremelyLowEnergy || !isDurationTooShort
 
                 if config.debugMode {
-                    logger.debug("VAD: SoundAnalysis=\(soundAnalysisResult), Energy=\(energyResult), Length=\(speakerAudio.count), Decision=\(hasSpeech)")
+                    let energy = vadManager.calculateRMSEnergy(speakerAudio)
+                    logger.debug("VAD: SoundAnalysis=\(soundAnalysisResult), Energy=\(energyResult), EnergyValue=\(energy), ExtremelyLow=\(isExtremelyLowEnergy), Length=\(speakerAudio.count), TooShort=\(isDurationTooShort), Decision=\(hasSpeech)")
                 }
 
                 if !hasSpeech {

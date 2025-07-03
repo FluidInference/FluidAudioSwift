@@ -99,6 +99,7 @@ struct DiarizationCLI {
         var debugMode = false
         var outputFile: String?
         var autoDownload = false
+        var disableVAD = false
 
         // Parse arguments
         var i = 0
@@ -143,6 +144,8 @@ struct DiarizationCLI {
                 }
             case "--auto-download":
                 autoDownload = true
+            case "--disable-vad":
+                disableVAD = true
             default:
                 print("⚠️ Unknown option: \(arguments[i])")
             }
@@ -156,13 +159,16 @@ struct DiarizationCLI {
         print("   Min activity threshold: \(minActivityThreshold)")
         print("   Debug mode: \(debugMode ? "enabled" : "disabled")")
         print("   Auto-download: \(autoDownload ? "enabled" : "disabled")")
+        print("   VAD: \(disableVAD ? "disabled" : "enabled")")
 
+        let vadConfig = VadConfig(enableVAD: !disableVAD)
         let config = DiarizerConfig(
             clusteringThreshold: threshold,
             minDurationOn: minDurationOn,
             minDurationOff: minDurationOff,
             minActivityThreshold: minActivityThreshold,
-            debugMode: debugMode
+            debugMode: debugMode,
+            vadConfig: vadConfig
         )
 
         let manager = DiarizerManager(config: config)

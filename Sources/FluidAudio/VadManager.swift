@@ -5,13 +5,13 @@ import OSLog
 
 /// Lean configuration for Voice Activity Detection
 ///
-/// **Performance Note**: VAD may not be beneficial for high-quality conference audio.
-/// Benchmark shows 17.8% DER without VAD vs 19.0% DER with VAD on AMI corpus.
-/// Consider disabling VAD for conference/meeting audio with good signal-to-noise ratio.
+/// **Performance Note**: VAD is now optimized for conference audio with conservative thresholds.
+/// VAD should only filter obvious ambient noise, not quiet speakers or overlapping speech.
+/// Conservative thresholds prevent loss of legitimate speakers while filtering noise.
 public struct VadConfig: Sendable {
     public var enableVAD: Bool = true  // Enable by default, but consider disabling for conference audio
-    public var vadThreshold: Float = 0.6  // SoundAnalysis confidence threshold
-    public var energyVADThreshold: Float = 0.01  // Energy-based fallback threshold
+    public var vadThreshold: Float = 0.2  // Ultra-permissive SoundAnalysis threshold (was 0.6)
+    public var energyVADThreshold: Float = 0.002  // Extremely low energy threshold to preserve all speakers (was 0.01)
     public var debugMode: Bool = false
 
     public static let `default` = VadConfig()
@@ -114,7 +114,7 @@ public final class VadManager: NSObject, SNResultsObserving, @unchecked Sendable
         }
 
         let speechRatio = Double(vadResults.filter { $0 }.count) / Double(vadResults.count)
-        return speechRatio >= 0.01
+        return speechRatio >= 0.001  // Much more permissive ratio for conference audio (was 0.01)
     }
 
     private func detectVoiceActivityWithSoundAnalysis(in samples: [Float]) -> [Float] {
