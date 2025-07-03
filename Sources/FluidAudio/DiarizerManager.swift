@@ -1138,10 +1138,10 @@ public final class DiarizerManager: @unchecked Sendable {
 
         let segmentationTime = Date().timeIntervalSince(segmentationStartTime)
 
-        // Step 2: Apply VAD to filter out non-speech segments
+        // Step 2: Apply adaptive VAD to filter out non-speech segments
         let vadStartTime = Date()
         let speechFilteredSegments = config.vadConfig.enableVAD ?
-            applyVADToSegments(binarizedSegments, audioChunk: paddedChunk, sampleRate: sampleRate) :
+            applyAdaptiveVADToSegments(binarizedSegments, audioChunk: paddedChunk, sampleRate: sampleRate) :
             binarizedSegments
         vadTime += Date().timeIntervalSince(vadStartTime)
 
@@ -1229,8 +1229,8 @@ public final class DiarizerManager: @unchecked Sendable {
         }
     }
 
-    /// Apply VAD to segmented regions to filter out non-speech
-    private func applyVADToSegments(_ binarizedSegments: [[[Float]]], audioChunk: [Float], sampleRate: Int) -> [[[Float]]] {
+    /// Apply adaptive VAD to segmented regions to filter out non-speech with conference-optimized parameters
+    private func applyAdaptiveVADToSegments(_ binarizedSegments: [[[Float]]], audioChunk: [Float], sampleRate: Int) -> [[[Float]]] {
         let numSpeakers = binarizedSegments[0][0].count
         let numFrames = binarizedSegments[0].count
         let samplesPerFrame = audioChunk.count / numFrames
@@ -1253,9 +1253,28 @@ public final class DiarizerManager: @unchecked Sendable {
                 }
             }
 
-            // Apply VAD to speaker's audio
+            // Apply optimized VAD to speaker's audio
             if !speakerAudio.isEmpty {
-                let hasSpeech = vadManager.isSpeechDetected(in: speakerAudio)
+                // Use multi-criteria speech detection for conference environments
+                let hasSpeech: Bool
+                
+                if config.vadConfig.enableAdaptiveVAD && vadManager.isSoundAnalysisAvailable {
+                    // Use advanced environment-aware VAD with conference-specific logic
+                    let soundAnalysisResult = vadManager.isSpeechDetected(in: speakerAudio)
+                    let energyResult = vadManager.calculateRMSEnergy(speakerAudio) > config.vadConfig.energyVADThreshold
+                    
+                    // For conference audio, be more permissive - accept if either method detects speech
+                    // or if energy is significant (handles distant microphone scenarios)
+                    let minSpeechLength = max(400, speakerAudio.count / 8) // Lower minimum for better recall
+                    hasSpeech = (soundAnalysisResult || energyResult) && speakerAudio.count >= minSpeechLength
+                    
+                    if config.debugMode {
+                        logger.debug("Multi-criteria VAD: SoundAnalysis=\(soundAnalysisResult), Energy=\(energyResult), Length=\(speakerAudio.count), Decision=\(hasSpeech)")
+                    }
+                } else {
+                    // Use standard VAD with lower threshold for conference audio
+                    hasSpeech = vadManager.isSpeechDetected(in: speakerAudio)
+                }
 
                 if !hasSpeech {
                     // Filter out this speaker's activity (set to 0)
