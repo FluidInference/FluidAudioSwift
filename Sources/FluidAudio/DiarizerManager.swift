@@ -1257,17 +1257,17 @@ public final class DiarizerManager: @unchecked Sendable {
             if !speakerAudio.isEmpty {
                 // Use multi-criteria speech detection for conference environments
                 let hasSpeech: Bool
-                
+
                 if config.vadConfig.enableAdaptiveVAD && vadManager.isSoundAnalysisAvailable {
                     // Use advanced environment-aware VAD with conference-specific logic
                     let soundAnalysisResult = vadManager.isSpeechDetected(in: speakerAudio)
                     let energyResult = vadManager.calculateRMSEnergy(speakerAudio) > config.vadConfig.energyVADThreshold
-                    
+
                     // For conference audio, be more permissive - accept if either method detects speech
                     // or if energy is significant (handles distant microphone scenarios)
                     let minSpeechLength = max(400, speakerAudio.count / 8) // Lower minimum for better recall
                     hasSpeech = (soundAnalysisResult || energyResult) && speakerAudio.count >= minSpeechLength
-                    
+
                     if config.debugMode {
                         logger.debug("Multi-criteria VAD: SoundAnalysis=\(soundAnalysisResult), Energy=\(energyResult), Length=\(speakerAudio.count), Decision=\(hasSpeech)")
                     }

@@ -17,27 +17,27 @@ import OSLog
 /// - 100+ sound type classification for precise filtering
 /// - Multi-speaker detection capabilities
 public struct VadConfig: Sendable {
-    public var enableVAD: Bool = true  // Enable VAD with very permissive settings for benchmark optimization
-    public var vadThreshold: Float = 0.2  // SoundAnalysis VAD confidence threshold - extremely permissive
-    public var energyVADThreshold: Float = 0.003  // Energy-based VAD threshold (fallback) - extremely low
+    public var enableVAD: Bool = true  // Enable VAD with stricter settings for ambient noise filtering
+    public var vadThreshold: Float = 0.6  // SoundAnalysis VAD confidence threshold - stricter for noise filtering
+    public var energyVADThreshold: Float = 0.01  // Energy-based VAD threshold (fallback) - higher for noise filtering
     public var debugMode: Bool = false  // Enable debug logging
 
     // Advanced features (macOS 15.5+)
     public var enableAdaptiveVAD: Bool = true  // Enable environment-aware adaptive VAD
     public var enableEnvironmentDetection: Bool = true  // Enable automatic environment detection
-    public var enableMultiSpeakerDetection: Bool = true  // Enable multi-speaker detection
+    public var enableMultiSpeakerDetection: Bool = false  // Enable multi-speaker detection
     public var customEnvironmentThresholds: [AudioEnvironment: Float] = [:]  // Custom thresholds per environment
 
     public static let `default` = VadConfig()
 
     public init(
         enableVAD: Bool = true,
-        vadThreshold: Float = 0.2,
-        energyVADThreshold: Float = 0.003,
+        vadThreshold: Float = 0.6,
+        energyVADThreshold: Float = 0.01,
         debugMode: Bool = false,
         enableAdaptiveVAD: Bool = true,
         enableEnvironmentDetection: Bool = true,
-        enableMultiSpeakerDetection: Bool = true,
+        enableMultiSpeakerDetection: Bool = false,
         customEnvironmentThresholds: [AudioEnvironment: Float] = [:]
     ) {
         self.enableVAD = enableVAD
@@ -502,11 +502,11 @@ public final class VadManager: NSObject, SNResultsObserving, @unchecked Sendable
         var segments: [Float] = []
         var current: [Float] = []
         var silenceCount = 0
-        
+
         // Adaptive silence tolerance based on buffer size and window size
         let totalWindows = samples.count / windowSize
         let maxSilenceFrames = calculateOptimalSilenceFrames(totalWindows: totalWindows, windowSize: windowSize)
-        
+
         // Minimum segment length - scale with buffer size
         let minSegmentSamples = calculateMinSegmentLength(totalSamples: samples.count, windowSize: windowSize)
 
@@ -547,19 +547,19 @@ public final class VadManager: NSObject, SNResultsObserving, @unchecked Sendable
 
         return segments.isEmpty ? samples : segments
     }
-    
-    /// Calculate optimal silence frame tolerance based on buffer characteristics  
+
+    /// Calculate optimal silence frame tolerance based on buffer characteristics
     private func calculateOptimalSilenceFrames(totalWindows: Int, windowSize: Int) -> Int {
         // Further optimized base tolerance: 200ms for maximum efficiency
         let baseSilenceMs: Float = 200.0  // milliseconds (reduced from 250ms)
         let windowMs = Float(windowSize) / 16.0  // Convert samples to ms at 16kHz
         let baseFrames = Int(baseSilenceMs / windowMs)
-        
+
         // Aggressive scaling for optimal efficiency
         switch totalWindows {
         case 0..<6:          // Very short buffers (< 0.6 seconds) - most aggressive
             return max(1, baseFrames / 3)  // 1 frame (very tight)
-        case 6..<30:         // Short buffers (0.6-3 seconds) - aggressive  
+        case 6..<30:         // Short buffers (0.6-3 seconds) - aggressive
             return max(2, baseFrames / 2)  // 2 frames
         case 30..<60:        // Medium buffers (3-6 seconds) - moderate
             return baseFrames               // 3 frames
@@ -567,21 +567,21 @@ public final class VadManager: NSObject, SNResultsObserving, @unchecked Sendable
             return Int(Float(baseFrames) * 1.5)  // 4-5 frames
         }
     }
-    
+
     /// Calculate minimum segment length based on buffer size and audio characteristics
     private func calculateMinSegmentLength(totalSamples: Int, windowSize: Int) -> Int {
         // Optimized minimum viable speech duration: 150ms for better efficiency
         let minSpeechMs: Float = 150.0  // Reduced from 200ms
         let minSpeechSamples = Int(minSpeechMs * 16.0)  // Convert to samples at 16kHz
-        
+
         // Optimized scaling with tighter ranges for efficiency
         let bufferDurationMs = Float(totalSamples) / 16.0
-        
+
         switch bufferDurationMs {
         case 0..<800:        // Very short buffers (< 0.8 seconds) - tighter threshold
             return max(windowSize, minSpeechSamples / 2)  // 75ms minimum (more aggressive)
         case 800..<4000:     // Short buffers (0.8-4 seconds) - adjusted range
-            return max(windowSize, minSpeechSamples)      // 150ms minimum  
+            return max(windowSize, minSpeechSamples)      // 150ms minimum
         case 4000..<8000:    // Medium buffers (4-8 seconds) - tighter range
             return max(windowSize * 2, minSpeechSamples)  // 150ms minimum, prefer larger
         default:             // Long buffers (> 8 seconds)
@@ -653,7 +653,7 @@ public final class VadManager: NSObject, SNResultsObserving, @unchecked Sendable
             let analyzer = SNAudioStreamAnalyzer(format: audioBuffer.format)
             try analyzer.add(request, withObserver: self)
             analyzer.analyze(audioBuffer, atAudioFramePosition: 0)
-            
+
             // Wait briefly for analysis to complete
             usleep(1000) // 1ms wait to ensure processing completes
         } catch {
@@ -666,21 +666,21 @@ public final class VadManager: NSObject, SNResultsObserving, @unchecked Sendable
             // Fallback to energy-based detection if SoundAnalysis didn't return results
             let energy = calculateRMSEnergy(samples)
             let hasEnergy = energy > config.energyVADThreshold
-            
+
             if config.debugMode {
                 logger.debug("SoundAnalysis returned no results, using energy fallback: \(hasEnergy) (energy: \(String(format: "%.4f", energy)))")
             }
             return hasEnergy
         }
 
-        // Calculate speech confidence - minimal filtering for benchmark optimization  
+        // Calculate speech confidence - minimal filtering for benchmark optimization
         let speechRatio = Double(vadResults.filter { $0 }.count) / Double(vadResults.count)
         let hasSignificantSpeech = speechRatio >= 0.01 // Minimal threshold - almost no filtering
-        
+
         if config.debugMode {
             logger.debug("VAD speech ratio: \(String(format: "%.3f", speechRatio)), hasSignificantSpeech: \(hasSignificantSpeech)")
         }
-        
+
         return hasSignificantSpeech
     }
 
