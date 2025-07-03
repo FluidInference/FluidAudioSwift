@@ -10,6 +10,7 @@ public struct DiarizerConfig: Sendable {
     public var minActivityThreshold: Float = 10.0  // Minimum activity threshold (frames) for speaker to be considered active
     public var debugMode: Bool = false
     public var modelCacheDirectory: URL?
+    public var vadConfig: VadConfig = .default  // Voice Activity Detection configuration
 
     public static let `default` = DiarizerConfig()
 
@@ -20,7 +21,8 @@ public struct DiarizerConfig: Sendable {
         numClusters: Int = -1,
         minActivityThreshold: Float = 10.0,
         debugMode: Bool = false,
-        modelCacheDirectory: URL? = nil
+        modelCacheDirectory: URL? = nil,
+        vadConfig: VadConfig = .default
     ) {
         self.clusteringThreshold = clusteringThreshold
         self.minDurationOn = minDurationOn
@@ -29,6 +31,7 @@ public struct DiarizerConfig: Sendable {
         self.minActivityThreshold = minActivityThreshold
         self.debugMode = debugMode
         self.modelCacheDirectory = modelCacheDirectory
+        self.vadConfig = vadConfig
     }
 }
 
@@ -232,7 +235,32 @@ private struct SlidingWindowFeature {
 
 // MARK: - Diarizer Implementation
 
-/// Speaker diarization manager
+/// Speaker diarization manager with integrated Voice Activity Detection (VAD)
+///
+/// This class provides efficient speaker diarization with Voice Activity Detection
+/// using the VadManager for audio preprocessing.
+///
+/// Features:
+/// - Automatic speaker identification and consistent labeling
+/// - Voice Activity Detection to filter out non-speech segments
+/// - Efficient processing with chunked audio analysis
+/// - Configurable thresholds for activity detection and VAD
+///
+/// Example usage:
+/// ```swift
+/// let vadConfig = VadConfig(vadThreshold: 0.6)
+/// let config = DiarizerConfig(
+///     clusteringThreshold: 0.7,
+///     vadConfig: vadConfig
+/// )
+/// let diarizer = DiarizerManager(config: config)
+/// try await diarizer.initialize()
+///
+/// let result = try await diarizer.performCompleteDiarization(audioSamples)
+/// for segment in result.segments {
+///     print("Speaker \(segment.speakerId): \(segment.startTimeSeconds)s - \(segment.endTimeSeconds)s")
+/// }
+/// ```
 @available(macOS 13.0, iOS 16.0, *)
 public final class DiarizerManager: @unchecked Sendable {
 
@@ -247,8 +275,12 @@ public final class DiarizerManager: @unchecked Sendable {
     private var modelDownloadTime: TimeInterval = 0
     private var modelCompilationTime: TimeInterval = 0
 
-    public init(config: DiarizerConfig = .default) {
+    // Voice Activity Detection
+    private let vadManager: VadManager
+
+        public init(config: DiarizerConfig = .default) {
         self.config = config
+        self.vadManager = VadManager(config: config.vadConfig)
     }
 
     public var isAvailable: Bool {
@@ -1002,7 +1034,7 @@ public final class DiarizerManager: @unchecked Sendable {
 
     // MARK: - Combined Efficient Diarization
 
-    /// Perform complete diarization with consistent speaker IDs across chunks
+    /// Perform complete diarization with consistent speaker IDs across chunks and VAD filtering
     /// This is more efficient than calling performSegmentation + extractEmbedding separately
     public func performCompleteDiarization(_ samples: [Float], sampleRate: Int = 16000) async throws
         -> DiarizationResult
@@ -1115,14 +1147,48 @@ public final class DiarizerManager: @unchecked Sendable {
         // Step 3: Calculate speaker activities
         let speakerActivities = calculateSpeakerActivities(binarizedSegments)
 
-        // Step 4: Assign consistent speaker IDs using global database
+        // Step 4: Apply VAD filtering to individual speaker segments
+        var vadFilteredSpeakers: [Bool] = []
+        var vadFilteredCount = 0
+        var vadPassedCount = 0
+
+        for speakerIndex in 0..<speakerActivities.count {
+            let activity = speakerActivities[speakerIndex]
+
+            if activity > self.config.minActivityThreshold {
+                // Extract audio segment for this speaker
+                let speakerSegment = extractSpeakerSegment(
+                    from: paddedChunk,
+                    binarizedSegments: binarizedSegments,
+                    speakerIndex: speakerIndex,
+                    sampleRate: sampleRate
+                )
+
+                // Apply VAD filtering
+                let hasSpeech = vadManager.isSpeechDetected(in: speakerSegment)
+                vadFilteredSpeakers.append(hasSpeech)
+
+                if hasSpeech {
+                    vadPassedCount += 1
+                } else {
+                    vadFilteredCount += 1
+                    if config.debugMode {
+                        logger.debug("VAD filtered out speaker \(speakerIndex): no speech detected")
+                    }
+                }
+            } else {
+                vadFilteredSpeakers.append(false)
+            }
+        }
+
+        // Step 5: Assign consistent speaker IDs using global database (only for VAD-passed speakers)
         var speakerLabels: [String] = []
         var activityFilteredCount = 0
         var embeddingInvalidCount = 0
         var clusteringProcessedCount = 0
 
         for (speakerIndex, activity) in speakerActivities.enumerated() {
-            if activity > self.config.minActivityThreshold {  // Use configurable activity threshold
+            if activity > self.config.minActivityThreshold && vadFilteredSpeakers[speakerIndex] {
                 let embedding = embeddings[speakerIndex]
                 if validateEmbedding(embedding) {
                     clusteringProcessedCount += 1
@@ -1133,14 +1199,20 @@ public final class DiarizerManager: @unchecked Sendable {
                     speakerLabels.append("")  // Invalid embedding
                 }
             } else {
-                activityFilteredCount += 1
-                speakerLabels.append("")  // No activity
+                if activity <= self.config.minActivityThreshold {
+                    activityFilteredCount += 1
+                }
+                speakerLabels.append("")  // No activity or VAD filtered
             }
         }
 
         let clusteringTime = Date().timeIntervalSince(clusteringStartTime)
 
-        // Step 5: Create temporal segments with consistent speaker IDs
+        if config.debugMode {
+            logger.debug("Chunk processing stats - Activity filtered: \(activityFilteredCount), VAD filtered: \(vadFilteredCount), VAD passed: \(vadPassedCount), Embedding invalid: \(embeddingInvalidCount), Clustering processed: \(clusteringProcessedCount)")
+        }
+
+        // Step 6: Create temporal segments with consistent speaker IDs
         let segments = createTimedSegments(
             binarizedSegments: binarizedSegments,
             slidingWindow: slidingFeature.slidingWindow,
@@ -1184,6 +1256,41 @@ public final class DiarizerManager: @unchecked Sendable {
         }
 
         return activities
+    }
+
+    /// Extract audio segment for a specific speaker based on binarized segments
+    private func extractSpeakerSegment(
+        from audioChunk: [Float],
+        binarizedSegments: [[[Float]]],
+        speakerIndex: Int,
+        sampleRate: Int
+    ) -> [Float] {
+        let segmentation = binarizedSegments[0]
+        let numFrames = segmentation.count
+        let samplesPerFrame = audioChunk.count / numFrames
+
+        var speakerSegment: [Float] = []
+
+        for frameIndex in 0..<numFrames {
+            let speakerActivity = segmentation[frameIndex][speakerIndex]
+
+            // If this speaker is active in this frame, add the audio
+            if speakerActivity > 0.5 {
+                let startSample = frameIndex * samplesPerFrame
+                let endSample = min((frameIndex + 1) * samplesPerFrame, audioChunk.count)
+
+                if startSample < audioChunk.count && endSample <= audioChunk.count {
+                    speakerSegment.append(contentsOf: audioChunk[startSample..<endSample])
+                }
+            }
+        }
+
+        // If the segment is too short, pad with silence or return original chunk
+        if speakerSegment.count < sampleRate / 10 {  // Less than 0.1 seconds
+            return speakerSegment.isEmpty ? [] : speakerSegment
+        }
+
+        return speakerSegment
     }
 
     /// Assign speaker ID using global database (like main.swift)
@@ -1336,10 +1443,33 @@ public final class DiarizerManager: @unchecked Sendable {
         )
     }
 
+        // MARK: - Voice Activity Detection
+
+    /// Detect voice activity in audio samples using VadManager
+    public func detectVoiceActivity(in samples: [Float], windowSize: Int = 1600, threshold: Float? = nil) -> [Float] {
+        return vadManager.detectVoiceActivity(in: samples, windowSize: windowSize, threshold: threshold)
+    }
+
+    /// Simple VAD detector - returns true if speech is detected
+    public func isSpeechDetected(in samples: [Float]) -> Bool {
+        return vadManager.isSpeechDetected(in: samples)
+    }
+
+    /// Convenience method to get VAD-filtered audio samples
+    public func getVADFilteredAudio(from samples: [Float]) -> [Float] {
+        return vadManager.getVADFilteredAudio(from: samples)
+    }
+
+    /// Check if SoundAnalysis VAD is available
+    public var isSoundAnalysisAvailable: Bool {
+        return vadManager.isSoundAnalysisAvailable
+    }
+
     /// Clean up resources
     public func cleanup() async {
         segmentationModel = nil
         embeddingModel = nil
+        vadManager.cleanup()
         logger.info("Diarization resources cleaned up")
     }
 }
