@@ -47,7 +47,7 @@ struct DiarizationCLI {
 
             BENCHMARK OPTIONS:
                 --dataset <name>        Dataset to use (ami-sdm, ami-ihm) [default: ami-sdm]
-                --threshold <float>     Clustering threshold 0.0-1.0 [default: 0.7]
+                --threshold <float>     Clustering threshold 0.0-1.0 [default: 0.8]
                 --min-duration-on <float>   Minimum speaker segment duration in seconds [default: 1.0]
                 --min-duration-off <float>  Minimum silence between speakers in seconds [default: 0.5]
                 --min-activity <float>      Minimum activity threshold in frames [default: 10.0]
@@ -92,7 +92,7 @@ struct DiarizationCLI {
         let benchmarkStartTime = Date()
 
         var dataset = "ami-sdm"
-        var threshold: Float = 0.7
+        var threshold: Float = 0.8
         var minDurationOn: Float = 1.0
         var minDurationOff: Float = 0.5
         var minActivityThreshold: Float = 10.0
@@ -262,7 +262,7 @@ struct DiarizationCLI {
         }
 
         let audioFile = arguments[0]
-        var threshold: Float = 0.7
+        var threshold: Float = 0.8
         var debugMode = false
         var outputFile: String?
 

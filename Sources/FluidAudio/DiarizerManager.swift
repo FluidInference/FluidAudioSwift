@@ -3,7 +3,7 @@ import Foundation
 import OSLog
 
 public struct DiarizerConfig: Sendable {
-    public var clusteringThreshold: Float = 0.7  // Similarity threshold for grouping speakers (0.0-1.0, higher = stricter)
+    public var clusteringThreshold: Float = 0.8  // Similarity threshold for grouping speakers (0.0-1.0, higher = stricter)
     public var minDurationOn: Float = 1.0  // Minimum duration (seconds) for a speaker segment to be considered valid
     public var minDurationOff: Float = 0.5  // Minimum silence duration (seconds) between different speakers
     public var numClusters: Int = -1  // Number of speakers to detect (-1 = auto-detect)
@@ -1086,6 +1086,10 @@ public final class DiarizerManager: @unchecked Sendable {
         let postProcessingStartTime = Date()
         // Post-processing: filter segments, apply duration constraints, etc.
         let filteredSegments = applyPostProcessingFilters(allSegments)
+        
+        // Clean up speaker database - remove speakers with insufficient activity
+        let activeSpeakerDB = filterActiveSpeakers(speakerDB: speakerDB, segments: filteredSegments)
+        
         postProcessingTime = Date().timeIntervalSince(postProcessingStartTime)
 
         let totalProcessingTime = Date().timeIntervalSince(processingStartTime)
@@ -1106,7 +1110,7 @@ public final class DiarizerManager: @unchecked Sendable {
         )
 
         return DiarizationResult(
-            segments: filteredSegments, speakerDatabase: speakerDB, timings: timings)
+            segments: filteredSegments, speakerDatabase: activeSpeakerDB, timings: timings)
     }
 
     /// Timing data for chunk processing
@@ -1227,6 +1231,46 @@ public final class DiarizerManager: @unchecked Sendable {
             // Additional post-processing could be added here
             return segment
         }
+    }
+    
+    /// Filter speaker database to only include speakers with meaningful activity
+    private func filterActiveSpeakers(speakerDB: [String: [Float]], segments: [TimedSpeakerSegment]) -> [String: [Float]] {
+        // Calculate total speaking time and segment count for each speaker
+        var speakerStats: [String: (totalTime: Float, segmentCount: Int)] = [:]
+        
+        for segment in segments {
+            let current = speakerStats[segment.speakerId] ?? (totalTime: 0.0, segmentCount: 0)
+            speakerStats[segment.speakerId] = (
+                totalTime: current.totalTime + segment.durationSeconds,
+                segmentCount: current.segmentCount + 1
+            )
+        }
+        
+        // Define minimum thresholds for a speaker to be considered "active"
+        let minTotalTime: Float = 15.0  // At least 15 seconds of speech
+        let minSegmentCount: Int = 8    // At least 8 segments
+        
+        // Filter speaker database
+        var activeSpeakers: [String: [Float]] = [:]
+        
+        for (speakerId, embedding) in speakerDB {
+            if let stats = speakerStats[speakerId] {
+                if stats.totalTime >= minTotalTime && stats.segmentCount >= minSegmentCount {
+                    activeSpeakers[speakerId] = embedding
+                    
+                    if config.debugMode {
+                        logger.debug("Active speaker: \(speakerId) - \(String(format: "%.1f", stats.totalTime))s across \(stats.segmentCount) segments")
+                    }
+                } else {
+                    if config.debugMode {
+                        logger.debug("Filtered inactive speaker: \(speakerId) - \(String(format: "%.1f", stats.totalTime))s across \(stats.segmentCount) segments")
+                    }
+                }
+            }
+        }
+        
+        logger.info("Speaker filtering: \(speakerDB.count) raw → \(activeSpeakers.count) active speakers")
+        return activeSpeakers
     }
     
     /// Apply VAD as final post-processing to filter obvious ambient noise from completed segments
