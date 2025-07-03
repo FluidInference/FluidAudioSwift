@@ -1258,22 +1258,16 @@ public final class DiarizerManager: @unchecked Sendable {
                 // Use multi-criteria speech detection for conference environments
                 let hasSpeech: Bool
 
-                if config.vadConfig.enableAdaptiveVAD && vadManager.isSoundAnalysisAvailable {
-                    // Use advanced environment-aware VAD with conference-specific logic
-                    let soundAnalysisResult = vadManager.isSpeechDetected(in: speakerAudio)
-                    let energyResult = vadManager.calculateRMSEnergy(speakerAudio) > config.vadConfig.energyVADThreshold
+                // Use simple speech detection with energy fallback
+                let soundAnalysisResult = vadManager.isSpeechDetected(in: speakerAudio)
+                let energyResult = vadManager.calculateRMSEnergy(speakerAudio) > config.vadConfig.energyVADThreshold
 
-                    // For conference audio, be more permissive - accept if either method detects speech
-                    // or if energy is significant (handles distant microphone scenarios)
-                    let minSpeechLength = max(400, speakerAudio.count / 8) // Lower minimum for better recall
-                    hasSpeech = (soundAnalysisResult || energyResult) && speakerAudio.count >= minSpeechLength
+                // Be permissive for conference audio - accept if either method detects speech
+                let minSpeechLength = max(400, speakerAudio.count / 8) // Lower minimum for better recall
+                hasSpeech = (soundAnalysisResult || energyResult) && speakerAudio.count >= minSpeechLength
 
-                    if config.debugMode {
-                        logger.debug("Multi-criteria VAD: SoundAnalysis=\(soundAnalysisResult), Energy=\(energyResult), Length=\(speakerAudio.count), Decision=\(hasSpeech)")
-                    }
-                } else {
-                    // Use standard VAD with lower threshold for conference audio
-                    hasSpeech = vadManager.isSpeechDetected(in: speakerAudio)
+                if config.debugMode {
+                    logger.debug("VAD: SoundAnalysis=\(soundAnalysisResult), Energy=\(energyResult), Length=\(speakerAudio.count), Decision=\(hasSpeech)")
                 }
 
                 if !hasSpeech {
@@ -1476,7 +1470,7 @@ public final class DiarizerManager: @unchecked Sendable {
 
     /// Convenience method to get VAD-filtered audio samples
     public func getVADFilteredAudio(from samples: [Float]) -> [Float] {
-        return vadManager.getVADFilteredAudio(from: samples)
+        return vadManager.detectVoiceActivity(in: samples)
     }
 
     /// Check if SoundAnalysis VAD is available
