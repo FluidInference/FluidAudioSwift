@@ -417,6 +417,7 @@ struct DiarizationCLI {
                     modelDownloadSeconds: result.timings.modelDownloadSeconds,
                     modelCompilationSeconds: result.timings.modelCompilationSeconds,
                     audioLoadingSeconds: audioLoadingTime,
+                    vadProcessingSeconds: result.timings.vadProcessingSeconds,
                     segmentationSeconds: result.timings.segmentationSeconds,
                     embeddingExtractionSeconds: result.timings.embeddingExtractionSeconds,
                     speakerClusteringSeconds: result.timings.speakerClusteringSeconds,
@@ -568,6 +569,7 @@ struct DiarizationCLI {
                     modelDownloadSeconds: result.timings.modelDownloadSeconds,
                     modelCompilationSeconds: result.timings.modelCompilationSeconds,
                     audioLoadingSeconds: audioLoadingTime,
+                    vadProcessingSeconds: result.timings.vadProcessingSeconds,
                     segmentationSeconds: result.timings.segmentationSeconds,
                     embeddingExtractionSeconds: result.timings.embeddingExtractionSeconds,
                     speakerClusteringSeconds: result.timings.speakerClusteringSeconds,
@@ -1157,6 +1159,7 @@ struct DiarizationCLI {
             ("Model Download", avgTimings.modelDownloadSeconds),
             ("Model Compilation", avgTimings.modelCompilationSeconds),
             ("Audio Loading", avgTimings.audioLoadingSeconds),
+            ("VAD Processing", avgTimings.vadProcessingSeconds),
             ("Segmentation", avgTimings.segmentationSeconds),
             ("Embedding Extraction", avgTimings.embeddingExtractionSeconds),
             ("Speaker Clustering", avgTimings.speakerClusteringSeconds),
@@ -1228,6 +1231,7 @@ struct DiarizationCLI {
         let avgModelCompilation =
             results.reduce(0.0) { $0 + $1.timings.modelCompilationSeconds } / count
         let avgAudioLoading = results.reduce(0.0) { $0 + $1.timings.audioLoadingSeconds } / count
+        let avgVadProcessing = results.reduce(0.0) { $0 + $1.timings.vadProcessingSeconds } / count
         let avgSegmentation = results.reduce(0.0) { $0 + $1.timings.segmentationSeconds } / count
         let avgEmbedding =
             results.reduce(0.0) { $0 + $1.timings.embeddingExtractionSeconds } / count
@@ -1239,6 +1243,7 @@ struct DiarizationCLI {
             modelDownloadSeconds: avgModelDownload,
             modelCompilationSeconds: avgModelCompilation,
             audioLoadingSeconds: avgAudioLoading,
+            vadProcessingSeconds: avgVadProcessing,
             segmentationSeconds: avgSegmentation,
             embeddingExtractionSeconds: avgEmbedding,
             speakerClusteringSeconds: avgClustering,

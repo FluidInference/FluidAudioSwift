@@ -40,6 +40,7 @@ public struct PipelineTimings: Sendable, Codable {
     public let modelDownloadSeconds: TimeInterval
     public let modelCompilationSeconds: TimeInterval
     public let audioLoadingSeconds: TimeInterval
+    public let vadProcessingSeconds: TimeInterval  // Voice Activity Detection
     public let segmentationSeconds: TimeInterval
     public let embeddingExtractionSeconds: TimeInterval
     public let speakerClusteringSeconds: TimeInterval
@@ -51,6 +52,7 @@ public struct PipelineTimings: Sendable, Codable {
         modelDownloadSeconds: TimeInterval = 0,
         modelCompilationSeconds: TimeInterval = 0,
         audioLoadingSeconds: TimeInterval = 0,
+        vadProcessingSeconds: TimeInterval = 0,
         segmentationSeconds: TimeInterval = 0,
         embeddingExtractionSeconds: TimeInterval = 0,
         speakerClusteringSeconds: TimeInterval = 0,
@@ -59,6 +61,7 @@ public struct PipelineTimings: Sendable, Codable {
         self.modelDownloadSeconds = modelDownloadSeconds
         self.modelCompilationSeconds = modelCompilationSeconds
         self.audioLoadingSeconds = audioLoadingSeconds
+        self.vadProcessingSeconds = vadProcessingSeconds
         self.segmentationSeconds = segmentationSeconds
         self.embeddingExtractionSeconds = embeddingExtractionSeconds
         self.speakerClusteringSeconds = speakerClusteringSeconds
@@ -67,7 +70,7 @@ public struct PipelineTimings: Sendable, Codable {
             segmentationSeconds + embeddingExtractionSeconds + speakerClusteringSeconds
         self.totalProcessingSeconds =
             modelDownloadSeconds + modelCompilationSeconds + audioLoadingSeconds
-            + segmentationSeconds + embeddingExtractionSeconds + speakerClusteringSeconds
+            + vadProcessingSeconds + segmentationSeconds + embeddingExtractionSeconds + speakerClusteringSeconds
             + postProcessingSeconds
     }
 
@@ -81,6 +84,7 @@ public struct PipelineTimings: Sendable, Codable {
             "Model Download": (modelDownloadSeconds / totalProcessingSeconds) * 100,
             "Model Compilation": (modelCompilationSeconds / totalProcessingSeconds) * 100,
             "Audio Loading": (audioLoadingSeconds / totalProcessingSeconds) * 100,
+            "VAD Processing": (vadProcessingSeconds / totalProcessingSeconds) * 100,
             "Segmentation": (segmentationSeconds / totalProcessingSeconds) * 100,
             "Embedding Extraction": (embeddingExtractionSeconds / totalProcessingSeconds) * 100,
             "Speaker Clustering": (speakerClusteringSeconds / totalProcessingSeconds) * 100,
@@ -94,6 +98,7 @@ public struct PipelineTimings: Sendable, Codable {
             ("Model Download", modelDownloadSeconds),
             ("Model Compilation", modelCompilationSeconds),
             ("Audio Loading", audioLoadingSeconds),
+            ("VAD Processing", vadProcessingSeconds),
             ("Segmentation", segmentationSeconds),
             ("Embedding Extraction", embeddingExtractionSeconds),
             ("Speaker Clustering", speakerClusteringSeconds),
@@ -1048,16 +1053,10 @@ public final class DiarizerManager: @unchecked Sendable {
         var embeddingTime: TimeInterval = 0
         var clusteringTime: TimeInterval = 0
         var postProcessingTime: TimeInterval = 0
+        var vadTime: TimeInterval = 0
 
-        // Optional VAD pre-processing (disabled by default for better performance)
-        let processedSamples: [Float]
-        if config.vadConfig.enableVAD && config.debugMode {
-            logger.info("Applying VAD pre-processing to entire audio (debug mode)")
-            processedSamples = vadManager.detectVoiceActivity(in: samples)
-            logger.info("VAD pre-processing: \(samples.count) → \(processedSamples.count) samples")
-        } else {
-            processedSamples = samples
-        }
+        // No pre-processing VAD - we'll apply it during segmentation for better accuracy
+        let processedSamples = samples
 
         let chunkSize = sampleRate * 10  // 10 seconds
         var allSegments: [TimedSpeakerSegment] = []
@@ -1079,6 +1078,7 @@ public final class DiarizerManager: @unchecked Sendable {
 
             // Accumulate timing from all chunks
             segmentationTime += chunkTimings.segmentationTime
+            vadTime += chunkTimings.vadTime
             embeddingTime += chunkTimings.embeddingTime
             clusteringTime += chunkTimings.clusteringTime
         }
@@ -1094,6 +1094,7 @@ public final class DiarizerManager: @unchecked Sendable {
             modelDownloadSeconds: self.modelDownloadTime,
             modelCompilationSeconds: self.modelCompilationTime,
             audioLoadingSeconds: 0,  // Will be set by CLI
+            vadProcessingSeconds: vadTime,
             segmentationSeconds: segmentationTime,
             embeddingExtractionSeconds: embeddingTime,
             speakerClusteringSeconds: clusteringTime,
@@ -1101,7 +1102,7 @@ public final class DiarizerManager: @unchecked Sendable {
         )
 
         logger.info(
-            "Complete diarization finished in \(String(format: "%.2f", totalProcessingTime))s (segmentation: \(String(format: "%.2f", segmentationTime))s, embedding: \(String(format: "%.2f", embeddingTime))s, clustering: \(String(format: "%.2f", clusteringTime))s, post-processing: \(String(format: "%.2f", postProcessingTime))s)"
+            "Complete diarization finished in \(String(format: "%.2f", totalProcessingTime))s (VAD: \(String(format: "%.2f", vadTime))s, segmentation: \(String(format: "%.2f", segmentationTime))s, embedding: \(String(format: "%.2f", embeddingTime))s, clustering: \(String(format: "%.2f", clusteringTime))s, post-processing: \(String(format: "%.2f", postProcessingTime))s)"
         )
 
         return DiarizationResult(
@@ -1111,6 +1112,7 @@ public final class DiarizerManager: @unchecked Sendable {
     /// Timing data for chunk processing
     private struct ChunkTimings {
         let segmentationTime: TimeInterval
+        let vadTime: TimeInterval
         let embeddingTime: TimeInterval
         let clusteringTime: TimeInterval
     }
@@ -1123,6 +1125,7 @@ public final class DiarizerManager: @unchecked Sendable {
         sampleRate: Int = 16000
     ) async throws -> ([TimedSpeakerSegment], ChunkTimings) {
         let segmentationStartTime = Date()
+        var vadTime: TimeInterval = 0
 
         let chunkSize = sampleRate * 10  // 10 seconds
         var paddedChunk = chunk
@@ -1132,21 +1135,28 @@ public final class DiarizerManager: @unchecked Sendable {
 
         // Step 1: Get segmentation (when speakers are active)
         let binarizedSegments = try getSegments(audioChunk: paddedChunk)
-        let slidingFeature = createSlidingWindowFeature(
-            binarizedSegments: binarizedSegments, chunkOffset: chunkOffset)
 
         let segmentationTime = Date().timeIntervalSince(segmentationStartTime)
+
+        // Step 2: Apply VAD to filter out non-speech segments
+        let vadStartTime = Date()
+        let speechFilteredSegments = config.vadConfig.enableVAD ?
+            applyVADToSegments(binarizedSegments, audioChunk: paddedChunk, sampleRate: sampleRate) :
+            binarizedSegments
+        vadTime += Date().timeIntervalSince(vadStartTime)
+
         let embeddingStartTime = Date()
 
-        // Step 2: Get embeddings using same segmentation results
+        // Step 3: Get embeddings using speech-filtered segments
         guard let embeddingModel = self.embeddingModel else {
             throw DiarizerError.notInitialized
         }
 
         let embeddings = try getEmbedding(
             audioChunk: paddedChunk,
-            binarizedSegments: binarizedSegments,
-            slidingWindowFeature: slidingFeature,
+            binarizedSegments: speechFilteredSegments,
+            slidingWindowFeature: createSlidingWindowFeature(
+                binarizedSegments: speechFilteredSegments, chunkOffset: chunkOffset),
             embeddingModel: embeddingModel,
             sampleRate: sampleRate
         )
@@ -1154,10 +1164,10 @@ public final class DiarizerManager: @unchecked Sendable {
         let embeddingTime = Date().timeIntervalSince(embeddingStartTime)
         let clusteringStartTime = Date()
 
-        // Step 3: Calculate speaker activities
-        let speakerActivities = calculateSpeakerActivities(binarizedSegments)
+        // Step 4: Calculate speaker activities from speech-filtered segments
+        let speakerActivities = calculateSpeakerActivities(speechFilteredSegments)
 
-                // Step 4: Assign consistent speaker IDs using global database
+        // Step 5: Assign consistent speaker IDs using global database
         var speakerLabels: [String] = []
         var activityFilteredCount = 0
         var embeddingInvalidCount = 0
@@ -1186,10 +1196,11 @@ public final class DiarizerManager: @unchecked Sendable {
             logger.debug("Chunk processing stats - Activity filtered: \(activityFilteredCount), Embedding invalid: \(embeddingInvalidCount), Clustering processed: \(clusteringProcessedCount)")
         }
 
-        // Step 5: Create temporal segments with consistent speaker IDs
+        // Step 6: Create temporal segments with consistent speaker IDs
         let segments = createTimedSegments(
-            binarizedSegments: binarizedSegments,
-            slidingWindow: slidingFeature.slidingWindow,
+            binarizedSegments: speechFilteredSegments,
+            slidingWindow: createSlidingWindowFeature(
+                binarizedSegments: speechFilteredSegments, chunkOffset: chunkOffset).slidingWindow,
             embeddings: embeddings,
             speakerLabels: speakerLabels,
             speakerActivities: speakerActivities
@@ -1197,6 +1208,7 @@ public final class DiarizerManager: @unchecked Sendable {
 
         let timings = ChunkTimings(
             segmentationTime: segmentationTime,
+            vadTime: vadTime,
             embeddingTime: embeddingTime,
             clusteringTime: clusteringTime
         )
@@ -1215,6 +1227,53 @@ public final class DiarizerManager: @unchecked Sendable {
             // Additional post-processing could be added here
             return segment
         }
+    }
+
+    /// Apply VAD to segmented regions to filter out non-speech
+    private func applyVADToSegments(_ binarizedSegments: [[[Float]]], audioChunk: [Float], sampleRate: Int) -> [[[Float]]] {
+        let numSpeakers = binarizedSegments[0][0].count
+        let numFrames = binarizedSegments[0].count
+        let samplesPerFrame = audioChunk.count / numFrames
+
+        var filteredSegments = binarizedSegments
+        var speechDetectedCount = 0
+        var nonSpeechFilteredCount = 0
+
+        // Check each speaker for speech content
+        for speakerIndex in 0..<numSpeakers {
+            // Extract audio segments for this speaker
+            var speakerAudio: [Float] = []
+
+            for frameIndex in 0..<numFrames {
+                let activity = binarizedSegments[0][frameIndex][speakerIndex]
+                if activity > 0.5 {  // Speaker is active in this frame
+                    let startSample = frameIndex * samplesPerFrame
+                    let endSample = min((frameIndex + 1) * samplesPerFrame, audioChunk.count)
+                    speakerAudio.append(contentsOf: audioChunk[startSample..<endSample])
+                }
+            }
+
+            // Apply VAD to speaker's audio
+            if !speakerAudio.isEmpty {
+                let hasSpeech = vadManager.isSpeechDetected(in: speakerAudio)
+
+                if !hasSpeech {
+                    // Filter out this speaker's activity (set to 0)
+                    for frameIndex in 0..<numFrames {
+                        filteredSegments[0][frameIndex][speakerIndex] = 0.0
+                    }
+                    nonSpeechFilteredCount += 1
+                } else {
+                    speechDetectedCount += 1
+                }
+            }
+        }
+
+        if config.debugMode {
+            logger.debug("VAD segment filtering: \(speechDetectedCount) speech, \(nonSpeechFilteredCount) non-speech filtered")
+        }
+
+        return filteredSegments
     }
 
     /// Calculate total activity for each speaker across all frames

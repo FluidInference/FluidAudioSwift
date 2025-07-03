@@ -4,8 +4,14 @@ import SoundAnalysis
 import OSLog
 
 /// Configuration for Voice Activity Detection
+///
+/// **Smart VAD Integration**: VAD is applied during segmentation (not pre-processing) for optimal results:
+/// - Segmentation model finds all audio activity (speech, music, noise)
+/// - VAD filters out non-speech segments before speaker embedding extraction
+/// - This preserves temporal structure while improving accuracy
+/// - Much more efficient than pre-processing the entire audio
 public struct VadConfig: Sendable {
-    public var enableVAD: Bool = true  // Enable Voice Activity Detection
+    public var enableVAD: Bool = true  // Enable smart VAD - applied during segmentation for better accuracy
     public var vadThreshold: Float = 0.6  // SoundAnalysis VAD confidence threshold
     public var energyVADThreshold: Float = 0.01  // Energy-based VAD threshold (fallback)
     public var debugMode: Bool = false  // Enable debug logging
