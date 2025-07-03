@@ -440,7 +440,10 @@ struct DiarizationCLI {
                     postProcessingSeconds: result.timings.postProcessingSeconds
                 )
 
-                // Load ground truth annotations (speaker count already obtained above)
+                // Get ground truth speaker count
+                let groundTruthSpeakerCount = getGroundTruthSpeakerCount(for: meetingId)
+                
+                // Load ground truth annotations
                 let groundTruth = await Self.loadAMIGroundTruth(for: meetingId, duration: duration)
 
                 // Calculate metrics
@@ -470,6 +473,7 @@ struct DiarizationCLI {
                         jer: metrics.jer,
                         segments: result.segments,
                         speakerCount: result.speakerDatabase.count,
+                        groundTruthSpeakerCount: groundTruthSpeakerCount,
                         timings: completeTimings
                     ))
 
@@ -592,7 +596,10 @@ struct DiarizationCLI {
                     postProcessingSeconds: result.timings.postProcessingSeconds
                 )
 
-                // Load ground truth annotations (speaker count already obtained above)
+                // Get ground truth speaker count
+                let groundTruthSpeakerCount = getGroundTruthSpeakerCount(for: meetingId)
+                
+                // Load ground truth annotations
                 let groundTruth = await Self.loadAMIGroundTruth(for: meetingId, duration: duration)
 
                 // Calculate metrics
@@ -622,6 +629,7 @@ struct DiarizationCLI {
                         jer: metrics.jer,
                         segments: result.segments,
                         speakerCount: result.speakerDatabase.count,
+                        groundTruthSpeakerCount: groundTruthSpeakerCount,
                         timings: completeTimings
                     ))
 
@@ -1441,6 +1449,42 @@ struct DiarizationCLI {
 
     // MARK: - AMI Annotation Loading
 
+    /// Get ground truth speaker count from AMI meetings.xml
+    static func getGroundTruthSpeakerCount(for meetingId: String) -> Int {
+        let possibleLocations = [
+            URL(fileURLWithPath: "Tests/ami_public_1.6.2"),
+            URL(fileURLWithPath: "../Tests/ami_public_1.6.2"),
+            URL(fileURLWithPath: "./Tests/ami_public_1.6.2"),
+            URL(fileURLWithPath: "/Users/kikow/brandon/FluidAudioSwift/Tests/ami_public_1.6.2")
+        ]
+        
+        for location in possibleLocations {
+            let meetingsFile = location.appendingPathComponent("corpusResources/meetings.xml")
+            if FileManager.default.fileExists(atPath: meetingsFile.path) {
+                do {
+                    let xmlData = try Data(contentsOf: meetingsFile)
+                    let xmlString = String(data: xmlData, encoding: .utf8) ?? ""
+                    
+                    // Find the meeting entry for this meetingId
+                    if let meetingRange = xmlString.range(of: "observation=\"\(meetingId)\"") {
+                        let afterObservation = xmlString[meetingRange.upperBound...]
+                        
+                        // Count speaker elements within this meeting
+                        if let meetingEndRange = afterObservation.range(of: "</meeting>") {
+                            let meetingContent = String(afterObservation[..<meetingEndRange.lowerBound])
+                            let speakerCount = meetingContent.components(separatedBy: "<speaker ").count - 1
+                            return speakerCount
+                        }
+                    }
+                } catch {
+                    continue
+                }
+            }
+        }
+        
+        // Default fallback for unknown meetings
+        return 4  // AMI meetings typically have 4 speakers
+    }
     
     /// Load AMI ground truth annotations for a specific meeting
     static func loadAMIGroundTruth(for meetingId: String, duration: Float) async
@@ -1603,6 +1647,7 @@ struct BenchmarkResult: Codable {
     let jer: Float
     let segments: [TimedSpeakerSegment]
     let speakerCount: Int
+    let groundTruthSpeakerCount: Int
     let timings: PipelineTimings
 
     /// Total time including audio loading
