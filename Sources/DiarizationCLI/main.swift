@@ -92,7 +92,7 @@ struct DiarizationCLI {
         let benchmarkStartTime = Date()
 
         var dataset = "ami-sdm"
-        var threshold: Float = 0.8
+        var threshold: Float = 0.7
         var minDurationOn: Float = 1.0
         var minDurationOff: Float = 0.5
         var minActivityThreshold: Float = 10.0
@@ -422,7 +422,7 @@ struct DiarizationCLI {
                 let audioSamples = try await loadAudioFile(path: audioPath.path)
                 let audioLoadingTime = Date().timeIntervalSince(audioLoadingStartTime)
                 let duration = Float(audioSamples.count) / 16000.0
-                
+
                 let startTime = Date()
                 let result = try await manager.performCompleteDiarization(
                     audioSamples, sampleRate: 16000)
@@ -442,7 +442,7 @@ struct DiarizationCLI {
 
                 // Get ground truth speaker count
                 let groundTruthSpeakerCount = getGroundTruthSpeakerCount(for: meetingId)
-                
+
                 // Load ground truth annotations
                 let groundTruth = await Self.loadAMIGroundTruth(for: meetingId, duration: duration)
 
@@ -598,7 +598,7 @@ struct DiarizationCLI {
 
                 // Get ground truth speaker count
                 let groundTruthSpeakerCount = getGroundTruthSpeakerCount(for: meetingId)
-                
+
                 // Load ground truth annotations
                 let groundTruth = await Self.loadAMIGroundTruth(for: meetingId, duration: duration)
 
@@ -1457,18 +1457,18 @@ struct DiarizationCLI {
             URL(fileURLWithPath: "./Tests/ami_public_1.6.2"),
             URL(fileURLWithPath: "/Users/kikow/brandon/FluidAudioSwift/Tests/ami_public_1.6.2")
         ]
-        
+
         for location in possibleLocations {
             let meetingsFile = location.appendingPathComponent("corpusResources/meetings.xml")
             if FileManager.default.fileExists(atPath: meetingsFile.path) {
                 do {
                     let xmlData = try Data(contentsOf: meetingsFile)
                     let xmlString = String(data: xmlData, encoding: .utf8) ?? ""
-                    
+
                     // Find the meeting entry for this meetingId
                     if let meetingRange = xmlString.range(of: "observation=\"\(meetingId)\"") {
                         let afterObservation = xmlString[meetingRange.upperBound...]
-                        
+
                         // Count speaker elements within this meeting
                         if let meetingEndRange = afterObservation.range(of: "</meeting>") {
                             let meetingContent = String(afterObservation[..<meetingEndRange.lowerBound])
@@ -1481,11 +1481,11 @@ struct DiarizationCLI {
                 }
             }
         }
-        
+
         // Default fallback for unknown meetings
         return 4  // AMI meetings typically have 4 speakers
     }
-    
+
     /// Load AMI ground truth annotations for a specific meeting
     static func loadAMIGroundTruth(for meetingId: String, duration: Float) async
         -> [TimedSpeakerSegment]
