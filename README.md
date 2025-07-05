@@ -1,3 +1,5 @@
+![banner.png](banner.png)
+
 # FluidAudio - Efficient Speaker Diarization for Apple devices in Swift
 
 [![Swift](https://img.shields.io/badge/Swift-5.9+-orange.svg)](https://swift.org)
